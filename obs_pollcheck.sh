@@ -15,14 +15,41 @@ ARCH=$2
 OBS_LOC=$1
 
 if [ -z $ARCH ]; then
-	ARCH=x86_64
+       ARCH=x86_64
 fi
 
-osc r $OBS_LOC -a $ARCH
-#timeout 1200 osc r $OBS_LOC -a $ARCH -w
-#TIMEOUT=$?
+while ! osc r $OBS_LOC -a $ARCH | grep -q -e "succeeded" -e "failed" -e "unresolvable"
+do
+    echo "Polling ($c)..."
+    ((c++)) && ((c==40)) && c=0 && break
+    sleep 30
+done
 
-#if [ $TIMEOUT -ne 0 ]; then
-#	echo "timeout=1" >> $GITHUB_OUTPUT
-#fi
+RET=`osc r $OBS_LOC -a $ARCH | awk '{print $NF}'`
 
+if [ -z $RET ]; then
+	echo "ret=-1" >> $GITHUB_OUTPUT
+	exit
+fi
+
+case $RET in
+
+  "succeeded")
+    echo "ret=0" >> $GITHUB_OUTPUT
+    exit
+    ;;
+
+  "failed")
+    echo "ret=1" >> $GITHUB_OUTPUT
+    exit
+    ;;
+
+  "unresolvable")
+    echo "ret=1" >> $GITHUB_OUTPUT
+    exit
+    ;;
+
+  *)
+    echo "ret=-1" >> $GITHUB_OUTPUT
+    ;;
+esac

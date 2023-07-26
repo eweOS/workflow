@@ -47,13 +47,14 @@ jobs:
           status: in_progress
           details_url: https://os-build.ewe.moe/package/show/${{ steps.getbranch.outputs.obsloc }}
       - name: Polling build status of OBS
+        id: polling
         env:
           OSC_PASS: ${{ secrets.OSC_PASS }}
         run: |
           ./obs_pollcheck.sh \
           ${{ steps.getbranch.outputs.obsloc }}
       - name: Flag failure
-        if: ${{ failure() }}
+        if: ${{ failure() }} || ${{ steps.polling.outputs.ret == 1 }}
         uses: LouisBrunner/checks-action@v1.6.1
         with:
           repo: eweOS/packages
@@ -61,3 +62,21 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: failure
+      - name: Flag timeout
+        if: ${{ steps.polling.outputs.ret == -1 }}
+        uses: LouisBrunner/checks-action@v1.6.1
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          conclusion: timed_out
+      - name: Flag success
+        if: ${{ steps.polling.outputs.ret == 0 }}
+        uses: LouisBrunner/checks-action@v1.6.1
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          conclusion: success

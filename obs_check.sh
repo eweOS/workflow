@@ -13,9 +13,9 @@ EOF
 
 BRANCH_NAME=$1
 PRID=$2
-OBS_LOC=eweOS:PR:$PRID-$BRANCH_NAME/$BRANCH_NAME
+OBS_LOC=eweOS:PR/$PRID-$BRANCH_NAME
 
-if osc branch eweOS:Main/$BRANCH_NAME $OBS_LOC \
+if osc branch eweOS:OBS/template $OBS_LOC \
 	| grep -q 'already exists'; then
 	echo "Creation failed, package exists."
 	exit 1
@@ -23,7 +23,7 @@ fi
 
 osc checkout $OBS_LOC
 
-sed -i "s:$BRANCH_NAME:pull/$PRID/head:g" \
+sed -i "s:_main:pull/$PRID/head:g" \
 	"${OBS_LOC}"/_service
 
 osc commit $OBS_LOC -m "Create package"
