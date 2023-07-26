@@ -28,28 +28,27 @@ done
 RET=`osc r $OBS_LOC -a $ARCH | awk '{print $NF}'`
 
 if [ -z $RET ]; then
-	echo "ret=-1" >> $GITHUB_OUTPUT
+	echo "ret=timed_out" >> $GITHUB_OUTPUT
 	exit
 fi
 
 case $RET in
-
   "succeeded")
-    echo "ret=0" >> $GITHUB_OUTPUT
+    echo "ret=success" >> $GITHUB_OUTPUT
     exit
     ;;
 
   "failed")
-    echo "ret=1" >> $GITHUB_OUTPUT
+    echo "ret=failure" >> $GITHUB_OUTPUT
     exit
     ;;
 
   "unresolvable")
-    echo "ret=1" >> $GITHUB_OUTPUT
+    echo "ret=failure" >> $GITHUB_OUTPUT
     exit
     ;;
 
   *)
-    echo "ret=-1" >> $GITHUB_OUTPUT
+    echo "ret=timed_out" >> $GITHUB_OUTPUT
     ;;
 esac
