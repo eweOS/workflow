@@ -1,0 +1,56 @@
+name: Check Pull Requests
+
+on:
+  repository_dispatch:
+    types: [pr]
+
+jobs:
+  obscheck:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tibdex/github-app-token@v1
+        id: gettoken
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Create check on PR
+        uses: LouisBrunner/checks-action@v1.6.1
+        id: getcheck
+        with:
+          token: ${{ steps.gettoken.outputs.token }}
+          name: Build package on OBS
+          repo: eweOS/packages
+          sha: ${{ github.event.client_payload.data.sha }}
+          status: queued
+      - name: Create branch on OBS
+        env:
+          OSC_PASS: ${{ secrets.OSC_PASS }}
+        run: |
+          ./obs_check.sh \
+          ${{ github.event.client_payload.pkg }} \
+          ${{ github.event.client_payload.data.id }}
+      - name: Flag progress
+        uses: LouisBrunner/checks-action@v1.6.1
+        with:
+          token: ${{ steps.gettoken.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: in_progress
+          details_url: https://os-build.ewe.moe/package/show/eweOS:PR/${{  github.event.client_payload.data.id }}-${{ github.event.client_payload.pkg }}
+      - name: Polling build status of OBS
+        env:
+          OSC_PASS: ${{ secrets.OSC_PASS }}
+        run: |
+          ./obs_pollcheck.sh \
+          ${{ github.event.client_payload.pkg }} \
+          ${{ github.event.client_payload.data.id }}
+      - name: Flag failure
+        if: ${{ failure() }}
+        uses: LouisBrunner/checks-action@v1.6.1
+        with:
+          token: ${{ steps.gettoken.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          conclusion: failure
