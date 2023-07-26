@@ -11,10 +11,8 @@ user=github
 pass=$OSC_PASS
 EOF
 
-BRANCH_NAME=$1
-PRID=$2
-ARCH=$3
-OBS_LOC=eweOS:PR/$PRID-$BRANCH_NAME
+ARCH=$2
+OBS_LOC=$1
 
 if [ -z $ARCH ]; then
 	ARCH=x86_64

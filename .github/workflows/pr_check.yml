@@ -31,6 +31,7 @@ jobs:
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
       - name: Create branch on OBS
+        id: getbranch
         env:
           OSC_PASS: ${{ secrets.OSC_PASS }}
         run: |
@@ -44,14 +45,13 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
-          details_url: https://os-build.ewe.moe/package/show/eweOS:PR/${{  github.event.client_payload.data.id }}-${{ github.event.client_payload.pkg }}
+          details_url: https://os-build.ewe.moe/package/show/${{ steps.getbranch.outputs.obsloc }}
       - name: Polling build status of OBS
         env:
           OSC_PASS: ${{ secrets.OSC_PASS }}
         run: |
           ./obs_pollcheck.sh \
-          ${{ github.event.client_payload.pkg }} \
-          ${{ github.event.client_payload.data.id }}
+          ${{ steps.getbranch.outputs.obsloc }}
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v1.6.1
