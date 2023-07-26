@@ -15,7 +15,7 @@ BRANCH_NAME=$1
 PRID=$2
 OBS_LOC=eweOS:PR/$PRID-$BRANCH_NAME
 
-if osc branch eweOS:OBS/template $OBS_LOC \
+if osc branch -f eweOS:OBS/template $OBS_LOC \
 	| grep -q 'already exists'; then
 	echo "Creation failed, package exists."
 	exit 1
