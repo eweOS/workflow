@@ -1,0 +1,41 @@
+name: Check Update of Packages
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'
+  workflow_dispatch:
+    inputs:
+      package:
+        description: 'package to check'
+
+jobs:
+  updatecheck:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/eweos/docker:updatecheck
+    steps:
+      - name: Restore cache
+        run: |
+          mkdir -p ~/.cache/archversion
+          echo "{}" > ~/.cache/archversion/packages.cache
+          wget https://raw.githubusercontent.com/eweOS/workflow/updatecheck/result.json -O ~/.cache/archversion/packages.cache
+      - name: Check for updates (all)
+        if: ${{ github.event.inputs.package == '' }}
+        run: eweversion check
+      - name: Check for updates (single)
+        if: ${{ github.event.inputs.package != '' }}
+        run: eweversion check ${{ github.event.inputs.package }}
+      - name: Collect result
+        run: |
+          mkdir -p ~/checkresult
+          cp ~/.cache/archversion/packages.cache ~/checkresult/result.json
+      - name: Deploy result
+        run: |
+          cd ~/checkresult
+          git init
+          git config --global user.name 'eweOS Update Checker'
+          git config --global user.email 'nobody.noreply@ewe.moe'
+          git add result.json
+          git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
+          git commit -m "Update package list"
+          git push github HEAD:updatecheck -f
