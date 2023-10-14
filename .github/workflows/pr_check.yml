@@ -50,7 +50,7 @@ jobs:
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
-            bash -c "set -euo pipefail && makepkg -s --noconfirm | tee build.log"
+            bash -c "set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
       - name: Conclude results
         if: always()
         run: |
