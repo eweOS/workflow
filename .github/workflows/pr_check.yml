@@ -55,9 +55,7 @@ jobs:
         if: always()
         run: |
           tail build.log -n 15 > build.tail.log
-          echo "```" >> result.md
-          ls ./*.pkg.* -l  >> result.md
-          echo "```" >> result.md
+          ls ./*.pkg.* -l  | tee result.md
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
