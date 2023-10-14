@@ -5,17 +5,14 @@ on:
     types: [pr]
 
 jobs:
-  obscheck:
+  buildpackage:
+    strategy:
+      matrix:
+        arch: [amd64,arm64]
     runs-on: ubuntu-latest
     permissions:
       checks: write
     steps:
-      - uses: actions/checkout@v3
-      - name: Install OSC
-        run: |
-          sudo apt update
-          sudo apt install -y osc
-          sudo pip install m2crypto
       - uses: tibdex/github-app-token@v1
         id: gettoken
         with: 
@@ -26,18 +23,18 @@ jobs:
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
-          name: Build package on OBS
+          name: Build package on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
-      - name: Create branch on OBS
-        id: getbranch
-        env:
-          OSC_PASS: ${{ secrets.OSC_PASS }}
-        run: |
-          ./obs_check.sh \
-          ${{ github.event.client_payload.pkg }} \
-          ${{ github.event.client_payload.data.id }}
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: ${{ matrix.arch }}
+      - uses: actions/checkout@v3
+        with:
+          repository: eweOS/packages
+          ref: ${{ github.event.client_payload.data.sha }}
       - name: Flag progress
         uses: LouisBrunner/checks-action@v1.6.1
         with:
@@ -45,14 +42,18 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
-          details_url: https://os-build.ewe.moe/package/show/${{ steps.getbranch.outputs.obsloc }}
-      - name: Polling build status of OBS
-        id: polling
-        env:
-          OSC_PASS: ${{ secrets.OSC_PASS }}
+      - name: Build in Docker
         run: |
-          ./obs_pollcheck.sh \
-          ${{ steps.getbranch.outputs.obsloc }}
+          docker run \
+            --rm \
+            -v $(pwd):/${{ github.workspace }} \
+            -w ${{ github.workspace }} \
+            --platform linux/${{ matrix.arch }} \
+            ghcr.io/eweos/docker:buildenv \
+            makepkg -s --noconfirm
+      - name: Conclude results
+        run: |
+          ls -l
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
@@ -60,7 +61,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          conclusion: ${{ steps.polling.outputs.ret }}
+          conclusion: success
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v1.6.1
