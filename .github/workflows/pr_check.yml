@@ -52,6 +52,7 @@ jobs:
             ghcr.io/eweos/docker:buildenv \
             bash -c "set -euo pipefail && makepkg -s --noconfirm | tee build.log"
       - name: Conclude results
+        if: always()
         run: |
           tail build.log -n 15 > build.tail.log
           echo "```" >> result.md
