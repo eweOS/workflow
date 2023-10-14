@@ -50,10 +50,11 @@ jobs:
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
-            makepkg -s --noconfirm
+            makepkg -s --noconfirm \
+            | tee build.log
       - name: Conclude results
         run: |
-          ls -l
+          ls -l >> result.md
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
@@ -62,6 +63,9 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
+          output: |
+            {"summary":"build successful"}
+          output_text_description_file: result.md
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v1.6.1
@@ -70,4 +74,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
+          output: |
+            {"summary":"build failed"}
+          output_text_description_file: build.log
           conclusion: failure
