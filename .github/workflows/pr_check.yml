@@ -14,7 +14,7 @@ jobs:
       checks: write
     steps:
       - uses: tibdex/github-app-token@v1
-        id: gettoken
+        id: gettoken1
         with: 
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
@@ -22,7 +22,7 @@ jobs:
         uses: LouisBrunner/checks-action@v1.6.1
         id: getcheck
         with:
-          token: ${{ steps.gettoken.outputs.token }}
+          token: ${{ steps.gettoken1.outputs.token }}
           name: Build package on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -39,7 +39,7 @@ jobs:
         uses: LouisBrunner/checks-action@v1.6.1
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
+          token: ${{ steps.gettoken1.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
       - name: Build in Docker
@@ -51,6 +51,12 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "pacman -Sy && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
+      - uses: tibdex/github-app-token@v1
+        if: always()
+        id: gettoken2
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Conclude results
         if: always()
         run: |
@@ -60,7 +66,7 @@ jobs:
         uses: LouisBrunner/checks-action@v1.6.1
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
+          token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
@@ -72,7 +78,7 @@ jobs:
         uses: LouisBrunner/checks-action@v1.6.1
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
+          token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           output: |
