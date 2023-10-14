@@ -53,7 +53,10 @@ jobs:
             bash -c "set -euo pipefail && makepkg -s --noconfirm | tee build.log"
       - name: Conclude results
         run: |
-          ls -l >> result.md
+          tail build.log -n 15 > build.tail.log
+          echo "```" >> result.md
+          ls ./*.pkg.* -l  >> result.md
+          echo "```" >> result.md
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
@@ -75,5 +78,5 @@ jobs:
           status: completed
           output: |
             {"summary":"build failed"}
-          output_text_description_file: build.log
+          output_text_description_file: build.tail.log
           conclusion: failure
