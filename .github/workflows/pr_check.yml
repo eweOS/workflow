@@ -50,6 +50,7 @@ jobs:
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
+            set -euo pipefail && \
             makepkg -s --noconfirm \
             | tee build.log
       - name: Conclude results
