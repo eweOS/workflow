@@ -44,10 +44,10 @@ jobs:
           archlinux:latest
           bash -c "
           pacman -Sy --noconfirm namcap &&
-          echo namcap result: > namcap.log &&
           namcap ./PKGBUILD 2>&1 | tee namcap.log &&
+          grep '' namcap.log  || echo Check successful, no error reported > namcap.log  &&
           set -euo pipefail &&
-          grep -vz ' E: ' namcap.log
+          grep -v ' E: ' namcap.log
           "
       - uses: tibdex/github-app-token@v1
         if: always()
