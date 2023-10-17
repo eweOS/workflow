@@ -19,6 +19,8 @@ jobs:
           mkdir -p ~/.cache/archversion
           echo "{}" > ~/.cache/archversion/packages.cache
           wget https://raw.githubusercontent.com/eweOS/workflow/updatecheck/result.json -O ~/.cache/archversion/packages.cache
+      - name: Update Repository
+        run: pacman -Sy
       - name: Check for updates (all)
         if: ${{ github.event.inputs.package == '' }}
         run: eweversion check
