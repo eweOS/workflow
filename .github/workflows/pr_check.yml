@@ -44,8 +44,9 @@ jobs:
           archlinux:latest
           bash -c "
           pacman -Sy --noconfirm namcap &&
-          namcap ./PKGBUILD > namcap.log &&
-          set -euo pipefail && grep -vz ' E: '
+          namcap ./PKGBUILD 2>&1 > namcap.log &&
+          set -euo pipefail
+          && grep -vz ' E: '
           "
       - uses: tibdex/github-app-token@v1
         if: always()
