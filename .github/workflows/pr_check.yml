@@ -45,8 +45,8 @@ jobs:
           bash -c "
           pacman -Sy --noconfirm namcap &&
           namcap ./PKGBUILD 2>&1 > namcap.log &&
-          set -euo pipefail
-          && grep -vz ' E: '
+          set -euo pipefail &&
+          grep -vz ' E: ' namcap.log
           "
       - uses: tibdex/github-app-token@v1
         if: always()
