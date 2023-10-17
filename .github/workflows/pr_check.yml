@@ -44,7 +44,8 @@ jobs:
           archlinux:latest
           bash -c "
           pacman -Sy --noconfirm namcap &&
-          namcap ./PKGBUILD 2>&1 > namcap.log &&
+          echo namcap result for ${{ github.event.inputs.package }} > namcap.log
+          namcap ./PKGBUILD 2>&1 | tee namcap.log &&
           set -euo pipefail &&
           grep -vz ' E: ' namcap.log
           "
