@@ -61,7 +61,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ steps.gettoken2.outputs.token }}
           filePath: namcap.log
-          pr_number:  ${{ github.event.client_payload.data.id }}
+          pr_number:  ${{ github.event.client_payload.data.number }}
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
