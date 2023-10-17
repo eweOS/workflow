@@ -7,14 +7,20 @@ on:
 jobs:
   checknamcap:
     runs-on: ubuntu-latest
-    permissions: 
-       pull-requests: write
+    permissions:
+      checks: write
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken1
         with: 
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0
+        id: getjob
+        with:
+          github_token: ${{ steps.gettoken1.outputs.token }}
+          job_name: ${{ github.job }}
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v1.6.1
         id: getcheck
@@ -24,6 +30,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
+          details_url: ${{ steps.getjob.outputs.html_url }}
       - uses: actions/checkout@v3
         with:
           repository: eweOS/packages
@@ -55,13 +62,6 @@ jobs:
         with: 
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
-      - name: Comment PR
-        if: always()
-        uses: thollander/actions-comment-pull-request@v2
-        with:
-          GITHUB_TOKEN: ${{ steps.gettoken2.outputs.token }}
-          filePath: namcap.log
-          pr_number:  ${{ github.event.client_payload.data.number }}
       - name: Flag results
         uses: LouisBrunner/checks-action@v1.6.1
         with:
@@ -99,6 +99,12 @@ jobs:
         with: 
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0
+        id: getjob
+        with:
+          github_token: ${{ steps.gettoken1.outputs.token }}
+          job_name: ${{ github.job }}
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v1.6.1
         id: getcheck
@@ -108,6 +114,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
+          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
         with:
