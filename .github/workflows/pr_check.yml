@@ -42,6 +42,7 @@ jobs:
           token: ${{ steps.gettoken1.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
+          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Run namcap
         run: >-
           docker run
@@ -70,6 +71,7 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
+          details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"check successful"}
           output_text_description_file: namcap.log
@@ -81,6 +83,7 @@ jobs:
           token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"check failed"}
           output_text_description_file: namcap.log
@@ -104,7 +107,7 @@ jobs:
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
-          job_name: ${{ github.job }}
+          job_name: "buildpackage (${{ matrix.arch }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v1.6.1
         id: getcheck
@@ -130,6 +133,7 @@ jobs:
           token: ${{ steps.gettoken1.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
+          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Build in Docker
         run: |
           docker run \
@@ -158,6 +162,7 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
+          details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"build successful"}
           output_text_description_file: result.md
@@ -169,6 +174,7 @@ jobs:
           token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"build failed"}
           output_text_description_file: build.tail.log
