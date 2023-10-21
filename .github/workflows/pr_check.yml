@@ -142,7 +142,7 @@ jobs:
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
-            bash -c "pacman -Sy && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
+            bash -c "pacman -Syu --noconfirm && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
