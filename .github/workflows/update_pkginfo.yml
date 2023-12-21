@@ -1,0 +1,45 @@
+name: Check List of Package Info
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  updatepkginfo:
+    strategy:
+      matrix:
+        arch: [amd64,arm64]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: ${{ matrix.arch }}
+      - uses: actions/checkout@v3
+      - name: Update Package List
+        run: >-
+          docker run
+          --rm
+          -v $(pwd):/${{ github.workspace }}
+          -w ${{ github.workspace }}
+          --platform linux/${{ matrix.arch }}
+          ghcr.io/eweos/docker:master
+          bash -c "
+          pacman -Sy --noconfirm jq &&
+          ./info_pkgs.sh
+          "
+      - name: Collect result
+        run: |
+          mkdir -p ~/result
+          cp ~/pkgs.json ~/result/pkgs.json
+      - name: Deploy result
+        run: |
+          cd ~/result
+          git init
+          git config --global user.name 'eweOS Package Info Updater'
+          git config --global user.email 'nobody.noreply@ewe.moe'
+          git add pkgs.json
+          git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
+          git commit -m "Update package list"
+          git push github HEAD:pkginfo -f
