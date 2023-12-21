@@ -26,16 +26,19 @@ jobs:
           --platform linux/${{ matrix.arch }}
           ghcr.io/eweos/docker:master
           bash -c "
+          echo [testing] >> /etc/pacman.conf &&
+          echo SigLevel = Never >> /etc/pacman.conf &&
+          echo Server = http://os-repo.ewe.moe/eweos/testing/os/\$arch/ >> /etc/pacman.conf &&
           pacman -Sy --noconfirm jq &&
           ./info_pkgs.sh
           "
       - name: Collect result
         run: |
-          mkdir -p ~/result
-          cp ~/pkgs.json ~/result/pkgs.json
+          mkdir -p result
+          cp pkgs.json result/pkgs.json
       - name: Deploy result
         run: |
-          cd ~/result
+          cd result
           git init
           git config --global user.name 'eweOS Package Info Updater'
           git config --global user.email 'nobody.noreply@ewe.moe'
