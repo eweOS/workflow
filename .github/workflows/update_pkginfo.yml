@@ -42,4 +42,4 @@ jobs:
           git add pkgs.json
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
-          git push github HEAD:pkginfo -f
+          git push github HEAD:pkginfo-${{ matrix.arch }} -f
