@@ -9,27 +9,23 @@ jobs:
   updatepkginfo:
     strategy:
       matrix:
-        arch: [amd64,arm64]
+        arch: [x86_64, aarch64]
     runs-on: ubuntu-latest
     steps:
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
-        with:
-          platforms: ${{ matrix.arch }}
       - uses: actions/checkout@v3
-      - name: Update Package List
+      - name: Adjust pacman.conf to ${{ matrix.arch }}
+        run: >-
+          sed -i "s/Architecture = auto/Architecture = ${{ matrix.arch }}/g" pacman.full.conf
+      - name: Update Package List for ${{ matrix.arch }}
         run: >-
           docker run
           --rm
           -v $(pwd):/${{ github.workspace }}
           -w ${{ github.workspace }}
-          --platform linux/${{ matrix.arch }}
           ghcr.io/eweos/docker:master
           bash -c "
-          echo [testing] >> /etc/pacman.conf &&
-          echo SigLevel = Never >> /etc/pacman.conf &&
-          echo Server = http://os-repo.ewe.moe/eweos/testing/os/\$arch/ >> /etc/pacman.conf &&
           pacman -Sy --noconfirm jq &&
+          cp pacman.full.conf /etc/pacman.conf &&
           ./info_pkgs.sh
           "
       - name: Collect result
