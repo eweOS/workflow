@@ -27,7 +27,7 @@ do
                 DATA_ITEM=`echo $DATA_ITEM | jq ". + {\"$K\":\"$V\"}"`
         fi
 done
-}<<<$(pacman -Syi)
+}<<<$(pacman -Syyi)
 DATA=`echo $DATA | jq ". + [ $DATA_ITEM ]"`
 
 echo $DATA | jq > pkgs.json
