@@ -22,8 +22,7 @@ fi
 
 osc checkout $OBS_LOC
 
-sed -i "s:_main:$BRANCH_NAME:g" \
-	"${OBS_LOC}"/service
-mv "${OBS_LOC}"/service "${OBS_LOC}"/_service
+sed -i "s:musl:$BRANCH_NAME:g" \
+	"${OBS_LOC}"/_service
 
 osc commit $OBS_LOC -m "Create package"
