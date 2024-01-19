@@ -25,4 +25,6 @@ osc checkout $OBS_LOC
 sed -i "s:musl:$BRANCH_NAME:g" \
 	"${OBS_LOC}"/_service
 
+rm "${OBS_LOC}"/_link || true
+
 osc commit $OBS_LOC -m "Create package"
