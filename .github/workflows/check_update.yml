@@ -33,9 +33,11 @@ jobs:
           cp ~/.cache/archversion/packages.cache ~/checkresult/result.json
       - name: Collect nodata result
         run: |
-          pacman -S --noconfirm jq && pacman -Slq main | xargs -I @ bash -c  "grep -q '\[@\]' ~/.config/archversion/packages.conf || echo @" | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/nodata.json
+          pacman -S --noconfirm jq
+          pacman -Slq main | xargs -I @ bash -c  "grep -q '\[@\]' ~/.config/archversion/packages.conf || echo @" | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/nodata.json
       - name: Deploy result
         run: |
+          pacman -S --noconfirm git 
           cd ~/checkresult
           git init
           git config --global user.name 'eweOS Update Checker'
