@@ -22,7 +22,7 @@ fi
 
 osc checkout $OBS_LOC
 
-sed -i "s:musl:$BRANCH_NAME:g" \
+sed -i "s:placeholder:$BRANCH_NAME:g" \
 	"${OBS_LOC}"/_service
 
 rm "${OBS_LOC}"/_link || true
