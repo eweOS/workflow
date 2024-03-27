@@ -51,6 +51,7 @@ jobs:
           -w ${{ github.workspace }}
           archlinux:latest
           bash -c "
+          pacman -Syu --noconfirm &&
           pacman -Sy --noconfirm namcap &&
           namcap ./PKGBUILD 2>&1 | tee namcap.log &&
           grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log  &&
