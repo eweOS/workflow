@@ -31,7 +31,8 @@ jobs:
           "
       - name: Deploy results
         run: |
-          cd results
+          cp -r results results-git
+          cd results-git
           git init
           git config --global user.name 'eweOS Package Info Updater'
           git config --global user.email 'nobody.noreply@ewe.moe'
