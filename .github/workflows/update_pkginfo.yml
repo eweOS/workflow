@@ -32,7 +32,7 @@ jobs:
       - name: Collect result
         run: |
           mkdir -p result
-          cp _pkgs.json result/_pkgs.json
+          cp *.json result/
       - name: Deploy result
         run: |
           cd result
