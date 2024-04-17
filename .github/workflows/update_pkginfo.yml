@@ -29,10 +29,6 @@ jobs:
           cp pacman.full.conf /etc/pacman.conf &&
           ./info_pkgs.sh
           "
-      - name: Collect result
-        run: |
-          mkdir -p result
-          cp *.json result/
       - name: Deploy result
         run: |
           cd result
