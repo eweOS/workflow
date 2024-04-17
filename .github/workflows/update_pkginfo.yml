@@ -29,9 +29,9 @@ jobs:
           cp pacman.full.conf /etc/pacman.conf &&
           ./info_pkgs.sh
           "
-      - name: Deploy result
+      - name: Deploy results
         run: |
-          cd result
+          cd results
           git init
           git config --global user.name 'eweOS Package Info Updater'
           git config --global user.email 'nobody.noreply@ewe.moe'
