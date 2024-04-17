@@ -38,7 +38,7 @@ jobs:
           git init
           git config --global user.name 'eweOS Package Info Updater'
           git config --global user.email 'nobody.noreply@ewe.moe'
-          git add pkgs.json
+          git add *.json
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
           git push github HEAD:pkginfo-${{ matrix.arch }} -f
