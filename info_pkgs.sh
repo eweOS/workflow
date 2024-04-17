@@ -5,6 +5,8 @@ DATA="[]"
 DATA_ITEM="{}"
 STATE=0
 
+mkdir -p results
+
 {
 read
 read
@@ -30,6 +32,9 @@ done
 }<<<$(pacman -Syyi)
 DATA=`echo $DATA | jq ". + [ $DATA_ITEM ]"`
 
-echo $DATA | jq > _pkgs.json
-jq -cr '.[] | .Name, .' _pkgs.json | awk 'NR%2{f=$0".json";next} {print >f;close(f)}'
-jq -cr '[.[] | {Name,Version,Repository}]' _pkgs.json > _pkgs_brief.json
+echo $DATA | jq > results/_pkgs.json
+for repo in $(jq -cr '.[] | .Repository' results/_pkgs.json | uniq | xargs); do
+  mkdir result/$repo
+done
+jq -cr '.[] | .Repository + "/" + .Name, .' results/_pkgs.json | awk 'NR%2{f=$0".json";next} {print >f;close(f)}'
+jq -cr '[.[] | {Name,Version,Repository}]' results/_pkgs.json > results/_pkgs_brief.json
