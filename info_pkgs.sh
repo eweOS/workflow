@@ -30,4 +30,5 @@ done
 }<<<$(pacman -Syyi)
 DATA=`echo $DATA | jq ". + [ $DATA_ITEM ]"`
 
-echo $DATA | jq > pkgs.json
+echo $DATA | jq > _pkgs.json
+jq -cr '.[] | .Name, .' _pkgs.json | awk 'NR%2{f=$0".json";next} {print >f;close(f)}'
