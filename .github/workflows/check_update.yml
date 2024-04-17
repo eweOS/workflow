@@ -26,11 +26,15 @@ jobs:
         run: eweversion check
       - name: Check for updates (single)
         if: ${{ github.event.inputs.package != '' }}
-        run: eweversion check ${{ github.event.inputs.package }}
+        run: eweversion check ${{ github.event.inputs.package }} 2> ~/err.log
       - name: Collect result
         run: |
           mkdir -p ~/checkresult
           cp ~/.cache/archversion/packages.cache ~/checkresult/result.json
+      - name: Collect error result
+        run: |
+          grep "Upstream check failed" ~/err.log | grep "^ERROR: " | cut -f 4 -d ' ' | sed 's/:$//' | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/failed.json
+          grep "No pacman package found" ~/err.log | grep "^ERROR: " | cut -f 4 -d ' ' | sed 's/:$//' | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/deprecated.json
       - name: Collect nodata result
         run: |
           pacman -S --noconfirm jq
@@ -42,8 +46,7 @@ jobs:
           git init
           git config --global user.name 'eweOS Update Checker'
           git config --global user.email 'nobody.noreply@ewe.moe'
-          git add result.json
-          git add nodata.json
+          git add *.json
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
           git push github HEAD:updatecheck -f
