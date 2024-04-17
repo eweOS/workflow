@@ -32,4 +32,4 @@ DATA=`echo $DATA | jq ". + [ $DATA_ITEM ]"`
 
 echo $DATA | jq > _pkgs.json
 jq -cr '.[] | .Name, .' _pkgs.json | awk 'NR%2{f=$0".json";next} {print >f;close(f)}'
-jq -cr '.[] | {Name,Version,Repository}' _pkgs.json > _pkgs_brief.json
+jq -cr '[.[] | {Name,Version,Repository}]' _pkgs.json > _pkgs_brief.json
