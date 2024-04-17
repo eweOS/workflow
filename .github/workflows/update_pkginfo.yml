@@ -8,6 +8,7 @@ on:
 jobs:
   updatepkginfo:
     strategy:
+      fail-fast: false
       matrix:
         arch: [x86_64, aarch64, riscv64]
     runs-on: ubuntu-latest
@@ -31,7 +32,7 @@ jobs:
       - name: Collect result
         run: |
           mkdir -p result
-          cp pkgs.json result/pkgs.json
+          cp _pkgs.json result/_pkgs.json
       - name: Deploy result
         run: |
           cd result
