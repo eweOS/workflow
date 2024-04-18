@@ -22,7 +22,7 @@ jobs:
           github_token: ${{ steps.gettoken1.outputs.token }}
           job_name: ${{ github.job }}
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
           token: ${{ steps.gettoken1.outputs.token }}
@@ -36,7 +36,7 @@ jobs:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
       - name: Flag progress
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken1.outputs.token }}
@@ -65,7 +65,7 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Flag results
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -78,7 +78,7 @@ jobs:
           output_text_description_file: namcap.log
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -110,7 +110,7 @@ jobs:
           github_token: ${{ steps.gettoken1.outputs.token }}
           job_name: "buildpackage (${{ matrix.arch }})"
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
           token: ${{ steps.gettoken1.outputs.token }}
@@ -128,7 +128,7 @@ jobs:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
       - name: Flag progress
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken1.outputs.token }}
@@ -156,7 +156,7 @@ jobs:
           tail build.log -n 15 > build.tail.log
           ls ./*.pkg.* -l  | tee result.md
       - name: Flag results
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -169,7 +169,7 @@ jobs:
           output_text_description_file: result.md
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@2.0.0
+        uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
