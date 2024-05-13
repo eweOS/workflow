@@ -195,3 +195,15 @@ jobs:
             {"summary":"build failed"}
           output_text_description_file: build.tail.log
           conclusion: failure
+      - name: Flag cancelled
+        if: ${{ cancelled() }}
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          output: |
+            {"summary":"build cancelled"}
+          conclusion: cancelled
