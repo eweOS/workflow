@@ -1,0 +1,15 @@
+name: Stop building jobs for merged/closed PR
+
+on:
+  repository_dispatch:
+    types: [pr_closed]
+
+jobs:
+  stopbuildpackage:
+    concurrency:
+      group: pr-check-${{ github.event.client_payload.data.sha }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: placeholder
+        run: echo "placeholder"

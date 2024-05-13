@@ -4,6 +4,10 @@ on:
   repository_dispatch:
     types: [pr]
 
+concurrency:
+  group: pr-check-${{ github.event.client_payload.data.sha }}
+  cancel-in-progress: true
+
 jobs:
   checknamcap:
     runs-on: ubuntu-latest
