@@ -175,7 +175,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: results
+          name: results-${{ matrix.arch }}
           path: results
           compression-level: 0
       - name: Flag failure
