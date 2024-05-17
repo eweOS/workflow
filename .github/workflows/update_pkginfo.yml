@@ -34,8 +34,8 @@ jobs:
           cp -r results results-git
           cd results-git
           git init
-          git config --global user.name 'eweOS Package Info Updater'
-          git config --global user.email 'nobody.noreply@ewe.moe'
+          git config --global user.name ${{ vars.GH_APP_NAME }}
+          git config --global user.email ${{ vars.GH_APP_UID }}+${{ vars.GH_APP_NAME }}[bot]@users.noreply.github.com
           git add .
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
