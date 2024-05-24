@@ -1,0 +1,31 @@
+name: Create a blank repo of a new package
+
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        required: true
+        description: 'package to create'
+
+jobs:
+  createblankpackage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tibdex/github-app-token@v2
+        id: gettoken
+        with: 
+          app_id: ${{ vars.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Create Blank Repo and Set Git Info
+        run: |
+          mkdir -p repo && cd repo && git init
+          git config --global user.name ${{ vars.GH_APP_NAME }}
+          git config --global user.email ${{ vars.GH_APP_UID }}+${{ vars.GH_APP_NAME }}[bot]@users.noreply.github.com
+      - name: Git Commit
+        run: |
+          cd repo
+          git switch --orphan ${{ github.event.inputs.package }}
+          COMMITMSG="[${{ github.event.inputs.package }}] 0.0.0-0: init repository"
+          git commit --allow-empty -m "$COMMITMSG"
+          git remote add github https://x-access-token:${{ steps.gettoken.outputs.token }}@github.com/eweOS/packages
+          git push github HEAD
