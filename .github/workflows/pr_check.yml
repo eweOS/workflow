@@ -280,7 +280,7 @@ jobs:
           token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          conclusion: success
+          conclusion: neutral
           details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"check successful"}
