@@ -309,3 +309,19 @@ jobs:
           output: |
             {"summary":"build cancelled"}
           conclusion: cancelled
+
+  approvepr:
+    needs: [checknamcap, checkpackagefilesdiff]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tibdex/github-app-token@v1
+        id: gettoken
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Approve Pull Request
+        uses: juliangruber/approve-pull-request-action@v2
+        with:
+          github-token: ${{ steps.gettoken.outputs.token }}
+          number: ${{ github.event.client_payload.data.number }}
+          repo: eweos/packages
