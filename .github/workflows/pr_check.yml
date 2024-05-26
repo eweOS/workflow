@@ -123,10 +123,6 @@ jobs:
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
-        with:
-          platforms: ${{ matrix.arch }}
       - uses: actions/checkout@v3
         with:
           repository: eweOS/packages
@@ -139,6 +135,15 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          docker-images: false
+          swap-storage: false
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: ${{ matrix.arch }}
       - name: Build in Docker
         run: |
           docker run \
