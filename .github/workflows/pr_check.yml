@@ -278,6 +278,16 @@ jobs:
         with: 
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+
+      - name: Strip long result
+        run: |
+          if [ $(cat "workflow/filediff.report.md" | wc -c) -gt 65000 ]; then
+            head -c 65000 workflow/filediff.report.md > report.md
+            echo '> too long, stripped.' >> report.md
+          else
+            cp workflow/filediff.report.md report.md
+          fi
+
       - name: Flag results
         uses: LouisBrunner/checks-action@v2.0.0
         with:
@@ -289,7 +299,7 @@ jobs:
           details_url: ${{ steps.getjob.outputs.html_url }}
           output: |
             {"summary":"check successful"}
-          output_text_description_file: workflow/filediff.report.md
+          output_text_description_file: report.md
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v2.0.0

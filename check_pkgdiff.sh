@@ -25,6 +25,8 @@ EOF
 \`\`\`
 
 </details>
+
+
 EOF
 		else
 			cat <<EOF >> filediff.report.md
