@@ -63,7 +63,7 @@ jobs:
           cd repo
           git add PKGBUILD
           source PKGBUILD
-          COMMITMSG="[$pkgname] $pkgver-$pkgrel: ${{ github.event.inputs.reason }}"
+          COMMITMSG="[${{ github.event.inputs.package }}] $pkgver-$pkgrel: ${{ github.event.inputs.reason }}"
           git commit -m "$COMMITMSG"
           echo COMMITMSG="$COMMITMSG" >> $GITHUB_ENV
       - name: Create Pull Request
