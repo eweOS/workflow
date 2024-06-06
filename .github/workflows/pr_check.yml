@@ -181,6 +181,9 @@ jobs:
           output: |
             {"summary":"build successful"}
           output_text_description_file: result.md
+      - name: Replace invalid char in filename
+        run: |
+          find results -type f -exec sh -c 'x="{}"; mv "$x" "${x//:/-}"' \;
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
