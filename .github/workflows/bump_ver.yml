@@ -61,6 +61,18 @@ jobs:
         run: |
           cd repo
           bash ../meta/tools/bump_ver.sh ${{ github.event.inputs.version }}
+      - name: Update Checksums
+        run: >-
+          docker run
+          --rm
+          -v $(pwd):/${{ github.workspace }}
+          -w ${{ github.workspace }}
+          ghcr.io/eweos/docker:master
+          bash -c "
+          pacman -Sy --noconfirm pacman-contrib &&
+          cd repo &&
+          updpkgsums
+          "
       - name: Git Commit
         run: |
           cd repo
