@@ -81,6 +81,7 @@ jobs:
           COMMITMSG="[$pkgname] $pkgver-$pkgrel: ${{ github.event.inputs.message }}"
           git commit -m "$COMMITMSG"
           echo COMMITMSG="$COMMITMSG" >> $GITHUB_ENV
+          git reset --hard HEAD && git clean -df
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         id: cpr
