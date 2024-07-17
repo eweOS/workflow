@@ -387,7 +387,7 @@ jobs:
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
-            bash -c "cd workflow && ./check_symdiff.sh ../new-packages"
+            bash -c "pacman -Sy --noconfirm curl && cd workflow && ./check_symdiff.sh ../new-packages"
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2

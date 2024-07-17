@@ -14,7 +14,7 @@ EOF
                 oldpkgdir=$(mktemp -d)
                 newpkgdir=$(mktemp -d)
                 pacman -Sy
-                wget $(pacman -Sp $pkgname --noconfirm) -O $oldpkg
+                curl $(pacman -Sp $pkgname --noconfirm) --output $oldpkg
                 tar -C $newpkgdir -xf $1
                 tar -C $oldpkgdir -xf $oldpkg
 
@@ -61,7 +61,7 @@ EOF
 export -f check_diff
 
 cat <<EOF > symdiff.report.md
-# Package files diff check report
+# Package symbols diff check report
 
 EOF
 
