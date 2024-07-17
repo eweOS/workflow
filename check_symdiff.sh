@@ -22,8 +22,8 @@ EOF
 
                 for sofile in $(comm -12 <(find $newpkgdir -name "*.so" | sed "s@^$newpkgdir@@") <(find $oldpkgdir -name "*.so" | sed "s@^$oldpkgdir@@")); do
                         soname=`basename $newpkgdir/$sofile`
-                        readelf -s $newpkgdir/$sofile | grep -v -e " UND " -e "^$" | tail -n "+3" | tr -s ' ' | cut -f 5- -d ' ' | sort > .$pkgname.sodiff.new/$soname.symlist
-                        readelf -s $oldpkgdir/$sofile | grep -v -e " UND " -e "^S" | tail -n "+3" | tr -s ' ' | cut -f 5- -d ' ' | sort > .$pkgname.sodiff.old/$soname.symlist
+                        readelf -s $newpkgdir/$sofile | grep -v -e " UND " -e "^$" | tail -n "+3" | tr -s ' ' | cut -f 5,6,7,9 -d ' ' | sort > .$pkgname.sodiff.new/$soname.symlist
+                        readelf -s $oldpkgdir/$sofile | grep -v -e " UND " -e "^S" | tail -n "+3" | tr -s ' ' | cut -f 5,6,7,9 -d ' ' | sort > .$pkgname.sodiff.old/$soname.symlist
                         echo "- $soname" >> symdiff.report.md
                 done
 
