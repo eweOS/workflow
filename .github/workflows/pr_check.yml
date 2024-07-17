@@ -328,6 +328,119 @@ jobs:
             {"summary":"build cancelled"}
           conclusion: cancelled
 
+
+  checkpackagesymsdiff:
+    needs: [buildpackage]
+    strategy:
+      matrix:
+        arch: [amd64,arm64]
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+      - uses: tibdex/github-app-token@v1
+        id: gettoken1
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0
+        id: getjob
+        with:
+          github_token: ${{ steps.gettoken1.outputs.token }}
+          job_name: "checkpackagesymsdiff (${{ matrix.arch }})"
+      - name: Create check on PR
+        uses: LouisBrunner/checks-action@v2.0.0
+        id: getcheck
+        with:
+          token: ${{ steps.gettoken1.outputs.token }}
+          name: Check package symbols diff on ${{ matrix.arch }}
+          repo: eweOS/packages
+          sha: ${{ github.event.client_payload.data.sha }}
+          status: queued
+          details_url: ${{ steps.getjob.outputs.html_url }}
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: ${{ matrix.arch }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: results-${{ matrix.arch }}
+          path: new-packages
+      - uses: actions/checkout@v4
+        with:
+          repository: eweOS/workflow
+          path: workflow
+      - name: Flag progress
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken1.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: in_progress
+          details_url: ${{ steps.getjob.outputs.html_url }}
+      - name: Check in Docker
+        run: |
+          docker run \
+            --rm \
+            -v $(pwd):/${{ github.workspace }} \
+            -w ${{ github.workspace }} \
+            --platform linux/${{ matrix.arch }} \
+            ghcr.io/eweos/docker:buildenv \
+            bash -c "cd workflow && ./check_symdiff.sh ../new-packages"
+      - uses: tibdex/github-app-token@v1
+        if: always()
+        id: gettoken2
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+
+      - name: Strip long result
+        run: |
+          if [ $(cat "workflow/symdiff.report.md" | wc -c) -gt 65000 ]; then
+            head -c 65000 workflow/symdiff.report.md > report.md
+            echo '> too long, stripped.' >> report.md
+          else
+            cp workflow/symdiff.report.md report.md
+          fi
+
+      - name: Flag results
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          conclusion: neutral
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          output: |
+            {"summary":"check successful"}
+          output_text_description_file: report.md
+      - name: Flag failure
+        if: ${{ failure() }}
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          output: |
+            {"summary":"check failed"}
+          conclusion: failure
+      - name: Flag cancelled
+        if: ${{ cancelled() }}
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          output: |
+            {"summary":"build cancelled"}
+          conclusion: cancelled
+
   approvepr:
     needs: [checknamcap, checkpackagefilesdiff]
     runs-on: ubuntu-latest
