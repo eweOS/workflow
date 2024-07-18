@@ -78,7 +78,7 @@ jobs:
           cd repo
           git add PKGBUILD
           source PKGBUILD
-          COMMITMSG="[$pkgname] $pkgver-$pkgrel: ${{ github.event.inputs.message }}"
+          COMMITMSG="[`test $pkgbase && echo $pkgbase || echo $pkgname`] $pkgver-$pkgrel: ${{ github.event.inputs.message }}"
           git commit -m "$COMMITMSG"
           echo COMMITMSG="$COMMITMSG" >> $GITHUB_ENV
           git reset --hard HEAD && git clean -df
