@@ -3,6 +3,7 @@ name: Check Update of Packages
 on:
   schedule:
     - cron: '0 0 * * *'
+    - cron: '0 3,6,9,12,15,18,21 * * *'
   workflow_dispatch:
     inputs:
       package:
@@ -12,42 +13,36 @@ jobs:
   updatecheck:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/eweos/docker:updatecheck
+      image: ghcr.io/eweos/docker:master
     steps:
+      - name: Update Repository and install rollmeow
+        run: pacman -Sy && pacman -S --noconfirm lua54-curl rollmeow wget git
       - name: Restore cache
         run: |
-          mkdir -p ~/.cache/archversion
-          echo "{}" > ~/.cache/archversion/packages.cache
-          wget https://raw.githubusercontent.com/eweOS/workflow/updatecheck/result.json -O ~/.cache/archversion/packages.cache
-      - name: Update Repository
-        run: pacman -Sy
+          wget https://raw.githubusercontent.com/eweOS/workflow/updatecheck/rollmeow.cache.lua -O /tmp/rollmeow.cache.lua || rm -f /tmp/rollmeow.cache.lua || true
+      - name: Clone config
+        run: |
+          mkdir -p ~/.config
+          git clone https://github.com/eweOS/updatecheck ~/.config/rollmeow
       - name: Check for updates (all)
-        if: ${{ github.event.inputs.package == '' }}
-        run: eweversion check 2>&1 | tee ~/err.log
+        if: ${{ github.event.inputs.package == '' || github.event.schedule == '0 0 * * *' }}
+        run: rollmeow --sync --verbose
       - name: Check for updates (single)
         if: ${{ github.event.inputs.package != '' }}
-        run: eweversion check ${{ github.event.inputs.package }}
+        run: rollmeow --sync --verbose ${{ github.event.inputs.package }}
       - name: Collect result
         run: |
           mkdir -p ~/checkresult
-          cp ~/.cache/archversion/packages.cache ~/checkresult/result.json
-      - name: Collect nodata result
-        run: |
-          pacman -S --noconfirm jq
-          pacman -Slq main | xargs -I @ bash -c  "grep -q '\[@\]' ~/.config/archversion/packages.conf || echo @" | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/nodata.json
-      - name: Collect error result
-        if: ${{ github.event.inputs.package == '' }}
-        run: |
-          grep "Upstream check failed" ~/err.log | grep "^ERROR: " | cut -f 4 -d ' ' | sed 's/:$//' | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/failed.json
-          grep "No pacman package found" ~/err.log | grep "^ERROR: " | cut -f 4 -d ' ' | sed 's/:$//' | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/deprecated.json
+          rollmeow --json > ~/checkresult/results.json
+          cp /tmp/rollmeow.cache.lua ~/checkresult/
       - name: Deploy result
         run: |
-          pacman -S --noconfirm git 
           cd ~/checkresult
           git init
           git config --global user.name 'eweOS Update Checker'
           git config --global user.email 'nobody.noreply@ewe.moe'
-          git add *.json
+          git add results.json
+          git add rollmeow.cache.lua
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
           git push github HEAD:updatecheck -f
