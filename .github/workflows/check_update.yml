@@ -16,7 +16,7 @@ jobs:
       image: ghcr.io/eweos/docker:master
     steps:
       - name: Update Repository and install rollmeow
-        run: pacman -Sy && pacman -S --noconfirm lua54-curl rollmeow wget git
+        run: pacman -Sy && pacman -S --noconfirm lua54-curl rollmeow wget git jq
       - name: Restore cache
         run: |
           wget https://raw.githubusercontent.com/eweOS/workflow/updatecheck/rollmeow.cache.lua -O /tmp/rollmeow.cache.lua || rm -f /tmp/rollmeow.cache.lua || true
@@ -35,6 +35,9 @@ jobs:
           mkdir -p ~/checkresult
           rollmeow --json > ~/checkresult/results.json
           cp /tmp/rollmeow.cache.lua ~/checkresult/
+      - name: Generate list of unconfigured packages
+        run: |
+          pacman -Slq main | xargs -I @ bash -c "jq -e 'any(.name==\"@\")' ~/checkresult/results.json >/dev/null || echo @" | awk '{ print "\""$0"\""}' | jq -s '.' > ~/checkresult/unconfigured.json
       - name: Deploy result
         run: |
           cd ~/checkresult
@@ -42,6 +45,7 @@ jobs:
           git config --global user.name 'eweOS Update Checker'
           git config --global user.email 'nobody.noreply@ewe.moe'
           git add results.json
+          git add unconfigured.json
           git add rollmeow.cache.lua
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
