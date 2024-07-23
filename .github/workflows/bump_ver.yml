@@ -69,7 +69,7 @@ jobs:
           -w ${{ github.workspace }}
           ghcr.io/eweos/docker:master
           bash -c "
-          pacman -Sy --noconfirm pacman-contrib &&
+          pacman -Sy --noconfirm pacman-contrib git &&
           cd repo &&
           updpkgsums
           "
