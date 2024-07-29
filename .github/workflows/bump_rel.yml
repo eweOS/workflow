@@ -34,6 +34,8 @@ on:
         description: 'github app privkey'
         required: true
 
+run-name: Bump rel version of ${{ github.event.inputs.package }}
+
 jobs:
   bump:
     runs-on: ubuntu-latest

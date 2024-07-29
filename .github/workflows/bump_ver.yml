@@ -33,6 +33,8 @@ on:
         description: 'github app privkey'
         required: true
 
+run-name: Bump version of ${{ github.event.inputs.package }} to ${{ github.event.inputs.version }}
+
 jobs:
   bumpver:
     runs-on: ubuntu-latest

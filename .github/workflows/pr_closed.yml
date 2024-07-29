@@ -4,6 +4,8 @@ on:
   repository_dispatch:
     types: [pr_closed]
 
+run-name: Stop workflow for pull requests ${{ github.event.client_payload.data.number }}
+
 jobs:
   stopbuildpackage:
     concurrency:

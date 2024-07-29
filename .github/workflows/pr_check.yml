@@ -4,6 +4,8 @@ on:
   repository_dispatch:
     types: [pr]
 
+run-name: Check Pull Requests ${{ github.event.client_payload.data.number }}
+
 concurrency:
   group: pr-check-${{ github.event.client_payload.data.sha }}
   cancel-in-progress: true
