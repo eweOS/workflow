@@ -2,11 +2,11 @@ name: Check List of Package Info
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
-  updatepkginfo:
+  updatepkginfo-arch:
     strategy:
       fail-fast: false
       matrix:
@@ -40,3 +40,28 @@ jobs:
           git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
           git commit -m "Update package list"
           git push github HEAD:pkginfo-${{ matrix.arch }} -f
+
+  updatepkginfo-merge:
+    needs: [updatepkginfo-arch]
+    runs-on: ubuntu-latest
+    steps:
+      - name: merge info
+        run: |
+          git clone https://github.com/eweOS/workflow
+          mkdir -p results
+          cd workflow
+          git branch -r | grep pkginfo- | cut -f 2 -d '/' | sed 's/pkginfo-//' | xargs -I @ bash -c "echo copy pkginfo for @ && git switch pkginfo-@ && cp _pkgs_brief.json ../results/@.json"
+          cd ../results
+          ls | sed 's/.json//' | xargs -I @ bash -c "echo processing @.json && jq -r '.[] | { Name: .Name, Repository: .Repository, Arch: { @: {Version: .Version} }}' @.json > @.modified.json"
+          jq -s '. | group_by(.Name + "/" + .Repository) | map(reduce .[] as $item ({}; . * $item))' *.modified.json > pkginfo.json
+      - name: Deploy results
+        run: |
+          cd results
+          git init
+          git config --global user.name ${{ vars.GH_APP_NAME }}
+          git config --global user.email ${{ vars.GH_APP_UID }}+${{ vars.GH_APP_NAME }}[bot]@users.noreply.github.com
+          git add pkginfo.json
+          git remote add github https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/eweOS/workflow
+          git commit -m "Update package list"
+          git push github HEAD:pkginfo -f
+
