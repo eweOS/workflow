@@ -59,11 +59,7 @@ jobs:
           cd repo
           git config --global user.name ${{ vars.GH_APP_NAME }}
           git config --global user.email ${{ vars.GH_APP_UID }}+${{ vars.GH_APP_NAME }}[bot]@users.noreply.github.com
-      - name: Bump Package Version
-        run: |
-          cd repo
-          bash ../meta/tools/bump_ver.sh ${{ github.event.inputs.version }}
-      - name: Update Checksums
+      - name: Bump package version and Update Checksums
         run: >-
           docker run
           --rm
@@ -73,6 +69,7 @@ jobs:
           bash -c "
           pacman -Sy --noconfirm pacman-contrib git &&
           cd repo &&
+          bash ../meta/tools/bump_ver.sh ${{ github.event.inputs.version }} &&
           updpkgsums
           "
       - name: Git Commit
