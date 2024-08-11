@@ -446,8 +446,106 @@ jobs:
             {"summary":"build cancelled"}
           conclusion: cancelled
 
+  checkpackagenamcap:
+    needs: [buildpackage]
+    strategy:
+      matrix:
+        arch: [amd64,arm64]
+    runs-on: ubuntu-24.04
+    permissions:
+      checks: write
+    steps:
+      - uses: tibdex/github-app-token@v1
+        id: gettoken1
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0
+        id: getjob
+        with:
+          github_token: ${{ steps.gettoken1.outputs.token }}
+          job_name: "checkpackagenamcap (${{ matrix.arch }})"
+      - name: Create check on PR
+        uses: LouisBrunner/checks-action@v2.0.0
+        id: getcheck
+        with:
+          token: ${{ steps.gettoken1.outputs.token }}
+          name: Check package using namcap (${{ matrix.arch }})
+          repo: eweOS/packages
+          sha: ${{ github.event.client_payload.data.sha }}
+          status: queued
+          details_url: ${{ steps.getjob.outputs.html_url }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: results-${{ matrix.arch }}
+          path: packages
+      - name: Flag progress
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken1.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: in_progress
+          details_url: ${{ steps.getjob.outputs.html_url }}
+      - name: Run namcap
+        run: >-
+          docker run
+          --rm
+          -v $(pwd):/${{ github.workspace }}
+          -w ${{ github.workspace }}
+          archlinux:latest
+          bash -c "
+          pacman -Syu --noconfirm &&
+          pacman -Sy --noconfirm namcap &&
+          namcap -e elfgnurelro,elfnoshstk ./packages/*.pkg.* 2>&1 | tee namcap.log &&
+          grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log  &&
+          set -euo pipefail &&
+          grep -v ' E: ' namcap.log
+          "
+      - name: Strip long result
+        run: |
+          if [ $(cat namcap.log | wc -c) -gt 65000 ]; then
+            head -c 65000 namcap.log > namcap.log.result
+            echo '' >> namcap.log.result
+            echo '> too long, stripped.' >> namcap.log.result
+          else
+            cp namcap.log namcap.log.result
+          fi
+      - uses: tibdex/github-app-token@v1
+        if: always()
+        id: gettoken2
+        with: 
+          app_id: 337143
+          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+      - name: Flag results
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          conclusion: success
+          output: |
+            {"summary":"check successful"}
+          output_text_description_file: namcap.log.result
+      - name: Flag failure
+        if: ${{ failure() }}
+        uses: LouisBrunner/checks-action@v2.0.0
+        with:
+          repo: eweOS/packages
+          token: ${{ steps.gettoken2.outputs.token }}
+          check_id: ${{ steps.getcheck.outputs.check_id }}
+          status: completed
+          details_url: ${{ steps.getjob.outputs.html_url }}
+          output: |
+            {"summary":"check failed"}
+          output_text_description_file: namcap.log.result
+          conclusion: failure
+
   approvepr:
-    needs: [checknamcap, checkpackagefilesdiff]
+    needs: [checknamcap, checkpackagefilesdiff, checkpackagesymsdiff]
     runs-on: ubuntu-24.04
     steps:
       - uses: tibdex/github-app-token@v1

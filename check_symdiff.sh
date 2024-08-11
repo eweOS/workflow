@@ -14,9 +14,17 @@ EOF
                 oldpkgdir=$(mktemp -d)
                 newpkgdir=$(mktemp -d)
                 pacman -Sy
-                curl $(pacman -Sp $pkgname --noconfirm) --output $oldpkg
+                oldpkgurl=$(pacman -Sp $pkgname --noconfirm)
+                curl -sL "$oldpkgurl" --output $oldpkg
                 tar -C $newpkgdir -xf $1
                 tar -C $oldpkgdir -xf $oldpkg
+
+		echo "===================="
+                echo "newpkgdir: "
+                find $newpkgdir -name "*.so" | sed "s@^$newpkgdir@@"
+                echo "oldpkgdir: "
+                find $oldpkgdir -name "*.so" | sed "s@^$oldpkgdir@@"
+		echo "===================="
 
                 mkdir -p .$pkgname.sodiff.new .$pkgname.sodiff.old
 
@@ -45,12 +53,14 @@ EOF
 EOF
                 else
                         cat <<EOF >> symdiff.report.md
+
 No changes, no symdiff reported.
 
 EOF
                 fi
         else
                 cat <<EOF >> symdiff.report.md
+
 New package, no symdiff reported.
 
 EOF
