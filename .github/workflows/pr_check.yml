@@ -504,9 +504,9 @@ jobs:
           bash -c "
           pacman -Syu --noconfirm &&
           pacman -Sy --noconfirm namcap &&
-          pacman -U --noconfirm ./packages/*.pkg.* &&
-          namcap -e elfgnurelro,elfnoshstk ./packages/*.pkg.* 2>&1 | tee namcap.log &&
-          grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log  &&
+          (pacman -U --noconfirm ./packages/*.pkg.* || echo pacman E: failed to install package > namcap.log) &&
+          namcap -e elfgnurelro,elfnoshstk ./packages/*.pkg.* 2>&1 | tee -a namcap.log &&
+          (grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log)  &&
           set -euo pipefail &&
           grep -v ' E: ' namcap.log
           "
@@ -562,6 +562,7 @@ jobs:
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Approve Pull Request
         uses: juliangruber/approve-pull-request-action@v2
+        continue-on-error: true
         with:
           github-token: ${{ steps.gettoken.outputs.token }}
           number: ${{ github.event.client_payload.data.number }}
