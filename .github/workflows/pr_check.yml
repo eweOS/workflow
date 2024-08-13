@@ -55,7 +55,7 @@ jobs:
           --rm
           -v $(pwd):/${{ github.workspace }}
           -w ${{ github.workspace }}
-          archlinux:latest
+          ghcr.io/eweos/docker:master
           bash -c "
           pacman -Syu --noconfirm &&
           pacman -Sy --noconfirm namcap &&
@@ -455,6 +455,11 @@ jobs:
     permissions:
       checks: write
     steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        with:
+          platforms: ${{ matrix.arch }}
+          image: 'tonistiigi/binfmt:qemu-v8.1.5'
       - uses: tibdex/github-app-token@v1
         id: gettoken1
         with: 
@@ -494,10 +499,12 @@ jobs:
           --rm
           -v $(pwd):/${{ github.workspace }}
           -w ${{ github.workspace }}
-          archlinux:latest
+          --platform linux/${{ matrix.arch }}
+          ghcr.io/eweos/docker:buildenv
           bash -c "
           pacman -Syu --noconfirm &&
           pacman -Sy --noconfirm namcap &&
+          pacman -U --noconfirm ./packages/*.pkg.* &&
           namcap -e elfgnurelro,elfnoshstk ./packages/*.pkg.* 2>&1 | tee namcap.log &&
           grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log  &&
           set -euo pipefail &&
