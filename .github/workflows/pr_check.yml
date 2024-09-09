@@ -11,6 +11,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  gen-matrix:
+    runs-on: ubuntu-24.04
+    outputs:
+      archmatrix: ${{ steps.set-matrix-arch.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: eweOS/packages
+          ref: ${{ github.event.client_payload.data.sha }}
+      - id: set-matrix-arch
+        run: |
+          export matrix=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | jq -R -s -c 'split("\n")[:-1]')
+          echo "::set-output name=matrix::$matrix"
   checknamcap:
     runs-on: ubuntu-24.04
     permissions:
@@ -97,9 +110,10 @@ jobs:
           conclusion: failure
 
   buildpackage:
+    needs: gen-matrix
     strategy:
       matrix:
-        arch: [amd64,arm64]
+        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
     runs-on: ubuntu-24.04
     permissions:
       checks: write
@@ -220,10 +234,10 @@ jobs:
           conclusion: cancelled
 
   checkpackagefilesdiff:
-    needs: [buildpackage]
+    needs: [buildpackage, gen-matrix]
     strategy:
       matrix:
-        arch: [amd64,arm64]
+        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
     runs-on: ubuntu-24.04
     permissions:
       checks: write
@@ -334,10 +348,10 @@ jobs:
 
 
   checkpackagesymsdiff:
-    needs: [buildpackage]
+    needs: [buildpackage, gen-matrix]
     strategy:
       matrix:
-        arch: [amd64,arm64]
+        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
     runs-on: ubuntu-24.04
     permissions:
       checks: write
@@ -447,10 +461,10 @@ jobs:
           conclusion: cancelled
 
   checkpackagenamcap:
-    needs: [buildpackage]
+    needs: [buildpackage,gen-matrix]
     strategy:
       matrix:
-        arch: [amd64,arm64]
+        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
     runs-on: ubuntu-24.04
     permissions:
       checks: write
