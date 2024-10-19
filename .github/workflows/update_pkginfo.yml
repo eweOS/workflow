@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        arch: [x86_64, aarch64, riscv64]
+        arch: [x86_64, aarch64, riscv64, loongarch64]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
