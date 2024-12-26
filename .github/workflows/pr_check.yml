@@ -525,6 +525,7 @@ jobs:
           grep -v ' E: ' namcap.log
           "
       - name: Strip long result
+        if: always()
         run: |
           if [ $(cat namcap.log | wc -c) -gt 65000 ]; then
             head -c 65000 namcap.log > namcap.log.result
