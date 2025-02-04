@@ -14,15 +14,17 @@ jobs:
   gen-matrix:
     runs-on: ubuntu-24.04
     outputs:
-      archmatrix: ${{ steps.set-matrix-arch.outputs.matrix }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
-      - id: set-matrix-arch
+      - id: set-matrix
         run: |
-          export matrix=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | jq -R -s -c 'split("\n")[:-1]')
+          export arch=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | jq -R -s -c 'split("\n")[:-1]')
+          export runson=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | while read -r arch; do echo "$([ "$arch" = "arm64" ] && echo "ubuntu-24.04-arm" || echo "ubuntu-24.04")"; done | jq -R -s -c 'split("\n")[:-1]')
+          matrix=$(jq -c -n --argjson arch "$arch" --argjson runson "$runson" '{"include": [range($arch|length) | {"arch": $arch[.], "runson": $runson[.]}] }')
           echo "::set-output name=matrix::$matrix"
   checknamcap:
     runs-on: ubuntu-24.04
@@ -31,7 +33,7 @@ jobs:
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken1
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -80,7 +82,7 @@ jobs:
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Flag results
@@ -112,15 +114,14 @@ jobs:
   buildpackage:
     needs: gen-matrix
     strategy:
-      matrix:
-        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
-    runs-on: ubuntu-24.04
+      matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
+    runs-on: ${{ matrix.runson }}
     permissions:
       checks: write
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken1
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -160,7 +161,7 @@ jobs:
         uses: docker/setup-qemu-action@v1
         with:
           platforms: ${{ matrix.arch }}
-          image: 'tonistiigi/binfmt:qemu-v8.1.5'
+          image: "tonistiigi/binfmt:qemu-v8.1.5"
       - name: Build in Docker
         run: |
           docker run \
@@ -173,7 +174,7 @@ jobs:
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Conclude results
@@ -236,15 +237,14 @@ jobs:
   checkpackagefilesdiff:
     needs: [buildpackage, gen-matrix]
     strategy:
-      matrix:
-        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
-    runs-on: ubuntu-24.04
+      matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
+    runs-on: ${{ matrix.runson }}
     permissions:
       checks: write
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken1
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -267,7 +267,7 @@ jobs:
         uses: docker/setup-qemu-action@v1
         with:
           platforms: ${{ matrix.arch }}
-          image: 'tonistiigi/binfmt:qemu-v8.1.5'
+          image: "tonistiigi/binfmt:qemu-v8.1.5"
       - uses: actions/download-artifact@v4
         with:
           name: results-${{ matrix.arch }}
@@ -296,7 +296,7 @@ jobs:
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
 
@@ -346,19 +346,17 @@ jobs:
             {"summary":"build cancelled"}
           conclusion: cancelled
 
-
   checkpackagesymsdiff:
     needs: [buildpackage, gen-matrix]
     strategy:
-      matrix:
-        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
-    runs-on: ubuntu-24.04
+      matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
+    runs-on: ${{ matrix.runson }}
     permissions:
       checks: write
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken1
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -381,7 +379,7 @@ jobs:
         uses: docker/setup-qemu-action@v1
         with:
           platforms: ${{ matrix.arch }}
-          image: 'tonistiigi/binfmt:qemu-v8.1.5'
+          image: "tonistiigi/binfmt:qemu-v8.1.5"
       - uses: actions/download-artifact@v4
         with:
           name: results-${{ matrix.arch }}
@@ -410,7 +408,7 @@ jobs:
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
 
@@ -461,11 +459,10 @@ jobs:
           conclusion: cancelled
 
   checkpackagenamcap:
-    needs: [buildpackage,gen-matrix]
+    needs: [buildpackage, gen-matrix]
     strategy:
-      matrix:
-        arch: ${{fromJson(needs.gen-matrix.outputs.archmatrix)}}
-    runs-on: ubuntu-24.04
+      matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
+    runs-on: ${{ matrix.runson }}
     permissions:
       checks: write
     steps:
@@ -473,10 +470,10 @@ jobs:
         uses: docker/setup-qemu-action@v1
         with:
           platforms: ${{ matrix.arch }}
-          image: 'tonistiigi/binfmt:qemu-v8.1.5'
+          image: "tonistiigi/binfmt:qemu-v8.1.5"
       - uses: tibdex/github-app-token@v1
         id: gettoken1
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -537,7 +534,7 @@ jobs:
       - uses: tibdex/github-app-token@v1
         if: always()
         id: gettoken2
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Flag results
@@ -572,7 +569,7 @@ jobs:
     steps:
       - uses: tibdex/github-app-token@v1
         id: gettoken
-        with: 
+        with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Approve Pull Request
