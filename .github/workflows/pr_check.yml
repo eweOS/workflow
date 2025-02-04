@@ -37,7 +37,7 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v0
+        uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
@@ -125,11 +125,11 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v0
+        uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
-          job_name: "buildpackage (${{ matrix.arch }})"
+          job_name: "buildpackage (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
@@ -248,11 +248,11 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v0
+        uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
-          job_name: "checkpackagefilesdiff (${{ matrix.arch }})"
+          job_name: "checkpackagefilesdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
@@ -360,11 +360,11 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v0
+        uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
-          job_name: "checkpackagesymsdiff (${{ matrix.arch }})"
+          job_name: "checkpackagesymsdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
@@ -477,11 +477,11 @@ jobs:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v0
+        uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
           github_token: ${{ steps.gettoken1.outputs.token }}
-          job_name: "checkpackagenamcap (${{ matrix.arch }})"
+          job_name: "checkpackagenamcap (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
