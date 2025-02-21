@@ -4,42 +4,60 @@ LANG=C
 DATA_ITEM="{}"
 STATE=0
 
-pacman -Syy
+declare -A array_keys=(
+  [CHECKDEPENDS]=1
+  [CONFLICTS]=1
+  [DEPENDS]=1
+  [LICENSE]=1
+  [MAKEDEPENDS]=1
+  [OPTDEPENDS]=1
+  [PROVIDES]=1
+  [REPLACES]=1
+)
 
 mkdir -p results
 
-function extract_info(){
+repofiles=$(find /var/lib/pacman/sync/*.db)
 
-pkgname=$1
-echo "Extracting $pkgname"
-mkdir -p $(dirname results/$pkgname.json)
-
-{
-while read -r;
-do
-        if [ -z "$REPLY" ]; then
-                STATE=0
-                DATA_ITEM="{}"
-        else
-                if [[ "$STATE" == 0 ]]; then
-                        STATE=1
-                fi
-                K=$(echo $REPLY | cut -d ':' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
-                V=$(echo $REPLY | cut -d ':' -f2- | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e "s/\"/\'/g")
-                DATA_ITEM=$(echo $DATA_ITEM | jq ". + {\"$K\":\"$V\"}")
+for repofile in ${repofiles[@]}; do
+  repo=$(basename $repofile)
+  repo=${repo%.db}
+  repodir=$(mktemp -d)
+  tar xf $repofile -C $repodir
+  pkgfiles=$(find $repodir -name desc)
+  mkdir -p results/$repo
+  for pkgfile in ${pkgfiles[@]}; do
+    pkg_obj="{}"
+    while IFS= read -r line; do
+      if [[ "$line" == "%"* ]]; then
+        key=$(sed 's/%//g' <<< "$line")
+	value=""
+	read -r valueitem
+	if [ "$key" == "NAME" ]; then
+          pkgname=$valueitem
+	fi
+	until [ "$valueitem" == "" ] ; do
+	  valueitem=$(echo $valueitem | sed "s/\"/\'/g")
+	  if [ "$value" != "" ]; then
+            value="$value;$valueitem"
+	  else
+            value="$valueitem"
+	  fi
+	  read -r valueitem
+	done
+        if [ -n "$key" ] && [ -n "$value" ]; then
+          if [[ -n "${array_keys[$key]}" ]]; then
+            pkg_obj=$(echo $pkg_obj | jq ". + {\"$key\":\"$value\" | split(\";\")}")
+	  else
+            pkg_obj=$(echo $pkg_obj | jq ". + {\"$key\":\"$value\"}")
+          fi
         fi
+      fi
+    done < <(cat "$pkgfile" $(find $(dirname $pkgfile) -type f ! -name "desc" | xargs))
+    pkg_obj=$(echo $pkg_obj | jq ". + {\"REPO\":\"$repo\"}")
+    echo "Collecting info for $pkgname"
+    echo $pkg_obj | jq -r > results/$repo/$pkgname.json
+  done
 done
-}<<<$(pacman -Sii $pkgname)
 
-echo $DATA_ITEM > results/$pkgname.json
-}
-
-{
-while read -r;
-do
-        extract_info $REPLY &
-        [ $( jobs | wc -l ) -ge $( nproc ) ] && wait
-done
-}<<<$(pacman -Sl | cut -f1-2 -d ' ' | sed 's/ /\//')
-
-find results -type f -name "*.json" | xargs -I @ cat @ | jq -s '. | [.[] | {Name,Version,Repository}]' > results/_pkgs_brief.json
+find results -type f -name "*.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json

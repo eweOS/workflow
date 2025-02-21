@@ -27,6 +27,7 @@ jobs:
           bash -c "
           pacman -Sy --noconfirm jq &&
           cp pacman.full.conf /etc/pacman.conf &&
+          pacman -Syy &&
           ./info_pkgs.sh
           "
       - name: Deploy results
@@ -52,8 +53,8 @@ jobs:
           cd workflow
           git branch -r | grep pkginfo- | cut -f 2 -d '/' | sed 's/pkginfo-//' | xargs -I @ bash -c "echo copy pkginfo for @ && git switch pkginfo-@ && cp _pkgs_brief.json ../results/@.json"
           cd ../results
-          ls | sed 's/.json//' | xargs -I @ bash -c "echo processing @.json && jq -r '.[] | { Name: .Name, Repository: .Repository, Arch: { @: {Version: .Version} }}' @.json > @.modified.json"
-          jq -s '. | group_by(.Name + "/" + .Repository) | map(reduce .[] as $item ({}; . * $item))' *.modified.json > pkginfo.json
+          ls | sed 's/.json//' | xargs -I @ bash -c "echo processing @.json && jq -r '.[] | { NAME: .NAME, REPO: .REPO, ARCH: { @: {VERSION: .VERSION} }}' @.json > @.modified.json"
+          jq -s '. | group_by(.NAME + "/" + .REPO) | map(reduce .[] as $item ({}; . * $item))' *.modified.json > pkginfo.json
       - name: Deploy results
         run: |
           cd results
