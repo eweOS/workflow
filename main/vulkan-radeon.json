@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-radeon-24.3.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-radeon",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "Open-source Vulkan driver for AMD GPUs",
+  "CSIZE": "2563240",
+  "ISIZE": "11210105",
+  "MD5SUM": "8692c4b9ddcf4d902b43302aa900ac2a",
+  "SHA256SUM": "e408cc268f7927876c673474cfa83f46087e9c256716623bca77e8cfbdcdaf3a",
+  "PGPSIG": "iF4EABYCAAYFAmemBC0ACgkQw1jnDXfq/1S/SQD+Il3S4OuNu70Y2bV2xTj369xl23yb4bo4irzPLg+2YFcA/Ar3MrHt4kWD2l3HAXuUaLesOFN6KQ/X7IRq4Bpkkg0N",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738933305",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

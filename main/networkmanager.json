@@ -1,0 +1,51 @@
+{
+  "FILENAME": "networkmanager-1.50.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "networkmanager",
+  "BASE": "networkmanager",
+  "VERSION": "1.50.2-1",
+  "DESC": "Network connection manager and user applications",
+  "CSIZE": "3855487",
+  "ISIZE": "13929474",
+  "MD5SUM": "86cb565bc06b3c7aa1283a5c009a314c",
+  "SHA256SUM": "aae1001a735966ca324106f8aacdd7506bf01755b3374c7d6f5a01806f8cf8fe",
+  "PGPSIG": "iF4EABYCAAYFAmeze70ACgkQw1jnDXfq/1TuIQD8CYKA4rssfwmilHMurTxqTXy9ILc/nIzc+EHkvnayixUA/1COkKYJif+BsOt9N3ztS/KRHgjmY3pGtYLeqm3NcocL",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1739815802",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "glib2",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnm",
+    "libpsl",
+    "libudev",
+    "mobile-broadband-provider-info",
+    "nspr",
+    "nss",
+    "readline",
+    "wpa_supplicant"
+  ],
+  "OPTDEPENDS": [
+    "bluez: Bluetooth support",
+    "dhclient: alternative DHCP client",
+    "dhcpcd: alternative DHCP client",
+    "dnsmasq: connection sharing",
+    "firewalld: firewall support",
+    "iptables: connection sharing",
+    "iwd: wpa_supplicant alternative",
+    "modemmanager: cellular network support",
+    "nftables: connection sharing",
+    "openresolv: alternative resolv.conf manager",
+    "pacrunner: PAC proxy support",
+    "polkit: let non-root users control networking",
+    "ppp: dialup connection support"
+  ],
+  "REPO": "main"
+}

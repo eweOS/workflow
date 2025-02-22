@@ -1,0 +1,50 @@
+{
+  "FILENAME": "emacs-nogui-29.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "29.4-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "53988194",
+  "ISIZE": "124591284",
+  "MD5SUM": "ef255fecba9eacccaf985f0a0dd42d5a",
+  "SHA256SUM": "e2de81623645dadcdf1381357421ab925deac33807a466558f70bda3f85a7943",
+  "PGPSIG": "iF4EABYCAAYFAmemGNMACgkQw1jnDXfq/1SAAgD+Keeh3diRzcToq/i3W1XFmwGEl0HVDDxdGsFnTkydKN8BAM/Nj5oGcVEVfZeiQKrkbJK9KK0uqX6uSOs8V2rNTsMP",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738938803",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

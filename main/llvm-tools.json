@@ -1,0 +1,33 @@
+{
+  "FILENAME": "llvm-tools-19.1.7-1-loongarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "23221724",
+  "ISIZE": "70088948",
+  "MD5SUM": "153415bad09c6e0ecb5b9183fb892f03",
+  "SHA256SUM": "bf90130439461629a4b674a31dc33f26738a56449f4f1da3a5b1e8a5f5990b0c",
+  "PGPSIG": "iF4EABYCAAYFAmekpcIACgkQw1jnDXfq/1SFRAD+NiEDYM1hqMXcrmCC1SuBSS9JWWlXprGx7UoAzFWnLPYBAO9nlaifbipWEko9+H05z/+NuH0Y9m2EUwogVsqj2fgG",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738833527",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}
