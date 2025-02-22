@@ -1,0 +1,35 @@
+{
+  "FILENAME": "tor-0.4.8.13-1-aarch64.pkg.tar.zst",
+  "NAME": "tor",
+  "BASE": "tor",
+  "VERSION": "0.4.8.13-1",
+  "DESC": "Anonymizing overlay network.",
+  "CSIZE": "4917162",
+  "ISIZE": "22536175",
+  "MD5SUM": "8c0c9769de697387ac15829430f46ba4",
+  "SHA256SUM": "dcfdc10a2d76b80bca1a9417517c1cec1fece814d1cefc39d22d8530b1e9ce88",
+  "PGPSIG": "iF4EABYCAAYFAmdtARMACgkQw1jnDXfq/1RUCAD/S+qnnB0nMuhcC9itP/MCgEfV2dBng2sKX/Vm13HbUo8A/iSWAR8YEDfTW4VVr8htkw7nRtIgNh/sDmNUpUsXx90F",
+  "URL": "https://www.torproject.org/download/tor/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "LGPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1735197048",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "libcap",
+    "openssl",
+    "libevent",
+    "liblzma.so",
+    "libseccomp.so",
+    "libz.so",
+    "libzstd.so"
+  ],
+  "OPTDEPENDS": [
+    "torsocks: for torify"
+  ],
+  "REPO": "main"
+}

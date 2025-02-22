@@ -1,0 +1,50 @@
+{
+  "FILENAME": "emacs-nogui-29.4-1-aarch64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "29.4-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "54024653",
+  "ISIZE": "124585836",
+  "MD5SUM": "07d34a3e2ee707aae2f408ee22487cc4",
+  "SHA256SUM": "168c2007a6d64fbf5fa295035ac587e8109540476ffa4c3dc51ead05327ebcd5",
+  "PGPSIG": "iF4EABYCAAYFAmemGWYACgkQw1jnDXfq/1QjqAEAnwVYhZIE8lKWPm543Bx4wm/4yJnTJTzG9z1clkyDpGIA+waylDcAiyzjNjR9nXv7If39uX0pjYN7128diUixJjcE",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738938808",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

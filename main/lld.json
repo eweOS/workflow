@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lld-19.1.7-1-aarch64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "a drop-in replacement for the GNU linkers by LLVM project.",
+  "CSIZE": "4426907",
+  "ISIZE": "19011675",
+  "MD5SUM": "a55494c2ea6491d39cf5803062dfd6a1",
+  "SHA256SUM": "2779d1d0ebbdefdca3987b7f8661151e5543b0b144ea9316d406c2a5ccd0792a",
+  "PGPSIG": "iF4EABYCAAYFAmekjHQACgkQw1jnDXfq/1THRQEAm4EURUaObRZOfHBI4CX9wvsx93CoZ97dE79ObQ8qfSsA/RYUXcBDrFCWCWCHr0QCf5NZW3FWXJNr7Ut5FQOAV+wB",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738833527",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "REPO": "main"
+}
