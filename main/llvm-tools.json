@@ -1,0 +1,33 @@
+{
+  "FILENAME": "llvm-tools-19.1.7-1-riscv64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "22240659",
+  "ISIZE": "57857132",
+  "MD5SUM": "0828b0ceb35a09490b08448c1996f8f8",
+  "SHA256SUM": "090d07cfd47feaeb1a619849aa903213c3500fdfb135a6bb83b163a27215a4ca",
+  "PGPSIG": "iF4EABYCAAYFAmel71wACgkQw1jnDXfq/1ShpwD+JWBOsrKSN6qvCM3SORl32zIwLNzMO0h6QI+Xvx3qtsYBAIKd1zO/mfW7Ud2oSYAvASke14Y951dbLmbpj4uJnJsA",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738833878",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}

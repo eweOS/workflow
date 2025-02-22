@@ -1,0 +1,45 @@
+{
+  "FILENAME": "niri-25.01-1-riscv64.pkg.tar.zst",
+  "NAME": "niri",
+  "BASE": "niri",
+  "VERSION": "25.01-1",
+  "DESC": "A scrollable-tiling Wayland compositor",
+  "CSIZE": "6996161",
+  "ISIZE": "18569287",
+  "MD5SUM": "2a726a8c3fa9d148904d567c146d9144",
+  "SHA256SUM": "cd29fbac95b5957b1c6c04bbed336576afc6cbdd102cf75c48001a3ddbbab338",
+  "PGPSIG": "iF4EABYCAAYFAmeHaKsACgkQw1jnDXfq/1S5CQD/Ua41DmNKc2gO+tFbvmR8vmBGGu2B9FlHnWdnoZ0Zrl8A/ikjMHDj9B1XTWBqtWaEKh6Bvg6mo2Bqo4bhlBnHqCIM",
+  "URL": "https://github.com/YaLTeR/niri",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1736923594",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "glib2",
+    "libdisplay-info",
+    "libinput",
+    "libpipewire",
+    "libxkbcommon",
+    "mesa",
+    "pango",
+    "pixman",
+    "seatd",
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "alacritty: a suggested GPU-accelerated terminal emulator",
+    "bash: for niri-session script",
+    "fuzzel: a suggested Wayland application launcher",
+    "mako: a suggested Wayland notification daemon",
+    "org.freedesktop.secrets: for apps to rely on secrets portal",
+    "swaybg: a suggested Wayland wallpaper tool",
+    "waybar: a suggested Wayland customizable desktop bar",
+    "waylock: a suggested Wayland screen locker",
+    "xdg-desktop-portal-gtk: a suggested XDG desktop portal",
+    "xdg-desktop-portal-gnome: a XDG desktop portal required for screencasting"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,61 @@
+{
+  "FILENAME": "imagemagick-7.1.1.43-4-riscv64.pkg.tar.zst",
+  "NAME": "imagemagick",
+  "BASE": "imagemagick",
+  "VERSION": "7.1.1.43-4",
+  "DESC": "An image viewing/manipulation program",
+  "CSIZE": "9052710",
+  "ISIZE": "19997305",
+  "MD5SUM": "60262fda7b33c3a2dbdb5fe698c3da81",
+  "SHA256SUM": "f9c8680d0575ac663e3b321bf5c22923c504281023d819da812bf7c1d76645e3",
+  "PGPSIG": "iF4EABYCAAYFAmdvrrMACgkQw1jnDXfq/1RB+gEAkOkdpSPmG3669a0mIijvHoHgAOcwqzXugXJ4sKQYVK8BAJ534J0s+2hFgV4kRkVF0UWXna1TF/b/3L7Obk8lXWIM",
+  "URL": "https://www.imagemagick.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1735371601",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "imagemagick-doc"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "cairo",
+    "fftw",
+    "fontconfig",
+    "freetype2",
+    "glib2",
+    "lcms2",
+    "liblqr",
+    "libltdl",
+    "libpng",
+    "libraqm",
+    "libxml2",
+    "libzip",
+    "xz",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libmagick"
+  ],
+  "OPTDEPENDS": [
+    "ghostscript: PS/PDF support",
+    "jbigkit: JBIG support",
+    "libheif: HEIF support",
+    "libjpeg-turbo: JPEG support",
+    "libjxl: JPEG XL support",
+    "libraw: DNG support",
+    "librsvg: SVG support",
+    "libtiff: TIFF support",
+    "libultrahdr: UHDR support",
+    "libwebp: WEBP support",
+    "libwmf: WMF support",
+    "ocl-icd: OpenCL support",
+    "openexr: OpenEXR support",
+    "openjpeg2: JPEG2000 support",
+    "djvulibre: DJVU support",
+    "pango: Text rendering"
+  ],
+  "REPO": "main"
+}

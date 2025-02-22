@@ -1,0 +1,33 @@
+{
+  "FILENAME": "qca-qt6-2.3.9-3-riscv64.pkg.tar.zst",
+  "NAME": "qca-qt6",
+  "BASE": "qca",
+  "VERSION": "2.3.9-3",
+  "DESC": "Qt Cryptographic Architecture",
+  "CSIZE": "911085",
+  "ISIZE": "3076598",
+  "MD5SUM": "09fecdf96b6d54b352cac0fbf3b6e4a6",
+  "SHA256SUM": "7461d434429863a44c1ad51291d13cb25f92ab071c68fe8266a745fd0cd8ffd6",
+  "PGPSIG": "iF4EABYCAAYFAmezURUACgkQw1jnDXfq/1SHsQD/UcnmrzXK8kdintqlrwcVQeqhtP7wzbivOgkZViHThicA/jyVcsPyH2Sz448xtn5pex7K7sTXXmcyq7gGZeA9wHcA",
+  "URL": "https://userbase.kde.org/QCA",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739805081",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates",
+    "nss",
+    "qt6-5compat",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "botan: botan plugin",
+    "libgcrypt: gcrypt plugin",
+    "libsasl: SASL plugin",
+    "openssl: SSL plugin",
+    "pkcs11-helper: PKCS-11 plugin"
+  ],
+  "REPO": "main"
+}

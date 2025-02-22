@@ -1,0 +1,30 @@
+{
+  "FILENAME": "jasper-4.2.4-2-riscv64.pkg.tar.zst",
+  "NAME": "jasper",
+  "BASE": "jasper",
+  "VERSION": "4.2.4-2",
+  "DESC": "Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard",
+  "CSIZE": "437090",
+  "ISIZE": "839625",
+  "MD5SUM": "93e453dc938dd2c9389d1245961b95ac",
+  "SHA256SUM": "abe3ff2a1e1d11c18c0c762586eaf03b024c481bdb67073fbe98e9df7bafdf75",
+  "PGPSIG": "iF4EABYCAAYFAmdWtaEACgkQw1jnDXfq/1T81AEAp7lgtWz2V0XI8nQj8zx73a7WZgfNX4Mpt3M9r5S6M8UA/jYVb3GUhadeKv9NI9dv6G31rsfrCtAIOvlhLg4GFrME",
+  "URL": "https://www.ece.uvic.ca/~frodo/jasper/",
+  "LICENSE": [
+    "LicenseRef-JasPer2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733735990",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libglvnd",
+    "libjpeg-turbo"
+  ],
+  "PROVIDES": [
+    "libjasper.so"
+  ],
+  "OPTDEPENDS": [
+    "jasper-doc: documentation"
+  ],
+  "REPO": "main"
+}

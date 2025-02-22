@@ -1,0 +1,28 @@
+{
+  "FILENAME": "python-tornado-6.4.2-1-riscv64.pkg.tar.zst",
+  "NAME": "python-tornado",
+  "BASE": "python-tornado",
+  "VERSION": "6.4.2-1",
+  "DESC": "open source version of the scalable, non-blocking web server and tools",
+  "CSIZE": "1148738",
+  "ISIZE": "5888691",
+  "MD5SUM": "af21c879cacc37e8bc73f19184758a95",
+  "SHA256SUM": "a4904c253ae15a3c944af8f4190f3b493447947aa761300d50a3079809715144",
+  "PGPSIG": "iF4EABYCAAYFAmdQKpsACgkQw1jnDXfq/1RNowD6Aihqxzpn4kxAvja5PlYHkYrXPcm2Jz288AMTn8f5aoUBAJDKfPI+wx2CiSIbXF3jSMilDPN32Wk86WJFObBnz1IF",
+  "URL": "https://www.tornadoweb.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733307006",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-pycurl: for tornado.curl_httpclient",
+    "python-pycares: an alternative non-blocking DNS resolver",
+    "python-twisted: for tornado.platform.twisted"
+  ],
+  "REPO": "main"
+}

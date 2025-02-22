@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lld-19.1.7-1-riscv64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "a drop-in replacement for the GNU linkers by LLVM project.",
+  "CSIZE": "6167147",
+  "ISIZE": "28619445",
+  "MD5SUM": "db4702e8cd3ac3e281bbf5b90ae91a8c",
+  "SHA256SUM": "fd4a95b2a336b6894408e10490955aa4a9d4c72760306e32b093bcb43920cb7f",
+  "PGPSIG": "iF4EABYCAAYFAmel71wACgkQw1jnDXfq/1Tm9QD8CAmFvKZUyUYfJisqasGUsncziDpJra8gPVTsx1EkcR4A/jNnGuIEXMXyWWPm7xbOSDA2miore6RGo0dqhSpQFwYP",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738833878",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "REPO": "main"
+}
