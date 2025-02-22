@@ -1,0 +1,40 @@
+{
+  "FILENAME": "jre23-openjdk-23.0.1.u11-2-x86_64.pkg.tar.zst",
+  "NAME": "jre23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.1.u11-2",
+  "DESC": "OpenJDK Java 23 runtime environment",
+  "CSIZE": "40788428",
+  "ISIZE": "150018186",
+  "MD5SUM": "862dbe5b7a7625f2c39808701f75e98a",
+  "SHA256SUM": "7a55cfa4750813b76ec38e605509eacdabe8cc8b1bc8810523fbc2f51fadcc73",
+  "PGPSIG": "iF4EABYCAAYFAmc0spgACgkQw1jnDXfq/1SUIwEA2lSzSFHdy3ccXGOU+yzSxYjCsvc6a9sxWGy6evqzQ3QBAIUp/Hjmg86h4O1BR08gf/Qc7iwYXe+re18D0kHo9i4I",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1731506104",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common"
+  ],
+  "CONFLICTS": [
+    "jdk23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.1.u11-2"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "REPO": "main"
+}
