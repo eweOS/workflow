@@ -1,0 +1,34 @@
+{
+  "FILENAME": "git-2.48.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.48.1-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "13675325",
+  "ISIZE": "35354013",
+  "MD5SUM": "3f1e56132dcdec9e3153216685700d18",
+  "SHA256SUM": "007f64093eb1d51c9bca23887e828a19df7d896a0aa30b6a913c5f2f79a83599",
+  "PGPSIG": "iF4EABYCAAYFAmeHLMsACgkQw1jnDXfq/1QYlQEA8qUyuwAYbjtefov97oBLIX8ZHRmLR9CNpxwNTWPbkPwBAKtL7CyUyAFBeGygqRDYGeNExoy2altj7hRgT0CiMhYB",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1736912362",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "REPO": "main"
+}

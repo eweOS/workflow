@@ -1,0 +1,29 @@
+{
+  "FILENAME": "hidapi-0.14.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "hidapi",
+  "BASE": "hidapi",
+  "VERSION": "0.14.0-2",
+  "DESC": "Simple library for communicating with USB and Bluetooth HID devices",
+  "CSIZE": "46280",
+  "ISIZE": "123622",
+  "MD5SUM": "b3160bf84027e6b4613fe125bea3fe21",
+  "SHA256SUM": "d0833ee3b172ff26664cd28516a48902c9f7180c411dbb34c390f80a5e9e241b",
+  "PGPSIG": "iF4EABYCAAYFAmdWuI0ACgkQw1jnDXfq/1QeqQD9GZRvc9Kus5WFPDkWBWInJEab1IOF9cT7GjagVmBsjoQA/isWho3E3vCyWyWCA8mKAVOM2RCGe8+7yedLSs6H79IN",
+  "URL": "https://github.com/libusb/hidapi",
+  "LICENSE": [
+    "GPL3",
+    "BSD",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733736802",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "OPTDEPENDS": [
+    "libusb: for hidapi-libusb"
+  ],
+  "REPO": "main"
+}
