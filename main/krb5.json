@@ -1,0 +1,38 @@
+{
+  "FILENAME": "krb5-1.21.3-2-aarch64.pkg.tar.zst",
+  "NAME": "krb5",
+  "BASE": "krb5",
+  "VERSION": "1.21.3-2",
+  "DESC": "The Kerberos network authentication system",
+  "CSIZE": "1469232",
+  "ISIZE": "4254328",
+  "MD5SUM": "c4d2b4b9812fbace05c80180f2114658",
+  "SHA256SUM": "6354dc3b5eb42ba0ee7deb831f22583f54604afaa0815fad4525a5c5a23ee9af",
+  "PGPSIG": "iF4EABYCAAYFAmcVvykACgkQw1jnDXfq/1RYrgEAk+S9sXIjRB3AA12HllbKg1KgGEgPyGWuYiFGMTR3A2YBAITbKlHZZkGseRFcVqwbp18U8tFECHr+tYkjnHEzIxYJ",
+  "URL": "https://web.mit.edu/kerberos/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729478366",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libverto",
+    "e2fsprogs",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libgssapi_krb5.so",
+    "libgssrpc.so",
+    "libk5crypto.so",
+    "libkadm5clnt_mit.so",
+    "libkadm5srv_mit.so",
+    "libkdb5.so",
+    "libkdb_ldap.so",
+    "libkrad.so",
+    "libkrb5.so",
+    "libkrb5support.so"
+  ],
+  "REPO": "main"
+}

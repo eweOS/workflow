@@ -1,0 +1,42 @@
+{
+  "FILENAME": "flatpak-1.16.0-1-aarch64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.0-1",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1595873",
+  "ISIZE": "5550535",
+  "MD5SUM": "8d3b53269a2881bd0bfc0c9a796f8200",
+  "SHA256SUM": "3a1d5b4c9143eed4372791be47f43629d8e56152eb329b5138c3879cec1d3fc7",
+  "PGPSIG": "iF4EABYCAAYFAmeGGYEACgkQw1jnDXfq/1Sh/AD9GZBuXvpCrQgh0Ak0U4etgwTQ4YHE3pv401gROPG+b7QBAManTeIyWIJS0+3ysdx9Vd981U7rBPPO21HcZcnrfJUC",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1736841928",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "REPO": "main"
+}

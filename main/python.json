@@ -1,0 +1,46 @@
+{
+  "FILENAME": "python-3.13.2-1-aarch64.pkg.tar.zst",
+  "NAME": "python",
+  "BASE": "python",
+  "VERSION": "3.13.2-1",
+  "DESC": "The Python programming language",
+  "CSIZE": "16915843",
+  "ISIZE": "71134568",
+  "MD5SUM": "3452eb796d62cfeaeb07a72e399cd04f",
+  "SHA256SUM": "0ad170a96939fbe4202b061b6ce7ff8d8fc1ddf51a6b1f0f104b5d6e7dc81d09",
+  "PGPSIG": "iF4EABYCAAYFAmewKNMACgkQw1jnDXfq/1QKJwD/e58AzXzaIBlLwk15iidc5sZUsMYa9+GFGq3sPvQ2SpwA/i7v0/Nbhei9E9nkEw3amQTEvqGrV05TdOUgM8HyDKwC",
+  "URL": "http://www.python.org",
+  "LICENSE": [
+    "PSF-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739597845",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "DEPENDS": [
+    "libffi",
+    "ncurses",
+    "expat",
+    "openssl",
+    "readline",
+    "sqlite",
+    "mpdecimal"
+  ],
+  "PROVIDES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: for building Python packages using tooling that is usually bundled with Python",
+    "python-pip: for installing Python packages using tooling that is usually bundled with Python",
+    "python-pipx: for installing Python software not packaged on Arch Linux",
+    "sqlite: for a default database integration",
+    "mpdecimal: for decimal",
+    "xz: for lzma",
+    "tk: for tkinter"
+  ],
+  "REPO": "main"
+}

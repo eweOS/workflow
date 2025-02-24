@@ -1,0 +1,31 @@
+{
+  "FILENAME": "nftables-1.1.1-2-aarch64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.1-2",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "433815",
+  "ISIZE": "997980",
+  "MD5SUM": "64807ce3d06b23fdeaa3fd17fcfe58de",
+  "SHA256SUM": "ca2ef10e86d7b529045688445edd85838348a63d36d923725c580976c36a91c9",
+  "PGPSIG": "iF4EABYCAAYFAmdD2CsACgkQw1jnDXfq/1S4YgEA3DNOT91phFGqM8EUphVY6QDDqHxiKcYlOk4npWAunnwA+wdkHhFYrzXpf3mtxZGKDGPzKq4q0e07wE0NA7dYKxcF",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1732499630",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "REPO": "main"
+}
