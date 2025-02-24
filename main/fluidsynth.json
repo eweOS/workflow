@@ -1,0 +1,35 @@
+{
+  "FILENAME": "fluidsynth-2.4.3-1-riscv64.pkg.tar.zst",
+  "NAME": "fluidsynth",
+  "BASE": "fluidsynth",
+  "VERSION": "2.4.3-1",
+  "DESC": "A real-time software synthesizer based on the SoundFont 2 specifications",
+  "GROUPS": "pro-audio",
+  "CSIZE": "257330",
+  "ISIZE": "539535",
+  "MD5SUM": "a8bacfdfd0b8a55caab43e4451b2ca63",
+  "SHA256SUM": "11956d114a5c55b34c7a9377a30a2afda395fa09e4541e14d19aabfa4a27af15",
+  "PGPSIG": "iF4EABYCAAYFAmesFgMACgkQw1jnDXfq/1Rn3QD/Tl5EO8cisGGqJeIRPyNJPQwNM9em27ThiDtKbf/AywMBAOJcV7SN/4EBhYrARNFahVVcFGjVNnkWXrgwWlh5ZFAN",
+  "URL": "https://www.fluidsynth.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739331472",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "sdl2",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "PROVIDES": [
+    "libfluidsynth.so",
+    "soundfont-synthesizer"
+  ],
+  "REPO": "main"
+}
