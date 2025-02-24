@@ -1,0 +1,32 @@
+{
+  "FILENAME": "pacman-contrib-1.10.6-5-x86_64.pkg.tar.zst",
+  "NAME": "pacman-contrib",
+  "BASE": "pacman-contrib",
+  "VERSION": "1.10.6-5",
+  "DESC": "Contributed scripts and tools for pacman systems",
+  "CSIZE": "53670",
+  "ISIZE": "118629",
+  "MD5SUM": "8509950fbed23b53ba293ab41000fd88",
+  "SHA256SUM": "0443801dcaaac5e70316c11706be07de38c8a5501850ae34c8f9cd10cc8fdb0c",
+  "PGPSIG": "iF4EABYCAAYFAmczCrQACgkQw1jnDXfq/1QZwgEAmq1BenAz5U0RLZLP5fvsadvJMS3bPtKfwMv+LNkHe/MA/AtYliu1vilktSezmbEHmzfYQXmia9KMvMQPmxI9ZikN",
+  "URL": "https://gitlab.archlinux.org/pacman/pacman-contrib",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1731398425",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pacman",
+    "libalpm"
+  ],
+  "OPTDEPENDS": [
+    "diffutils: for pacdiff",
+    "fakeroot: for checkupdates",
+    "mlocate: for pacdiff --locate",
+    "perl: for pacsearch",
+    "sudo: privilege elevation for several scripts",
+    "vim: default merge program for pacdiff"
+  ],
+  "REPO": "main"
+}
