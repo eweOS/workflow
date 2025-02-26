@@ -1,0 +1,39 @@
+{
+  "FILENAME": "sane-1.3.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "sane",
+  "BASE": "sane",
+  "VERSION": "1.3.1-1",
+  "DESC": "Scanner Access Now Easy",
+  "CSIZE": "4060471",
+  "ISIZE": "16315958",
+  "MD5SUM": "4f481050bdc6efba1a108b278dbb9922",
+  "SHA256SUM": "54645d798a92c13f26427fa5a563164b97515222f8446baae8d15f734b841d34",
+  "PGPSIG": "iF4EABYCAAYFAmdgNhkACgkQw1jnDXfq/1RjRwEA+SHwPZxHfx4TUHIvaxqd4AmRXprw8eDk3XBANQnZRTUBAOHqmSzXvegLVGcyA0r0f6z9MP2qCzYRLKjK09IAnIwF",
+  "URL": "https://gitlab.com/sane-project/backends",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LicenseRef-GPL-2.0-or-later-with-linking-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1734358721",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "cairo",
+    "libpng",
+    "curl",
+    "glib2",
+    "libjpeg-turbo",
+    "libtiff",
+    "libusb",
+    "libxml2",
+    "poppler-glib"
+  ],
+  "PROVIDES": [
+    "libsane.so"
+  ],
+  "OPTDEPENDS": [
+    "sane-airscan: for scanners working in driverless mode"
+  ],
+  "REPO": "main"
+}

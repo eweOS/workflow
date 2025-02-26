@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lld-19.1.7-1-loongarch64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "a drop-in replacement for the GNU linkers by LLVM project.",
+  "CSIZE": "4428377",
+  "ISIZE": "19643697",
+  "MD5SUM": "3c8e59f81789ce2c7c75b486b385dad3",
+  "SHA256SUM": "55030080132f6a4d13dcb246aba1a5d80419859966d92239af74ffcec596932e",
+  "PGPSIG": "iF4EABYCAAYFAmekpcIACgkQw1jnDXfq/1TdFwD+IN3Ex3D4u/oe5gtkqOMFJ7Eob7pSxPTJkW8g2cVngIMA/3+FsxM9PqpcqtYbNJXYTwla9pBGLMlldiuaxzbt3f4P",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738833527",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "REPO": "main"
+}

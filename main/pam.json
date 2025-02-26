@@ -1,0 +1,31 @@
+{
+  "FILENAME": "pam-1.7.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "pam",
+  "BASE": "pam",
+  "VERSION": "1.7.0-1",
+  "DESC": "PAM (Pluggable Authentication Modules) library",
+  "CSIZE": "190790",
+  "ISIZE": "598026",
+  "MD5SUM": "05b86306aa5a4dff240933957b1304f6",
+  "SHA256SUM": "558b5268a8e7a991262b6676caf403aae2f5ebde86cec7ee6a905bd7fbb31798",
+  "PGPSIG": "iF4EABYCAAYFAmdQJhQACgkQw1jnDXfq/1Qp8gEAux+gV8PiuVhmoe0JUeU4sL/Ic4jEvvLLVhR0ccRQ7T4A/Rs81/9geZcGnZmzPsvyXi5HBm14QKf9ewOmFKgEDjgA",
+  "URL": "http://linux-pam.org",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733306066",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libxcrypt",
+    "utmps",
+    "pambase"
+  ],
+  "PROVIDES": [
+    "libpam.so",
+    "libpamc.so",
+    "libpam_misc.so"
+  ],
+  "REPO": "main"
+}

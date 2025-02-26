@@ -1,0 +1,28 @@
+{
+  "FILENAME": "gstreamer-vaapi-1.24.12-1-loongarch64.pkg.tar.zst",
+  "NAME": "gstreamer-vaapi",
+  "BASE": "gstreamer",
+  "VERSION": "1.24.12-1",
+  "DESC": "GStreamer multimedia framework - vaapi plugin",
+  "CSIZE": "284844",
+  "ISIZE": "688208",
+  "MD5SUM": "281340cb4eb64e1e3fb737e335f1da57",
+  "SHA256SUM": "1cb7071467e92b41074a0955c463189566971c8c42866529b075f8d6a1e9074d",
+  "PGPSIG": "iF4EABYCAAYFAmemBwsACgkQw1jnDXfq/1SeJwD8DLH50dYiB3C2r1Qiqgk/8EKXbsI02UKmS/Jtfadn2TABAKpmjBSrBzS4A0COBmsozBcPOBXyvTgtbKPUQh3mfhoG",
+  "URL": "https://gstreamer.freedesktop.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738933798",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gstreamer=1.24.12-1",
+    "gst-plugins-base-libs=1.24.12-1",
+    "libglvnd",
+    "libva",
+    "wayland"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "flatpak-1.16.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.0-1",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1749663",
+  "ISIZE": "6818807",
+  "MD5SUM": "c1c7000b0da53a45a15927fe40a09c88",
+  "SHA256SUM": "aea0d7bb24921cf585a65c92c01fd573099677a61d221e18df316816ac4ee864",
+  "PGPSIG": "iF4EABYCAAYFAmeGGXsACgkQw1jnDXfq/1SdXwEA2Hn8h0WhuHvtAiYCkk8Pkur0k3u3t8aAqCLMWUHrjOYBAPoGRXHn/IgeMEhCkvX8OO3gOjkhclIWhuTvv2kMutcL",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1736841927",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "REPO": "main"
+}
