@@ -1,0 +1,33 @@
+{
+  "FILENAME": "gcr-4-4.3.1-1-x86_64.pkg.tar.zst",
+  "NAME": "gcr-4",
+  "BASE": "gcr-4",
+  "VERSION": "4.3.1-1",
+  "DESC": "A library for bits of crypto UI and parsing",
+  "CSIZE": "637735",
+  "ISIZE": "2825691",
+  "MD5SUM": "e6758577506be248243f8b49044221ee",
+  "SHA256SUM": "e7aeba443f59fc1c01d6a5496e53a5d38dc2b5361ddca65e23d7fc699861854c",
+  "PGPSIG": "iF4EABYCAAYFAme1lkYACgkQw1jnDXfq/1TktgD+Nskwwwq+Xv3NtbNz1LPfg4vwbecy44w+gXTGW+UzCyoA/j1SY8csT2hpd8jNxisq5MJU4eS44AOW7KDAvg8UlxoM",
+  "URL": "https://gitlab.gnome.org/GNOME/gcr",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1739954204",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libgcrypt",
+    "libp11-kit",
+    "libsecret"
+  ],
+  "PROVIDES": [
+    "libgck-2.so",
+    "libgcr-4.so"
+  ],
+  "OPTDEPENDS": [
+    "gtk4: gcr-viewer-gtk4"
+  ],
+  "REPO": "main"
+}
