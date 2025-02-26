@@ -1,0 +1,31 @@
+{
+  "FILENAME": "pango-1.56.1-1-aarch64.pkg.tar.zst",
+  "NAME": "pango",
+  "BASE": "pango",
+  "VERSION": "1.56.1-1",
+  "DESC": "A library for layout and rendering of text",
+  "CSIZE": "485405",
+  "ISIZE": "2232727",
+  "MD5SUM": "38a63972c69698bf22338561a95aa33b",
+  "SHA256SUM": "a92e409b4aa80367feb6cb019f10d7b26cae3b027d9ba1b3a0ed564fa4aa4dec",
+  "PGPSIG": "iF4EABYCAAYFAmel/9EACgkQw1jnDXfq/1TQMgEAlLkSOHOoX599seqqqhY/YdlDiSJI8RBcxo/5f5OQYVEBANWTLZkUndFVv2qpLJ/e+3Zp8gjjaIq5DEqOsi8yIIIE",
+  "URL": "https://www.pango.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738932610",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "glib",
+    "fribidi",
+    "harfbuzz"
+  ],
+  "PROVIDES": [
+    "libpango-1.0.so",
+    "libpangocairo-1.0.so",
+    "libpangoft2-1.0.so"
+  ],
+  "REPO": "main"
+}

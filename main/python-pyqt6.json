@@ -1,0 +1,45 @@
+{
+  "FILENAME": "python-pyqt6-6.8.0-1-aarch64.pkg.tar.zst",
+  "NAME": "python-pyqt6",
+  "BASE": "pyqt6",
+  "VERSION": "6.8.0-1",
+  "DESC": "A set of Python bindings for the Qt6 toolkit",
+  "GROUPS": "pyqt6",
+  "CSIZE": "5163256",
+  "ISIZE": "27631300",
+  "MD5SUM": "284ab26313797ede68adc21105e9df27",
+  "SHA256SUM": "824fa1b2f7e61679ef69b9492c8cdf008f76475933a959dda468cca284e2b555",
+  "PGPSIG": "iF4EABYCAAYFAmdkLtYACgkQw1jnDXfq/1Qk6QEA4hrXfhZy4YswC+LKwf0BkPUfl6IJhVqeEYg1CE8aW4IBAOLxpXU8w4J1HV0mrEFfyeUs950k7gJcf8sbCVEXgscJ",
+  "URL": "https://riverbankcomputing.com/software/pyqt/intro",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1734617627",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "python-pyqt6-sip"
+  ],
+  "PROVIDES": [
+    "qt6-python-bindings"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: QtHelp, QtDesigner bindings",
+    "qt6-svg: QtSvg bindings",
+    "qt6-declarative: QtQml bindings, qmlplugin",
+    "qt6-quick3d: QtQuick3D bindings",
+    "qt6-connectivity: QtBluetooth, QtNfc bindings",
+    "qt6-multimedia: QtMultimedia, QtSpatialAudio bindings",
+    "qt6-positioning: QtPositioning bindings",
+    "qt6-remoteobjects: QtRemoteObjects bindings",
+    "qt6-sensors: QtSensors bindings",
+    "qt6-serialport: QtSerialPort bindings",
+    "qt6-speech: QtTextToSpeech bindings",
+    "qt6-webchannel: QtWebChannel bindings",
+    "qt6-webengine: QtPdf bindings",
+    "qt6-websockets: QtWebSockets bindings",
+    "dbus-python: for python-dbus mainloop support"
+  ],
+  "REPO": "main"
+}

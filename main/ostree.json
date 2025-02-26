@@ -1,0 +1,39 @@
+{
+  "FILENAME": "ostree-2025.1-1-aarch64.pkg.tar.zst",
+  "NAME": "ostree",
+  "BASE": "ostree",
+  "VERSION": "2025.1-1",
+  "DESC": "Operating system and container binary deployment and upgrades",
+  "CSIZE": "620832",
+  "ISIZE": "2345955",
+  "MD5SUM": "4971d0e8b64fbe95ebfddc3af56bda2c",
+  "SHA256SUM": "e58342b8eef1c747d3a7c23de29e398f9d53573ab31d7f5f6623b7a3258452aa",
+  "PGPSIG": "iF4EABYCAAYFAmebOPQACgkQw1jnDXfq/1QKSAD8C+tmEGrrnX8ZCvGKhQmfZc3FcxFElRlvkgHFBeJDa3kA/A64nmSO+rCEpayBOzvM0sGDIGqCK4a67PPXD0zAvC8K",
+  "URL": "https://ostreedev.github.io/ostree/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738226311",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "composefs",
+    "fuse3",
+    "gpgme",
+    "libgpg-error",
+    "libsodium",
+    "util-linux",
+    "zlib",
+    "curl",
+    "glib",
+    "gpgme",
+    "libarchive",
+    "openssl",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libostree-1.so"
+  ],
+  "REPO": "main"
+}

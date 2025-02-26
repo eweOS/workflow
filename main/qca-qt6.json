@@ -1,0 +1,33 @@
+{
+  "FILENAME": "qca-qt6-2.3.9-3-aarch64.pkg.tar.zst",
+  "NAME": "qca-qt6",
+  "BASE": "qca",
+  "VERSION": "2.3.9-3",
+  "DESC": "Qt Cryptographic Architecture",
+  "CSIZE": "875950",
+  "ISIZE": "3008110",
+  "MD5SUM": "3008a36be2d73d14b4fb8ee5f44f4449",
+  "SHA256SUM": "cbb64db8c7111a846bd66eb1c6a4bd8805b7746115fa28448d33c8a3ea5f0a99",
+  "PGPSIG": "iF4EABYCAAYFAmezRA0ACgkQw1jnDXfq/1QP8gEAk9mWdQVujcu/zPj0sHAFeUutBxYxvVYMiVv17f9dv68BALojbJUZ5FR4ZwleN2BwNYLUVQX/HhN0EoruY2pLD5AI",
+  "URL": "https://userbase.kde.org/QCA",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739802041",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates",
+    "nss",
+    "qt6-5compat",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "botan: botan plugin",
+    "libgcrypt: gcrypt plugin",
+    "libsasl: SASL plugin",
+    "openssl: SSL plugin",
+    "pkcs11-helper: PKCS-11 plugin"
+  ],
+  "REPO": "main"
+}

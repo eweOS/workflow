@@ -1,0 +1,32 @@
+{
+  "FILENAME": "icu-76.1-1-aarch64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "76.1-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "15091449",
+  "ISIZE": "43100579",
+  "MD5SUM": "c988c8f7fe3974228be860094cf30824",
+  "SHA256SUM": "f48c243246e0448106daf551fb4d0e5fdd928c9bc41b000e56dbbcaf52261523",
+  "PGPSIG": "iF4EABYCAAYFAmc7RXAACgkQw1jnDXfq/1TbaAD/WV/MLddoo0rWOQa68/zWkh2ztknPUkvtFbUjhIXAAukBALHy0Kkub3Egz3NYXVsoSlozBjwbL+/I06EnO0iA5aIJ",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1731937365",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "REPO": "main"
+}
