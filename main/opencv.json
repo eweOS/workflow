@@ -1,0 +1,49 @@
+{
+  "FILENAME": "opencv-4.11.0-2-riscv64.pkg.tar.zst",
+  "NAME": "opencv",
+  "BASE": "opencv",
+  "VERSION": "4.11.0-2",
+  "DESC": "Open Source Computer Vision Library",
+  "CSIZE": "16835536",
+  "ISIZE": "49651575",
+  "MD5SUM": "699286839edec5b2216fe26c81591d57",
+  "SHA256SUM": "89c87b6809c911eaf8d3dd4537b984e77f647a2a9fca6cc3bc7d1f5a5134e1ba",
+  "PGPSIG": "iF4EABYCAAYFAmeKv5QACgkQw1jnDXfq/1SnbQEA7I+q+q3XskXcKLdGKbprizhF+4++azLqY5TWxvbnk88BAIQ/6chsDef8MxxZNgmodvlnNhR88QaMAHIuveL7RcID",
+  "URL": "https://opencv.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1737136246",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "cblas",
+    "ffmpeg",
+    "freetype2",
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "harfbuzz",
+    "lapack",
+    "libglvnd",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "openjpeg2",
+    "protobuf",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "opencv-samples: samples",
+    "vtk: for the viz module",
+    "glew: for the viz module",
+    "qt6-base: for the HighGUI module",
+    "hdf5: for the HDF5 module",
+    "opencl-icd-loader: For coding with OpenCL",
+    "java-runtime: Java interface"
+  ],
+  "REPO": "main"
+}

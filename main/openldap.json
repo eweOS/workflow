@@ -1,0 +1,28 @@
+{
+  "FILENAME": "openldap-2.6.9-1-riscv64.pkg.tar.zst",
+  "NAME": "openldap",
+  "BASE": "openldap",
+  "VERSION": "2.6.9-1",
+  "DESC": "Lightweight Directory Access Protocol (LDAP) client and server",
+  "CSIZE": "1627337",
+  "ISIZE": "3753781",
+  "MD5SUM": "c3d96f08170adaa78ba9a169542e43fe",
+  "SHA256SUM": "533e371b22b489840065832b1215b20d69b76da9eddcdc00c7002a179482ca00",
+  "PGPSIG": "iF4EABYCAAYFAmdRKaoACgkQw1jnDXfq/1SI6gEAiBJnjlgjwuyD8XB1S9XJ2CaSHKS3fohL3QgKeWMzpmABANmSUbC/hN+KmXV7nnsXFd6Tlw7j10NX4Aa2B1H24RIM",
+  "URL": "https://www.openldap.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733372224",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libldap>=2.6.9",
+    "libltdl",
+    "unixodbc",
+    "perl",
+    "libsodium",
+    "openssl"
+  ],
+  "REPO": "main"
+}

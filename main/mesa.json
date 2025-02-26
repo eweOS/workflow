@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mesa-24.3.4-1-riscv64.pkg.tar.zst",
+  "NAME": "mesa",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "An open-source implementation of the OpenGL specification",
+  "CSIZE": "13401650",
+  "ISIZE": "44435576",
+  "MD5SUM": "bf9c73c76b2e72449211f3c747c565d7",
+  "SHA256SUM": "57a9327fe6e3c574965517e9bf8fbbdb93c5505b5ed5cef7543259441a921816",
+  "PGPSIG": "iF4EABYCAAYFAmemDowACgkQw1jnDXfq/1QcZAEAxAFM5PUk0nCxMH5dBCB7evNVF2AcyvN7ra51YW33JdkA/RgEs3UdhR0GZkU/ojh/69ksW4EVru4vKDtMLhvzkJMP",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738933477",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "libva-mesa-driver"
+  ],
+  "DEPENDS": [
+    "libglvnd",
+    "libelf",
+    "zstd",
+    "libdrm",
+    "llvm",
+    "spirv-tools"
+  ],
+  "CONFLICTS": [
+    "libva-mesa-driver"
+  ],
+  "PROVIDES": [
+    "libva-mesa-driver",
+    "mesa-libgl",
+    "libva-driver",
+    "opengl-driver"
+  ],
+  "REPO": "main"
+}

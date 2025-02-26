@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-intel-24.3.4-1-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-intel",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "Open-source Vulkan driver for Intel GPUs",
+  "CSIZE": "6071828",
+  "ISIZE": "27917002",
+  "MD5SUM": "4cbdea2389d86352fcefd48abf4658a3",
+  "SHA256SUM": "3f65e5224ff7dc65556c4658ea9876d5067100b2956203cf6467aae8e29d33a8",
+  "PGPSIG": "iF4EABYCAAYFAmemDowACgkQw1jnDXfq/1S51gEA5g6yOD25h6tmcXwUSEgsmMqLnH7VLZ2GFkjy8sVAHEMBAISdJknGJ4Q4+gm/BqljbNSa+5s9aic7m3hSbFgOUbQP",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738933477",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}
