@@ -1,0 +1,34 @@
+{
+  "FILENAME": "pipewire-1.2.7-1-riscv64.pkg.tar.zst",
+  "NAME": "pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.2.7-1",
+  "DESC": "Low-latency audio/video router and processor",
+  "CSIZE": "1486244",
+  "ISIZE": "5349390",
+  "MD5SUM": "7ff738cb2dd764e70c55b560fd145b49",
+  "SHA256SUM": "441e7a8ef3c3c8b70cd45b426131174463eb817ec77407b077b0a3cfde628aaf",
+  "PGPSIG": "iF4EABYCAAYFAmdG0FgACgkQw1jnDXfq/1S2FgD/c+9MV0wj5Zi21eBsRWIBRf457WhS3ADwIHWaRqhz6E4A/2FYvUKuBvdkdMLrEHvrgs7aqqDxbzphSnMWUhB6vDMP",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1732693989",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpipewire=:1.2.7-1",
+    "dbus",
+    "libudev",
+    "libsndfile",
+    "libusb",
+    "libpulse",
+    "alsa-lib",
+    "glib"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "REPO": "main"
+}

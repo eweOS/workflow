@@ -1,0 +1,39 @@
+{
+  "FILENAME": "ostree-2025.1-1-riscv64.pkg.tar.zst",
+  "NAME": "ostree",
+  "BASE": "ostree",
+  "VERSION": "2025.1-1",
+  "DESC": "Operating system and container binary deployment and upgrades",
+  "CSIZE": "607777",
+  "ISIZE": "2189123",
+  "MD5SUM": "32e1bb17fd1d439a6ece7a2a6d6c51f4",
+  "SHA256SUM": "8e193a7c92efc4860ca69d635200ec64b92d072429af392020a512ae4912ffcb",
+  "PGPSIG": "iF4EABYCAAYFAmebOikACgkQw1jnDXfq/1SBxwEAp6RaKZaBrtC/hAGKNixQ3qkCZaipCKFwMgZRo6axZR4BAMZgTcpNQpeIbchta5UGFWOobSN0opjkM3k8QJuQBKQJ",
+  "URL": "https://ostreedev.github.io/ostree/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738226432",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "composefs",
+    "fuse3",
+    "gpgme",
+    "libgpg-error",
+    "libsodium",
+    "util-linux",
+    "zlib",
+    "curl",
+    "glib",
+    "gpgme",
+    "libarchive",
+    "openssl",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libostree-1.so"
+  ],
+  "REPO": "main"
+}

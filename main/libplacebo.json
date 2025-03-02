@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libplacebo-7.349.0-5-riscv64.pkg.tar.zst",
+  "NAME": "libplacebo",
+  "BASE": "libplacebo",
+  "VERSION": "7.349.0-5",
+  "DESC": "Reusable library for GPU-accelerated video/image rendering primitives",
+  "CSIZE": "564734",
+  "ISIZE": "1394824",
+  "MD5SUM": "ea3fb0999282d268c17813f14ee8d055",
+  "SHA256SUM": "b8d00265168d371feab0698b3a1d7eee0ca29058fcfe4af8ba0d9d3067372d0b",
+  "PGPSIG": "iF4EABYCAAYFAmezUdkACgkQw1jnDXfq/1QnTgD/X7WO9cvrHFq8Mbp1HSh1ZMXdjAxhuchVKiB8JWv/pAkBAK3XwDUMAQSLSMuF9cRm2CqUm4vtTLiFHoZRfgeljSAA",
+  "URL": "https://github.com/haasn/libplacebo",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739805533",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "vulkan-icd-loader",
+    "glslang",
+    "lcms2",
+    "shaderc",
+    "xxhash",
+    "liblcms2.so",
+    "libshaderc_shared.so",
+    "libvulkan.so"
+  ],
+  "PROVIDES": [
+    "libplacebo.so"
+  ],
+  "REPO": "main"
+}
