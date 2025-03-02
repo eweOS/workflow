@@ -1,0 +1,42 @@
+{
+  "FILENAME": "flatpak-1.16.0-1-x86_64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.0-1",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1588776",
+  "ISIZE": "5409319",
+  "MD5SUM": "9fe0e032a0563dd773ad34f69108fcd4",
+  "SHA256SUM": "201d60b515b24549c75019e5286f0ed9f9cad825abfac6a88918ff3328ae7b1d",
+  "PGPSIG": "iF4EABYCAAYFAmeGGXoACgkQw1jnDXfq/1Sq/AD+LJHTIT5KhUi0Tkrf8iibfYwRcmhUjVWTI3WY6wgcL1IBAJ/g74/qRZgsLLOctCgwJDTqY6uD5k0QvfKAPDT5z7gG",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1736841927",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "rust-1.85.0-1-x86_64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.85.0-1",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "96344920",
+  "ISIZE": "277095295",
+  "MD5SUM": "37cf2f8b34c1450eb93e3bc3333af11b",
+  "SHA256SUM": "fc885efe7a19cee4c4cdd89ab494fd8b2570b9c5b2ddfdcbdef1d232611607bf",
+  "PGPSIG": "iF4EABYCAAYFAme+4CUACgkQw1jnDXfq/1QhYwD/UwPGPuzoczFyVVyBstpChCeYGbLN9nKzu5+lWZbBF04BAMICEyMUkKE/hJr32uYA2PPqfl3BiKvi/j8xMD03HDwJ",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT",
+    "Apache"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1740561028",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "musl-static",
+    "curl",
+    "libssh2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt"
+  ],
+  "REPO": "main"
+}

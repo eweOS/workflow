@@ -1,0 +1,40 @@
+{
+  "FILENAME": "qt6-multimedia-gstreamer-6.8.0-2-x86_64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-gstreamer",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.8.0-2",
+  "DESC": "Gstreamer backend for qt6-multimedia",
+  "CSIZE": "6790038",
+  "ISIZE": "17168917",
+  "MD5SUM": "f7d4bdbc12d337e07c726d6cb2b720d2",
+  "SHA256SUM": "2c450fc2c7bed3b56c7e525c886349976144fd3eb3158cd52500fa0da3b56c03",
+  "PGPSIG": "iF4EABYCAAYFAmdRU5QACgkQw1jnDXfq/1QfTwD9EqzjURAJd25nvj4h2iO8HcaXyWxI/GKkdqvnQSPpgcgBANYhZ71MHUNBZRRUTzgPEUGh/QcNw/vhQyNO8YONo4MJ",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733383194",
+  "PACKAGER": "yukari-dpc <yukari-dpc@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "libglvnd",
+    "qt6-base",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugins-good: camera support, additional plugins",
+    "gst-plugins-bad: camera support, additional plugins",
+    "gst-plugins-ugly: additional plugins",
+    "gst-libav: additional plugins"
+  ],
+  "REPO": "main"
+}
