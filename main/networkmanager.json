@@ -1,0 +1,51 @@
+{
+  "FILENAME": "networkmanager-1.50.2-1-aarch64.pkg.tar.zst",
+  "NAME": "networkmanager",
+  "BASE": "networkmanager",
+  "VERSION": "1.50.2-1",
+  "DESC": "Network connection manager and user applications",
+  "CSIZE": "4070876",
+  "ISIZE": "14466474",
+  "MD5SUM": "0affc5a0adcc654d24669880e9c99735",
+  "SHA256SUM": "82e843a78c21554375f0b2ef9619684ed60350f67ed83a5c837012bc0ad56e11",
+  "PGPSIG": "iF4EABYCAAYFAmezesMACgkQw1jnDXfq/1RmqwD+MF+M5fU1k6VEx18EcqYxLOC/A1UNMh5sftnDUduDY+gBALV4UUsPF4F7zM2QFrItvhZtpm7SYsijV8MXSPyU35QA",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739815804",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "glib2",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnm",
+    "libpsl",
+    "libudev",
+    "mobile-broadband-provider-info",
+    "nspr",
+    "nss",
+    "readline",
+    "wpa_supplicant"
+  ],
+  "OPTDEPENDS": [
+    "bluez: Bluetooth support",
+    "dhclient: alternative DHCP client",
+    "dhcpcd: alternative DHCP client",
+    "dnsmasq: connection sharing",
+    "firewalld: firewall support",
+    "iptables: connection sharing",
+    "iwd: wpa_supplicant alternative",
+    "modemmanager: cellular network support",
+    "nftables: connection sharing",
+    "openresolv: alternative resolv.conf manager",
+    "pacrunner: PAC proxy support",
+    "polkit: let non-root users control networking",
+    "ppp: dialup connection support"
+  ],
+  "REPO": "main"
+}

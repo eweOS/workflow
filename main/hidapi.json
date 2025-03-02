@@ -1,0 +1,29 @@
+{
+  "FILENAME": "hidapi-0.14.0-2-aarch64.pkg.tar.zst",
+  "NAME": "hidapi",
+  "BASE": "hidapi",
+  "VERSION": "0.14.0-2",
+  "DESC": "Simple library for communicating with USB and Bluetooth HID devices",
+  "CSIZE": "48004",
+  "ISIZE": "126966",
+  "MD5SUM": "f441cc9f3eaa33b992350a10dec88149",
+  "SHA256SUM": "9bb9cbfcad78edad5f6936af64b33767f296fe425795bc3623514837d0cdfa61",
+  "PGPSIG": "iF4EABYCAAYFAmdWuBwACgkQw1jnDXfq/1SqLgD9E9qughQwfsvRxt4W0oXhwnF0jMYfAJp8nLZVooUgujsA/0rSxWhD8KFou+yizIj3UjmjBWddAy/Sw/TSxyMtupUD",
+  "URL": "https://github.com/libusb/hidapi",
+  "LICENSE": [
+    "GPL3",
+    "BSD",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733736693",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "OPTDEPENDS": [
+    "libusb: for hidapi-libusb"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "jre23-openjdk-23.0.1.u11-2-aarch64.pkg.tar.zst",
+  "NAME": "jre23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.1.u11-2",
+  "DESC": "OpenJDK Java 23 runtime environment",
+  "CSIZE": "39873579",
+  "ISIZE": "147608318",
+  "MD5SUM": "cf22c7e2b5e978db78576d87554f2223",
+  "SHA256SUM": "08dbb96cf277f00214746f7a68b80a32bca6dac573985431c0dd278964837bc8",
+  "PGPSIG": "iF4EABYCAAYFAmc0sysACgkQw1jnDXfq/1QPUgD+JRSspyUl/clxjgP43lUj/wM1wq2gRg5ZaEBbx8pGc6wBAL14YvGExJqIXxW9m8IGujr5ldm3IAND2r01uZMEN4AB",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1731506110",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common"
+  ],
+  "CONFLICTS": [
+    "jdk23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.1.u11-2"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "REPO": "main"
+}

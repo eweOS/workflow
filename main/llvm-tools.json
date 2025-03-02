@@ -1,0 +1,33 @@
+{
+  "FILENAME": "llvm-tools-19.1.7-1-aarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "19.1.7-1",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "23186506",
+  "ISIZE": "66465108",
+  "MD5SUM": "977aa0dbff1fba413137df1bb0ab8b5d",
+  "SHA256SUM": "9b537964cba6f9c2beb945971ccba51ea4d9f46cd6584c7a6171dd4e3d631cc1",
+  "PGPSIG": "iF4EABYCAAYFAmekjHUACgkQw1jnDXfq/1QSPgD9HVDH7regFJKt7Bwbi+czH7uRU/FgiEctkHD4N+C/sqwA/0IHNw+aXhCJ0uP8DZiIEqYprcDXpnAB14PrVMRK/z8O",
+  "URL": "htps://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738833527",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}

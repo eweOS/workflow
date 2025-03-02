@@ -1,0 +1,49 @@
+{
+  "FILENAME": "opencv-4.11.0-2-aarch64.pkg.tar.zst",
+  "NAME": "opencv",
+  "BASE": "opencv",
+  "VERSION": "4.11.0-2",
+  "DESC": "Open Source Computer Vision Library",
+  "CSIZE": "18500236",
+  "ISIZE": "57798678",
+  "MD5SUM": "d6976412e21075b0f99f4ab704e05d5f",
+  "SHA256SUM": "fdc866d865508354f1ab9d5ad288e28105faf2c7c55ef256fb68d9d0e6e2f0f0",
+  "PGPSIG": "iF4EABYCAAYFAmeKh4UACgkQw1jnDXfq/1TPBQEA+xFilD1Cr8NPTwyLCAOJVlMUrypNeBVBKXSEamUrdZABAK6TCZ9eK97Ah0+eCXbr0E6Nk7pUL3PdoIY7I69ul0cG",
+  "URL": "https://opencv.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1737131278",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "cblas",
+    "ffmpeg",
+    "freetype2",
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "harfbuzz",
+    "lapack",
+    "libglvnd",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "openjpeg2",
+    "protobuf",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "opencv-samples: samples",
+    "vtk: for the viz module",
+    "glew: for the viz module",
+    "qt6-base: for the HighGUI module",
+    "hdf5: for the HDF5 module",
+    "opencl-icd-loader: For coding with OpenCL",
+    "java-runtime: Java interface"
+  ],
+  "REPO": "main"
+}

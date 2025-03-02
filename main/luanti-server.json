@@ -1,0 +1,40 @@
+{
+  "FILENAME": "luanti-server-5.11.0-1-aarch64.pkg.tar.zst",
+  "NAME": "luanti-server",
+  "BASE": "luanti",
+  "VERSION": "5.11.0-1",
+  "DESC": "Server of infinite-world block sandbox game",
+  "CSIZE": "1493381",
+  "ISIZE": "3748032",
+  "MD5SUM": "562189477adad87eccf36ab4ed45f46d",
+  "SHA256SUM": "66f7ec7089adf39958ba85ba9e1d3063ef64bcf0623d11a2e8a06d59473843e3",
+  "PGPSIG": "iF4EABYCAAYFAme1lNQACgkQw1jnDXfq/1RbUgEA4KmuLrFBVXN/11ghVKzsXifflU6BbxyvMelOG/z1vQUA/iWh0QSoExMFyNzvhUXeJ88m0NidB+CihSm6gI54nFEL",
+  "URL": "https://www.minetest.net/",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "CC-BY-SA-3.0",
+    "CC-BY-SA-4.0",
+    "Apache-2.0",
+    "MIT",
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739953500",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "minetest-server"
+  ],
+  "DEPENDS": [
+    "luanti-common",
+    "curl",
+    "sqlite",
+    "luajit",
+    "spatialindex",
+    "jsoncpp",
+    "gmp"
+  ],
+  "CONFLICTS": [
+    "minetest-server"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libproxy-0.5.9-1-aarch64.pkg.tar.zst",
+  "NAME": "libproxy",
+  "BASE": "libproxy",
+  "VERSION": "0.5.9-1",
+  "DESC": "Automatic proxy configuration management library",
+  "CSIZE": "29038",
+  "ISIZE": "73999",
+  "MD5SUM": "91058bf390d534f09100da28afbf8729",
+  "SHA256SUM": "ff62f8c179cebcba7325a37033901340abf65075491cbf46a3cb16d7a6521ba0",
+  "PGPSIG": "iF4EABYCAAYFAmc8Kv0ACgkQw1jnDXfq/1TmewD9ExKQ4jC0Y+3cR2NjnVEgv0jguqqusbZ1DBnB8OKn2iEBAM7cehQSxn/qasKiPTj7thEIhGgXytULMlt5x7yaGGoB",
+  "URL": "https://libproxy.github.io/libproxy/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1731996531",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "duktape",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "libproxy-webkit<0.5.0-1"
+  ],
+  "PROVIDES": [
+    "libproxy.so"
+  ],
+  "REPO": "main"
+}
