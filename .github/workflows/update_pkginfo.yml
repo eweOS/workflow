@@ -28,6 +28,7 @@ jobs:
           pacman -Sy --noconfirm jq &&
           cp pacman.full.conf /etc/pacman.conf &&
           pacman -Syy &&
+          pacman -Fyy &&
           ./info_pkgs.sh
           "
       - name: Deploy results

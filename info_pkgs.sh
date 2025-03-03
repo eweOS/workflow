@@ -17,16 +17,16 @@ declare -A array_keys=(
 
 mkdir -p results
 
-repofiles=$(find /var/lib/pacman/sync/*.db)
+repofiles=$(find /var/lib/pacman/sync/*.files)
 
 for repofile in ${repofiles[@]}; do
   repo=$(basename $repofile)
-  repo=${repo%.db}
+  repo=${repo%.files}
   repodir=$(mktemp -d)
   tar xf $repofile -C $repodir
-  pkgfiles=$(find $repodir -name desc)
+  pkgdirs=$(find $repodir/* -type d)
   mkdir -p results/$repo
-  for pkgfile in ${pkgfiles[@]}; do
+  for pkgdir in ${pkgdirs[@]}; do
     pkg_obj="{}"
     while IFS= read -r line; do
       if [[ "$line" == "%"* ]]; then
@@ -53,11 +53,14 @@ for repofile in ${repofiles[@]}; do
           fi
         fi
       fi
-    done < <(cat "$pkgfile" $(find $(dirname $pkgfile) -type f ! -name "desc" | xargs))
+    done < <(cat $(find $pkgdir -type f ! -name "files" | xargs))
     pkg_obj=$(echo $pkg_obj | jq ". + {\"REPO\":\"$repo\"}")
     echo "Collecting info for $pkgname"
     echo $pkg_obj | jq -r > results/$repo/$pkgname.json
+    if [ -f $pkgdir/files ]; then
+      cat $pkgdir/files | grep -v -e "^\." -e "^$" -e "%FILES%" | jq -nR '[inputs]' > results/$repo/$pkgname.files.json
+    fi
   done
 done
 
-find results -type f -name "*.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json
+find results -type f -name "*.json" ! -name "*.files.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json
