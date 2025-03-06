@@ -1,0 +1,50 @@
+{
+  "FILENAME": "emacs-nogui-30.1-1-riscv64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.1-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55372017",
+  "ISIZE": "129278199",
+  "MD5SUM": "b0007c4e99543f3b13b98bb1b49743dc",
+  "SHA256SUM": "bbc13d54a4bcd2d1dfd9610ae697cb69f557fc85da56df445e1afd56d4591234",
+  "PGPSIG": "iF4EABYCAAYFAmfGa3sACgkQw1jnDXfq/1Q79wEAraGcN9brXBj+iuOH9WJQq8tcvO3ITXWuSsaQdEoW3qQA/3xT6979uSjM2I2NmSa8050n+MyTgfHz27j9JiF8sU0E",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1741055659",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

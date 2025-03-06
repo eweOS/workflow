@@ -1,0 +1,33 @@
+{
+  "FILENAME": "neatvnc-0.9.3-1-riscv64.pkg.tar.zst",
+  "NAME": "neatvnc",
+  "BASE": "neatvnc",
+  "VERSION": "0.9.3-1",
+  "DESC": "Fast and neat VNC server library",
+  "CSIZE": "74749",
+  "ISIZE": "132793",
+  "MD5SUM": "ca8ad880ddb81709d04bc02075b53ca6",
+  "SHA256SUM": "3e9bca27da63eb78d55aa3a2ec862be5d66f50054181ecda93e0337bfc25fd6e",
+  "PGPSIG": "iF4EABYCAAYFAmfAKIAACgkQw1jnDXfq/1TpcAD+JEbc75FobmG6m9Ze5lPDv2CSRvp2FQL4lX32x1tm4IMA/1fvT3cgTOl3QBLYHl0q+jZ9SfoVcYBDC6OIDZfly7sP",
+  "URL": "https://github.com/any1/neatvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1740646960",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libaml.so",
+    "libavcodec.so",
+    "libdrm",
+    "libpixman-1.so",
+    "libturbojpeg.so",
+    "mesa",
+    "zlib",
+    "nettle"
+  ],
+  "PROVIDES": [
+    "libneatvnc.so"
+  ],
+  "REPO": "main"
+}
