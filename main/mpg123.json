@@ -1,0 +1,33 @@
+{
+  "FILENAME": "mpg123-1.32.9-1-loongarch64.pkg.tar.zst",
+  "NAME": "mpg123",
+  "BASE": "mpg123",
+  "VERSION": "1.32.9-1",
+  "DESC": "Console based real time MPEG Audio Player for Layer 1, 2 and 3",
+  "CSIZE": "350327",
+  "ISIZE": "824784",
+  "MD5SUM": "3ef22b3e4c0a66f8c7c8d9024058af2b",
+  "SHA256SUM": "2ce55b378bfd5f40a759085eed3d32590ecc11cc5665ed1936e7de81728af161",
+  "PGPSIG": "iF4EABYCAAYFAmc7AQQACgkQw1jnDXfq/1TEnQEAqYZTi2q5XtODNPC6DDYsyksj+YFXdTO50G/D8pCwkOIBAP8O82JF1LD0Tm2l/GWIAGEPtVeSs/w2StvfXhyvdVkL",
+  "URL": "https://mpg123.de/",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731920253",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib"
+  ],
+  "PROVIDES": [
+    "libmpg123.so",
+    "libout123.so",
+    "libsyn123.so"
+  ],
+  "OPTDEPENDS": [
+    "sdl2: for sdl audio support",
+    "libpulse: for pulse audio support",
+    "perl: for conplay"
+  ],
+  "REPO": "main"
+}

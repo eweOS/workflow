@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libxslt-1.1.42-3-loongarch64.pkg.tar.zst",
+  "NAME": "libxslt",
+  "BASE": "libxslt",
+  "VERSION": "1.1.42-3",
+  "DESC": "XML stylesheet transformation library",
+  "CSIZE": "221060",
+  "ISIZE": "761681",
+  "MD5SUM": "4f9c905ffb92d3d5b67d89896c0a83eb",
+  "SHA256SUM": "8dc9889cc87a7e50129ca30b547d217f373bb09756a65c3eef6bc6fab564c2b7",
+  "PGPSIG": "iF4EABYCAAYFAmdP2SQACgkQw1jnDXfq/1RrPgD+ORU/Jd3IrDAyw5/fyx8lU9lm0PpMW1nW4/Z329MjGBoBAOKwDnK7qsn+Yyl3DPczzxDJ0YCc53v3hBrCqM8Nr6MB",
+  "URL": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733286330",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libgcrypt",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxslt.so",
+    "libexslt.so"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "rust-1.85.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.85.0-1",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "89430171",
+  "ISIZE": "259452501",
+  "MD5SUM": "d9db944c5a566bda228e495327cdeee0",
+  "SHA256SUM": "7170afa76cbd9bcb2b7bba93b1da614d92361ea88c4966df90da1dba96c12155",
+  "PGPSIG": "iF4EABYCAAYFAme+4nEACgkQw1jnDXfq/1SCFgD5AeelWG+zeH5qajMJj7dwgutc6mQT7hFQSB9ioPAwlxsBAPVbjn73KpX0KkFOaSWu8ZY9CZ0DbUkdQB9piYsQ/tMI",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT",
+    "Apache"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1740561037",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "musl-static",
+    "curl",
+    "libssh2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-virtio-24.3.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-virtio",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "Open-source Vulkan driver for Virtio-GPU (Venus)",
+  "CSIZE": "347411",
+  "ISIZE": "936795",
+  "MD5SUM": "92bdbb241301b5c4ba5dac84d7a7e2b9",
+  "SHA256SUM": "355b3292702459d4afe3af02c86dbc23cc0a03010278d8754a2ef3877cedea75",
+  "PGPSIG": "iF4EABYCAAYFAmemBC0ACgkQw1jnDXfq/1TBCQEAgQAaLjN8LZxYZ7N5+9yjm6bAFdh+Q8ol3stfN9gdju4BAKNOvOIs3UTpuROHuRwDF1Hvl/HmkHaPm7vL4PVgVrgC",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738933305",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}
