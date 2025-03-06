@@ -1,0 +1,35 @@
+{
+  "FILENAME": "opencl-clover-mesa-24.3.4-1-x86_64.pkg.tar.zst",
+  "NAME": "opencl-clover-mesa",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "Open-source OpenCL drivers - Clover variant",
+  "CSIZE": "16951967",
+  "ISIZE": "82844099",
+  "MD5SUM": "7aa8c2bc2ff292531826d9c292f9ddbf",
+  "SHA256SUM": "ef6d4308345e50659b937f976d983b0fe7ac94e175807d54afe07e60cf1bdabb",
+  "PGPSIG": "iF4EABYCAAYFAmemAxIACgkQw1jnDXfq/1RN0gD+Inj+KOEhl7EC0JpusJ0+kfopznzU47S2KhHpEEOo9V8BAIOCW1Ei01ppg5trrNNuPWbkAX9XoyQVxnGi5zqNV5gD",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1738933306",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "REPO": "main"
+}

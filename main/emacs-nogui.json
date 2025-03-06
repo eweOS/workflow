@@ -1,0 +1,50 @@
+{
+  "FILENAME": "emacs-nogui-30.1-1-x86_64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.1-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55457093",
+  "ISIZE": "129608183",
+  "MD5SUM": "8c5a977e76ecd304910394702bcdb8c1",
+  "SHA256SUM": "f6067f0102af45035d8050b920facfdde85a7ec455322f67660553fdb6085144",
+  "PGPSIG": "iF4EABYCAAYFAmfGYgAACgkQw1jnDXfq/1TNmQEA78FhTdRUBg2BsP8pa8+saEmEmqWkwJB88u51o6rWl6gBAMK8C2FJeLAKMBBqcu2mFWY8niQaV9eC+fzT+v083sgJ",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1741054514",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}
