@@ -1,0 +1,47 @@
+{
+  "FILENAME": "poppler-25.01.0-1-aarch64.pkg.tar.zst",
+  "NAME": "poppler",
+  "BASE": "poppler",
+  "VERSION": "25.01.0-1",
+  "DESC": "PDF rendering library based on xpdf 3.0",
+  "CSIZE": "1655445",
+  "ISIZE": "5577781",
+  "MD5SUM": "fa594747e1de43a0e5977de79b245ac8",
+  "SHA256SUM": "d0d1700d54019d39386318c62156b334237c8a44291bfbda39dbd6a31caf71b5",
+  "PGPSIG": "iF4EABYCAAYFAme0NGAACgkQw1jnDXfq/1R7nQD/VxgYse3vMDI+gzNVY/xcdST4eWw41ZLmCVAvGFrTWb4A/3x4LnsKjyRAcE6SjtbqVWbGCXo5AGZ6BuXePCpn4q4I",
+  "URL": "https://poppler.freedesktop.org/",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "GPL-3.0-or-later",
+    "LGPL-2.0-or-later",
+    "LGPL-2.1-or-later",
+    "MIT",
+    "HPND-sell-variant"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739863498",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libjpeg",
+    "cairo",
+    "fontconfig",
+    "openjpeg2",
+    "lcms2",
+    "nss",
+    "curl",
+    "gpgme",
+    "nspr",
+    "libpng",
+    "freetype2",
+    "zlib",
+    "libtiff"
+  ],
+  "PROVIDES": [
+    "libpoppler.so",
+    "libpoppler-cpp.so"
+  ],
+  "OPTDEPENDS": [
+    "poppler-data: highly recommended encoding data to display PDF documents with certain encodings and characters"
+  ],
+  "REPO": "main"
+}

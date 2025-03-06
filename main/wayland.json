@@ -1,0 +1,32 @@
+{
+  "FILENAME": "wayland-1.23.1-2-aarch64.pkg.tar.zst",
+  "NAME": "wayland",
+  "BASE": "wayland",
+  "VERSION": "1.23.1-2",
+  "DESC": "A computer display server protocol",
+  "CSIZE": "181263",
+  "ISIZE": "810452",
+  "MD5SUM": "2c778e26a4c15fce92f98db111ef7835",
+  "SHA256SUM": "15b79b5f3d5b1d3eddd0a7940f04ccb5e6e1ba6e794b8cf11194f13f8324c193",
+  "PGPSIG": "iF4EABYCAAYFAmcR9C8ACgkQw1jnDXfq/1Qb8wD/RHp2hak2YZXmMA9tBWEh4Hfz29L2A+y3uJzGYmrNnY8BAMBWcpryhEpUSqKNrA5WneUCinvrasQQkATZt4Ac2ZML",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729229861",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "expat",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libwayland-client.so",
+    "libwayland-cursor.so",
+    "libwayland-egl.so",
+    "libwayland-server.so"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,28 @@
+{
+  "FILENAME": "python-structlog-25.1.0-1-any.pkg.tar.zst",
+  "NAME": "python-structlog",
+  "BASE": "python-structlog",
+  "VERSION": "25.1.0-1",
+  "DESC": "Structured Logging for Python",
+  "CSIZE": "142133",
+  "ISIZE": "697342",
+  "MD5SUM": "b5ef0336742003624373d807fdc7aa41",
+  "SHA256SUM": "c16c88a6a0f7f3122c0d8555797b3743ee72209ed4a7303d672775ef1d211a2a",
+  "PGPSIG": "iF0EABYCAAYFAmesDW4ACgkQw1jnDXfq/1RBWQD48Z5ApbSxIEdFSSf5QOFYI3WlcqWa0iOfSuGzZ20aBAD/ReQaazlkoe2ZtV80iRnlndLeAJU35IrE3w6zgy4Xgws=",
+  "URL": "https://www.structlog.org",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1739329364",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-greenlet: for greenlet support in structlog.threadlocal (deprecated)",
+    "python-twisted: for structlog.twisted",
+    "python-rich: for structlog.dev"
+  ],
+  "REPO": "main"
+}
