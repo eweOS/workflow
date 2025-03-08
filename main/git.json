@@ -1,0 +1,34 @@
+{
+  "FILENAME": "git-2.48.1-1-riscv64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.48.1-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "14296891",
+  "ISIZE": "32918565",
+  "MD5SUM": "909394080a87e5e3ed76ff489f5476d7",
+  "SHA256SUM": "9da0b6a7ac3304af6da54dc3acab6498eaa4ad310b2572a19ce0a07b85af6431",
+  "PGPSIG": "iF4EABYCAAYFAmeHL/YACgkQw1jnDXfq/1S2tQEA992wRlDVPtpNRUFTX9iciCvDbYnpLQnokr/K/7d8SkEBAJ2A1+M9DVd4i+npHcojHmtHLmAyLD4DH2wstHxSHpEI",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1736912548",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "REPO": "main"
+}

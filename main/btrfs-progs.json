@@ -1,0 +1,33 @@
+{
+  "FILENAME": "btrfs-progs-6.13-1-riscv64.pkg.tar.zst",
+  "NAME": "btrfs-progs",
+  "BASE": "btrfs-progs",
+  "VERSION": "6.13-1",
+  "DESC": "Btrfs filesystem utilities",
+  "CSIZE": "1092799",
+  "ISIZE": "4741190",
+  "MD5SUM": "f960504a5f831d03a5c71f94ced54a9b",
+  "SHA256SUM": "8424dd27109d214f9b51ff5cd665f33f3929ae2c32b7aa2acd41d8d1b57f53e1",
+  "PGPSIG": "iF4EABYCAAYFAmeze4kACgkQw1jnDXfq/1SglQD9F/XMWQwXW6lFWhzvYrSvyR72YCAk+Mzj+qvqh/F/z9gA+gPVoFV7NE8ps6Soml8K/KO1PvoieESGZt5FzSkHHmQE",
+  "URL": "https://btrfs.readthedocs.io",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739816147",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "util-linux-libs",
+    "zlib",
+    "zstd",
+    "libgcrypt",
+    "libudev",
+    "lzo"
+  ],
+  "OPTDEPENDS": [
+    "python: libbtrfsutil python bindings",
+    "e2fsprogs: btrfs-convert",
+    "reiserfsprogs: btrfs-convert"
+  ],
+  "REPO": "main"
+}

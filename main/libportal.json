@@ -1,0 +1,36 @@
+{
+  "FILENAME": "libportal-0.9.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libportal",
+  "BASE": "libportal",
+  "VERSION": "0.9.1-1",
+  "DESC": "GIO-style async APIs for most Flatpak portals",
+  "CSIZE": "108088",
+  "ISIZE": "541466",
+  "MD5SUM": "26ba23ac0768bba6d2d8e71aeb6d8930",
+  "SHA256SUM": "00ee6126d03410230fd8e4bb931600f8f3a44540287eb6c292f832972636dfba",
+  "PGPSIG": "iF4EABYCAAYFAmewIS4ACgkQw1jnDXfq/1T07gD/VKw+xOAlnnN2MsmR4J4len4Mma9sUROARLGcNdwd+mEBAJDA8mPTPTH7CNK7ecqseTnZkTpIAJPHrrUHu/Fz/74I",
+  "URL": "https://github.com/flatpak/libportal",
+  "LICENSE": [
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739596293",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so"
+  ],
+  "PROVIDES": [
+    "libportal.so"
+  ],
+  "OPTDEPENDS": [
+    "libportal-docs: API documentation",
+    "libportal-gtk3: GTK 3 backend",
+    "libportal-gtk4: GTK 4 backend",
+    "libportal-qt6: Qt 6 backend",
+    "xdg-desktop-portal: Portal service"
+  ],
+  "REPO": "main"
+}
