@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libkmod-33-2-loongarch64.pkg.tar.zst",
+  "NAME": "libkmod",
+  "BASE": "kmod",
+  "VERSION": "33-2",
+  "DESC": "Linux kernel module management library",
+  "CSIZE": "41619",
+  "ISIZE": "87470",
+  "MD5SUM": "663b8f18499906070c645632a2ee8858",
+  "SHA256SUM": "832d7a07758919659ec1fc6fb4ce0ac424f56fb50f527b4fff3f384d18a51ceb",
+  "PGPSIG": "iF4EABYCAAYFAmdAim8ACgkQw1jnDXfq/1TfJQD/aWdU5U5KjMFPBPspe2YQBLNLP8lCbSSOjD05/sGnHNQBALn0/nYHo3OgNHFkk7wYwZj/OQgq28SGmAOmJtLVFOUH",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "LGPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1732283122",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "zlib",
+    "openssl",
+    "xz",
+    "zstd",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libkmod.so"
+  ],
+  "REPO": "main"
+}

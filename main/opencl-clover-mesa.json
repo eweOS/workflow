@@ -1,0 +1,35 @@
+{
+  "FILENAME": "opencl-clover-mesa-24.3.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "opencl-clover-mesa",
+  "BASE": "mesa",
+  "VERSION": "24.3.4-1",
+  "DESC": "Open-source OpenCL drivers - Clover variant",
+  "CSIZE": "9752682",
+  "ISIZE": "51137883",
+  "MD5SUM": "0fbb90aed4f13544c63498c0fdf8991d",
+  "SHA256SUM": "291d8f5adfd18b9fcd0251b7be8894db245fc3a9ca190f1fd633ea12b6870502",
+  "PGPSIG": "iF4EABYCAAYFAmemBC0ACgkQw1jnDXfq/1S5LQD+KO8VkVPuLOSgBctFoKToqEX5prwWfZLItxl9G1Z4BzwA/RuImTtylTehilzTK6LwFABmvITZrDJB4fUwNsJhAioA",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1738933305",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "REPO": "main"
+}
