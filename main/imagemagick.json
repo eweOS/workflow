@@ -1,0 +1,61 @@
+{
+  "FILENAME": "imagemagick-7.1.1.44-1-aarch64.pkg.tar.zst",
+  "NAME": "imagemagick",
+  "BASE": "imagemagick",
+  "VERSION": "7.1.1.44-1",
+  "DESC": "An image viewing/manipulation program",
+  "CSIZE": "8932023",
+  "ISIZE": "20692284",
+  "MD5SUM": "9fc8bcd48fdde335f106d261f3ab8c68",
+  "SHA256SUM": "9476d498310282efa72d16823514bd65e886143c4f187356cfd4d82e21902a58",
+  "PGPSIG": "iF0EABYCAAYFAme72S0ACgkQw1jnDXfq/1RY1QD2LKnlKNoXMy7gOtJtw4vXCiXzV0b7FfPYwn8Hqx6RSAD/Sov+CkMNP0FDvOemhRbQ2Jz5zhWXbFKpCmjBRo60YQ4=",
+  "URL": "https://www.imagemagick.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1740364218",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "imagemagick-doc"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "cairo",
+    "fftw",
+    "fontconfig",
+    "freetype2",
+    "glib2",
+    "lcms2",
+    "liblqr",
+    "libltdl",
+    "libpng",
+    "libraqm",
+    "libxml2",
+    "libzip",
+    "xz",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libmagick"
+  ],
+  "OPTDEPENDS": [
+    "ghostscript: PS/PDF support",
+    "jbigkit: JBIG support",
+    "libheif: HEIF support",
+    "libjpeg-turbo: JPEG support",
+    "libjxl: JPEG XL support",
+    "libraw: DNG support",
+    "librsvg: SVG support",
+    "libtiff: TIFF support",
+    "libultrahdr: UHDR support",
+    "libwebp: WEBP support",
+    "libwmf: WMF support",
+    "ocl-icd: OpenCL support",
+    "openexr: OpenEXR support",
+    "openjpeg2: JPEG2000 support",
+    "djvulibre: DJVU support",
+    "pango: Text rendering"
+  ],
+  "REPO": "main"
+}

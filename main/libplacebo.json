@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libplacebo-7.349.0-5-aarch64.pkg.tar.zst",
+  "NAME": "libplacebo",
+  "BASE": "libplacebo",
+  "VERSION": "7.349.0-5",
+  "DESC": "Reusable library for GPU-accelerated video/image rendering primitives",
+  "CSIZE": "579064",
+  "ISIZE": "1480216",
+  "MD5SUM": "496008bc859666354322244ac32cd095",
+  "SHA256SUM": "2265a1b4afc5e5285520ee2431ed9096fb2d64a861c5451078c97b2166663fc0",
+  "PGPSIG": "iF4EABYCAAYFAmezUQoACgkQw1jnDXfq/1Q+jAEAtqw3FiwwvZ7Z8nSbyyKgUWwm2kJFiRmOBeUvFaWgD+YBAJwIRQuW3mOC8gh72kYKVaAYw2ky09p6IybX3zwMWY4B",
+  "URL": "https://github.com/haasn/libplacebo",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739805421",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "vulkan-icd-loader",
+    "glslang",
+    "lcms2",
+    "shaderc",
+    "xxhash",
+    "liblcms2.so",
+    "libshaderc_shared.so",
+    "libvulkan.so"
+  ],
+  "PROVIDES": [
+    "libplacebo.so"
+  ],
+  "REPO": "main"
+}

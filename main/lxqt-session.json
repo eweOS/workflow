@@ -1,0 +1,36 @@
+{
+  "FILENAME": "lxqt-session-2.1.1-1-aarch64.pkg.tar.zst",
+  "NAME": "lxqt-session",
+  "BASE": "lxqt-session",
+  "VERSION": "2.1.1-1",
+  "DESC": "The LXQt session manager",
+  "GROUPS": "lxqt",
+  "CSIZE": "230688",
+  "ISIZE": "855913",
+  "MD5SUM": "4e0ca135f120978a3459597949aa8444",
+  "SHA256SUM": "a7e65ddf22c9a8ceaf369e2131b64572a1d9e87aede8ed3c815b27273276fb2a",
+  "PGPSIG": "iF0EABYCAAYFAmdqSI0ACgkQw1jnDXfq/1TncAEAh/0/jxjNZydSXbIzFcGRtY3AwfsqaARy6HCs0mldKHEA+L/rhctdfM4/GHCJL6VlKlVHp4NimfFUzj4VDWsSfQc=",
+  "URL": "https://github.com/lxqt/lxqt-session",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1735018896",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "liblxqt",
+    "qtxdg-tools",
+    "xdg-user-dirs",
+    "libudev",
+    "kwindowsystem",
+    "libQt6Xdg.so",
+    "layer-shell-qt",
+    "libprocps"
+  ],
+  "OPTDEPENDS": [
+    "breeze-icons: Default icon theme",
+    "oxygen-icons: Alternative icon theme",
+    "lxqt-labwc-session: Wayland session"
+  ],
+  "REPO": "main"
+}

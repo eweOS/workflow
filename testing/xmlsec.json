@@ -1,0 +1,36 @@
+{
+  "FILENAME": "xmlsec-1.3.6-1-aarch64.pkg.tar.zst",
+  "NAME": "xmlsec",
+  "BASE": "xmlsec",
+  "VERSION": "1.3.6-1",
+  "DESC": "XML Security Library is a C library based on LibXML2",
+  "CSIZE": "915815",
+  "ISIZE": "5614275",
+  "MD5SUM": "9e7548b21f8c3602c4c429a821a6d2a1",
+  "SHA256SUM": "b0a1252513693216d2e548ea68d4ef96ff8f83202a89a8a756d4b6f457ae7565",
+  "PGPSIG": "iF4EABYCAAYFAmdfuqsACgkQw1jnDXfq/1StXwD/QQw6WdOBKy+VtT7E8SJoND1FDmQ4TIqH4qyrH4+Ov/sA/jcMt5M4/lbzyfU9/1lJaBoc0rhEnlGK9Zr+96vdLLcL",
+  "URL": "https://www.aleksey.com/xmlsec/index.html",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1734327089",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxslt",
+    "openssl",
+    "nss",
+    "libltdl",
+    "libgcrypt",
+    "nspr",
+    "libxml2",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libxmlsec1.so",
+    "libxmlsec1-openssl.so",
+    "libxmlsec1-nss.so",
+    "libxmlsec1-gcrypt.so"
+  ],
+  "REPO": "testing"
+}

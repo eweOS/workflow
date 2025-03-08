@@ -1,0 +1,30 @@
+{
+  "FILENAME": "python-build-1.2.2-2-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.2.2-2",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "55638",
+  "ISIZE": "207058",
+  "MD5SUM": "1ee692213d15cf17f1fdc56f5e5e9e9a",
+  "SHA256SUM": "649d2ba0e48e8bc717ccf06badb0ea329c437f27762f3e482bf18fa4500df764",
+  "PGPSIG": "iF4EABYCAAYFAmdP1zcACgkQw1jnDXfq/1SbcgEAy7yn5MRVKt2wLxa+FbStoia8EbISvurJjbjhFgtxiXQBAKXGruRWiu8s1+Pn6B32/mvmTPKr3FANh5Yist0ljJ0K",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733285887",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "gcr-4-4.3.1-1-aarch64.pkg.tar.zst",
+  "NAME": "gcr-4",
+  "BASE": "gcr-4",
+  "VERSION": "4.3.1-1",
+  "DESC": "A library for bits of crypto UI and parsing",
+  "CSIZE": "632481",
+  "ISIZE": "2903243",
+  "MD5SUM": "4d3150c50df58de7c6638a67b1df5d65",
+  "SHA256SUM": "e4121944ab2232cee79f2ec1d2de670feaddbe5d7c63ee6c21466035023b530b",
+  "PGPSIG": "iF4EABYCAAYFAme1lmcACgkQw1jnDXfq/1TtBAD/YJyMCicJBk+YxcD4N82Gqr+yhAoEuQSqiIA+6yF0LTYBAKJxtEm6A6CdLzCLwJRjEFt61G9P2h2lLWYKDXoGDXkH",
+  "URL": "https://gitlab.gnome.org/GNOME/gcr",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739954216",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libgcrypt",
+    "libp11-kit",
+    "libsecret"
+  ],
+  "PROVIDES": [
+    "libgck-2.so",
+    "libgcr-4.so"
+  ],
+  "OPTDEPENDS": [
+    "gtk4: gcr-viewer-gtk4"
+  ],
+  "REPO": "main"
+}

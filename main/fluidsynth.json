@@ -1,0 +1,35 @@
+{
+  "FILENAME": "fluidsynth-2.4.3-1-aarch64.pkg.tar.zst",
+  "NAME": "fluidsynth",
+  "BASE": "fluidsynth",
+  "VERSION": "2.4.3-1",
+  "DESC": "A real-time software synthesizer based on the SoundFont 2 specifications",
+  "GROUPS": "pro-audio",
+  "CSIZE": "259234",
+  "ISIZE": "567727",
+  "MD5SUM": "0f0f054d4dd44be928c225cfb0bec04d",
+  "SHA256SUM": "95d44243f80ac377f20db1608143359766748f0dd87859cd6e13eedc77e5e1ef",
+  "PGPSIG": "iF4EABYCAAYFAmesFWYACgkQw1jnDXfq/1S8IAD/T7vlTL+MFzQJ+YVVsL6xbt59uYARhOwehdAkN3BHLCYA/ivudIO6YLe8HZEKAY3t17M4F5mMnTGZzAIVvHK6CB8D",
+  "URL": "https://www.fluidsynth.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739331371",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "sdl2",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "PROVIDES": [
+    "libfluidsynth.so",
+    "soundfont-synthesizer"
+  ],
+  "REPO": "main"
+}
