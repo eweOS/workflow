@@ -1,0 +1,44 @@
+{
+  "FILENAME": "gst-plugins-base-1.26.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "gst-plugins-base",
+  "BASE": "gstreamer",
+  "VERSION": "1.26.1-2",
+  "DESC": "GStreamer multimedia framework - base plugins",
+  "CSIZE": "1764312",
+  "ISIZE": "4883304",
+  "MD5SUM": "74e4ec78430fd12755e859731d664e8f",
+  "SHA256SUM": "7b2c4d7b8260168bb863806cb896da50b863a5db42268c580b5503e8bdc6ed42",
+  "PGPSIG": "iF4EABYCAAYFAmgsKcwACgkQw1jnDXfq/1RzZAEAgKr5tZwKLjQ9Te8HvYcxC1Y8Se2ocWRfkBfLFmSmMGkBAIlRIT6diVtUF8PYQHDSkuC6KLRC0XvDmIS7OIZ3sZoO",
+  "URL": "https://gstreamer.freedesktop.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747724356",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gstreamer=1.26.1-2",
+    "libdrm",
+    "libglvnd",
+    "glib",
+    "wayland",
+    "zlib-ng",
+    "alsa-lib",
+    "cairo",
+    "graphene",
+    "harfbuzz",
+    "libjpeg",
+    "libogg",
+    "libopus",
+    "pango",
+    "libpng",
+    "libvorbis",
+    "iso-codes"
+  ],
+  "PROVIDES": [
+    "gst-plugins-base-libs",
+    "gst-plugins-base-libs=1.26.1-2"
+  ],
+  "REPO": "main"
+}

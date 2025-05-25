@@ -1,0 +1,30 @@
+{
+  "FILENAME": "layer-shell-qt-6.3.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "layer-shell-qt",
+  "BASE": "layer-shell-qt",
+  "VERSION": "6.3.5-1",
+  "DESC": "Qt component to allow applications to make use of the Wayland wl-layer-shell protocol",
+  "GROUPS": "plasma",
+  "CSIZE": "39179",
+  "ISIZE": "120404",
+  "MD5SUM": "552c60ae11287312195e67ae2ebe3eab",
+  "SHA256SUM": "940e593b5658c6d022a4b088471acbefac2b5e332b7feef8d801506e4a4be1c9",
+  "PGPSIG": "iF4EABYCAAYFAmgkagAACgkQw1jnDXfq/1R2twEA/6JeRrUSl8c7jRECJ924LYrz47uBUtQ4qrIg43Tj21oBAK9VhQSppIQ59NiOAI85olkh1Ei/C0zd3GfgLS2/ICAB",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747217116",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "REPO": "main"
+}

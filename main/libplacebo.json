@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libplacebo-7.349.0-7-loongarch64.pkg.tar.zst",
+  "NAME": "libplacebo",
+  "BASE": "libplacebo",
+  "VERSION": "7.349.0-7",
+  "DESC": "Reusable library for GPU-accelerated video/image rendering primitives",
+  "CSIZE": "551077",
+  "ISIZE": "1473504",
+  "MD5SUM": "090c9333c675ef611479bc805c3d2dd4",
+  "SHA256SUM": "204cd36556d670da49111cc94d2d54a1c92bdd8b7e8d20ff1e78f61162708652",
+  "PGPSIG": "iF4EABYCAAYFAmfSkIsACgkQw1jnDXfq/1QmVQD9FUb/2n8LWsRTMaufQW0jabhGzv8p8S1iont7v5iV29kBAIU5FPvu1hmk9cTVhTDQ0AAB8UjrljVRsrrjURCUb0QB",
+  "URL": "https://github.com/haasn/libplacebo",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1741852793",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "vulkan-icd-loader",
+    "glslang",
+    "lcms2",
+    "shaderc",
+    "xxhash",
+    "liblcms2.so",
+    "libshaderc_shared.so",
+    "libvulkan.so"
+  ],
+  "PROVIDES": [
+    "libplacebo.so"
+  ],
+  "REPO": "main"
+}

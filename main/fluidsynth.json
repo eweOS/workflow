@@ -1,0 +1,35 @@
+{
+  "FILENAME": "fluidsynth-2.4.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "fluidsynth",
+  "BASE": "fluidsynth",
+  "VERSION": "2.4.5-1",
+  "DESC": "A real-time software synthesizer based on the SoundFont 2 specifications",
+  "GROUPS": "pro-audio",
+  "CSIZE": "247434",
+  "ISIZE": "576140",
+  "MD5SUM": "316c3ce5204bdef3c96fb4e7ff703756",
+  "SHA256SUM": "e2d8b8cc5dc8926f4ebd78b37c0bc6da8b3972a23517a181c060f4415f5daf58",
+  "PGPSIG": "iF4EABYCAAYFAmgAhA0ACgkQw1jnDXfq/1Qv7QEAsKdTvxMkLrT/Rig+YW9weGfsPhMY9/jxIcju4RBD6IABAJ9ECkatvV2uBcoha4XjPBgWj90zXMNKZqBzrljRmeoN",
+  "URL": "https://www.fluidsynth.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1744864423",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "sdl2",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "PROVIDES": [
+    "libfluidsynth.so",
+    "soundfont-synthesizer"
+  ],
+  "REPO": "main"
+}

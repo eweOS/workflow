@@ -1,0 +1,46 @@
+{
+  "FILENAME": "python-3.13.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "python",
+  "BASE": "python",
+  "VERSION": "3.13.3-1",
+  "DESC": "The Python programming language",
+  "CSIZE": "16467043",
+  "ISIZE": "70334671",
+  "MD5SUM": "ca1a2c9f4a459ca53efccb8d01766380",
+  "SHA256SUM": "9287d4df179e007be162d11e4e64a80ac4f05ede2cb656fbb4e528f0a68eb628",
+  "PGPSIG": "iF4EABYCAAYFAmf8wAcACgkQw1jnDXfq/1QQTQEAiH18xNgcJcNnkVLqv0C5KQpTEEwB+IcTtcADuU0uTyMBALBDD2pSzfLpxsDy+XWYPB9UUb0XJEvEBOVPEVq5ujcL",
+  "URL": "http://www.python.org",
+  "LICENSE": [
+    "PSF-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1744617424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "DEPENDS": [
+    "libffi",
+    "ncurses",
+    "expat",
+    "openssl",
+    "readline",
+    "sqlite",
+    "mpdecimal"
+  ],
+  "PROVIDES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: for building Python packages using tooling that is usually bundled with Python",
+    "python-pip: for installing Python packages using tooling that is usually bundled with Python",
+    "python-pipx: for installing Python software not packaged on Arch Linux",
+    "sqlite: for a default database integration",
+    "mpdecimal: for decimal",
+    "xz: for lzma",
+    "tk: for tkinter"
+  ],
+  "REPO": "main"
+}

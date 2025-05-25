@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mesa-25.1.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "An open-source implementation of the OpenGL specification",
+  "CSIZE": "9582943",
+  "ISIZE": "35733915",
+  "MD5SUM": "9c37fe138c46c4ac42090fb9d85b1794",
+  "SHA256SUM": "ce017e57ba61832c2ff231f24ce467cc718de25ed73ad030af6f971ce4945108",
+  "PGPSIG": "iF4EABYCAAYFAmgjYyMACgkQw1jnDXfq/1T8VwD/fzcP/tNuz0z8sb05oRnMuWLE6HCv2+Q4o4jdLcvEVVkBAIXZGU/Pi9vi2NZXj1ooh+xp9U9Kc5XuBBYN9RQn2K8G",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747149424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "libva-mesa-driver"
+  ],
+  "DEPENDS": [
+    "libglvnd",
+    "libelf",
+    "zstd",
+    "libdrm",
+    "llvm",
+    "spirv-tools"
+  ],
+  "CONFLICTS": [
+    "libva-mesa-driver"
+  ],
+  "PROVIDES": [
+    "libva-mesa-driver",
+    "mesa-libgl",
+    "libva-driver",
+    "opengl-driver"
+  ],
+  "REPO": "main"
+}

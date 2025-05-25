@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-intel-25.1.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-intel",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for Intel GPUs",
+  "CSIZE": "5783366",
+  "ISIZE": "31011506",
+  "MD5SUM": "164d9d054923459bce87bc0e6ea749c4",
+  "SHA256SUM": "70c4a13235ec30fea2f5edf342f08879cd12f4099148fcad35bf1d0fae7a51a8",
+  "PGPSIG": "iF4EABYCAAYFAmgjYyMACgkQw1jnDXfq/1QwxwEA9B7AHToms1rJtUwGbsLaF1nGl2c9fT7yF3a5qXLhHeYBAKW2ThrJ0XNGzLP29aHtHd6MS8Uo/mtbEOG8Oitb7oIL",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747149424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

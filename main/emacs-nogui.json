@@ -1,0 +1,35 @@
+{
+  "FILENAME": "emacs-nogui-30.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.1-2",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55437300",
+  "ISIZE": "129621695",
+  "MD5SUM": "98618f3fd7e9c3863f71cfe5a2bb9afe",
+  "SHA256SUM": "e231df7dab32ad8f9c9b0ed910d761733f920a731896152df06b51a8085c7c6c",
+  "PGPSIG": "iF4EABYCAAYFAmgsKmMACgkQw1jnDXfq/1TbPwD/S/ReIQ2guLTICWqElmcSdO56rmCT3+wyzUNHkn+29+AA/iTE/ExpNcvMMLM0+QZO0OZmVlkSgqtOycGiyQ9LXT0A",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747724771",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

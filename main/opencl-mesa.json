@@ -1,0 +1,41 @@
+{
+  "FILENAME": "opencl-mesa-25.1.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "opencl-mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source OpenCL drivers",
+  "CSIZE": "5587968",
+  "ISIZE": "20153254",
+  "MD5SUM": "5f05c689f8856aadff6836b128180f21",
+  "SHA256SUM": "509ff6eafdd1fbd3ace2897d85996edd2596e42f6886f634f61bbcb970081274",
+  "PGPSIG": "iF4EABYCAAYFAmgjYyMACgkQw1jnDXfq/1QebgEA8N1Tlyp99mZySzxFkYdGjIgeJWUMWS+nthf5Q92ysYMA/0U4mrLORLTUGaEAWnXs1evu91QmQUo8I7/LcsKPRX4N",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747149424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "opencl-clover-mesa"
+  ],
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "CONFLICTS": [
+    "opencl-clover-mesa"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "REPO": "main"
+}

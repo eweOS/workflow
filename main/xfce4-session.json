@@ -1,0 +1,32 @@
+{
+  "FILENAME": "xfce4-session-4.20.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "xfce4-session",
+  "BASE": "xfce4-session",
+  "VERSION": "4.20.2-1",
+  "DESC": "Xfce's session manager",
+  "GROUPS": "xfce4",
+  "CSIZE": "393661",
+  "ISIZE": "1421091",
+  "MD5SUM": "62eee6e116158ac8c1b82aa27a125959",
+  "SHA256SUM": "f8253c2dea37689b004097195c529c4d676c55b069c188dd08203eb73ac0a82d",
+  "PGPSIG": "iF4EABYCAAYFAmf9+IQACgkQw1jnDXfq/1QH6AEAyedy90y6RXax01kadG/NhoA+3rZkI5jZVK0vN+wXcmwBALkaRjOK5sWw23JS3V/9S+L6JeGc8oAO4tFDhvsx6O8D",
+  "URL": "https://docs.xfce.org/xfce/xfce4-session/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1744697624",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxfce4ui",
+    "xfconf",
+    "hicolor-icon-theme",
+    "libxfce4windowing"
+  ],
+  "OPTDEPENDS": [
+    "gnome-keyring: for keyring support when GNOME compatibility is enabled",
+    "xfce4-screensaver: for locking screen with xflock4",
+    "light-locker: for locking screen with xflock4"
+  ],
+  "REPO": "main"
+}

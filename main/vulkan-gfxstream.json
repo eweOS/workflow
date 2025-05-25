@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-gfxstream-25.1.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-gfxstream",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for Graphics Streaming Kit",
+  "CSIZE": "438430",
+  "ISIZE": "1682974",
+  "MD5SUM": "07ba8a14d5c7884f1f13941ba8fc5ce6",
+  "SHA256SUM": "a62facc32dbc3040f61663f27c196b57fcd191bbbac4836238e31a985ff8eadb",
+  "PGPSIG": "iF4EABYCAAYFAmgjYyMACgkQw1jnDXfq/1TZHwEAheYbkIVTqNg94Hyl+BOJ1wyEJ6G2ULlK37ylQx/DN8ABAPrMnkA0B5Fb9ohD9fMGJTRhcLh1DWSNlYeuvJeQHQ0F",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747149424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}
