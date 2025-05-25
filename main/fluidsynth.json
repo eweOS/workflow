@@ -1,0 +1,35 @@
+{
+  "FILENAME": "fluidsynth-2.4.5-1-x86_64.pkg.tar.zst",
+  "NAME": "fluidsynth",
+  "BASE": "fluidsynth",
+  "VERSION": "2.4.5-1",
+  "DESC": "A real-time software synthesizer based on the SoundFont 2 specifications",
+  "GROUPS": "pro-audio",
+  "CSIZE": "257202",
+  "ISIZE": "569604",
+  "MD5SUM": "9dbad2521ab9826aafae5122417aa1d0",
+  "SHA256SUM": "9c44d555b55df543af40c0024ce64e08ede545cda4a88206f044a6e14236cfb0",
+  "PGPSIG": "iF4EABYCAAYFAmgAhDcACgkQw1jnDXfq/1Q7bQEA8vkBpk+ymhnMQozevhy3JUPRz/O47FDLN0uMxtAEiGUBALZdaHxrAw3H9rr0Sb8R6Ddi3Kke5TNxKdAqq1g6yvMH",
+  "URL": "https://www.fluidsynth.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1744864423",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "sdl2",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "PROVIDES": [
+    "libfluidsynth.so",
+    "soundfont-synthesizer"
+  ],
+  "REPO": "main"
+}

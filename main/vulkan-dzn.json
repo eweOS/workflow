@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-dzn-25.1.0-1-x86_64.pkg.tar.zst",
+  "NAME": "vulkan-dzn",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for D3D12",
+  "CSIZE": "3375866",
+  "ISIZE": "22369920",
+  "MD5SUM": "3684215dae92fe6c6387ccda10a4cb16",
+  "SHA256SUM": "536e0321d65acaa8e59869e0dba903695b261fa3573ade330e359e7c52e7fe19",
+  "PGPSIG": "iF4EABYCAAYFAmgjYh4ACgkQw1jnDXfq/1QbGQEA2Mi+IYwvvh9EUIq//oA8tHt/rNKB0+Thz1KsgiPak0kA/2EB/DTUWrdhmvPc98oOoBAwo7SnePTAetJGZKyDVbYC",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747149434",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "llvm-tools-20.1.4-4-x86_64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "26526532",
+  "ISIZE": "86591528",
+  "MD5SUM": "cca850acbb398d57c068849b7e00273e",
+  "SHA256SUM": "ca348430c6bf0e4d52b8235128687ba2f61760bb112a9a313070d690e4bdc0cc",
+  "PGPSIG": "iF4EABYCAAYFAmgkG9sACgkQw1jnDXfq/1Q3HwD+OIfrez9pFRHTpe3eojaP9MzwqgClP5f1J2RjpsKYjG0BAIjssJov1CeuCd/08DeYtB6J0joXLCeqBfilocru33wI",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747193966",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}

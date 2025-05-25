@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-swrast-25.1.0-1-x86_64.pkg.tar.zst",
+  "NAME": "vulkan-swrast",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for CPUs (Software Rasterizer)",
+  "CSIZE": "2111816",
+  "ISIZE": "9986336",
+  "MD5SUM": "906fca66fa7b83bffb9252299821457a",
+  "SHA256SUM": "da3563a1ac7be1c27a683c8aa01e532c3433f4604c2d5a77fed6d7c3fec5741a",
+  "PGPSIG": "iF4EABYCAAYFAmgjYh4ACgkQw1jnDXfq/1S3ggEAmgUynS4cS4r358RilFDrrJE4Cl7xX4SPuTno6v/FIRgBAIo392ge91hUlPRQsZUKokVHVsftzpNPRWIcASQOnuUE",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747149434",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "pipewire-1.4.2-1-x86_64.pkg.tar.zst",
+  "NAME": "pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.4.2-1",
+  "DESC": "Low-latency audio/video router and processor",
+  "CSIZE": "2420458",
+  "ISIZE": "7460206",
+  "MD5SUM": "a9dd6a30682e18f5f34265fe1c95531f",
+  "SHA256SUM": "d619e7727650fb1f5da33c085aee28a8f40dba37312fa1cb208303feb6f119a1",
+  "PGPSIG": "iF4EABYCAAYFAmgBDFwACgkQw1jnDXfq/1Q40QD7Bwp6o2JCWxfWTiYNLk6Qmh0N45gN5av7xci7FsAGFUcBAK8LvaOhKnPbmuvxPRfvslt3gHKSRqA5Kla5gQ8FDnUM",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1744899219",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpipewire=:1.4.2-1",
+    "alsa-lib",
+    "dbus",
+    "glib",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "REPO": "main"
+}
