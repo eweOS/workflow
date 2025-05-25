@@ -1,0 +1,37 @@
+{
+  "FILENAME": "harfbuzz-11.2.1-1-aarch64.pkg.tar.zst",
+  "NAME": "harfbuzz",
+  "BASE": "harfbuzz",
+  "VERSION": "11.2.1-1",
+  "DESC": "OpenType text shaping engine",
+  "CSIZE": "984850",
+  "ISIZE": "3664007",
+  "MD5SUM": "c5093815cc66bfe56f6cbbc58f25977e",
+  "SHA256SUM": "460d3dbf5b379c9fa087e92eeafb6992f8de778c669c7683c9018fe765720eb6",
+  "PGPSIG": "iF4EABYCAAYFAmgkRVwACgkQw1jnDXfq/1R8GwD/bEi/qLcwN8dc9TGf+CaLUWsUCyM276GIwzhLFPbhRh0A/RZv1dCez+R/wbNTMJbv3fXWDrjAFS8VyVIsKam1FhIJ",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747207591",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "freetype2",
+    "graphite",
+    "libfreetype.so",
+    "libgraphite2.so",
+    "libglib-2.0.so",
+    "libgobject-2.0.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz.so",
+    "libharfbuzz-subset.so",
+    "libharfbuzz-gobject.so"
+  ],
+  "OPTDEPENDS": [
+    "harfbuzz-utils: utilities"
+  ],
+  "REPO": "main"
+}

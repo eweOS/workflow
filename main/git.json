@@ -1,0 +1,34 @@
+{
+  "FILENAME": "git-2.49.0-1-aarch64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.49.0-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "15994075",
+  "ISIZE": "39624998",
+  "MD5SUM": "f84bd5473ecc31ddf1eebc1a5ab11c15",
+  "SHA256SUM": "df132f2430fd2acae0f98357b98af24b1bbbcd70da71a485d3267b41561610cc",
+  "PGPSIG": "iF4EABYCAAYFAmfZKUQACgkQw1jnDXfq/1RHDQD/WP3xlW0Y2HSADiB8vEoNQ5+ZzsspekrFxtWMcRUuyeoBAMsVaWjUPMi2i0JUuQWLXPvmFcMyPdVIrD+bWnMbOYIJ",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1742285099",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "REPO": "main"
+}

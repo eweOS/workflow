@@ -1,0 +1,35 @@
+{
+  "FILENAME": "emacs-nogui-30.1-2-aarch64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.1-2",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55455987",
+  "ISIZE": "129620079",
+  "MD5SUM": "7d37db2eb00a37272da442300a0c51b1",
+  "SHA256SUM": "a597f4dc7855ed8be8940ceab06ca178fdc49c091544fd6e59c07f1d09b318d3",
+  "PGPSIG": "iF4EABYCAAYFAmgsKioACgkQw1jnDXfq/1R5JAEA+GtoRndK0pxq98yyfv7zii2LRMP8QKqTQ5DZbG+9TEkA/iv/ocL24/sv14n3K//UZE3nFgb72VJ0nw00DPcLRXsG",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747724759",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

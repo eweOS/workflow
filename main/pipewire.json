@@ -1,0 +1,35 @@
+{
+  "FILENAME": "pipewire-1.4.2-1-aarch64.pkg.tar.zst",
+  "NAME": "pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.4.2-1",
+  "DESC": "Low-latency audio/video router and processor",
+  "CSIZE": "2287608",
+  "ISIZE": "7287254",
+  "MD5SUM": "1593648f35d3c4ba3a52e5c60e57a4bd",
+  "SHA256SUM": "97f445934a43b93e029520ef988546c5402d5de2c88871c536b4df39b3394830",
+  "PGPSIG": "iF4EABYCAAYFAmgBDDQACgkQw1jnDXfq/1TTbgD+NwpCvz6/E37ND+QIECRiajM3+6WtMKzOFXpeUwY9GBMBAI+ANDFcgatKor0O225IJ4/+eIigTpSe2KvrrbSJojAJ",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1744899212",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpipewire=:1.4.2-1",
+    "alsa-lib",
+    "dbus",
+    "glib",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "REPO": "main"
+}

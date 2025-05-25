@@ -1,0 +1,39 @@
+{
+  "FILENAME": "sane-1.3.1-2-aarch64.pkg.tar.zst",
+  "NAME": "sane",
+  "BASE": "sane",
+  "VERSION": "1.3.1-2",
+  "DESC": "Scanner Access Now Easy",
+  "CSIZE": "4135975",
+  "ISIZE": "16218878",
+  "MD5SUM": "159faee72def1d270896e6d4bec55417",
+  "SHA256SUM": "d5d8d42291b77fd40114bed0ffff3791db08d8c95ada191ccfc48c5eb555b3fb",
+  "PGPSIG": "iF4EABYCAAYFAmgrATMACgkQw1jnDXfq/1TTiAEA7EiZ49jzlcwYXBtKODgEALIl4seePs0+L0Qi7jEvGk0A/3K27XmI7zEmWQFl456CiU6TcXmlKgYvKD6ZYEdnyJIB",
+  "URL": "https://gitlab.com/sane-project/backends",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LicenseRef-GPL-2.0-or-later-with-linking-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747649064",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "cairo",
+    "libpng",
+    "curl",
+    "glib2",
+    "libjpeg-turbo",
+    "libtiff",
+    "libusb",
+    "libxml2",
+    "poppler-glib"
+  ],
+  "PROVIDES": [
+    "libsane.so"
+  ],
+  "OPTDEPENDS": [
+    "sane-airscan: for scanners working in driverless mode"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "opencl-mesa-25.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "opencl-mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source OpenCL drivers",
+  "CSIZE": "7206150",
+  "ISIZE": "24366142",
+  "MD5SUM": "f40b50f6894190a87abf3ebd7c52c2b4",
+  "SHA256SUM": "ef3f67eba146a5b254144149c3dfa0786fd12babfb7a8a20a7a55772af2b781b",
+  "PGPSIG": "iF4EABYCAAYFAmgjYkIACgkQw1jnDXfq/1SAoAD/UTdd7zuqOZ/SAqEvR0uNbeZh5Q1g96Nh3oCcnt6FUuYBAOVAfuexWIlot2OQjpj3H7hVQR2ZEmaZIkRsgHzoTlQL",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747149435",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "opencl-clover-mesa"
+  ],
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "CONFLICTS": [
+    "opencl-clover-mesa"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "REPO": "main"
+}

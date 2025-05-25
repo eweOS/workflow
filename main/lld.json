@@ -1,0 +1,30 @@
+{
+  "FILENAME": "lld-20.1.4-4-aarch64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "a drop-in replacement for the GNU linkers by LLVM project.",
+  "CSIZE": "4577256",
+  "ISIZE": "19503787",
+  "MD5SUM": "b8ad2a5eb3f3429bc3ac7a8295e300bb",
+  "SHA256SUM": "307662bc14d03a9abc40803e06af2bd3d9e84202d0366b0fb11f03f75090ff11",
+  "PGPSIG": "iF4EABYCAAYFAmgkInIACgkQw1jnDXfq/1T90gEAypjWFhnzyu9fmve+DnWwS+DwLtpZeLqWXXypZPzlrmMA/0lJO/0IOmWV4mfNpzTH7gPAMQb0Cr1+gbhLuplNsN4P",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747193970",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "REPO": "main"
+}

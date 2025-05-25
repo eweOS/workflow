@@ -1,0 +1,51 @@
+{
+  "FILENAME": "hyprland-0.49.0-1-aarch64.pkg.tar.zst",
+  "NAME": "hyprland",
+  "BASE": "hyprland",
+  "VERSION": "0.49.0-1",
+  "DESC": "A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.",
+  "CSIZE": "50736610",
+  "ISIZE": "61581877",
+  "MD5SUM": "cf779f1244d411760eb21fcee49820d7",
+  "SHA256SUM": "e2805d0fbaf9373034c4b32ff835fb667d9cfe8f55facc73c3f17ad0aaa4337e",
+  "PGPSIG": "iF4EABYCAAYFAmgkY4IACgkQw1jnDXfq/1RnxQEAgueplHrDiNH6P6E73P0myVESkUrW+SeqO+/od0HQjIABAMVrmtUo/sVIObg44g2YvBKHDaU7DTjSzVFnbJm4/GsG",
+  "URL": "https://github.com/hyprwm/Hyprland",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747215341",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pixman",
+    "wayland-protocols",
+    "libdisplay-info",
+    "cairo",
+    "pango",
+    "libinput",
+    "libxkbcommon",
+    "pixman",
+    "wayland",
+    "seatd",
+    "tomlplusplus",
+    "libdrm",
+    "vulkan-icd-loader",
+    "libegl",
+    "hyprcursor",
+    "hyprutils",
+    "glslang",
+    "aquamarine",
+    "libxcurcommon-compat",
+    "hyprgraphics",
+    "re2"
+  ],
+  "OPTDEPENDS": [
+    "cmake: to build and install plugins using hyprpm",
+    "cpio: to build and install plugins using hyprpm",
+    "glaze: to build and install plugins using hyprpm",
+    "hyprland-protocols: to build and install plugins using hyprpm",
+    "meson: to build and install plugins using hyprpm",
+    "uwsm: the recommended way to start Hyprland"
+  ],
+  "REPO": "main"
+}

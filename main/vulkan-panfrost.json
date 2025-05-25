@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-panfrost-25.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-panfrost",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for Mali-GPUs",
+  "CSIZE": "1712863",
+  "ISIZE": "9813549",
+  "MD5SUM": "49ca8b932c7741881ba0a8ff8edb527f",
+  "SHA256SUM": "93dfb1e80d4af21966bfbfb32b3dc5282052baa9b07d7f864839aacba5b58969",
+  "PGPSIG": "iF4EABYCAAYFAmgjYkIACgkQw1jnDXfq/1RIpQD/fORM2oKziqop/g1gBht6GYfbuRuMee7e44REO53m1pYBAIj6YlaDTEelNTiaXhCUXHGmA0gly+peVbHPEyepLI8L",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747149435",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

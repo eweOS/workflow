@@ -1,0 +1,29 @@
+{
+  "FILENAME": "llvm-20.1.4-4-aarch64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "LLVM Compiler infrastructure and runtime library.",
+  "CSIZE": "32414126",
+  "ISIZE": "110914732",
+  "MD5SUM": "87b3026d08f510c1c4e675491c74a223",
+  "SHA256SUM": "a2b62d4c0d3ae5f0be6ba2af215780f9f662e8b306698bcc5e286143e2cd4b8a",
+  "PGPSIG": "iF4EABYCAAYFAmgkInMACgkQw1jnDXfq/1Su3QD+ItJWeLYmMMM+NiLnq38ZVaPYaFIQZMiOIAdNZ4O6unoBAIDq0xKtFkut3OGjOcSrs6OVizrxoP3LO8ZMyd94bJ4N",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747193970",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

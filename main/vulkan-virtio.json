@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-virtio-25.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-virtio",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for Virtio-GPU (Venus)",
+  "CSIZE": "443766",
+  "ISIZE": "1233075",
+  "MD5SUM": "1d1f88f14d9c50d8f6fa27f8644547ff",
+  "SHA256SUM": "620de8c71907f4b0d58013e1a663a93365ab4c5afbe7a769b6a8cde72d8c1b98",
+  "PGPSIG": "iF4EABYCAAYFAmgjYkIACgkQw1jnDXfq/1TpTgD/cJeA+BCHpOKT/cFih9sJO3juXbiu38hSiTI7SVCBRxABAOCBBHjAUZdFXVIsa8ex2A9zMK6l/thXuEhxSqQkHUQN",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747149435",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

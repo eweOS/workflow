@@ -1,0 +1,35 @@
+{
+  "FILENAME": "raptor-2.0.16-1-aarch64.pkg.tar.zst",
+  "NAME": "raptor",
+  "BASE": "raptor",
+  "VERSION": "2.0.16-1",
+  "DESC": "A C library that parses RDF/XML/N-Triples into RDF triples",
+  "CSIZE": "370310",
+  "ISIZE": "2067777",
+  "MD5SUM": "efd92d8467bc32aee35f6f309fa3357c",
+  "SHA256SUM": "2ed5c4e7c70b4dfe23d06c82cc490c8d14fc9023d51e3c20e52d862ec9789c53",
+  "PGPSIG": "iF4EABYCAAYFAmdf+ugACgkQw1jnDXfq/1TE0gD/RvGxQIIvUo/ivsv+tuIR0aHH6BbtMg3y0YLSLOw6XsQBAI70tLujJ9tvXHKbtv55L1/G2cZkt+rsXWvEcFH/LtMN",
+  "URL": "https://librdf.org/raptor",
+  "LICENSE": [
+    "Apache",
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1734343590",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxml2",
+    "libxslt",
+    "xz",
+    "zlib",
+    "curl",
+    "libcurl.so",
+    "icu",
+    "libicuuc.so"
+  ],
+  "PROVIDES": [
+    "libraptor2.so"
+  ],
+  "REPO": "testing"
+}

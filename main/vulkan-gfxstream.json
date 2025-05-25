@@ -1,0 +1,36 @@
+{
+  "FILENAME": "vulkan-gfxstream-25.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-gfxstream",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source Vulkan driver for Graphics Streaming Kit",
+  "CSIZE": "472000",
+  "ISIZE": "1838206",
+  "MD5SUM": "c7769b4af0c1de59ac4e934cdacda344",
+  "SHA256SUM": "d688eaffff41b3ca2602b697e9873f1a9ea54b03312cb22945998ad6a8c9fc4e",
+  "PGPSIG": "iF4EABYCAAYFAmgjYkIACgkQw1jnDXfq/1RwrQD+OB/5S+qwDxcdPEYzkhXpC5LamveytZu5l4bIJ4D5qhcA/3NdJFBB1yJR4quCBkS5/ELrUy2ycuykU7u62VFg7pIE",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747149435",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "REPO": "main"
+}

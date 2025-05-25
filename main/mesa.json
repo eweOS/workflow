@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mesa-25.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "An open-source implementation of the OpenGL specification",
+  "CSIZE": "12507936",
+  "ISIZE": "43516787",
+  "MD5SUM": "922da49893d4fb90a3fff15945e432ac",
+  "SHA256SUM": "e6a4bc31ddb05b667220beb073a2f6d9ebdfdaf1038626d0298c926dc9ad3b52",
+  "PGPSIG": "iF4EABYCAAYFAmgjYkIACgkQw1jnDXfq/1RBkAD9FaF6GRbZSGIEKzbsrwxCxyi7ttf2DAP5IENzIbx2TeAA/jibhCkicqdEJdi3pvG0msEquUNqZqlWq8r08QV/y7cA",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747149435",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "libva-mesa-driver"
+  ],
+  "DEPENDS": [
+    "libglvnd",
+    "libelf",
+    "zstd",
+    "libdrm",
+    "llvm",
+    "spirv-tools"
+  ],
+  "CONFLICTS": [
+    "libva-mesa-driver"
+  ],
+  "PROVIDES": [
+    "libva-mesa-driver",
+    "mesa-libgl",
+    "libva-driver",
+    "opengl-driver"
+  ],
+  "REPO": "main"
+}

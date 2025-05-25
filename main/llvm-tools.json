@@ -1,0 +1,36 @@
+{
+  "FILENAME": "llvm-tools-20.1.4-4-aarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "25719463",
+  "ISIZE": "82919416",
+  "MD5SUM": "1a07c9d96e2a95f2de245084f95b5102",
+  "SHA256SUM": "dfc0b4353195c291205513b22c2ddc12905c99d2a2f15c78db4e5631ed87f530",
+  "PGPSIG": "iF4EABYCAAYFAmgkInMACgkQw1jnDXfq/1SORgEAzUxC6A0hKwPijGMCQ8jDe7UNQaBooveNqgx6R/+0zpoA/jZpbrZ7kgqjw3QFbLElU6Unsddrd3zKzu0vans7MdoL",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747193970",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}
