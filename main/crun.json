@@ -1,0 +1,29 @@
+{
+  "FILENAME": "crun-1.21-1-riscv64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.21-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "258261",
+  "ISIZE": "541909",
+  "MD5SUM": "772f676835ae218fef5c7b11225e9284",
+  "SHA256SUM": "233bf069b68578f090e310f5a634d3ff0225880ecfe213bea44ca26c6f989da2",
+  "PGPSIG": "iF4EABYCAAYFAmgmCB8ACgkQw1jnDXfq/1QNPgD+NgkO2K4aRK6DOjEbP4CwC7sh9dgoKy9u+09K+OXW6IoBAPb+fGDEg6AACYjzoM2qyVGRuU8Vjot5lbeS34bV2IgH",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747322995",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "yajl",
+    "libcap",
+    "libseccomp",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "REPO": "main"
+}

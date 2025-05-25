@@ -1,0 +1,61 @@
+{
+  "FILENAME": "imagemagick-7.1.1.47-2-riscv64.pkg.tar.zst",
+  "NAME": "imagemagick",
+  "BASE": "imagemagick",
+  "VERSION": "7.1.1.47-2",
+  "DESC": "An image viewing/manipulation program",
+  "CSIZE": "9075521",
+  "ISIZE": "20026666",
+  "MD5SUM": "f0e64f6620586a06c5259f491976f496",
+  "SHA256SUM": "9e7949a44faf38671e3b6581b8932f0d844b154d44a5aee448c1fcfd675801b0",
+  "PGPSIG": "iF0EABYCAAYFAmgsNNkACgkQw1jnDXfq/1Qu9gD46kp0ThQ+Ftz1aiU/pdCstmD+6ufZYulsXNNaiIHlwwEAqUQ2pXy8rqho/I74+bUAYkdIa6VuWl4ikdXxlgSCaws=",
+  "URL": "https://www.imagemagick.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747726787",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "imagemagick-doc"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "cairo",
+    "fftw",
+    "fontconfig",
+    "freetype2",
+    "glib2",
+    "lcms2",
+    "liblqr",
+    "libltdl",
+    "libpng",
+    "libraqm",
+    "libxml2",
+    "libzip",
+    "xz",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libmagick"
+  ],
+  "OPTDEPENDS": [
+    "ghostscript: PS/PDF support",
+    "jbigkit: JBIG support",
+    "libheif: HEIF support",
+    "libjpeg-turbo: JPEG support",
+    "libjxl: JPEG XL support",
+    "libraw: DNG support",
+    "librsvg: SVG support",
+    "libtiff: TIFF support",
+    "libultrahdr: UHDR support",
+    "libwebp: WEBP support",
+    "libwmf: WMF support",
+    "ocl-icd: OpenCL support",
+    "openexr: OpenEXR support",
+    "openjpeg2: JPEG2000 support",
+    "djvulibre: DJVU support",
+    "pango: Text rendering"
+  ],
+  "REPO": "main"
+}

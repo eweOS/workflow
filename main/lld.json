@@ -1,0 +1,30 @@
+{
+  "FILENAME": "lld-20.1.4-4-riscv64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "a drop-in replacement for the GNU linkers by LLVM project.",
+  "CSIZE": "6692429",
+  "ISIZE": "30765053",
+  "MD5SUM": "3470e1bda8746a915ad82cc0d83fbac6",
+  "SHA256SUM": "4fc19eef570570a0ade8c0e99756acf54b60f92eb6bec8dc480d64caf6afdfdb",
+  "PGPSIG": "iF4EABYCAAYFAmglPrYACgkQw1jnDXfq/1T5XAEAkAetnQ6sebyd/YbI7ajg/k8JhJM9fUfsLMvePOq/wgoA+wWnXFotJcxCd/AOyhFLI2GOUcx+Q6Gs+70QssDfy6MD",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747194228",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "REPO": "main"
+}

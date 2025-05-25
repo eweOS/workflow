@@ -1,0 +1,51 @@
+{
+  "FILENAME": "networkmanager-1.52.0-2-riscv64.pkg.tar.zst",
+  "NAME": "networkmanager",
+  "BASE": "networkmanager",
+  "VERSION": "1.52.0-2",
+  "DESC": "Network connection manager and user applications",
+  "CSIZE": "3996088",
+  "ISIZE": "13524740",
+  "MD5SUM": "fc833bcc0fa54be35db81595817d154c",
+  "SHA256SUM": "8f784bdee63bedb583e1eed57e3199a3158dfe69be2e49a226feb8769bb098b5",
+  "PGPSIG": "iF4EABYCAAYFAmgfbA0ACgkQw1jnDXfq/1S/igEAlt5+HQ+vbpbui8UwHkPivnPWa6psq3LnA8QMrdrTm8IA/RCpwkB7gyEcpxcV9rxf6TPSip5l3rQS/bXTb7r40uQE",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1746887582",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "glib2",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnm",
+    "libpsl",
+    "libudev",
+    "mobile-broadband-provider-info",
+    "nspr",
+    "nss",
+    "readline"
+  ],
+  "OPTDEPENDS": [
+    "bluez: Bluetooth support",
+    "dhclient: alternative DHCP client",
+    "dhcpcd: alternative DHCP client",
+    "dnsmasq: connection sharing",
+    "firewalld: firewall support",
+    "iptables: connection sharing",
+    "iwd: wpa_supplicant alternative",
+    "modemmanager: cellular network support",
+    "nftables: connection sharing",
+    "openresolv: alternative resolv.conf manager",
+    "pacrunner: PAC proxy support",
+    "polkit: let non-root users control networking",
+    "ppp: dialup connection support",
+    "wpa_supplicant: wireless connection support"
+  ],
+  "REPO": "main"
+}

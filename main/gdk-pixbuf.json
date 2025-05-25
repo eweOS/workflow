@@ -1,0 +1,40 @@
+{
+  "FILENAME": "gdk-pixbuf-2.42.12-2-riscv64.pkg.tar.zst",
+  "NAME": "gdk-pixbuf",
+  "BASE": "gdk-pixbuf",
+  "VERSION": "2.42.12-2",
+  "DESC": "A library that loads image data in various formats",
+  "CSIZE": "587852",
+  "ISIZE": "2886179",
+  "MD5SUM": "b68b3cffbfc2f22a5ce8a72901df40e8",
+  "SHA256SUM": "6eb5a0fd1e32d8fffde45f2b048c150130ae034084aee8110c8c5295efd066a3",
+  "PGPSIG": "iF4EABYCAAYFAmcSKuIACgkQw1jnDXfq/1RqhQEA+EBZpyM6ebR1VGclsEXUWg/I0PTFt1TADTGl4LQiH2QBALJgHFZTeznhLNoNWgBBRytnuCTRXna0eLPQtcW/PlAB",
+  "URL": "https://wiki.gnome.org/Projects/GdkPixbuf",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729243795",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "libpng",
+    "shared-mime-info",
+    "libtiff",
+    "libjpeg"
+  ],
+  "PROVIDES": [
+    "gdk-pixbuf2",
+    "libgdk_pixbuf-2.0.so"
+  ],
+  "OPTDEPENDS": [
+    "libwmf: Load .wmf and .apm",
+    "libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf",
+    "libavif: Load .avif",
+    "libheif: Load .heif, .heic, and .avif",
+    "libjxl: Load .jxl",
+    "librsvg: Load .svg, .svgz, and .svg.gz",
+    "webp-pixbuf-loader: Load .webp"
+  ],
+  "REPO": "main"
+}

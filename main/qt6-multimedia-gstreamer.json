@@ -1,0 +1,40 @@
+{
+  "FILENAME": "qt6-multimedia-gstreamer-6.9.0-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-gstreamer",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.9.0-1",
+  "DESC": "Gstreamer backend for qt6-multimedia",
+  "CSIZE": "7946903",
+  "ISIZE": "23412172",
+  "MD5SUM": "77ac8693e80b8fc5bb55d0b96f4c8d1f",
+  "SHA256SUM": "27c379d1cc32888545a46c0649a966e37883df5777afcda1b671bcf717ef2538",
+  "PGPSIG": "iF4EABYCAAYFAmgiFh4ACgkQw1jnDXfq/1SV/wEA2Mak08TtfT3uwdt93X48598heqMEAfVJaCzyT38taawBAInWHmVUhb0NE0u1A6cHBBPwwcYduZe6deFhIU72kaAE",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747062892",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "libglvnd",
+    "qt6-base",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugins-good: camera support, additional plugins",
+    "gst-plugins-bad: camera support, additional plugins",
+    "gst-plugins-ugly: additional plugins",
+    "gst-libav: additional plugins"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "llvm-tools-20.1.4-4-riscv64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "LLVM runtime tools.",
+  "CSIZE": "25657480",
+  "ISIZE": "75241600",
+  "MD5SUM": "58f35088402b472d7c14d83dbb7f0f2c",
+  "SHA256SUM": "d68364df7ea82079d2c0206b8a3428a2d52ed927e14fc2c7f0039e244c8d3df3",
+  "PGPSIG": "iF4EABYCAAYFAmglPrYACgkQw1jnDXfq/1SHswD/b6GEfVul7m8H+OBdxmJCPPBQLu4Jx5ZDDcd9b7Vk8FsBANOXsDbwSbqeTm8Z+27IS9n/y9HMTANkFdkF5NtsOacL",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747194228",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "REPO": "main"
+}

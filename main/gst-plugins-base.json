@@ -1,0 +1,44 @@
+{
+  "FILENAME": "gst-plugins-base-1.26.1-2-riscv64.pkg.tar.zst",
+  "NAME": "gst-plugins-base",
+  "BASE": "gstreamer",
+  "VERSION": "1.26.1-2",
+  "DESC": "GStreamer multimedia framework - base plugins",
+  "CSIZE": "1992325",
+  "ISIZE": "4603704",
+  "MD5SUM": "361d0c5ba2e3aeddd2a74557252afb22",
+  "SHA256SUM": "a4baef621c3ecb5c275644c6dd1b97fe510972ecb74d27a03f5c0b5a7c00f3e0",
+  "PGPSIG": "iF4EABYCAAYFAmgsNbgACgkQw1jnDXfq/1RUXgD6A4Zjwp/H4SPCscoTC8SQpFgt9sBPQYVe41OvgoFygB0BAITlD7/27dw+wkpWFirHjddfEWjQSy8HrjH+KPOAfVYL",
+  "URL": "https://gstreamer.freedesktop.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747725523",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gstreamer=1.26.1-2",
+    "libdrm",
+    "libglvnd",
+    "glib",
+    "wayland",
+    "zlib-ng",
+    "alsa-lib",
+    "cairo",
+    "graphene",
+    "harfbuzz",
+    "libjpeg",
+    "libogg",
+    "libopus",
+    "pango",
+    "libpng",
+    "libvorbis",
+    "iso-codes"
+  ],
+  "PROVIDES": [
+    "gst-plugins-base-libs",
+    "gst-plugins-base-libs=1.26.1-2"
+  ],
+  "REPO": "main"
+}

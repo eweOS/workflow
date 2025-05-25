@@ -1,0 +1,44 @@
+{
+  "FILENAME": "flatpak-1.16.1-2-riscv64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.1-2",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1930471",
+  "ISIZE": "6770656",
+  "MD5SUM": "50cca9525952536b56b755d8623a2b1c",
+  "SHA256SUM": "fe0357787f7bdb9f6cbee55e5f09439d0d80476fcb0acd2cc7e13e8ad4250b14",
+  "PGPSIG": "iF4EABYCAAYFAmgtjUkACgkQw1jnDXfq/1SE0AEAypWpe96mKOtLrUk4Yhpvs8ikfTWzFEVhTsYEDMoD5pkA/2hB+maJicqsyh2wE/G7oX6RW+A9FHSQhPenSZJVBgoE",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747815863",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "libxml2",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "zstd",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "REPO": "main"
+}

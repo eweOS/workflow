@@ -1,0 +1,49 @@
+{
+  "FILENAME": "opencv-4.11.0-6-riscv64.pkg.tar.zst",
+  "NAME": "opencv",
+  "BASE": "opencv",
+  "VERSION": "4.11.0-6",
+  "DESC": "Open Source Computer Vision Library",
+  "CSIZE": "16688961",
+  "ISIZE": "49649903",
+  "MD5SUM": "91e266a896282afd31b8d7a2cbc9c67f",
+  "SHA256SUM": "2299090dd4ed4767f2dea18e02aa5ab8e81aa6f222279d560bc89c182e8f4321",
+  "PGPSIG": "iF4EABYCAAYFAmf+BnkACgkQw1jnDXfq/1S13AD/cIDhqY16nIriSWy+fTxVH3K3wjbqwPPlnQpXRdCTLIoA/jK0OZ1VAlIv4mjNEkQoY6EMnW28TZNSGQ14R0u//2oI",
+  "URL": "https://opencv.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1744693745",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "cblas",
+    "ffmpeg",
+    "freetype2",
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "harfbuzz",
+    "lapack",
+    "libglvnd",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "openjpeg2",
+    "protobuf",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "opencv-samples: samples",
+    "vtk: for the viz module",
+    "glew: for the viz module",
+    "qt6-base: for the HighGUI module",
+    "hdf5: for the HDF5 module",
+    "opencl-icd-loader: For coding with OpenCL",
+    "java-runtime: Java interface"
+  ],
+  "REPO": "main"
+}

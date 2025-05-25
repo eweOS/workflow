@@ -1,0 +1,35 @@
+{
+  "FILENAME": "emacs-nogui-30.1-2-riscv64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.1-2",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55420197",
+  "ISIZE": "129320695",
+  "MD5SUM": "34f1953106244b485f261a7e3f7372b0",
+  "SHA256SUM": "605bce07e8253a4a0560fdb448e9937fcb7ee941c333be774d446e6e93aa3b85",
+  "PGPSIG": "iF4EABYCAAYFAmgsOsQACgkQw1jnDXfq/1SFTwD+KMV582dMS9Ah5AatcBfnbrryoS9VurxC376nck00ftoBAOrQB2WqQUVCQE9KKQwaBncW5Y36jVeEtt+kd1ErDM8N",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747728046",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "REPO": "main"
+}

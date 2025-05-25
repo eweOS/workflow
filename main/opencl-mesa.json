@@ -1,0 +1,41 @@
+{
+  "FILENAME": "opencl-mesa-25.1.0-1-riscv64.pkg.tar.zst",
+  "NAME": "opencl-mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.0-1",
+  "DESC": "Open-source OpenCL drivers",
+  "CSIZE": "5980248",
+  "ISIZE": "18768806",
+  "MD5SUM": "4beb40ce53a686c1d3b820d0a73a28b5",
+  "SHA256SUM": "33cab1ea0f048f6ec21322d5c7ce881b16b8f90530f3a9af2af8781d4df21635",
+  "PGPSIG": "iF4EABYCAAYFAmgjdTEACgkQw1jnDXfq/1QM0QEAjxwOON9iW5WLxr7OiDrUKpV1gZBzZmUmZIgDYSCozO8BAI8smMG0SV9gWrn7rulIi9RqugHSLFu06g54qxsjaiII",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747151446",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "opencl-clover-mesa"
+  ],
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "CONFLICTS": [
+    "opencl-clover-mesa"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "REPO": "main"
+}

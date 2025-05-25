@@ -1,0 +1,29 @@
+{
+  "FILENAME": "llvm-20.1.4-4-riscv64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.4-4",
+  "DESC": "LLVM Compiler infrastructure and runtime library.",
+  "CSIZE": "32439122",
+  "ISIZE": "103865180",
+  "MD5SUM": "02f09a264881f0f80b47815749ffc9d8",
+  "SHA256SUM": "dcb7f0b3b67ec9f48a1913d5c5ba8fc236e1169c91e3bc6e1c35e63bd6427b4b",
+  "PGPSIG": "iF4EABYCAAYFAmglPrYACgkQw1jnDXfq/1QxQwEAveeTkH54FEl4QwrX40O9ykC7S+3CJbTT1fPPUmYRDM0BAPM2a1p5TGN6qN+9oL/Mt8kbzLjd+DIgX00v5c+54uwN",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "custom:Apache 2.0 with LLVM Exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747194228",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "REPO": "main"
+}
