@@ -31,11 +31,12 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken1
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
@@ -79,12 +80,13 @@ jobs:
           set -euo pipefail &&
           grep -v ' E: ' namcap.log
           "
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Flag results
         uses: LouisBrunner/checks-action@v2.0.0
         with:
@@ -119,11 +121,12 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken1
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
@@ -171,12 +174,13 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "pacman -Syu --noconfirm && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Conclude results
         if: always()
         run: |
@@ -242,11 +246,12 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken1
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
@@ -293,13 +298,13 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "cd workflow && ./check_pkgdiff.sh ../new-packages"
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
-
+          revoke: false
       - name: Strip long result
         run: |
           if [ $(cat "workflow/filediff.report.md" | wc -c) -gt 65000 ]; then
@@ -354,11 +359,12 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken1
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
@@ -405,13 +411,13 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "pacman -Sy --noconfirm curl && cd workflow && ./check_symdiff.sh ../new-packages"
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
-
+          revoke: false
       - name: Strip long result
         run: |
           if [ $(cat "workflow/symdiff.report.md" | wc -c) -gt 65000 ]; then
@@ -471,11 +477,13 @@ jobs:
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken1
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
+
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
@@ -531,12 +539,13 @@ jobs:
           else
             cp namcap.log namcap.log.result
           fi
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
       - name: Flag results
         uses: LouisBrunner/checks-action@v2.0.0
         with:
@@ -567,11 +576,13 @@ jobs:
     needs: [checknamcap, checkpackagefilesdiff, checkpackagesymsdiff]
     runs-on: ubuntu-24.04
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: tibdex/github-app-token@v2.1.0
         id: gettoken
         with:
           app_id: 337143
           private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          revoke: false
+
       - name: Approve Pull Request
         uses: juliangruber/approve-pull-request-action@v2
         continue-on-error: true
