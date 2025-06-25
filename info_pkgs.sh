@@ -66,4 +66,4 @@ for repofile in ${repofiles[@]}; do
   find results/$repo/*.json ! -name '*.files.json' -exec cat {} \; | jq '. | select(has("DEPENDS")) | {(.BASE): .DEPENDS}' | jq -s add > results/$repo/_DEPENDS.json
 done
 
-find results -type f -name "*.json" ! -name "*.files.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json
+find results -type f -name "*.json" ! -name "*.files.json" ! -name "_*.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json
