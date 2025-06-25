@@ -61,6 +61,9 @@ for repofile in ${repofiles[@]}; do
       cat $pkgdir/files | grep -v -e "^\." -e "^$" -e "%FILES%" | jq -nR '[inputs]' > results/$repo/$pkgname.files.json
     fi
   done
+  find results/$repo/*.json ! -name '*.files.json' -exec cat {} \; | jq '. | select(has("MAKEDEPENDS")) | {(.BASE): .MAKEDEPENDS}' | jq -s add > results/$repo/_MAKEDEPENDS.json
+  find results/$repo/*.json ! -name '*.files.json' -exec cat {} \; | jq '. | select(has("CHECKDEPENDS")) | {(.BASE): .CHECKDEPENDS}' | jq -s add > results/$repo/_CHECKDEPENDS.json
+  find results/$repo/*.json ! -name '*.files.json' -exec cat {} \; | jq '. | select(has("DEPENDS")) | {(.BASE): .DEPENDS}' | jq -s add > results/$repo/_DEPENDS.json
 done
 
 find results -type f -name "*.json" ! -name "*.files.json" | xargs -I @ cat @ | jq -s '. | [.[] | {NAME,VERSION,REPO}]' > results/_pkgs_brief.json
