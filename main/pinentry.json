@@ -1,0 +1,32 @@
+{
+  "FILENAME": "pinentry-1.3.1-3-aarch64.pkg.tar.zst",
+  "NAME": "pinentry",
+  "BASE": "pinentry",
+  "VERSION": "1.3.1-3",
+  "DESC": "The standard pinentry collection.",
+  "CSIZE": "116341",
+  "ISIZE": "326675",
+  "MD5SUM": "4f309024665b6525011a3174a8f91859",
+  "SHA256SUM": "8a68d18002571726796694b1fb1f6e0392874e0f6df7cd473bd86e8a5a8083e0",
+  "PGPSIG": "iF4EABYCAAYFAmcSEIIACgkQw1jnDXfq/1SmhgD9GL/GI1rCK0GeE7YYKgz5/4fw02wGjqqcDZEG9dulaOEBAL9uuUsysCSscLJb0jiSBs5KFts6QS7qKjguVB0Tlq8G",
+  "URL": "https://gnupg.org/ftp/gcrypt/pinentry/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729237097",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "qt6-base: Qt6 backend"
+  ],
+  "MAKEDEPENDS": [
+    "qt6-base"
+  ],
+  "REPO": "main"
+}

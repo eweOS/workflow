@@ -1,0 +1,28 @@
+{
+  "FILENAME": "limine-9.3.4-1-aarch64.pkg.tar.zst",
+  "NAME": "limine",
+  "BASE": "limine",
+  "VERSION": "9.3.4-1",
+  "DESC": "An advanced, portable, multiprotocol bootloader",
+  "CSIZE": "138253",
+  "ISIZE": "3256589",
+  "MD5SUM": "1d8595102a7e9de464e3de2e224bc2a6",
+  "SHA256SUM": "fdd83d6971325197dafad73cdca04ccadeee5efeef5e8d70ccc95ed80b26d12a",
+  "PGPSIG": "iF4EABYCAAYFAmhaFkkACgkQw1jnDXfq/1Q42wD+J+sXqj8PcdwtuBI/1VB3uovkdPQFlxsibE3kmb0cVsIA/3DHDkHIDD1wAHEO6FS+3dJ7tQjZWamssVgEY6fT2uMC",
+  "URL": "https://limine-bootloader.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750734867",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "efibootmgr: efi entries managing for limine-install"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "lld",
+    "mtools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "polkit-124-1-aarch64.pkg.tar.zst",
+  "NAME": "polkit",
+  "BASE": "polkit",
+  "VERSION": "124-1",
+  "DESC": "Application development toolkit for controlling system-wide privileges",
+  "CSIZE": "207738",
+  "ISIZE": "917140",
+  "MD5SUM": "58678df7bc7834f696765254728ee083",
+  "SHA256SUM": "c8d0b66cc68b2afd86e618a9a201509371e432a86d6cfc9ba86975d1a7870efa",
+  "PGPSIG": "iF4EABYCAAYFAmc0cqUACgkQw1jnDXfq/1QzUQD8DE0k1CiFNhTQZjvBAVwjb4n/iSt1bzwungsMEpuh50UA+wVZdjBxZ8ZyOHh8SuEdcw6eOFv73Tq5125nw3UNsOMP",
+  "URL": "https://gitlab.freedesktop.org/polkit/polkit",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1731490568",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "duktape",
+    "glib",
+    "pam",
+    "dbus"
+  ],
+  "PROVIDES": [
+    "libpolkit-agent-1.so",
+    "libpolkit-gobject-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "docbook-xsl"
+  ],
+  "REPO": "testing"
+}

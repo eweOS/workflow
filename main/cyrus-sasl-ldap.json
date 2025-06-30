@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cyrus-sasl-ldap-2.1.28-5-aarch64.pkg.tar.zst",
+  "NAME": "cyrus-sasl-ldap",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-5",
+  "DESC": "ldapdb auxprop module for Cyrus SASL",
+  "CSIZE": "13228",
+  "ISIZE": "22825",
+  "MD5SUM": "3ffe5d2be4dd42e065f5bc51ff51bbe9",
+  "SHA256SUM": "59c687602d38319c1468fa79a7c6eb70fd2e7d42c55cd5ca2ce67db9395dcbda",
+  "PGPSIG": "iF4EABYCAAYFAmcVyacACgkQw1jnDXfq/1TN0wD/UN5VB2tLnsZjIMEkZt+iklSh7ANK8cdQ/kB2Rq7qAYoA/A1z1s2nQ7qBD1E/FHr9RUNcaTPday+7ql3PY/PEGxsD",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729481103",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libldap",
+    "libsasl=2.1.28"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

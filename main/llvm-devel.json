@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-devel-20.1.7-4-aarch64.pkg.tar.zst",
+  "NAME": "llvm-devel",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "Development files for LLVM",
+  "CSIZE": "56401907",
+  "ISIZE": "293937212",
+  "MD5SUM": "44d119202e7449177f42e7dbf190ddd7",
+  "SHA256SUM": "612a56541cd1b495b16f4b3d59198e6c97dbaca48cc86cba3deacc7d382fe186",
+  "PGPSIG": "iF4EABYCAAYFAmhbue0ACgkQw1jnDXfq/1S9ywEA7hs9C/18F4WdDeB/rH+FLYc1X+wtYL3z3bLZd+JZo10BALdSrec+qKdEn4vWh428HN7qZV5gxjNzPEDH9Fph81YB",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750837049",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs",
+    "llvm-tools",
+    "mlir",
+    "openmp",
+    "clang-tools"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

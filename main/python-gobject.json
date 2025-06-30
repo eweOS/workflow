@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-gobject-3.52.3-1-aarch64.pkg.tar.zst",
+  "NAME": "python-gobject",
+  "BASE": "python-gobject",
+  "VERSION": "3.52.3-1",
+  "DESC": "Python bindings for GLib/GObject/GIO/GTK",
+  "CSIZE": "346755",
+  "ISIZE": "1469669",
+  "MD5SUM": "0ea4fe68a76fc9e13206b80bbbb21364",
+  "SHA256SUM": "a97f95039c9cf6392a5b58ca9ece9a6dc77156d7771627cdd70f375e1d7b7250",
+  "PGPSIG": "iF4EABYCAAYFAmhXxkYACgkQw1jnDXfq/1Tt5gD/ef1w9EYmFfVn6c+wkIEHwr4LML4VzkM5kJ3pMEg9tjQA/13lBHplR1H12Ryrjjzb4eftM9ejZJC0YZC4k7Lv4sMI",
+  "URL": "https://pygobject.gnome.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750583294",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gobject-introspection-runtime",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Cairo bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-cairo",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

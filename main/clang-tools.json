@@ -1,0 +1,46 @@
+{
+  "FILENAME": "clang-tools-20.1.7-4-aarch64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "clang-based tools",
+  "CSIZE": "20640529",
+  "ISIZE": "74577909",
+  "MD5SUM": "29ee3fbf9166799efc8d925a9e118d4e",
+  "SHA256SUM": "0783b7a98c347680a966ba8fbbbbe7139a4b1f9b9efb17a9f67222f0df5c996c",
+  "PGPSIG": "iF4EABYCAAYFAmhbuewACgkQw1jnDXfq/1RUKgD+IXhLKwdxtjooQDOzdqV63gUrUCv1Gy9/FVnkekOG1p4BAMz7mG8NruFP2xtCDabCLlSPIFGNXmt4ggGM4xtVhwcH",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750837049",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

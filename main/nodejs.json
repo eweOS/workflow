@@ -1,0 +1,39 @@
+{
+  "FILENAME": "nodejs-24.2.0-2-aarch64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "24.2.0-2",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "19075093",
+  "ISIZE": "63541309",
+  "MD5SUM": "b5747a88ffa407be05f270c255b52059",
+  "SHA256SUM": "d9a3d7ce1896fa89cc65424d195d5e67c60997921f657f120bcf0e8873e59c5a",
+  "PGPSIG": "iF4EABYCAAYFAmhfguQACgkQw1jnDXfq/1T1QQEAjaD8wOKMNZPfuwso+5scCfOhoKu2zkxnkuuVJQTvh5QA/i8sS6Tm3tkoDNzOpBvgV3mOcm045Xa6sQ7uIsmXNN8H",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751083408",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "graphite-1.3.14-3-aarch64.pkg.tar.zst",
+  "NAME": "graphite",
+  "BASE": "graphite",
+  "VERSION": "1.3.14-3",
+  "DESC": "reimplementation of the SIL Graphite text processing engine",
+  "CSIZE": "83574",
+  "ISIZE": "167135",
+  "MD5SUM": "ff16887e9c9a5e095e07f29debea4610",
+  "SHA256SUM": "4644dbc3e98d83ff53097652cf15e2488a25454a3efc159f4e1362842fb5048c",
+  "PGPSIG": "iF4EABYCAAYFAmcR+WEACgkQw1jnDXfq/1R9DgEArUQqU8eyQyniCZHXDj4HsoWm03TJ0+Mdmi2zxZSvoa8A/3p5JY3zW1MvlYyKvYgHInkVjH0heoWCcJy5Fl8kooMP",
+  "URL": "https://github.com/silnrsi/graphite",
+  "LICENSE": [
+    "LGPL-2.1-or-later OR MPL-2.0 OR GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729231188",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libgraphite2.so"
+  ],
+  "OPTDEPENDS": [
+    "graphite-docs: Documentation"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "freetype2",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools"
+  ],
+  "REPO": "main"
+}
