@@ -1,0 +1,61 @@
+{
+  "FILENAME": "opencl-mesa-25.1.4-1-riscv64.pkg.tar.zst",
+  "NAME": "opencl-mesa",
+  "BASE": "mesa",
+  "VERSION": "25.1.4-1",
+  "DESC": "Open-source OpenCL drivers",
+  "CSIZE": "5982504",
+  "ISIZE": "18769366",
+  "MD5SUM": "0e81be34c86d17ed1df8867393a28142",
+  "SHA256SUM": "75e83364750b068872d5362700c93459fc672fbba12f02e8c0e356856ce61752",
+  "PGPSIG": "iF4EABYCAAYFAmhU84gACgkQw1jnDXfq/1RoNgEAu5uk5zAozbOucR9Yb24Om1RdU4gOi3IEZ+XYXEhrbLcBAJyDrkNMHl6Ymo7qh/wzhWXx12XhqVB/aVmi6coadHMB",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750395218",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "opencl-clover-mesa"
+  ],
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "CONFLICTS": [
+    "opencl-clover-mesa"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

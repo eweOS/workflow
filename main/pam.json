@@ -1,0 +1,37 @@
+{
+  "FILENAME": "pam-1.7.1-1-riscv64.pkg.tar.zst",
+  "NAME": "pam",
+  "BASE": "pam",
+  "VERSION": "1.7.1-1",
+  "DESC": "PAM (Pluggable Authentication Modules) library",
+  "CSIZE": "196000",
+  "ISIZE": "587023",
+  "MD5SUM": "165b4504775877a93281656dec34d836",
+  "SHA256SUM": "9839040a578b5ed38eb971cff7624944c49d6fe348f32d7b4d03d0782b0758ef",
+  "PGPSIG": "iF4EABYCAAYFAmhXjyMACgkQw1jnDXfq/1TMHgEA5IgkSGIrtDxUK77jqGvKT8irCOG1rzpWaXMtxX1TFc8BAOnXshprp2YIsygy7pVMEMKvD7TzzA9yBCwq6VPU5KwJ",
+  "URL": "http://linux-pam.org",
+  "LICENSE": [
+    "GPL-2.0-or-later OR BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750569126",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libxcrypt",
+    "utmps",
+    "pambase"
+  ],
+  "PROVIDES": [
+    "libpam.so",
+    "libpamc.so",
+    "libpam_misc.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "linux-headers",
+    "meson",
+    "git"
+  ],
+  "REPO": "main"
+}

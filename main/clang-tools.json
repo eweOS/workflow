@@ -1,0 +1,46 @@
+{
+  "FILENAME": "clang-tools-20.1.7-4-riscv64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "clang-based tools",
+  "CSIZE": "20296038",
+  "ISIZE": "63768117",
+  "MD5SUM": "d4c1c182cd2c9469624264e00812bb95",
+  "SHA256SUM": "ae9dd2871d549b4094f0b1a13ca0c2013f76be7e2643bda877e8426e06fe4d7a",
+  "PGPSIG": "iF4EABYCAAYFAmhc9aMACgkQw1jnDXfq/1T/owD8C9Zef+h0jRtq76vTAPVpdpIVWKU8Hji0er0oaQ2OkCIBAMj7EWg078ypPhfhOq3x5gegJFMh0dj27k4n4s03ktUG",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750837334",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

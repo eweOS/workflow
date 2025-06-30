@@ -1,0 +1,49 @@
+{
+  "FILENAME": "glib-2.84.3-1-riscv64.pkg.tar.zst",
+  "NAME": "glib",
+  "BASE": "glib",
+  "VERSION": "2.84.3-1",
+  "DESC": "Low-level core library that forms the basis for projects such as GTK+ and GNOME",
+  "CSIZE": "5483010",
+  "ISIZE": "30025090",
+  "MD5SUM": "e018f01651b0883336331073948b7a96",
+  "SHA256SUM": "40af9d320d6dab4b75667b3f9f2e33f2fe22d971816fb9eecad9f2a821ee1232",
+  "PGPSIG": "iF4EABYCAAYFAmhNhlYACgkQw1jnDXfq/1QYRAD+NsjcOx705/+s0nhKtwobGf8ymDNufxz7//A6ug3W5mgBAKoj0fxOy3Y1bPM1tWmIsiNfr9X17hxvmhEXdT44AZcF",
+  "URL": "https://wiki.gnome.org/Projects/GLib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1749910530",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pcre2",
+    "libffi",
+    "util-linux-libs",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libglib-2.0.so",
+    "libgio-2.0.so",
+    "libgirepository-2.0.so",
+    "libgmodule-2.0.so",
+    "libgobject-2.0.so",
+    "libgthread-2.0.so",
+    "glib2"
+  ],
+  "MAKEDEPENDS": [
+    "gettext",
+    "python",
+    "libelf",
+    "util-linux",
+    "meson",
+    "dbus",
+    "gi-docgen",
+    "python-packaging",
+    "python-docutils",
+    "gobject-introspection",
+    "libffi-static",
+    "pcre2-static"
+  ],
+  "REPO": "main"
+}

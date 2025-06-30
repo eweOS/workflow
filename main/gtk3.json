@@ -1,0 +1,47 @@
+{
+  "FILENAME": "gtk3-3.24.49-1-riscv64.pkg.tar.zst",
+  "NAME": "gtk3",
+  "BASE": "gtk3",
+  "VERSION": "3.24.49-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "11365290",
+  "ISIZE": "51724367",
+  "MD5SUM": "8669117f0627a5e546bfc8be74c7093a",
+  "SHA256SUM": "b4d372db758dc4c6d838a84e8f69c9504ba457a90acbf9e90e5b035004086fae",
+  "PGPSIG": "iF4EABYCAAYFAmfKzvQACgkQw1jnDXfq/1TqjQEAxFfMMs9UcQSV6eZU+ReyIh9bwD2Z+szz+gfNdQ/PQB0BAIuI0FP3ksDroWzk+KrW74VxGnfxZzHuHA4OdvP39JUF",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1741343895",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "at-spi2-core",
+    "desktop-file-utils",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

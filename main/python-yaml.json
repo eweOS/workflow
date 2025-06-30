@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-yaml-6.0.2-3-riscv64.pkg.tar.zst",
+  "NAME": "python-yaml",
+  "BASE": "python-yaml",
+  "VERSION": "6.0.2-3",
+  "DESC": "Python bindings for YAML, using fast libYAML library",
+  "CSIZE": "216671",
+  "ISIZE": "916020",
+  "MD5SUM": "7048f7ebfa446782681076df54869e86",
+  "SHA256SUM": "b1c1976e27c4acba244787166168b277f40a5d627220a1e24934bbcb3d634d58",
+  "PGPSIG": "iF4EABYCAAYFAmdP7WAACgkQw1jnDXfq/1TPZwD8D5btJkt3Us5POpK+wuCgemOjyGw4bywyOWIACtzv2KQBAIxzeReJrPgGRKIy2PsltaMhas9OE+jaTvtdxZ684aMF",
+  "URL": "https://github.com/yaml/pyyaml",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733291437",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libyaml",
+    "python"
+  ],
+  "PROVIDES": [
+    "python-pyyaml"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

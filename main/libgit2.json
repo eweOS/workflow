@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libgit2-1:1.9.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libgit2",
+  "BASE": "libgit2",
+  "VERSION": "1:1.9.1-1",
+  "DESC": "A linkable library for Git",
+  "CSIZE": "976737",
+  "ISIZE": "2696459",
+  "MD5SUM": "c341eef2cda98940cb4bd441432ca97d",
+  "SHA256SUM": "c28d0c8e9115dac0d86b98c7cecbfdd3749a7f472992d84b28025cacd1928a7b",
+  "PGPSIG": "iF4EABYCAAYFAmhGrxMACgkQw1jnDXfq/1QlRQEA607ryooFf7fFRO+v/B4noFkDw4OYQAVRzBaekEelrGMA/1xBmN96cMxzV8HQL+jQjrNlJbqyKNS7i7KzWFAsdEEO",
+  "URL": "https://github.com/libgit2/libgit2",
+  "LICENSE": [
+    "GPL-2.0-only-with-linking-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1749463000",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "http-parser",
+    "openssl",
+    "pcre",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libgit2.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libssh2",
+    "python"
+  ],
+  "REPO": "main"
+}

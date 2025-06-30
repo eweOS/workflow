@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libfdt-1.7.2-1-riscv64.pkg.tar.zst",
+  "NAME": "libfdt",
+  "BASE": "dtc",
+  "VERSION": "1.7.2-1",
+  "DESC": "The device-tree compiler",
+  "CSIZE": "39346",
+  "ISIZE": "118543",
+  "MD5SUM": "b913dbfd27d1263c298e3a924f55e447",
+  "SHA256SUM": "1e74c6bc1ef33a2cc78b7cf77f3e94e1deea7fd5cc95bc4f04c42d2bcd056a4e",
+  "PGPSIG": "iF4EABYCAAYFAmcwlIcACgkQw1jnDXfq/1Q1/wEA2KiWWy/z8OT1B8GJ5bNPJyrpbdHI0G1qeIvzfNZXdkQA/jIquMKu+QnULBsDo7XmzwDlbHCEDHYatew9dWhkYocL",
+  "URL": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git/",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1731237023",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libfdt.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}
