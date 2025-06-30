@@ -1,0 +1,29 @@
+{
+  "FILENAME": "sqlite-3.50.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "sqlite",
+  "BASE": "sqlite",
+  "VERSION": "3.50.1-1",
+  "DESC": "A C library that implements an SQL database engine",
+  "CSIZE": "928600",
+  "ISIZE": "2875493",
+  "MD5SUM": "3bcf6a7c06c5ec3ed3dbf1867db8e91e",
+  "SHA256SUM": "2f71e12afcaf3e28a16fbfdc68ac03bd231c2b69af7ac4696b3e08cf57f3f415",
+  "PGPSIG": "iF4EABYCAAYFAmheJJoACgkQw1jnDXfq/1Rw8QD8DrnSxb87+6RvLFz5vSjMJ8domh5dfYEctoMolGJnJg8BAIbg/zC2xXMpPjoVkW/RAZ2M5lSahb1+xsNJahOCgIYF",
+  "URL": "https://www.sqlite.org/",
+  "LICENSE": [
+    "blessing"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751000674",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "sqlite3",
+    "libsqlite3.so"
+  ],
+  "REPO": "main"
+}

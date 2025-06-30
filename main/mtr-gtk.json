@@ -1,0 +1,34 @@
+{
+  "FILENAME": "mtr-gtk-0.95-5-loongarch64.pkg.tar.zst",
+  "NAME": "mtr-gtk",
+  "BASE": "mtr",
+  "VERSION": "0.95-5",
+  "DESC": "Combines the functionality of traceroute and ping into one tool",
+  "CSIZE": "62090",
+  "ISIZE": "123324",
+  "MD5SUM": "045e54879b402244b0943320da349551",
+  "SHA256SUM": "f13b1acb8fe8f9d954acb014531e73991c14ee82ce010bb86760a8d655bfb29b",
+  "PGPSIG": "iF4EABYCAAYFAmczDLQACgkQw1jnDXfq/1RW4gEA5T5MEeIeOzzhgcSGat4ifewQ2hBiS//R0naDRb7TYjYA/RQ4foXFsFrS5PIawXr311ee9nN3RjfwyT7VrNhsQUcP",
+  "URL": "https://www.bitwizard.nl/mtr/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731398888",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ncurses",
+    "libcap",
+    "gtk3"
+  ],
+  "CONFLICTS": [
+    "mtr"
+  ],
+  "PROVIDES": [
+    "mtr"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pacman-contrib-1.10.6-5-loongarch64.pkg.tar.zst",
+  "NAME": "pacman-contrib",
+  "BASE": "pacman-contrib",
+  "VERSION": "1.10.6-5",
+  "DESC": "Contributed scripts and tools for pacman systems",
+  "CSIZE": "53936",
+  "ISIZE": "119261",
+  "MD5SUM": "ffdf9187b366ca1195f09bc5a6a3b07d",
+  "SHA256SUM": "85d5290fffad995fbbf7b8e0ea35959b554c9557e8bd87c3bb2a960c1c234210",
+  "PGPSIG": "iF4EABYCAAYFAmczDOsACgkQw1jnDXfq/1S9AgEAgkOtahuvwzWmp/DBamRzkRPdYTmWbNuu0mvOkCsSGiABALeZIpVqC0DpMeb1oDz0hL4truhwqnfSAi2+GEgOReQD",
+  "URL": "https://gitlab.archlinux.org/pacman/pacman-contrib",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731398974",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pacman",
+    "libalpm"
+  ],
+  "OPTDEPENDS": [
+    "diffutils: for pacdiff",
+    "fakeroot: for checkupdates",
+    "mlocate: for pacdiff --locate",
+    "perl: for pacsearch",
+    "sudo: privilege elevation for several scripts",
+    "vim: default merge program for pacdiff"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc"
+  ],
+  "REPO": "main"
+}

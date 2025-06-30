@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libcupsfilters-2.1.1-3-loongarch64.pkg.tar.zst",
+  "NAME": "libcupsfilters",
+  "BASE": "libcupsfilters",
+  "VERSION": "2.1.1-3",
+  "DESC": "OpenPrinting CUPS Filters - contains all the code of the filters of the former cups-filters package as library functions",
+  "CSIZE": "645577",
+  "ISIZE": "1631590",
+  "MD5SUM": "b27984e049a04fe16b51f2160c4f4866",
+  "SHA256SUM": "83462c8496c5bfc9cb28c38bf4c36123a17b903a767f5ea6cb7b682c7f104ed0",
+  "PGPSIG": "iF4EABYCAAYFAmgUcWIACgkQw1jnDXfq/1QCAwD/cq+9RL47yivQuLdgBXhgiCGxfZY9BFqNXOonIOVfbEsA/2p1yPKPxSC5xwjMcjTFzUsnGe+R5EseuNWQv4R59dcJ",
+  "URL": "https://github.com/OpenPrinting/libcupsfilters",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1746170420",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libcups",
+    "libexif",
+    "qpdf",
+    "ghostscript",
+    "poppler",
+    "libjpeg",
+    "libpng",
+    "libtiff",
+    "lcms2",
+    "fontconfig",
+    "dbus"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "ttf-dejavu"
+  ],
+  "REPO": "main"
+}

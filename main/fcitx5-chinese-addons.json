@@ -1,0 +1,38 @@
+{
+  "FILENAME": "fcitx5-chinese-addons-5.1.9-2-loongarch64.pkg.tar.zst",
+  "NAME": "fcitx5-chinese-addons",
+  "BASE": "fcitx5-chinese-addons",
+  "VERSION": "5.1.9-2",
+  "DESC": "Addons related to Chinese, including IME previous bundled inside fcitx4",
+  "CSIZE": "1651168",
+  "ISIZE": "4437824",
+  "MD5SUM": "44295bfe93c082c81aa874f9a3817ac2",
+  "SHA256SUM": "904577f7d9130bf7ae7a0d43dc0a814eb49d90ca2dc6fe7661d56b22c88a830f",
+  "PGPSIG": "iF4EABYCAAYFAmhb2kIACgkQw1jnDXfq/1TIYAEArdPIodRb8e5dLteO6iUK8cRr2fq3hT1eRkb79T9ppKsA/j96bNtrayOAkWUW66mF84s3xFeEFkXtxECjxVpKBHsF",
+  "URL": "https://github.com/fcitx/fcitx5-chinese-addons",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750850521",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "boost-libs",
+    "curl",
+    "fcitx5-qt",
+    "libime",
+    "opencc"
+  ],
+  "OPTDEPENDS": [
+    "fcitx5-lua: Lua and imeapi support from pinyin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "fcitx5-lua",
+    "fmt",
+    "ninja",
+    "zstd",
+    "boost"
+  ],
+  "REPO": "main"
+}

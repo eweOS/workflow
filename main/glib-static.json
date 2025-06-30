@@ -1,0 +1,39 @@
+{
+  "FILENAME": "glib-static-2.84.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "glib-static",
+  "BASE": "glib",
+  "VERSION": "2.84.3-1",
+  "DESC": "Low-level core library that forms the basis for projects such as GTK+ and GNOME - static library",
+  "CSIZE": "1874131",
+  "ISIZE": "8277134",
+  "MD5SUM": "8d908b7fca7522c871a19f595b368e86",
+  "SHA256SUM": "b22dcceb9bddcf4539881940524e3e32740fba7f44a52127050cfa52ca95ee85",
+  "PGPSIG": "iF4EABYCAAYFAmhNghcACgkQw1jnDXfq/1TJ5AD+OBwYgQCuGboH9UlZ2Q2Y8bn+t/5UZCPZ4d0Ek+qJgtkBAP99UFzglvgEq7SPHg7z/V9ifn4n3N23DjIX7gjCuA4N",
+  "URL": "https://wiki.gnome.org/Projects/GLib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749910276",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib=2.84.3-1",
+    "libffi-static",
+    "pcre2-static"
+  ],
+  "MAKEDEPENDS": [
+    "gettext",
+    "python",
+    "libelf",
+    "util-linux",
+    "meson",
+    "dbus",
+    "gi-docgen",
+    "python-packaging",
+    "python-docutils",
+    "gobject-introspection",
+    "libffi-static",
+    "pcre2-static"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,50 @@
+{
+  "FILENAME": "firefox-140.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "firefox",
+  "BASE": "firefox",
+  "VERSION": "140.0-1",
+  "DESC": "Standalone web browser from mozilla.org",
+  "CSIZE": "88605663",
+  "ISIZE": "274264677",
+  "MD5SUM": "8e13f88d46233e66611be6e81f5aad73",
+  "SHA256SUM": "7252904702f2363d96d05bd0b28ae58cd9947151344f6f913f8b6543fbfb5b5d",
+  "PGPSIG": "iF4EABYCAAYFAmhdK/8ACgkQw1jnDXfq/1TcewD+MtfLUmJ0M1r8cgNJxVqtIyMJrQnLjutzbZfxxlyf8w0BAIcsmkC7LTHbVMMr2Z1P2/599a+O/l21ZJDOnp/JNLoB",
+  "URL": "https://www.mozilla.org/firefox/",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750932219",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "ffmpeg",
+    "gtk3",
+    "libpulse",
+    "pixman",
+    "libffi",
+    "libjpeg",
+    "libevent",
+    "libvpx",
+    "nss",
+    "libpng",
+    "libwebp",
+    "zlib-ng"
+  ],
+  "MAKEDEPENDS": [
+    "cbindgen",
+    "clang",
+    "linux-headers",
+    "llvm",
+    "mesa",
+    "nasm",
+    "nodejs",
+    "python",
+    "rust",
+    "wasi-compiler-rt",
+    "wasi-libc",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "zlib-ng-2.2.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "zlib-ng",
+  "BASE": "zlib-ng",
+  "VERSION": "2.2.4-1",
+  "DESC": "zlib data compression library for the next generation systems",
+  "CSIZE": "92763",
+  "ISIZE": "216940",
+  "MD5SUM": "08de668350eeed2ee6b4983436f491a8",
+  "SHA256SUM": "d8deee83cd7ffc67880c71c3a6d890ec66ff9c9452523c0750b36b1e2c1f8a04",
+  "PGPSIG": "iF4EABYCAAYFAmewJY0ACgkQw1jnDXfq/1RL/QD/drfkpsaAlik7jCMia7en0iLAunmMkISpePbr5gwuep4A/1dxAa9HzF7xlGCSD9Bbd7Uaegt5VUPoBa1mJPfvEHkF",
+  "URL": "https://github.com/zlib-ng/zlib-ng",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1739597672",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "CONFLICTS": [
+    "zlib"
+  ],
+  "PROVIDES": [
+    "zlib",
+    "libz.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

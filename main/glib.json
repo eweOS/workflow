@@ -1,0 +1,49 @@
+{
+  "FILENAME": "glib-2.84.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "glib",
+  "BASE": "glib",
+  "VERSION": "2.84.3-1",
+  "DESC": "Low-level core library that forms the basis for projects such as GTK+ and GNOME",
+  "CSIZE": "5270655",
+  "ISIZE": "30161834",
+  "MD5SUM": "c48ca2930bd42fc1e0e5a6e9be62ca7b",
+  "SHA256SUM": "161c9cbceee115b77452950e0a28d12456ccab229261960ee67a2d7494a28c17",
+  "PGPSIG": "iF4EABYCAAYFAmhNghcACgkQw1jnDXfq/1TjSQEAq71EV5yrKcnYa+ygbnpI2GL3V1ymdEueRisTEAkJlwUBANgR5HN9vt6L1vZJ30+o5qyrNldfH/lHBy84NF12jqkA",
+  "URL": "https://wiki.gnome.org/Projects/GLib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749910276",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pcre2",
+    "libffi",
+    "util-linux-libs",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libglib-2.0.so",
+    "libgio-2.0.so",
+    "libgirepository-2.0.so",
+    "libgmodule-2.0.so",
+    "libgobject-2.0.so",
+    "libgthread-2.0.so",
+    "glib2"
+  ],
+  "MAKEDEPENDS": [
+    "gettext",
+    "python",
+    "libelf",
+    "util-linux",
+    "meson",
+    "dbus",
+    "gi-docgen",
+    "python-packaging",
+    "python-docutils",
+    "gobject-introspection",
+    "libffi-static",
+    "pcre2-static"
+  ],
+  "REPO": "main"
+}

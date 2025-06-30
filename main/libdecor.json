@@ -1,0 +1,36 @@
+{
+  "FILENAME": "libdecor-0.2.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "libdecor",
+  "BASE": "libdecor",
+  "VERSION": "0.2.3-1",
+  "DESC": "Client-side decorations library for Wayland clients",
+  "CSIZE": "43753",
+  "ISIZE": "145605",
+  "MD5SUM": "5a697ef2e87b15128e008765110b88ba",
+  "SHA256SUM": "103336f29a6a773f012e46d103221b0bb488d6c3fdde051808f94b38780e2d95",
+  "PGPSIG": "iF4EABYCAAYFAmgm/08ACgkQw1jnDXfq/1TI+gEA1RUT640z/5oTC4H8mkwwIx3v0L8wVaiYMEzlP8hiP9MBAMCbiubqytGxOCmO0tKGiXdee8bPKrZz34olUrDSPs4O",
+  "URL": "https://gitlab.freedesktop.org/libdecor/libdecor",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747386475",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wayland",
+    "pango",
+    "dbus"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: gtk3 support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "meson",
+    "wayland-protocols",
+    "gtk3",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

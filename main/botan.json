@@ -1,0 +1,35 @@
+{
+  "FILENAME": "botan-3.8.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "botan",
+  "BASE": "botan",
+  "VERSION": "3.8.1-1",
+  "DESC": "Crypto library written in C++",
+  "CSIZE": "3368742",
+  "ISIZE": "10763684",
+  "MD5SUM": "884ac51d1eb9b45a5370211d1e8c9d39",
+  "SHA256SUM": "ff2c54b05434dfdab6097c0b2143f9076cc537ea8bc87e7a2b80903d9c0b8473",
+  "PGPSIG": "iF4EABYCAAYFAmgqoA4ACgkQw1jnDXfq/1QcrwD/bq1rSUSQqynYEeIrivP45HwkKcOjnQt5eT/ddGhoJ9cA/iQrxSIuSZ9Ws4AjSkZ9dUcqQq8h1K2+gGTZAVH5DEYD",
+  "URL": "https://botan.randombit.net/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747623756",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bzip2",
+    "sqlite",
+    "xz",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "boost-libs: for the botan executable",
+    "python: for using botan2.py"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

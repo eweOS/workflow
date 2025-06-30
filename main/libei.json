@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libei-1.4.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libei",
+  "BASE": "libei",
+  "VERSION": "1.4.1-1",
+  "DESC": "Library for Emulated Input",
+  "CSIZE": "99718",
+  "ISIZE": "356059",
+  "MD5SUM": "4b46f010d3e88bffa1fa2a44c521cdcc",
+  "SHA256SUM": "e70d8934bad7673b55196c457a5ff39052d56d073bf17abce795f8daca37d0d0",
+  "PGPSIG": "iF4EABYCAAYFAmgKbZAACgkQw1jnDXfq/1QttwEA5YqNSAIbcUCw8wxyE3SAMt4Y6MxOYyg9awDQA2T1hQEBAOE4CzEjfdGb1o3QikEkXe/A2vDbnF1l9/32RSm1iQgG",
+  "URL": "https://libinput.pages.freedesktop.org/libei/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1745514071",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libevdev",
+    "basu"
+  ],
+  "PROVIDES": [
+    "libei.so",
+    "libeis.so",
+    "liboeffis.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "libxkbcommon",
+    "meson",
+    "python-attrs",
+    "python-dbusmock",
+    "python-jinja",
+    "python-pytest",
+    "python-structlog",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

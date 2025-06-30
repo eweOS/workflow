@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libpsl-0.21.5-4-loongarch64.pkg.tar.zst",
+  "NAME": "libpsl",
+  "BASE": "libpsl",
+  "VERSION": "0.21.5-4",
+  "DESC": "Public Suffix List library",
+  "CSIZE": "74443",
+  "ISIZE": "109035",
+  "MD5SUM": "8a4cde8cd9168426be718b6bc544c6ff",
+  "SHA256SUM": "281b8181412c59d08568648c46170fc385b510af9e75ef94ee1053947ea6c971",
+  "PGPSIG": "iF4EABYCAAYFAmcVwCgACgkQw1jnDXfq/1SVQwD/Vu7HomFk0RAKJ65/g13rcYG94eqo7KkLHYfZzyX21ogA/0geEIplVqtiRIT/cU9NZiJXsm1n+Dfxow/xtkiEhGID",
+  "URL": "https://github.com/rockdaboot/libpsl",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1729478701",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libidn2",
+    "libunistring"
+  ],
+  "PROVIDES": [
+    "libpsl.so"
+  ],
+  "MAKEDEPENDS": [
+    "libidn2",
+    "libunistring",
+    "meson"
+  ],
+  "REPO": "main"
+}

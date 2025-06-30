@@ -1,0 +1,28 @@
+{
+  "FILENAME": "limine-9.3.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "limine",
+  "BASE": "limine",
+  "VERSION": "9.3.4-1",
+  "DESC": "An advanced, portable, multiprotocol bootloader",
+  "CSIZE": "136646",
+  "ISIZE": "3264573",
+  "MD5SUM": "ee48b742912510327684d2b5b27e8e73",
+  "SHA256SUM": "98c55ffda0635fb2333617a9170bef11f0dad65d8bebd3ec54fcd7ee6deff824",
+  "PGPSIG": "iF4EABYCAAYFAmhaFl4ACgkQw1jnDXfq/1RM0gEA2Q/L8iwXfe/xtWX1RFPPfVaZC2jMuQeXcfSROD4H4CwA/ROtMplbQz4qqpznUBaqx86awEatykB9oJCKRm9/brkI",
+  "URL": "https://limine-bootloader.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750734880",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "efibootmgr: efi entries managing for limine-install"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "lld",
+    "mtools"
+  ],
+  "REPO": "main"
+}
