@@ -1,0 +1,31 @@
+{
+  "FILENAME": "ca-certificates-mozilla-3.113-1-x86_64.pkg.tar.zst",
+  "NAME": "ca-certificates-mozilla",
+  "BASE": "nss",
+  "VERSION": "3.113-1",
+  "DESC": "Mozilla's set of trusted CA certificates",
+  "CSIZE": "433201",
+  "ISIZE": "1088022",
+  "MD5SUM": "f2c83c5c664aa289e40cb9ce0151fd67",
+  "SHA256SUM": "ef01ccbf6276cc61d3056292bffa05387a9065222df0a688f15f2f80b9e75ee0",
+  "PGPSIG": "iF4EABYCAAYFAmha3FkACgkQw1jnDXfq/1R+pgD/bMhRg/h/2u8XX9FIi7Za7WcRXziNkR6L3/NlVli6+vcBAOL0h+sdzmmJotwR/WEoZS1Bh6/YQVcnKGhyCYVCPcQH",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750785549",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils>=20181109-3"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,47 @@
+{
+  "FILENAME": "libportal-qt6-0.9.1-1-x86_64.pkg.tar.zst",
+  "NAME": "libportal-qt6",
+  "BASE": "libportal",
+  "VERSION": "0.9.1-1",
+  "DESC": "GIO-style async APIs for most Flatpak portals - Qt 6 backend",
+  "CSIZE": "23420",
+  "ISIZE": "49361",
+  "MD5SUM": "e7db54376ee857b2859736ae17b52cd3",
+  "SHA256SUM": "b0b9e05b5b564272c351a99371986fb60844438cab79e596a06b1ece2c10ee0a",
+  "PGPSIG": "iF4EABYCAAYFAmewH/AACgkQw1jnDXfq/1QvYQEAqRJIli61atx9DbaIFu4CcSs9sk4UcpMOh1jWv7XiDgoA/Axj5ob7y4yznk0Jt49OhQhqfTG3/DTbcV6HnO7ooxUH",
+  "URL": "https://github.com/flatpak/libportal",
+  "LICENSE": [
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1739596155",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libportal",
+    "qt6-base"
+  ],
+  "PROVIDES": [
+    "libportal-qt6.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gjs",
+    "glib2",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "qt6-base",
+    "qt6-tools",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbusmock",
+    "python-pytest",
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-lts-devel-6.12.35-2-x86_64.pkg.tar.zst",
+  "NAME": "linux-lts-devel",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.35-2",
+  "DESC": "Headers and scripts for building modules for the Linux LTS kernel",
+  "CSIZE": "34039080",
+  "ISIZE": "122561796",
+  "MD5SUM": "66821b46a9528c8494ea66219d7d56ea",
+  "SHA256SUM": "165703ec7cb1d38cea92d45a80a579a5fe3df8f4224af854ac963c114018967d",
+  "PGPSIG": "iF4EABYCAAYFAmhf/aAACgkQw1jnDXfq/1QWTwEAnLiQBYC8mJD8E4pQbpgBP9SX2DgERJGgrWMfyB7P/tcBAN2+MocyjKkDwr9LTUxciWFqOpDQoISZiJG2tIV4ePgM",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751121293",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

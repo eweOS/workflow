@@ -1,0 +1,39 @@
+{
+  "FILENAME": "nodejs-24.2.0-2-x86_64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "24.2.0-2",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "19606759",
+  "ISIZE": "65890358",
+  "MD5SUM": "e35505437fa7e39b7544195d8aa7ec21",
+  "SHA256SUM": "e15ca81f6b4a43affbbf520d4e9afe8e3a08d20b898551426170e3f5c8ea9293",
+  "PGPSIG": "iF4EABYCAAYFAmhfdOsACgkQw1jnDXfq/1T+qQD/cBovVGO+2t+iBRueKsREA7GKrMZgVQHFLH1udxq0SksBAM5BZg8gYeP6AIzCXkFFWA4jvIQx1Z9FAr4U661QpSwC",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751083403",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

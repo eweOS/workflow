@@ -1,0 +1,45 @@
+{
+  "FILENAME": "librest-0.9.1-3-x86_64.pkg.tar.zst",
+  "NAME": "librest",
+  "BASE": "librest",
+  "VERSION": "0.9.1-3",
+  "DESC": "Library for accessing RESTful web services",
+  "CSIZE": "83661",
+  "ISIZE": "415542",
+  "MD5SUM": "4bf12267f19586a5fb290df395f99286",
+  "SHA256SUM": "575505b68315b93cd440a5c77a65d8b517d45258ac440a476c13315d4667965d",
+  "PGPSIG": "iF4EABYCAAYFAmgrWjMACgkQw1jnDXfq/1QPuAEApTAqXeefdaJTpCxE8EV4PkdaMw478G5fjN4jgiVRBlkBAN86jBAUf8wyrG9IgmByk2pL+1lnlznehh9Hgmd+MfwD",
+  "URL": "https://gitlab.gnome.org/GNOME/librest",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747671888",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libxml2",
+    "libsoup3",
+    "json-glib",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so",
+    "libxml2.so",
+    "libsoup-3.0.so",
+    "libjson-glib-1.0.so"
+  ],
+  "PROVIDES": [
+    "librest-1.0.so",
+    "librest-extras-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "git",
+    "meson",
+    "gi-docgen",
+    "vala",
+    "libadwaita",
+    "gtksourceview5"
+  ],
+  "REPO": "main"
+}

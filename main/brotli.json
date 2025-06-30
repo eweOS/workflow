@@ -1,0 +1,34 @@
+{
+  "FILENAME": "brotli-1.1.0-4-x86_64.pkg.tar.zst",
+  "NAME": "brotli",
+  "BASE": "brotli",
+  "VERSION": "1.1.0-4",
+  "DESC": "Generic-purpose lossless compression algorithm",
+  "CSIZE": "465080",
+  "ISIZE": "986529",
+  "MD5SUM": "d9156a4b73add978013c93ef0ed6d4bb",
+  "SHA256SUM": "31761586d8dd62eabe052718307b8a930436d38af7d4cc887997be8396705e6c",
+  "PGPSIG": "iF4EABYCAAYFAmdP1/0ACgkQw1jnDXfq/1TNnwEAh9WDZPP8TkY008NylrPCCQfuVMcxRJMaobSE8KKLLnQA/0dMQ46bExOaLe4rGbfAtyzjSy6Fj4SD0H+KxtLtXqAI",
+  "URL": "https://github.com/google/brotli",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733286000",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libbrotlicommon.so",
+    "libbrotlidec.so",
+    "libbrotlienc.so"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "llvm-libs",
+    "cmake",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

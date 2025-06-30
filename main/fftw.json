@@ -1,0 +1,44 @@
+{
+  "FILENAME": "fftw-3.3.10-1-x86_64.pkg.tar.zst",
+  "NAME": "fftw",
+  "BASE": "fftw",
+  "VERSION": "3.3.10-1",
+  "DESC": "A library for computing the discrete Fourier transform (DFT)",
+  "CSIZE": "2538462",
+  "ISIZE": "6582788",
+  "MD5SUM": "cd6247a1ae9bed839281b32678ddd270",
+  "SHA256SUM": "74edf4646f5660f97e8baa82f43c5cfd06cdae5410a918a6850c9a5f269fb130",
+  "PGPSIG": "iF4EABYCAAYFAmc//MEACgkQw1jnDXfq/1SHZgEAq/AG3b1Ut5x4RD05aLAE3wevNsLm59TUax6isCESlXUBAJYB19UjBjMCT9S6X0ij5NaxGE7C/aCXhJo1ZMKIe2kM",
+  "URL": "http://www.fftw.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1732245569",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash"
+  ],
+  "PROVIDES": [
+    "libfftw3l_threads.so",
+    "libfftw3l_omp.so",
+    "libfftw3l.so",
+    "libfftw3f_threads.so",
+    "libfftw3f_omp.so",
+    "libfftw3f.so",
+    "libfftw3_threads.so",
+    "libfftw3_omp.so",
+    "libfftw3.so"
+  ],
+  "OPTDEPENDS": [
+    "fftw-openmpi: for OpenMPI integration"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "cmake",
+    "flang",
+    "openmp",
+    "autoconf"
+  ],
+  "REPO": "main"
+}
