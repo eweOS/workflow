@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libproxy-0.5.9-1-riscv64.pkg.tar.zst",
+  "NAME": "libproxy",
+  "BASE": "libproxy",
+  "VERSION": "0.5.9-1",
+  "DESC": "Automatic proxy configuration management library",
+  "CSIZE": "28047",
+  "ISIZE": "67703",
+  "MD5SUM": "774df678f7d7b5c516d5a51768ee86a9",
+  "SHA256SUM": "1d7ddfc335de8afbc4c6a1836ec206b66c34212a22903b21fc07e34ea2aec72a",
+  "PGPSIG": "iF4EABYCAAYFAmc8K/AACgkQw1jnDXfq/1SWcwEAi2lh7TRNlWdvsXfERpPZsdbjzQdchV32M+ofr3fiPmoA/isNtiK76XU3W2z0B+XzCZd63fN+ajkjOGnVJ5K7XcYI",
+  "URL": "https://libproxy.github.io/libproxy/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1731996673",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "duktape",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "libproxy-webkit<0.5.0-1"
+  ],
+  "PROVIDES": [
+    "libproxy.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

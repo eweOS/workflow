@@ -1,0 +1,41 @@
+{
+  "FILENAME": "krb5-1.21.3-2-riscv64.pkg.tar.zst",
+  "NAME": "krb5",
+  "BASE": "krb5",
+  "VERSION": "1.21.3-2",
+  "DESC": "The Kerberos network authentication system",
+  "CSIZE": "1454370",
+  "ISIZE": "3925272",
+  "MD5SUM": "e3ab70c5ddf9834f16ceb98cbd1c1e01",
+  "SHA256SUM": "11dae7fe6baf825fd83eeb06abbb583f2d8deb3c197a89f14e3ba7470c7136b6",
+  "PGPSIG": "iF4EABYCAAYFAmcVwJ8ACgkQw1jnDXfq/1StJQEA87aRQSkR3Y/aiGw0Url3yrL4fiWGKRQaipklYFMbgNIBALT6xYKyW8mXigc11uuixquqJpkc0dxtbj8ZCnrMuiwJ",
+  "URL": "https://web.mit.edu/kerberos/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729478564",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libverto",
+    "e2fsprogs",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libgssapi_krb5.so",
+    "libgssrpc.so",
+    "libk5crypto.so",
+    "libkadm5clnt_mit.so",
+    "libkadm5srv_mit.so",
+    "libkdb5.so",
+    "libkdb_ldap.so",
+    "libkrad.so",
+    "libkrb5.so",
+    "libkrb5support.so"
+  ],
+  "MAKEDEPENDS": [
+    "perl"
+  ],
+  "REPO": "main"
+}

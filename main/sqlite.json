@@ -1,0 +1,29 @@
+{
+  "FILENAME": "sqlite-3.50.1-2-riscv64.pkg.tar.zst",
+  "NAME": "sqlite",
+  "BASE": "sqlite",
+  "VERSION": "3.50.1-2",
+  "DESC": "A C library that implements an SQL database engine",
+  "CSIZE": "985463",
+  "ISIZE": "2602317",
+  "MD5SUM": "bc0b126fad2ecbb08321daa039ea93ad",
+  "SHA256SUM": "b754d5c155dcaafb9cd2b8acd9c6ba5b1e0547468ee2dc3de52622f2385a4e18",
+  "PGPSIG": "iF4EABYCAAYFAmhnz4EACgkQw1jnDXfq/1TDLwEA8rX//9a+InmCCPTxKYIhStNAU+sXF+SP1ujnPlkObfYA/2kIc+Zf7nIimpP3re/vIwy3mam/AtQGDGAzqlILWkwD",
+  "URL": "https://www.sqlite.org/",
+  "LICENSE": [
+    "blessing"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751634152",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "sqlite3",
+    "libsqlite3.so"
+  ],
+  "REPO": "main"
+}

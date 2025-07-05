@@ -1,0 +1,39 @@
+{
+  "FILENAME": "neatvnc-0.9.4-1-riscv64.pkg.tar.zst",
+  "NAME": "neatvnc",
+  "BASE": "neatvnc",
+  "VERSION": "0.9.4-1",
+  "DESC": "Fast and neat VNC server library",
+  "CSIZE": "74637",
+  "ISIZE": "132817",
+  "MD5SUM": "6b7e1c7d61618d77bece6146b2abeccf",
+  "SHA256SUM": "b50f2cfc3031483d27324ef9555a2c314e6e6bd3fb5ff5300d8daeef5889512d",
+  "PGPSIG": "iF4EABYCAAYFAmfN0gEACgkQw1jnDXfq/1R1lQD8CFTqG7MFs64mw6z2w0bkvrMtTckZrW1kylKwtUoNa30A/RS+gPpl5cIYeNyqfTK/Ntpk4iBjrdZaTtyjtREJ3PYK",
+  "URL": "https://github.com/any1/neatvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1741541870",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libaml.so",
+    "libavcodec.so",
+    "libdrm",
+    "libpixman-1.so",
+    "libturbojpeg.so",
+    "mesa",
+    "zlib",
+    "nettle"
+  ],
+  "PROVIDES": [
+    "libneatvnc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}

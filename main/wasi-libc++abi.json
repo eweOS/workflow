@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wasi-libc++abi-20.1.7-4-riscv64.pkg.tar.zst",
+  "NAME": "wasi-libc++abi",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "WASI Low level support for the LLVM C++ standard library",
+  "CSIZE": "104464",
+  "ISIZE": "398088",
+  "MD5SUM": "6c9bb5af7bf85aadad1f497b8442fd41",
+  "SHA256SUM": "75e8544336da88bf5a8391943ddff4f163207abad809dfee69282bd089e09d43",
+  "PGPSIG": "iF4EABYCAAYFAmhc9aQACgkQw1jnDXfq/1T0TAD/btacnaM0xFvFAZoLbnj3N8Z77xPE7INY9+OFbBMWb1sA/0ZmcJJF5jAvV/2CouO64Iymcr7x61/oN9uk/fWZBSEP",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750837334",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

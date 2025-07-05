@@ -1,0 +1,61 @@
+{
+  "FILENAME": "qgis-3.42.2-3-riscv64.pkg.tar.zst",
+  "NAME": "qgis",
+  "BASE": "qgis",
+  "VERSION": "3.42.2-3",
+  "DESC": "Geographic Information System (GIS) that supports vector, raster & database formats",
+  "CSIZE": "104107478",
+  "ISIZE": "374619839",
+  "MD5SUM": "3cf88f40a68a6c2fa79cbe8435ee18de",
+  "SHA256SUM": "a6bc684e892d96c0e13effbba76ab352233ef334e88a34ad1f6ad01c06d5743a",
+  "PGPSIG": "iF4EABYCAAYFAmg9NQMACgkQw1jnDXfq/1TACQEAuzlEjAFp+1uwD0zWkNu4H6ffLf6pzjobWm+I04IZixEA/0SveQgAbAIvovF1H2iOgV+atFEVEN+TzZK9H1mHl5oI",
+  "URL": "https://qgis.org/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1748798430",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "proj",
+    "geos",
+    "gdal",
+    "expat",
+    "spatialindex",
+    "qwt",
+    "libzip",
+    "sqlite3",
+    "protobuf",
+    "zlib",
+    "exiv2",
+    "libspatialite",
+    "zstd",
+    "qt6-base",
+    "qt6-svg",
+    "qt6-serialport",
+    "qt6-location",
+    "qt6-3d",
+    "qt6-declarative",
+    "qt6-multimedia",
+    "qscintilla-qt6",
+    "qtkeychain-qt6",
+    "qca-qt6",
+    "python-pyqt6",
+    "python-qscintilla-qt6",
+    "libxml2",
+    "draco"
+  ],
+  "OPTDEPENDS": [
+    "fcgi: Map server",
+    "gpsbabel: GPS Tools plugin"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "fcgi",
+    "qt6-tools",
+    "sip",
+    "pyqt-builder"
+  ],
+  "REPO": "main"
+}

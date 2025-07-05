@@ -1,0 +1,39 @@
+{
+  "FILENAME": "nodejs-24.2.0-2-riscv64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "24.2.0-2",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "22175411",
+  "ISIZE": "77948749",
+  "MD5SUM": "baa446c348b7707d95a42b2edcaaa37e",
+  "SHA256SUM": "8771b2e4a0f4bdf5719ec4c5f054388b20751ce9ee15063a8f87268dd5991958",
+  "PGPSIG": "iF4EABYCAAYFAmhfzQAACgkQw1jnDXfq/1R2bgEAhRlsloj+dYBxxpsDwKD3t9kE6VYS8VNx83YJOf5Qq4cBAPCLZPt8m39F5Yf4mEB9o/C8adILbW+irF4siWo9+rkC",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751083525",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

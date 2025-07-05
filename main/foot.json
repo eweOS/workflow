@@ -1,0 +1,40 @@
+{
+  "FILENAME": "foot-1.22.3-1-riscv64.pkg.tar.zst",
+  "NAME": "foot",
+  "BASE": "foot",
+  "VERSION": "1.22.3-1",
+  "DESC": "A fast, lightweight and minimalistic Wayland terminal emulator",
+  "CSIZE": "332309",
+  "ISIZE": "679055",
+  "MD5SUM": "7bc9e4cbd621f66c274e322cb206022a",
+  "SHA256SUM": "38b66617b18369fe35576fd828a2dd3ad4c39d7cdc3fdb8cccde75c1810303dc",
+  "PGPSIG": "iF4EABYCAAYFAmghs78ACgkQw1jnDXfq/1R53AD8CXbg/ior0fKmDXHyq1ZJwsVd9Exz/7RK0AVJs938D2cA/1ZMKPWh7ynAZ1pLRJMP9ivzw0MY73x7Nprr98R+63YO",
+  "URL": "https://codeberg.org/dnkl/foot",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747039392",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fontconfig",
+    "fcft",
+    "libxkbcommon",
+    "ncurses",
+    "pixman",
+    "libutf8proc",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "python",
+    "tllist",
+    "scdoc",
+    "wayland",
+    "wayland-protocols",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

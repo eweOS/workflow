@@ -1,0 +1,41 @@
+{
+  "FILENAME": "sfwbar-1.0_beta16-1-riscv64.pkg.tar.zst",
+  "NAME": "sfwbar",
+  "BASE": "sfwbar",
+  "VERSION": "1.0_beta16-1",
+  "DESC": "S* Floating Window taskBar",
+  "CSIZE": "306315",
+  "ISIZE": "1058920",
+  "MD5SUM": "58ab71e845f87c8fb4021b74921a5334",
+  "SHA256SUM": "1569332460ab93f773b80bf689721780e0ab9bb4eee0549e58b41c99e43b72db",
+  "PGPSIG": "iF4EABYCAAYFAmdfjzoACgkQw1jnDXfq/1QPPwEAnHdf4Gos0N1dsOo75MgFWUqTM8JqEj8lixiy5u61kAoBAJ4HmihlljaSK2ZFAHukrL245njDhD2VXKux4EZmZQoE",
+  "URL": "https://github.com/LBCrion/sfwbar",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1734315953",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wayland",
+    "gtk3",
+    "json-c",
+    "gtk-layer-shell",
+    "wayland-protocols"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: ALSA audio volume control,",
+    "libpulse: pulse audio volume control,",
+    "libmpdclient: music player daemon control,",
+    "libxkbcommon: xkb layout conversion support"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libpulse",
+    "libmpdclient",
+    "alsa-lib",
+    "python-docutils",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "mlir-20.1.7-4-riscv64.pkg.tar.zst",
+  "NAME": "mlir",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "Multi-Level IR Compiler Framework for LLVM",
+  "CSIZE": "122471267",
+  "ISIZE": "758650300",
+  "MD5SUM": "76851b75c2bd15f180685389e854f2dd",
+  "SHA256SUM": "a7a3c6ab00f30c797d2c7e666972f92a4ecab0bafa9bbf6c8f0d9a7fbc88fa85",
+  "PGPSIG": "iF4EABYCAAYFAmhc9aMACgkQw1jnDXfq/1QPVgD/SdFh5G/Nbcv9rrym8BqLsKBr8gCZQBmjJFkW0ZYTmU0A/jSPSOeVWwhLhXzpdSgMCoftUnsqm1tZ/u+KNSFF1ioE",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750837334",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "dav1d-1.5.1-1-riscv64.pkg.tar.zst",
+  "NAME": "dav1d",
+  "BASE": "dav1d",
+  "VERSION": "1.5.1-1",
+  "DESC": "A new open-source AV1 decoder.",
+  "CSIZE": "290521",
+  "ISIZE": "504785",
+  "MD5SUM": "2e8f38ee6e37012623df63d66f5de699",
+  "SHA256SUM": "b999f8ef43aaed58b6618f6d1c9e57f673b4c71457d09d1a9605c519692f6366",
+  "PGPSIG": "iF4EABYCAAYFAmegbdkACgkQw1jnDXfq/1T5/QEAhyTMsGhqfqzLpdeBJVYpbOPkCdtpcandYHXG93WnAuABAPkoTq3kMZzMrI/jQJh7aHZ80snsPUdIQwYR8mmzjqwH",
+  "URL": "https://www.videolan.org/projects/dav1d.html",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1738567497",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "xxhash"
+  ],
+  "PROVIDES": [
+    "libdav1d.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "nasm"
+  ],
+  "REPO": "main"
+}

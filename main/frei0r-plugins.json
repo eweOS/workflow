@@ -1,0 +1,32 @@
+{
+  "FILENAME": "frei0r-plugins-2.3.3-2-riscv64.pkg.tar.zst",
+  "NAME": "frei0r-plugins",
+  "BASE": "frei0r-plugins",
+  "VERSION": "2.3.3-2",
+  "DESC": "Collection of video effect plugins",
+  "CSIZE": "519002",
+  "ISIZE": "4865876",
+  "MD5SUM": "76725f21bc9f905f6cce5ed551fec011",
+  "SHA256SUM": "d8d65d267c5d09b74144dcb5aca10b3542710bf968a5ca33c584b14379b00f85",
+  "PGPSIG": "iF4EABYCAAYFAmdWtuQACgkQw1jnDXfq/1SxKAEA9ww0nKOffgYSZpJvhxpYsOeirky+eixeTkCR9lXmIG8BAMPpvdjn1U9swltVayciqHA30e8tH+CjLkkv7H4supsJ",
+  "URL": "https://frei0r.dyne.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733736197",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "cairo: cairoaffineblend, cairoblend, cairogradient and cairoimagegrid plugins",
+    "gavl: rgbparade, scale0tilt and vectorscope plugins",
+    "opencv: facebl0r and facedetect plugins"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "cmake",
+    "gavl",
+    "git",
+    "ninja"
+  ],
+  "REPO": "main"
+}

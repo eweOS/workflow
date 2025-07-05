@@ -1,0 +1,42 @@
+{
+  "FILENAME": "rust-1.87.0-2-riscv64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.87.0-2",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "93839986",
+  "ISIZE": "256499694",
+  "MD5SUM": "6de56733447b0e78b6dc24f444ba7edd",
+  "SHA256SUM": "8f59d70f537f2557b157d0be5f7a3138022c156bd492cc4e5ec2440bd34ddb7e",
+  "PGPSIG": "iF4EABYCAAYFAmhP/nkACgkQw1jnDXfq/1S1sAEAwQmQhP5MhlrEYkv3SCdf0EyjdBykqX9leOLz4MrNbNkA/093e8bc0zc2XtUNmmw8aNsHT1Cu6+LOoZ6c/RonksUJ",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750058295",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "musl-static",
+    "curl",
+    "libssh2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}
