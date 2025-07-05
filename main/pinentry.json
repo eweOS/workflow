@@ -1,0 +1,32 @@
+{
+  "FILENAME": "pinentry-1.3.1-3-loongarch64.pkg.tar.zst",
+  "NAME": "pinentry",
+  "BASE": "pinentry",
+  "VERSION": "1.3.1-3",
+  "DESC": "The standard pinentry collection.",
+  "CSIZE": "110278",
+  "ISIZE": "340403",
+  "MD5SUM": "974360bb29f65af3e3b5212ef3ad062b",
+  "SHA256SUM": "db5de7c96ee7000efe1811bf57200fcda1d7b724fd66fb9bb5f36e4a8a497810",
+  "PGPSIG": "iF4EABYCAAYFAmcSGr0ACgkQw1jnDXfq/1SgEgEA8/gJZeX8hCFZCTA6EQIl9PJnAwmyuijKwwJpXk7KU7gA+QF1yVvDN5Vka6uGRTW2pd6Bt0xPbhrmgzbkIbMFzQ8C",
+  "URL": "https://gnupg.org/ftp/gcrypt/pinentry/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1729239716",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "qt6-base: Qt6 backend"
+  ],
+  "MAKEDEPENDS": [
+    "qt6-base"
+  ],
+  "REPO": "main"
+}

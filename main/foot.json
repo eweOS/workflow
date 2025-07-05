@@ -1,0 +1,40 @@
+{
+  "FILENAME": "foot-1.22.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "foot",
+  "BASE": "foot",
+  "VERSION": "1.22.3-1",
+  "DESC": "A fast, lightweight and minimalistic Wayland terminal emulator",
+  "CSIZE": "347081",
+  "ISIZE": "776111",
+  "MD5SUM": "be66ac881751f3a30c23c555643db6bf",
+  "SHA256SUM": "0e10c1ef4f2721565f1d37d3586967a3f6204411c8cbf2792f83e1738466332e",
+  "PGPSIG": "iF4EABYCAAYFAmghsd8ACgkQw1jnDXfq/1SCoQD/VKpZRtyZBDQEEdQEyj74J2hQNvozXcvs/Lt2fUVQrhsBANgZUyA8FnYfBd77juisrehWarsPgCUXOol146gRcJQP",
+  "URL": "https://codeberg.org/dnkl/foot",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747038935",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fontconfig",
+    "fcft",
+    "libxkbcommon",
+    "ncurses",
+    "pixman",
+    "libutf8proc",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "python",
+    "tllist",
+    "scdoc",
+    "wayland",
+    "wayland-protocols",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

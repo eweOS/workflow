@@ -1,0 +1,39 @@
+{
+  "FILENAME": "nodejs-24.2.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "24.2.0-2",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "19500882",
+  "ISIZE": "77337341",
+  "MD5SUM": "d1ff946c53556041cc191de7218724da",
+  "SHA256SUM": "7e4f881799bd1f221c33880e5bc5ae7ad66454e0867d5bb724ee09b3498cc4f8",
+  "PGPSIG": "iF4EABYCAAYFAmhfk2QACgkQw1jnDXfq/1QDIwEAmjuGoTpuKz2meMj1AZKQ+qUqgp43CLeMhzs+rjGNHLQBAIUo+gGzkNZtX4QpfDYUlYBDd+2g46WwQcNt7L3QRGUO",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751083405",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,58 @@
+{
+  "FILENAME": "qt6-base-6.9.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-base",
+  "BASE": "qt6-base",
+  "VERSION": "6.9.1-1",
+  "DESC": "A cross-platform application and UI framework",
+  "CSIZE": "16121785",
+  "ISIZE": "57725435",
+  "MD5SUM": "62238eea9b9930f2b4b9f4ea17859f00",
+  "SHA256SUM": "73d6722c9b0b84c6a97ece4677ce666833247d326d8b8fd797b240bf2daa0a57",
+  "PGPSIG": "iF4EABYCAAYFAmhZg78ACgkQw1jnDXfq/1S4KAEA7FstTFYsa4DFzemTAmjT9HJnNvx3kSYEVTywwOiKUckBAMfZNY8NdjQVsx1Pxf8LHoRdg+bxWVab4jfyYnyKObIE",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750696496",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libjpeg",
+    "fontconfig",
+    "vulkan-headers",
+    "shared-mime-info",
+    "sqlite",
+    "mesa",
+    "icu",
+    "openssl",
+    "libinput",
+    "libxkbcommon",
+    "dbus",
+    "harfbuzz",
+    "wayland",
+    "libproxy"
+  ],
+  "OPTDEPENDS": [
+    "freetds: MS SQL driver",
+    "gdk-pixbuf2: GTK platform plugin",
+    "gtk3: GTK platform plugin",
+    "libfbclient: Firebird/iBase driver",
+    "mariadb-libs: MariaDB driver",
+    "pango: GTK platform plugin",
+    "perl: for syncqt",
+    "postgresql-libs: PostgreSQL driver",
+    "qt6-wayland: to run Qt6 applications in a Wayland session",
+    "unixodbc: ODBC driver"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "linux-headers",
+    "wayland-protocols",
+    "gtk3"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "llvm-lto-20.1.7-4-loongarch64.pkg.tar.zst",
+  "NAME": "llvm-lto",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "LTO library for LLVM",
+  "CSIZE": "65295",
+  "ISIZE": "159739",
+  "MD5SUM": "f96a56607c083375ca4e6c720f17fa30",
+  "SHA256SUM": "5f775b3eca2035726a7de01b4caf093e2687081747251f7511e14066e84fc51b",
+  "PGPSIG": "iF4EABYCAAYFAmhb1ugACgkQw1jnDXfq/1QkPAEAtyqHjybIDe6HFStOJjIHi6RgSqtVx51igoQsq6sFQxUA/iaLWsiMd2Kx2ZDNIBV9ycGunDZ3sHMDaqNrg+XaD/kI",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750837070",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

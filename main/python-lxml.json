@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-lxml-5.3.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-lxml",
+  "BASE": "python-lxml",
+  "VERSION": "5.3.2-1",
+  "DESC": "Python3 binding for the libxml2 and libxslt libraries",
+  "CSIZE": "1376379",
+  "ISIZE": "4828728",
+  "MD5SUM": "c8fd5dc5596b1ee0fd0504d2b5034fcc",
+  "SHA256SUM": "7f6636fe7733e16866567fedfa3ac52f0cac9eb758f20e424441c589fdb1e7bf",
+  "PGPSIG": "iF4EABYCAAYFAmhG/a8ACgkQw1jnDXfq/1ReOgD/SnnooH2ueI4VHiL9r1gGrJzAFQG5AMCRrhKEDAkNnVsBALZ+H7+r1WC5RuW4BiVdpYriwiVEYQxRJVjlHQ+hNvUJ",
+  "URL": "https://lxml.de/",
+  "LICENSE": [
+    "BSD",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749483253",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "libxslt"
+  ],
+  "OPTDEPENDS": [
+    "python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML",
+    "python-cssselect: support for cssselect",
+    "python-html5lib: support for html5lib parser",
+    "python-lxml-docs: offline docs"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools",
+    "python-pygments",
+    "cython"
+  ],
+  "REPO": "main"
+}

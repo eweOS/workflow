@@ -1,0 +1,46 @@
+{
+  "FILENAME": "clang-tools-20.1.7-4-loongarch64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "clang-based tools",
+  "CSIZE": "20637125",
+  "ISIZE": "76216237",
+  "MD5SUM": "d44f290cd8cd49ebc73de2f2a037e434",
+  "SHA256SUM": "065a7151aea0854026c4b9147939807be34f7986520509a0fcd5b982f7129107",
+  "PGPSIG": "iF4EABYCAAYFAmhb1ugACgkQw1jnDXfq/1SKEQD/RVEbcCFsmBD5UWDxiTxSKuoj/xUNSCDR9Nf4EA+PK0cBAJAFFVhu8JjlnqFDuz5tOfaufDqA8k4DfDZa2/MFLkkP",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750837070",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

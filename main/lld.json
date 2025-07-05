@@ -1,0 +1,45 @@
+{
+  "FILENAME": "lld-20.1.7-4-loongarch64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "A drop-in replacement for the GNU linkers by LLVM project",
+  "CSIZE": "4599366",
+  "ISIZE": "20345049",
+  "MD5SUM": "0cc0c8ec7468b58e27df41c7502180bd",
+  "SHA256SUM": "6293dcba38230b74fa85acc1348a0d50847798d065f231b2700ecc4a8f38e698",
+  "PGPSIG": "iF4EABYCAAYFAmhb1ugACgkQw1jnDXfq/1RN9gEAgMF6uGOo15vfx+6WC0f1QUQ237l99Rssc2M5oblrN9AA/R9i/uYOOEiQnno95Cxze3fzQ9ggHQuTNge6OirpCj0B",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750837070",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}
