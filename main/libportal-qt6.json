@@ -1,0 +1,47 @@
+{
+  "FILENAME": "libportal-qt6-0.9.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libportal-qt6",
+  "BASE": "libportal",
+  "VERSION": "0.9.1-1",
+  "DESC": "GIO-style async APIs for most Flatpak portals - Qt 6 backend",
+  "CSIZE": "24606",
+  "ISIZE": "54017",
+  "MD5SUM": "7d35048f901dca5bb6c582e9e4650abc",
+  "SHA256SUM": "e74349cecc5e21ff26231ff1c6748954abca1d6dbb99c97f276e956057c08f5a",
+  "PGPSIG": "iF4EABYCAAYFAmewIA0ACgkQw1jnDXfq/1Q7LAEAgXU1vtii7coxeX1i+JIxfeD9VdyEkgR+vljXG/JOrt4BAMYVjcCLI+mtv/zUmHkXnI1t3M625vLYJoX8ijNrAF0J",
+  "URL": "https://github.com/flatpak/libportal",
+  "LICENSE": [
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739596184",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libportal",
+    "qt6-base"
+  ],
+  "PROVIDES": [
+    "libportal-qt6.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gjs",
+    "glib2",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "qt6-base",
+    "qt6-tools",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbusmock",
+    "python-pytest",
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}

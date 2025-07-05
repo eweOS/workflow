@@ -1,0 +1,58 @@
+{
+  "FILENAME": "qt6-base-6.9.1-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-base",
+  "BASE": "qt6-base",
+  "VERSION": "6.9.1-1",
+  "DESC": "A cross-platform application and UI framework",
+  "CSIZE": "25102718",
+  "ISIZE": "78128829",
+  "MD5SUM": "e94c5d629875919c9fd2e699842bfef4",
+  "SHA256SUM": "38cd7511a9774863887b8517fff63f7e88bbcf8000fa88d53d25022e0d426745",
+  "PGPSIG": "iF4EABYCAAYFAmhZgl0ACgkQw1jnDXfq/1QX5QEA3GKC88K8E18EW6aBOa2SWqQB3IFJD86nqzy2w3hrMSwBANjVTLTn/agI4mYJiql7TAc8qaglU5SBquInt11yTKwE",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750696501",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libjpeg",
+    "fontconfig",
+    "vulkan-headers",
+    "shared-mime-info",
+    "sqlite",
+    "mesa",
+    "icu",
+    "openssl",
+    "libinput",
+    "libxkbcommon",
+    "dbus",
+    "harfbuzz",
+    "wayland",
+    "libproxy"
+  ],
+  "OPTDEPENDS": [
+    "freetds: MS SQL driver",
+    "gdk-pixbuf2: GTK platform plugin",
+    "gtk3: GTK platform plugin",
+    "libfbclient: Firebird/iBase driver",
+    "mariadb-libs: MariaDB driver",
+    "pango: GTK platform plugin",
+    "perl: for syncqt",
+    "postgresql-libs: PostgreSQL driver",
+    "qt6-wayland: to run Qt6 applications in a Wayland session",
+    "unixodbc: ODBC driver"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "linux-headers",
+    "wayland-protocols",
+    "gtk3"
+  ],
+  "REPO": "main"
+}

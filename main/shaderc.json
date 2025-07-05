@@ -1,0 +1,33 @@
+{
+  "FILENAME": "shaderc-2025.2-1-aarch64.pkg.tar.zst",
+  "NAME": "shaderc",
+  "BASE": "shaderc",
+  "VERSION": "2025.2-1",
+  "DESC": "Collection of tools, libraries and tests for shader compilation",
+  "CSIZE": "263097",
+  "ISIZE": "753497",
+  "MD5SUM": "89a8751a89ec2ad123591385db85398a",
+  "SHA256SUM": "91ab64d8fa0440e748f5983c03ca828a29f324744dacf603880db5df547c4c66",
+  "PGPSIG": "iF4EABYCAAYFAmgLb9AACgkQw1jnDXfq/1QLrgD/bu6rvRPdtlO678rtVKlOvY/Jv+GDmTiZdLM+Sbcgv9sA/23CqJrS7Z6hS965wT/LRR1Z2yVUearwsJKaHp7WwXkA",
+  "URL": "https://github.com/google/shaderc",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1745580180",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glslang",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "libshaderc_shared.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "spirv-headers"
+  ],
+  "REPO": "main"
+}

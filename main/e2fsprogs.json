@@ -1,0 +1,40 @@
+{
+  "FILENAME": "e2fsprogs-1.47.2-1-aarch64.pkg.tar.zst",
+  "NAME": "e2fsprogs",
+  "BASE": "e2fsprogs",
+  "VERSION": "1.47.2-1",
+  "DESC": "Ext2/3/4 filesystem utilities",
+  "CSIZE": "1487021",
+  "ISIZE": "5037343",
+  "MD5SUM": "2c1d05177a058cae2d734118ed0f6aad",
+  "SHA256SUM": "4efa3795c095da1592862588de9a22860bf414d50ed8c2309cb09fedcd288ec6",
+  "PGPSIG": "iF4EABYCAAYFAmePHjQACgkQw1jnDXfq/1ScyAEAzoXf2JDMEJjwXfFWcVTwf7n01rhSIDQL158Tx9k7NKwBAJC6Wzr0YIxL/v9yDTKt4I15+qlYvdK0IfktEUqeoWMM",
+  "URL": "http://e2fsprogs.sourceforge.net",
+  "LICENSE": [
+    "GPL",
+    "LGPL",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1737432987",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libcom_err.so",
+    "libe2p.so",
+    "libext2fs.so",
+    "libss.so"
+  ],
+  "OPTDEPENDS": [
+    "lvm2: for e2scrub",
+    "util-linux: for e2scrub",
+    "smtp-forwarder: for e2scrub_fail script"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-lxml-5.3.2-1-aarch64.pkg.tar.zst",
+  "NAME": "python-lxml",
+  "BASE": "python-lxml",
+  "VERSION": "5.3.2-1",
+  "DESC": "Python3 binding for the libxml2 and libxslt libraries",
+  "CSIZE": "1368752",
+  "ISIZE": "4937360",
+  "MD5SUM": "6158f70a9a6a7052183f221bb3558538",
+  "SHA256SUM": "51159251ace1782a7fefca3b31718fdba16510007a2fd2166ebd56260923cfa3",
+  "PGPSIG": "iF4EABYCAAYFAmhG/c4ACgkQw1jnDXfq/1SbvQEAmtRCGrL30F8UO4j3/xreR1baf5zRtuPe/iPjiqaXyNEA/0iYzmkePpYuGCpUDeDSr8T3kqiXq1wcllM9S6N00ZwB",
+  "URL": "https://lxml.de/",
+  "LICENSE": [
+    "BSD",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749483257",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "libxslt"
+  ],
+  "OPTDEPENDS": [
+    "python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML",
+    "python-cssselect: support for cssselect",
+    "python-html5lib: support for html5lib parser",
+    "python-lxml-docs: offline docs"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools",
+    "python-pygments",
+    "cython"
+  ],
+  "REPO": "main"
+}

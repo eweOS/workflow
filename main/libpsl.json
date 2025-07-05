@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libpsl-0.21.5-4-aarch64.pkg.tar.zst",
+  "NAME": "libpsl",
+  "BASE": "libpsl",
+  "VERSION": "0.21.5-4",
+  "DESC": "Public Suffix List library",
+  "CSIZE": "75519",
+  "ISIZE": "111187",
+  "MD5SUM": "501e240561cd4f6e3e8325056f455cec",
+  "SHA256SUM": "6d691650a30eb8af895e932b65f477eadff905fb3cf40623bea88453746c68c6",
+  "PGPSIG": "iF4EABYCAAYFAmcVwC8ACgkQw1jnDXfq/1TxCAEA6GQgLVvMNET091mKUk0PPYkt6/j2DLtNKpnjGVo8FmYBAOx8Yv/MY8w5DFndhoZYmXHdhCy/zlkEnW7qY45IV24E",
+  "URL": "https://github.com/rockdaboot/libpsl",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729478704",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libidn2",
+    "libunistring"
+  ],
+  "PROVIDES": [
+    "libpsl.so"
+  ],
+  "MAKEDEPENDS": [
+    "libidn2",
+    "libunistring",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "nginx-1.28.0-1-aarch64.pkg.tar.zst",
+  "NAME": "nginx",
+  "BASE": "nginx",
+  "VERSION": "1.28.0-1",
+  "DESC": "Lightweight HTTP server and IMAP/POP3 proxy server",
+  "CSIZE": "627381",
+  "ISIZE": "1476253",
+  "MD5SUM": "9d08a0ce5c9a2c7b388d38787841543e",
+  "SHA256SUM": "d980c1d99079a52c7f1fe16f058d38c724e16731fb0242b8895a693975bd747f",
+  "PGPSIG": "iF4EABYCAAYFAmghre4ACgkQw1jnDXfq/1TI/QEAnSlldFkFpsugaFkgFVWzKkNcfj+ntRqifFLo4yD/cb4BAMRy3G/zKOQ2EOhSV27hMBPyxUqzN2cL+kJJm97Pjz4E",
+  "URL": "https://nginx.org",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747037904",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pcre2",
+    "zlib",
+    "openssl",
+    "libxcrypt",
+    "dinit",
+    "catnest"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

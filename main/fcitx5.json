@@ -1,0 +1,43 @@
+{
+  "FILENAME": "fcitx5-5.1.13-1-aarch64.pkg.tar.zst",
+  "NAME": "fcitx5",
+  "BASE": "fcitx5",
+  "VERSION": "5.1.13-1",
+  "DESC": "Next generation of fcitx",
+  "GROUPS": "fcitx5-im",
+  "CSIZE": "9311330",
+  "ISIZE": "17493324",
+  "MD5SUM": "224b0d410496032ffc5b83176a9598bd",
+  "SHA256SUM": "1da0ed2321214a278e5ed2430831574f52239eca77bd3a734008b5c47560c5ed",
+  "PGPSIG": "iF4EABYCAAYFAmhWQbkACgkQw1jnDXfq/1ThIgEA+bomq3WGjPWcdzksHEH7yHD07zmpQ5pihaARG3tMEgUA/1FwDU8XvD9aCj+c0vIdmy5mLJOjtDHgA2/GlA4uiywP",
+  "URL": "https://github.com/fcitx/fcitx5",
+  "LICENSE": [
+    "LGPL-2.1-or-later AND Unicode-DFS-2016"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750483756",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "dbus",
+    "iso-codes",
+    "libuv",
+    "libxkbcommon",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "json-c"
+  ],
+  "PROVIDES": [
+    "fcitx"
+  ],
+  "MAKEDEPENDS": [
+    "ninja",
+    "wayland-protocols",
+    "fmt",
+    "extra-cmake-modules",
+    "zstd",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

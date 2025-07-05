@@ -1,0 +1,37 @@
+{
+  "FILENAME": "scons-4.8.1-1-any.pkg.tar.zst",
+  "NAME": "scons",
+  "BASE": "scons",
+  "VERSION": "4.8.1-1",
+  "DESC": "Extensible Python-based build utility",
+  "CSIZE": "1829169",
+  "ISIZE": "7943159",
+  "MD5SUM": "66b1065256297a9e161ceafea4255972",
+  "SHA256SUM": "6e911ae439667f903b3df3098c166cc7af1d01d98876aae40aaad769b3261b97",
+  "PGPSIG": "iF4EABYCAAYFAmdRrBoACgkQw1jnDXfq/1SwfwEA5V32+ZCN9TjORfAHZsjXUZBF/EKU4NuMwaNy4GSSfaoBAJFn8dgD2f63rG/dkAExImA+9/A9Uc7XVxk/wT3eu/sE",
+  "URL": "https://scons.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733405869",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-psutil: to wait for processes to exit"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-psutil",
+    "python-pytest"
+  ],
+  "REPO": "testing"
+}

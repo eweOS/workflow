@@ -1,0 +1,49 @@
+{
+  "FILENAME": "ranger-1.9.4-4-any.pkg.tar.zst",
+  "NAME": "ranger",
+  "BASE": "ranger",
+  "VERSION": "1.9.4-4",
+  "DESC": "Simple, vim-like file manager",
+  "CSIZE": "588591",
+  "ISIZE": "2634848",
+  "MD5SUM": "5b6112d7fc535bab1d0f8b44f13b1c80",
+  "SHA256SUM": "797647a01c19a44f38f56a7182e731f97542cc0c7968438942e0a8bc3d59d858",
+  "PGPSIG": "iF4EABYCAAYFAmfdEfQACgkQw1jnDXfq/1TcjQEApgrvLkDdJULyQjsHE/kghw7AJqXe/QBbp3THasBXGwsBAOQ8yijLs3eECjtNyIqsxvCwuGGu7MGpS35G4FKWv1QH",
+  "URL": "https://ranger.github.io",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1742541349",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "atool: for previews of archives",
+    "elinks: for previews of html pages",
+    "ffmpegthumbnailer: for video previews",
+    "highlight: for syntax highlighting of code",
+    "libcaca: for ASCII-art image previews",
+    "lynx: for previews of html pages",
+    "mediainfo: for viewing information about media files",
+    "odt2txt: for OpenDocument texts",
+    "perl-image-exiftool: for viewing information about media files",
+    "poppler: for pdf previews",
+    "python-chardet: in case of encoding detection problems",
+    "sudo: to use the 'run as root'-feature",
+    "transmission-cli: for viewing bittorrent information",
+    "ueberzug: for previews of images",
+    "w3m: for previews of images and html pages"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

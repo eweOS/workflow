@@ -1,0 +1,33 @@
+{
+  "FILENAME": "lxc-6.0.4-1-aarch64.pkg.tar.zst",
+  "NAME": "lxc",
+  "BASE": "lxc",
+  "VERSION": "6.0.4-1",
+  "DESC": "The Linux Containers tool set for kernel-level isolation",
+  "CSIZE": "1475812",
+  "ISIZE": "8284220",
+  "MD5SUM": "f9b8484fbb75f6902a6b32f83ea94275",
+  "SHA256SUM": "4d00722fcc12b854834ce264f2a20c7a686aa856237ae0d6efb71fca2dcba9a5",
+  "PGPSIG": "iF4EABYCAAYFAmhNjCUACgkQw1jnDXfq/1TGoQEAm6sEa3nh+hgSvBHmq+JvSgGsKRrsOlsl0QWD2dtTW7wBAPAFeHPv71FXWQAYUJn1VKEEt7GjwajAZ3+5ejGfJHgK",
+  "URL": "https://linuxcontainers.org",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749913017",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "bash",
+    "libseccomp",
+    "libcap",
+    "rsync",
+    "wget"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "lua",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "elfutils-0.193-1-aarch64.pkg.tar.zst",
+  "NAME": "elfutils",
+  "BASE": "libelf",
+  "VERSION": "0.193-1",
+  "DESC": "libelf is a free ELF object file access library (utilities)",
+  "CSIZE": "796800",
+  "ISIZE": "4405921",
+  "MD5SUM": "fd1683db514f1855b9b0047da38dc204",
+  "SHA256SUM": "c8b7a0ef6521a7206db5373be519f426c9f4fadb779337899a62878eda2510fe",
+  "PGPSIG": "iF4EABYCAAYFAmgR1WsACgkQw1jnDXfq/1QHZwEApKgQL4acuLQRNXZ6D+kPFvHiYl0L2uianBWLpi77SVABAJIh+IzjyrINo3J0Jp06Df/kQtfOrQGB+HMjlvB2YzwC",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL3",
+    "GPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1745999405",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libelf=0.193"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

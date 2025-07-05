@@ -1,0 +1,37 @@
+{
+  "FILENAME": "sdl2-compat-2.32.56-1-aarch64.pkg.tar.zst",
+  "NAME": "sdl2-compat",
+  "BASE": "sdl2-compat",
+  "VERSION": "2.32.56-1",
+  "DESC": "An SDL2 compatibility layer that uses SDL3 behind the scenes",
+  "CSIZE": "664017",
+  "ISIZE": "3318029",
+  "MD5SUM": "a0d2bbff960a8ddfeeb28136e05b130b",
+  "SHA256SUM": "8361d6e94017aa35e41dafcfdde8dff19b55f4316a617ec200634c4976efb426",
+  "PGPSIG": "iF4EABYCAAYFAmhYyvIACgkQw1jnDXfq/1QBMQD/XI3ljriWi24qVLEZIj3sydZPRTgn7wed9pofDatkFbMBAJ+ZHSjEAVOHEjfIrF/pWzhJjh65Ra/RTNqq98ZqEq4G",
+  "URL": "https://github.com/libsdl-org/sdl2-compat",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750650033",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "sdl2"
+  ],
+  "DEPENDS": [
+    "musl",
+    "sdl3"
+  ],
+  "CONFLICTS": [
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2=2.32.56"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

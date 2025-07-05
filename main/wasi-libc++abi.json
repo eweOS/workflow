@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wasi-libc++abi-20.1.7-4-aarch64.pkg.tar.zst",
+  "NAME": "wasi-libc++abi",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "WASI Low level support for the LLVM C++ standard library",
+  "CSIZE": "243983",
+  "ISIZE": "635424",
+  "MD5SUM": "bcfb268ed3aa118c61ad77adfe87c494",
+  "SHA256SUM": "020cfcb03c89cb193db911bb562be1d683d6c876877201e3615a49345adc2bf4",
+  "PGPSIG": "iF4EABYCAAYFAmhbue0ACgkQw1jnDXfq/1TlqQEAu7ygPUW/UI1TbdMqCdUvolq2h/7eMwd0RVkQtg79okoBALnpmns9d03AcDHz+86Zt9cLvGXICD9LSsF1mkn8kcIF",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750837049",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}
