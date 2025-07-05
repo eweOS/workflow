@@ -1,0 +1,46 @@
+{
+  "FILENAME": "clang-tools-20.1.7-4-x86_64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "clang-based tools",
+  "CSIZE": "20882431",
+  "ISIZE": "75180725",
+  "MD5SUM": "c0b85e9360d3834d81a19be59c1ecc7c",
+  "SHA256SUM": "bad08d6281b66847f64bc95d2e33d2d33b3577c3fa734432623ba5bfdd4c226b",
+  "PGPSIG": "iF4EABYCAAYFAmhbs1gACgkQw1jnDXfq/1SlRwEAu8zVH5r9BHsv5z7Jk4y/2HmTy8xizsaRdQ8BWDfVkE4BAI/tPl06j04qXwLu1aAhuvi+KthZidI5dQcgjKIVK6kB",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750837043",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

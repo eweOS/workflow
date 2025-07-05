@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wasi-compiler-rt-20.1.7-4-x86_64.pkg.tar.zst",
+  "NAME": "wasi-compiler-rt",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "WASI LLVM compiler runtime",
+  "CSIZE": "33779",
+  "ISIZE": "123501",
+  "MD5SUM": "d9520791c8a1ae89052fe88f00b3683e",
+  "SHA256SUM": "219209736cd913b03416a12bce1e045bd527668574960da1aba90852c87b53cc",
+  "PGPSIG": "iF4EABYCAAYFAmhbs1kACgkQw1jnDXfq/1TaDQEAmhfOSiU3k/L/LEYb/s/e9lv36OTL2ogSxuxLxqmejk4BAJYVjcRWVCVvK9hCAOOBMzx2b941hTXD/FBkzI8gzd4F",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750837043",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

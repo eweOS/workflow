@@ -1,0 +1,57 @@
+{
+  "FILENAME": "jre23-openjdk-23.0.2.u7-1-x86_64.pkg.tar.zst",
+  "NAME": "jre23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 runtime environment",
+  "CSIZE": "40412918",
+  "ISIZE": "150060990",
+  "MD5SUM": "d7bd48d06bbceb50feab82ee0cf1f59e",
+  "SHA256SUM": "888223ade0f2b97552cb8face2d3f8c6bb06cd374532bb3b1b135f9812f8f1a7",
+  "PGPSIG": "iF4EABYCAAYFAmfk0V4ACgkQw1jnDXfq/1R2xAD+J7ha+dW+k7JpEKmpqXnlJ6efiCXpIEHz7Ab3HqULzUoBANBm8ONlesyHChNbK591Hewdh/GB95KF5739eGsRZwwL",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1743048264",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common"
+  ],
+  "CONFLICTS": [
+    "jdk23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

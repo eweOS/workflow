@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libadwaita-1.7.4-1-x86_64.pkg.tar.zst",
+  "NAME": "libadwaita",
+  "BASE": "libadwaita",
+  "VERSION": "1.7.4-1",
+  "DESC": "Building blocks for modern adaptive GNOME applications",
+  "CSIZE": "894116",
+  "ISIZE": "5072864",
+  "MD5SUM": "7fc3571bd7bccaf034b5699c7bb48b57",
+  "SHA256SUM": "88a72df420ac23901427beac35354ae8ec46ea35b2f04270918c9dd99a8cf689",
+  "PGPSIG": "iF4EABYCAAYFAmhU56oACgkQw1jnDXfq/1TqrQEAyP1GBlqR6avdFEJ2PLIQ3VwUokAL/SwOLjbDCZZSlOIA/0rckkKegITncp/Z/Fxupwwg7xngIHzn/b72ysT1piYD",
+  "URL": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750395147",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "fribidi",
+    "glib",
+    "graphene",
+    "gtk4",
+    "pango"
+  ],
+  "PROVIDES": [
+    "libadwaita-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "sassc",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

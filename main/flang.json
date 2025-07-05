@@ -1,0 +1,41 @@
+{
+  "FILENAME": "flang-20.1.7-4-x86_64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "20.1.7-4",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "56086476",
+  "ISIZE": "701713674",
+  "MD5SUM": "28536af5608c7f3827a19c4da396dfe5",
+  "SHA256SUM": "82766137b4e2b4b65d8fb1919263d25583d46dcc6a91711a5225548cc02908ae",
+  "PGPSIG": "iF4EABYCAAYFAmhbs1gACgkQw1jnDXfq/1QuFAD+Oi13kV5ZOU7nd0oJrph3GN2lHHWEIz9bzsMLvwqOYxEA/0icdtB/OlzOW2Fl2C8P4qV/YAHg9uXhubHhrh2v318J",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750837043",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

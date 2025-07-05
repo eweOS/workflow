@@ -1,0 +1,36 @@
+{
+  "FILENAME": "xmlsec-1.3.6-1-x86_64.pkg.tar.zst",
+  "NAME": "xmlsec",
+  "BASE": "xmlsec",
+  "VERSION": "1.3.6-1",
+  "DESC": "XML Security Library is a C library based on LibXML2",
+  "CSIZE": "966497",
+  "ISIZE": "5587731",
+  "MD5SUM": "5edaf1ccd6831b7b05befdaeea976169",
+  "SHA256SUM": "f949decfc13e2f9a4c10c838d977e9e8024b815c2726e7b6a1f48acc063e31da",
+  "PGPSIG": "iF4EABYCAAYFAmdfupgACgkQw1jnDXfq/1R/oQEAtVa/uAcpcJPBbBk6NOtJKy3ONTuNqXPEMSCKGAfa+5kBALjQFfIIYvvoXw2MoOpPclFepttp46mgXnfmW9mq/OED",
+  "URL": "https://www.aleksey.com/xmlsec/index.html",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1734327095",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxslt",
+    "openssl",
+    "nss",
+    "libltdl",
+    "libgcrypt",
+    "nspr",
+    "libxml2",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libxmlsec1.so",
+    "libxmlsec1-openssl.so",
+    "libxmlsec1-nss.so",
+    "libxmlsec1-gcrypt.so"
+  ],
+  "REPO": "testing"
+}

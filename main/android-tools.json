@@ -1,0 +1,41 @@
+{
+  "FILENAME": "android-tools-35.0.2-5-x86_64.pkg.tar.zst",
+  "NAME": "android-tools",
+  "BASE": "android-tools",
+  "VERSION": "35.0.2-5",
+  "DESC": "Android platform tools",
+  "CSIZE": "2336596",
+  "ISIZE": "5981418",
+  "MD5SUM": "b87dea294da7c630d759d4783e7f9d91",
+  "SHA256SUM": "49389cfca332c91af24894c68b8a636693c981df837afd89a0f846b82b053818",
+  "PGPSIG": "iF4EABYCAAYFAmg8MD0ACgkQw1jnDXfq/1RR+AEA/WfB4d4V4UoOtJLrN0sjvWcP8KMgiUiwyysmgrxDbmQA/jR3RnHuzB5lCU7aJOJROzgfrSVVsSLldnFR6FDOlyQB",
+  "URL": "http://tools.android.com/",
+  "LICENSE": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1748775291",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli",
+    "fmt",
+    "libusb",
+    "pcre2",
+    "protobuf",
+    "googletest",
+    "zstd",
+    "python",
+    "abseil-cpp"
+  ],
+  "OPTDEPENDS": [
+    "python: mkbootimg, unpack_bootimg and repack_bootimg support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "go",
+    "perl",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

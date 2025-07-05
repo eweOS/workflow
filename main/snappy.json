@@ -1,0 +1,35 @@
+{
+  "FILENAME": "snappy-1.2.2-1-x86_64.pkg.tar.zst",
+  "NAME": "snappy",
+  "BASE": "snappy",
+  "VERSION": "1.2.2-1",
+  "DESC": "A fast compressor/decompressor library",
+  "CSIZE": "33695",
+  "ISIZE": "77760",
+  "MD5SUM": "d7b14dd7f0e41b2605cc3ba929e05186",
+  "SHA256SUM": "1acdb76f0c286100ae740fa5bf8dc089377eecae7ea909e0171427ced4505c63",
+  "PGPSIG": "iF4EABYCAAYFAmhG+doACgkQw1jnDXfq/1R0rAEA9CBQCLdzXVolPcoC9bpWZFih5X2jsbbd9gjqeP4WqqoA/jlo2gN+7bra/ANjnjcuOv3MipocEukLgGHwmzX9v2AB",
+  "URL": "https://github.com/google/snappy",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1749482330",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libsnappy.so"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "cmake",
+    "gtest"
+  ],
+  "CHECKDEPENDS": [
+    "zlib"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libevent-2.1.12-6-x86_64.pkg.tar.zst",
+  "NAME": "libevent",
+  "BASE": "libevent",
+  "VERSION": "2.1.12-6",
+  "DESC": "Event notification library",
+  "CSIZE": "324517",
+  "ISIZE": "1076047",
+  "MD5SUM": "2b8ac398c1b9c9985f2c112810b51129",
+  "SHA256SUM": "6071d29e8e6c2e7dd19b4fe01d41b4ad2e3762896d4a7ea9c494e274c0cde243",
+  "PGPSIG": "iF4EABYCAAYFAmduP5gACgkQw1jnDXfq/1TZXwD/W6ok+q1ClA2aYkoNN20S2TDCHSE2cltc8+AHVI8LzNkBAMU4nNAcTHFIZ8NyC2DHzfHzaz4KseCr/wIgANKPEQcF",
+  "URL": "https://libevent.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1735278743",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libevent-2.1.so",
+    "libevent_core-2.1.so",
+    "libevent_extra-2.1.so",
+    "libevent_openssl-2.1.so",
+    "libevent_pthreads-2.1.so"
+  ],
+  "OPTDEPENDS": [
+    "python: event_rpcgen.py"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "zlib"
+  ],
+  "REPO": "main"
+}
