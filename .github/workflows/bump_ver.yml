@@ -105,3 +105,4 @@ jobs:
           title: ${{ env.COMMITMSG }}
           body: ${{ github.event.inputs.pr_detail }}
           labels: bump-pkgver,automated
+          draft: true
