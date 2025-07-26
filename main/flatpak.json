@@ -1,0 +1,59 @@
+{
+  "FILENAME": "flatpak-1.16.1-2-aarch64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.1-2",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1609477",
+  "ISIZE": "5760208",
+  "MD5SUM": "190bb3adcc57f900571b499106909f7d",
+  "SHA256SUM": "0fa3941c613ab78aff38b679d2caebc3a3185b1954a6e62fcf8b99046ffb6dec",
+  "PGPSIG": "iF4EABYCAAYFAmgtiyUACgkQw1jnDXfq/1TTtAD/azaDLB7WZyjzNXqFYzarrUWIw2yNlLx/qzsQu0Zu6l4BANrL2QOMWlJpIoLITyfVPmIGBBrDoKhnMBfwNKD4rRAE",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747815488",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "libxml2",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "zstd",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "libxslt",
+    "meson",
+    "python-packaging",
+    "python-pyparsing",
+    "xmlto",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "socat"
+  ],
+  "REPO": "main"
+}

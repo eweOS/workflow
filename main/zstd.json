@@ -1,0 +1,33 @@
+{
+  "FILENAME": "zstd-1.5.7-2-aarch64.pkg.tar.zst",
+  "NAME": "zstd",
+  "BASE": "zstd",
+  "VERSION": "1.5.7-2",
+  "DESC": "Zstandard - Fast real-time compression algorithm",
+  "CSIZE": "481682",
+  "ISIZE": "1326626",
+  "MD5SUM": "46967414ff2e94465c34783244cb3e73",
+  "SHA256SUM": "ad6fd9ee75c09594e2ec4159391f84889cb5651ba3f9b72589d0d45210e49a19",
+  "PGPSIG": "iF4EABYCAAYFAmfGX7AACgkQw1jnDXfq/1RwnwEAtk+z2ovfC9awEJHSLuZtoHlCH+xPxAm3okmSXaESeHgBANbmi/7fTAFYL6w0eZQdyji1xm51Q+eY9vkYtyOETNwK",
+  "URL": "https://facebook.github.io/zstd/",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1741054283",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "xz",
+    "lz4"
+  ],
+  "PROVIDES": [
+    "libzstd.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

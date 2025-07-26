@@ -1,0 +1,35 @@
+{
+  "FILENAME": "gvfs-nfs-1.57.2-2-aarch64.pkg.tar.zst",
+  "NAME": "gvfs-nfs",
+  "BASE": "gvfs",
+  "VERSION": "1.57.2-2",
+  "DESC": "Virtual filesystem implementation for GIO - NFS backend",
+  "GROUPS": "gnome",
+  "CSIZE": "19903",
+  "ISIZE": "46396",
+  "MD5SUM": "3f75404e64f142c0e37040c5a2ed43c0",
+  "SHA256SUM": "83a2edb7b8415bca3b79a0455962a1c33a8ce9796bb8a6c791ec16a77bcd5c31",
+  "PGPSIG": "iF4EABYCAAYFAmgPEYwACgkQw1jnDXfq/1RgDgEAqrXrHTLV4siyXQiUZlIq8mQSvnKLe341OH7pw5sLHowBAMRWsR+jGQmZ9FJDqFgvSbJUnRNfT56XeRQrFnGizp0C",
+  "URL": "https://gitlab.gnome.org/GNOME/gvfs",
+  "LICENSE": [
+    "LGPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1745818193",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gvfs=1.57.2",
+    "glib2",
+    "libnfs"
+  ],
+  "MAKEDEPENDS": [
+    "dbus",
+    "docbook-xsl",
+    "git",
+    "libnfs",
+    "libxml2",
+    "meson",
+    "python"
+  ],
+  "REPO": "main"
+}

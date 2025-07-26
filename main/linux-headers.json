@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-headers-6.15.6-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-headers",
+  "BASE": "linux",
+  "VERSION": "6.15.6-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1855863",
+  "ISIZE": "6782341",
+  "MD5SUM": "da58df6d303fc2c0408828a4cbaf10c6",
+  "SHA256SUM": "0dd0c0ae948adfe1c64135177788d3873f3822d55bff3820a25833ff359b18d5",
+  "PGPSIG": "iF4EABYCAAYFAmh7PmgACgkQw1jnDXfq/1RsggD+OxaSsUb1BK6tOT/Q+mHbSJhOP6rG3SLto+MmaJNydFQA/2DPVlXidzfrKGQJtE40f5P3XeOG8kNekyBs8bIzjyIL",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1752905051",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

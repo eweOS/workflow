@@ -1,0 +1,40 @@
+{
+  "FILENAME": "sonnet-6.15.0-1-aarch64.pkg.tar.zst",
+  "NAME": "sonnet",
+  "BASE": "sonnet",
+  "VERSION": "6.15.0-1",
+  "DESC": "Spelling framework for Qt",
+  "GROUPS": "kf6",
+  "CSIZE": "413477",
+  "ISIZE": "1560971",
+  "MD5SUM": "6ae8f1c7fbe0b534f53305305e51b267",
+  "SHA256SUM": "7484994f742fb59d2015ae91769a50fcf62ff4fd4087f2273c63489b10e618f3",
+  "PGPSIG": "iF4EABYCAAYFAmhb3H4ACgkQw1jnDXfq/1RUhAEAjiijLAimhdAJU7MnFwe1WDxDmgnnBlhAP3nAR6UkjK8A/RoCdfREjVJo6iTo93oycZozXdkyovOYCX/fpuXJDbwM",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750851105",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "aspell: spell checking via aspell",
+    "hspell: spell checking for Hebrew",
+    "hunspell: spell checking via hunspell",
+    "libvoikko: Finnish support via Voikko",
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "aspell",
+    "extra-cmake-modules",
+    "hunspell",
+    "libvoikko",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

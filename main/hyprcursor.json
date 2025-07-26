@@ -1,0 +1,35 @@
+{
+  "FILENAME": "hyprcursor-0.1.12-1-any.pkg.tar.zst",
+  "NAME": "hyprcursor",
+  "BASE": "hyprcursor",
+  "VERSION": "0.1.12-1",
+  "DESC": "The hyprland cursor format, library and utilities",
+  "CSIZE": "168599",
+  "ISIZE": "477589",
+  "MD5SUM": "3ba048b3d84d67a4992bd75c031bc939",
+  "SHA256SUM": "b7772a4b22204bb83828b09213db63c712b83d43d9759bbf4b3c9a7e1f2a8525",
+  "PGPSIG": "iF4EABYCAAYFAmgkVx0ACgkQw1jnDXfq/1RuoQEA94VwOEkCk6k26Vva5+XtQsM97LlFUl3yOA+xJNu2pf8BAN7+zeserQLrIqcajLYOgKwCCe8IvGadIza+UzK6szAG",
+  "URL": "https://github.com/hyprwm/hyprcursor",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1747212329",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "hyprlang",
+    "libhyprlang.so",
+    "cairo",
+    "librsvg",
+    "libzip",
+    "tomlplusplus"
+  ],
+  "PROVIDES": [
+    "libhyprcursor.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake"
+  ],
+  "REPO": "main"
+}

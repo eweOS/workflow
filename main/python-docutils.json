@@ -1,0 +1,35 @@
+{
+  "FILENAME": "python-docutils-0.21.2-2-any.pkg.tar.zst",
+  "NAME": "python-docutils",
+  "BASE": "python-docutils",
+  "VERSION": "0.21.2-2",
+  "DESC": "An open-source text processing system for processing plaintext documentation into useful formats",
+  "CSIZE": "1183026",
+  "ISIZE": "5962583",
+  "MD5SUM": "ff1b31422a34995a1b07405c8dc3b73f",
+  "SHA256SUM": "c86abfd17506544b82bda73518feac9cf20f59a8b3f7e9c5ca17b1c63ba2f1f4",
+  "PGPSIG": "iF4EABYCAAYFAmdP3bgACgkQw1jnDXfq/1TXEQD+OmvjwNIOAS2wpZJGcq05PyxZRiwjUsp+8uvOCRSxTHoA/3Xb0+urCBcFDXSIr/NGFa/i73vj0O0QPleZJa6xiLgJ",
+  "URL": "https://docutils.sourceforge.io/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733287542",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-pygments: for syntax highlighting"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-flit-core"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

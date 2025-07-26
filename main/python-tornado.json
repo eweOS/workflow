@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-tornado-6.5.1-1-aarch64.pkg.tar.zst",
+  "NAME": "python-tornado",
+  "BASE": "python-tornado",
+  "VERSION": "6.5.1-1",
+  "DESC": "open source version of the scalable, non-blocking web server and tools",
+  "CSIZE": "1158188",
+  "ISIZE": "5945968",
+  "MD5SUM": "6a9241ef73e08b7fa324b9fd249f71ef",
+  "SHA256SUM": "7452eb9ba8ddb2601695d4901723d711222e9652cb3ddf7a61c394b80abd1107",
+  "PGPSIG": "iF4EABYCAAYFAmhDtaMACgkQw1jnDXfq/1ToIwD9G4ZG4mAC65zufuSel48AboRLHRUzkk/ES0tcusrGLvMA+wdNfG/4dQDk6Laou7Mr2Tw2J91m4rnIUSv3oA2akFED",
+  "URL": "https://www.tornadoweb.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749268209",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-pycurl: for tornado.curl_httpclient",
+    "python-pycares: an alternative non-blocking DNS resolver",
+    "python-twisted: for tornado.platform.twisted"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

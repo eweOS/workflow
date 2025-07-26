@@ -1,0 +1,48 @@
+{
+  "FILENAME": "podman-5.4.2-1-aarch64.pkg.tar.zst",
+  "NAME": "podman",
+  "BASE": "podman",
+  "VERSION": "5.4.2-1",
+  "DESC": "Tool and library for running OCI-based containers in pods",
+  "CSIZE": "30101448",
+  "ISIZE": "87608836",
+  "MD5SUM": "9044caccd880dfd977a4cce2b2f2ef94",
+  "SHA256SUM": "137b28999f7d745fc678d5885060eef2b58c8609cd25a289eb1c250b23cb5e5f",
+  "PGPSIG": "iF4EABYCAAYFAmgkc0IACgkQw1jnDXfq/1TbDAD8DUihgl7yIok2UX69Q17NHXMrvqvn/JHD1cTOf9uy55QBAM/mTDvSeyTsZQ9Gey1BcI3UKePPlcX+FsaZYcsEAuEK",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747219303",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "catatonit",
+    "conmon",
+    "containers-common",
+    "oci-runtime",
+    "gpgme",
+    "libseccomp"
+  ],
+  "OPTDEPENDS": [
+    "apparmor: for AppArmor support",
+    "btrfs-progs: support btrfs backend devices",
+    "cni-plugins: for an alternative container-network-stack implementation",
+    "fuse-overlayfs: for storage driver in rootless environment",
+    "slirp4netns: for alternative rootless network support",
+    "podman-compose: for docker-compose compatibility",
+    "podman-docker: for Docker-compatible CLI"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}
