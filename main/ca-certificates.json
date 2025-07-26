@@ -1,0 +1,36 @@
+{
+  "FILENAME": "ca-certificates-20240618-1-any.pkg.tar.gz",
+  "NAME": "ca-certificates",
+  "BASE": "ca-certificates",
+  "VERSION": "20240618-1",
+  "DESC": "Common CA certificates (default providers)",
+  "CSIZE": "1721",
+  "ISIZE": "0",
+  "MD5SUM": "87a7f179825a60ad4acc622b1d0cadcd",
+  "SHA256SUM": "bd97768f4476873071c5f250bb07b4c0c64e374f3be43b79ca7c6e54aaf0e99d",
+  "PGPSIG": "iF4EABYCAAYFAmcR09QACgkQw1jnDXfq/1SjogEAz1ECQQ1W7isTMU5NHBOQBDLsqP83z5Kz8kQwH9grnD4BAJPN6sIUfBs0GTTBv0G6DEM04Sm6gqq7YLY0K5VXveYK",
+  "URL": "https://src.fedoraproject.org/rpms/ca-certificates",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1729221585",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "ca-certs"
+  ],
+  "DEPENDS": [
+    "ca-certificates-mozilla"
+  ],
+  "CONFLICTS": [
+    "ca-certs"
+  ],
+  "PROVIDES": [
+    "ca-certs"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "p11-kit"
+  ],
+  "REPO": "main"
+}

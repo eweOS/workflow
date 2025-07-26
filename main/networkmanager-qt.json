@@ -1,0 +1,35 @@
+{
+  "FILENAME": "networkmanager-qt-6.15.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "networkmanager-qt",
+  "BASE": "networkmanager-qt",
+  "VERSION": "6.15.0-1",
+  "DESC": "Qt wrapper for NetworkManager API",
+  "GROUPS": "kf6",
+  "CSIZE": "390155",
+  "ISIZE": "1703714",
+  "MD5SUM": "7a8eb6218f39c6d7a64e77358a4a0303",
+  "SHA256SUM": "a8c154dd54db44bad9941ae11428a40d67f57245dc2ff07af24cb9581b9eee3b",
+  "PGPSIG": "iF4EABYCAAYFAmhejekACgkQw1jnDXfq/1TYhgEAjoQy5vrMxeJTu7wxv3Rf+dt2OJ01ffxTfubdEZaE0VwBALUCKXebmYEBexT2l1CHtlGxcwdbmpLeIWhySmrfwBAM",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751027305",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "networkmanager",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

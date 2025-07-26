@@ -1,0 +1,32 @@
+{
+  "FILENAME": "benchmark-1.9.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "benchmark",
+  "BASE": "benchmark",
+  "VERSION": "1.9.4-1",
+  "DESC": "A microbenchmark support library",
+  "CSIZE": "208842",
+  "ISIZE": "553077",
+  "MD5SUM": "bea36f94fcbf261017d25f1008396432",
+  "SHA256SUM": "9fe4a238a845810f836cd39ee52766ded4cdd47165d6434ba27066c8bd6905ec",
+  "PGPSIG": "iF4EABYCAAYFAmhj0vEACgkQw1jnDXfq/1RSpwEAvQKQ8q7P6wGxxrhLkIdfxhdHc4UYa4vxJzEMoYAGskIBAKzSCKRpwGVg53WOJRcE2FK5dfEOqGDUs3YOyq5mVNEB",
+  "URL": "https://github.com/google/benchmark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751372969",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libbenchmark.so",
+    "libbenchmark_main.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python"
+  ],
+  "REPO": "main"
+}

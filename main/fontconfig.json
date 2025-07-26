@@ -1,0 +1,32 @@
+{
+  "FILENAME": "fontconfig-2.16.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "fontconfig",
+  "BASE": "fontconfig",
+  "VERSION": "2.16.2-1",
+  "DESC": "Library for configuring and customizing font access",
+  "CSIZE": "184227",
+  "ISIZE": "574338",
+  "MD5SUM": "fb37b3f48a56e30ba67ac8a80ee6361c",
+  "SHA256SUM": "334fe6ee69467b90ea6770f9d16b47a9a19715be4a0a5a4822947d445fc809c3",
+  "PGPSIG": "iF0EABYCAAYFAmgR1rEACgkQw1jnDXfq/1RanAEA7zPbI03FWP+KA4oHvcQy++PFVAU1J76t+BNsnSDiAjkA+LpJ0G6ZV2THcN6KhBa8CJEmAYs4oR35qoU9MPpEcgs=",
+  "URL": "https://www.freedesktop.org/wiki/Software/fontconfig/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1745999715",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "freetype2",
+    "gperf"
+  ],
+  "PROVIDES": [
+    "libfontconfig.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "symlinks"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libsrtp-2.7.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "libsrtp",
+  "BASE": "libsrtp",
+  "VERSION": "2.7.0-1",
+  "DESC": "Library for SRTP (Secure Realtime Transport Protocol)",
+  "CSIZE": "46278",
+  "ISIZE": "154553",
+  "MD5SUM": "c14463dcae1982cf8c75247dbffdd05b",
+  "SHA256SUM": "aaf955cd35f26cee3b06603167533c0eedc65aebebe3e5edf83ae811e9a1e6f0",
+  "PGPSIG": "iF4EABYCAAYFAmffmsAACgkQw1jnDXfq/1Rk5QD7BAKKRILvmYdqAryVMYyljoH60ndMliNVwWh/T13O8TAA/RdZq+PMc2KbqhUaKzXTjb9NiOKQic7hJdoD7F+wxGAE",
+  "URL": "https://github.com/cisco/libsrtp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1742707415",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "nss",
+    "libpcap"
+  ],
+  "PROVIDES": [
+    "libsrtp2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "samurai"
+  ],
+  "REPO": "main"
+}

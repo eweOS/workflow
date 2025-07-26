@@ -1,0 +1,33 @@
+{
+  "FILENAME": "lxc-6.0.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "lxc",
+  "BASE": "lxc",
+  "VERSION": "6.0.4-1",
+  "DESC": "The Linux Containers tool set for kernel-level isolation",
+  "CSIZE": "1492862",
+  "ISIZE": "7921540",
+  "MD5SUM": "abb11ed146e0b072622af83896c70961",
+  "SHA256SUM": "138e83f1ebfb3712bf563bbd8ae7a456c7bbd9ce1fbea9805da5d930ccb6d366",
+  "PGPSIG": "iF4EABYCAAYFAmhNjCwACgkQw1jnDXfq/1TEjAD+LdCSc8QmS3TqQ6pzIJxZ8gXZhmZ9uWq5nwy6ZqDpWL4BAIfOX12hV8eBvDF9XXFdolWN4b7qRSEJZiiE2EkbXQAO",
+  "URL": "https://linuxcontainers.org",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749913014",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "bash",
+    "libseccomp",
+    "libcap",
+    "rsync",
+    "wget"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "lua",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

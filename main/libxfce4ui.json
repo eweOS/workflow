@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libxfce4ui-4.20.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "libxfce4ui",
+  "BASE": "libxfce4ui",
+  "VERSION": "4.20.0-1",
+  "DESC": "Widgets library for the Xfce desktop environment",
+  "CSIZE": "415551",
+  "ISIZE": "2003036",
+  "MD5SUM": "c6c2e7b76aa4dbcc6cd6c32b64af99d6",
+  "SHA256SUM": "82e151399d214cd7c1714a37faf1faca190a1201aad1db7c894599f77b375c96",
+  "PGPSIG": "iF4EABYCAAYFAmde4EQACgkQw1jnDXfq/1SFxgEAzV5NDOxRXLrOajEzBAMAWyhPU8QcQdIT+Jty0rQfQaMBAPpHF6OtFRPK8PGl0uldTokB8ky1M3W91YoJqLRlBKwM",
+  "URL": "https://docs.xfce.org/xfce/libxfce4ui/start",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1734271258",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gettext-tiny",
+    "glib",
+    "gtk3",
+    "libxfce4util",
+    "xfconf",
+    "libepoxy"
+  ],
+  "PROVIDES": [
+    "libxfceui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "xfce4-dev-tools",
+    "vala",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,48 @@
+{
+  "FILENAME": "podman-5.4.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "podman",
+  "BASE": "podman",
+  "VERSION": "5.4.2-1",
+  "DESC": "Tool and library for running OCI-based containers in pods",
+  "CSIZE": "29694377",
+  "ISIZE": "85970412",
+  "MD5SUM": "192c51742ef9c7e8e4803087bbd0f308",
+  "SHA256SUM": "770f3302f1afb7d23ab2a9cdf9655b114d926d05baccde997c3ba00ee7aa0037",
+  "PGPSIG": "iF4EABYCAAYFAmgkdGMACgkQw1jnDXfq/1QSzgD/djArpWpyTgqUu7kkgAmlrp8bCwoWdYxtAHvYNttH9AUBALfclpcRtlQXQlaBI5NU2svePcem+mcqdf3xJ0H2z5UE",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747219318",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "catatonit",
+    "conmon",
+    "containers-common",
+    "oci-runtime",
+    "gpgme",
+    "libseccomp"
+  ],
+  "OPTDEPENDS": [
+    "apparmor: for AppArmor support",
+    "btrfs-progs: support btrfs backend devices",
+    "cni-plugins: for an alternative container-network-stack implementation",
+    "fuse-overlayfs: for storage driver in rootless environment",
+    "slirp4netns: for alternative rootless network support",
+    "podman-compose: for docker-compose compatibility",
+    "podman-docker: for Docker-compatible CLI"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}

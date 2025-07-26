@@ -1,0 +1,33 @@
+{
+  "FILENAME": "kwayland-6.4.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "kwayland",
+  "BASE": "kwayland",
+  "VERSION": "6.4.1-1",
+  "DESC": "Qt-style Client and Server library wrapper for the Wayland libraries",
+  "GROUPS": "plasma",
+  "CSIZE": "240006",
+  "ISIZE": "1170645",
+  "MD5SUM": "1f6a2bda8c45117471aa15eee74602c6",
+  "SHA256SUM": "3066095dbbe82d3d79c20cf110918cba671b89af3a188e7a5b552ae5b8e91ae5",
+  "PGPSIG": "iF4EABYCAAYFAmhehqsACgkQw1jnDXfq/1ScRAD/Qx5vNdpZWAiy7IKaEpALx3x5pLRCMJ2IuERjARB9dOQBAJOxUrSklo45CUsBzdUhnjunO+yAQ0mtDqfltVDJ2OYN",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751025722",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "linux-headers",
+    "plasma-wayland-protocols",
+    "qt6-tools",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

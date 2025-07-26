@@ -1,0 +1,30 @@
+{
+  "FILENAME": "pixman-0.46.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "pixman",
+  "BASE": "pixman",
+  "VERSION": "0.46.2-1",
+  "DESC": "The pixel-manipulation library for X and cairo",
+  "CSIZE": "170647",
+  "ISIZE": "446190",
+  "MD5SUM": "bb267719c404d64efe50270aaed0a75f",
+  "SHA256SUM": "d57d0382ecc5a183f31ae2d6fd2f935663aa14910c2217a5ff8eb23df6c4e426",
+  "PGPSIG": "iF4EABYCAAYFAmhU56AACgkQw1jnDXfq/1Qi3wEAtjMEpWOWTJga1yH8fsicFQeUyv3sl8OB1+qPtWrERqUBAIBIpaHMDeBwuHBZPSgh9HmFkUGnI+mlJUZPXiQoYM0I",
+  "URL": "https://cgit.freedesktop.org/pixman/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750395212",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libpixman-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libpng"
+  ],
+  "REPO": "main"
+}

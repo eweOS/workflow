@@ -1,0 +1,41 @@
+{
+  "FILENAME": "openmp-20.1.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "384353",
+  "ISIZE": "1088495",
+  "MD5SUM": "51e70df63cc1a33ba77afd0a5d31ec61",
+  "SHA256SUM": "41355938fff5bfd20944f473d79387f950d1af98ef50c072d795b34d43b50ae8",
+  "PGPSIG": "iF4EABYCAAYFAmiCcwIACgkQw1jnDXfq/1QTHQD8DYgTohsfbVK1IMPi+L0D49B4P80nGwCP0Ii+8q9/eboA/Avr7v2ZSHDw71wUW33OTdrmVFuaR8SIw6Er3Nl3mx0A",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753367494",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

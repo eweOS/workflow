@@ -1,0 +1,40 @@
+{
+  "FILENAME": "nftables-1.1.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.3-1",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "392870",
+  "ISIZE": "991779",
+  "MD5SUM": "41448938b818337185e5aab90e78d3e4",
+  "SHA256SUM": "71cfb0911f3d0a0d9c25e823d8a5733fd21978de4a3c085a2f85eb73b796a723",
+  "PGPSIG": "iF4EABYCAAYFAmgSwQcACgkQw1jnDXfq/1TTiwEAlTdE402QQk2PnwrFiZ6HLLTBpJTIl+PmkiQvFiuncRMBAJC0Tb5CHJHsm2PAZBavXETDlzT+iSJMIppbl+wUINUA",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1746059746",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "linux-headers",
+    "autoconf"
+  ],
+  "REPO": "main"
+}
