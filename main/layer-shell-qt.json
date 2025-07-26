@@ -1,0 +1,34 @@
+{
+  "FILENAME": "layer-shell-qt-6.4.3-1-x86_64.pkg.tar.zst",
+  "NAME": "layer-shell-qt",
+  "BASE": "layer-shell-qt",
+  "VERSION": "6.4.3-1",
+  "DESC": "Qt component to allow applications to make use of the Wayland wl-layer-shell protocol",
+  "GROUPS": "plasma",
+  "CSIZE": "40749",
+  "ISIZE": "112335",
+  "MD5SUM": "c4225978e8b8591f4c7ca67dd4510c8b",
+  "SHA256SUM": "167538c0e7e0f321cade8c5960dc83c160ff9789b5bb4fb8671dd5e4c8b42a8b",
+  "PGPSIG": "iF4EABYCAAYFAmh9A6wACgkQw1jnDXfq/1RMggD8DPsBEK6audI41jqJMIddyMFxCSxpzABbqRpb1lxTUvoBALdX/y8jUd8Y7Uv2+wHFHUsoPs9a49uLhIP+rAIq1HsA",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753023982",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

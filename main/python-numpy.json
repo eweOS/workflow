@@ -1,0 +1,40 @@
+{
+  "FILENAME": "python-numpy-2.3.1-1-x86_64.pkg.tar.zst",
+  "NAME": "python-numpy",
+  "BASE": "python-numpy",
+  "VERSION": "2.3.1-1",
+  "DESC": "Scientific tools for Python",
+  "CSIZE": "9539776",
+  "ISIZE": "46734152",
+  "MD5SUM": "f46fd52ebf27c22b0712dac575ed54dd",
+  "SHA256SUM": "ef6de56891023475a01c6fa59e8c960cde0af3fd8675f6b3b6338b04a5816f14",
+  "PGPSIG": "iF4EABYCAAYFAmhrpikACgkQw1jnDXfq/1Q6zwEAveEW88f4cZ3VKlpybk3gc7VxIKD+AQ6N8K9tT0thPdsA/2C38x0Ft1VBpWDj1uMTezeTZjqBra/Qpvcl0CwBBR8I",
+  "URL": "https://www.numpy.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751885434",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cblas",
+    "lapack",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "blas-openblas: faster linear algebra"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "meson-python",
+    "cmake",
+    "flang",
+    "cython"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-hypothesis"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "llvm-libs-20.1.8-1-x86_64.pkg.tar.zst",
+  "NAME": "llvm-libs",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM runtime libraries",
+  "CSIZE": "2979417",
+  "ISIZE": "17791965",
+  "MD5SUM": "5a805e3c7301f8b79af54053e4ee0aa2",
+  "SHA256SUM": "4d5caa27b7fa5eac9ee308fe0f10ca6af1e150517b860805af0448bd6cc85134",
+  "PGPSIG": "iF4EABYCAAYFAmiCSy0ACgkQw1jnDXfq/1RFtgEAg2BklcTP35OgFjSlL/cEl7QaMwwoBq9leBJ2SE7cyQAA/A0OE2c92gcVyY4C4lZcG1L//NjUwodnRc1sqVeXvYsJ",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753367528",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

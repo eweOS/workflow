@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-devel-6.15.6-1-x86_64.pkg.tar.zst",
+  "NAME": "linux-devel",
+  "BASE": "linux",
+  "VERSION": "6.15.6-1",
+  "DESC": "Headers and scripts for building modules for the Linux kernel",
+  "CSIZE": "35276553",
+  "ISIZE": "124277158",
+  "MD5SUM": "c9aef8180b47f993e172b8007ee903ad",
+  "SHA256SUM": "3e8e2f9521548ce5c634fa188dccc513b75a328c9897fa81fb59d4e1ffdb5993",
+  "PGPSIG": "iF4EABYCAAYFAmh7NnMACgkQw1jnDXfq/1RVTwD+PTUz3zID2bGVtS1xrnW9VaxZo/lgRBo0hL9eLaZEQOQA/RPUfNTKDCzBPR2caF1YyYwzV1k/RwgC56dE5PNqhXMJ",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1752905054",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

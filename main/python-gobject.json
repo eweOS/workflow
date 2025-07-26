@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-gobject-3.52.3-1-x86_64.pkg.tar.zst",
+  "NAME": "python-gobject",
+  "BASE": "python-gobject",
+  "VERSION": "3.52.3-1",
+  "DESC": "Python bindings for GLib/GObject/GIO/GTK",
+  "CSIZE": "350888",
+  "ISIZE": "1435253",
+  "MD5SUM": "844ffcc0ab96dec335c00656a6ce22d2",
+  "SHA256SUM": "a0fad2bd9cfab07c35cb542fc9a622fbdb006e3a1e2b7e11e7be6bcbee8468ed",
+  "PGPSIG": "iF4EABYCAAYFAmhXxkEACgkQw1jnDXfq/1QSHQEAqNrQZ/6LBhewo/apXuJL2l6gPYeSymItQ2NJm0VAjYcBAMoSio9nqLR6Vf5x1sP44n8JCPqvDi6ZKLbCpNCMK/QG",
+  "URL": "https://pygobject.gnome.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750583291",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gobject-introspection-runtime",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Cairo bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-cairo",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

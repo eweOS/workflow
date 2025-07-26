@@ -1,0 +1,39 @@
+{
+  "FILENAME": "git-2.50.1-1-x86_64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.50.1-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "16361335",
+  "ISIZE": "38587883",
+  "MD5SUM": "4a63e06ba72250734ef154c58ad9beac",
+  "SHA256SUM": "d2db679d86c0fe4d37bc1368bb0d466c382531829423338673b1b34d7cc2a9a9",
+  "PGPSIG": "iF4EABYCAAYFAmht3IUACgkQw1jnDXfq/1SwYgD+NjyFF7k4LZXyVym/gcdnFRfsvzyoHjS/gHfHTUAPG3cA/j25qENtlAfAW4RmT7co9AczDvghgiber7dHvjJlDR0B",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1752030849",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "asciidoc",
+    "xmlto"
+  ],
+  "REPO": "main"
+}

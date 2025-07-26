@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libxfce4ui-4.20.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libxfce4ui",
+  "BASE": "libxfce4ui",
+  "VERSION": "4.20.0-1",
+  "DESC": "Widgets library for the Xfce desktop environment",
+  "CSIZE": "420529",
+  "ISIZE": "2003452",
+  "MD5SUM": "eec0d693805db128d166c9870bb45376",
+  "SHA256SUM": "596b00ad8291850a327450cdca1146b7a0561ec3df6063e20589ba1d3738fa78",
+  "PGPSIG": "iF4EABYCAAYFAmde4C8ACgkQw1jnDXfq/1QdRgEA31p7eTU7UbZ6qVzJoms7odRq3/0J6Ox1q9OolPh+CnIA+gKY1iRIzWU894p9ULi+iEw4w/oGpfZpeNLKX+r9r4sK",
+  "URL": "https://docs.xfce.org/xfce/libxfce4ui/start",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1734271255",
+  "PACKAGER": "yukari-dpc <yukari-dpc@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gettext-tiny",
+    "glib",
+    "gtk3",
+    "libxfce4util",
+    "xfconf",
+    "libepoxy"
+  ],
+  "PROVIDES": [
+    "libxfceui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "xfce4-dev-tools",
+    "vala",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

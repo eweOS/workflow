@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnupg-2.4.8-1-x86_64.pkg.tar.zst",
+  "NAME": "gnupg",
+  "BASE": "gnupg",
+  "VERSION": "2.4.8-1",
+  "DESC": "GNU Privacy Guard",
+  "CSIZE": "3117270",
+  "ISIZE": "9734266",
+  "MD5SUM": "eee599d37092618f1858dc348f5825bb",
+  "SHA256SUM": "71681647fdbb696573895e62b2eb55c98c91f7258a3f257b75bb6321e7d9a9ab",
+  "PGPSIG": "iF4EABYCAAYFAmhb9jMACgkQw1jnDXfq/1ST8gD/WgutOziG+povDdOgckKIkdhU2bwUJBIsFVSsa00FybwBAMBYDQ97bydXbNlshaaaoQToIPJkqigGh5MiB+zp3K4B",
+  "URL": "https://gnupg.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750857650",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "pinentry",
+    "libgcrypt"
+  ],
+  "PROVIDES": [
+    "gpg"
+  ],
+  "OPTDEPENDS": [
+    "ntbtls: For dirmngr support"
+  ],
+  "MAKEDEPENDS": [
+    "ntbtls"
+  ],
+  "REPO": "main"
+}

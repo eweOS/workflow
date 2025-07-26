@@ -1,0 +1,44 @@
+{
+  "FILENAME": "llvm-20.1.8-1-x86_64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "33590954",
+  "ISIZE": "116320746",
+  "MD5SUM": "64e161d55a9e15eefe68a0ab61d10787",
+  "SHA256SUM": "bb8efc3814a20df405429f30b3d659c9fe1c52a46590f58bd1add3096a4198aa",
+  "PGPSIG": "iF4EABYCAAYFAmiCSy0ACgkQw1jnDXfq/1RMbgD8C3o/HfiFIWgPFFNUFPKAf9jn/ohAmTAz2pvI3sKVwxoBAMsn9vmD6xlOttSaXra+IC2FyRKNlVcV0wYFdcEUYPYP",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753367528",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

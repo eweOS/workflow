@@ -1,0 +1,35 @@
+{
+  "FILENAME": "pango-1.56.4-1-x86_64.pkg.tar.zst",
+  "NAME": "pango",
+  "BASE": "pango",
+  "VERSION": "1.56.4-1",
+  "DESC": "A library for layout and rendering of text",
+  "CSIZE": "481587",
+  "ISIZE": "2204494",
+  "MD5SUM": "2bfc4fb298eaec697ac1f47860d7cd49",
+  "SHA256SUM": "d9d23b8f89c7a8943423e0bc6c8141e3bc630c3e5b2be8ea3fb572ceaae25220",
+  "PGPSIG": "iF4EABYCAAYFAmhrfcwACgkQw1jnDXfq/1QrSQD/S0JEztxuLWst/eoGVnV3KoAgIjbUUuxW6tzpMm84wL4BAJqpo350XKCeZDNh3HWz9WwqNaxuchKsOjrx33NVDNoF",
+  "URL": "https://www.pango.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751875529",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "glib",
+    "fribidi",
+    "harfbuzz"
+  ],
+  "PROVIDES": [
+    "libpango-1.0.so",
+    "libpangocairo-1.0.so",
+    "libpangoft2-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

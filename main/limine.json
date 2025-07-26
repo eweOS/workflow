@@ -1,0 +1,28 @@
+{
+  "FILENAME": "limine-9.5.0-1-x86_64.pkg.tar.zst",
+  "NAME": "limine",
+  "BASE": "limine",
+  "VERSION": "9.5.0-1",
+  "DESC": "An advanced, portable, multiprotocol bootloader",
+  "CSIZE": "277669",
+  "ISIZE": "3553708",
+  "MD5SUM": "469f258720f87742a3993cfc1bf40e34",
+  "SHA256SUM": "016d926046ef230deee1a30743e4d9d8cd0861681bd3db345d11a9e94d975689",
+  "PGPSIG": "iF4EABYCAAYFAmh7MpUACgkQw1jnDXfq/1RKuAD/TE3Ha3DOcE1Az6VkFNx3wiPlCmR3wIh4nBhWHj4DYcoBAKsGBcdcl/VQxJK673fypSD4VnE6GwiZ7AYdEAT0CfwE",
+  "URL": "https://limine-bootloader.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1752904920",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "efibootmgr: efi entries managing for limine-install"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "lld",
+    "mtools"
+  ],
+  "REPO": "main"
+}
