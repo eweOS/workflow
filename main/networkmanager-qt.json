@@ -1,0 +1,35 @@
+{
+  "FILENAME": "networkmanager-qt-6.15.0-1-riscv64.pkg.tar.zst",
+  "NAME": "networkmanager-qt",
+  "BASE": "networkmanager-qt",
+  "VERSION": "6.15.0-1",
+  "DESC": "Qt wrapper for NetworkManager API",
+  "GROUPS": "kf6",
+  "CSIZE": "455114",
+  "ISIZE": "1596834",
+  "MD5SUM": "b6eff0f491590ecfb83b69548515c58b",
+  "SHA256SUM": "d12214fa9cd6cfbe9aff6b9d94bd9312e86a27f517e051e3d157263e7052baf0",
+  "PGPSIG": "iF4EABYCAAYFAmhemWIACgkQw1jnDXfq/1SR4QD9Hgb1uooldIjbyu8OdwoJ7Gibbw1avYfWH3+swgF9qHsBAOZOfihTjtvj/KABJhlFa0Fh8OH7bdUEMfOyAtrrV/kI",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751028475",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "networkmanager",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

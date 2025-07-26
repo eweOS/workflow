@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wasi-compiler-rt-20.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "wasi-compiler-rt",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "WASI LLVM compiler runtime",
+  "CSIZE": "33635",
+  "ISIZE": "123501",
+  "MD5SUM": "639e5855a92388fafb53e07cff2229e4",
+  "SHA256SUM": "6622a14e44c093f4fcef3c92e48d5c0b9c99e2701cb137e3366f4aa665696a94",
+  "PGPSIG": "iF4EABYCAAYFAmiDkI0ACgkQw1jnDXfq/1QCvQEAyZ0cifgg5MTMw55x7Y5rHhax+Yq557tOnMySF72YyTIBAMW7FG7ilHgdw1i+G8ZC2xk++GeWLbbZJ+i4nAOrgQkA",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1753367777",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

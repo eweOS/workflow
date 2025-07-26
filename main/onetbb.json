@@ -1,0 +1,40 @@
+{
+  "FILENAME": "onetbb-2022.0.0-2-riscv64.pkg.tar.zst",
+  "NAME": "onetbb",
+  "BASE": "onetbb",
+  "VERSION": "2022.0.0-2",
+  "DESC": "High level abstract threading library (oneAPI Threading Building Blocks)",
+  "CSIZE": "447073",
+  "ISIZE": "2027117",
+  "MD5SUM": "a02a53557a73db053761e0aa13eaa386",
+  "SHA256SUM": "be2bd45c4b670fbcb0172468893070ced7cc33425fb33a5d9f747c5e4b5b4113",
+  "PGPSIG": "iF4EABYCAAYFAmdRs3kACgkQw1jnDXfq/1RXEQEA4L/MgxKuhDI80MuevEbRig9zafw3lYY250/SAVpFsQcBALRbzjVTvQJvMICAPMQwjofwLvvWl2E0Omkwx62w9eED",
+  "URL": "https://uxlfoundation.github.io/oneTBB/",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733407689",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "tbb"
+  ],
+  "DEPENDS": [
+    "hwloc"
+  ],
+  "CONFLICTS": [
+    "tbb"
+  ],
+  "PROVIDES": [
+    "tbb=2022.0.0"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "swig",
+    "python-setuptools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

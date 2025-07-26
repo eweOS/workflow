@@ -1,0 +1,45 @@
+{
+  "FILENAME": "lld-20.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "A drop-in replacement for the GNU linkers by LLVM project",
+  "CSIZE": "6689945",
+  "ISIZE": "30751897",
+  "MD5SUM": "f7eb59f09e6e16bafb744111c405cc2d",
+  "SHA256SUM": "3d8b21a19f68b03b4f1b7fb281e4fd787aa7dd9d94e1a8a177713af73e4491a7",
+  "PGPSIG": "iF4EABYCAAYFAmiDkIwACgkQw1jnDXfq/1QlfgEA5Mwx6yl534mYPaGAj7OZs+YNqPqJkUX+LhJkeiPp7pEA/0gXDtBOctZaVtKqUKMyq79GnAax/8g6Ok8dgYO0QusJ",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1753367777",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

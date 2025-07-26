@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libxml2-2.14.4-1-riscv64.pkg.tar.zst",
+  "NAME": "libxml2",
+  "BASE": "libxml2",
+  "VERSION": "2.14.4-1",
+  "DESC": "XML parsing library, version 2",
+  "CSIZE": "875180",
+  "ISIZE": "2953938",
+  "MD5SUM": "1a0e3d2ca8016d97379b7e7d5ac711ae",
+  "SHA256SUM": "22d193293f544b94e378f227a040dff889246bb387066674f27f40279f5743b6",
+  "PGPSIG": "iF4EABYCAAYFAmhaXYkACgkQw1jnDXfq/1RagQD+MaBk3s31acQ1tI2HRwVNn2jQ73PR0VGzr0lqoprpidEA/RN4gAUHA92BkgFC0xhUBw3z40IO3nZWuA2NjpSnW18C",
+  "URL": "http://www.xmlsoft.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750752838",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxml2.so"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

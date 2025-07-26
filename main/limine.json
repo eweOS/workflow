@@ -1,0 +1,28 @@
+{
+  "FILENAME": "limine-9.5.0-1-riscv64.pkg.tar.zst",
+  "NAME": "limine",
+  "BASE": "limine",
+  "VERSION": "9.5.0-1",
+  "DESC": "An advanced, portable, multiprotocol bootloader",
+  "CSIZE": "147008",
+  "ISIZE": "3283250",
+  "MD5SUM": "9432420f92714726fabc07171bad075a",
+  "SHA256SUM": "2d06722a77230332534d5bbdacb5f235449a00ed81c4241297bb15b3bde442bd",
+  "PGPSIG": "iF4EABYCAAYFAmh7RqsACgkQw1jnDXfq/1TGSgEArkUbCpGQslVYOyTVLYlm3lhx5trJ5bD9PgJXhBVAp4UA/1irkS+FCnWAZxKp91QwffKmitJnjAQNtQJ4uzYfH3AF",
+  "URL": "https://limine-bootloader.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1752910033",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "efibootmgr: efi entries managing for limine-install"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "lld",
+    "mtools"
+  ],
+  "REPO": "main"
+}

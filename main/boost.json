@@ -1,0 +1,34 @@
+{
+  "FILENAME": "boost-1.88.0-1-riscv64.pkg.tar.zst",
+  "NAME": "boost",
+  "BASE": "boost",
+  "VERSION": "1.88.0-1",
+  "DESC": "Free peer-reviewed portable C++ source libraries (development headers)",
+  "CSIZE": "25214695",
+  "ISIZE": "212697464",
+  "MD5SUM": "0abfd22d3f65023f466893c95dd01b48",
+  "SHA256SUM": "30bcd1be5477442bdd86feb5a3a8dd277eab81fe7391e9f07596526437e142f5",
+  "PGPSIG": "iF4EABYCAAYFAmhxIBUACgkQw1jnDXfq/1SAQgEA8ybKm9N29HOKfxJfWWhi254CFTiHODHHhRBHWMYu3acBAODDnn33NtRk9HOeMSEqHD69xTnIigeWp51sYCkPE7EJ",
+  "URL": "https://www.boost.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1752240236",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "boost-libs=1.88.0"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "icu",
+    "linux-headers",
+    "python",
+    "libbz2",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

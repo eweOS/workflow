@@ -1,0 +1,38 @@
+{
+  "FILENAME": "fcitx5-chinese-addons-5.1.9-3-riscv64.pkg.tar.zst",
+  "NAME": "fcitx5-chinese-addons",
+  "BASE": "fcitx5-chinese-addons",
+  "VERSION": "5.1.9-3",
+  "DESC": "Addons related to Chinese, including IME previous bundled inside fcitx4",
+  "CSIZE": "1678228",
+  "ISIZE": "4255352",
+  "MD5SUM": "1e32056739965fcdf37a4c98321ffacf",
+  "SHA256SUM": "88edea0a7d211a9e015dcbc3f4d8708d931b87c3a609c141c02500982f60383f",
+  "PGPSIG": "iF4EABYCAAYFAmhxrwEACgkQw1jnDXfq/1SuiAEA0LhspDc/33w/zCOA7p2L1HmEpW4NcguN3YP1hSSisQEBAOx4lpQtqHkNRQg+bcYzNKa/+iWmSn+OV7kpO7CfH/kA",
+  "URL": "https://github.com/fcitx/fcitx5-chinese-addons",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1752280992",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "boost-libs",
+    "curl",
+    "fcitx5-qt",
+    "libime",
+    "opencc"
+  ],
+  "OPTDEPENDS": [
+    "fcitx5-lua: Lua and imeapi support from pinyin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "fcitx5-lua",
+    "fmt",
+    "ninja",
+    "zstd",
+    "boost"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,45 @@
+{
+  "FILENAME": "fluidsynth-2.4.6-1-riscv64.pkg.tar.zst",
+  "NAME": "fluidsynth",
+  "BASE": "fluidsynth",
+  "VERSION": "2.4.6-1",
+  "DESC": "A real-time software synthesizer based on the SoundFont 2 specifications",
+  "GROUPS": "pro-audio",
+  "CSIZE": "257748",
+  "ISIZE": "552800",
+  "MD5SUM": "e3223000592ead37ff1486f713b2a77f",
+  "SHA256SUM": "3e5c881a6590b300e10be2c2e725ed9aac6981fd7c852ce9d635ca94f19de3e6",
+  "PGPSIG": "iF4EABYCAAYFAmhaFfUACgkQw1jnDXfq/1QZyAD6AkFuETe2uQA85/Rj4E+FqF2TBvMd0g4Ikj6+5BMbC5YA/0DIlPTJvvzXxIKkW4l2ktBiaSkvaQXKLXJKDVjfFSoN",
+  "URL": "https://www.fluidsynth.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750734700",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "sdl2",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "PROVIDES": [
+    "libfluidsynth.so",
+    "soundfont-synthesizer"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "cmake",
+    "dbus",
+    "glib2",
+    "pipewire",
+    "libpulse",
+    "libsndfile",
+    "readline"
+  ],
+  "REPO": "main"
+}

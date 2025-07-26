@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-lts-headers-6.12.35-2-riscv64.pkg.tar.zst",
+  "NAME": "linux-lts-headers",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.35-2",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1813861",
+  "ISIZE": "6633255",
+  "MD5SUM": "77c354b547b5572efff17067d2dabe41",
+  "SHA256SUM": "971a3402c56afbd69bd5646c1c0023f0553c6c234c8fc24fac012f7ea7665698",
+  "PGPSIG": "iF4EABYCAAYFAmhgJ1sACgkQw1jnDXfq/1SfLwD/cIXL+jB2OmwqCHebOiJjvfAlouhAjpa115ER0UQjzlQA/Aw/PH3g9AOYdWfyN/3KyO8m2sewlUiqGe1RLO5CkP0K",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751121497",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

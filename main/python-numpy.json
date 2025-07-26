@@ -1,0 +1,40 @@
+{
+  "FILENAME": "python-numpy-2.2.5-1-riscv64.pkg.tar.zst",
+  "NAME": "python-numpy",
+  "BASE": "python-numpy",
+  "VERSION": "2.2.5-1",
+  "DESC": "Scientific tools for Python",
+  "CSIZE": "7982168",
+  "ISIZE": "39116641",
+  "MD5SUM": "3dd37506ff723f4e943d734ab0038f2c",
+  "SHA256SUM": "b7adc6ec1642801f2e60aa2f9056802c579655594f6f7db450eb8c6000d72dd5",
+  "PGPSIG": "iF4EABYCAAYFAmgKAasACgkQw1jnDXfq/1QoiQD/TujYrk0N2zHxCz6bIP7UfdhXKRRxrwf1gkV6SxFVHvAA/0KvqOw4AomhONgEpq6RpmIb8pbV+cXeUBMBupM/cnsK",
+  "URL": "https://www.numpy.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1745484169",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cblas",
+    "lapack",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "blas-openblas: faster linear algebra"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "meson-python",
+    "cmake",
+    "flang",
+    "cython"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-hypothesis"
+  ],
+  "REPO": "main"
+}

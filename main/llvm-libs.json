@@ -1,0 +1,35 @@
+{
+  "FILENAME": "llvm-libs-20.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "llvm-libs",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM runtime libraries",
+  "CSIZE": "2909442",
+  "ISIZE": "18138139",
+  "MD5SUM": "344a7c255f00a9cc33b923f9830b6823",
+  "SHA256SUM": "fa4b077ace8bed9e77514d19e8cb98b6e72ab4ea6da2f97a3de9e7e8b90db520",
+  "PGPSIG": "iF4EABYCAAYFAmiDkIwACgkQw1jnDXfq/1RXyQEAw6TvTXR+qVKl8c+vFqHCM+dcwvtL+2Rtj9govtzoMRkA/3XCBrKWqRSOAYX6iLMizPcNRRbycj1lek7McyHOg04C",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1753367777",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "sway-1.11-1-riscv64.pkg.tar.zst",
+  "NAME": "sway",
+  "BASE": "sway",
+  "VERSION": "1.11-1",
+  "DESC": "Tiling Wayland compositor and replacement for the i3 window manager",
+  "CSIZE": "5354133",
+  "ISIZE": "5746921",
+  "MD5SUM": "0da6d8da89b56d64f83dd44b932f04e8",
+  "SHA256SUM": "ee115b47b408dbb96f9a7118a814a3a865ff5d190530f6cf45c222ab42103836",
+  "PGPSIG": "iF4EABYCAAYFAmhI4KsACgkQw1jnDXfq/1TePwEAwjWTiKFIIE8eGUpT3OplUjI3ofaPT9ccnHHkyGBSu64A/1EnDR4B2VOmEU8Jlibp4AetUZaugmzC8/fkG091aLAH",
+  "URL": "https://swaywm.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1749606872",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "json-c",
+    "libinput",
+    "seatd",
+    "libxkbcommon",
+    "mesa",
+    "pango",
+    "pcre2",
+    "pixman",
+    "wayland",
+    "wlroots0.19",
+    "gdk-pixbuf"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "meson",
+    "wayland-protocols",
+    "scdoc",
+    "wlroots0.19-devel"
+  ],
+  "REPO": "main"
+}

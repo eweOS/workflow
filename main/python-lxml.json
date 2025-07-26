@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-lxml-5.3.2-1-riscv64.pkg.tar.zst",
+  "NAME": "python-lxml",
+  "BASE": "python-lxml",
+  "VERSION": "5.3.2-1",
+  "DESC": "Python3 binding for the libxml2 and libxslt libraries",
+  "CSIZE": "1471744",
+  "ISIZE": "4374808",
+  "MD5SUM": "1ddaf9ec629555a2505a4baf43790d50",
+  "SHA256SUM": "74e9339e83343467f4c687dcf1b6004871b62f0aa88cb0526adec472599f39f4",
+  "PGPSIG": "iF4EABYCAAYFAmhG/0EACgkQw1jnDXfq/1T6QQEAs0z5O6HpKt7K1ER39q/MOVDVeV6WnKNziWvNE+oRZIMA/27/CfXVqfy2mOHw0IbREd9SxxMOr/uaFq4VFWDBJukC",
+  "URL": "https://lxml.de/",
+  "LICENSE": [
+    "BSD",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1749483348",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "libxslt"
+  ],
+  "OPTDEPENDS": [
+    "python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML",
+    "python-cssselect: support for cssselect",
+    "python-html5lib: support for html5lib parser",
+    "python-lxml-docs: offline docs"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools",
+    "python-pygments",
+    "cython"
+  ],
+  "REPO": "main"
+}

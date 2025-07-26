@@ -1,0 +1,35 @@
+{
+  "FILENAME": "nss-3.113-1-riscv64.pkg.tar.zst",
+  "NAME": "nss",
+  "BASE": "nss",
+  "VERSION": "3.113-1",
+  "DESC": "Network Security Services",
+  "CSIZE": "1649836",
+  "ISIZE": "4296165",
+  "MD5SUM": "d0cab851495636c529570c56d1943535",
+  "SHA256SUM": "7838f167492347e94152be65c0f241b18ab00a295309a76a66f141b69ddafc26",
+  "PGPSIG": "iF4EABYCAAYFAmha3kAACgkQw1jnDXfq/1RpTQD/V6Bunk58+FtOB8DTYPixygFYci/BkfzSSOKawZGkW0wA/RFA274sf2r6sHYdbQKmenoAG4oNBPR4Y4sF3iZlrwAN",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750785780",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "nspr>=4.35",
+    "p11-kit>=0.23.19",
+    "sqlite",
+    "zlib",
+    "sh"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

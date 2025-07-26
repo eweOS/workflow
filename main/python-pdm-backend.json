@@ -1,0 +1,39 @@
+{
+  "FILENAME": "python-pdm-backend-2.4.4-1-any.pkg.tar.zst",
+  "NAME": "python-pdm-backend",
+  "BASE": "python-pdm-backend",
+  "VERSION": "2.4.4-1",
+  "DESC": "Build backend used by PDM that supports latest packaging standard",
+  "CSIZE": "268250",
+  "ISIZE": "1168012",
+  "MD5SUM": "93f6df517b729a4be29e39694d42055e",
+  "SHA256SUM": "6a9416a1f9130b3cd3683ea8c52c21db66dda9fe54561fd20d7a9fa9a86b8206",
+  "PGPSIG": "iF4EABYCAAYFAmgF+4wACgkQw1jnDXfq/1RqkgD/VH3HvIOMEdKMfbOm+CW8QGweQ5ahiyLMS1nRfKh0QQAA/Re57n5df3oewDDpeBUbawtSuXpqUF2HJAXItWImkK8P",
+  "URL": "https://backend.pdm-project.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1745222556",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-editables",
+    "python-tomli-w",
+    "python-pyproject-metadata"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "git",
+    "mercurial",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}
