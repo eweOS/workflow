@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
+      isany: ${{ steps.check-any.outputs.isany }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,6 +27,9 @@ jobs:
           export runson=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | while read -r arch; do echo "$([ "$arch" = "arm64" ] && echo "ubuntu-24.04-arm" || echo "ubuntu-24.04")"; done | jq -R -s -c 'split("\n")[:-1]')
           matrix=$(jq -c -n --argjson arch "$arch" --argjson runson "$runson" '{"include": [range($arch|length) | {"arch": $arch[.], "runson": $runson[.]}] }')
           echo "::set-output name=matrix::$matrix"
+      - id: check-any
+        run: |
+          echo "isany=$(. ./PKGBUILD && echo $arch)" >> "$GITHUB_OUTPUT"
   checknamcap:
     runs-on: ubuntu-24.04
     permissions:
@@ -353,6 +357,7 @@ jobs:
 
   checkpackagesymsdiff:
     needs: [buildpackage, gen-matrix]
+    if: needs.gen-matrix.outputs.isany != 'any'
     strategy:
       matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
     runs-on: ${{ matrix.runson }}
