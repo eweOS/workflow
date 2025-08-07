@@ -4,7 +4,7 @@ pkgloc=${1:-new-packages}
 
 function check_diff(){
         pkgfile=$1
-        pkgname=`pacman -Qp $1 | cut -f 1 -d ' '`
+        pkgname=`pacman -Qp $pkgfile | cut -f 1 -d ' '`
         cat <<EOF >> symdiff.report.md
 ## Package \`$pkgname\`
 
@@ -14,26 +14,26 @@ EOF
                 oldpkgdir=$(mktemp -d)
                 newpkgdir=$(mktemp -d)
                 pacman -Sy
-                oldpkgurl=$(pacman -Sp $pkgname --noconfirm)
+                oldpkgurl=$(pacman -Spdd $pkgname --noconfirm)
+                echo "downloading from $oldpkgurl..."
                 curl -sL "$oldpkgurl" --output $oldpkg
-                tar -C $newpkgdir -xf $1
+                echo "extracting new pkg $pkgfile"
+                tar -C $newpkgdir -xf $pkgfile
+                echo "extracting old pkg $oldpkg"
                 tar -C $oldpkgdir -xf $oldpkg
-
-		echo "===================="
-                echo "newpkgdir: "
-                find $newpkgdir -name "*.so" | sed "s@^$newpkgdir@@"
-                echo "oldpkgdir: "
-                find $oldpkgdir -name "*.so" | sed "s@^$oldpkgdir@@"
-		echo "===================="
 
                 mkdir -p .$pkgname.sodiff.new .$pkgname.sodiff.old
 
+                echo "===================="
                 for sofile in $(comm -12 <(find $newpkgdir -name "*.so" | sed "s@^$newpkgdir@@") <(find $oldpkgdir -name "*.so" | sed "s@^$oldpkgdir@@")); do
+                        echo "found sofile: $sofile"
                         soname=`basename $newpkgdir/$sofile`
                         readelf -s $newpkgdir/$sofile | grep -v -e " UND " -e "^$" | tail -n "+3" | tr -s ' ' | cut -f 5,6,7,9 -d ' ' | sort > .$pkgname.sodiff.new/$soname.symlist
                         readelf -s $oldpkgdir/$sofile | grep -v -e " UND " -e "^S" | tail -n "+3" | tr -s ' ' | cut -f 5,6,7,9 -d ' ' | sort > .$pkgname.sodiff.old/$soname.symlist
                         echo "- $soname" >> symdiff.report.md
                 done
+
+                echo "===================="
 
                 diff -rdN .$pkgname.sodiff.old .$pkgname.sodiff.new > .$pkgname.symchanges
                 if [ -s .$pkgname.symchanges ]; then
