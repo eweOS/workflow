@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libinih-61-1-x86_64.pkg.tar.zst",
+  "NAME": "libinih",
+  "BASE": "libinih",
+  "VERSION": "61-1",
+  "DESC": "A simple .INI file parser written in C",
+  "CSIZE": "17588",
+  "ISIZE": "36740",
+  "MD5SUM": "9b27e432e9547b282af38fd12f1d5825",
+  "SHA256SUM": "a8b200af54160faa2b603506cc2dab4697ebde23cf4a2e51f8f4bc36105e6308",
+  "PGPSIG": "iF4EABYCAAYFAmiJdVgACgkQw1jnDXfq/1R3EgEA7JsAAhy9oJFD7KTGAIBYvwg3moM1S8Yq1qa2WMKmimIA/j6lZxggiv2umoc4BniBiImIOKLTRmx7pwuI50C3ZpIF",
+  "URL": "https://github.com/benhoyt/inih",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753839566",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libinih.so",
+    "libINIReader.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

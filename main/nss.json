@@ -1,0 +1,35 @@
+{
+  "FILENAME": "nss-3.114-1-x86_64.pkg.tar.zst",
+  "NAME": "nss",
+  "BASE": "nss",
+  "VERSION": "3.114-1",
+  "DESC": "Network Security Services",
+  "CSIZE": "1630831",
+  "ISIZE": "4348225",
+  "MD5SUM": "5dbe90c44bf7def82a97249520f63398",
+  "SHA256SUM": "db2ffde15d2387fdc784b221679a520164bd9cd23a28228c979c53a681726f88",
+  "PGPSIG": "iF4EABYCAAYFAmiFEmEACgkQw1jnDXfq/1ReXQEA9JkTxC4cSgPT9sTAK3Uu1aUgqtSdO/hp8gOFbQb4iOkA/j2o2vqzHX+yjlq63vpwM9eVlhTo0FNYYd9XyEWyePAN",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753552032",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "nspr>=4.35",
+    "p11-kit>=0.23.19",
+    "sqlite",
+    "zlib",
+    "sh"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "libgexiv2-0.14.5-1-x86_64.pkg.tar.zst",
+  "NAME": "libgexiv2",
+  "BASE": "libgexiv2",
+  "VERSION": "0.14.5-1",
+  "DESC": "GObject-based wrapper around the Exiv2 library",
+  "CSIZE": "149461",
+  "ISIZE": "1113295",
+  "MD5SUM": "b162ffe062bc5639496325de34827474",
+  "SHA256SUM": "8fb7f3b6e8bfbf2ed34de4c584766c3b85563553896f906a08d1d1181f7561b9",
+  "PGPSIG": "iF4EABYCAAYFAmhaFqYACgkQw1jnDXfq/1SctwD9Gunsfrtbn82tIjChbkiOGMW+W0rUQTaZyhFyH37AYUgBAONbtSXnH3V1sYKqschAnXrVhDuaDT2ML7/7lIHh3FIF",
+  "URL": "https://gitlab.gnome.org/GNOME/gexiv2",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750734948",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "exiv2",
+    "glib2",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so",
+    "libexiv2.so"
+  ],
+  "PROVIDES": [
+    "libgexiv2.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "python-gobject",
+    "vala"
+  ],
+  "REPO": "main"
+}

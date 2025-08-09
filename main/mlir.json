@@ -1,0 +1,41 @@
+{
+  "FILENAME": "mlir-20.1.8-1-x86_64.pkg.tar.zst",
+  "NAME": "mlir",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "Multi-Level IR Compiler Framework for LLVM",
+  "CSIZE": "95759425",
+  "ISIZE": "612899132",
+  "MD5SUM": "da1362611a3c727cbf4bcecc297f9df0",
+  "SHA256SUM": "a7794db3971dd6993ef50611ee7742fc8e8d285c1b4bb855aed69bbeba0ff329",
+  "PGPSIG": "iF4EABYCAAYFAmiCSy0ACgkQw1jnDXfq/1Q8MwD+Jwj1NBZ7BwDD32DzKbs32PwN0V4bWJudzuBmo2fWVRgA/35vVJfI4P2Or96JWiuS3jvEJSe6ACBfTBKW90UtKfYF",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753367528",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

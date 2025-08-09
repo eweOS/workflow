@@ -1,0 +1,37 @@
+{
+  "FILENAME": "polkit-124-1-x86_64.pkg.tar.zst",
+  "NAME": "polkit",
+  "BASE": "polkit",
+  "VERSION": "124-1",
+  "DESC": "Application development toolkit for controlling system-wide privileges",
+  "CSIZE": "205130",
+  "ISIZE": "886252",
+  "MD5SUM": "6e82c0c2690336831f70b8f5e162e8e6",
+  "SHA256SUM": "862f5c3ea43badbd7ad8fb6c740f4c2c1c09d998dc2077caef49d0ff766d8879",
+  "PGPSIG": "iF4EABYCAAYFAmc0cqsACgkQw1jnDXfq/1SxOQEAjm4eekxCzBm+IWVHKUgvRksiD21uwn0Cjd9CiudYYaAA/jxAuACIegt+Z8LU/t49/QbqIIQbzDoBkqbxWr2bnvsO",
+  "URL": "https://gitlab.freedesktop.org/polkit/polkit",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1731490575",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "duktape",
+    "glib",
+    "pam",
+    "dbus"
+  ],
+  "PROVIDES": [
+    "libpolkit-agent-1.so",
+    "libpolkit-gobject-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "docbook-xsl"
+  ],
+  "REPO": "testing"
+}

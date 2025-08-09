@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pcre-8.45-5-x86_64.pkg.tar.zst",
+  "NAME": "pcre",
+  "BASE": "pcre",
+  "VERSION": "8.45-5",
+  "DESC": "A library that implements Perl 5-style regular expressions",
+  "CSIZE": "2536152",
+  "ISIZE": "5523514",
+  "MD5SUM": "01944572f85eb23b3b16ff8a121b77a5",
+  "SHA256SUM": "69442e6a581da394f501c217fe17a0b10b60d2aecae33ea189419f2deaacb62c",
+  "PGPSIG": "iF4EABYCAAYFAmcTrMcACgkQw1jnDXfq/1RFLgD+NZHuc0diHRdfwM42TIOmidg+svgIN07np1uxMNdRZT4A/3/Sg4f9QW+1Xb8CeXQAzNXHbni3YWr167PcEFtEj7UN",
+  "URL": "https://www.pcre.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729342634",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "readline",
+    "zlib",
+    "libbz2"
+  ],
+  "PROVIDES": [
+    "libpcreposix.so",
+    "libpcrecpp.so",
+    "libpcre32.so",
+    "libpcre16.so",
+    "libpcre.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}
