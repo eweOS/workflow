@@ -1,0 +1,46 @@
+{
+  "FILENAME": "libelf-0.193-1-loongarch64.pkg.tar.zst",
+  "NAME": "libelf",
+  "BASE": "libelf",
+  "VERSION": "0.193-1",
+  "DESC": "libelf is a free ELF object file access library (libraries)",
+  "CSIZE": "636802",
+  "ISIZE": "3550411",
+  "MD5SUM": "87a2a74f8132e6800d3534efb5f9a5b9",
+  "SHA256SUM": "0998fc9689e0b6ec4ff753bb42a5a3863d0ed7dc81b8726c1a8fdeb863a18325",
+  "PGPSIG": "iF4EABYCAAYFAmgR1W8ACgkQw1jnDXfq/1T/jgEAne4MDYF+ugVrnZK022cBFdU497Fko0PtZbBdw8vzYrsA/jONVoZ5XlrqxKvwoh4J3+y9zuo4L+ih4dhEM/FdIZ0N",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL3",
+    "GPL3"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1745999407",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "xz",
+    "zlib",
+    "musl-fts",
+    "musl-obstack",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "libasm",
+    "libdebuginfod",
+    "libdw",
+    "libelf"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

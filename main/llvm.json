@@ -1,0 +1,44 @@
+{
+  "FILENAME": "llvm-20.1.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "32737461",
+  "ISIZE": "116018244",
+  "MD5SUM": "cd2da0512da5788f0e44af121cb990b0",
+  "SHA256SUM": "b1da94d2e9be108f552af9fea4fe387fe4926a7246280a899f636a49122a4128",
+  "PGPSIG": "iF4EABYCAAYFAmiCcwIACgkQw1jnDXfq/1T4swEAkw0+Grsdd04Uf8zafG1fPLjCMZfysFaBSU3p6RJN0y4BAIGyizVI8/WwWjwxlTenknyEhLr3Brviz4N9ym0RvCUL",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753367494",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

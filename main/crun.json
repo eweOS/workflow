@@ -1,0 +1,34 @@
+{
+  "FILENAME": "crun-1.23-1-loongarch64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.23-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "231417",
+  "ISIZE": "629515",
+  "MD5SUM": "ec87f01ef2aaa0f3a619b437ee61b59b",
+  "SHA256SUM": "7a0263e04618869633c8b065a523c8a25c285b844475f229ee29d9dc35de949a",
+  "PGPSIG": "iF4EABYCAAYFAmiJdcwACgkQw1jnDXfq/1QM4gEA1nU/gtcC05zJZx4Pq0xUMdfzFI8A666wEFbI7LW3uQUA/R1vQ1ACKWU7FvlnZoiUCUG4vWd9HbHwtYq1pfDdyGMP",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753839573",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "yajl",
+    "libcap",
+    "libseccomp",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "go-md2man",
+    "git"
+  ],
+  "REPO": "main"
+}

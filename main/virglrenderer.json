@@ -1,0 +1,37 @@
+{
+  "FILENAME": "virglrenderer-1.1.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "virglrenderer",
+  "BASE": "virglrenderer",
+  "VERSION": "1.1.1-1",
+  "DESC": "A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering",
+  "CSIZE": "629930",
+  "ISIZE": "4375637",
+  "MD5SUM": "83b9e03899992b64eb5db9cf0b140dae",
+  "SHA256SUM": "c4e19cf964a23c4e49f3fb2122a7660ea20bf0a8f057ff52453c19b669b864c3",
+  "PGPSIG": "iF4EABYCAAYFAmf+LXoACgkQw1jnDXfq/1TEbQD/ePbFQ0HwxZW8odn+hCQfs4SYFJNlvPaQTCohiU8xoIoA/iV58c8qHN9qrSIiF7Q47AG6aml7zL5CnE4w3hm/320H",
+  "URL": "https://virgil3d.github.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1744711161",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libepoxy",
+    "mesa",
+    "libva"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson",
+    "ninja",
+    "vulkan-icd-loader",
+    "vulkan-headers",
+    "linux-headers",
+    "python-yaml"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "main"
+}

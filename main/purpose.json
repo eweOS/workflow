@@ -1,0 +1,46 @@
+{
+  "FILENAME": "purpose-6.15.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "purpose",
+  "BASE": "purpose",
+  "VERSION": "6.15.0-2",
+  "DESC": "Framework for providing abstractions to get the developers purposes fulfilled",
+  "GROUPS": "kf6",
+  "CSIZE": "401261",
+  "ISIZE": "1738058",
+  "MD5SUM": "d25f31dce7079f14d35975ba0733f73e",
+  "SHA256SUM": "949aabcbaa8827841573cb9ec13c2d73e139feef2544a1bc65ad5651fad52d38",
+  "PGPSIG": "iF4EABYCAAYFAmheh6AACgkQw1jnDXfq/1RdxwD+LqRufKIfXJeG55eMiPBHgnEhvir9v4J9oiOO66gA65oA/ihSvpywKrYVEmV2F7vFDMHb/vOE72it2N9AlsrVfp4D",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751025950",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "ki18n",
+    "kio",
+    "kirigami",
+    "knotifications",
+    "kservice",
+    "qt6-base",
+    "qt6-declarative"
+  ],
+  "OPTDEPENDS": [
+    "bluedevil: sharing via Bluetooth",
+    "kdeclarative: Nextcloud and YouTube plugins",
+    "kdeconnect: sharing to smartphone via KDE Connect",
+    "prison: QR code plugin",
+    "telegram-desktop: sharing via Telegram"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-tools",
+    "intltool"
+  ],
+  "REPO": "main"
+}

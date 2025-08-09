@@ -1,0 +1,51 @@
+{
+  "FILENAME": "fractal-11.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "fractal",
+  "BASE": "fractal",
+  "VERSION": "11.2-1",
+  "DESC": "Matrix group messaging app",
+  "CSIZE": "22587080",
+  "ISIZE": "64640626",
+  "MD5SUM": "83a7b1e19b7d422432426941bd2ef598",
+  "SHA256SUM": "1407871f1efae179fc8bc36ce2ab8d9f4e9c4a7f7ab8afd13a357165f6f66c86",
+  "PGPSIG": "iF4EABYCAAYFAmhXdmIACgkQw1jnDXfq/1TgFQD+P+WPWQRplGhbmYP1LFKqvptE948/CNNTxO1SDk8OmwMA/jHvI70n8ysAs1v+LcyhwWU0Y3tkCT0d5pPPPJn+vOsA",
+  "URL": "https://gitlab.gnome.org/World/fractal",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750561199",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dconf",
+    "gdk-pixbuf2",
+    "glib2",
+    "graphene",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gstreamer",
+    "gtk4",
+    "gtksourceview5",
+    "hicolor-icon-theme",
+    "libadwaita",
+    "pipewire",
+    "libseccomp",
+    "libshumate",
+    "openssl",
+    "pango",
+    "sqlite"
+  ],
+  "OPTDEPENDS": [
+    "org.freedesktop.secrets: password storage"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "meson",
+    "rust",
+    "xdg-desktop-portal",
+    "gstreamer-devel",
+    "grass",
+    "mimalloc"
+  ],
+  "REPO": "main"
+}
