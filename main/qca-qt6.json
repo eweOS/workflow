@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qca-qt6-2.3.10-1-aarch64.pkg.tar.zst",
+  "NAME": "qca-qt6",
+  "BASE": "qca",
+  "VERSION": "2.3.10-1",
+  "DESC": "Qt Cryptographic Architecture",
+  "CSIZE": "859734",
+  "ISIZE": "2990700",
+  "MD5SUM": "41c9c15898be2e3886dceca14bac9b1d",
+  "SHA256SUM": "a8d5e0c3b22dac3d49309c0c535a7da0d084e863e691264ddb99f4b1c68ff0aa",
+  "PGPSIG": "iF4EABYCAAYFAmhOnMkACgkQw1jnDXfq/1RtxQEAp6WrPUaYYHT7/BFW0DooJPcXgE+3uJtzVlsBCNaJ3ZAA/0FcLbrsnLwmfstuhRfO+kiPnL1KQcFjSAkQWUS2GXoJ",
+  "URL": "https://userbase.kde.org/QCA",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749982800",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates",
+    "nss",
+    "qt6-5compat",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "botan: botan plugin",
+    "libgcrypt: gcrypt plugin",
+    "libsasl: SASL plugin",
+    "openssl: SSL plugin",
+    "pkcs11-helper: PKCS-11 plugin"
+  ],
+  "MAKEDEPENDS": [
+    "botan",
+    "cmake",
+    "libgcrypt",
+    "libsasl",
+    "openssl",
+    "pkcs11-helper",
+    "qt6-base",
+    "qt6-5compat"
+  ],
+  "REPO": "main"
+}

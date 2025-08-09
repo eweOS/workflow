@@ -1,0 +1,51 @@
+{
+  "FILENAME": "llvm-tools-20.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM binary and object tools",
+  "CSIZE": "25442667",
+  "ISIZE": "82034243",
+  "MD5SUM": "95ff8da90d873ef4dcd115473ae4ad60",
+  "SHA256SUM": "e19953586301de1e4b11e2c0949bbf38c7d2138ee5513adbb65783a4f2407b56",
+  "PGPSIG": "iF4EABYCAAYFAmiCVeoACgkQw1jnDXfq/1SPVwEAn0SDIofvoL1accuVF5IdBbh2OhZW9DPpWchtlGZEOs8A/0a/nkIYgPJOjonY+IRt+K6yKrxcCan8VQEUiL5grCcD",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753367510",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

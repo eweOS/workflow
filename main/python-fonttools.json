@@ -1,0 +1,50 @@
+{
+  "FILENAME": "python-fonttools-4.58.1-1-aarch64.pkg.tar.zst",
+  "NAME": "python-fonttools",
+  "BASE": "python-fonttools",
+  "VERSION": "4.58.1-1",
+  "DESC": "A library to manipulate font files from Python",
+  "CSIZE": "3952690",
+  "ISIZE": "20300543",
+  "MD5SUM": "866c21d933ab74a9e892ad3b755d87ce",
+  "SHA256SUM": "e15311faf3ce6841e3828ff6080d1b21cf17890a33dbeaf36298a12cf8299c86",
+  "PGPSIG": "iF4EABYCAAYFAmhC0HMACgkQw1jnDXfq/1TNjQEAsYYCr37Z8z6JogmoYPbyJh6MA3DoKusUmGUYP8dwLtwA/2u4/75LR7vD2j7D/qNtGhk91hAYPW+Sc2wSZfxV/GEM",
+  "URL": "https://github.com/fonttools/fonttools",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749209472",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-brotli: to compress/decompress WOFF 2.0 web fonts",
+    "python-fs: to read/write UFO source files",
+    "python-lxml: faster backend for XML files reading/writing",
+    "python-lz4: for graphite type tables in ttLib/tables",
+    "python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel",
+    "python-pyqt5: for drawing glyphs with Qt’s QPainterPath",
+    "python-reportlab: to drawing glyphs as PNG images",
+    "python-scipy: for finding wrong contour/component order between different masters",
+    "python-sympy: for symbolic font statistics analysis",
+    "python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables",
+    "python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx",
+    "python-zopfli: faster backend fom WOFF 1.0 web fonts compression"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-brotli",
+    "python-fs",
+    "python-pytest",
+    "python-ufolib2"
+  ],
+  "REPO": "main"
+}

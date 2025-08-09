@@ -1,0 +1,34 @@
+{
+  "FILENAME": "crun-1.23-1-aarch64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.23-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "217151",
+  "ISIZE": "567547",
+  "MD5SUM": "3aa03496f4d2cb8f8892527576a16f43",
+  "SHA256SUM": "e1e88a9a3a74074bc198c75f4ee0d3295a1c291a351319d8af9b8e2161478768",
+  "PGPSIG": "iF4EABYCAAYFAmiJda8ACgkQw1jnDXfq/1QI+wD7BQfysIfMfG2uYVdvyeno/3Z3xDdhavHB1J6idjfvrGgBAJrubkPoPBA52eMEDjmPdYeNm9tNbewPqDfi36EbdnwN",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753839575",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "yajl",
+    "libcap",
+    "libseccomp",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "go-md2man",
+    "git"
+  ],
+  "REPO": "main"
+}

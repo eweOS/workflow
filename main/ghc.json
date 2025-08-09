@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ghc-9.4.8-3-aarch64.pkg.tar.gz",
+  "NAME": "ghc",
+  "BASE": "ghc",
+  "VERSION": "9.4.8-3",
+  "DESC": "Glasgow Haskell Compiler.",
+  "CSIZE": "366964249",
+  "ISIZE": "2197644404",
+  "MD5SUM": "fe408b1b72ab036c378715f2e753508c",
+  "SHA256SUM": "088b83e0ded9eb2cb7c207d2d9308f423843e9a000e29fbfca63cddf5b3ea198",
+  "PGPSIG": "iF4EABYCAAYFAmcCS1cACgkQw1jnDXfq/1T93wD+IUX6j0ADfGZEU80Ndz4xAfLrLSQHWoeP0/TaCGS9JRQBALfW4vc7Yym/8PrCW19AfhYPOB5RLberJnAq35iB53wM",
+  "URL": "https://ghc.haskell.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1728200374",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "gmp",
+    "ncurses",
+    "lld"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "ghc",
+    "cabal",
+    "alex",
+    "happy"
+  ],
+  "REPO": "main"
+}

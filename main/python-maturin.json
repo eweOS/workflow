@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-maturin-1.8.3-1-any.pkg.tar.zst",
+  "NAME": "python-maturin",
+  "BASE": "maturin",
+  "VERSION": "1.8.3-1",
+  "DESC": "Tool for building and publishing Rust crates as Python packages (Python binding)",
+  "CSIZE": "23205",
+  "ISIZE": "61651",
+  "MD5SUM": "b5648bf25e7cae0df169e75a6f054ee1",
+  "SHA256SUM": "3a23e1d92f98d11045c89519d5696a4837041b74fcda75e11d88d38c2a437d8d",
+  "PGPSIG": "iF4EABYCAAYFAmgExt8ACgkQw1jnDXfq/1QAKAEA1g/SA8oE3kKwjn7SpmOh2pOJo1NnHWWNzYRX7bR63UIBAM41EbMs1+Da1ZuSSvaDLGtuouXxJ5gmIZUqx7LFJSsJ",
+  "URL": "https://www.maturin.rs/",
+  "LICENSE": [
+    "Apache-2.0 OR MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1745143534",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "maturin=1.8.3-1",
+    "python-tomli"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel",
+    "python-setuptools-rust",
+    "rust",
+    "xz"
+  ],
+  "REPO": "main"
+}

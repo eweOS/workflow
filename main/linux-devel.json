@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-devel-6.15.9-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-devel",
+  "BASE": "linux",
+  "VERSION": "6.15.9-1",
+  "DESC": "Headers and scripts for building modules for the Linux kernel",
+  "CSIZE": "37161072",
+  "ISIZE": "127165213",
+  "MD5SUM": "a562ae207f2b45aa8c8055b3af816d5a",
+  "SHA256SUM": "7262a96b61c6dc072a5961749249f137a699f03777a84490e740595ebad807a3",
+  "PGPSIG": "iF4EABYCAAYFAmiUxVwACgkQw1jnDXfq/1TPxQD/Q/Z8UtlklVWPo+60hUovw/k6Q2AwEA1YpL3nlFDwicwBANLVDw/EepvHI8oQDaRor83ChaU+SvbNI/0WxdxYKosI",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754578457",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

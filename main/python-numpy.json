@@ -1,0 +1,40 @@
+{
+  "FILENAME": "python-numpy-2.3.1-1-aarch64.pkg.tar.zst",
+  "NAME": "python-numpy",
+  "BASE": "python-numpy",
+  "VERSION": "2.3.1-1",
+  "DESC": "Scientific tools for Python",
+  "CSIZE": "8285743",
+  "ISIZE": "41146521",
+  "MD5SUM": "8ca403c2ff331474e4795e4b36b01a41",
+  "SHA256SUM": "7971192efadfde45c87e00c3391c23b2fd06438be06ea4aa4b931a1ad2c8741b",
+  "PGPSIG": "iF4EABYCAAYFAmhrpqAACgkQw1jnDXfq/1Ss0QD8DqH+Pm+Vlss9FTK61yN2JdJaHM+n3cZf+T+SzOHgxFgBAPNLc33ntZyZfg+NAcFcz2uGylcMgCChMGD2vdSh53cJ",
+  "URL": "https://www.numpy.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751885437",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cblas",
+    "lapack",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "blas-openblas: faster linear algebra"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "meson-python",
+    "cmake",
+    "flang",
+    "cython"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-hypothesis"
+  ],
+  "REPO": "main"
+}

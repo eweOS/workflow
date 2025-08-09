@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ncnn-20250503-1-aarch64.pkg.tar.zst",
+  "NAME": "ncnn",
+  "BASE": "ncnn",
+  "VERSION": "20250503-1",
+  "DESC": "High-performance neural network inference framework optimized for the mobile platform",
+  "CSIZE": "2208460",
+  "ISIZE": "7251653",
+  "MD5SUM": "c4070b70684c7b2c8dd66031ec783a76",
+  "SHA256SUM": "ecf52551d0408fdf891e6304cad79cb6fe00defa8faad2370b721fa60b074936",
+  "PGPSIG": "iF4EABYCAAYFAmhU6D4ACgkQw1jnDXfq/1T7OwEA332u7mzITb8AFfrfFBq9NE+9VHj70U8D2iOBJ1rdhKsA/Rw/GSngs8rdOagCp7QljHX2exBS6migr5VgHFVP+w0D",
+  "URL": "https://github.com/Tencent/ncnn",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750395304",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "vulkan-icd-loader"
+  ],
+  "OPTDEPENDS": [
+    "protobuf: for onnx2ncnn"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "glslang",
+    "ninja",
+    "protobuf",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

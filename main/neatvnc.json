@@ -1,0 +1,39 @@
+{
+  "FILENAME": "neatvnc-0.9.5-1-aarch64.pkg.tar.zst",
+  "NAME": "neatvnc",
+  "BASE": "neatvnc",
+  "VERSION": "0.9.5-1",
+  "DESC": "Fast and neat VNC server library",
+  "CSIZE": "66344",
+  "ISIZE": "130025",
+  "MD5SUM": "2037c53300cd71948387dc3cfcdfe103",
+  "SHA256SUM": "7d486f79296b31ebbe7c92d6e7d026ed508577d085895dab3cf26f2ffb36aa41",
+  "PGPSIG": "iF4EABYCAAYFAmiLeBsACgkQw1jnDXfq/1RT1AD+LmSuob80m6Ipnfrnqmi/HkJ+ZjURDaiEMHPUns7uYqYA/2sqJxfHSZt79d5b9J9r8/m0IM18kOaopsrkU3G1NScB",
+  "URL": "https://github.com/any1/neatvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753971350",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libaml.so",
+    "libavcodec.so",
+    "libdrm",
+    "libpixman-1.so",
+    "libturbojpeg.so",
+    "mesa",
+    "zlib",
+    "nettle"
+  ],
+  "PROVIDES": [
+    "libneatvnc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}

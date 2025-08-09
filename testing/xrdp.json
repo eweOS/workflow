@@ -1,0 +1,39 @@
+{
+  "FILENAME": "xrdp-0.10.4.1-1-aarch64.pkg.tar.zst",
+  "NAME": "xrdp",
+  "BASE": "xrdp",
+  "VERSION": "0.10.4.1-1",
+  "DESC": "An open source remote desktop protocol (RDP) server",
+  "CSIZE": "642232",
+  "ISIZE": "3784139",
+  "MD5SUM": "e5c2173a77f4867cff490d2ac619ecdd",
+  "SHA256SUM": "72965f22b16164b9153f485143f0abaeff488a93d4c2b01162ea1fefa7724dc2",
+  "PGPSIG": "iF4EABYCAAYFAmiUbSQACgkQw1jnDXfq/1QmDwD/cYCDEzDsfpfsfh6q+mBUArDuGEs/Ic7sNGVPIZAjZFQBANuHaCOSOpLqngx7Cmnh3PMszX0atRnrgBAFrpX6Ny0P",
+  "URL": "https://github.com/neutrinolabs/xrdp",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754558357",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ffmpeg",
+    "fuse3",
+    "x264",
+    "pam",
+    "lame"
+  ],
+  "OPTDEPENDS": [
+    "tigervnc",
+    "tightvnc",
+    "realvnc-vnc-server"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "cmocka"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "testing"
+}
