@@ -1,0 +1,33 @@
+{
+  "FILENAME": "ca-certificates-utils-20240618-1-any.pkg.tar.gz",
+  "NAME": "ca-certificates-utils",
+  "BASE": "ca-certificates",
+  "VERSION": "20240618-1",
+  "DESC": "Common CA certificates (utilities)",
+  "CSIZE": "4247",
+  "ISIZE": "3708",
+  "MD5SUM": "cdc227d98d8344b2c08c159d90286462",
+  "SHA256SUM": "8c9cc3ad5157dff9d61fd697ee756b1bbd1b5ea778cff59d18e417d0c58a92aa",
+  "PGPSIG": "iF4EABYCAAYFAmah/WsACgkQw1jnDXfq/1TwQwD/Xfu6j786RP5LsoNGcvdyDsA0/6TFCksMhsRPZ8B66aUA/iJQqFjNc+m3tyubXRWIxb3JXGAhu18t9PPXdDsJCwoD",
+  "URL": "https://src.fedoraproject.org/rpms/ca-certificates",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1721892311",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "p11-kit>=0.24.0",
+    "symlinks"
+  ],
+  "PROVIDES": [
+    "ca-certificates",
+    "ca-certificates-java"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "p11-kit"
+  ],
+  "REPO": "main"
+}

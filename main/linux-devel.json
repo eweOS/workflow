@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-devel-6.15.9-1-riscv64.pkg.tar.zst",
+  "NAME": "linux-devel",
+  "BASE": "linux",
+  "VERSION": "6.15.9-1",
+  "DESC": "Headers and scripts for building modules for the Linux kernel",
+  "CSIZE": "32500988",
+  "ISIZE": "181926865",
+  "MD5SUM": "edf9c4dbcb8e6822ef0823bfb8c5cab6",
+  "SHA256SUM": "69f12d4babb5875056af83d753a318b99faf4ea2073dddd460b2523f79e5e59e",
+  "PGPSIG": "iF4EABYCAAYFAmiU6nUACgkQw1jnDXfq/1TLRQEAuRJJVqC19TiNygmpYgw0UqwYwndNbdXN5e0BP8XznjoA/0ZghnYq55xU7aJIHfiGpwpCP9dly7qTLtfEzfTa4XQI",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754578713",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

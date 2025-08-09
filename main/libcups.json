@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libcups-2.4.12-1-riscv64.pkg.tar.zst",
+  "NAME": "libcups",
+  "BASE": "cups",
+  "VERSION": "2.4.12-1",
+  "DESC": "OpenPrinting CUPS - client libraries and headers",
+  "CSIZE": "285654",
+  "ISIZE": "671890",
+  "MD5SUM": "3d80a7393afb54aba6e753c1a2032f57",
+  "SHA256SUM": "65e7eb269479409e6e2672603c37a18434114b131535671696d57254b00dcd5f",
+  "PGPSIG": "iF4EABYCAAYFAmgAhPoACgkQw1jnDXfq/1QIogD/Y1wjx7HFMpn6rlrgNIXE2yfMvbjNh9r/AtjEF1hTZyoA/R2U8LDzfRwuHKbuLgh3Uf/nr+XMyZbvHJ233LOFugsF",
+  "URL": "https://openprinting.github.io/cups/",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception AND BSD-3-Clause AND Zlib AND BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1744864494",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "openssl",
+    "zlib",
+    "sh",
+    "libpaper"
+  ],
+  "MAKEDEPENDS": [
+    "acl",
+    "pam",
+    "libusb",
+    "libpaper",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

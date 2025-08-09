@@ -1,0 +1,30 @@
+{
+  "FILENAME": "cmatrix-2.0-3-riscv64.pkg.tar.zst",
+  "NAME": "cmatrix",
+  "BASE": "cmatrix",
+  "VERSION": "2.0-3",
+  "DESC": "A curses-based scrolling 'Matrix'-like screen",
+  "CSIZE": "37898",
+  "ISIZE": "90913",
+  "MD5SUM": "f88f963b071a38fc082e3134e08d026e",
+  "SHA256SUM": "5edf763d8cb8586582977471ba6eddb85e2e8967fbd315b19e9ec69f23afca19",
+  "PGPSIG": "iF4EABYCAAYFAmcT3R4ACgkQw1jnDXfq/1TvZgEA40Ir5Jb2OWBudX9qu4GzyvWO5MytfRCZezLt/bK730gA/A5cGB784ORAJVPTyeiHSAn5BAhBZunzr54ns6MJBx0G",
+  "URL": "https://www.asty.org/cmatrix/",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729354979",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "kbd: cmatrix-tty custom font",
+    "xterm: cmatrix-tty custom font"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}
