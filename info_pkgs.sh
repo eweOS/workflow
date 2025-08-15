@@ -13,6 +13,7 @@ declare -A array_keys=(
   [OPTDEPENDS]=1
   [PROVIDES]=1
   [REPLACES]=1
+  [GROUPS]=1
 )
 
 mkdir -p results
