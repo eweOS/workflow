@@ -1,0 +1,44 @@
+{
+  "FILENAME": "podman-docker-5.5.2-2-x86_64.pkg.tar.zst",
+  "NAME": "podman-docker",
+  "BASE": "podman",
+  "VERSION": "5.5.2-2",
+  "DESC": "Emulate Docker CLI using podman",
+  "CSIZE": "20460",
+  "ISIZE": "11680",
+  "MD5SUM": "7dc4a0417ab6bc984559ebca41d617c5",
+  "SHA256SUM": "d3eb7ed20e9d1b15276c286c5fc9bb26f1b9b51fb1f05f3b34bb3f910040952a",
+  "PGPSIG": "iF4EABYCAAYFAmiUXqgACgkQw1jnDXfq/1SHyAEAx7vMCnRhPpP/4bcHHcyyHtmxzy5Z9izZpsgBqBXdS48A+gPSjC/gTCMd9uCr24x7Z2tjfyMw99qlnhv4QZ5iCJ0K",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754554596",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "docker"
+  ],
+  "DEPENDS": [
+    "podman",
+    "sh"
+  ],
+  "CONFLICTS": [
+    "docker"
+  ],
+  "PROVIDES": [
+    "docker"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,56 @@
+{
+  "FILENAME": "vulkan-dzn-25.2.0-1-x86_64.pkg.tar.zst",
+  "NAME": "vulkan-dzn",
+  "BASE": "mesa",
+  "VERSION": "25.2.0-1",
+  "DESC": "Open-source Vulkan driver for D3D12",
+  "CSIZE": "3447056",
+  "ISIZE": "23842630",
+  "MD5SUM": "68f9aa9a061b708376b8c2c69fda13dc",
+  "SHA256SUM": "7847ed57f5dc7274d9dc9c5521049044ff8fe1188f37126257b5f1ec3bf83ad3",
+  "PGPSIG": "iF4EABYCAAYFAmiUjjoACgkQw1jnDXfq/1SqbwEAjH4D9F67I280WwFpMIIMPlvyftrDwggPfbiLKTnMxkABAJaKVnji23mEwso+R37kzGTqcaTxAqWU9Y8ZSNcL3uwM",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754566672",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}
