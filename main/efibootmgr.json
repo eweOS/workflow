@@ -1,0 +1,28 @@
+{
+  "FILENAME": "efibootmgr-18-5-aarch64.pkg.tar.zst",
+  "NAME": "efibootmgr",
+  "BASE": "efibootmgr",
+  "VERSION": "18-5",
+  "DESC": "Linux user-space application to modify the EFI Boot Manager",
+  "CSIZE": "31491",
+  "ISIZE": "66072",
+  "MD5SUM": "1192edb851760be89de29bd3118334c5",
+  "SHA256SUM": "b028f23cf122fa6af1c38b72921bab720e37222b1aab914c2489c325e13660fe",
+  "PGPSIG": "iF4EABYCAAYFAmiIwb4ACgkQw1jnDXfq/1S1MAD+Oi9D2yQ4H5IxDLyacADri3frzpMqRnbVoKZiepnQScsA/RqioTkW7E15K+8o5+Vhb07iy/e1zPOxLQJ3JlmnxqEC",
+  "URL": "https://github.com/rhboot/efibootmgr",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753793587",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "popt",
+    "efivar"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

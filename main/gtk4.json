@@ -1,0 +1,53 @@
+{
+  "FILENAME": "gtk4-4.18.6-1-aarch64.pkg.tar.zst",
+  "NAME": "gtk4",
+  "BASE": "gtk4",
+  "VERSION": "4.18.6-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "12107156",
+  "ISIZE": "48051145",
+  "MD5SUM": "511b1ce5d7bf48844c181432203ed29f",
+  "SHA256SUM": "eac54601b11e97b3c3c5b10ddd71af855a5df99c5b08dbb3117840b84d58a52d",
+  "PGPSIG": "iF4EABYCAAYFAmhZYjEACgkQw1jnDXfq/1SbEgEAk0C+AwqEPGlU7C9SmFmlF3c2mFq6qSzYfOyfXNImEXABAMpMSFhSFvzCYBkclQcu6fD/57kWjECDkHDjR00P5sUJ",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750688673",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "desktop-file-utils",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "glslang",
+    "lld",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "clang-20.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "75880686",
+  "ISIZE": "416160318",
+  "MD5SUM": "6bc18020a91a3191be14216a6e84a1bc",
+  "SHA256SUM": "8330ec75923c280e24f3e48fc0f1ae66750ab4dd50771c63c05387c0723a3c52",
+  "PGPSIG": "iF4EABYCAAYFAmiCVeoACgkQw1jnDXfq/1RddgD+ND35gV3iVQsEjDOrP0V3SzW214ffjJ6TvamuAgkFCLgA/iV1QCfHniK8KBVOh0Ho+VeYVMJcss/BYr9EaozJRNMD",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753367510",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

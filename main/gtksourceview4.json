@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gtksourceview4-4.8.4-4-aarch64.pkg.tar.zst",
+  "NAME": "gtksourceview4",
+  "BASE": "gtksourceview4",
+  "VERSION": "4.8.4-4",
+  "DESC": "A text editor widget for code editing",
+  "CSIZE": "1105954",
+  "ISIZE": "5704889",
+  "MD5SUM": "a644177681f5211901a30d428c9d9094",
+  "SHA256SUM": "ed03ed661d3e359d44b44e7f2f0765f49f1359ce8f55b0fa8d0e111582d4f497",
+  "PGPSIG": "iF4EABYCAAYFAmgrWlIACgkQw1jnDXfq/1QJQQEAuy2hF7Q9JHLBswZj5+/+LXF7IKNv1A1iOW4uPLys2IwA/iezX8KwaeESuZwrFYNv12JG3Gcfd0GCKFOvzqew37kF",
+  "URL": "https://wiki.gnome.org/Projects/GtkSourceView/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747671916",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "gtk3",
+    "libxml2",
+    "fribidi",
+    "pcre2"
+  ],
+  "PROVIDES": [
+    "libgtksourceview-4.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "vala"
+  ],
+  "REPO": "main"
+}

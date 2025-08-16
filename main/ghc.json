@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ghc-9.6.7-1-aarch64.pkg.tar.zst",
+  "NAME": "ghc",
+  "BASE": "ghc",
+  "VERSION": "9.6.7-1",
+  "DESC": "Glasgow Haskell Compiler.",
+  "CSIZE": "267487886",
+  "ISIZE": "2227067599",
+  "MD5SUM": "a79db085200ded3de74e79b829c180d7",
+  "SHA256SUM": "a1451aab5fc5aed38ad223a78872340c8aa426d7440367bb6c62be890b221e66",
+  "PGPSIG": "iF4EABYCAAYFAmiY0xMACgkQw1jnDXfq/1SeMAEA4jJrhB/VCCsw9UAji7MFEAPPLtr6SmCLxWNtJf80vjcA/imdIhJAAw6Sbzq7V/jshc13QB+RHmfw+spKzeiLJSoA",
+  "URL": "https://ghc.haskell.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754843646",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "gmp",
+    "ncurses",
+    "lld"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "ghc",
+    "cabal",
+    "alex",
+    "happy"
+  ],
+  "REPO": "main"
+}

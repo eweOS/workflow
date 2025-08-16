@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libinih-61-1-aarch64.pkg.tar.zst",
+  "NAME": "libinih",
+  "BASE": "libinih",
+  "VERSION": "61-1",
+  "DESC": "A simple .INI file parser written in C",
+  "CSIZE": "18087",
+  "ISIZE": "37988",
+  "MD5SUM": "6f951554923718a8ed381b6a9fec8718",
+  "SHA256SUM": "5d2d03bee3041a45b76880c99c8d2cbd8e98e35678283f0c2a4ec5366be9c078",
+  "PGPSIG": "iF4EABYCAAYFAmiJdV8ACgkQw1jnDXfq/1Rl6AEA0plC+626+zLxAcesBQNUGmg0F8JgWfjqtlJOifvE86UBAMKiKiCElDLDyB+UTe82oYip3Wqi6NdFSE0Cj6bzyosC",
+  "URL": "https://github.com/benhoyt/inih",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753839569",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libinih.so",
+    "libINIReader.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

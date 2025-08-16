@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libcups-2.4.12-1-aarch64.pkg.tar.zst",
+  "NAME": "libcups",
+  "BASE": "cups",
+  "VERSION": "2.4.12-1",
+  "DESC": "OpenPrinting CUPS - client libraries and headers",
+  "CSIZE": "315267",
+  "ISIZE": "811298",
+  "MD5SUM": "f96e4ab9894ee3638b4596389a0c40ba",
+  "SHA256SUM": "59ab26d8bfbac12ebc61cad97d0870672c8f870a91e6004c24bed6e3c99299a6",
+  "PGPSIG": "iF4EABYCAAYFAmgAhCUACgkQw1jnDXfq/1THkwD/XthiDvDRHx88Cv8PgMeKAIcxse+9AegUjchBqzSf3vUA/31Dm8HH+0JzqjtbyNlFmZO5e/1hMXpRyCc/TiHBanYJ",
+  "URL": "https://openprinting.github.io/cups/",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception AND BSD-3-Clause AND Zlib AND BSD-2-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1744864399",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "openssl",
+    "zlib",
+    "sh",
+    "libpaper"
+  ],
+  "MAKEDEPENDS": [
+    "acl",
+    "pam",
+    "libusb",
+    "libpaper",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

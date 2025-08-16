@@ -1,0 +1,32 @@
+{
+  "FILENAME": "netavark-1.14.1-1-aarch64.pkg.tar.zst",
+  "NAME": "netavark",
+  "BASE": "netavark",
+  "VERSION": "1.14.1-1",
+  "DESC": "Container network stack",
+  "CSIZE": "4578742",
+  "ISIZE": "12501553",
+  "MD5SUM": "2075b93da9a63cf8d29cf3f148bb303d",
+  "SHA256SUM": "25560123cfb6e799168c316cb974c03b768dd8cc1612b52aabe020c07eabe25a",
+  "PGPSIG": "iF4EABYCAAYFAmglty0ACgkQw1jnDXfq/1SwAQEAoN6f8a+E4CaRoH+nfB3g0YKW+nXJQmWjKxhTk5t4+08BAPVOnHYPTha62LwQu2ho0+7uPgje/HTtVSlXiTs7WC8P",
+  "URL": "https://github.com/containers/netavark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747302289",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "nftables"
+  ],
+  "PROVIDES": [
+    "container-network-stack=2"
+  ],
+  "MAKEDEPENDS": [
+    "cargo",
+    "git",
+    "protobuf",
+    "go-md2man"
+  ],
+  "REPO": "main"
+}

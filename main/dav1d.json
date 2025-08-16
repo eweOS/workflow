@@ -1,0 +1,32 @@
+{
+  "FILENAME": "dav1d-1.5.1-1-aarch64.pkg.tar.zst",
+  "NAME": "dav1d",
+  "BASE": "dav1d",
+  "VERSION": "1.5.1-1",
+  "DESC": "A new open-source AV1 decoder.",
+  "CSIZE": "403166",
+  "ISIZE": "821137",
+  "MD5SUM": "2723446b39d87f6f7e9bb5fac4d72df6",
+  "SHA256SUM": "f91dbf6689c26213113c292035bd09b472ed8d816b5372559f4187261c10cc69",
+  "PGPSIG": "iF4EABYCAAYFAmegW6gACgkQw1jnDXfq/1T8kAEAu99LVjmZXLzuaIeIq39+m0WqbbfBC89rm7z7uHzLXjkBAKo+yQtTu1Qa5fwUZGWIfxnP5aVNDRic3xDc9kFv57EG",
+  "URL": "https://www.videolan.org/projects/dav1d.html",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1738562887",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "xxhash"
+  ],
+  "PROVIDES": [
+    "libdav1d.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "nasm"
+  ],
+  "REPO": "main"
+}

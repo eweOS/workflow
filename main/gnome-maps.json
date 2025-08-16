@@ -1,0 +1,52 @@
+{
+  "FILENAME": "gnome-maps-47.1-2-aarch64.pkg.tar.zst",
+  "NAME": "gnome-maps",
+  "BASE": "gnome-maps",
+  "VERSION": "47.1-2",
+  "DESC": "Find places around the world",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1321910",
+  "ISIZE": "5379705",
+  "MD5SUM": "4857b35cec305a56d397d57a07151e00",
+  "SHA256SUM": "a7ae2573c111b278537dfe1a5e3a9f4373bc61e2807fa7a8781d3d9655268fdc",
+  "PGPSIG": "iF0EABYCAAYFAmgsN54ACgkQw1jnDXfq/1Ra2AD44AJHj0kj1WZbi/ok2LsXXB4JsHF6KXX/Wk9FHDKQ0wEA06hpZpzC8VA6gxoHuF0Mt17iVsCTww1cpeokCXXDHgY=",
+  "URL": "https://apps.gnome.org/Maps",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747728587",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "hicolor-icon-theme",
+    "geoclue",
+    "geocode-glib-2",
+    "gjs",
+    "glib2",
+    "gtk4",
+    "json-glib",
+    "libadwaita",
+    "libgweather-4",
+    "libportal",
+    "librest",
+    "librsvg",
+    "libshumate",
+    "libxml2",
+    "pango"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "yelp-tools"
+  ],
+  "CHECKDEPENDS": [
+    "gnome-keyring",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

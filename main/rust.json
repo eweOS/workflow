@@ -1,0 +1,42 @@
+{
+  "FILENAME": "rust-1.88.0-1-aarch64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.88.0-1",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "92397764",
+  "ISIZE": "261876425",
+  "MD5SUM": "91a26abd09f9203df8169756f1a3a5f5",
+  "SHA256SUM": "dd390d73f3cf14b457bf72231ff0e510b7b5bf21b3f03d6d64d14f77eee6ffe1",
+  "PGPSIG": "iF4EABYCAAYFAmh1D/oACgkQw1jnDXfq/1RXIwD/QA7ZugqKfLPgSUPsnZ2SZjvGnpMPOMVL+/SnrBo8ZBgA/1lYsP/jlkvimo95sJkpgfxBNW1v5OmhZta+Jt1hQvMK",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1752500732",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "musl-static",
+    "curl",
+    "libssh2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

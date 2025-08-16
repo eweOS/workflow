@@ -1,0 +1,44 @@
+{
+  "FILENAME": "podman-docker-5.5.2-2-aarch64.pkg.tar.zst",
+  "NAME": "podman-docker",
+  "BASE": "podman",
+  "VERSION": "5.5.2-2",
+  "DESC": "Emulate Docker CLI using podman",
+  "CSIZE": "20473",
+  "ISIZE": "11680",
+  "MD5SUM": "182321fa2bb646331b97236230410dbf",
+  "SHA256SUM": "350895de548e7e9624da8757baccdb5e40b76a899a7f6453cca69cd3ec10cabe",
+  "PGPSIG": "iF4EABYCAAYFAmiUXpsACgkQw1jnDXfq/1RsQwEAs3rShv9xj0UA+4QATBMzjl6C+yNmnEJ1Wao0GoJcJXwBANYAZREqeoZNWoYYN/hgZjikpZXv+qNqXHmy+DV03V8E",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754554575",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "docker"
+  ],
+  "DEPENDS": [
+    "podman",
+    "sh"
+  ],
+  "CONFLICTS": [
+    "docker"
+  ],
+  "PROVIDES": [
+    "docker"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}
