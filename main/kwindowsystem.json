@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kwindowsystem-6.17.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "kwindowsystem",
+  "BASE": "kwindowsystem",
+  "VERSION": "6.17.0-1",
+  "DESC": "Access to the windowing system",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "103904",
+  "ISIZE": "363502",
+  "MD5SUM": "166877e191f04c24172886b9ba68ee6d",
+  "SHA256SUM": "6ca00e27d7654b106fb9502eb6bec8ef50590407521a243ab35bf916939131b7",
+  "PGPSIG": "iF4EABYCAAYFAmie6wsACgkQw1jnDXfq/1QwwAD5AeUtxZs3AfSOKQf1txLoHhCFY/Sio2lGe527psE59bcA/1SnvqoOBzlvt5uDbugHcCrxML9iH7TUFEInKuy+cFII",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755245889",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "plasma-wayland-protocols",
+    "qt6-declarative",
+    "qt6-tools",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

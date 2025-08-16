@@ -1,0 +1,40 @@
+{
+  "FILENAME": "lldb-20.1.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "6971774",
+  "ISIZE": "21556458",
+  "MD5SUM": "13e3a6bb2c7e15d70e4aeae732db1fd3",
+  "SHA256SUM": "9eb03f253b7ff3a94677994e9b3c8b95b3c9fc1b88cdf652bbfa33024f3714b9",
+  "PGPSIG": "iF4EABYCAAYFAmiCcwIACgkQw1jnDXfq/1SejAD/akcqKkquu9EUgC4/TCuH6s8VNvHWzwwwmUX2g5PZlaUA/jeO85Ag3ScOlx+EhhrtBBcCjK6ABsqD1yLtW6yVVzwG",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753367494",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

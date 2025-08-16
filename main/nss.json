@@ -1,0 +1,35 @@
+{
+  "FILENAME": "nss-3.114-1-loongarch64.pkg.tar.zst",
+  "NAME": "nss",
+  "BASE": "nss",
+  "VERSION": "3.114-1",
+  "DESC": "Network Security Services",
+  "CSIZE": "1499362",
+  "ISIZE": "4466057",
+  "MD5SUM": "c5538de6d3b6c4863737f8e9cf26a581",
+  "SHA256SUM": "b7147beebaf181af03fac7795052af896296fe118f7180f14982c396c2bf333e",
+  "PGPSIG": "iF4EABYCAAYFAmiFEwIACgkQw1jnDXfq/1RgFwD8DbW3fG9Zmr+L+mdoKVyS5aJRALIqhmunPVwGMw4hCWsA/2wrE0J9jJ7Q2TizGvaXqPUKzRqmON2hyU9InWziTlwO",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753552123",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "nspr>=4.35",
+    "p11-kit>=0.23.19",
+    "sqlite",
+    "zlib",
+    "sh"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

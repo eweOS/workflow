@@ -1,0 +1,38 @@
+{
+  "FILENAME": "dbus-1.16.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "dbus",
+  "BASE": "dbus",
+  "VERSION": "1.16.2-2",
+  "DESC": "Freedesktop.org message bus system",
+  "CSIZE": "501304",
+  "ISIZE": "1435690",
+  "MD5SUM": "888fded91192d4ec63aa66302b775dd1",
+  "SHA256SUM": "dbee26bffeb7eb9a4cc28089a8f68d8b0b1cf75e1ab1539b9c2b2f63f2a1d8c6",
+  "PGPSIG": "iF4EABYCAAYFAmgoYwkACgkQw1jnDXfq/1SFYAEAynmLYIp0tRg63HArNbyRtufnYxtde/W9mZ6lH8RRL3ABANVZvt0UREnVCM/6oN21vSGcKkklEGzx2HXCyymEfLMP",
+  "URL": "https://wiki.freedesktop.org/www/Software/dbus/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747477535",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libdbus",
+    "libdbus-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "linux-headers",
+    "meson",
+    "ninja",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

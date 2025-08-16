@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libgit2-1:1.9.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libgit2",
+  "BASE": "libgit2",
+  "VERSION": "1:1.9.1-1",
+  "DESC": "A linkable library for Git",
+  "CSIZE": "856325",
+  "ISIZE": "2895219",
+  "MD5SUM": "c47136baa267ddf43b384d70b57859c8",
+  "SHA256SUM": "9b70e59fd722bf78f2581a173a5c80719f48a626572e12ce4651081d8403ec56",
+  "PGPSIG": "iF4EABYCAAYFAmhGrgwACgkQw1jnDXfq/1SD3gD+KDzmB/rE8wEeCzvD7QaUWCB9eLEXixplobxrfxrewHIA/jp1eav8e/N+AgSt49yCBqrXH2j9ugzlqMi3HkAsDFUH",
+  "URL": "https://github.com/libgit2/libgit2",
+  "LICENSE": [
+    "GPL-2.0-only-with-linking-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749462905",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "http-parser",
+    "openssl",
+    "pcre",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libgit2.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libssh2",
+    "python"
+  ],
+  "REPO": "main"
+}

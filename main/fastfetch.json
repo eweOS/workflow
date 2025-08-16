@@ -1,0 +1,43 @@
+{
+  "FILENAME": "fastfetch-2.50.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "fastfetch",
+  "BASE": "fastfetch",
+  "VERSION": "2.50.1-1",
+  "DESC": "Like Neofetch, but much faster because written in C",
+  "CSIZE": "687863",
+  "ISIZE": "2539528",
+  "MD5SUM": "89d25f3a2b18775b392a592d534f109e",
+  "SHA256SUM": "068aac11293b4993d60a75c378028b03218ba294580c887762fa7603c661ce47",
+  "PGPSIG": "iF4EABYCAAYFAmieoZIACgkQw1jnDXfq/1T/cgD/QH+8Pt6dJBWnyQyv0b2FybKK5CKd/a1P7VXLvchDGRQA/0wxjayT1mdoxB0Sw7VnOmvsbRATw4PaqYbJD8kFC1IJ",
+  "URL": "https://github.com/fastfetch-cli/fastfetch",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755227186",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "OPTDEPENDS": [
+    "chafa: Image output as ascii art",
+    "dbus: Bluetooth, Player & Media detection",
+    "dconf: Needed for values that are only stored in DConf + Fallback for GSettings",
+    "ddcutil: Brightness detection of external displays",
+    "directx-headers: GPU detection in WSL",
+    "glib2: Output for values that are only stored in GSettings",
+    "imagemagick: Image output using sixel or kitty graphics protocol",
+    "libnm: Wifi detection",
+    "libpulse: Sound detection",
+    "mesa: Needed by the OpenGL module for gl context creation.",
+    "libxrandr: Multi monitor support",
+    "ocl-icd: OpenCL module",
+    "pciutils: GPU output",
+    "vulkan-icd-loader: Vulkan module & fallback for GPU output",
+    "xfconf: Needed for XFWM theme and XFCE Terminal font",
+    "zlib: Faster image output when using kitty graphics protocol",
+    "libdrm: Displays detection"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

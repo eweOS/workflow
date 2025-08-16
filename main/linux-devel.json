@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-devel-6.15.9-1-loongarch64.pkg.tar.zst",
+  "NAME": "linux-devel",
+  "BASE": "linux",
+  "VERSION": "6.15.9-1",
+  "DESC": "Headers and scripts for building modules for the Linux kernel",
+  "CSIZE": "31328432",
+  "ISIZE": "106625310",
+  "MD5SUM": "ecec12414418a2abc11490fdd6e72309",
+  "SHA256SUM": "40697c0e249c295ae82d3a3a4fec7e3519e5fb761be3c9841b74e98ebf8c4d01",
+  "PGPSIG": "iF4EABYCAAYFAmiU0bkACgkQw1jnDXfq/1SFKwEAxoIARZvu8KsBZIivq3y3F7GAeOiwJpH4Y/MX7cTVwbQBAP1HP732/ngWZ3PUJEfr+ru8iqWTc25z1pTkrjdITykK",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754578432",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

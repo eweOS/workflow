@@ -1,0 +1,45 @@
+{
+  "FILENAME": "labwc-0.9.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "labwc",
+  "BASE": "labwc",
+  "VERSION": "0.9.1-1",
+  "DESC": "Stacking wayland compositor with look and feel from openbox",
+  "CSIZE": "230449",
+  "ISIZE": "499501",
+  "MD5SUM": "21bce2a9df1473702d5cf15272849810",
+  "SHA256SUM": "00b2217e8a899e1a264ba4c21d416219b5dba96f94def7ecdf71df30d205edec",
+  "PGPSIG": "iF4EABYCAAYFAmiXaT0ACgkQw1jnDXfq/1QoxQEA1zfEy8MLuCSICvgR8GUVHhcJfkecktkt1aPTv3NS9a4BALHRYZs2Kirr8kXgCnJa5omEvR2X6bCKuA6UZ5V41ecF",
+  "URL": "https://github.com/labwc/labwc",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754754012",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libinput",
+    "libpng",
+    "librsvg",
+    "pango",
+    "pixman",
+    "seatd",
+    "ttf-font",
+    "wlroots0.19",
+    "wayland",
+    "libsfdo",
+    "libxml2",
+    "harfbuzz"
+  ],
+  "OPTDEPENDS": [
+    "bemenu: default launcher via Alt+F3"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.19-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

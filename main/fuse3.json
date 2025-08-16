@@ -1,0 +1,29 @@
+{
+  "FILENAME": "fuse3-3.17.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "fuse3",
+  "BASE": "fuse",
+  "VERSION": "3.17.3-1",
+  "DESC": "Interface for userspace programs to export a filesystem to the Linux kernel",
+  "CSIZE": "132267",
+  "ISIZE": "445620",
+  "MD5SUM": "6f7672420df0e662d8a0942d4fda673e",
+  "SHA256SUM": "760cae56d19e51aaa72ff50b1d11cd0141a45c2805ed36b69f63d23b3461d5cb",
+  "PGPSIG": "iF4EABYCAAYFAmiXaUcACgkQw1jnDXfq/1QMeQD/fKj87wMbeZX4cL+/jh8Z7xBIOBvvAwvuZcr4DDOPY28A/Askv4PubtFTjkmm864V52/AXlwZYdgHc+HY+xm8ursA",
+  "URL": "https://github.com/libfuse/libfuse",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754754023",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fuse-common"
+  ],
+  "MAKEDEPENDS": [
+    "pkgconf",
+    "meson",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
