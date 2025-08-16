@@ -1,0 +1,30 @@
+{
+  "FILENAME": "libbpf-1.6.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libbpf",
+  "BASE": "libbpf",
+  "VERSION": "1.6.1-1",
+  "DESC": "Library for loading eBPF programs and reading and manipulating eBPF objects from user-space",
+  "CSIZE": "287909",
+  "ISIZE": "762841",
+  "MD5SUM": "a55391a99ec0c9cd6d98c2d7726669f2",
+  "SHA256SUM": "e8c1aabd1de0d3f992bffe5a9fa807ed1320265b6710c814abe6fc6d74576333",
+  "PGPSIG": "iF4EABYCAAYFAmiQQDcACgkQw1jnDXfq/1QzswD/YFDTwemhA8YxQv00w/FRvjtbytSJJFCCjvkvcuK49f8BAKaS7uXVaJvFFHnSVZ8umVFxxc6F+mzUci5xNDU2JCcI",
+  "URL": "https://github.com/libbpf/libbpf",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754284708",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libelf",
+    "linux-headers"
+  ],
+  "PROVIDES": [
+    "libbpf.so"
+  ],
+  "MAKEDEPENDS": [
+    "rsync"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "llvm-lto-20.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "llvm-lto",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-1",
+  "DESC": "LTO library for LLVM",
+  "CSIZE": "62669",
+  "ISIZE": "138819",
+  "MD5SUM": "36765e617191cf51e63b462c66867af3",
+  "SHA256SUM": "b160544ebff710f2a59ba882602ad0287477050249610964abef3482de51d235",
+  "PGPSIG": "iF4EABYCAAYFAmiDkIwACgkQw1jnDXfq/1QCoQD9H3JQxyZOB9hXpLMKP3wukN+itW0lElwF7emMUWHjSxIBAOT6rz+ZUxmZQvUQpRZ2pnpM4wt7+A/LPUvtDA0h3TwI",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1753367777",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "wasi-libc",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

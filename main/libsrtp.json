@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libsrtp-2.7.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libsrtp",
+  "BASE": "libsrtp",
+  "VERSION": "2.7.0-1",
+  "DESC": "Library for SRTP (Secure Realtime Transport Protocol)",
+  "CSIZE": "48232",
+  "ISIZE": "151361",
+  "MD5SUM": "4464e61c4f31b3d0d1dba58ed982c95d",
+  "SHA256SUM": "5b7a7854344993fae6e7ea05ea46980baef96f9b137c47cb989f5ced025cba3f",
+  "PGPSIG": "iF4EABYCAAYFAmffnLIACgkQw1jnDXfq/1TjZwD/aUUduEB/jCmUPo8atSlEd1urqArzWaFqW6xRzzDYDeUBAOQI0sqsFufL898KR3X0/q1OBOYHNgJxUyD/cPdcVJoM",
+  "URL": "https://github.com/cisco/libsrtp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742707876",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "nss",
+    "libpcap"
+  ],
+  "PROVIDES": [
+    "libsrtp2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "samurai"
+  ],
+  "REPO": "main"
+}

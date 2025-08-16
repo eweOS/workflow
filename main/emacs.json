@@ -1,0 +1,69 @@
+{
+  "FILENAME": "emacs-30.2-1-riscv64.pkg.tar.zst",
+  "NAME": "emacs",
+  "BASE": "emacs",
+  "VERSION": "30.2-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor",
+  "CSIZE": "55886286",
+  "ISIZE": "130305370",
+  "MD5SUM": "938bcc1f3fee8183e6abb86f96b8333d",
+  "SHA256SUM": "1f03b36bdc6b988da1b9cb4acaef3b2c66b1b07fdea7757a4b9161b30e107268",
+  "PGPSIG": "iF4EABYCAAYFAmie+50ACgkQw1jnDXfq/1TVGQD+PXLLtrNf38bpZ/rLTdgKSKtpz8Ua9yJsf3dbuMZobIwA/2LnzOhSfBkALpNNGM1Hm4k1Qnjy3MKcrR/I3CsTcZMK",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755249005",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "texinfo",
+    "linux-headers",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "REPO": "main"
+}
