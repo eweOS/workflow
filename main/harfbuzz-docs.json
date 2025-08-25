@@ -1,0 +1,41 @@
+{
+  "FILENAME": "harfbuzz-docs-11.4.2-1-x86_64.pkg.tar.zst",
+  "NAME": "harfbuzz-docs",
+  "BASE": "harfbuzz",
+  "VERSION": "11.4.2-1",
+  "DESC": "OpenType text shaping engine - Documentation",
+  "CSIZE": "320420",
+  "ISIZE": "3574466",
+  "MD5SUM": "8f02467ed3172bcb5aa099768295d87c",
+  "SHA256SUM": "85f6a4ac377e4d554624f5f5941df9fc3c018dfffa9b18a8658e2ae9c9dd8de3",
+  "PGPSIG": "iF4EABYCAAYFAmioMdUACgkQw1jnDXfq/1SzigD7B1pckRjy1QoI9yMDvxhD1bW7qzfVSIlcWq56+MSNFywBAL6wxaBarurkOEf26mbX2Lkdp8ud79FO6EY/6fHRKf8B",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755853808",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libharfbuzz-subset.so",
+    "libharfbuzz-cairo.so",
+    "libharfbuzz.so",
+    "libharfbuzz-icu.so",
+    "libharfbuzz-gobject.so"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

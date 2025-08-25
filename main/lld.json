@@ -1,0 +1,44 @@
+{
+  "FILENAME": "lld-20.1.8-2-x86_64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "A drop-in replacement for the GNU linkers by LLVM project",
+  "CSIZE": "4762498",
+  "ISIZE": "20103509",
+  "MD5SUM": "fe3c038500667d9d70d840fe9e2c620e",
+  "SHA256SUM": "508a2039af1a6ad151f0d97b65e2f4552b90e2737412d8d51cd8d0aaae614702",
+  "PGPSIG": "iF4EABYCAAYFAmiqkS8ACgkQw1jnDXfq/1RLgwEAomzkpbcWFH7vRE46lBHzeiAt48xDjIJiEqUKqQX8wocA/1l4qqB9pfkJlzuKMo5hAkY0IH6M88HsQXLPWpD3wI8L",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756005861",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

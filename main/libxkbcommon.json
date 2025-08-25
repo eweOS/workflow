@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libxkbcommon-1.11.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libxkbcommon",
+  "BASE": "libxkbcommon",
+  "VERSION": "1.11.0-1",
+  "DESC": "Keymap handling library for toolkits and window systems",
+  "CSIZE": "292602",
+  "ISIZE": "896154",
+  "MD5SUM": "b221037a10f1b0e3ece9a429b3dd0e71",
+  "SHA256SUM": "9dc6aeb0c249c3aeb8797c115189eaa1974cb4ff6cd7c53275f74a8d2886a3c9",
+  "PGPSIG": "iF4EABYCAAYFAmidmf0ACgkQw1jnDXfq/1SeQgD9H4I6bv6URiGv0mXNpHpqBaFhH6Rcbv4FyOA43JjD5RUA/1TB0CiWJugzpojMVYmlWinKpF8o/s9NPHXZIhcUrP0F",
+  "URL": "https://xkbcommon.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755159721",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxml2",
+    "xkeyboard-config"
+  ],
+  "PROVIDES": [
+    "libxkbcommon.so",
+    "libxkbregistry.so"
+  ],
+  "MAKEDEPENDS": [
+    "libxml2",
+    "meson",
+    "bison",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

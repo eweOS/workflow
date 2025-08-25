@@ -1,0 +1,34 @@
+{
+  "FILENAME": "zlib-ng-2.2.5-1-x86_64.pkg.tar.zst",
+  "NAME": "zlib-ng",
+  "BASE": "zlib-ng",
+  "VERSION": "2.2.5-1",
+  "DESC": "zlib data compression library for the next generation systems",
+  "CSIZE": "120943",
+  "ISIZE": "268134",
+  "MD5SUM": "68eb36a1e0ef89a47f6804085e801010",
+  "SHA256SUM": "0f4b1f8f192942c3ac100677073fb5a3bb486206280e6dd25fe6a487a749965c",
+  "PGPSIG": "iF4EABYCAAYFAmiYeb8ACgkQw1jnDXfq/1QNrQD/VJb5NcjnMzIjuRNyJ1bz+EHang9NOLglqubaduxmWPIA/RmU9DzoETjJdFhnt2xTTNrfsnY1ibunY05z5JgQgr4H",
+  "URL": "https://github.com/zlib-ng/zlib-ng",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754823757",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "CONFLICTS": [
+    "zlib"
+  ],
+  "PROVIDES": [
+    "zlib",
+    "libz.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}
