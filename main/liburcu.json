@@ -1,0 +1,32 @@
+{
+  "FILENAME": "liburcu-0.15.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "liburcu",
+  "BASE": "liburcu",
+  "VERSION": "0.15.3-1",
+  "DESC": "Userspace data synchronization library based on Read-Copy Update",
+  "CSIZE": "148947",
+  "ISIZE": "680632",
+  "MD5SUM": "7b55122e4f1aedeb5f6121c0c4761ea4",
+  "SHA256SUM": "6d2f0a478daec404703cb12e1d0a5703b766ed30c9394ba2b2f11aba960990d2",
+  "PGPSIG": "iF4EABYCAAYFAmiqiREACgkQw1jnDXfq/1Tj7wD8C763MG+qNIw9saEJGW8bLEJdCNeP67mdPO6LZKhF1xgA/RsIq+FMnCxcdY9iTxChe7k/VJurP60K/0ud4Izo0cwD",
+  "URL": "https://lttng.org/files/urcu/userspace-rcu-0.15.3.tar.bz2",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756007367",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liburcu-bp.so",
+    "liburcu-cds.so",
+    "liburcu-common.so",
+    "liburcu-mb.so",
+    "liburcu-memb.so",
+    "liburcu-qsbr.so",
+    "liburcu.so"
+  ],
+  "REPO": "main"
+}

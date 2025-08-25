@@ -1,0 +1,47 @@
+{
+  "FILENAME": "gtk3-3.24.50-1-loongarch64.pkg.tar.zst",
+  "NAME": "gtk3",
+  "BASE": "gtk3",
+  "VERSION": "3.24.50-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "11200084",
+  "ISIZE": "51277354",
+  "MD5SUM": "c56ebe298aadde70456c6768735aa9b3",
+  "SHA256SUM": "818ff9326585aa454e4b8013c37c06171d8f11f29232b982973f9c43862acefe",
+  "PGPSIG": "iF4EABYCAAYFAmiXPN8ACgkQw1jnDXfq/1SEKQEAkkeODYtnccnNowsPxA15R3UfrvsU6Et21l4SiV7m7bQBAL4jBblp7WMd4ShuDyp3nyIbZIIfpH1qgZvzcRl83WYN",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754742555",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "at-spi2-core",
+    "desktop-file-utils",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

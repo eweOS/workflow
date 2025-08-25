@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-lts-headers-6.12.43-1-loongarch64.pkg.tar.zst",
+  "NAME": "linux-lts-headers",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.43-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1810623",
+  "ISIZE": "6613338",
+  "MD5SUM": "ab38799fbe2f877ecfb7d6030f063f32",
+  "SHA256SUM": "aadccabc2ab6b6d63f5c7afa514827d2d78f9a2f5d7a185ca02622a15098e77a",
+  "PGPSIG": "iF4EABYCAAYFAmip4mIACgkQw1jnDXfq/1TqCQEA0v6mwNM79aqjZNkGSD0fjt+8mtgDU/0gFfJY2J6O8yEA/1mC/Q5Z0dFK6IKjwUW13IAOJ6rieePm9Cl3KKXh+tEE",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755959179",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

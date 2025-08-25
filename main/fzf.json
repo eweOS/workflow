@@ -1,0 +1,33 @@
+{
+  "FILENAME": "fzf-0.65.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "fzf",
+  "BASE": "fzf",
+  "VERSION": "0.65.1-1",
+  "DESC": "Command-line fuzzy finder",
+  "CSIZE": "1801399",
+  "ISIZE": "4947898",
+  "MD5SUM": "c5f2e886412620cb719c3374769867ed",
+  "SHA256SUM": "3f41dd0e29b95d1556d8384d538826db6d4a654b1715d3ee33ff2019e0b7d6e1",
+  "PGPSIG": "iF4EABYCAAYFAmidm4MACgkQw1jnDXfq/1RABAEA66DwFLaRr/Qv6d3apdq8igRtpn9kjGYRj/3MSLx0GVABAI7uxjqNjWmX1aHor5evCMs8KSlNpBib3PsFmkTMvT8K",
+  "URL": "https://github.com/junegunn/fzf",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755160113",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash"
+  ],
+  "OPTDEPENDS": [
+    "fish: fish keybindings",
+    "tmux: fzf-tmux script for launching fzf in a tmux pane",
+    "vim: plugin",
+    "zsh: zsh keybindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "go"
+  ],
+  "REPO": "main"
+}

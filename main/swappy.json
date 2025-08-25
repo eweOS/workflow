@@ -1,0 +1,33 @@
+{
+  "FILENAME": "swappy-1.7.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "swappy",
+  "BASE": "swappy",
+  "VERSION": "1.7.1-1",
+  "DESC": "A Wayland native snapshot editing tool",
+  "CSIZE": "33878",
+  "ISIZE": "103962",
+  "MD5SUM": "ce00e1cb08a8496dfe2129ca4652e05c",
+  "SHA256SUM": "ca37284e8e41a3a1b33c50c9cfef46c327948411f37ff48e94a83c9e9b0f2b39",
+  "PGPSIG": "iF4EABYCAAYFAmijE/MACgkQw1jnDXfq/1Qq1wEA344ULjHeVY5wOdkgVlOkMCrggbK3eBMGKa6ETOeMqIsBAJZN+Ja0nWnMXVa4e1otTExXzHEhsQt3sGvEGbgtG9kP",
+  "URL": "https://github.com/jtheoof/swappy",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755518657",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "gtk3",
+    "pango"
+  ],
+  "OPTDEPENDS": [
+    "wl-clipboard: for persistent clipboard",
+    "otf-font-awesome: to draw paint icons"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc"
+  ],
+  "REPO": "main"
+}
