@@ -1,0 +1,39 @@
+{
+  "FILENAME": "gtk-update-icon-cache-4.18.6-1-aarch64.pkg.tar.zst",
+  "NAME": "gtk-update-icon-cache",
+  "BASE": "gtk4",
+  "VERSION": "4.18.6-1",
+  "DESC": "GTK icon cache updater",
+  "CSIZE": "15679",
+  "ISIZE": "27669",
+  "MD5SUM": "03264520fcc4786048752bbd3398de0c",
+  "SHA256SUM": "9ed88664dd513145e7e553ef1b797f6431b3570cc137a1e38bb3f1c17017dc81",
+  "PGPSIG": "iF4EABYCAAYFAmhZYjEACgkQw1jnDXfq/1QoBAEAvlXXRvuDUD7xmRAM7gsKNIqrDkK3+lUu94Zl8U5r2G4A/29KnzgJRIHOq8IHail1HjhBc82ID9E9epYbXJfncRgM",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750688673",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gdk-pixbuf",
+    "hicolor-icon-theme",
+    "librsvg"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "glslang",
+    "lld",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

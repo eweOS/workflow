@@ -1,0 +1,56 @@
+{
+  "FILENAME": "vulkan-panfrost-25.2.1-1-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-panfrost",
+  "BASE": "mesa",
+  "VERSION": "25.2.1-1",
+  "DESC": "Open-source Vulkan driver for Mali-GPUs",
+  "CSIZE": "1905328",
+  "ISIZE": "10893011",
+  "MD5SUM": "5b3e6c8eb3cb7aab1b11cfd6a46eb31d",
+  "SHA256SUM": "b7f7b6d46f7f7b0da549cf7e6a3a956d3eb630abb2a6842362e417688914e156",
+  "PGPSIG": "iF4EABYCAAYFAmioMjYACgkQw1jnDXfq/1ShxQD+LYzS6b1xmJfSrAUhEcuXxh5XnmgBj5r1Gt5vqb72VmAA/0adRwsXWw4Wf/uLeRA+LpPWhlGfARHxsQk0Dbx33n8A",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755853860",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-lts-headers-6.12.43-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-lts-headers",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.43-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1819748",
+  "ISIZE": "6653156",
+  "MD5SUM": "3ca1033f7a614b3975137358e365c121",
+  "SHA256SUM": "1d234cbd663e227b62cfdc86ea50301de3f12ea2aa98775f6ccc5bcd95b7c5de",
+  "PGPSIG": "iF4EABYCAAYFAmip1qsACgkQw1jnDXfq/1Qa5QEAgZVH58Y22c44+XXovVkIUCznZpN6uEWYYbVHzQMuwzEBAM52QOy4MXGEoJLOyJ4BE/XRCzLffTk0btSotaqiNPkC",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755959203",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

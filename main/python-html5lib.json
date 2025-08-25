@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-html5lib-1.1-2-any.pkg.tar.zst",
+  "NAME": "python-html5lib",
+  "BASE": "python-html5lib",
+  "VERSION": "1.1-2",
+  "DESC": "A Python HTML parser/tokenizer based on the WHATWG HTML5 spec",
+  "CSIZE": "317416",
+  "ISIZE": "1735498",
+  "MD5SUM": "0a18e5945356621eaba40ab0478b94e8",
+  "SHA256SUM": "87fe96cfd01de1cd1e04309804f5d4df56bf1aeb3d6cc6481fd9323cd4f1a6bd",
+  "PGPSIG": "iF4EABYCAAYFAmdP2hAACgkQw1jnDXfq/1Sh8AEA6W0o8js0xgAzOfLwk7XRfuk0+jVpui16uv8+47kn7SgA/i4sWJ78Jb52ZbPoOYVW1QKRUls7OWENlv9ymO7lqPgC",
+  "URL": "https://github.com/html5lib",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733286541",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-six",
+    "python-webencodings"
+  ],
+  "OPTDEPENDS": [
+    "python-lxml: lxml treebuilder",
+    "python-genshi: genshi treewalker"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-expect",
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

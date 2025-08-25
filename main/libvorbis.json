@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libvorbis-1.3.7-2-aarch64.pkg.tar.zst",
+  "NAME": "libvorbis",
+  "BASE": "libvorbis",
+  "VERSION": "1.3.7-2",
+  "DESC": "Ogg Vorbis codec",
+  "CSIZE": "369866",
+  "ISIZE": "1422872",
+  "MD5SUM": "96ffca3525d4e076aa8ab8a3678e3bf8",
+  "SHA256SUM": "b8e959802ba0050d2b9855a90363be41ecab54866780b43544f18cf1deca4329",
+  "PGPSIG": "iF4EABYCAAYFAmcTs+MACgkQw1jnDXfq/1SxpAD+PgUb5TP4pAxwhvzykqD+m3JVgyyhV/vVRDZ8jQ+i8hoA/1wvU/hDBblu/k1khIVOK2RWJpqfB/rUtj8NzyhNPyUA",
+  "URL": "https://xiph.org/vorbis/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729344466",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libogg"
+  ],
+  "PROVIDES": [
+    "libvorbis.so",
+    "libvorbisenc.so",
+    "libvorbisfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

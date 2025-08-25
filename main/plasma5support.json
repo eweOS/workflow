@@ -1,0 +1,50 @@
+{
+  "FILENAME": "plasma5support-6.4.4-1-aarch64.pkg.tar.zst",
+  "NAME": "plasma5support",
+  "BASE": "plasma5support",
+  "VERSION": "6.4.4-1",
+  "DESC": "Support components for porting from KF5/Qt5 to KF6/Qt6",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "534689",
+  "ISIZE": "2070389",
+  "MD5SUM": "63724c8023c4b5e273770d5d09415d82",
+  "SHA256SUM": "cfc39fead04ebb8062d23ea4bec9a56e5174c9418a8f86d9de5ff115d1f4e71b",
+  "PGPSIG": "iF4EABYCAAYFAmilmfIACgkQw1jnDXfq/1QAzgEA6dSwANp/8JGlxbW36kxFt16DfQKFjZLvkhtfKizDx2cBAKblY86vKSmh3g4Z8NKw9sXT9ab+8+Inj5eLvSMQF7EE",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755683982",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "kconfig",
+    "kcoreaddons",
+    "kguiaddons",
+    "ki18n",
+    "kidletime",
+    "kio",
+    "kjobwidgets",
+    "knotifications",
+    "kservice",
+    "libksysguard",
+    "qt6-base",
+    "qt6-declarative",
+    "solid"
+  ],
+  "OPTDEPENDS": [
+    "gpsd: GPS-based geolocation dataengine",
+    "networkmanager-qt: IP-based geolocation dataengine",
+    "plasma-activities: activities dataengine"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "networkmanager-qt",
+    "plasma-activities",
+    "qt6-tools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libxkbcommon-1.11.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libxkbcommon",
+  "BASE": "libxkbcommon",
+  "VERSION": "1.11.0-1",
+  "DESC": "Keymap handling library for toolkits and window systems",
+  "CSIZE": "289285",
+  "ISIZE": "898386",
+  "MD5SUM": "34d2b3e7552364d08f28b5240ef044df",
+  "SHA256SUM": "34e4a144cd4002d7b2f42e21af14fb73f09c3648fc43ebe3b89a54e4ae425f9b",
+  "PGPSIG": "iF4EABYCAAYFAmidmgMACgkQw1jnDXfq/1Rb+gD/Yhh1/FWUsBffOkGz4lM8pcMU3b6Rz852MY+nHqToMBsBALrOMgvGxhLUjsjOvKOUFAbU7rJl66CxzoWi5ODVZxUH",
+  "URL": "https://xkbcommon.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755159725",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxml2",
+    "xkeyboard-config"
+  ],
+  "PROVIDES": [
+    "libxkbcommon.so",
+    "libxkbregistry.so"
+  ],
+  "MAKEDEPENDS": [
+    "libxml2",
+    "meson",
+    "bison",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

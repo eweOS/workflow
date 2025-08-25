@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mpg123-1.33.2-1-aarch64.pkg.tar.zst",
+  "NAME": "mpg123",
+  "BASE": "mpg123",
+  "VERSION": "1.33.2-1",
+  "DESC": "Console based real time MPEG Audio Player for Layer 1, 2 and 3",
+  "CSIZE": "356711",
+  "ISIZE": "814315",
+  "MD5SUM": "ee189f8a99e6368cba5770d6a1453fa5",
+  "SHA256SUM": "ac33b5df61f79341b0389d6a119150bf4d90d3533887aaf4e48f0eef7cb34b60",
+  "PGPSIG": "iF4EABYCAAYFAmiUPogACgkQw1jnDXfq/1SB2wD7B4976rOn3aCQpMeFNVix7vuy5oboizmCL1nHWZZTmBcBAMWuTQ+g4j9YDbjz7m5bwWv6XjB4p+XF4IMyPH7BkoMC",
+  "URL": "https://mpg123.de/",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754546451",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib"
+  ],
+  "PROVIDES": [
+    "libmpg123.so",
+    "libout123.so",
+    "libsyn123.so"
+  ],
+  "OPTDEPENDS": [
+    "sdl2: for sdl audio support",
+    "libpulse: for pulse audio support",
+    "perl: for conplay"
+  ],
+  "MAKEDEPENDS": [
+    "sdl2",
+    "libpulse"
+  ],
+  "REPO": "main"
+}

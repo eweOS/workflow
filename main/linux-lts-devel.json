@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-lts-devel-6.12.43-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-lts-devel",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.43-1",
+  "DESC": "Headers and scripts for building modules for the Linux LTS kernel",
+  "CSIZE": "35860483",
+  "ISIZE": "121803666",
+  "MD5SUM": "12d97788473a4afa68c30e545250423f",
+  "SHA256SUM": "f7102d0e36a241aa4943d55647498534d248d46faca4e10f9d7fdcbf21dafd02",
+  "PGPSIG": "iF4EABYCAAYFAmip1qsACgkQw1jnDXfq/1R/zgEAoF+eOpNMtQAo7NHCdqQeBrYnWcSi2/+785X81fbvDDoBAJBleuZidwTk13wZ9PN6m5CqJRH/B90Jb0Z4b7xZ8xIO",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755959203",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,44 @@
+{
+  "FILENAME": "python-jaraco.text-4.0.0-4-any.pkg.tar.zst",
+  "NAME": "python-jaraco.text",
+  "BASE": "python-jaraco.text",
+  "VERSION": "4.0.0-4",
+  "DESC": "Module for text manipulation",
+  "CSIZE": "23798",
+  "ISIZE": "86085",
+  "MD5SUM": "15fb76e96a51f25c657e4a526bb25171",
+  "SHA256SUM": "a2d840594e63f060b90d573a83c1488d027390092cc8ea19d038dbfd22147f15",
+  "PGPSIG": "iF4EABYCAAYFAmdP2bcACgkQw1jnDXfq/1R7xwD+LMCPzEwlYPNPXVc8EbaDBMkJFnfAffYgY2rLz7SHbUoBAJddXYQ77ImyTFhyDcssrLPCLURafkSel9tbadDXjFsB",
+  "URL": "https://github.com/jaraco/jaraco.text",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733286521",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "python-jaraco"
+  ],
+  "DEPENDS": [
+    "python",
+    "python-more-itertools",
+    "python-inflect",
+    "python-jaraco.context",
+    "python-jaraco.functools",
+    "python-autocommand"
+  ],
+  "CONFLICTS": [
+    "python-jaraco"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools-scm",
+    "python-wheel",
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

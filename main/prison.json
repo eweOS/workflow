@@ -1,0 +1,40 @@
+{
+  "FILENAME": "prison-6.17.0-1-aarch64.pkg.tar.zst",
+  "NAME": "prison",
+  "BASE": "prison",
+  "VERSION": "6.17.0-1",
+  "DESC": "A library to produce QRCode barcodes and DataMatrix barcodes",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "86492",
+  "ISIZE": "244144",
+  "MD5SUM": "9a664837341641dd0047d3cdff82548d",
+  "SHA256SUM": "eab5c104b034395c41939b0bbb4a7a4678b07e99f2cc03b012cecac687351a97",
+  "PGPSIG": "iF4EABYCAAYFAmihfq4ACgkQw1jnDXfq/1SYJgEAmL4onXwLbRtKUuOZsjTGAkiyvfK0uLb0HdbVxgf/HlYA/00dMJpqeUjUem8Kp2Td7vyx5TgKXo4Wy2G+AGsiutEF",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755414884",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdmtx",
+    "llvm-libs",
+    "musl",
+    "qrencode",
+    "qt6-base",
+    "qt6-multimedia",
+    "zxing-cpp"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

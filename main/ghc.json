@@ -1,0 +1,37 @@
+{
+  "FILENAME": "ghc-9.6.7-3-aarch64.pkg.tar.zst",
+  "NAME": "ghc",
+  "BASE": "ghc",
+  "VERSION": "9.6.7-3",
+  "DESC": "Glasgow Haskell Compiler.",
+  "CSIZE": "269543669",
+  "ISIZE": "2244423435",
+  "MD5SUM": "b476af35d4e896b2a575636cc1c97e6f",
+  "SHA256SUM": "47a04836407e74d3da34fbd81e1e2fe83e36cc673942670d63c252d3bbd8fa86",
+  "PGPSIG": "iF4EABYCAAYFAmikp6cACgkQw1jnDXfq/1SLVQEAkkkJQhZL1Wn7gji8zkMAwa5bqpAQ3X83dPmQ1iWvE2gA/R8rQ8EXQfn7oqigPVT40SI16UP6LbpfBKK3IivYEjgP",
+  "URL": "https://ghc.haskell.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755618697",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "clang",
+    "musl",
+    "libffi",
+    "libnuma",
+    "gmp",
+    "ncurses",
+    "lld"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "ghc",
+    "cabal",
+    "alex",
+    "happy",
+    "git"
+  ],
+  "REPO": "main"
+}
