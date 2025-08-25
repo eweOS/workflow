@@ -1,0 +1,40 @@
+{
+  "FILENAME": "wf-shell-0.9.0-3-riscv64.pkg.tar.zst",
+  "NAME": "wf-shell",
+  "BASE": "wf-shell",
+  "VERSION": "0.9.0-3",
+  "DESC": "GTK3-based panel for the Wayfire compositor",
+  "CSIZE": "6367879",
+  "ISIZE": "7190599",
+  "MD5SUM": "8d0aac77ea72e2180584cf444069fe76",
+  "SHA256SUM": "9f934be1c1dfeb88c144954a2ed773d6063d54aff29b24b94586d3afeba14802",
+  "PGPSIG": "iF4EABYCAAYFAmijVwIACgkQw1jnDXfq/1Tk2gD/XHxp2WfKos7HHIApunPM0zawlaO8OBKAZSw3cddHsDwBAJqO+PPzqhiX40mrvepcW3j2III9qFbOTUp/5B+wJdkF",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755535640",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wf-config",
+    "gtkmm3",
+    "gtk-layer-shell",
+    "libdbusmenu-gtk3",
+    "libpulse",
+    "alsa-lib"
+  ],
+  "MAKEDEPENDS": [
+    "wayland",
+    "wayfire",
+    "wlroots0.17-devel",
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "git",
+    "gobject-introspection",
+    "glib2",
+    "glm"
+  ],
+  "REPO": "main"
+}

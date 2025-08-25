@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gcompat-1.1.0-4-riscv64.pkg.tar.zst",
+  "NAME": "gcompat",
+  "BASE": "gcompat",
+  "VERSION": "1.1.0-4",
+  "DESC": "The GNU C Library compatibility layer for musl",
+  "CSIZE": "32820",
+  "ISIZE": "71640",
+  "MD5SUM": "1bf8056e483db23667b9e7d1d92c0f87",
+  "SHA256SUM": "a0d62071ff2f462ea6d5a189a64a6d8e7c21fdf9e654891a119ec268cc6d04fb",
+  "PGPSIG": "iF4EABYCAAYFAmcT148ACgkQw1jnDXfq/1SndQEAj7VpDQKmFCECzYGtUqq3rE/wuLQ2AJ7jnUFFl0a1xj0BAOCURSb+2KPpszBpYI9orj7El9qk9L6XvOTSoBkBjfEN",
+  "URL": "https://git.adelielinux.org/adelie/gcompat",
+  "LICENSE": [
+    "NCSA"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729353607",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libucontext",
+    "musl",
+    "musl-obstack",
+    "utmps"
+  ],
+  "PROVIDES": [
+    "glibc"
+  ],
+  "MAKEDEPENDS": [
+    "musl-static"
+  ],
+  "REPO": "main"
+}

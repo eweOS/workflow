@@ -1,0 +1,29 @@
+{
+  "FILENAME": "fuse3-3.17.3-1-riscv64.pkg.tar.zst",
+  "NAME": "fuse3",
+  "BASE": "fuse",
+  "VERSION": "3.17.3-1",
+  "DESC": "Interface for userspace programs to export a filesystem to the Linux kernel",
+  "CSIZE": "138009",
+  "ISIZE": "431628",
+  "MD5SUM": "d6712018a68b4cb4efc958ddf9d74a79",
+  "SHA256SUM": "41cbc7d5c9eb998190acd11c7a26fb210f4ba0ee59a249414d4d6fb54ecb6200",
+  "PGPSIG": "iF4EABYCAAYFAmiXaeUACgkQw1jnDXfq/1SnBgD/Ui6tthYnUkQc2Ki69hmXVAXs30K3PYI8VdA1nwprVKkBAL9KL39jCZXlLtwWUm5eZNEsan/UbTQ0Bbd+RdtLbCcP",
+  "URL": "https://github.com/libfuse/libfuse",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754754141",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fuse-common"
+  ],
+  "MAKEDEPENDS": [
+    "pkgconf",
+    "meson",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

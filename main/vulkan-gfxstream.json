@@ -1,0 +1,56 @@
+{
+  "FILENAME": "vulkan-gfxstream-25.2.1-1-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-gfxstream",
+  "BASE": "mesa",
+  "VERSION": "25.2.1-1",
+  "DESC": "Open-source Vulkan driver for Graphics Streaming Kit",
+  "CSIZE": "496536",
+  "ISIZE": "1657916",
+  "MD5SUM": "6445630fa8f95e526f2810cf584cfeb0",
+  "SHA256SUM": "ce4a3857379c0178b810f07de1191852ed70870dd1b58b873b02ee3ed4814bd5",
+  "PGPSIG": "iF4EABYCAAYFAmioPrUACgkQw1jnDXfq/1TQiAD9EWaoeqSrqNnaXqvJN35RtawM/fIK2IbQ+MwUnqEr+VwA/Ah6H6T9fbF2KCg1KndDs6HomHwBE8uZabW4zcp2xHUP",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755854090",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

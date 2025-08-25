@@ -1,0 +1,43 @@
+{
+  "FILENAME": "xfce4-settings-4.20.2-1-riscv64.pkg.tar.zst",
+  "NAME": "xfce4-settings",
+  "BASE": "xfce4-settings",
+  "VERSION": "4.20.2-1",
+  "DESC": "Xfce's Configuration System",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "992079",
+  "ISIZE": "4910355",
+  "MD5SUM": "b65d4350056dee442f12dab6804a289f",
+  "SHA256SUM": "a8b9b6943e0d8ada9d0391876c3ba98a7aa669430a1e64a220cfb339b2eaf4a5",
+  "PGPSIG": "iF4EABYCAAYFAmid/PkACgkQw1jnDXfq/1TGpQEAj8Ocg60RMepYyvcZ/hn0qTAvTEkNHhuAFLoFCqcnz3IA/1LFFIwvX9bcPppJeQ88XBMIcDf+qhxzmgou9N9ZMRwI",
+  "URL": "https://docs.xfce.org/xfce/xfce4-settings/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755184975",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "exo",
+    "garcon",
+    "libxfce4ui",
+    "xfconf",
+    "libnotify",
+    "libcanberra",
+    "gtk-layer-shell"
+  ],
+  "OPTDEPENDS": [
+    "python: xfce4-compose-mail -- 'mailto:' URI handling",
+    "xiccd: for displays support in xfce4-color-settings",
+    "cups: for printers support in xfce4-color-settings",
+    "sane: for scanners support in xfce4-color-settings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

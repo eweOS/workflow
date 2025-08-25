@@ -1,0 +1,32 @@
+{
+  "FILENAME": "liburcu-0.15.3-1-riscv64.pkg.tar.zst",
+  "NAME": "liburcu",
+  "BASE": "liburcu",
+  "VERSION": "0.15.3-1",
+  "DESC": "Userspace data synchronization library based on Read-Copy Update",
+  "CSIZE": "155736",
+  "ISIZE": "678016",
+  "MD5SUM": "42fb5184da263426f312698e7939d533",
+  "SHA256SUM": "ec90f3ff1c6be06dc68923f5b7413900b6bb9fdac6afbbc5e2ce2de7a40a04c1",
+  "PGPSIG": "iF4EABYCAAYFAmiqiasACgkQw1jnDXfq/1TEcQEAgv8+DFGWPYLC7anbaUDgQ/45KZlBjjSUdjnQkwgfQosBAOzXXOyfteCdzKi8Ip00GLK9AOtYA0dg9NJlpk4Ck5UM",
+  "URL": "https://lttng.org/files/urcu/userspace-rcu-0.15.3.tar.bz2",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756007462",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liburcu-bp.so",
+    "liburcu-cds.so",
+    "liburcu-common.so",
+    "liburcu-mb.so",
+    "liburcu-memb.so",
+    "liburcu-qsbr.so",
+    "liburcu.so"
+  ],
+  "REPO": "main"
+}

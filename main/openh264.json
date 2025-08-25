@@ -1,0 +1,32 @@
+{
+  "FILENAME": "openh264-2.6.0-1-riscv64.pkg.tar.zst",
+  "NAME": "openh264",
+  "BASE": "openh264",
+  "VERSION": "2.6.0-1",
+  "DESC": "Open Source H264 Codec",
+  "CSIZE": "409997",
+  "ISIZE": "854296",
+  "MD5SUM": "c736ff79d08df7e1648f1704e533b568",
+  "SHA256SUM": "867d8f52f55fe90d8913c751da2c12e303f170a4fa54e4302d8605158451e4c8",
+  "PGPSIG": "iF4EABYCAAYFAmezQpYACgkQw1jnDXfq/1RqjgD/Qc3Nf+sGm1r4D0R8W9aTodjj/GRqcgxIZgKr+0NBrqIA/3OiTRSfmkOgHGI2csUU894pvYf9LQuNxG10wCmxuksO",
+  "URL": "https://github.com/cisco/openh264",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739801665",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libopenh264.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

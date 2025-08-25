@@ -1,0 +1,36 @@
+{
+  "FILENAME": "util-linux-libs-2.41.1-1-riscv64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.41.1-1",
+  "DESC": "Miscellaneous system utilities for Linux",
+  "CSIZE": "579959",
+  "ISIZE": "1446188",
+  "MD5SUM": "0f68dac55c1567ba61f06e6392ff113a",
+  "SHA256SUM": "5b83a8d031d9f3762c212bc29b68ab5ddd91d09c85cde963fbdb504fefc4b6a9",
+  "PGPSIG": "iF4EABYCAAYFAmha3i8ACgkQw1jnDXfq/1RuwwD9F0Arbl0iutjYwQrB5hCB31Z8yICYzfFTHTy5KU8BpoAA/jYUK6aEKNhbwLB2V7TmIOKg+xoIAMieqwSGDLcot+wC",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750785744",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "gettext",
+    "libtool",
+    "sqlite",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
