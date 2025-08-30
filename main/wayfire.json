@@ -1,0 +1,43 @@
+{
+  "FILENAME": "wayfire-0.10.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "wayfire",
+  "BASE": "wayfire",
+  "VERSION": "0.10.0-1",
+  "DESC": "A modular and extensible wayland compositor",
+  "CSIZE": "4544831",
+  "ISIZE": "28829025",
+  "MD5SUM": "4949473c0fbaa82db92c8b896c82516f",
+  "SHA256SUM": "50cc0d442b66419fa53beb1c8520fd15c8e1c2913bb008174642eb6c8da30b3f",
+  "PGPSIG": "iF4EABYCAAYFAmix48AACgkQw1jnDXfq/1TWLQEArOuERz6WD7ouoLjA/UvTy3RlkMTt2apZi/ePpuRshtsBANMIi339rFJM6X69CXQKCBxCM3tJShwnGxe4PPGeft4K",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756489337",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "pango",
+    "libjpeg",
+    "libinput",
+    "wlroots0.19",
+    "wf-config",
+    "yyjson"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "wayland-protocols",
+    "glm",
+    "cmake",
+    "mesa",
+    "doctest",
+    "git",
+    "openmp",
+    "linux-headers",
+    "wlroots0.19-devel",
+    "vulkan-icd-loader"
+  ],
+  "REPO": "main"
+}

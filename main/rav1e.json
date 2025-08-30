@@ -1,0 +1,29 @@
+{
+  "FILENAME": "rav1e-0.7.1-3-loongarch64.pkg.tar.zst",
+  "NAME": "rav1e",
+  "BASE": "rav1e",
+  "VERSION": "0.7.1-3",
+  "DESC": "An AV1 encoder focused on speed and safety",
+  "CSIZE": "3215339",
+  "ISIZE": "12326324",
+  "MD5SUM": "db67997bd9e0a9d8f3ecd9596f747641",
+  "SHA256SUM": "5884399ee57ac0cd48f047498936848af9343e0fd7d954c1b6e86b1edb16187a",
+  "PGPSIG": "iF4EABYCAAYFAmcy/CsACgkQw1jnDXfq/1QEBgEAg1vzBblDbamxEVZVp/crtq8uoR9RQatHMMwoBQnwo24BAOAfwfKz2CXiMBOmCN5QUntmuIK1YRo1ZAQvzCeQ1RgD",
+  "URL": "https://github.com/xiph/rav1e/",
+  "LICENSE": [
+    "custom:BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731393879",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "librav1e.so"
+  ],
+  "MAKEDEPENDS": [
+    "cargo-c",
+    "git",
+    "nasm",
+    "rust"
+  ],
+  "REPO": "main"
+}
