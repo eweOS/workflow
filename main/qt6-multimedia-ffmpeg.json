@@ -1,0 +1,45 @@
+{
+  "FILENAME": "qt6-multimedia-ffmpeg-6.9.1-1-x86_64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-ffmpeg",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.9.1-1",
+  "DESC": "FFMpeg backend for qt6-multimedia",
+  "CSIZE": "11755990",
+  "ISIZE": "30698132",
+  "MD5SUM": "a03c5e7978cf90aeea40d57f4c5eb6be",
+  "SHA256SUM": "ba251c9988a6c2d29a2dfb0b740c3da83a1edfbdc8ae56af83d75195e4f4a939",
+  "PGPSIG": "iF4EABYCAAYFAmhaXdwACgkQw1jnDXfq/1R0pQEAloQ6FK6BPl3G+8evbUZzDt80ZJR9q5TyFncMtHMviTkBAJUKWW+YCnQPPLQ2QY+PklTwXs40W9fSfb6lhOfBRvUF",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750753092",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ffmpeg",
+    "libglvnd",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

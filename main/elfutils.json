@@ -1,0 +1,36 @@
+{
+  "FILENAME": "elfutils-0.193-1-x86_64.pkg.tar.zst",
+  "NAME": "elfutils",
+  "BASE": "libelf",
+  "VERSION": "0.193-1",
+  "DESC": "libelf is a free ELF object file access library (utilities)",
+  "CSIZE": "795570",
+  "ISIZE": "4372905",
+  "MD5SUM": "312acacccf769b00401c122506422f8c",
+  "SHA256SUM": "824ce5c69b3e117c37a0fe3172b0a41f9f505cf4c91e0dab86a239e5ddc13d56",
+  "PGPSIG": "iF4EABYCAAYFAmgR1WoACgkQw1jnDXfq/1TGqQEAvDQGqsUxJlBQZUnc+NC2c5rX/9PDzwrSlhD4rHtQ1bkBAN2ZGzYekCJ37FLr6EuZjG8cavxYYmPqeSZFe9PRla8B",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL3",
+    "GPL3"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1745999403",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libelf=0.193"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,38 @@
+{
+  "FILENAME": "qcoro-0.12.0-1-x86_64.pkg.tar.zst",
+  "NAME": "qcoro",
+  "BASE": "qcoro",
+  "VERSION": "0.12.0-1",
+  "DESC": "C++ Coroutines for Qt",
+  "CSIZE": "156004",
+  "ISIZE": "631771",
+  "MD5SUM": "78efd8022e57f4013e6de639841d45da",
+  "SHA256SUM": "5dd813985473fec477217aa09247b4474ce9071d8110d8679a02209f13b3e93d",
+  "PGPSIG": "iF4EABYCAAYFAmg/t60ACgkQw1jnDXfq/1RwxgEA783NDgc2fWgy35EZsMs7yI9wazRWgzB157B4atiKb5YA/2FXD4g1dc9LRF7A8UWJkggjEMAvZp7uJi6MMl9RQ9sL",
+  "URL": "https://github.com/danvratil/qcoro",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1749006603",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "qcoro-qt6"
+  ],
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-websockets"
+  ],
+  "CONFLICTS": [
+    "qcoro-qt6"
+  ],
+  "PROVIDES": [
+    "qcoro-qt6"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "testing"
+}

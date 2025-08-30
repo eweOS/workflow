@@ -1,0 +1,56 @@
+{
+  "FILENAME": "vulkan-virtio-25.2.1-1-x86_64.pkg.tar.zst",
+  "NAME": "vulkan-virtio",
+  "BASE": "mesa",
+  "VERSION": "25.2.1-1",
+  "DESC": "Open-source Vulkan driver for Virtio-GPU (Venus)",
+  "CSIZE": "439661",
+  "ISIZE": "1236265",
+  "MD5SUM": "8b5855544d06723fcf0dad6d3a2cd2ed",
+  "SHA256SUM": "b3282ed840cbfc00097ed8b1cb47ca169545b6aebc2ff9eab74d5fbe6fc48b78",
+  "PGPSIG": "iF4EABYCAAYFAmioMhQACgkQw1jnDXfq/1S5LAD/eCVf/R/p4OMvRziOZDWqDLp9YNEAOeRrIbo1P1qRX1QBAPoQ1U8cH8RVOI7Z/Mnk74MPFF6OW/xpPZmPjmsf3coP",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755853862",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

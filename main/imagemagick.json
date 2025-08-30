@@ -1,0 +1,84 @@
+{
+  "FILENAME": "imagemagick-7.1.2.2-1-x86_64.pkg.tar.zst",
+  "NAME": "imagemagick",
+  "BASE": "imagemagick",
+  "VERSION": "7.1.2.2-1",
+  "DESC": "An image viewing/manipulation program",
+  "CSIZE": "9138346",
+  "ISIZE": "20771611",
+  "MD5SUM": "969d532902f9d110d479abe770373bd5",
+  "SHA256SUM": "6bc243872dd4d540a75ecc51174b7a564f4fb074af1bd38d62bf0359c1a5c4a1",
+  "PGPSIG": "iF4EABYCAAYFAmisr1UACgkQw1jnDXfq/1RySQEAjaEYWlpuZmZLC2xI+arWcmqs3u3zJET/e7IU6iYZyjcBALIdc4xjUvkQrkc7wUjCbI/DvM/HbNboF93gXsA8SVwK",
+  "URL": "https://www.imagemagick.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756148066",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "imagemagick-doc"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "cairo",
+    "fftw",
+    "fontconfig",
+    "freetype2",
+    "glib2",
+    "lcms2",
+    "liblqr",
+    "libltdl",
+    "libpng",
+    "libraqm",
+    "libxml2",
+    "libzip",
+    "xz",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libmagick"
+  ],
+  "OPTDEPENDS": [
+    "ghostscript: PS/PDF support",
+    "jbigkit: JBIG support",
+    "libheif: HEIF support",
+    "libjpeg-turbo: JPEG support",
+    "libjxl: JPEG XL support",
+    "libraw: DNG support",
+    "librsvg: SVG support",
+    "libtiff: TIFF support",
+    "libultrahdr: UHDR support",
+    "libwebp: WEBP support",
+    "libwmf: WMF support",
+    "ocl-icd: OpenCL support",
+    "openexr: OpenEXR support",
+    "openjpeg2: JPEG2000 support",
+    "djvulibre: DJVU support",
+    "pango: Text rendering"
+  ],
+  "MAKEDEPENDS": [
+    "chrpath",
+    "djvulibre",
+    "ghostpcl",
+    "ghostscript",
+    "ghostxps",
+    "glu",
+    "jbigkit",
+    "libheif",
+    "libjpeg-turbo",
+    "libjxl",
+    "libraw",
+    "librsvg",
+    "libwebp",
+    "libwmf",
+    "opencl-headers",
+    "openexr",
+    "openjpeg2"
+  ],
+  "CHECKDEPENDS": [
+    "gsfonts",
+    "ttf-dejavu"
+  ],
+  "REPO": "main"
+}

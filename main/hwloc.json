@@ -1,0 +1,38 @@
+{
+  "FILENAME": "hwloc-2.12.2-1-x86_64.pkg.tar.zst",
+  "NAME": "hwloc",
+  "BASE": "hwloc",
+  "VERSION": "2.12.2-1",
+  "DESC": "a portable abstraction of hierarchical architectures",
+  "CSIZE": "2570997",
+  "ISIZE": "3830494",
+  "MD5SUM": "0fe506d94536d43581a4536fdfeaa391",
+  "SHA256SUM": "f4b3269e87a786e2af12ec6b88109444094a48fc9ad97dace3f2ca24f29b7b85",
+  "PGPSIG": "iF4EABYCAAYFAmiynzQACgkQw1jnDXfq/1QQrAEAmS7RyEfUgFALsvT8jScfSCNSyV774IlMHPP6O7SKMnkBAL3GGS0g2gfSYNiBU35sAXhamEDoWufQ2EYZ4U0YqHUG",
+  "URL": "https://www.open-mpi.org/projects/hwloc/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756537329",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libudev"
+  ],
+  "PROVIDES": [
+    "libhwloc.so"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Graphics support in lstopo",
+    "ncurses: TUI support in lstopo",
+    "libxml2: XML plugin for topology import/export support",
+    "libpciaccess: PCI plugin for PCI object discovery"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "ncurses",
+    "libpciaccess"
+  ],
+  "REPO": "main"
+}
