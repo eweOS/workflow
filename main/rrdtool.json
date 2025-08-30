@@ -1,0 +1,38 @@
+{
+  "FILENAME": "rrdtool-1.9.0-2-riscv64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.9.0-2",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "281202",
+  "ISIZE": "673299",
+  "MD5SUM": "23859ec30dd00823d280a111c765f6ba",
+  "SHA256SUM": "e53a39263a81c6f5be6a0da051a7d85e4682fe6ec99ed078a0dff8482511961f",
+  "PGPSIG": "iF4EABYCAAYFAmha3IQACgkQw1jnDXfq/1TdLQD/TBbdsTfB/UbfV3SZV89uzwR3ObVe8zaFZDStw3j29pQA/jnelUkslogia07Sk5K5kYdjWN/6JdapEwnnK3z9JFUP",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750785516",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}

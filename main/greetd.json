@@ -1,0 +1,31 @@
+{
+  "FILENAME": "greetd-0.10.3-6-riscv64.pkg.tar.zst",
+  "NAME": "greetd",
+  "BASE": "greetd",
+  "VERSION": "0.10.3-6",
+  "DESC": "Generic greeter daemon",
+  "CSIZE": "337189",
+  "ISIZE": "624510",
+  "MD5SUM": "6db33313d3492d2ac923fe171b6c96b1",
+  "SHA256SUM": "0949ffe4d570dbf4877d86c53f669ab58476ca9ec83b612cc1ec4e7f5887adf3",
+  "PGPSIG": "iF4EABYCAAYFAmdQIW8ACgkQw1jnDXfq/1Sf6wD/fXE5psa5goPM4EmZKMcU37zBRQ+7olTDyRIUDekZFKMBANUMXVqfS6FRWakpyrpMDBW3gOQQlJwx/rQUyx+3jS0C",
+  "URL": "https://git.sr.ht/~kennylevinsen/greetd",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733304662",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "greetd-agreety",
+    "pam"
+  ],
+  "OPTDEPENDS": [
+    "turnstile: user service and session manager support"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "pam"
+  ],
+  "REPO": "main"
+}

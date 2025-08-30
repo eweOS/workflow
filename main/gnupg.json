@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnupg-2.4.8-1-riscv64.pkg.tar.zst",
+  "NAME": "gnupg",
+  "BASE": "gnupg",
+  "VERSION": "2.4.8-1",
+  "DESC": "GNU Privacy Guard",
+  "CSIZE": "3327329",
+  "ISIZE": "10534778",
+  "MD5SUM": "418505996cf70396240f5f8745f82462",
+  "SHA256SUM": "c312476c12730924e7dff89e7ed8fe246a468e0c0a28e66b2f1230c237b6c84b",
+  "PGPSIG": "iF4EABYCAAYFAmhdBQEACgkQw1jnDXfq/1Q+IAEA4OcMR3OxfsRn/fbmjj9mX61SfmJTpUv90ZgCoGHKLj4A/A6RR/5etyx37va5DTMGZ8iaAAlpFZ3GQ5J46g8M/e0J",
+  "URL": "https://gnupg.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750926777",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "pinentry",
+    "libgcrypt"
+  ],
+  "PROVIDES": [
+    "gpg"
+  ],
+  "OPTDEPENDS": [
+    "ntbtls: For dirmngr support"
+  ],
+  "MAKEDEPENDS": [
+    "ntbtls"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,63 @@
+{
+  "FILENAME": "python-sphinx-8.1.3-1-any.pkg.tar.zst",
+  "NAME": "python-sphinx",
+  "BASE": "python-sphinx",
+  "VERSION": "8.1.3-1",
+  "DESC": "Python documentation generator",
+  "CSIZE": "3623580",
+  "ISIZE": "20710798",
+  "MD5SUM": "938b735986bb19b2e6294af1c2dd0771",
+  "SHA256SUM": "74feff9583a2510cb37b65730ffe8b23ab9fdf763324198de42fc333736fdefd",
+  "PGPSIG": "iF4EABYCAAYFAmdv85kACgkQw1jnDXfq/1TqagD+Jp/xmTHnzXjsGCJjichRWE273HXpLEJKEngLFgdzLjwA/2BRviyhp9QwRLDQAsz/FXPH8+HGSp2uEMXzL7swhyQA",
+  "URL": "http://www.sphinx-doc.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1735388696",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-babel",
+    "python-docutils",
+    "python-imagesize",
+    "python-jinja",
+    "python-packaging",
+    "python-pygments",
+    "python-requests",
+    "python-snowballstemmer",
+    "python-sphinx-alabaster-theme",
+    "python-sphinxcontrib-applehelp",
+    "python-sphinxcontrib-devhelp",
+    "python-sphinxcontrib-htmlhelp",
+    "python-sphinxcontrib-jsmath",
+    "python-sphinxcontrib-qthelp",
+    "python-sphinxcontrib-serializinghtml"
+  ],
+  "OPTDEPENDS": [
+    "imagemagick: for ext.imgconverter",
+    "texlive-fontsextra: for the default admonition title icons in PDF output",
+    "texlive-latexextra: for generation of PDF documentation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "cython",
+    "imagemagick",
+    "libzip",
+    "librsvg",
+    "python-defusedxml",
+    "python-pytest",
+    "python-setuptools",
+    "python-typing_extensions",
+    "texlive-fontsextra",
+    "texlive-fontsrecommended",
+    "texlive-latexextra",
+    "texlive-luatex",
+    "texlive-xetex"
+  ],
+  "REPO": "main"
+}

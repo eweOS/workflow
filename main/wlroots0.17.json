@@ -1,0 +1,51 @@
+{
+  "FILENAME": "wlroots0.17-0.17.4-6-riscv64.pkg.tar.zst",
+  "NAME": "wlroots0.17",
+  "BASE": "wlroots0.17",
+  "VERSION": "0.17.4-6",
+  "DESC": "Modular Wayland compositor library",
+  "CSIZE": "338194",
+  "ISIZE": "790116",
+  "MD5SUM": "9d93e485bfc2ff882085834968082e28",
+  "SHA256SUM": "eb91fbfa460a6934eca08d49b7355724a83d9a57223f1f2a300fab9282ca6d08",
+  "PGPSIG": "iF4EABYCAAYFAmir1YEACgkQw1jnDXfq/1QjAAEAjaqe2lyT8M3oLF1YgCHY8jWVWa+bVHrrgw6fz7dl1o8A/RMIMhMenR9Uh35Ryb94R0qeRs4V/04jXb8eKhIklL4L",
+  "URL": "https://gitlab.freedesktop.org/wlroots/wlroots",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756092454",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdrm",
+    "libinput",
+    "seatd",
+    "libudev-zero",
+    "libxkbcommon",
+    "libgles",
+    "libegl",
+    "pixman",
+    "wayland",
+    "libdisplay-info"
+  ],
+  "PROVIDES": [
+    "libwlroots.so.12"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "linux-headers",
+    "meson",
+    "wayland-protocols",
+    "hwdata",
+    "libinput",
+    "seatd",
+    "libudev-zero",
+    "libxkbcommon",
+    "libgles",
+    "libegl",
+    "pixman",
+    "wayland",
+    "libdisplay-info"
+  ],
+  "REPO": "main"
+}

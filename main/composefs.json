@@ -1,0 +1,36 @@
+{
+  "FILENAME": "composefs-1.0.8-1-riscv64.pkg.tar.zst",
+  "NAME": "composefs",
+  "BASE": "composefs",
+  "VERSION": "1.0.8-1",
+  "DESC": "A file system for mounting container images",
+  "CSIZE": "49399",
+  "ISIZE": "104858",
+  "MD5SUM": "d7a66803f2466b944b0f0ef70ec563c7",
+  "SHA256SUM": "fb6b47f7c0e11dce14267a039be1ab8c5db837fca35186c6a99ce582ffa03ac2",
+  "PGPSIG": "iF4EABYCAAYFAmd74GUACgkQw1jnDXfq/1T/5AD/R+aLGfcXBMDtQvLzkerxWc2wSS5627obECuNS6+omWgA/imPEdYSkl3RxjvgDcXS/N6z95o/JKLCW7LRFtb8fNwA",
+  "URL": "https://github.com/containers/composefs",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "BSD-2-Clause OR GPL-2.0-or-later",
+    "GPL-2.0-only OR Apache-2.0",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1736170689",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "fuse3",
+    "linux-headers",
+    "meson",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

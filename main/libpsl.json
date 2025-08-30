@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libpsl-0.21.5-4-riscv64.pkg.tar.zst",
+  "NAME": "libpsl",
+  "BASE": "libpsl",
+  "VERSION": "0.21.5-4",
+  "DESC": "Public Suffix List library",
+  "CSIZE": "73829",
+  "ISIZE": "107979",
+  "MD5SUM": "b9636c0b39c6e049e01576f2e4a7069a",
+  "SHA256SUM": "06c5ee170cc9ac60bfc63709764bae56c792cb406bc0cb076df19f5b2b16fd41",
+  "PGPSIG": "iF4EABYCAAYFAmcVwNMACgkQw1jnDXfq/1Q9PAD+IIvEILvfTVq6tCVflQ74mHt6R2qci5PfWQD1IFWWcxgA/2PDohacodwXzq99DuVzZO/OZ5Qd7rppejfN3+X6KOkL",
+  "URL": "https://github.com/rockdaboot/libpsl",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729478812",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libidn2",
+    "libunistring"
+  ],
+  "PROVIDES": [
+    "libpsl.so"
+  ],
+  "MAKEDEPENDS": [
+    "libidn2",
+    "libunistring",
+    "meson"
+  ],
+  "REPO": "main"
+}

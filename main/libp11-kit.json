@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libp11-kit-0.25.5-2-riscv64.pkg.tar.zst",
+  "NAME": "libp11-kit",
+  "BASE": "p11-kit",
+  "VERSION": "0.25.5-2",
+  "DESC": "Loads and enumerates PKCS#11 modules (library)",
+  "CSIZE": "751426",
+  "ISIZE": "2646005",
+  "MD5SUM": "d62de1623288ff228eed6e501a5a4930",
+  "SHA256SUM": "0bc474912500cb8a2e5b2b4436416c64a677036614662f14bac617b2be78733a",
+  "PGPSIG": "iF4EABYCAAYFAmcRYksACgkQw1jnDXfq/1SmHQD/ZNSHzgWHHFKuqWJ1BESzjE7tTWUUYshS4x+V+he0974BAN4gAyiLNERHEkei7Sd/rn+AKpzpL1DnlosOilce4VgA",
+  "URL": "https://p11-glue.freedesktop.org",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729192171",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libffi",
+    "libtasn1"
+  ],
+  "PROVIDES": [
+    "libp11-kit.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash-completion",
+    "meson",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}
