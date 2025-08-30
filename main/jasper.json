@@ -1,0 +1,34 @@
+{
+  "FILENAME": "jasper-4.2.8-1-aarch64.pkg.tar.zst",
+  "NAME": "jasper",
+  "BASE": "jasper",
+  "VERSION": "4.2.8-1",
+  "DESC": "Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard",
+  "CSIZE": "447559",
+  "ISIZE": "909373",
+  "MD5SUM": "551a47ef93db44d6fb1ff3b8fbbcb6f2",
+  "SHA256SUM": "1bdae15281ca497e2f15a249a2bd320711fd5d92299f371a40b9de236d3ea196",
+  "PGPSIG": "iF4EABYCAAYFAmidpg8ACgkQw1jnDXfq/1Qe6QD/Q4PYtPDQD8mU+Dl/WrXk3dOwhAeXmdbZtOp3tgNIbQoA/0jK4wCoEWU6RfeWJzaKFKlIX1mFap6F4QFsol22PnoM",
+  "URL": "https://www.ece.uvic.ca/~frodo/jasper/",
+  "LICENSE": [
+    "LicenseRef-JasPer2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755162813",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libglvnd",
+    "libjpeg-turbo"
+  ],
+  "PROVIDES": [
+    "libjasper.so"
+  ],
+  "OPTDEPENDS": [
+    "jasper-doc: documentation"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libjpeg-turbo"
+  ],
+  "REPO": "main"
+}

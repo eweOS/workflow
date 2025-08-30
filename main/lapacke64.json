@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lapacke64-3.12.1-1-aarch64.pkg.tar.zst",
+  "NAME": "lapacke64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-1",
+  "DESC": "C interface to LAPACK (64-bit integers)",
+  "CSIZE": "562611",
+  "ISIZE": "2821665",
+  "MD5SUM": "dd6276868200967319115a074f26f859",
+  "SHA256SUM": "73cf68794327232b7d48b21471ec97889701c7395e9a11d9e56a7e5de5b7f7a3",
+  "PGPSIG": "iF4EABYCAAYFAmd/66oACgkQw1jnDXfq/1QZxgEAnC0ojJOP4lQZ4S1cHXJGHgY8AfjNasjx4ClIQHHcFX0BAJ4HBDA2Kmtnn1beEeD8MQo90DSsiH6MXv3/MX7YCu4B",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1736436722",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "lapack64"
+  ],
+  "OPTDEPENDS": [
+    "lapacke: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "googletest-1.17.0-1-aarch64.pkg.tar.zst",
+  "NAME": "googletest",
+  "BASE": "googletest",
+  "VERSION": "1.17.0-1",
+  "DESC": "C++ testing utility based on the xUnit framework",
+  "CSIZE": "546087",
+  "ISIZE": "2146857",
+  "MD5SUM": "b57a1a6baddcf7248d39bd27e423b594",
+  "SHA256SUM": "51ddeaaf975c2d5fc618ef6caee329a3fe3b271967e4bf42ef7b6565cedb4185",
+  "PGPSIG": "iF4EABYCAAYFAmiTIyYACgkQw1jnDXfq/1R3uwD9HoAcrh9INC1TfQ/6a27v82Cko+GlqY5/qV4eXDlQwowA/jVU74FlnV7hOL5/SsXda9vX/G+t5qCwxM6qb08FcRIB",
+  "URL": "https://github.com/google/googletest",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754473819",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "gmock",
+    "gtest"
+  ],
+  "OPTDEPENDS": [
+    "python: gmock generator"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "cmake",
+    "llvm-libs",
+    "sh"
+  ],
+  "REPO": "main"
+}

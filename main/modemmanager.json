@@ -1,0 +1,47 @@
+{
+  "FILENAME": "modemmanager-1.24.2-1-aarch64.pkg.tar.zst",
+  "NAME": "modemmanager",
+  "BASE": "modemmanager",
+  "VERSION": "1.24.2-1",
+  "DESC": "Mobile broadband modem management service",
+  "CSIZE": "611581",
+  "ISIZE": "1917845",
+  "MD5SUM": "37a06b78532b6a936ecc3b11ee353489",
+  "SHA256SUM": "a89b85ffb2c9550a04bcbeaa8551fd2d215555139d32f2d0e6249e4b5673455b",
+  "PGPSIG": "iF4EABYCAAYFAmilm1IACgkQw1jnDXfq/1RI5AEAy8zo76f9AMmrOWUjd48sjsKLXU6aDxl4z6CEiKSuuNkA/2PXHY6JYTedm3On7a5fdjk5lKO6K9jPhUb+/Yqm+zcM",
+  "URL": "https://www.freedesktop.org/wiki/Software/ModemManager/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755684287",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "dbus",
+    "llvm-libs",
+    "glib2",
+    "musl",
+    "hicolor-icon-theme",
+    "mobile-broadband-provider-info",
+    "libmm-glib=1.24.2-1",
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "usb_modeswitch: install if your modem shows up as a storage drive"
+  ],
+  "MAKEDEPENDS": [
+    "bash-completion",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus",
+    "python-gobject"
+  ],
+  "REPO": "main"
+}

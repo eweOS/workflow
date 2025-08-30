@@ -1,0 +1,32 @@
+{
+  "FILENAME": "speex-1.2.1-1-aarch64.pkg.tar.zst",
+  "NAME": "speex",
+  "BASE": "speex",
+  "VERSION": "1.2.1-1",
+  "DESC": "A free codec for free speech",
+  "CSIZE": "499034",
+  "ISIZE": "610139",
+  "MD5SUM": "de9ff88a38d31c9b61234c888fb5c47f",
+  "SHA256SUM": "fa158b45077f06c400f4c72074286317df4d28f5bfa2906e005fae1a49c4d996",
+  "PGPSIG": "iF4EABYCAAYFAmdRcr0ACgkQw1jnDXfq/1TfAAEAhvu2QAhW0TAwwb7gAOVGCk9VPHtyUTN0VbUja1aR0n0BALmVXvOeP3S3xhvhBe110id6KqH0DC8RCfVpuIuCi84I",
+  "URL": "https://www.speex.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733391228",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libogg",
+    "speexdsp",
+    "libogg.so",
+    "libspeexdsp.so"
+  ],
+  "PROVIDES": [
+    "libspeex.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

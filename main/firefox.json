@@ -1,0 +1,50 @@
+{
+  "FILENAME": "firefox-141.0-1-aarch64.pkg.tar.zst",
+  "NAME": "firefox",
+  "BASE": "firefox",
+  "VERSION": "141.0-1",
+  "DESC": "Standalone web browser from mozilla.org",
+  "CSIZE": "88998444",
+  "ISIZE": "271033928",
+  "MD5SUM": "8c903a60689d6d431f260e8a08de4e38",
+  "SHA256SUM": "7a5dd160e98457c1353b97a047f76871072b761364e30c3d703d90f2340adc23",
+  "PGPSIG": "iF4EABYCAAYFAmiNuEsACgkQw1jnDXfq/1RZcwEAphKAk/tL/15/xNhNSnMk1zbJvPkVtl0ogYhkAZBj2rgA/j+rKSDvcfq++IlCMO6+hmq9dmLZJf9z7892OGBC9vMF",
+  "URL": "https://www.mozilla.org/firefox/",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754116628",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "ffmpeg",
+    "gtk3",
+    "libpulse",
+    "pixman",
+    "libffi",
+    "libjpeg",
+    "libevent",
+    "libvpx",
+    "nss",
+    "libpng",
+    "libwebp",
+    "zlib-ng"
+  ],
+  "MAKEDEPENDS": [
+    "cbindgen",
+    "clang",
+    "linux-headers",
+    "llvm",
+    "mesa",
+    "nasm",
+    "nodejs",
+    "python",
+    "rust",
+    "wasi-compiler-rt",
+    "wasi-libc",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "REPO": "main"
+}
