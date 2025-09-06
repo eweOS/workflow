@@ -1,0 +1,41 @@
+{
+  "FILENAME": "wasi-llvm-libs-20.1.8-1-x86_64.pkg.tar.zst",
+  "NAME": "wasi-llvm-libs",
+  "BASE": "wasi-llvm-libs",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM runtime libraries for WASI platform",
+  "CSIZE": "3209077",
+  "ISIZE": "18348354",
+  "MD5SUM": "683983f62fdc4237d65fcf696e5c3634",
+  "SHA256SUM": "6816e73db034285e742a09f9360ad95fbf249a9d1c02e5328cc760e5602d0d5b",
+  "PGPSIG": "iF4EABYCAAYFAmiqgpgACgkQw1jnDXfq/1RqIQEAzNtWy0stvkd1lLD428uWuq5QiLGvCptZb6nM2W92kNQBAMCpPfC3OR2ZjFKh/2NMR4fc7ora6bDyyUvieOLstloH",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756005694",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "CONFLICTS": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "PROVIDES": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "wasi-libc",
+    "python"
+  ],
+  "REPO": "main"
+}

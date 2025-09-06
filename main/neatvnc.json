@@ -1,0 +1,39 @@
+{
+  "FILENAME": "neatvnc-0.9.5-1-x86_64.pkg.tar.zst",
+  "NAME": "neatvnc",
+  "BASE": "neatvnc",
+  "VERSION": "0.9.5-1",
+  "DESC": "Fast and neat VNC server library",
+  "CSIZE": "66744",
+  "ISIZE": "128905",
+  "MD5SUM": "e30aeb3054fd9d987a6d043a7358cf25",
+  "SHA256SUM": "0e29738685ffa1c12e18ab985d65116efd5b11202f20b02332c3e2357396b87b",
+  "PGPSIG": "iF4EABYCAAYFAmiLeBkACgkQw1jnDXfq/1RY0QD/bse7z0qz1ltAqOWzWR3daHGritkVfyaDso6bBUYazM4A/2mCvF7Dg/tgJ8ecwYXT9Ze7er2LCqjd1zTrJfjQY34A",
+  "URL": "https://github.com/any1/neatvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753971348",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libaml.so",
+    "libavcodec.so",
+    "libdrm",
+    "libpixman-1.so",
+    "libturbojpeg.so",
+    "mesa",
+    "zlib",
+    "nettle"
+  ],
+  "PROVIDES": [
+    "libneatvnc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}

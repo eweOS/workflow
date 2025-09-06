@@ -1,0 +1,28 @@
+{
+  "FILENAME": "efibootmgr-18-5-x86_64.pkg.tar.zst",
+  "NAME": "efibootmgr",
+  "BASE": "efibootmgr",
+  "VERSION": "18-5",
+  "DESC": "Linux user-space application to modify the EFI Boot Manager",
+  "CSIZE": "31034",
+  "ISIZE": "64416",
+  "MD5SUM": "e40b656cb37520e23e62f3985fc0c1ed",
+  "SHA256SUM": "6bb8558c2f7353bf01919eab832100211dedb1184ac40ad688995f71a45a6ad6",
+  "PGPSIG": "iF4EABYCAAYFAmiIwb0ACgkQw1jnDXfq/1RPkgEAnEkrlRMYioTWI7sIzIxq4JZXDUF0vogvb2GYgOykQ4UA/23eznzOjGdJxtjlXcsNzXZb8ATIQ5tDPBg8KUU4Z9IB",
+  "URL": "https://github.com/rhboot/efibootmgr",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753793585",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "popt",
+    "efivar"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,44 @@
+{
+  "FILENAME": "libnma-gtk4-1.10.6-2-x86_64.pkg.tar.zst",
+  "NAME": "libnma-gtk4",
+  "BASE": "libnma",
+  "VERSION": "1.10.6-2",
+  "DESC": "NetworkManager GUI client library (GTK4)",
+  "CSIZE": "119006",
+  "ISIZE": "447296",
+  "MD5SUM": "0f4fb0bf280f2a87c5574aede865a810",
+  "SHA256SUM": "79829505b8adbed16dfa05891aa58f82f096275e0510a5ad261371ee13562d37",
+  "PGPSIG": "iF4EABYCAAYFAmdWm7sACgkQw1jnDXfq/1SDaQD/Xz1mG6sT6udl2hkYiRaMqAKGc+GFZbaVasc2oVpt3EQA/jKkX/9hLZahy9EMBMB+mLyqGc97kI4AmgqRxB48z/MD",
+  "URL": "https://gitlab.gnome.org/GNOME/libnma",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733729401",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libnma-common=1.10.6-2",
+    "gtk4"
+  ],
+  "PROVIDES": [
+    "libnma-gtk4.so"
+  ],
+  "MAKEDEPENDS": [
+    "dconf",
+    "gcr-4",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "gtk3",
+    "gtk4",
+    "iso-codes",
+    "libnm",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "mobile-broadband-provider-info",
+    "vala"
+  ],
+  "REPO": "main"
+}

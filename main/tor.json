@@ -1,0 +1,39 @@
+{
+  "FILENAME": "tor-0.4.8.17-1-x86_64.pkg.tar.zst",
+  "NAME": "tor",
+  "BASE": "tor",
+  "VERSION": "0.4.8.17-1",
+  "DESC": "Anonymizing overlay network.",
+  "CSIZE": "5489252",
+  "ISIZE": "25683482",
+  "MD5SUM": "32224b4b4fedc4c0080db633becdbad7",
+  "SHA256SUM": "a192de576f05779150416a28adc0ac12cdab6d9e26b3cd4f8c277b0d0798abee",
+  "PGPSIG": "iF4EABYCAAYFAmhrfhEACgkQw1jnDXfq/1QSiwEAnjtV0klOWPdOMebPMW4fY3n7h8oNpynBAf4Qi2ln2+sBAKTbC4WvwFqplBq3vwzQOM82a+pUTo1w8B2XlUcZpDsN",
+  "URL": "https://www.torproject.org/download/tor/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "LGPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751875509",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "libcap",
+    "openssl",
+    "libevent",
+    "liblzma.so",
+    "libseccomp.so",
+    "libz.so",
+    "libzstd.so"
+  ],
+  "OPTDEPENDS": [
+    "torsocks: for torify"
+  ],
+  "MAKEDEPENDS": [
+    "ca-certificates",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

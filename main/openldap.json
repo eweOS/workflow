@@ -1,0 +1,42 @@
+{
+  "FILENAME": "openldap-2.6.10-1-x86_64.pkg.tar.zst",
+  "NAME": "openldap",
+  "BASE": "openldap",
+  "VERSION": "2.6.10-1",
+  "DESC": "Lightweight Directory Access Protocol (LDAP) client and server",
+  "CSIZE": "1704652",
+  "ISIZE": "4242908",
+  "MD5SUM": "4f55b14fbe22c46003562c927ef2b21a",
+  "SHA256SUM": "2f942607d0d32042c10fa62b172ea3ea826a879ed92edbd33ebdddc391966d10",
+  "PGPSIG": "iF4EABYCAAYFAmhZgCkACgkQw1jnDXfq/1T09wD+OAlBROccipSRwH+TjNgpCnLcAuMRv0GvjwNA9YlkPhoBAOQJodtcNvKupYnUN/dydNs9VR+nIzpRYgt1za8NNeIA",
+  "URL": "https://www.openldap.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750696391",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libldap>=2.6.10",
+    "libltdl",
+    "unixodbc",
+    "perl",
+    "libsodium",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "cyrus-sasl",
+    "e2fsprogs",
+    "util-linux-libs",
+    "chrpath",
+    "unixodbc",
+    "libsodium",
+    "libltdl",
+    "mandoc-soelim",
+    "libxcrypt",
+    "libldap",
+    "openssl",
+    "perl"
+  ],
+  "REPO": "main"
+}
