@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libzip-1.11.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "libzip",
+  "BASE": "libzip",
+  "VERSION": "1.11.4-1",
+  "DESC": "C library for reading, creating, and modifying zip archives",
+  "CSIZE": "149606",
+  "ISIZE": "1163418",
+  "MD5SUM": "d966dcd7069d2c80c38f9d1090fe3148",
+  "SHA256SUM": "690393fdd7f084d8e7418d9923a6371d5b9149db633a659d5a930cc78c77dae6",
+  "PGPSIG": "iF4EABYCAAYFAmhaW7sACgkQw1jnDXfq/1SpKwD/Y0IeRBri5vmRceROhCGfvXXb2perdg9dHnGd1qFoPL8A/Rlc81eCtzIx+TR4Fe8b+6ECa2diIZMqcPOa/FcfcDwK",
+  "URL": "https://libzip.org",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750752647",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "libbz2",
+    "zstd",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libzip.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

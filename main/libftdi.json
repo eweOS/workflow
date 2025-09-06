@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libftdi-1.5-3-loongarch64.pkg.tar.zst",
+  "NAME": "libftdi",
+  "BASE": "libftdi",
+  "VERSION": "1.5-3",
+  "DESC": "An open source library to talk to FTDI chips.",
+  "CSIZE": "47306",
+  "ISIZE": "119546",
+  "MD5SUM": "9336f33a458dfe95e8e18adbdc41fbce",
+  "SHA256SUM": "e8b4c7b94c34ecf85d5416788cc11735eafdbb4e6c8f330649bd1c4faa503145",
+  "PGPSIG": "iF4EABYCAAYFAmcthhUACgkQw1jnDXfq/1TlagEA0eyuib+5meGdVePSRuMZJQzaJa2+ExUg53lr1K/8Ea0A+QHIb/ZDQWWzdgeqGtNuIM+egzP1S4GFARI6XDixQTMB",
+  "URL": "https://www.intra2net.com/en/developer/libftdi",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731036777",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libftdi1.so",
+    "libftdipp1.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "boost",
+    "boost-libs"
+  ],
+  "REPO": "main"
+}

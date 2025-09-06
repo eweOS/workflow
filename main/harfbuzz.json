@@ -1,0 +1,51 @@
+{
+  "FILENAME": "harfbuzz-11.4.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "harfbuzz",
+  "BASE": "harfbuzz",
+  "VERSION": "11.4.5-1",
+  "DESC": "OpenType text shaping engine",
+  "CSIZE": "896290",
+  "ISIZE": "4013269",
+  "MD5SUM": "f0e212a8e0e8c6090ef329904b5f6bef",
+  "SHA256SUM": "94b4199b6b8a2ee0bde8818c1eb7b5794fa8fad1db5049a1a74de7d82b0a12a8",
+  "PGPSIG": "iF4EABYCAAYFAmiz1/UACgkQw1jnDXfq/1TN5AD/ec8kcy9WQgbRa7mLTuJHlShZCFWtKcntTek8KSlj5FcBAJI15eVRom5W5FY9VQ34I+Itwsec/edCIXaMaILNWQ0M",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756617292",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "freetype2",
+    "graphite",
+    "libfreetype.so",
+    "libgraphite2.so",
+    "libglib-2.0.so",
+    "libgobject-2.0.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz.so",
+    "libharfbuzz-subset.so",
+    "libharfbuzz-gobject.so"
+  ],
+  "OPTDEPENDS": [
+    "harfbuzz-utils: utilities"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

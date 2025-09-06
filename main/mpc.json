@@ -1,0 +1,29 @@
+{
+  "FILENAME": "mpc-0.35-2-loongarch64.pkg.tar.zst",
+  "NAME": "mpc",
+  "BASE": "mpc",
+  "VERSION": "0.35-2",
+  "DESC": "Minimalist command line interface to MPD",
+  "CSIZE": "45986",
+  "ISIZE": "114261",
+  "MD5SUM": "a707fa039eb7fc0cd59d28413784a8eb",
+  "SHA256SUM": "8368c36ec605441fad830dc56d09bdcf4031dc7cdcbf4d11eec1d2c84e9e9d80",
+  "PGPSIG": "iF4EABYCAAYFAmdWuNwACgkQw1jnDXfq/1TzxQEA+XEo7ShFu2zhWQqpSVU1cUMmKIM1zzuIIyAeXBRYnxUA/iBEzrvi/TNDzitbuVr/HbvcE4gLRp6CfTbiyZzPmEIO",
+  "URL": "https://www.musicpd.org/clients/mpc/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733736877",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libmpdclient",
+    "libmpdclient.so"
+  ],
+  "MAKEDEPENDS": [
+    "libmpdclient",
+    "meson",
+    "rsync"
+  ],
+  "REPO": "main"
+}

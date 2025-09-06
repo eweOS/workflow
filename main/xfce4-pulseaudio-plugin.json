@@ -1,0 +1,37 @@
+{
+  "FILENAME": "xfce4-pulseaudio-plugin-0.5.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "xfce4-pulseaudio-plugin",
+  "BASE": "xfce4-pulseaudio-plugin",
+  "VERSION": "0.5.1-1",
+  "DESC": "Pulseaudio plugin for the Xfce4 panel",
+  "GROUPS": [
+    "xfce4-goodies"
+  ],
+  "CSIZE": "116016",
+  "ISIZE": "442106",
+  "MD5SUM": "b5cf3a60b8c4f9fcc2f129541c78e0a5",
+  "SHA256SUM": "cf21068ce125dcfb41face7a41fa28b9b65950817ba8190ddbd7807ee037f4d7",
+  "PGPSIG": "iF4EABYCAAYFAmgUb84ACgkQw1jnDXfq/1QDKwEAjLz1Rtndr4F9bJo3ceurcFqoBTJbvFagjMVAOA9w310BAN6+Xck1t/rAvP+3JTfy+WJysGQXDagGvA+IGGzbLq8C",
+  "URL": "https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1746170014",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "xfce4-panel",
+    "libpulse",
+    "libnotify",
+    "libcanberra"
+  ],
+  "OPTDEPENDS": [
+    "pavucontrol: default pulseaudio mixer"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "python-cffi-1.17.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-cffi",
+  "BASE": "python-cffi",
+  "VERSION": "1.17.1-1",
+  "DESC": "Foreign Function Interface for Python calling C code",
+  "CSIZE": "327831",
+  "ISIZE": "1385327",
+  "MD5SUM": "65db15dcd21329267aab981353c2c55b",
+  "SHA256SUM": "a38e254382eff1f24ea487e2300e9c6e3cb0b2e0abe8c1f3a5a9e3b306ba7304",
+  "PGPSIG": "iF4EABYCAAYFAmdP4AYACgkQw1jnDXfq/1S87AD9ElQV6VfA0aPrsScUrBUq3NgnQR4PExhwmQm1Jw5bDfgBAIp/belHaO9SlOjtdDZMUj5TZup6Q19VR70QgGU/FP4N",
+  "URL": "https://cffi.readthedocs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733287702",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-pycparser"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: 'limited api' version checking in cffi.setuptools_ext"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}
