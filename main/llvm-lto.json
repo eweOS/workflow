@@ -1,0 +1,34 @@
+{
+  "FILENAME": "llvm-lto-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "llvm-lto",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LTO library for LLVM",
+  "CSIZE": "67153",
+  "ISIZE": "155139",
+  "MD5SUM": "d3d0d78a98af63f2d990e581234c4f49",
+  "SHA256SUM": "c9d33b997cd64d060948f98f5470f8d0090f403e3fd73cd6071ebafad2823314",
+  "PGPSIG": "iF4EABYCAAYFAmiql4QACgkQw1jnDXfq/1Sr7AD/UP+sFUsnirPe10zLEyuE0Bfx2UV56ph7chLaDicPusgA/2WNb4H/fRvnSlpT8Ub7iEbIkN5swOyo7ny87OZRxR8I",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

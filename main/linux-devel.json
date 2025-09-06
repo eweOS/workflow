@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-devel-6.16.4-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-devel",
+  "BASE": "linux",
+  "VERSION": "6.16.4-1",
+  "DESC": "Headers and scripts for building modules for the Linux kernel",
+  "CSIZE": "37499517",
+  "ISIZE": "128666262",
+  "MD5SUM": "39ffdba47736854d34dd17f3f900cc5b",
+  "SHA256SUM": "58a97e62b50e67b63e650d36f2d1240540d699012366ae9dddc38e6ef1146da2",
+  "PGPSIG": "iF4EABYCAAYFAmiydycACgkQw1jnDXfq/1SHrQEArzqes4g5xoIPKwK8vVoL88MznlW3gbBpl08e5prhmmQA/iR6nTWH2yz5XiZPGawU/uhU00jtzXhUghllw8rNNgAA",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756524158",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

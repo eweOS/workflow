@@ -1,0 +1,60 @@
+{
+  "FILENAME": "xdg-desktop-portal-kde-6.4.4-1-aarch64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-kde",
+  "BASE": "xdg-desktop-portal-kde",
+  "VERSION": "6.4.4-1",
+  "DESC": "A backend implementation for xdg-desktop-portal using Qt/KF5",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "507487",
+  "ISIZE": "1839939",
+  "MD5SUM": "adc5fc38eeec68f3b9b022dc8c7b567a",
+  "SHA256SUM": "9ab3547839404f26d2b710b85d07f66629e5504c4925a58a179ae825ef6090b4",
+  "PGPSIG": "iF4EABYCAAYFAmillyEACgkQw1jnDXfq/1QVSgEAnshz525q6X2nHFtvZsJn2jtmPNcxZ9icJtqLtYqqTioBAJSPynq+5Sfy+Xpwqbly2HQvLz7qDxCn7DvFTsFlnzcA",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755683255",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "kconfig",
+    "kcoreaddons",
+    "kcrash",
+    "kglobalaccel",
+    "kguiaddons",
+    "kiconthemes",
+    "ki18n",
+    "kio",
+    "kio-fuse",
+    "kirigami",
+    "kirigami-addons",
+    "kitemviews",
+    "knotifications",
+    "kpipewire",
+    "kservice",
+    "kstatusnotifieritem",
+    "kwayland",
+    "kwindowsystem",
+    "libxkbcommon",
+    "plasma-workspace",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-wayland",
+    "wayland",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "plasma-wayland-protocols",
+    "wayland-protocols"
+  ],
+  "REPO": "testing"
+}

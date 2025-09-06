@@ -1,0 +1,33 @@
+{
+  "FILENAME": "freetype2-2.13.3-3-aarch64.pkg.tar.zst",
+  "NAME": "freetype2",
+  "BASE": "freetype2",
+  "VERSION": "2.13.3-3",
+  "DESC": "Font rasterization library",
+  "CSIZE": "550472",
+  "ISIZE": "1533972",
+  "MD5SUM": "7daccbc90e1322f1e160fef653191a95",
+  "SHA256SUM": "f203cbc97eb1bbc1248a695ed17240bf87ccf7fd350a2967b5ff181aed34acc2",
+  "PGPSIG": "iF4EABYCAAYFAmcR6vkACgkQw1jnDXfq/1QTngD/TYqYKEj8nvkcTJDBd0OZnsGXA36OCGTpPQA6JIWh6n0BAIhCrNWSbB8ur+WBE5srJd2apfq4JA31VHalpXbdck4E",
+  "URL": "https://www.freetype.org/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729227483",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "sh",
+    "libbz2",
+    "libpng",
+    "brotli"
+  ],
+  "PROVIDES": [
+    "libfreetype.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

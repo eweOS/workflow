@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-headers-6.16.4-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-headers",
+  "BASE": "linux",
+  "VERSION": "6.16.4-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1882112",
+  "ISIZE": "6885106",
+  "MD5SUM": "9fc4543b960bfc3cac7399e1bf0ffedf",
+  "SHA256SUM": "3963433324170cdff49c61d1322d5374523a4980e2e8f5c284e85e1a4701ddb8",
+  "PGPSIG": "iF4EABYCAAYFAmiydycACgkQw1jnDXfq/1RegwEA4Dph0bD1J8dU0maDC+dcBH5nP8oU+h52R5ZUrExenw0BAPwWTr/EBVmJLgHvrj02KQjpZo4zGo9AkJyS6NRaxzAH",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756524158",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

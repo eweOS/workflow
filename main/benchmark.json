@@ -1,0 +1,32 @@
+{
+  "FILENAME": "benchmark-1.9.4-1-aarch64.pkg.tar.zst",
+  "NAME": "benchmark",
+  "BASE": "benchmark",
+  "VERSION": "1.9.4-1",
+  "DESC": "A microbenchmark support library",
+  "CSIZE": "207249",
+  "ISIZE": "524589",
+  "MD5SUM": "4d8ed4215a1bdc0099a50363fc730fdc",
+  "SHA256SUM": "119c31aa80e11fa4b7574a637d589af6d03cb46fbee7e40d8aa79b0fe3f28b78",
+  "PGPSIG": "iF4EABYCAAYFAmhj0uoACgkQw1jnDXfq/1SwMgD/QPwx2kMYeqIoz8yEbYa5zfiZO0FW9g6FD7+L6T5vF0wBAPTd5WvTNKdmGgfSXsCpt9knlc6+gqv41P4KlkVu9UYB",
+  "URL": "https://github.com/google/benchmark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751372974",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libbenchmark.so",
+    "libbenchmark_main.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python"
+  ],
+  "REPO": "main"
+}

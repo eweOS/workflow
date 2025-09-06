@@ -1,0 +1,48 @@
+{
+  "FILENAME": "gst-plugin-pipewire-1.4.7-2-aarch64.pkg.tar.zst",
+  "NAME": "gst-plugin-pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.4.7-2",
+  "DESC": "Low-latency audio/video router and processor - pipewire plugin",
+  "CSIZE": "71447",
+  "ISIZE": "192258",
+  "MD5SUM": "5d55cd26b6044eef3929ee69429ef008",
+  "SHA256SUM": "43f464f0bb1f79279fb32d9771332f23e5b5c17be58cfe3d2c77ab4d7acfe75e",
+  "PGPSIG": "iF4EABYCAAYFAmiGT4IACgkQw1jnDXfq/1RKXgD+JVwpQetpxd+RoKOgqKMnj4fEIRYtcC3H5AaEyds0fU0BAKK38ihRdmzcxoCq1bSUlyZSDm5aSHn0qZtwk5iKRzUA",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753633217",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "gst-plugins-base-libs",
+    "gstreamer",
+    "libpipewire-0.3.so",
+    "pipewire"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "dbus",
+    "ffmpeg",
+    "glib",
+    "gstreamer-devel",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb",
+    "linux-headers",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "desktop-file-utils",
+    "openal"
+  ],
+  "REPO": "main"
+}

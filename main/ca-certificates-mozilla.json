@@ -1,0 +1,31 @@
+{
+  "FILENAME": "ca-certificates-mozilla-3.115.1-1-aarch64.pkg.tar.zst",
+  "NAME": "ca-certificates-mozilla",
+  "BASE": "nss",
+  "VERSION": "3.115.1-1",
+  "DESC": "Mozilla's set of trusted CA certificates",
+  "CSIZE": "443554",
+  "ISIZE": "1113795",
+  "MD5SUM": "3ab9518a75fb1df3e949c95f9f7ea9ac",
+  "SHA256SUM": "c4aa66971faad102ccb0273325f719936d7541964807700d33d6b7ce615a7310",
+  "PGPSIG": "iF4EABYCAAYFAmisrogACgkQw1jnDXfq/1SORQEAxZQMZp0X8XUkosVARuyz6O6CrdKGFroNrDleX4uWiDcBAIlxUZ+6fRCaTpFS/KxfrGMr9ZUZbJe65pgDlSb9HvwN",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756148004",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils>=20181109-3"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

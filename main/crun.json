@@ -1,0 +1,34 @@
+{
+  "FILENAME": "crun-1.23.1-1-aarch64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.23.1-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "217217",
+  "ISIZE": "567595",
+  "MD5SUM": "4262d8d06ce3508f5662112dec4b0cdd",
+  "SHA256SUM": "3f600fc448e07526472b1f1d0589c12e3c978d3dd202cd0048e3ba22700c7e6b",
+  "PGPSIG": "iF4EABYCAAYFAmidmkgACgkQw1jnDXfq/1Sv1QEAlzXqEiRdJ93e2ICmNcdoYk83thkyKmAd5Pl2uST92AoA/046JKN7MMg0bPW6rD7a8QSBsQBGal4MYcMBRgE0HP8C",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755159737",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "yajl",
+    "libcap",
+    "libseccomp",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "go-md2man",
+    "git"
+  ],
+  "REPO": "main"
+}

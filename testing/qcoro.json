@@ -1,0 +1,38 @@
+{
+  "FILENAME": "qcoro-0.12.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qcoro",
+  "BASE": "qcoro",
+  "VERSION": "0.12.0-1",
+  "DESC": "C++ Coroutines for Qt",
+  "CSIZE": "157511",
+  "ISIZE": "669939",
+  "MD5SUM": "511682bbab8947b95462fb9730aeb191",
+  "SHA256SUM": "34ac05923b50fa2deed2bbb7124405fdf0976143811462e8967440645baa9037",
+  "PGPSIG": "iF4EABYCAAYFAmg/t7gACgkQw1jnDXfq/1TCBQEA/f+EpzUgEZS4DR59ybYtA+ISQQr9AHl46HbMnMFmEYQA/0gzMqDvTntsG4DScx27ZrBYy1j0GBXkrvOBheB1760A",
+  "URL": "https://github.com/danvratil/qcoro",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749006604",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "qcoro-qt6"
+  ],
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-websockets"
+  ],
+  "CONFLICTS": [
+    "qcoro-qt6"
+  ],
+  "PROVIDES": [
+    "qcoro-qt6"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "testing"
+}
