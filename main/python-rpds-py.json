@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-rpds-py-0.24.0-1-riscv64.pkg.tar.zst",
+  "NAME": "python-rpds-py",
+  "BASE": "python-rpds-py",
+  "VERSION": "0.24.0-1",
+  "DESC": "Python bindings to the Rust rpds crate for persistent data structures",
+  "CSIZE": "324699",
+  "ISIZE": "713716",
+  "MD5SUM": "646b978dafae9b3202c23050b4dd8466",
+  "SHA256SUM": "5e74f27168764879ff05b2311fa58eadf9e63d222031fce64b584f3515c7d30a",
+  "PGPSIG": "iF4EABYCAAYFAmgFuZgACgkQw1jnDXfq/1S8RQD8CTG7QSEF5yNXNgrqlMdfIsPrR1At0yCXMww4fRWWCBEA+QEFas8FSvNgmGLFzJLmCec4OOZXlvqU+izIrXiGvC4P",
+  "URL": "https://rpds.readthedocs.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1745205648",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "python"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-maturin"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

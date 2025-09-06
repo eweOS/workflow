@@ -1,0 +1,58 @@
+{
+  "FILENAME": "freeciv-qt-3.2.0-1-riscv64.pkg.tar.zst",
+  "NAME": "freeciv-qt",
+  "BASE": "freeciv",
+  "VERSION": "3.2.0-1",
+  "DESC": "Multiuser clone of the famous Microprose game of Civilization (Qt)",
+  "CSIZE": "823324",
+  "ISIZE": "2192254",
+  "MD5SUM": "9f8119b0c6cecd170af3c98b2a93a29c",
+  "SHA256SUM": "05577d519485766059bc7b3c07f9a7c2f4b410a3c505cca99a762af817c38688",
+  "PGPSIG": "iF4EABYCAAYFAmir6PEACgkQw1jnDXfq/1T9+gEAtzzDdiOVJ+CALY42OABdEllX6dGcrNA/L1mQe/++ajwA/RE6GyrfNjYypS3Fu87Qzjtve00s/3S2iFm3nq3b4KgN",
+  "URL": "http://www.freeciv.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756095760",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libfreeciv",
+    "freeciv-data",
+    "llvm-libs",
+    "qt6-base",
+    "sdl2-compat",
+    "sdl2-mixer"
+  ],
+  "PROVIDES": [
+    "freeciv"
+  ],
+  "MAKEDEPENDS": [
+    "bzip2",
+    "cairo",
+    "curl",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "gtk4",
+    "gtk3",
+    "hicolor-icon-theme",
+    "icu",
+    "lua54",
+    "meson",
+    "musl",
+    "pango",
+    "python",
+    "qt6-base",
+    "readline",
+    "sdl2-compat",
+    "sdl2-image",
+    "sdl2-mixer",
+    "sdl2-ttf",
+    "sqlite",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

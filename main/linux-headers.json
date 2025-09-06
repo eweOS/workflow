@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-headers-6.16.4-1-riscv64.pkg.tar.zst",
+  "NAME": "linux-headers",
+  "BASE": "linux",
+  "VERSION": "6.16.4-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1875609",
+  "ISIZE": "6866523",
+  "MD5SUM": "feab04987fb67840fcb79e2c6ef18b99",
+  "SHA256SUM": "6d15a3fd1281126e783872247178fc3c1a907f51efdeed6e6d1a36c5434fdb3c",
+  "PGPSIG": "iF4EABYCAAYFAmiymPEACgkQw1jnDXfq/1SF+gEAmIpbxQJQ09fCczseA9Kb5mbdNIVnb5dHG1oCY+ghQc0BAKSGvyfgdRzf0YfzOXDE1iC2nKzdd+pmLC3giIFyAJgI",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756524373",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

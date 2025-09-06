@@ -1,0 +1,29 @@
+{
+  "FILENAME": "mpc-0.35-2-riscv64.pkg.tar.zst",
+  "NAME": "mpc",
+  "BASE": "mpc",
+  "VERSION": "0.35-2",
+  "DESC": "Minimalist command line interface to MPD",
+  "CSIZE": "47044",
+  "ISIZE": "110325",
+  "MD5SUM": "53df7ba849768e4077e9781f4d1eeac2",
+  "SHA256SUM": "70ac0e9863fe5c0be602a99d8f47bf7faf5dfb17bc5f920d713e9709def86a4b",
+  "PGPSIG": "iF4EABYCAAYFAmdW1ZQACgkQw1jnDXfq/1S4SgD+N75gdYH7wn9sIngxToDi6AAQf7FeZruntKYMEinYOsoA/1WYhqNu2yKvE4QvCEcZT+Z63xvG1WkcpKEwfn+YU9EN",
+  "URL": "https://www.musicpd.org/clients/mpc/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733744147",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libmpdclient",
+    "libmpdclient.so"
+  ],
+  "MAKEDEPENDS": [
+    "libmpdclient",
+    "meson",
+    "rsync"
+  ],
+  "REPO": "main"
+}

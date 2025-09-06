@@ -1,0 +1,50 @@
+{
+  "FILENAME": "python-fonttools-4.59.1-1-riscv64.pkg.tar.zst",
+  "NAME": "python-fonttools",
+  "BASE": "python-fonttools",
+  "VERSION": "4.59.1-1",
+  "DESC": "A library to manipulate font files from Python",
+  "CSIZE": "4033132",
+  "ISIZE": "20329836",
+  "MD5SUM": "ee1f8d1be36cff0ad1f37762eb1daf1e",
+  "SHA256SUM": "76e00af1d2f37a9e0815ab3f0d76bdf70be8c172547e085feac4c20115b147ac",
+  "PGPSIG": "iF4EABYCAAYFAmigWSQACgkQw1jnDXfq/1RjQwD/R/saBURY92RDGq99so0yEvLAVqJvdemB8B28EQLQXqsA+gNedZcWwoeyNxvdjIPdw35pz1T/dCZxKtJZ1cJxBlsB",
+  "URL": "https://github.com/fonttools/fonttools",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755339179",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-brotli: to compress/decompress WOFF 2.0 web fonts",
+    "python-fs: to read/write UFO source files",
+    "python-lxml: faster backend for XML files reading/writing",
+    "python-lz4: for graphite type tables in ttLib/tables",
+    "python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel",
+    "python-pyqt5: for drawing glyphs with Qt’s QPainterPath",
+    "python-reportlab: to drawing glyphs as PNG images",
+    "python-scipy: for finding wrong contour/component order between different masters",
+    "python-sympy: for symbolic font statistics analysis",
+    "python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables",
+    "python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx",
+    "python-zopfli: faster backend fom WOFF 1.0 web fonts compression"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-brotli",
+    "python-fs",
+    "python-pytest",
+    "python-ufolib2"
+  ],
+  "REPO": "main"
+}

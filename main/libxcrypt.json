@@ -1,0 +1,30 @@
+{
+  "FILENAME": "libxcrypt-4.4.38-1-riscv64.pkg.tar.zst",
+  "NAME": "libxcrypt",
+  "BASE": "libxcrypt",
+  "VERSION": "4.4.38-1",
+  "DESC": "Modern library for one-way hashing of passwords",
+  "CSIZE": "98275",
+  "ISIZE": "196473",
+  "MD5SUM": "59f83fe9b00abf9f82eb5bca270e89e1",
+  "SHA256SUM": "13e7acf6a31219d7062fa23458f5feec6285c33eb494f6454f97a11981dbc1b4",
+  "PGPSIG": "iF4EABYCAAYFAmeHJkcACgkQw1jnDXfq/1QaEwEA4gAsunp9/Ux/CyrzXNyNXmb1b3/b5sVuJS0vouAdzOMBAMPjudxLmijT1xUcEHCUgs0mKUVN8OUXUha3kvRQ4OoJ",
+  "URL": "https://github.com/besser82/libxcrypt/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1736910507",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libucontext"
+  ],
+  "PROVIDES": [
+    "libcrypt.so"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
