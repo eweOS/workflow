@@ -578,7 +578,7 @@ jobs:
           conclusion: failure
 
   approvepr:
-    needs: [checknamcap, checkpackagefilesdiff, checkpackagesymsdiff]
+    needs: [checknamcap, checkpackagefilesdiff]
     runs-on: ubuntu-24.04
     steps:
       - uses: tibdex/github-app-token@v2.1.0
