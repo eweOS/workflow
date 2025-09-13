@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libnvme-1.15-1-loongarch64.pkg.tar.zst",
+  "NAME": "libnvme",
+  "BASE": "libnvme",
+  "VERSION": "1.15-1",
+  "DESC": "C Library for NVM Express on Linux",
+  "CSIZE": "358708",
+  "ISIZE": "1550944",
+  "MD5SUM": "be89665705df1057b3e0ade8350489d3",
+  "SHA256SUM": "12303a2e8d45319093055110d24fe99b18081ad9b0f30cbace7263476bee4bc5",
+  "PGPSIG": "iF4EABYCAAYFAmiUjTsACgkQw1jnDXfq/1SCaAEA+ybsLweVbqEnPHzTwC4eJ4xZ7EhiSAWcG7++60JZpnkBAM3dq5hHHjYn4kCsghfAyDhg0ehNgzhXSBntQpdl+Z8J",
+  "URL": "https://github.com/linux-nvme/libnvme",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754566611",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "llvm-libs",
+    "musl",
+    "json-c",
+    "keyutils",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "meson",
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

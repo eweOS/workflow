@@ -1,0 +1,43 @@
+{
+  "FILENAME": "harfbuzz-icu-11.4.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "harfbuzz-icu",
+  "BASE": "harfbuzz",
+  "VERSION": "11.4.5-1",
+  "DESC": "OpenType text shaping engine - ICU integration",
+  "CSIZE": "7299",
+  "ISIZE": "10806",
+  "MD5SUM": "fb0d74036a79183943da727ecd346ee5",
+  "SHA256SUM": "d19a656c3ac622c9ca08aec889721cce8a61a84f0508eec63d4f9bc76c087abe",
+  "PGPSIG": "iF4EABYCAAYFAmiz1/UACgkQw1jnDXfq/1QK9QD+JlYIRYb5rhxOGZ/FXXEIwxD7Vg6AoGSMgP9bDL5RR5gBAIGA+MVK8f+TXxxuxp1U43GfaWkxugYU18C25UXsZNgM",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756617292",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "harfbuzz",
+    "icu",
+    "libharfbuzz.so",
+    "libicuuc.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz-icu.so"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

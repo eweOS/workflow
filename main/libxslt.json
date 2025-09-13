@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libxslt-1.1.43-2-loongarch64.pkg.tar.zst",
+  "NAME": "libxslt",
+  "BASE": "libxslt",
+  "VERSION": "1.1.43-2",
+  "DESC": "XML stylesheet transformation library",
+  "CSIZE": "209877",
+  "ISIZE": "740956",
+  "MD5SUM": "77d16a302dc7f46632720ec469e3400d",
+  "SHA256SUM": "7fbe808947bde800afb14bdd55f2d7a95c837ee8f097d94105782eeb5080ba7a",
+  "PGPSIG": "iF4EABYCAAYFAmgqpyYACgkQw1jnDXfq/1SxfgEAoT82+l7vvEXgMO75mxiLWkXFqKwaxYXbrlPSBUB860YA/RbDZuSyg8t4Seo6avHZzsmIgWQAXFf8r4Rlt8O3d78G",
+  "URL": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747626058",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libgcrypt",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxslt.so",
+    "libexslt.so"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "docbook-xml"
+  ],
+  "REPO": "main"
+}

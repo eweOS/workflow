@@ -1,0 +1,31 @@
+{
+  "FILENAME": "spirv-llvm-translator-20.1.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "spirv-llvm-translator",
+  "BASE": "spirv-llvm-translator",
+  "VERSION": "20.1.2-2",
+  "DESC": "Tool and a library for bi-directional translation between SPIR-V and LLVM IR",
+  "CSIZE": "1125268",
+  "ISIZE": "4589605",
+  "MD5SUM": "57dfebf64d17972cc255763bae0d794d",
+  "SHA256SUM": "e8173c017f9e56c30e5293fb580c1a88a275aed87bef5dd4a8d6b1d49167cd04",
+  "PGPSIG": "iF4EABYCAAYFAmhdJpcACgkQw1jnDXfq/1Qe7AEA9C0gA+10mGJVtZX8iYFrHYjpJKe9m3Ru02r6AOA9mcUBAPyh3Ejn6ae7mXWcoDZ4vbJJLiqHyUY4wE2O6Ct8MIMC",
+  "URL": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750935477",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "spirv-tools"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "llvm-devel",
+    "spirv-headers",
+    "llvm-lto",
+    "git"
+  ],
+  "REPO": "main"
+}

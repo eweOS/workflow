@@ -1,0 +1,28 @@
+{
+  "FILENAME": "efibootmgr-18-5-loongarch64.pkg.tar.zst",
+  "NAME": "efibootmgr",
+  "BASE": "efibootmgr",
+  "VERSION": "18-5",
+  "DESC": "Linux user-space application to modify the EFI Boot Manager",
+  "CSIZE": "30612",
+  "ISIZE": "64232",
+  "MD5SUM": "9372b821334371f7f4dde8d67d9161e5",
+  "SHA256SUM": "b3a2121febc1d839b12c8342eea758cea2a9f6d68596071c4305457e944a41a7",
+  "PGPSIG": "iF4EABYCAAYFAmiIwbkACgkQw1jnDXfq/1TBrQD9Eb9hnvEqfUgzuxXv7jodKc9UlOI9P0s+1cuUHdd27kUA/R9PoZLKQ7nWYokHPR1pxiuLJWDmWYwKALT2O6RdzdwB",
+  "URL": "https://github.com/rhboot/efibootmgr",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753793584",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "popt",
+    "efivar"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

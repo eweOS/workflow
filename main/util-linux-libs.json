@@ -1,0 +1,43 @@
+{
+  "FILENAME": "util-linux-libs-2.41.1-3-loongarch64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.41.1-3",
+  "DESC": "util-linux runtime libraries",
+  "CSIZE": "459545",
+  "ISIZE": "1259730",
+  "MD5SUM": "4f6f410fc8b4fd9e840971aee054fed4",
+  "SHA256SUM": "6c25f9efcfff26a61520fb072e668df2bc7a0a57e03279f80e0a2ab15ccd2cd0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLiCiAAKCRDDWOcNd+r/VHf8AQC4jc6FuaKSx0JI1nHT+d24+ClD2bUy6ElSpS4jx2EUywEApdK3SuAEGKPJEYyFu04OeE143ajOZ9V0BLz9N9QmmAQ=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756922456",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "fcft-3.3.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "fcft",
+  "BASE": "fcft",
+  "VERSION": "3.3.2-1",
+  "DESC": "Simple library for font loading and glyph rasterization",
+  "CSIZE": "67357",
+  "ISIZE": "111724",
+  "MD5SUM": "f5f911eda029f01c16cc5397bbd37efc",
+  "SHA256SUM": "c9b783c7bf1f6a2eabf3157b2a59bdb49122e3b02bc727e7c0869f114c63cc13",
+  "PGPSIG": "iF4EABYCAAYFAmiXaU4ACgkQw1jnDXfq/1TERwEA4MqOCLn5lGongRCHRX4PDSj/LzBFXwECPg8Lv/p2z+YA/2HqNQumweaXSLam92D+2A0ROng4MXHcLkYj9WKZyhkN",
+  "URL": "https://codeberg.org/dnkl/fcft",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754754035",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "libutf8proc",
+    "nanosvg",
+    "pixman"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "tllist",
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "check",
+    "ttf-noto-fonts-emoji",
+    "ttf-unifont"
+  ],
+  "REPO": "main"
+}

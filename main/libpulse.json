@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libpulse-17.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "libpulse",
+  "BASE": "pulseaudio",
+  "VERSION": "17.0-2",
+  "DESC": "A featureful, general-purpose sound server",
+  "CSIZE": "872224",
+  "ISIZE": "3783227",
+  "MD5SUM": "d578f361d5d9f133823ce594cb9bedf3",
+  "SHA256SUM": "867e23a4e6b250a20273a6ef58fac9fed4aed9222198f8fea0b0987604631de6",
+  "PGPSIG": "iF4EABYCAAYFAmcy3tkACgkQw1jnDXfq/1TidgEAjw04kImRMECi3LMaaxYF1U5nX1M2uEy9Uwrb/dRLaAcA/joT4eghSyvMSq6x0TwJgp+hQQluNd61yGD21ha0fl4E",
+  "URL": "https://www.freedesktop.org/wiki/Software/PulseAudio/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1731387192",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "libsndfile"
+  ],
+  "PROVIDES": [
+    "libpulse-mainloop-glib.so",
+    "libpulse-simple.so",
+    "libpulse.so"
+  ],
+  "MAKEDEPENDS": [
+    "perl-xml-parser",
+    "alsa-lib",
+    "attr",
+    "dbus",
+    "git",
+    "gtk3",
+    "libcap",
+    "libsndfile",
+    "meson",
+    "openssl",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
