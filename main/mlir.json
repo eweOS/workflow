@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mlir-20.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "mlir",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Multi-Level IR Compiler Framework for LLVM",
+  "CSIZE": "122480887",
+  "ISIZE": "758650804",
+  "MD5SUM": "20a12256ab8d8574099de7780146c0ab",
+  "SHA256SUM": "a2894dc242b365434eb2ba84f5efc453d5005e835810efb706a3804bc26c6cc7",
+  "PGPSIG": "iF4EABYCAAYFAmir0sIACgkQw1jnDXfq/1TYYAEA2zqkPxURpPa4lkCnXdXvt+StUTf+moq1rXaOTRgb8RQA/0ZRTqf5NrL2ze/PJT/xsM0kGfrraydD3fokrEow1RwK",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756006124",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

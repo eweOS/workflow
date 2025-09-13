@@ -1,0 +1,51 @@
+{
+  "FILENAME": "fractal-12.1-1-riscv64.pkg.tar.zst",
+  "NAME": "fractal",
+  "BASE": "fractal",
+  "VERSION": "12.1-1",
+  "DESC": "Matrix group messaging app",
+  "CSIZE": "25418266",
+  "ISIZE": "59795947",
+  "MD5SUM": "b3e0e2c77c84b9b77228c35032fd7533",
+  "SHA256SUM": "86c538860146921970bb6e7492b7f77aaf5af91975b1c6ba1855a49ccec33eea",
+  "PGPSIG": "iF4EABYCAAYFAmi2c+IACgkQw1jnDXfq/1R9UQD/flZkfcyZbGSqxjr/BajmV7EuMJ2Nt0Xr6xT95hGu6IUBAJYpTFya1YJQNq/VbZzQZQJcX/vYCQlNd3MgoEy3HdQN",
+  "URL": "https://gitlab.gnome.org/World/fractal",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756777543",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dconf",
+    "gdk-pixbuf2",
+    "glib2",
+    "graphene",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gstreamer",
+    "gtk4",
+    "gtksourceview5",
+    "hicolor-icon-theme",
+    "libadwaita",
+    "pipewire",
+    "libseccomp",
+    "libshumate",
+    "openssl",
+    "pango",
+    "sqlite"
+  ],
+  "OPTDEPENDS": [
+    "org.freedesktop.secrets: password storage"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "meson",
+    "rust",
+    "xdg-desktop-portal",
+    "gstreamer-devel",
+    "grass",
+    "mimalloc"
+  ],
+  "REPO": "main"
+}

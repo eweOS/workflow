@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lapacke64-3.12.1-1-riscv64.pkg.tar.zst",
+  "NAME": "lapacke64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-1",
+  "DESC": "C interface to LAPACK (64-bit integers)",
+  "CSIZE": "420662",
+  "ISIZE": "1424577",
+  "MD5SUM": "ebd1e5579f6c520a66dada36d25ce37e",
+  "SHA256SUM": "79a350401b2f264189dd18bbda67b3ac4c2494fe9c1bb6358c8dd733fe0afce3",
+  "PGPSIG": "iF4EABYCAAYFAmd/9yAACgkQw1jnDXfq/1R/pQEA9IFn6rGvgFZpaavZYCC2VrAjja/7dSoDsRpHLRLb+WgA+wUNyKtKj+NAsvehLzUDSpj4Obn6bVDYhB74xmCirogC",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1736436871",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "lapack64"
+  ],
+  "OPTDEPENDS": [
+    "lapacke: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

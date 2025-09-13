@@ -1,0 +1,35 @@
+{
+  "FILENAME": "python-cffi-1.17.1-1-riscv64.pkg.tar.zst",
+  "NAME": "python-cffi",
+  "BASE": "python-cffi",
+  "VERSION": "1.17.1-1",
+  "DESC": "Foreign Function Interface for Python calling C code",
+  "CSIZE": "339439",
+  "ISIZE": "1388847",
+  "MD5SUM": "3f12163e864c0f20102e6460174ddc90",
+  "SHA256SUM": "4255d6f64e4675638e43eb58d405e3b2644e0d9ec1293f2c1e8ede77f9d1a3cc",
+  "PGPSIG": "iF4EABYCAAYFAmeq7e0ACgkQw1jnDXfq/1S0JQEAyv7y9g22qkvC9yFdxxneSToljNEs7GQ1/MywloC6gxMA/iXaO5S0WI9bf0Dy9ErfiC2mRmm7EUJwnqLx5/9QY5cF",
+  "URL": "https://cffi.readthedocs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739254543",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-pycparser"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: 'limited api' version checking in cffi.setuptools_ext"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

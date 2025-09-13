@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libevent-2.1.12-6-riscv64.pkg.tar.zst",
+  "NAME": "libevent",
+  "BASE": "libevent",
+  "VERSION": "2.1.12-6",
+  "DESC": "Event notification library",
+  "CSIZE": "302907",
+  "ISIZE": "986551",
+  "MD5SUM": "ae2057bd762ebbf8a277d0fa3cdc5fde",
+  "SHA256SUM": "28e1a7a1a4096ea99ba7ee0f0a8d9bc5fe5070682937e443aeab38d24c192f13",
+  "PGPSIG": "iF4EABYCAAYFAmduQEQACgkQw1jnDXfq/1RDNgEA/e7hT1kHWjrCM9AAsxtsSIgOoiBZDrtGuX98sFDiZOoA/0d9XsKoUJlvFbr/4uRz4s7kF2Chh1O5uiUj1vtS0ZUF",
+  "URL": "https://libevent.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1735278829",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libevent-2.1.so",
+    "libevent_core-2.1.so",
+    "libevent_extra-2.1.so",
+    "libevent_openssl-2.1.so",
+    "libevent_pthreads-2.1.so"
+  ],
+  "OPTDEPENDS": [
+    "python: event_rpcgen.py"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "zlib"
+  ],
+  "REPO": "main"
+}

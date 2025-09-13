@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kwindowsystem-6.17.0-1-riscv64.pkg.tar.zst",
+  "NAME": "kwindowsystem",
+  "BASE": "kwindowsystem",
+  "VERSION": "6.17.0-1",
+  "DESC": "Access to the windowing system",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "119878",
+  "ISIZE": "378758",
+  "MD5SUM": "c1962eafa9ac37ecd693ef19ff8a95c6",
+  "SHA256SUM": "77817bab161a5854677ed2f903eef97cb98ae4408ac1da9cec0e65b7ff729336",
+  "PGPSIG": "iF4EABYCAAYFAmie7MMACgkQw1jnDXfq/1QK6QD/RRkRCgESF5jJxExjbABu8kr93MH3PXIRREfBSnw3YboA/3GRhE/jFO6fFVmyV0zLunBRBVzIgnXxfhzZvmRPbDUM",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755246254",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "plasma-wayland-protocols",
+    "qt6-declarative",
+    "qt6-tools",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

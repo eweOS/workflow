@@ -1,0 +1,32 @@
+{
+  "FILENAME": "pinentry-1.3.2-1-riscv64.pkg.tar.zst",
+  "NAME": "pinentry",
+  "BASE": "pinentry",
+  "VERSION": "1.3.2-1",
+  "DESC": "The standard pinentry collection.",
+  "CSIZE": "112406",
+  "ISIZE": "319667",
+  "MD5SUM": "c7a99b8f7d2c8568f450d43ab44d979f",
+  "SHA256SUM": "ea2c78b4042001bb185e7e05d580715ec02cb106bddcf46adf696995a340eec7",
+  "PGPSIG": "iF4EABYCAAYFAmiR88UACgkQw1jnDXfq/1Q3QwD+Kfq+WEnswp+FJ+q6wJr5plPiPDVxHbDbAroHLvPxkHkBAOn5B2KzzQ5AvkJpQ82QB9rR0AkfRt4MnHPvA3JrmCQD",
+  "URL": "https://gnupg.org/ftp/gcrypt/pinentry/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754396136",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "qt6-base: Qt6 backend"
+  ],
+  "MAKEDEPENDS": [
+    "qt6-base"
+  ],
+  "REPO": "main"
+}

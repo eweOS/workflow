@@ -1,0 +1,32 @@
+{
+  "FILENAME": "netavark-1.14.1-2-riscv64.pkg.tar.zst",
+  "NAME": "netavark",
+  "BASE": "netavark",
+  "VERSION": "1.14.1-2",
+  "DESC": "Container network stack",
+  "CSIZE": "4809177",
+  "ISIZE": "12403321",
+  "MD5SUM": "b475b56587831308f191f2b71595eaf0",
+  "SHA256SUM": "f58d6cac36e96c323480c61634ca3b042fa232640de1105c8ad16a29d4d106ad",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLcDQgAKCRDDWOcNd+r/VBcsAP95XinIumTl2gbViyiWvYLaH0bK2kAnEguorxf2Ew4UtgEAhW8jsp/P/FL3Ku0kk8OqKj/Gw3T9IUJAgaHFbqsMmgw=",
+  "URL": "https://github.com/containers/netavark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756822294",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "nftables"
+  ],
+  "PROVIDES": [
+    "container-network-stack=2"
+  ],
+  "MAKEDEPENDS": [
+    "cargo",
+    "git",
+    "protobuf",
+    "go-md2man"
+  ],
+  "REPO": "main"
+}

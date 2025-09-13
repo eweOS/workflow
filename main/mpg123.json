@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mpg123-1.33.2-1-riscv64.pkg.tar.zst",
+  "NAME": "mpg123",
+  "BASE": "mpg123",
+  "VERSION": "1.33.2-1",
+  "DESC": "Console based real time MPEG Audio Player for Layer 1, 2 and 3",
+  "CSIZE": "357172",
+  "ISIZE": "792923",
+  "MD5SUM": "be5d05cd017256f3fb27525886bc471c",
+  "SHA256SUM": "0fad956dcd29737a460a5b91def32c6dfb7e3e9343c075be256a1ab176ef979f",
+  "PGPSIG": "iF4EABYCAAYFAmiUPyAACgkQw1jnDXfq/1St4gEAz9KZX96+IOpEORDBTOpueQuMGDKxtksaSv2eWek02tsBAIRGD+jaflMDagh757b8S9KusZIiqvMfRQhaBKIo6kgJ",
+  "URL": "https://mpg123.de/",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754546547",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib"
+  ],
+  "PROVIDES": [
+    "libmpg123.so",
+    "libout123.so",
+    "libsyn123.so"
+  ],
+  "OPTDEPENDS": [
+    "sdl2: for sdl audio support",
+    "libpulse: for pulse audio support",
+    "perl: for conplay"
+  ],
+  "MAKEDEPENDS": [
+    "sdl2",
+    "libpulse"
+  ],
+  "REPO": "main"
+}

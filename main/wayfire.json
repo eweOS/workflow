@@ -1,0 +1,43 @@
+{
+  "FILENAME": "wayfire-0.10.0-1-riscv64.pkg.tar.zst",
+  "NAME": "wayfire",
+  "BASE": "wayfire",
+  "VERSION": "0.10.0-1",
+  "DESC": "A modular and extensible wayland compositor",
+  "CSIZE": "5833802",
+  "ISIZE": "30587153",
+  "MD5SUM": "1986bddf929eab4151a04425bf129e2f",
+  "SHA256SUM": "3b1604a98ddd8f41e5eee5b133cff1372a4044dd4fe9b384f491209df968278c",
+  "PGPSIG": "iF4EABYCAAYFAmix6acACgkQw1jnDXfq/1QwEQD+IkuZhQnphWtve/h9bz02Ph3tzCs/vnIpG51pvY9sRBsBAM/yssZhvSDFBymjV8emt2b69BMSi15n4VzZk9/92w8F",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756490442",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "pango",
+    "libjpeg",
+    "libinput",
+    "wlroots0.19",
+    "wf-config",
+    "yyjson"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "wayland-protocols",
+    "glm",
+    "cmake",
+    "mesa",
+    "doctest",
+    "git",
+    "openmp",
+    "linux-headers",
+    "wlroots0.19-devel",
+    "vulkan-icd-loader"
+  ],
+  "REPO": "main"
+}

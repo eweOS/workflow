@@ -1,0 +1,42 @@
+{
+  "FILENAME": "ghostscript-10.03.1-2-riscv64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.03.1-2",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21026765",
+  "ISIZE": "43189977",
+  "MD5SUM": "fa2c7d8ae140272d2fe53d6b9926eda6",
+  "SHA256SUM": "252ab9518bb24d482fdb686d6edda1d92ce09f340865ac19a29a09a2158e3873",
+  "PGPSIG": "iF4EABYCAAYFAmc/VPMACgkQw1jnDXfq/1TUDQEA6qBkKGV7y05X8M0AHcdBtE+Nx50zxzPk2cMgeYQ6F9wA/0AQyGtmlTVQRHipc1CBKVqGln/hRa6D0/UL4165wm8H",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1732203192",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}
