@@ -1,0 +1,43 @@
+{
+  "FILENAME": "util-linux-libs-2.41.1-3-aarch64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.41.1-3",
+  "DESC": "util-linux runtime libraries",
+  "CSIZE": "488686",
+  "ISIZE": "1248050",
+  "MD5SUM": "02cf489b11dbaa6b09c8d7a7e049f300",
+  "SHA256SUM": "8ccf1f9a31cb28e48561bd0318986fa569c03870cc2f9cc6bedc5d69a0b130ce",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLiCqwAKCRDDWOcNd+r/VKfwAQCBid5z5ztQ521Ce+a+moQQVz/t+8mw4KCXjDfT2miiPwEA3HluwuT7aho7IXyfHQJgwWyL5He5nXyKMOfTFDVCsgs=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756922465",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

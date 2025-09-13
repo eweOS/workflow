@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libsndfile-1.2.2-3-aarch64.pkg.tar.zst",
+  "NAME": "libsndfile",
+  "BASE": "libsndfile",
+  "VERSION": "1.2.2-3",
+  "DESC": "Library for reading and writing files containing sampled sound",
+  "CSIZE": "305802",
+  "ISIZE": "736871",
+  "MD5SUM": "3f878ab05431dd781cbbd020ed08f3e1",
+  "SHA256SUM": "854fb6ac660ba7ca742ab9f29b5a32d046ef3d8529b8e53e4dfcdc3c03564eb2",
+  "PGPSIG": "iF4EABYCAAYFAmfWhKMACgkQw1jnDXfq/1QPIwD9ElptZJQCydY1G0uA+txEtzUVzVHNUx8sffTAJ8MhAf0BANP1F7kniSfO9MywqaCyc2lJxPDjjzjdWfp+toYS3j0J",
+  "URL": "https://libsndfile.github.io/libsndfile/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1742111883",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libflac",
+    "libogg",
+    "libvorbis",
+    "libopus"
+  ],
+  "PROVIDES": [
+    "libsndfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "autoconf",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

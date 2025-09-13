@@ -1,0 +1,40 @@
+{
+  "FILENAME": "minizip-ng-4.0.10-1-aarch64.pkg.tar.zst",
+  "NAME": "minizip-ng",
+  "BASE": "minizip-ng",
+  "VERSION": "4.0.10-1",
+  "DESC": "Fork of the popular zip manipulation library found in the zlib distribution",
+  "CSIZE": "79365",
+  "ISIZE": "225511",
+  "MD5SUM": "12d6d0fb3dab483349020229e35b0297",
+  "SHA256SUM": "58a992983121f50425f44eccdb09f0cd8ce9737e84aa29982d76b907e0d2aadd",
+  "PGPSIG": "iF4EABYCAAYFAmgkRMYACgkQw1jnDXfq/1RN7wD9HfTwL6lmtQz1y8/qkINHTpa7/RLtMw6cDHblbHv8BzQA/RNtudf1bfjGL6RWyfzqNO24MaIwGXoMSeouxB+iOugO",
+  "URL": "https://github.com/zlib-ng/minizip-ng",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747207651",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "minizip"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "minizip"
+  ],
+  "PROVIDES": [
+    "minizip"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

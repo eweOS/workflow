@@ -1,0 +1,30 @@
+{
+  "FILENAME": "lame-3.100-3-aarch64.pkg.tar.zst",
+  "NAME": "lame",
+  "BASE": "lame",
+  "VERSION": "3.100-3",
+  "DESC": "a high quality MP3 encoder licensed under the LGPL.",
+  "CSIZE": "327243",
+  "ISIZE": "1074444",
+  "MD5SUM": "16952b9d5e9fdba9c3a49253f37a93f0",
+  "SHA256SUM": "c8a2ae09bccd8bb5c23873819fdcf3b9f78acbdc6cd81b09464e276caf4ef02b",
+  "PGPSIG": "iF4EABYCAAYFAmcTuOsACgkQw1jnDXfq/1R3sQD/c2eb4sew2YItbLpcy85v/RNo5aOaRYpNIo7gu39NTz0A/1nYSyqsnN9Zcv4cpZu1E8DX92VCvf+JPRf3QMXtPLsE",
+  "URL": "https://lame.sourceforge.io/",
+  "LICENSE": [
+    "LGPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729345752",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libmp3lame.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

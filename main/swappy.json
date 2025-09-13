@@ -1,0 +1,33 @@
+{
+  "FILENAME": "swappy-1.8.0-1-aarch64.pkg.tar.zst",
+  "NAME": "swappy",
+  "BASE": "swappy",
+  "VERSION": "1.8.0-1",
+  "DESC": "A Wayland native snapshot editing tool",
+  "CSIZE": "37793",
+  "ISIZE": "116193",
+  "MD5SUM": "08142010de4d4128603315c64e950892",
+  "SHA256SUM": "77965c8b70c9610ed783cef2ce623c4bd328709efbdb42a09af33b1f06817535",
+  "PGPSIG": "iF4EABYCAAYFAmix42cACgkQw1jnDXfq/1S06AD9Eix3Fjx2wwNh0Lw1rAOUGnF+Wwadp3bVmdIre8UgsHQA/1quRcRhT4JTY7RaxwIysw9zFxPjUtKdzWW39FyVxcIE",
+  "URL": "https://github.com/jtheoof/swappy",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756489318",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "gtk3",
+    "pango"
+  ],
+  "OPTDEPENDS": [
+    "wl-clipboard: for persistent clipboard",
+    "otf-font-awesome: to draw paint icons"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc"
+  ],
+  "REPO": "main"
+}

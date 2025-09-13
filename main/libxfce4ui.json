@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libxfce4ui-4.20.2-1-aarch64.pkg.tar.zst",
+  "NAME": "libxfce4ui",
+  "BASE": "libxfce4ui",
+  "VERSION": "4.20.2-1",
+  "DESC": "Widgets library for the Xfce desktop environment",
+  "CSIZE": "420032",
+  "ISIZE": "2000714",
+  "MD5SUM": "47ec0558e082e8134bb4491f25466591",
+  "SHA256SUM": "485dbe7c6f73bf06717dbf2897f3667cab8fd36da08832446340091860143328",
+  "PGPSIG": "iF4EABYCAAYFAmihrOcACgkQw1jnDXfq/1TvbAEAvd8mHx7vI8CctokMuD7XBE2PCDqZxYahfBFlh5d+XJ4A/0QOJnqFEQ0aGeZ6K3TC0O1T/Ps3d2fDQv5bLEr/+ssA",
+  "URL": "https://docs.xfce.org/xfce/libxfce4ui/start",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755426699",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gettext-tiny",
+    "glib",
+    "gtk3",
+    "libxfce4util",
+    "xfconf",
+    "libepoxy"
+  ],
+  "PROVIDES": [
+    "libxfceui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "xfce4-dev-tools",
+    "vala",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

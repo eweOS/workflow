@@ -1,0 +1,49 @@
+{
+  "FILENAME": "graphviz-13.1.2-2-aarch64.pkg.tar.zst",
+  "NAME": "graphviz",
+  "BASE": "graphviz",
+  "VERSION": "13.1.2-2",
+  "DESC": "Open source graph visualization software.",
+  "CSIZE": "2699610",
+  "ISIZE": "6055290",
+  "MD5SUM": "b74edac94614a0eb1f6064eedf80a691",
+  "SHA256SUM": "c7c14213fd4ae76a4cdc24dffb21a4afe2ac92239662ad1135eeef7f41e64af0",
+  "PGPSIG": "iF4EABYCAAYFAmi2gu4ACgkQw1jnDXfq/1RyBgEAzDBuA8qeyJ/fdclgDi8CRTT7zOkIq0J5lhAceSinK6QBAOtZK3cf4reg3SDArt4dOZjvT1eYrWMx+R0bfKHk6UcI",
+  "URL": "https://graphviz.org/",
+  "LICENSE": [
+    "EPL-1.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756792202",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "gd",
+    "libjpeg",
+    "librsvg",
+    "libwebp",
+    "libpng",
+    "freetype2",
+    "pango",
+    "cairo",
+    "glib",
+    "libltdl",
+    "libxml2"
+  ],
+  "OPTDEPENDS": [
+    "lua: lua bindings",
+    "perl: perl bindings",
+    "python: python bindings",
+    "tcl: tcl bindings",
+    "qt6-base: gvedit"
+  ],
+  "MAKEDEPENDS": [
+    "lua54",
+    "swig",
+    "perl",
+    "python",
+    "qt6-base"
+  ],
+  "REPO": "main"
+}

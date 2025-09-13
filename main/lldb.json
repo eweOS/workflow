@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "7175420",
+  "ISIZE": "21093226",
+  "MD5SUM": "b9d4f4af8a1bfe004ffed0c0cf690769",
+  "SHA256SUM": "0d6341a9170ec8df5075e254dc73fcd1d6e536997250a0b595594c23f3ecef72",
+  "PGPSIG": "iF4EABYCAAYFAmiql4QACgkQw1jnDXfq/1S3xQD9FVzdbzmdUy9Dj6bOyJ1ct++v3Ch2SoLGUjEHUACKQkEA/0OD4+AEyPvq804T/ViS3iSPSjdiyHkLh4yutnHBmLgF",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

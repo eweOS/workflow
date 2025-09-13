@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-build-1.3.0-1-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.3.0-1",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "56855",
+  "ISIZE": "211998",
+  "MD5SUM": "32132783ac76c5cf843657eca9ca5d94",
+  "SHA256SUM": "38051993f48fa3eb7e2572bf37a38da24fcbff4f7a2c121a6f46d97d6b7bb91b",
+  "PGPSIG": "iF4EABYCAAYFAmidrqwACgkQw1jnDXfq/1SqCwEAltOnygkRXmk51+ySFq3JW1b4Ob5zpTshyWXichx+8P4A/ijEKKilH8OMQPHs5cIHHg/GwK9N1Lb9Afd5t/odY3cF",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1755165033",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "REPO": "main"
+}
