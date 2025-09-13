@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libsasl-2.1.28-5-x86_64.pkg.tar.zst",
+  "NAME": "libsasl",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-5",
+  "DESC": "Cyrus Simple Authentication Service Layer (SASL) library",
+  "CSIZE": "245607",
+  "ISIZE": "633691",
+  "MD5SUM": "cb1edc7a8626b97e489592240a54349c",
+  "SHA256SUM": "fab815277f005a40a9165812309f52615adc77cd8f8fe82e348be7093a65f25d",
+  "PGPSIG": "iF4EABYCAAYFAmcVyaAACgkQw1jnDXfq/1T3DgD+JiUmA4SmK2+dng3ha9VPaBpn69BgKRZh3TsX0+nu4+gA/ijK3VMg7Pea7tFXQPKon2dCdattLH63jNN9KS/mEvoG",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729481098",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gdbm",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libsasl2.so"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

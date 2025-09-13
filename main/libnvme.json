@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libnvme-1.15-1-x86_64.pkg.tar.zst",
+  "NAME": "libnvme",
+  "BASE": "libnvme",
+  "VERSION": "1.15-1",
+  "DESC": "C Library for NVM Express on Linux",
+  "CSIZE": "363173",
+  "ISIZE": "1553296",
+  "MD5SUM": "cae90f0bc7f7c560fbb19564627cb057",
+  "SHA256SUM": "a57a33affebf81aaa9c344904288c2e8471e7bc84cf42005803d30f63e5c6de8",
+  "PGPSIG": "iF4EABYCAAYFAmiUjTsACgkQw1jnDXfq/1Q7+QEA18fFrBAW4QQD2SM8nn74RJUzoTyCLIVQxkYbTPuJmTgBAKmliPiYVDuIRWn1bRx9T4WZFq3n8hwhQKaEZ2mVkscP",
+  "URL": "https://github.com/linux-nvme/libnvme",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754566609",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "llvm-libs",
+    "musl",
+    "json-c",
+    "keyutils",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "meson",
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

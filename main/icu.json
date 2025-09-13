@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-77.1-1-x86_64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "77.1-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "14860048",
+  "ISIZE": "43035114",
+  "MD5SUM": "e0c1abe65ed2b207fc24edc5ce276150",
+  "SHA256SUM": "9f835b9194efd5934841a871bf2acf03c148ab2894f4f5dd7c140a4ec95114eb",
+  "PGPSIG": "iF4EABYCAAYFAmgBvOIACgkQw1jnDXfq/1RbqAEAt+MFOdBOwB+ZvgjzxdHSawTK/VLlUpv1MXlgS8g7QBUBAIVtgP8iF58YcvwyTVSxTjZYei1FHb/MPiLvznhBTs4P",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1744944110",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}
