@@ -1,0 +1,31 @@
+{
+  "FILENAME": "nginx-1.28.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "nginx",
+  "BASE": "nginx",
+  "VERSION": "1.28.0-2",
+  "DESC": "Lightweight HTTP server and IMAP/POP3 proxy server",
+  "CSIZE": "584033",
+  "ISIZE": "1368712",
+  "MD5SUM": "e98e33d6f2c889c337ddd25f6caa1ef0",
+  "SHA256SUM": "7322eb404d86a11bce97689e39481847357f292e5cbc386497681b9379bfea63",
+  "PGPSIG": "iF4EABYCAAYFAmi2gn4ACgkQw1jnDXfq/1RomwEAv+EuaQiCpyDqexvfVrkOmUFsIFQ7S3PTGLF2KxZdxfsBALuIjFRnuN7o3QnynfFz8yTlOWxlJgo3WBjw9SxXRdQF",
+  "URL": "https://nginx.org",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756792177",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pcre2",
+    "zlib",
+    "openssl",
+    "libxcrypt",
+    "dinit",
+    "catnest"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

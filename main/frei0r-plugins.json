@@ -1,0 +1,32 @@
+{
+  "FILENAME": "frei0r-plugins-2.4.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "frei0r-plugins",
+  "BASE": "frei0r-plugins",
+  "VERSION": "2.4.0-1",
+  "DESC": "Collection of video effect plugins",
+  "CSIZE": "629707",
+  "ISIZE": "5265782",
+  "MD5SUM": "c7a2f20a6ecadabc12fb56b45451395a",
+  "SHA256SUM": "a362216121d8ea4cb006ea02fe86715c6757de3b7aa41d570018ad63380fc147",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMpUtwAKCRDDWOcNd+r/VMoYAP0eOFflm1mMMyldIpQqThKgQ60xjd9zzNjrci+wC49zNAEAieO6WAIlppRF+pRcMsYb1FgYZjkqgee0cqbdHddJkgw=",
+  "URL": "https://frei0r.dyne.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1758090451",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "OPTDEPENDS": [
+    "cairo: cairoaffineblend, cairoblend, cairogradient and cairoimagegrid plugins",
+    "gavl: rgbparade, scale0tilt and vectorscope plugins",
+    "opencv: facebl0r and facedetect plugins"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "cmake",
+    "gavl",
+    "git",
+    "ninja"
+  ],
+  "REPO": "main"
+}

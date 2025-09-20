@@ -1,0 +1,54 @@
+{
+  "FILENAME": "libnm-1.52.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libnm",
+  "BASE": "networkmanager",
+  "VERSION": "1.52.1-1",
+  "DESC": "NetworkManager client library",
+  "CSIZE": "1052645",
+  "ISIZE": "6341816",
+  "MD5SUM": "ba4b1858666895a57c0cd8ba46a0af64",
+  "SHA256SUM": "04aaecff7d5eeadb4ef913dd508b5b9e8211c6f5a8de8fde77ebd0ddb24d50bc",
+  "PGPSIG": "iF4EABYCAAYFAmiJdyoACgkQw1jnDXfq/1QwEAD+LzuY8YfHNP0bH5WdWUF716gQg24Lo9/ykGWymR5OUSEA/20RClKQdgKwFkm9NnDWeMD+jSpTObSzE20HXOu1uiMO",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753839606",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "nspr",
+    "nss",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libnm.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}
