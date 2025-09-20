@@ -1,0 +1,56 @@
+{
+  "FILENAME": "gegl-0.4.62-2-aarch64.pkg.tar.zst",
+  "NAME": "gegl",
+  "BASE": "gegl",
+  "VERSION": "0.4.62-2",
+  "DESC": "Graph based image processing framework",
+  "CSIZE": "4340985",
+  "ISIZE": "17106674",
+  "MD5SUM": "2a62ba1db7b7e262fa9c5adfa2696457",
+  "SHA256SUM": "be8fc1ab4cd93fea38abff5da1da1f6a6fdcd04411296947c5c1c4c5a5eb77c4",
+  "PGPSIG": "iF4EABYCAAYFAmhfbz8ACgkQw1jnDXfq/1QdSwEAj+/XnGrrM9u6rIuafa/TDuWrgup0b1CKijRhpTllWJABAI7OcH4ANSgGl/ENoSAJmHHmu7tskmxnagMmP+METgkG",
+  "URL": "https://www.gegl.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later OR LGPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751085185",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "babl",
+    "cairo",
+    "gdk-pixbuf2",
+    "glib2",
+    "jasper",
+    "json-glib",
+    "lcms2",
+    "lensfun",
+    "libjpeg-turbo",
+    "libpng",
+    "libraw",
+    "librsvg",
+    "libspiro",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "pango",
+    "poppler-glib"
+  ],
+  "OPTDEPENDS": [
+    "ffmpeg: FFmpeg Frame Loader and FFmpeg Frame Saver plugins",
+    "graphviz: for gegl-introspect",
+    "sdl2: SDL2 Display plugin"
+  ],
+  "MAKEDEPENDS": [
+    "ffmpeg",
+    "git",
+    "gobject-introspection",
+    "libgexiv2",
+    "meson",
+    "python-gobject",
+    "sdl2",
+    "vala",
+    "gi-docgen"
+  ],
+  "REPO": "main"
+}

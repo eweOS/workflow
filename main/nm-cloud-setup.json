@@ -1,0 +1,52 @@
+{
+  "FILENAME": "nm-cloud-setup-1.52.1-1-aarch64.pkg.tar.zst",
+  "NAME": "nm-cloud-setup",
+  "BASE": "networkmanager",
+  "VERSION": "1.52.1-1",
+  "DESC": "Automatically configure NetworkManager in cloud",
+  "CSIZE": "50278",
+  "ISIZE": "102839",
+  "MD5SUM": "05001617ec76328d1e92f8a476f1a7af",
+  "SHA256SUM": "f7c9d432cb81c4126a9725cc2008b96b24b1f5a516d3a27699c3f0d168d6237d",
+  "PGPSIG": "iF4EABYCAAYFAmiJdnEACgkQw1jnDXfq/1Qp5QEAsKVNyH0kidVUUv9/64E4WSTluUQfp6ouVGrirlFGYNMA+gLIY5vpvL5sle4he0zA+aVIIOVOPvK1Pt2L7f9OoooN",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1753839597",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "curl",
+    "glib2",
+    "libnm",
+    "networkmanager"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}

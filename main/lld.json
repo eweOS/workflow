@@ -1,0 +1,44 @@
+{
+  "FILENAME": "lld-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "A drop-in replacement for the GNU linkers by LLVM project",
+  "CSIZE": "4579947",
+  "ISIZE": "19497487",
+  "MD5SUM": "cee7cb70bbb22dd0602046ff03e7afee",
+  "SHA256SUM": "4f89e7cdbbf0eaaaf807eccf2cba66a64cd53db99034ea97b3f3a2831e7097a1",
+  "PGPSIG": "iF4EABYCAAYFAmiql4QACgkQw1jnDXfq/1TqrAEApRYu/VLBTQPGPtTWS2cZhF6rEh5kqZW2vzTlKQrgKHsA/inz83/PV8/uyqwu8jD4dLSYSX6FRau5NcgLnhg9lEIH",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "lensfun-0.3.4-3-aarch64.pkg.tar.zst",
+  "NAME": "lensfun",
+  "BASE": "lensfun",
+  "VERSION": "0.3.4-3",
+  "DESC": "Database of photographic lenses and a library that allows advanced access to the database",
+  "CSIZE": "609994",
+  "ISIZE": "4483729",
+  "MD5SUM": "ab7d78c6ea7a8881d2980278e0daf374",
+  "SHA256SUM": "6396e9769e1afa268e3fd2b039316b98ed211c91b2d5bca2270f276b5aa91840",
+  "PGPSIG": "iF4EABYCAAYFAmdWsc8ACgkQw1jnDXfq/1R2GgEA5FBAPMDQsRAOG2EADX9td+6gOCg1aU2JzjpXvOEyG0sBANDDoOU6wjQQPoPhwxsoTcW0+v6tA1YvW56lsc6aTvoA",
+  "URL": "https://lensfun.github.io/",
+  "LICENSE": [
+    "LGPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733735076",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "python: for lensfun-update-data and lensfun-add-adapter"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "libpng",
+    "cmake"
+  ],
+  "REPO": "main"
+}

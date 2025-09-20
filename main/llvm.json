@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "32458059",
+  "ISIZE": "111286754",
+  "MD5SUM": "067ae00561efab97c6023aff77b3af16",
+  "SHA256SUM": "1e149c9b8aa51052470d5cdc785fd5444537f2eccd11b0982791398ffdfae002",
+  "PGPSIG": "iF4EABYCAAYFAmiql4QACgkQw1jnDXfq/1S3KgD/eng00If9gTFhrzHd3GxmDY4deIy9yEaAl9rxlnVja9wA/2mJ4qksPWSTYp7G82jiGSr9ZWCcCz70sfPY7OBVjlIN",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

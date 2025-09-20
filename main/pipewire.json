@@ -1,0 +1,54 @@
+{
+  "FILENAME": "pipewire-1.4.8-1-aarch64.pkg.tar.zst",
+  "NAME": "pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.4.8-1",
+  "DESC": "Low-latency audio/video router and processor",
+  "CSIZE": "2314043",
+  "ISIZE": "7435237",
+  "MD5SUM": "5df2c76735dbcac531e9d69480ed8c12",
+  "SHA256SUM": "c8ef2097fbfe816701c1206697d92ea6262ce6bdc30b7c439058c9220c8eaa10",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMos1AAKCRDDWOcNd+r/VNxPAQDgKgG0LXShGfNzM1tNE0F8fGCAwzO36PcbCeXT4y/t7wEA98jP7cHhyD/mXjOzTilKwuDw6/VEKNnl2e0zNW2aFA0=",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1758080195",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libpipewire=:1.4.8-1",
+    "alsa-lib",
+    "dbus",
+    "ffmpeg",
+    "glib",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "dbus",
+    "ffmpeg",
+    "glib",
+    "gstreamer-devel",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb",
+    "linux-headers",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "desktop-file-utils",
+    "openal"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "onetbb-2022.0.0-2-aarch64.pkg.tar.zst",
+  "NAME": "onetbb",
+  "BASE": "onetbb",
+  "VERSION": "2022.0.0-2",
+  "DESC": "High level abstract threading library (oneAPI Threading Building Blocks)",
+  "CSIZE": "465533",
+  "ISIZE": "2081229",
+  "MD5SUM": "65bba3a47707497eb3eee1c8ccaf26d4",
+  "SHA256SUM": "1d6ee1be368fb83bdc32f8cb7226437294ee83bbaf7e7bdba37c48c8e1fb335c",
+  "PGPSIG": "iF4EABYCAAYFAmdRsrcACgkQw1jnDXfq/1SiNgD/e9ENjUJKqwzhVoIzskwIqja19f2MXqY9YcqwV2xtrOkBAJVr0+vsImASQURzdUQSqFgTEOtkSvoUQhrdT3s8yKQI",
+  "URL": "https://uxlfoundation.github.io/oneTBB/",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733407602",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "tbb"
+  ],
+  "DEPENDS": [
+    "hwloc"
+  ],
+  "CONFLICTS": [
+    "tbb"
+  ],
+  "PROVIDES": [
+    "tbb=2022.0.0"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "swig",
+    "python-setuptools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

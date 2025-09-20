@@ -1,0 +1,40 @@
+{
+  "FILENAME": "e2fsprogs-1.47.3-2-aarch64.pkg.tar.zst",
+  "NAME": "e2fsprogs",
+  "BASE": "e2fsprogs",
+  "VERSION": "1.47.3-2",
+  "DESC": "Ext2/3/4 filesystem utilities",
+  "CSIZE": "1446106",
+  "ISIZE": "5058422",
+  "MD5SUM": "c1209acdd3a32af160f7180b10628c0a",
+  "SHA256SUM": "c4fc370b6193aa99c54edd4ece91b75b8f204a132cbc72b942a7e718a687e2c4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLexxQAKCRDDWOcNd+r/VAnlAP9T/nl7KPzaOS6bszXScnmYKi1qZtRaikjypEn3ciywHQEAuw0rjOc5yrRgeTRAzcjDG+1C/zLDtJzVLBlieCaycgM=",
+  "URL": "http://e2fsprogs.sourceforge.net",
+  "LICENSE": [
+    "GPL",
+    "LGPL",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756869010",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libcom_err.so",
+    "libe2p.so",
+    "libext2fs.so",
+    "libss.so"
+  ],
+  "OPTDEPENDS": [
+    "lvm2: for e2scrub",
+    "util-linux: for e2scrub",
+    "smtp-forwarder: for e2scrub_fail script"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

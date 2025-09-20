@@ -1,0 +1,43 @@
+{
+  "FILENAME": "python-lark-parser-1.2.2-1-any.pkg.tar.zst",
+  "NAME": "python-lark-parser",
+  "BASE": "python-lark-parser",
+  "VERSION": "1.2.2-1",
+  "DESC": "A modern parsing library",
+  "CSIZE": "314197",
+  "ISIZE": "1300349",
+  "MD5SUM": "420ea2b425c65642c4fb111ea69edeb4",
+  "SHA256SUM": "1ed9c8f665f8ec4cb70459ae92997a4eedcea74ab146715c92d248d445fd50c0",
+  "PGPSIG": "iF4EABYCAAYFAmduPeYACgkQw1jnDXfq/1SrZgD/ccvH6uEhCtqnksACEb0OZJD+9m5Q2LPNF0+onURShUoA/3eFOChy1FooOxmO55IqOSOXjY4t49Q321hBo2dyFHMH",
+  "URL": "https://github.com/lark-parser/lark",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1735278332",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-typing_extensions"
+  ],
+  "PROVIDES": [
+    "python-lark"
+  ],
+  "OPTDEPENDS": [
+    "python-atomicwrites: for atomic_cache",
+    "python-regex: for regex support"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-tzlocal",
+    "python-atomicwrites",
+    "python-regex"
+  ],
+  "REPO": "main"
+}

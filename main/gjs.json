@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gjs-1.84.2-1-aarch64.pkg.tar.zst",
+  "NAME": "gjs",
+  "BASE": "gjs",
+  "VERSION": "1.84.2-1",
+  "DESC": "Javascript Bindings for GNOME",
+  "CSIZE": "584885",
+  "ISIZE": "1936580",
+  "MD5SUM": "c34e762979e5eec833a3c72b0e97bd76",
+  "SHA256SUM": "6f496afdf3ed787521e88a20bf4efc650d9bfac07880a48e15fbed6109f56704",
+  "PGPSIG": "iF4EABYCAAYFAmgkSqAACgkQw1jnDXfq/1RiDAD+NZMPsXTnHkEGUv/ouwiQJ1SYcMiRZFqZptXI/bm3sKYA/2P8pFL+8YtlI8TOkmc+3RoHTKBBEMebtRytYKvAswYP",
+  "URL": "https://wiki.gnome.org/Projects/Gjs",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747209106",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "glib2",
+    "gobject-introspection-runtime",
+    "js128",
+    "libffi",
+    "libgirepository",
+    "readline",
+    "libreadline.so"
+  ],
+  "PROVIDES": [
+    "libgjs.so"
+  ],
+  "MAKEDEPENDS": [
+    "dbus",
+    "git",
+    "gobject-introspection",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "gtk3",
+    "gtk4",
+    "weston"
+  ],
+  "REPO": "main"
+}
