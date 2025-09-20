@@ -1,0 +1,36 @@
+{
+  "FILENAME": "opendoas-pam-6.8.2-2-x86_64.pkg.tar.zst",
+  "NAME": "opendoas-pam",
+  "BASE": "opendoas",
+  "VERSION": "6.8.2-2",
+  "DESC": "Run commands as super user or another user, with pam support",
+  "CSIZE": "22104",
+  "ISIZE": "34817",
+  "MD5SUM": "c542ba22c90bce7053d117b2e57d370b",
+  "SHA256SUM": "593b601eed0e42717bae816126da85c3be3fff8292cdd068668ed40c8c494b09",
+  "PGPSIG": "iF4EABYCAAYFAmcTwi0ACgkQw1jnDXfq/1QQawEA10vrSVDO8Wy9T+BZk2jBdpKeewDMHW42+3GiYETJR7ABAM1yFe+Yf0+an5KzX/Yzh9qun5SJkhu0Ol1z586HbKYN",
+  "URL": "https://github.com/Duncaen/OpenDoas",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729348135",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "doas"
+  ],
+  "DEPENDS": [
+    "pam"
+  ],
+  "CONFLICTS": [
+    "opendoas"
+  ],
+  "PROVIDES": [
+    "doas",
+    "opendoas"
+  ],
+  "MAKEDEPENDS": [
+    "pam"
+  ],
+  "REPO": "main"
+}

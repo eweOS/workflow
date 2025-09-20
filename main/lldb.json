@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-20.1.8-2-x86_64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "7160019",
+  "ISIZE": "21414386",
+  "MD5SUM": "9f1ed61123ffe162e32abd3de32946f8",
+  "SHA256SUM": "d62b5faba8faba4bdf60ce1f7d27547b9647823f65b1580d1fa790c330f96fec",
+  "PGPSIG": "iF4EABYCAAYFAmiqkS8ACgkQw1jnDXfq/1Tl5AEAu75ka1iGaPlBv2Cn7xKdZH+xJr4KASkoj+w9QuRkGkYBAJuPPETzC+Fgi5PflnTpbBPOm4UruEqDd8WwrRmuKLEG",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756005861",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

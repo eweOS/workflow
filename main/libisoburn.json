@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libisoburn-1.5.6-3-x86_64.pkg.tar.zst",
+  "NAME": "libisoburn",
+  "BASE": "libisoburn",
+  "VERSION": "1.5.6-3",
+  "DESC": "frontend for libraries libburn and libisofs",
+  "CSIZE": "806992",
+  "ISIZE": "2051984",
+  "MD5SUM": "cd2058ce2d235bbccf85790cedde1c3b",
+  "SHA256SUM": "81273e36cb0187927a97bd5906e0fc0e69264bf01d6158d5d636d939df28ee1e",
+  "PGPSIG": "iF4EABYCAAYFAmdWmtcACgkQw1jnDXfq/1RxvAD9G4jHE5UnPFK+o+qjukXX1iWby5Ks+njoETUR7t4oAJkBAMqeLbE9zS59WzsfLDbcilNRXXv9QhVS5hRwdeELitIA",
+  "URL": "https://dev.lovelyhq.com/libburnia",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733729166",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libburn",
+    "libisofs",
+    "readline"
+  ],
+  "PROVIDES": [
+    "xorriso",
+    "xorriso-tcltk"
+  ],
+  "OPTDEPENDS": [
+    "tk: xorriso-tcltk frontend",
+    "sudo: use with xorriso-dd-target"
+  ],
+  "REPO": "main"
+}

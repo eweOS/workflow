@@ -1,0 +1,37 @@
+{
+  "FILENAME": "sdl2-compat-2.32.56-2-x86_64.pkg.tar.zst",
+  "NAME": "sdl2-compat",
+  "BASE": "sdl2-compat",
+  "VERSION": "2.32.56-2",
+  "DESC": "An SDL2 compatibility layer that uses SDL3 behind the scenes",
+  "CSIZE": "733352",
+  "ISIZE": "3567309",
+  "MD5SUM": "3d753633b3add0367e8f3d2b3a720c45",
+  "SHA256SUM": "6a68f723c8d6a6538dedd30f48820d5b967598fc7e41292e782901285c027de1",
+  "PGPSIG": "iF4EABYCAAYFAmiQP4gACgkQw1jnDXfq/1SZvQEAzhT4MRpzbtvRgF8esSocgZIIVUzzQq0611ZaIEwvLmgBAI2BN/SmRA8bXPKpJJ0qpbf6atnkWZvvScS5tBQmn6oJ",
+  "URL": "https://github.com/libsdl-org/sdl2-compat",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754284560",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "sdl2"
+  ],
+  "DEPENDS": [
+    "musl",
+    "sdl3"
+  ],
+  "CONFLICTS": [
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2=2.32.56"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

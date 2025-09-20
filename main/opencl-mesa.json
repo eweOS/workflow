@@ -1,0 +1,61 @@
+{
+  "FILENAME": "opencl-mesa-25.2.3-1-x86_64.pkg.tar.zst",
+  "NAME": "opencl-mesa",
+  "BASE": "mesa",
+  "VERSION": "25.2.3-1",
+  "DESC": "Open-source OpenCL drivers",
+  "CSIZE": "8326301",
+  "ISIZE": "30526886",
+  "MD5SUM": "bd5fb40c91428d22b6fb0c26633bf254",
+  "SHA256SUM": "408083cf033d21a45ead8927ccd8cc67501b8dd3e2b2a825eaa374f1e6c7130d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMz5RQAKCRDDWOcNd+r/VI6AAQCAxe2h37nZiwnf6RdVrgOAm8c2DyuGL7VxofU7SObJNAD+P6AusfNRxdyf4rTILW6Q4Xu8pnE1oLhyJX68IzJxpg4=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1758263489",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "REPLACES": [
+    "opencl-clover-mesa"
+  ],
+  "DEPENDS": [
+    "clang",
+    "expat",
+    "libdrm",
+    "libelf",
+    "zlib",
+    "zstd",
+    "libclc"
+  ],
+  "CONFLICTS": [
+    "opencl-clover-mesa"
+  ],
+  "PROVIDES": [
+    "opencl-driver"
+  ],
+  "OPTDEPENDS": [
+    "opencl-headers: headers necessary for OpenCL development"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}
