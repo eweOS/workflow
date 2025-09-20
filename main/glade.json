@@ -1,0 +1,35 @@
+{
+  "FILENAME": "glade-3.40.0-3-riscv64.pkg.tar.zst",
+  "NAME": "glade",
+  "BASE": "glade",
+  "VERSION": "3.40.0-3",
+  "DESC": "User Interface Builder for GTK+ applications",
+  "CSIZE": "2933486",
+  "ISIZE": "10853686",
+  "MD5SUM": "cfdecf72d989d94b7b043fffbe694eb5",
+  "SHA256SUM": "81d65f277ebe0ac4bf8302607adbcbeea856743cff0944b951c1aefded40c752",
+  "PGPSIG": "iF4EABYCAAYFAmgsJ3oACgkQw1jnDXfq/1TElQEA+V261dhi19/lTSJEHz8WigRMB+9AWOWj2C5IZJsK03MA/08Aydgn4O1ISnoznGDQtzwVtk+cKnYcEbY7Lel5TGkJ",
+  "URL": "https://glade.gnome.org/",
+  "LICENSE": [
+    "GPL",
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747724212",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gtk3",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libgladeui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "itstool",
+    "docbook-xsl",
+    "git",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-77.1-1-riscv64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "77.1-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "14639819",
+  "ISIZE": "42379695",
+  "MD5SUM": "c813630e1a2b0bc12a6f9624feceeb00",
+  "SHA256SUM": "f18a58d6515dfe2f0a1362d30fc9a0d3a268462904dde3dcf7a44095c80b1ecf",
+  "PGPSIG": "iF4EABYCAAYFAmgBwnAACgkQw1jnDXfq/1RRQQD/e7p7kel6Yl09f68V+MywGQ7EH/u94uODT0sk7/o/NTAA/ifKQ/mKI/DKLaRSwnJSv4dNV7eRJ6q1n++QvaeFxn0K",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1744944189",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

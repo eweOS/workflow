@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gcr-4-4.4.0.1-1-riscv64.pkg.tar.zst",
+  "NAME": "gcr-4",
+  "BASE": "gcr-4",
+  "VERSION": "4.4.0.1-1",
+  "DESC": "A library for bits of crypto UI and parsing",
+  "CSIZE": "661567",
+  "ISIZE": "2968807",
+  "MD5SUM": "2f005a62d59bf1998e628e660acf0827",
+  "SHA256SUM": "1eaf31e2aabbbf1b49df9e7bd0b4b869843f604e0c193a59ff95279d784e7a4c",
+  "PGPSIG": "iF4EABYCAAYFAmheRhYACgkQw1jnDXfq/1RnwQEArKYzoZw6q2wkW5RPfKWzYjP6KrVxFjXxaoJvcuK14XgA/1VJdh8FANWy9KZAN44sNso1en3fdhUcXwwXmvjt638N",
+  "URL": "https://gitlab.gnome.org/GNOME/gcr",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751009047",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libgcrypt",
+    "libp11-kit",
+    "libsecret"
+  ],
+  "PROVIDES": [
+    "libgck-2.so",
+    "libgcr-4.so"
+  ],
+  "OPTDEPENDS": [
+    "gtk4: gcr-viewer-gtk4"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk4",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "dbus"
+  ],
+  "REPO": "main"
+}

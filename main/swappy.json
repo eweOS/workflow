@@ -1,0 +1,33 @@
+{
+  "FILENAME": "swappy-1.8.0-1-riscv64.pkg.tar.zst",
+  "NAME": "swappy",
+  "BASE": "swappy",
+  "VERSION": "1.8.0-1",
+  "DESC": "A Wayland native snapshot editing tool",
+  "CSIZE": "36924",
+  "ISIZE": "110673",
+  "MD5SUM": "c1a62c4940680384399b74924c2a33df",
+  "SHA256SUM": "625463a907467b773b241725d183a5dc009dcc08d65f83ea10dfa349e82cba15",
+  "PGPSIG": "iF4EABYCAAYFAmix59kACgkQw1jnDXfq/1RBNwEA3rsqHhDdWXURwr6Tutds5/jxcUEcxpU39KWHcYGV1NEA/1yxhAyeFmY6yYSuMZqrnOqHKHzwBah4fXiFYzWPPlcC",
+  "URL": "https://github.com/jtheoof/swappy",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756490434",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "gtk3",
+    "pango"
+  ],
+  "OPTDEPENDS": [
+    "wl-clipboard: for persistent clipboard",
+    "otf-font-awesome: to draw paint icons"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc"
+  ],
+  "REPO": "main"
+}

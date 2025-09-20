@@ -1,0 +1,43 @@
+{
+  "FILENAME": "bpftool-6.14.6-2-riscv64.pkg.tar.zst",
+  "NAME": "bpftool",
+  "BASE": "linux-tools",
+  "VERSION": "6.14.6-2",
+  "DESC": "Inspection and simple manipulation of eBPF programs and maps",
+  "GROUPS": [
+    "linux-tools"
+  ],
+  "CSIZE": "859318",
+  "ISIZE": "1831667",
+  "MD5SUM": "7f2417b2f22239308fd585a042d03943",
+  "SHA256SUM": "207dce943d627b7a594fc2e3c05562f8802731af14ed136d408e5d39b6e26c9a",
+  "PGPSIG": "iF4EABYCAAYFAmgoQ5sACgkQw1jnDXfq/1S8QAEAoSvhYi3b7M3PSNvBIRqRh+LRibzS9R8HfSkwu8iHzsgA/0skoKjaLpUFZAugtf6EETz30JK4Wwg4iP48pDqUPYEC",
+  "URL": "https://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747469413",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "zlib",
+    "libelf",
+    "libcap",
+    "zstd",
+    "llvm-libs"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "asciidoc",
+    "xmlto",
+    "readline",
+    "zlib",
+    "libcap",
+    "libelf",
+    "python-docutils",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

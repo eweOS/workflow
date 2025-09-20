@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libglvnd-1.7.0-4-riscv64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-4",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "474511",
+  "ISIZE": "3413922",
+  "MD5SUM": "fd1ad630df6aa0244660f99aeb684530",
+  "SHA256SUM": "0090469b442a00ea67aec8312434c836a321ae2fcb2fc5f51f0c6ef65a9c0ca1",
+  "PGPSIG": "iF4EABYCAAYFAmcSK+QACgkQw1jnDXfq/1SGaQEA7fymHiBxp7aScAgnR+5iKqnyy4CO2cg6IQZ0HXp3joIA/RQJiVvOjq5657OIU2qAvPKXKu25x/YDBSnHuflVG5gD",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729244038",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "mesa"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

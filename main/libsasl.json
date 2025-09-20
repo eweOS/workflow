@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libsasl-2.1.28-5-riscv64.pkg.tar.zst",
+  "NAME": "libsasl",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-5",
+  "DESC": "Cyrus Simple Authentication Service Layer (SASL) library",
+  "CSIZE": "198030",
+  "ISIZE": "651319",
+  "MD5SUM": "497b384577b3e64bcc36923f448139fd",
+  "SHA256SUM": "205a4ce4242ee6888a9545c5a5c72b944345145adc4d7f812e18be4f8fb3c912",
+  "PGPSIG": "iF4EABYCAAYFAmcVz6MACgkQw1jnDXfq/1QoGgEAzS9SejbJNmxDr543H0D0zvkdSnWWpq+NOwJX96nq3vYA/Rv0VxnPFBCXRC0o9gJJ6vj71AONutjM/Udj7J4VcK4L",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729482553",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gdbm",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libsasl2.so"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

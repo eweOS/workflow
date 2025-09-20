@@ -1,0 +1,36 @@
+{
+  "FILENAME": "elfutils-0.193-1-riscv64.pkg.tar.zst",
+  "NAME": "elfutils",
+  "BASE": "libelf",
+  "VERSION": "0.193-1",
+  "DESC": "libelf is a free ELF object file access library (utilities)",
+  "CSIZE": "798063",
+  "ISIZE": "4193273",
+  "MD5SUM": "4683b376d913ee2820c8c0deb4d7bdae",
+  "SHA256SUM": "806179289401f6240ab35eae844846ea728df5d3f2fde5f52bf141d9e8a5f24b",
+  "PGPSIG": "iF4EABYCAAYFAmgR1nAACgkQw1jnDXfq/1Tz5AEA/3+jDUtlBf4DK5ARrK6rDB+9rx4euVClMBD4hK2THREBAMX5EH0/faEsgReubG4b2uMqwKafosiyD//PNaV2E2kN",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL3",
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1745999498",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libelf=0.193"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
