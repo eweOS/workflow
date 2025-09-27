@@ -1,0 +1,37 @@
+{
+  "FILENAME": "virglrenderer-1.2.0-1-aarch64.pkg.tar.zst",
+  "NAME": "virglrenderer",
+  "BASE": "virglrenderer",
+  "VERSION": "1.2.0-1",
+  "DESC": "A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering",
+  "CSIZE": "550315",
+  "ISIZE": "2653750",
+  "MD5SUM": "a2cc3741eb2492fbadd8f3515fda2e92",
+  "SHA256SUM": "508fe8e9ff569bb0527e4c76546b2e0f987925bd80ec33bb78c1aaa41c683fa9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMotrwAKCRDDWOcNd+r/VIu3AP9WTcXttlN0oMPzK+0xdqTt6YudFyRY+mbzJ8uZ04MphgD/W3u929neKwKshXUTfVT62IIgYwIoacfLh+bK88WLcws=",
+  "URL": "https://virgil3d.github.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1758080413",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libepoxy",
+    "mesa",
+    "libva"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson",
+    "ninja",
+    "vulkan-icd-loader",
+    "vulkan-headers",
+    "linux-headers",
+    "python-yaml"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "main"
+}

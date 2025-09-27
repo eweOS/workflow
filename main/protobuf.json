@@ -1,0 +1,36 @@
+{
+  "FILENAME": "protobuf-32.0-2-aarch64.pkg.tar.zst",
+  "NAME": "protobuf",
+  "BASE": "protobuf",
+  "VERSION": "32.0-2",
+  "DESC": "Google's data interchange format",
+  "CSIZE": "4570338",
+  "ISIZE": "14859969",
+  "MD5SUM": "4563c47a55c504c90e532b08c9fcde04",
+  "SHA256SUM": "dda5b7a6668619d18f630eb2869650e531ce2c0a38561a7bc18c4d2bb9c45d6b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLk9WgAKCRDDWOcNd+r/VMXDAP9yMOfzvYStKD8JABWYKmvMUSufH826u1nPgqv6pjlzkQD/fNA6+fIyiYFhvH8J8ZBAY1Uk764l/b52/vGbVEjnGgY=",
+  "URL": "https://github.com/protocolbuffers/protobuf/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756969541",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "jsoncpp",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "libprotobuf.so",
+    "libprotobuf-lite.so",
+    "libprotoc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

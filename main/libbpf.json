@@ -1,0 +1,30 @@
+{
+  "FILENAME": "libbpf-1.6.2-1-aarch64.pkg.tar.zst",
+  "NAME": "libbpf",
+  "BASE": "libbpf",
+  "VERSION": "1.6.2-1",
+  "DESC": "Library for loading eBPF programs and reading and manipulating eBPF objects from user-space",
+  "CSIZE": "294246",
+  "ISIZE": "826140",
+  "MD5SUM": "32b8814da0cd85335b0ba9ee62c7cb1e",
+  "SHA256SUM": "8d523b67c3c9038bb1bd5d02baaeaade181abee62ae7c6a76db9aaf22bb38f59",
+  "PGPSIG": "iF4EABYCAAYFAmioMTEACgkQw1jnDXfq/1RIRwD8CbYtiAuN3te1vOEUW7KmeB0tEDMFfVVhGnrZf0Gh1B4A+gOkQUX2oVKZUHO7cUabIIkqUR7nxoj0ZdlWkBxdMI8A",
+  "URL": "https://github.com/libbpf/libbpf",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755853829",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libelf",
+    "linux-headers"
+  ],
+  "PROVIDES": [
+    "libbpf.so"
+  ],
+  "MAKEDEPENDS": [
+    "rsync"
+  ],
+  "REPO": "main"
+}

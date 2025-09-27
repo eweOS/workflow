@@ -1,0 +1,41 @@
+{
+  "FILENAME": "android-tools-35.0.2-9-aarch64.pkg.tar.zst",
+  "NAME": "android-tools",
+  "BASE": "android-tools",
+  "VERSION": "35.0.2-9",
+  "DESC": "Android platform tools",
+  "CSIZE": "2100592",
+  "ISIZE": "5172034",
+  "MD5SUM": "fd81837357d081ffea909ab57b3c6afc",
+  "SHA256SUM": "672ff3e9c1fcca25a19a7fceba45b7e2ed55c50929c759334d54a5deeda19f20",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLmHCwAKCRDDWOcNd+r/VAbuAQDFIxNDpKWaUZZ84ltfl1moGn97yUg7y3BdXZ0nHRCMSgEA5OFXWt7V+f7RPjA4WROZsK7za3STOROVxeooIPIFewY=",
+  "URL": "http://tools.android.com/",
+  "LICENSE": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756989118",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "brotli",
+    "fmt",
+    "libusb",
+    "pcre2",
+    "protobuf",
+    "googletest",
+    "zstd",
+    "python",
+    "abseil-cpp"
+  ],
+  "OPTDEPENDS": [
+    "python: mkbootimg, unpack_bootimg and repack_bootimg support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "go",
+    "perl",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

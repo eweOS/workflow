@@ -1,0 +1,36 @@
+{
+  "FILENAME": "base-1-5-any.pkg.tar.zst",
+  "NAME": "base",
+  "BASE": "base",
+  "VERSION": "1-5",
+  "DESC": "Minimal package set to define a basic eweOS installation",
+  "CSIZE": "1733",
+  "ISIZE": "0",
+  "MD5SUM": "83dc9b7aef4437ada9d8c6fb1ba66413",
+  "SHA256SUM": "285815e7af458b56f50254c9b56f21d8ef7ba48479d0ed6daf4c7aeff842e73d",
+  "PGPSIG": "iF4EABYCAAYFAmdC22kACgkQw1jnDXfq/1QYRwEAtda1J4eAqHHLXshGD1uHMy5oFc6ohRq5V/harzK7jeQBANi1y/V/45zqQDipYmRiSW2cFl6wh5c/AC25Tr3B360P",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1732434952",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "filesystem",
+    "musl",
+    "bash",
+    "llvm-libs",
+    "busybox",
+    "file",
+    "util-linux",
+    "ca-certs",
+    "gettext-tiny",
+    "xz",
+    "pacman",
+    "catnest"
+  ],
+  "OPTDEPENDS": [
+    "base-baremetal: bare metal support"
+  ],
+  "REPO": "main"
+}

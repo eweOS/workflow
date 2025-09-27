@@ -1,0 +1,30 @@
+{
+  "FILENAME": "musl-static-1.2.5-6-aarch64.pkg.tar.zst",
+  "NAME": "musl-static",
+  "BASE": "musl",
+  "VERSION": "1.2.5-6",
+  "DESC": "An implementation of the C/POSIX standard library.",
+  "GROUPS": [
+    "base-devel"
+  ],
+  "CSIZE": "568008",
+  "ISIZE": "2391170",
+  "MD5SUM": "f3c035c56f599f69edf7f807c41b6a12",
+  "SHA256SUM": "7cb999aff4171094f7b42daab932449a5dfc28354493ac03d992f78ecd007d3f",
+  "PGPSIG": "iF4EABYCAAYFAmghm0oACgkQw1jnDXfq/1QiVgEAkY44mu9JE6HvcfllQrqJ7BR4lAZjQG2LgiZbXh8wOv0BAOPHWrYicO1JVkfVI4nh3s05rXum8+N2HirPZL392XAC",
+  "URL": "https://musl.libc.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747033169",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "ld-musl-aarch64.so.1",
+    "libc.so"
+  ],
+  "MAKEDEPENDS": [
+    "lld"
+  ],
+  "REPO": "main"
+}

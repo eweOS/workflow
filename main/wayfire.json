@@ -1,0 +1,43 @@
+{
+  "FILENAME": "wayfire-0.10.0-1-aarch64.pkg.tar.zst",
+  "NAME": "wayfire",
+  "BASE": "wayfire",
+  "VERSION": "0.10.0-1",
+  "DESC": "A modular and extensible wayland compositor",
+  "CSIZE": "5144936",
+  "ISIZE": "24813593",
+  "MD5SUM": "177c7f9c6d90581b5ce14fa2442bdcb3",
+  "SHA256SUM": "6961f739dcd24b35ffa0bef2c92f7ada857258b7997fcd6e23066820ff8a37a6",
+  "PGPSIG": "iF4EABYCAAYFAmix464ACgkQw1jnDXfq/1TLSgEAwSPlL1mEkJ7LSQfuc1DAEeLSvbtGF3bFXmmwsR6t1boA/jTSuT0YK/wpRaCuUwz9PrbL31a7Bh81kAHtvkYi6tIF",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756489343",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "pango",
+    "libjpeg",
+    "libinput",
+    "wlroots0.19",
+    "wf-config",
+    "yyjson"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "wayland-protocols",
+    "glm",
+    "cmake",
+    "mesa",
+    "doctest",
+    "git",
+    "openmp",
+    "linux-headers",
+    "wlroots0.19-devel",
+    "vulkan-icd-loader"
+  ],
+  "REPO": "main"
+}

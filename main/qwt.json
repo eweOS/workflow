@@ -1,0 +1,36 @@
+{
+  "FILENAME": "qwt-6.3.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qwt",
+  "BASE": "qwt",
+  "VERSION": "6.3.0-1",
+  "DESC": "Qt Widgets for Technical Applications",
+  "CSIZE": "696837",
+  "ISIZE": "2144917",
+  "MD5SUM": "60af706c440769c2be06e8ba4c9c5098",
+  "SHA256SUM": "ad3dff5eeeb95ceefa58fc4bfb51f849db1bb57ca86c82a15e571224c80f7af7",
+  "PGPSIG": "iF4EABYCAAYFAmdkKCgACgkQw1jnDXfq/1TAYQD/eGv2PnwW/Hnpb37CBNRSl2+6thbd+aGRnQv/TeMtRzEBAMQXttIxkqsIP+nrH3O/wN8ReOhwjPgEksuP/lQAOz8L",
+  "URL": "https://qwt.sourceforge.io/",
+  "LICENSE": [
+    "custom:qwt"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1734617259",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "qwtpolar"
+  ],
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-svg"
+  ],
+  "PROVIDES": [
+    "qwtpolar"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: For Designer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}
