@@ -1,0 +1,45 @@
+{
+  "FILENAME": "clang-tools-20.1.8-2-loongarch64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "clang-based tools",
+  "CSIZE": "20639161",
+  "ISIZE": "76218213",
+  "MD5SUM": "b4402277255ef3d998f7aefb98c45377",
+  "SHA256SUM": "1dc69fd7d814697aa95a1e206a00003ba1d7b9559f19e82770d2c9fcd94d892f",
+  "PGPSIG": "iF4EABYCAAYFAmiqtG8ACgkQw1jnDXfq/1Q0NwD+N+J8tnOu3VMu21iw+33p9mdI9Zcb/m3FnCu0xJc0JyEA/2nhAcP7j4/ktfS0MCvSIe1lVHkbbIBNYgbjxHelZYcB",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756005858",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,53 @@
+{
+  "FILENAME": "audex-25.08.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "audex",
+  "BASE": "audex",
+  "VERSION": "25.08.0-1",
+  "DESC": "Tool for ripping compact discs",
+  "GROUPS": [
+    "kde-applications",
+    "kde-multimedia"
+  ],
+  "CSIZE": "772746",
+  "ISIZE": "2608413",
+  "MD5SUM": "09b8c8b82baf80d086551a37b8bbc4c9",
+  "SHA256SUM": "4fcdbe2cb6a45cbca68f2395a22918db4af9a280e253810a93bc2edb3898b0b6",
+  "PGPSIG": "iF4EABYCAAYFAmiypL4ACgkQw1jnDXfq/1RvqQD/QO/+phYEoGyZnriZuSwA2Eaa+2f7DoWqJ6vuWehKl6QA/i7k8GC1tFkC8tVi04kj3t4E5pMZphw8Baa/WsUg7m0M",
+  "URL": "https://apps.kde.org/audex/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756538604",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "kcmutils",
+    "kcolorscheme",
+    "kcompletion",
+    "kconfig",
+    "kconfigwidgets",
+    "kcoreaddons",
+    "kcrash",
+    "ki18n",
+    "kiconthemes",
+    "kio",
+    "ktextwidgets",
+    "kwidgetsaddons",
+    "kxmlgui",
+    "libcdio",
+    "libcdio-paranoia",
+    "libkcddb",
+    "qt6-base",
+    "solid"
+  ],
+  "OPTDEPENDS": [
+    "faac: MP4/M4A/AAC encoder",
+    "flac: FLAC encoder",
+    "lame: MP3 encoder",
+    "vorbis-tools: OGG encoder"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules"
+  ],
+  "REPO": "main"
+}

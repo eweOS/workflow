@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-gobject-3.52.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-gobject",
+  "BASE": "python-gobject",
+  "VERSION": "3.52.3-1",
+  "DESC": "Python bindings for GLib/GObject/GIO/GTK",
+  "CSIZE": "336909",
+  "ISIZE": "1434173",
+  "MD5SUM": "e1df39ab24b0e506392767436aa09fdb",
+  "SHA256SUM": "9368ef60735339a107f6e8b94795d0c62a8c88c01c69876be1fec275caf38b3e",
+  "PGPSIG": "iF4EABYCAAYFAmhXxj8ACgkQw1jnDXfq/1QpCAEAi1mY2fmQPtBoBJjpP9bm7K+e0pPVgQKOhto1x4Ccb4MBAPRNxyXwt6np5JNbkx1wyBZVSUjlHyDQF7HZc+4GvmYE",
+  "URL": "https://pygobject.gnome.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750583289",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gobject-introspection-runtime",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Cairo bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-cairo",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}
