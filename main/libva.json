@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libva-2.22.0-2-riscv64.pkg.tar.zst",
+  "NAME": "libva",
+  "BASE": "libva",
+  "VERSION": "2.22.0-2",
+  "DESC": "Video Acceleration (VA) API for Linux",
+  "CSIZE": "219394",
+  "ISIZE": "861663",
+  "MD5SUM": "3396de714371f942badc2e8cf207e442",
+  "SHA256SUM": "c3074f0ed19cddb45233ee99e3e160b1243d76c8a2354ab600306ee2537f0b38",
+  "PGPSIG": "iF4EABYCAAYFAmcTq9QACgkQw1jnDXfq/1TKlAEAuOfrQwnjE5zxry7uNfc3Vgc6IWkkcHr165re+FhcD1MA/2fqEmuVU/16Q8iYmoWz8ZAsS2oba/cn3tsc2Q/ob9oN",
+  "URL": "https://01.org/linuxmedia/vaapi",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729342392",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdrm",
+    "wayland"
+  ],
+  "PROVIDES": [
+    "libva-drm.so",
+    "libva-wayland.so",
+    "libva.so"
+  ],
+  "OPTDEPENDS": [
+    "intel-media-driver: backend for Intel GPUs (>= Broadwell)",
+    "libva-intel-driver: backend for Intel GPUs (<= Haswell)",
+    "libva-mesa-driver: backend for AMD and NVIDIA GPUs"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libglvnd",
+    "linux-headers",
+    "mesa",
+    "meson"
+  ],
+  "REPO": "main"
+}

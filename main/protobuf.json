@@ -1,0 +1,36 @@
+{
+  "FILENAME": "protobuf-32.0-2-riscv64.pkg.tar.zst",
+  "NAME": "protobuf",
+  "BASE": "protobuf",
+  "VERSION": "32.0-2",
+  "DESC": "Google's data interchange format",
+  "CSIZE": "3511904",
+  "ISIZE": "13913345",
+  "MD5SUM": "6d36ab34f25fc3e118113ce860970510",
+  "SHA256SUM": "7974b83938134ca4d9c69d637c791f4c0af6ed422d10097a72759ce723ecfb58",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLlMfgAKCRDDWOcNd+r/VEnuAP4siI+/ZPy9hXIGYb1qeAszG4+UspiQ6G3EuABf4UR4TwEAoyAboMQY8tHDBaD9OVqnPE/4Jvaq5QRTGpiOUjfF8Q4=",
+  "URL": "https://github.com/protocolbuffers/protobuf/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756969646",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "jsoncpp",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "libprotobuf.so",
+    "libprotobuf-lite.so",
+    "libprotoc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

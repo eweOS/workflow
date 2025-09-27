@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-gobject-3.52.3-1-riscv64.pkg.tar.zst",
+  "NAME": "python-gobject",
+  "BASE": "python-gobject",
+  "VERSION": "3.52.3-1",
+  "DESC": "Python bindings for GLib/GObject/GIO/GTK",
+  "CSIZE": "348757",
+  "ISIZE": "1412685",
+  "MD5SUM": "5fd1f3d8d1b954453dee594c03e5d1e5",
+  "SHA256SUM": "2218c216ba93e57851ce3bf7a4a1a9374e68b8df54f92ab97681a5b852aeb990",
+  "PGPSIG": "iF4EABYCAAYFAmhXy2sACgkQw1jnDXfq/1R5KAEAk0Eu3/Qaa1StZjyLN+ba1mTQFlfrGk4uuRxWoniariAA/jVsCeRnvM5VkfUBsb6EVQ8TsFEhkL1ZPyOqeAXSYzQB",
+  "URL": "https://pygobject.gnome.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750584517",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gobject-introspection-runtime",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Cairo bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-cairo",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "googletest-1.17.0-1-riscv64.pkg.tar.zst",
+  "NAME": "googletest",
+  "BASE": "googletest",
+  "VERSION": "1.17.0-1",
+  "DESC": "C++ testing utility based on the xUnit framework",
+  "CSIZE": "557426",
+  "ISIZE": "2161169",
+  "MD5SUM": "3b36b1afa6e39332e59c6431fc59b823",
+  "SHA256SUM": "772ecddb72e4df591787d6169e260d654203593ce30c8749673a496475a96ca9",
+  "PGPSIG": "iF4EABYCAAYFAmiTKycACgkQw1jnDXfq/1TqAAD/RHjUacOawkN5kf8JKN5EmPnOvD4b00QooGxuT+PXKuIBAPMAzWJwXC4S8ZINnF6xZLHckdDZ8OO5ZTjtZPwqKrIP",
+  "URL": "https://github.com/google/googletest",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754475500",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "gmock",
+    "gtest"
+  ],
+  "OPTDEPENDS": [
+    "python: gmock generator"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "cmake",
+    "llvm-libs",
+    "sh"
+  ],
+  "REPO": "main"
+}

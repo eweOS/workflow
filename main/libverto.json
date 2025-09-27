@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libverto-0.3.2-6-riscv64.pkg.tar.zst",
+  "NAME": "libverto",
+  "BASE": "libverto",
+  "VERSION": "0.3.2-6",
+  "DESC": "Main event loop abstraction library",
+  "CSIZE": "19842",
+  "ISIZE": "51694",
+  "MD5SUM": "b616b7fc602e43fdd6323767392fac0a",
+  "SHA256SUM": "3f3da1b79a6567aecb5a6417ee1c45b42007426dc77cd4a1a30d7cac72baaf8c",
+  "PGPSIG": "iF4EABYCAAYFAmcVvzIACgkQw1jnDXfq/1ThhAEAsQIrnQ7HPD3TFUajcLih01sbruaCwNIxzMVSWR9DyS4BALtiEULehkwZubzq+KSVBbfQOs0D0uzC4XAcKRc7ZvYD",
+  "URL": "https://github.com/latchset/libverto",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729478407",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "libverto-libevent<0.3.2-4"
+  ],
+  "DEPENDS": [
+    "libevent"
+  ],
+  "CONFLICTS": [
+    "krb5<1.19.3-2",
+    "libverto-libevent<0.3.2-4"
+  ],
+  "PROVIDES": [
+    "libverto.so",
+    "libverto-libevent.so",
+    "libverto-module-base"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-20.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "32540976",
+  "ISIZE": "104478636",
+  "MD5SUM": "fead385f0955526b74d4c203822c8add",
+  "SHA256SUM": "6fd23491b841352505e216dead4f2fecb0406fd178fb2b4071c6742bd7950a80",
+  "PGPSIG": "iF4EABYCAAYFAmir0sIACgkQw1jnDXfq/1SRnAEAp4NtouCqB23AS4caYpNofF398o6Eg7wz2ZRY9S5CrQYBAOzIZcY1KZBnBjdue+D0PLAzZyFvL7ktjAfIv9VxQmgM",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756006124",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}
