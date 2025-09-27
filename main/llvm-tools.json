@@ -1,0 +1,50 @@
+{
+  "FILENAME": "llvm-tools-20.1.8-2-x86_64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LLVM binary and object tools",
+  "CSIZE": "26352645",
+  "ISIZE": "85682683",
+  "MD5SUM": "ef98f2a8314ed80e20ae388553eb9d8d",
+  "SHA256SUM": "64dd745e5065591fa478ca539ad39adf04704b2e3fafc37b1b53c14487bbe2bd",
+  "PGPSIG": "iF4EABYCAAYFAmiqkS8ACgkQw1jnDXfq/1RTDwEAyQ4bwTJ3iZzHeUMP9XzhVjnJV/VLnsyR8XJGg6FwHGoA/RGSeE+wYxyMh1HMXbSkURttZ9H6oIqCWjfKwsThlNkK",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756005861",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

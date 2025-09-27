@@ -1,0 +1,32 @@
+{
+  "FILENAME": "netavark-1.14.1-2-x86_64.pkg.tar.zst",
+  "NAME": "netavark",
+  "BASE": "netavark",
+  "VERSION": "1.14.1-2",
+  "DESC": "Container network stack",
+  "CSIZE": "4842200",
+  "ISIZE": "13868329",
+  "MD5SUM": "f77dc634025e9bc5f37f0efd6e07d123",
+  "SHA256SUM": "f6090234f303ef01f883dd2e7ef8df89a3b67a878c1723ac7d24d74f3d6d6398",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLb8TgAKCRDDWOcNd+r/VDYkAP0V3vYEvyNiKPURfQJFqsr+eGspJ3QGxEfzVd0sQOo7pQEAmyxtAHybT0hm0SucN9zUygmj1QndnT2c1mB+dX6POw0=",
+  "URL": "https://github.com/containers/netavark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756822190",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "nftables"
+  ],
+  "PROVIDES": [
+    "container-network-stack=2"
+  ],
+  "MAKEDEPENDS": [
+    "cargo",
+    "git",
+    "protobuf",
+    "go-md2man"
+  ],
+  "REPO": "main"
+}

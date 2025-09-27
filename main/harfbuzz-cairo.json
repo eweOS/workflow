@@ -1,0 +1,46 @@
+{
+  "FILENAME": "harfbuzz-cairo-11.5.0-1-x86_64.pkg.tar.zst",
+  "NAME": "harfbuzz-cairo",
+  "BASE": "harfbuzz",
+  "VERSION": "11.5.0-1",
+  "DESC": "OpenType text shaping engine - Cairo integration",
+  "CSIZE": "19692",
+  "ISIZE": "37746",
+  "MD5SUM": "35103f4ab8ea64e835e7025aaf0ea770",
+  "SHA256SUM": "b320026db974d8f008cdad333968104715bd1b695f7d6f2fd83c4fbec7466d64",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMot6gAKCRDDWOcNd+r/VGaLAP9O6h/Y2OC5lQzUnBdvSWf/Ads2+Uq+xEgThccFZdU1YQD+Jy7B3urYD9WmFJ6zZwe0Ae+D79PBDkV9Ms3akhX3KQk=",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1758080404",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "cairo",
+    "freetype2",
+    "glib2",
+    "graphite",
+    "harfbuzz",
+    "libcairo.so",
+    "libharfbuzz.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz-cairo.so"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}
