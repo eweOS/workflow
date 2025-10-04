@@ -1,0 +1,38 @@
+{
+  "FILENAME": "ttf-noto-variable-2025.05.01-3-any.pkg.tar.zst",
+  "NAME": "ttf-noto-variable",
+  "BASE": "font-noto",
+  "VERSION": "2025.05.01-3",
+  "DESC": "Google Noto TTF fonts - variable",
+  "CSIZE": "6255",
+  "ISIZE": "11357",
+  "MD5SUM": "df4c64f71e26f7c4b58ca7af286a969f",
+  "SHA256SUM": "d2afd5359258fb2387f43d16d9a00a938df5858eb11831c7f818333905d108f8",
+  "PGPSIG": "iF4EABYCAAYFAmikQiEACgkQw1jnDXfq/1RD/AEAp0tb5cdzRopvRbMm8U/LJ1e93vGpMGLZv1ZR7rqLNy0A/iWr1VUHbH28T08Fa+wk8ip6qrRwGWVR2FY2BJS/YV4L",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1755595879",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ttf-noto-base-variable",
+    "ttf-noto-extra-variable"
+  ],
+  "CONFLICTS": [
+    "ttf-noto"
+  ],
+  "PROVIDES": [
+    "font-noto",
+    "ttf-noto"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-cjk: CJK characters",
+    "font-noto-emoji: Emoji characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

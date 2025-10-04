@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtkmm-4.18.0-2-riscv64.pkg.tar.zst",
+  "NAME": "gtkmm",
+  "BASE": "gtkmm",
+  "VERSION": "4.18.0-2",
+  "DESC": "C++ bindings for GTK 4",
+  "CSIZE": "2081975",
+  "ISIZE": "10726959",
+  "MD5SUM": "9801ce8606532f5fb31ab06fdcd87518",
+  "SHA256SUM": "3a2b43a6bde1237d268d88cf4752f1537e2a39fe284ca2586d905ea955402f7b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMz/dgAKCRDDWOcNd+r/VCUVAQDB5KK6jdkgh2mjXamzWnelce9mU5yzFyxAt1Ka9auKHgD/SpZrk+DJdkWbsII/UKGD0NTh6Io0OduELngfHRtP8wI=",
+  "URL": "https://www.gtkmm.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1758263359",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "gtk4",
+    "pangomm",
+    "cairomm",
+    "glibmm",
+    "libsigc++3"
+  ],
+  "PROVIDES": [
+    "libgtkmm-4.0.so",
+    "gtkmm-gtk4",
+    "gtkmm-4.0"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "mm-common",
+    "perl-xml-parser"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "lxc-6.0.5-1-riscv64.pkg.tar.zst",
+  "NAME": "lxc",
+  "BASE": "lxc",
+  "VERSION": "6.0.5-1",
+  "DESC": "The Linux Containers tool set for kernel-level isolation",
+  "CSIZE": "1435339",
+  "ISIZE": "7079268",
+  "MD5SUM": "21deb576a195b20dba80512b05d1051e",
+  "SHA256SUM": "f557b9b150527b7b44aefe6770c16c3b5cfd81e848679228a7e282f02d05423c",
+  "PGPSIG": "iF4EABYCAAYFAmie/jgACgkQw1jnDXfq/1R4PwEAgiUr6hXam/Dg4WEjiQgfqvtB+IiJBW/ZWY9Z91qPor8A/A0xkTWywRK24Vf4Kh/70YHYMhCkaZDrKR3J8bVm7TQG",
+  "URL": "https://linuxcontainers.org",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755250714",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "bash",
+    "libseccomp",
+    "libcap",
+    "rsync",
+    "wget"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "lua",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

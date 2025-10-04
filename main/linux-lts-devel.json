@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-lts-devel-6.12.47-2-riscv64.pkg.tar.zst",
+  "NAME": "linux-lts-devel",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.47-2",
+  "DESC": "Headers and scripts for building modules for the Linux LTS kernel",
+  "CSIZE": "31571343",
+  "ISIZE": "175183345",
+  "MD5SUM": "a71f5edf48c0522ed821ac36561490a2",
+  "SHA256SUM": "87e51e9d2fe2ce23db33a9a025cc9952c22c210ed017ece12b5c823377f0c255",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaNl1pgAKCRDDWOcNd+r/VIC8AQDr4hsPcOqV1adfMoi/vN9o6aoQrWjBMPdudlmSlJcVGwD/WkHTOeBtx8bHMAcwQew3YX+u8C+iK6ZkJk2JCoLZOAk=",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1759071016",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

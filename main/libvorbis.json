@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libvorbis-1.3.7-2-riscv64.pkg.tar.zst",
+  "NAME": "libvorbis",
+  "BASE": "libvorbis",
+  "VERSION": "1.3.7-2",
+  "DESC": "Ogg Vorbis codec",
+  "CSIZE": "354544",
+  "ISIZE": "1404360",
+  "MD5SUM": "a2fe4f697650e45a637e82fe14696d79",
+  "SHA256SUM": "477a76d96b1401fbccea21acc8d8d64b16dbed16e895ed32cf4972ee891f6bac",
+  "PGPSIG": "iF4EABYCAAYFAmcTtGgACgkQw1jnDXfq/1QUQwD+MYAQBp7g2aP3OYMILV0Uh7uGrV9D+Jd4AtqW+PrCcrkBAOHRRzbe17xl9EbsQ1XkO3XbRJNNvWooOlTeOL5xPaUN",
+  "URL": "https://xiph.org/vorbis/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729344566",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libogg"
+  ],
+  "PROVIDES": [
+    "libvorbis.so",
+    "libvorbisenc.so",
+    "libvorbisfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

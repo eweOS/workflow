@@ -1,0 +1,54 @@
+{
+  "FILENAME": "gtk4-4.20.1-1-riscv64.pkg.tar.zst",
+  "NAME": "gtk4",
+  "BASE": "gtk4",
+  "VERSION": "4.20.1-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "12047768",
+  "ISIZE": "45291333",
+  "MD5SUM": "585ad08fad240cec6de838f2195bffda",
+  "SHA256SUM": "132bfc42b2aaad20912120074172258c6eb656a487487bd6d07dc59035f3b246",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMOCmgAKCRDDWOcNd+r/VMHGAP0VYzvY5gLgv8ufQOE6IENkbtk7qcUNCd1vJ0AV9SCyjgEAxzeBmSiwECIVebPnqrQHcDDc52ZHgaefJfXHzrT62gA=",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1757642640",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "desktop-file-utils",
+    "librsvg",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "glslang",
+    "lld",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

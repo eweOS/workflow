@@ -1,0 +1,40 @@
+{
+  "FILENAME": "libgweather-4.4.4-3-riscv64.pkg.tar.zst",
+  "NAME": "libgweather",
+  "BASE": "libgweather",
+  "VERSION": "4.4.4-3",
+  "DESC": "Location and timezone database and weather-lookup library",
+  "CSIZE": "4677283",
+  "ISIZE": "21808925",
+  "MD5SUM": "7500b1036b970bc4d3d771de66167173",
+  "SHA256SUM": "ccc70fd494ce235eb83e71f5dfd97b6bbb3a2c90f58f141b888648e52bb3a1a7",
+  "PGPSIG": "iF4EABYCAAYFAmgrW08ACgkQw1jnDXfq/1Rf7QD8D479Ur0WfM6wWPtRXn9IlejWL10de2vikLYtP7mxOrEA/RGM8B8GE3onpsHqsTY1OKvHu3sy2tLRYm7bdVhZNEEH",
+  "URL": "https://wiki.gnome.org/Projects/LibGWeather",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747672035",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dconf",
+    "geocode-glib-2",
+    "glib2",
+    "json-glib",
+    "libsoup3",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libgweather-4",
+    "libgweather-4.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-gobject",
+    "vala"
+  ],
+  "REPO": "main"
+}
