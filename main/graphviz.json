@@ -1,0 +1,49 @@
+{
+  "FILENAME": "graphviz-13.1.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "graphviz",
+  "BASE": "graphviz",
+  "VERSION": "13.1.2-2",
+  "DESC": "Open source graph visualization software.",
+  "CSIZE": "2707617",
+  "ISIZE": "6552002",
+  "MD5SUM": "8fe7fc28afbd5197231efa806bcf50bb",
+  "SHA256SUM": "813fa5f620022d4b8ea2a33451f6b6cbeacd0cf141972b564c3efe65def967e5",
+  "PGPSIG": "iF4EABYCAAYFAmi2gtwACgkQw1jnDXfq/1SdUQD/XTPpWFeF8vZfD6W1s3PvDe3EmwFwyLc6kDwnV4BRp0gBAO5i1kw2KqyxLhqsglQFXULO7lrxBOhdW/wL8ALlAfUM",
+  "URL": "https://graphviz.org/",
+  "LICENSE": [
+    "EPL-1.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756792206",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "gd",
+    "libjpeg",
+    "librsvg",
+    "libwebp",
+    "libpng",
+    "freetype2",
+    "pango",
+    "cairo",
+    "glib",
+    "libltdl",
+    "libxml2"
+  ],
+  "OPTDEPENDS": [
+    "lua: lua bindings",
+    "perl: perl bindings",
+    "python: python bindings",
+    "tcl: tcl bindings",
+    "qt6-base: gvedit"
+  ],
+  "MAKEDEPENDS": [
+    "lua54",
+    "swig",
+    "perl",
+    "python",
+    "qt6-base"
+  ],
+  "REPO": "main"
+}

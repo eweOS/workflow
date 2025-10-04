@@ -1,0 +1,31 @@
+{
+  "FILENAME": "tdb-1.4.14-1-loongarch64.pkg.tar.zst",
+  "NAME": "tdb",
+  "BASE": "tdb",
+  "VERSION": "1.4.14-1",
+  "DESC": "Trivial Database similar to GDBM but allows simultaneous commits",
+  "CSIZE": "78831",
+  "ISIZE": "197749",
+  "MD5SUM": "17877e4c0fdc4235d07476cfca756aed",
+  "SHA256SUM": "a3ee17eff5274af460ac4b33c099c1c278fd2689de637677bfda8862c2e1b77d",
+  "PGPSIG": "iF4EABYCAAYFAmiZU2YACgkQw1jnDXfq/1Q8CgEA3scozgoNBKpAsjJmyqI6MLFOQW92wvhfEhOjLwuYomoBAJuqEdA/NvXdOFnvxmrx0eL64PC+B+7iPu9Hyb6UFBIK",
+  "URL": "https://tdb.samba.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754879458",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libtdb.so"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libvorbis-1.3.7-2-loongarch64.pkg.tar.zst",
+  "NAME": "libvorbis",
+  "BASE": "libvorbis",
+  "VERSION": "1.3.7-2",
+  "DESC": "Ogg Vorbis codec",
+  "CSIZE": "366667",
+  "ISIZE": "1423904",
+  "MD5SUM": "90abe415f74cd089746ee0f89bb4dbd4",
+  "SHA256SUM": "4780fbeb995d389db2625939dbac24d118913963660da3791a481aeec6fc7350",
+  "PGPSIG": "iF4EABYCAAYFAmcTs8wACgkQw1jnDXfq/1SDyAD+Ig2fkT2IZYEmDA560kPTT9/U4xWwZ641IfesNhw7TTYA/joKj5/0Zd888caX9hrlQtXoeE57gVHg01PshwIh/DwH",
+  "URL": "https://xiph.org/vorbis/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1729344457",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libogg"
+  ],
+  "PROVIDES": [
+    "libvorbis.so",
+    "libvorbisenc.so",
+    "libvorbisfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libinih-62-1-loongarch64.pkg.tar.zst",
+  "NAME": "libinih",
+  "BASE": "libinih",
+  "VERSION": "62-1",
+  "DESC": "A simple .INI file parser written in C",
+  "CSIZE": "18673",
+  "ISIZE": "40713",
+  "MD5SUM": "fddee442b941af7ee975579eddcf4808",
+  "SHA256SUM": "c992b3dd0eec46a89a61539edf219b5249f9b38d873f77983f503b365a6256f6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMov0wAKCRDDWOcNd+r/VF6DAQC3u6YtmyuK2klScF6zu0niVvrEVYsmXJu1Qkvy+GK3YAEAzfhBcs0don7Bc07TbmpqN0OXBe/Ja5zfAcxGkz9/AQo=",
+  "URL": "https://github.com/benhoyt/inih",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1758081025",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libinih.so",
+    "libINIReader.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

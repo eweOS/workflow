@@ -1,0 +1,40 @@
+{
+  "FILENAME": "minizip-ng-4.0.10-1-loongarch64.pkg.tar.zst",
+  "NAME": "minizip-ng",
+  "BASE": "minizip-ng",
+  "VERSION": "4.0.10-1",
+  "DESC": "Fork of the popular zip manipulation library found in the zlib distribution",
+  "CSIZE": "69104",
+  "ISIZE": "208183",
+  "MD5SUM": "95891179b3d46da933df3661d7f0abbf",
+  "SHA256SUM": "8338904921b9647081db70aaa78955a9233e13ccaed9a843538be059951bac9c",
+  "PGPSIG": "iF4EABYCAAYFAmgkRMcACgkQw1jnDXfq/1QE5QD+NYoFeDCL20G0DVk6PRP4Zlh3Z2IwJdrQQPVdkmZNuJwBAMOlZm27/TrtGhee4gqFXQIq9StkabaE6XTK6EbHHgMM",
+  "URL": "https://github.com/zlib-ng/minizip-ng",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747207645",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "minizip"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "minizip"
+  ],
+  "PROVIDES": [
+    "minizip"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}
