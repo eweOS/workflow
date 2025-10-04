@@ -1,0 +1,56 @@
+{
+  "FILENAME": "harfbuzz-utils-11.5.0-1-aarch64.pkg.tar.zst",
+  "NAME": "harfbuzz-utils",
+  "BASE": "harfbuzz",
+  "VERSION": "11.5.0-1",
+  "DESC": "OpenType text shaping engine - Utilities",
+  "CSIZE": "67353",
+  "ISIZE": "190187",
+  "MD5SUM": "305aa8049e1b903183c0a3b9d821cd05",
+  "SHA256SUM": "0c057f4301a30deef7bd4d15c7ffb633e7a5a1f92c80934b93058a74e607a4be",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMouEgAKCRDDWOcNd+r/VEEhAP9JV3etiGB1Q66Avm5VdNCLplu404zVZFVs8jIhwJXe5gD/R90pensZTZp4vMQpqNWWvZ02b8WmfMZWkZeMQHpBXw4=",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1758080407",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "cairo",
+    "freetype2",
+    "glib2",
+    "harfbuzz",
+    "harfbuzz-cairo",
+    "libcairo.so",
+    "libfreetype.so",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libharfbuzz-cairo.so",
+    "libharfbuzz-gobject.so",
+    "libharfbuzz-subset.so",
+    "libharfbuzz.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz-subset.so",
+    "libharfbuzz-cairo.so",
+    "libharfbuzz.so",
+    "libharfbuzz-icu.so",
+    "libharfbuzz-gobject.so"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "linux-lts-devel-6.12.47-2-aarch64.pkg.tar.zst",
+  "NAME": "linux-lts-devel",
+  "BASE": "linux-lts",
+  "VERSION": "6.12.47-2",
+  "DESC": "Headers and scripts for building modules for the Linux LTS kernel",
+  "CSIZE": "35852753",
+  "ISIZE": "121765092",
+  "MD5SUM": "fcfa51f77b8287348d5049daa96a7202",
+  "SHA256SUM": "151d73c974d9861f2d5d4cc6e4bf7cb504d4114709769001a9e112cebc322e8c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaNlORwAKCRDDWOcNd+r/VJtaAP9jxeEySmstBMbyZktEK0+Y8Hn4CirzIXap96To8lXdTQEAhWk8HQTFqGHcaQWyh4hif/XUXCr9/iLntUUjSaqivg8=",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1759070749",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "pahole"
+  ],
+  "MAKEDEPENDS": [
+    "bison",
+    "flex",
+    "perl",
+    "python",
+    "libelf",
+    "linux-headers",
+    "rsync",
+    "lld",
+    "git",
+    "pahole"
+  ],
+  "REPO": "main"
+}

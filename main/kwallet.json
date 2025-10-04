@@ -1,0 +1,52 @@
+{
+  "FILENAME": "kwallet-6.17.0-2-aarch64.pkg.tar.zst",
+  "NAME": "kwallet",
+  "BASE": "kwallet",
+  "VERSION": "6.17.0-2",
+  "DESC": "Secure and unified container for user passwords",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "572059",
+  "ISIZE": "2352631",
+  "MD5SUM": "84d9833f94842c589a6ad0506052e9fc",
+  "SHA256SUM": "6db9cb47df3928481301a4e3821b6fd993d96063f77514cbe7f1fefccf79b89d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLffRgAKCRDDWOcNd+r/VJoxAP925mupFy9mfNZqSGx3aILhRswe8lxDyWeX50BqqQOhNAD+PEe4otpj66uDtGX4PCtq1fejBK9xhLQjEoWvOcAf3QU=",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756880645",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "gpgmepp",
+    "kcolorscheme",
+    "kconfig",
+    "kcoreaddons",
+    "kcrash",
+    "kdbusaddons",
+    "ki18n",
+    "knotifications",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libgcrypt",
+    "libsecret",
+    "qca-qt6",
+    "qt6-base"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "OPTDEPENDS": [
+    "kwalletmanager: Configuration GUI"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "kservice",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

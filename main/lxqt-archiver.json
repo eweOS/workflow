@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lxqt-archiver-1.2.0-1-aarch64.pkg.tar.zst",
+  "NAME": "lxqt-archiver",
+  "BASE": "lxqt-archiver",
+  "VERSION": "1.2.0-1",
+  "DESC": "A simple & lightweight desktop-agnostic Qt file archiver",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "276563",
+  "ISIZE": "1112390",
+  "MD5SUM": "ba8e09ef7d4bda31a2324a73bef8f0a0",
+  "SHA256SUM": "cdc3de89bc00d1badb64577a139d41d250b8ec806bc3d4bc5b1cbd48c7c41c57",
+  "PGPSIG": "iF4EABYCAAYFAmggz9cACgkQw1jnDXfq/1QIRgEAkLuNIESGEqvSb8m9Tq0FFiIowhoHIU3B1fHSW5SV5r8A/A/sqowu8XgxtXF1v9urs2YaWBTqxrJChpTvo9J+FoIG",
+  "URL": "https://github.com/lxqt/lxqt-archiver",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1746981082",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libfm-qt",
+    "qt6-base",
+    "glib2",
+    "json-glib",
+    "libfm-qt6.so"
+  ],
+  "OPTDEPENDS": [
+    "libarchive: for handling rpm files",
+    "p7zip: 7Z support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "qt6-tools",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

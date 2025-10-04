@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "54205958",
+  "ISIZE": "695614402",
+  "MD5SUM": "45e32029c9e71e7ba0125a42bf7cfeb8",
+  "SHA256SUM": "be4dbed563bc406437a24a58b0a8a70a342f2fb5f5ab65560c359404e562bd3f",
+  "PGPSIG": "iF4EABYCAAYFAmiql4MACgkQw1jnDXfq/1QLbAD+JXPGRoDzFsuWHXQjZFetCJC+4QFzBWIAMtkmDiqtYkUA/jEw4SRhUMic7WaFpqgSQmvT25qAwDBDdZndid9bVYoL",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

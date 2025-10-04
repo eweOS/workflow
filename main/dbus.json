@@ -1,0 +1,38 @@
+{
+  "FILENAME": "dbus-1.16.2-2-aarch64.pkg.tar.zst",
+  "NAME": "dbus",
+  "BASE": "dbus",
+  "VERSION": "1.16.2-2",
+  "DESC": "Freedesktop.org message bus system",
+  "CSIZE": "534932",
+  "ISIZE": "1470882",
+  "MD5SUM": "d1969c5d133b6153cb00924b2718ed38",
+  "SHA256SUM": "864207f3b8357205a19bb7d9b0c94ce049b2f82dddf0b328670ec5d0509a78b5",
+  "PGPSIG": "iF4EABYCAAYFAmgoYxIACgkQw1jnDXfq/1TjFwD/c/avN11IwEamljGQLvLsj+Cn6rgsElaaYJKAO0L0JsEBAMVOfUrjdrbsFPrikTjRFds3oihjYnu7FjCNmO0rHaEH",
+  "URL": "https://wiki.freedesktop.org/www/Software/dbus/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747477541",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libdbus",
+    "libdbus-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "linux-headers",
+    "meson",
+    "ninja",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

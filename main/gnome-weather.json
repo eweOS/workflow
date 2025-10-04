@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnome-weather-48.0-1-any.pkg.tar.zst",
+  "NAME": "gnome-weather",
+  "BASE": "gnome-weather",
+  "VERSION": "48.0-1",
+  "DESC": "Access current weather conditions and forecasts",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "172630",
+  "ISIZE": "654541",
+  "MD5SUM": "dee5cb695e0d0c8d678df1a7c908dfd0",
+  "SHA256SUM": "25ec3928570ea76550037eb04944d557a78284a585aa3e62ef0de69932663b16",
+  "PGPSIG": "iF4EABYCAAYFAmighpMACgkQw1jnDXfq/1S0EAEA8icEyLrDRAIVbIslNkQL+KoQ+zTGwFJli/f2t4wkxlwA/0MCeI2JTHmFpiMatVT1kh1WZ4zz2QtVKeNysko4NeIG",
+  "URL": "https://apps.gnome.org/Weather",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1755351384",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dconf",
+    "geoclue",
+    "gjs",
+    "gtk4",
+    "hicolor-icon-theme",
+    "libadwaita",
+    "libgweather-4"
+  ],
+  "MAKEDEPENDS": [
+    "appstream-glib",
+    "git",
+    "gobject-introspection",
+    "meson"
+  ],
+  "REPO": "main"
+}
