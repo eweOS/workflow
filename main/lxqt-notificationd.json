@@ -1,0 +1,37 @@
+{
+  "FILENAME": "lxqt-notificationd-2.2.0-1-x86_64.pkg.tar.zst",
+  "NAME": "lxqt-notificationd",
+  "BASE": "lxqt-notificationd",
+  "VERSION": "2.2.0-1",
+  "DESC": "LXQt notification daemon and library.",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "114335",
+  "ISIZE": "382211",
+  "MD5SUM": "c06a51d22a23ae502248c092e498a17d",
+  "SHA256SUM": "8ac693fb1ab2afb97eb39da8a1efbc657bf10a8d8e7bdce2fe0796e008deafbf",
+  "PGPSIG": "iF4EABYCAAYFAmggzrcACgkQw1jnDXfq/1QaIAEAqRTzZhCc38yw6zi2mhljsbv+no/NNZYVSCL+sR35+AUBAOqRkcAF/63K8PCffhvgorvUdj807JghHngnvzU6DfoB",
+  "URL": "https://github.com/lxqt/lxqt-notificationd",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1746980800",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "liblxqt",
+    "kwindowsystem",
+    "libQt6Xdg.so",
+    "layer-shell-qt"
+  ],
+  "PROVIDES": [
+    "notification-daemon"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

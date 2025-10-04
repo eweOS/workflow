@@ -1,0 +1,65 @@
+{
+  "FILENAME": "kio-6.17.0-1-x86_64.pkg.tar.zst",
+  "NAME": "kio",
+  "BASE": "kio",
+  "VERSION": "6.17.0-1",
+  "DESC": "Resource and network access abstraction",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "4397278",
+  "ISIZE": "18324669",
+  "MD5SUM": "443bb0cf3a26db0f422cd321d639503a",
+  "SHA256SUM": "9be1d4f09cca8a484ee741d8e908beb1d6175ce855eded476425b2285289f901",
+  "PGPSIG": "iF4EABYCAAYFAmigxAkACgkQw1jnDXfq/1RDYgEA55GCEJswKwypasLlTz8EzIearZmDJmdaqQ6oAbNHsJsA/j5liyjI9C6siqxqQ/vfjeI6vxxkOrp+RQQ/YU4bzW8K",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755367011",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "acl",
+    "karchive",
+    "kauth",
+    "kbookmarks",
+    "kcolorscheme",
+    "kcompletion",
+    "kconfig",
+    "kconfigwidgets",
+    "kcoreaddons",
+    "kcrash",
+    "kdbusaddons",
+    "kguiaddons",
+    "ki18n",
+    "kiconthemes",
+    "kitemviews",
+    "kjobwidgets",
+    "kservice",
+    "kwallet",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libxml2",
+    "libxslt",
+    "qt6-5compat",
+    "qt6-base",
+    "solid",
+    "util-linux-libs"
+  ],
+  "OPTDEPENDS": [
+    "kded: proxy management and cookie storage",
+    "kdoctools: for the help kioslave",
+    "kio-extras: extra protocols support (sftp, fish and more)",
+    "kio-fuse: to mount remote filesystems via FUSE",
+    "switcheroo-control: hybrid GPU support"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-tools",
+    "linux-headers",
+    "kdoctools"
+  ],
+  "REPO": "main"
+}

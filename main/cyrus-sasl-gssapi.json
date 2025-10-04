@@ -1,0 +1,34 @@
+{
+  "FILENAME": "cyrus-sasl-gssapi-2.1.28-5-x86_64.pkg.tar.zst",
+  "NAME": "cyrus-sasl-gssapi",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-5",
+  "DESC": "GSSAPI authentication mechanism for Cyrus SASL",
+  "CSIZE": "26846",
+  "ISIZE": "61226",
+  "MD5SUM": "99791612979d669be64c2fc486482d36",
+  "SHA256SUM": "569500b15c9cdb6cc056eb995ae0064f9bc97af45a89b8984efcb0b947754c0a",
+  "PGPSIG": "iF4EABYCAAYFAmcVyaAACgkQw1jnDXfq/1SMmwEA7G8WKhI+EPpt4dRsBiH1iZtCVYpA0hygkgk83OAIKtQBAO2QHAhKtYz1tED3hTPykZB/bTX7yfEwmP5kitJcMP4L",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729481098",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "cyrus-sasl-plugins"
+  ],
+  "DEPENDS": [
+    "krb5",
+    "libsasl=2.1.28"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

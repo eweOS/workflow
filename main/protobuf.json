@@ -1,0 +1,36 @@
+{
+  "FILENAME": "protobuf-32.1-1-x86_64.pkg.tar.zst",
+  "NAME": "protobuf",
+  "BASE": "protobuf",
+  "VERSION": "32.1-1",
+  "DESC": "Google's data interchange format",
+  "CSIZE": "4648536",
+  "ISIZE": "14976548",
+  "MD5SUM": "282ff95079cb88a8bf1fe78e4c1065bf",
+  "SHA256SUM": "23140ca0cd7e34d50599f010ed706a7882c950f60c823b4bacd409e3d8886b74",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaNeIQgAKCRDDWOcNd+r/VPxWAQDQ4hvYXZR9Z+LdwSFoddxbpuJ7YWcWztvaATb6RAKrNwEAokyH1CINj0aeHYYj5jzC1Bu89zar4QlSoVTLm7NrGwY=",
+  "URL": "https://github.com/protocolbuffers/protobuf/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1758955180",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "jsoncpp",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "libprotobuf.so",
+    "libprotobuf-lite.so",
+    "libprotoc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

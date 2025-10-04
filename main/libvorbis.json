@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libvorbis-1.3.7-2-x86_64.pkg.tar.zst",
+  "NAME": "libvorbis",
+  "BASE": "libvorbis",
+  "VERSION": "1.3.7-2",
+  "DESC": "Ogg Vorbis codec",
+  "CSIZE": "372878",
+  "ISIZE": "1441608",
+  "MD5SUM": "a4c9d2cd00382007cb0061a52f7af2da",
+  "SHA256SUM": "733da91278863be422343366235271e5de9adacf394a4cc73dc6eafecb67a0a7",
+  "PGPSIG": "iF4EABYCAAYFAmcTs9AACgkQw1jnDXfq/1TUCgEAgBLPOjH5IJ3CzX2FBo9A0KdqGw1dN09wUoMv2QZHgzMBAOzuL5cG/RCXxzdbWYmnrVkigcgg5So+tMeAV6xxcRQA",
+  "URL": "https://xiph.org/vorbis/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729344457",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libogg"
+  ],
+  "PROVIDES": [
+    "libvorbis.so",
+    "libvorbisenc.so",
+    "libvorbisfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}
