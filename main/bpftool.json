@@ -1,0 +1,43 @@
+{
+  "FILENAME": "bpftool-6.14.6-2-loongarch64.pkg.tar.zst",
+  "NAME": "bpftool",
+  "BASE": "linux-tools",
+  "VERSION": "6.14.6-2",
+  "DESC": "Inspection and simple manipulation of eBPF programs and maps",
+  "GROUPS": [
+    "linux-tools"
+  ],
+  "CSIZE": "834127",
+  "ISIZE": "1776979",
+  "MD5SUM": "ebe2d2b587fd6bf7d8eab46d3eb6e390",
+  "SHA256SUM": "3f1c7cee43c6fbcdf70e43f78b918ec1409867d15511700dad51b89ee59d6d3d",
+  "PGPSIG": "iF4EABYCAAYFAmgoQrMACgkQw1jnDXfq/1SnVgD9FXLg/aWCh/CZTD4AOZX5eYZentJ1jEEoCyGyGuoYS0kA/31LJCHeEClKSq7VtnL7cNHkyHAMbLs/G6Q4zCACyScJ",
+  "URL": "https://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747469264",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "zlib",
+    "libelf",
+    "libcap",
+    "zstd",
+    "llvm-libs"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "asciidoc",
+    "xmlto",
+    "readline",
+    "zlib",
+    "libcap",
+    "libelf",
+    "python-docutils",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "vulkan-icd-loader-1.4.309.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-icd-loader",
+  "BASE": "vulkan-icd-loader",
+  "VERSION": "1.4.309.0-1",
+  "DESC": "Vulkan Installable Client Driver (ICD) Loader",
+  "CSIZE": "158337",
+  "ISIZE": "465860",
+  "MD5SUM": "ad87b97e48e0f5f6c378c2ad0077a834",
+  "SHA256SUM": "85f6843af3cea7c16d68da5d34ab7d31a82a6557ed1cdfd7c1c3904d3dab2af5",
+  "PGPSIG": "iF4EABYCAAYFAmgByQUACgkQw1jnDXfq/1RGxQEA+hQYR/rDtEwUL2jJ2b8EBKU7p+aq4IYpbUG5Q+JkVp8BAI4d+vuOZhXj6PQ0hTPAHq4URDott4mnwlsgCviul9EO",
+  "URL": "https://www.khronos.org/vulkan/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1744947622",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libvulkan.so"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-driver: packaged vulkan driver"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "wayland",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

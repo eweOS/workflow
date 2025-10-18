@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wayland-1.24.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "wayland",
+  "BASE": "wayland",
+  "VERSION": "1.24.0-1",
+  "DESC": "A computer display server protocol",
+  "CSIZE": "171262",
+  "ISIZE": "818847",
+  "MD5SUM": "b78050ae75c7be1e70f5787c6fa36a19",
+  "SHA256SUM": "261248a05a4db6a853d3cd4427f68ea19acd2ce8e7627d4ecd5ea16dbe673647",
+  "PGPSIG": "iF4EABYCAAYFAmhuBtsACgkQw1jnDXfq/1QPNQEA42C5WfWyQy/lUHpArkVGGL9ytRxe82wLVvN0BKIaOqcA/3+f6wbukhgYBaQ1c9BZq8gO1Zjrzft3N/PBXS94LZUF",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1752041699",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "expat",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libwayland-client.so",
+    "libwayland-cursor.so",
+    "libwayland-egl.so",
+    "libwayland-server.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

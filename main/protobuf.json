@@ -1,0 +1,36 @@
+{
+  "FILENAME": "protobuf-32.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "protobuf",
+  "BASE": "protobuf",
+  "VERSION": "32.1-1",
+  "DESC": "Google's data interchange format",
+  "CSIZE": "3371600",
+  "ISIZE": "13746208",
+  "MD5SUM": "3064b834a7c46dd8d6fc5abafce2678c",
+  "SHA256SUM": "38528fdc8fa10ef6babfc0e3741355767400e1fc4c9e3fc86524781263510457",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaNeJCQAKCRDDWOcNd+r/VD7sAQChZE0n9Mv/GY4hJmqd/fZvN64tO5BWXNrVDZWL6vn6ZgD3dWnx2Gozej9NkNnJxniYsYLHKcpKk39wVt4WBM3BDQ==",
+  "URL": "https://github.com/protocolbuffers/protobuf/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1758955179",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "jsoncpp",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "libprotobuf.so",
+    "libprotobuf-lite.so",
+    "libprotoc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

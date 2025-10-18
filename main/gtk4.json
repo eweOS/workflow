@@ -1,0 +1,54 @@
+{
+  "FILENAME": "gtk4-4.20.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "gtk4",
+  "BASE": "gtk4",
+  "VERSION": "4.20.1-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "11269745",
+  "ISIZE": "45457637",
+  "MD5SUM": "45a3d8b00c96c7cf79fc779d143f5974",
+  "SHA256SUM": "5781765c77329aee320cd837a04325f57ae90c9cbe459ee767866aa78872ecab",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMN/ugAKCRDDWOcNd+r/VD1VAQD3RVIyN/vJ2gBt71c9slUBtfYa2F3SorFBxDTk6C6DTAD7BNuKarrS3nzympWrDrdxQ5Y+/6VfqlEw+X4csw1Yaw0=",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1757642525",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "desktop-file-utils",
+    "librsvg",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "glslang",
+    "lld",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

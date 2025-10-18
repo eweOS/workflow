@@ -1,0 +1,35 @@
+{
+  "FILENAME": "bird2-2.17.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "bird2",
+  "BASE": "bird2",
+  "VERSION": "2.17.1-1",
+  "DESC": "RIP, OSPF, BGP, MPLS, BFD, Babel routing daemon",
+  "CSIZE": "467295",
+  "ISIZE": "1195469",
+  "MD5SUM": "0418837108b6cfd32f36ce8c6dea245c",
+  "SHA256SUM": "3d4f3d22eaeb408c7d9b16e83faccb6f3e5ae5a7e5a46a23ee7f2d9617540456",
+  "PGPSIG": "iF4EABYCAAYFAmhetwQACgkQw1jnDXfq/1Sw4AD+Ic1FSeV/P+MLfYN8qbZNqPJX+4p54abny06NwudlVRQBAOiqJD3InKeNmXE0vjPg2mYhFYwyXvp7VmZ65DLM6H8G",
+  "URL": "https://bird.network.cz/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1751038174",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "ncurses",
+    "libssh2"
+  ],
+  "CONFLICTS": [
+    "bird"
+  ],
+  "PROVIDES": [
+    "bird"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

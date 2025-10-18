@@ -1,0 +1,34 @@
+{
+  "FILENAME": "prjtrellis-1.4-2-loongarch64.pkg.tar.zst",
+  "NAME": "prjtrellis",
+  "BASE": "prjtrellis",
+  "VERSION": "1.4-2",
+  "DESC": "Libraries and utilities for open-source toolchain of Lattice ECP5/MachXO2 series FPGAs",
+  "CSIZE": "2829741",
+  "ISIZE": "82142243",
+  "MD5SUM": "b2dc13f35e54a58fc43e64b84a7e6ee7",
+  "SHA256SUM": "9c028e9c01ea6556049d25e80476c751966702eb7479a520c529e3127ac00cd7",
+  "PGPSIG": "iF4EABYCAAYFAmhxp1AACgkQw1jnDXfq/1TAdwEAiXDqWFQoKvg1Q8DEayzSYne9f0v6KeyGjlTUx8CkIaEBAM50SDwgGMVJZTMVZg5ADDjcxGcuSHvX79oEPEbxogkD",
+  "URL": "https://prjtrellis.readthedocs.io/en/latest/index.html",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1752279067",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "boost-libs",
+    "python"
+  ],
+  "PROVIDES": [
+    "libtrellis.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "git"
+  ],
+  "REPO": "main"
+}

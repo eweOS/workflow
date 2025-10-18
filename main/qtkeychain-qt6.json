@@ -1,0 +1,35 @@
+{
+  "FILENAME": "qtkeychain-qt6-0.14.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "qtkeychain-qt6",
+  "BASE": "qtkeychain",
+  "VERSION": "0.14.3-1",
+  "DESC": "Provides support for secure credentials storage",
+  "CSIZE": "72525",
+  "ISIZE": "226237",
+  "MD5SUM": "9b60ab1a990278c4634cbf1672d28a61",
+  "SHA256SUM": "938a4bf39cdc6f49b0c57234df8694048dcff70cb1bd7a444f947be73b91f3f8",
+  "PGPSIG": "iF4EABYCAAYFAmdwensACgkQw1jnDXfq/1Rc6AEAqfCMDNlaO186K7hylMOrQn/ly5Ag/zoR6Vkk+yYBoaMBAJ7wILyQ+3jWUzrK67tLEcrQmQ/PNLqmHf++0LfYpnEO",
+  "URL": "https://github.com/frankosterfeld/qtkeychain",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1735424927",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "org.freedesktop.secrets",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "kwallet: kwallet backend"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "cmake",
+    "git",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

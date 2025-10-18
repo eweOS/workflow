@@ -1,0 +1,30 @@
+{
+  "FILENAME": "minicom-2.10-1-loongarch64.pkg.tar.zst",
+  "NAME": "minicom",
+  "BASE": "minicom",
+  "VERSION": "2.10-1",
+  "DESC": "A serial communication program",
+  "CSIZE": "115316",
+  "ISIZE": "239596",
+  "MD5SUM": "97b4cad3dd04d0a888d34dfe2bf3e14b",
+  "SHA256SUM": "af21bff8cfac507d7ef34a501929897f09f415c0befded5cb2fa1cdea3257388",
+  "PGPSIG": "iF4EABYCAAYFAmfdNEkACgkQw1jnDXfq/1SzeAD5AczZnj8bZUpg8btr0PfWAiVBAjztJ5CPFUOE6IoP6sUBAO1vMLmAleQp9q60xoPxIXFRCgYJeGGNRi5mTgmPeOoO",
+  "URL": "https://salsa.debian.org/minicom-team/minicom",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1742550138",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "bash"
+  ],
+  "OPTDEPENDS": [
+    "lrzsz: for xmodem, ymodem and zmodem file transfer protocols"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

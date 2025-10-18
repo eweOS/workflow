@@ -1,0 +1,32 @@
+{
+  "FILENAME": "glmark2-2023.01-1-loongarch64.pkg.tar.zst",
+  "NAME": "glmark2",
+  "BASE": "glmark2",
+  "VERSION": "2023.01-1",
+  "DESC": "An OpenGL 2.0 and ES 2.0 benchmark",
+  "CSIZE": "7597890",
+  "ISIZE": "12427848",
+  "MD5SUM": "21eacf7f400ceab31a7aa67a946bc9b1",
+  "SHA256SUM": "619d1d76febedfb1f890e2e43365a304c33423df9e6e3abe27d918668385b6ec",
+  "PGPSIG": "iF4EABYCAAYFAmidhU8ACgkQw1jnDXfq/1TC0QEAsVGFx1WZI41Tv0i+HX7a428DkX2rbKuV0yvP4I5kE4QA/3jdAnkBT96SU9Qpi8PLATGqwieUjkG+FdjprNC8wZEO",
+  "URL": "https://github.com/glmark2/glmark2",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "custom:SGI"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755154395",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libjpeg-turbo",
+    "libpng",
+    "libgl",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

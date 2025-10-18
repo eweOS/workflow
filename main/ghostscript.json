@@ -1,0 +1,42 @@
+{
+  "FILENAME": "ghostscript-10.03.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.03.1-2",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21020946",
+  "ISIZE": "43924465",
+  "MD5SUM": "7b03e7a153e0d734bbf8ec61c2d188e0",
+  "SHA256SUM": "e9bab7bee92cd42cdc32ae52afd2b2a8b2ecbeeb8acc461188efa1ea21f9ed69",
+  "PGPSIG": "iF4EABYCAAYFAmc/Ui0ACgkQw1jnDXfq/1QoawD8DnG7JbbogwdCBSy/mbSp9l+XY2fHuffMuFe0UXsd/0IA/1wpQfvRulkuod47ivWFN2mHJSLJKzx5PrD/bK6UPZsK",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1732203069",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

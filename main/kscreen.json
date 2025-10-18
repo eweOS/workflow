@@ -1,0 +1,49 @@
+{
+  "FILENAME": "kscreen-6.4.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "kscreen",
+  "BASE": "kscreen",
+  "VERSION": "6.4.4-1",
+  "DESC": "KDE screen management software",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "31959746",
+  "ISIZE": "33312313",
+  "MD5SUM": "17761bac4c4573d6a41efcd0d31400b5",
+  "SHA256SUM": "5cb0f60e3cb3733411d907c9c22576606d51df70aadbdd655fc190119c548249",
+  "PGPSIG": "iF4EABYCAAYFAmiqtbAACgkQw1jnDXfq/1RiaAEAta8MZublay3kaiYxOULqQhJ+9QZwd0GtukoIy1jYNRoA/jyoZBZpH7h0unvuHPrZKbIs/u1n3MPNx7pjzjtP2N4M",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756018624",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "ki18n",
+    "kirigami",
+    "kitemmodels",
+    "ksvg",
+    "kwindowsystem",
+    "layer-shell-qt",
+    "libkscreen",
+    "libplasma",
+    "plasma5support",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-sensors",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

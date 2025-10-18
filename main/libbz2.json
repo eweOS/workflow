@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libbz2-1.1.0-4-loongarch64.pkg.tar.zst",
+  "NAME": "libbz2",
+  "BASE": "libbz2",
+  "VERSION": "1.1.0-4",
+  "DESC": "A high-quality data compression program",
+  "CSIZE": "38587",
+  "ISIZE": "72721",
+  "MD5SUM": "8431d840c3585a93ebeac89389aefe7b",
+  "SHA256SUM": "cd26a86c4099dcb527f50d2bb72fa1c6c8fb39944ae1345eaae523a0f9147ec5",
+  "PGPSIG": "iF4EABYCAAYFAmcR7lQACgkQw1jnDXfq/1RdJQD9HFe2imMQ9zgXmbp4gUeZmiOurOKxxF9eu9h+pOEnTVkBAN2rerDA20imc7YOnRlfmaQT4uciZIImdY6EmPL+fE4B",
+  "URL": "https://sourceware.org/bzip2/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1729228368",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "sh"
+  ],
+  "PROVIDES": [
+    "bzip2",
+    "libbz2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

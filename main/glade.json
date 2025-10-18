@@ -1,0 +1,35 @@
+{
+  "FILENAME": "glade-3.40.0-3-loongarch64.pkg.tar.zst",
+  "NAME": "glade",
+  "BASE": "glade",
+  "VERSION": "3.40.0-3",
+  "DESC": "User Interface Builder for GTK+ applications",
+  "CSIZE": "2853592",
+  "ISIZE": "10908798",
+  "MD5SUM": "d6062c64ea3fff86d6f8877694c9ad5e",
+  "SHA256SUM": "21c064b7b7ef10a019dfc66a23616d862784fbbb768521be0b3739a5a954e4fe",
+  "PGPSIG": "iF4EABYCAAYFAmgsJnYACgkQw1jnDXfq/1RbLQD/WnYT7a92p34Gk+TgndZZI42qq31vLA3120KfS6FwvCUBAP2WmcMuKWmoU6YFRlmmIYxk215IWZJYKAY5w0XEj8cF",
+  "URL": "https://glade.gnome.org/",
+  "LICENSE": [
+    "GPL",
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747724102",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gtk3",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libgladeui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "itstool",
+    "docbook-xsl",
+    "git",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "qwt-6.3.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "qwt",
+  "BASE": "qwt",
+  "VERSION": "6.3.0-1",
+  "DESC": "Qt Widgets for Technical Applications",
+  "CSIZE": "684982",
+  "ISIZE": "2255709",
+  "MD5SUM": "fc828bc296d7f8fdab61c98b636c94f1",
+  "SHA256SUM": "d5da45c94e800b73770505f41628969816728ba4032f329ce20a7b8eb34aad7b",
+  "PGPSIG": "iF4EABYCAAYFAmdkKMYACgkQw1jnDXfq/1QSDAEAz1IS5Y7VZhtnxUJQvlFgcz+kkHagrvQuTBfyB6dfMn4BAJ4liMtrbML/jSuT5c7gq67dfv0CfP5uACXUZtmI4eQD",
+  "URL": "https://qwt.sourceforge.io/",
+  "LICENSE": [
+    "custom:qwt"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1734617254",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "qwtpolar"
+  ],
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-svg"
+  ],
+  "PROVIDES": [
+    "qwtpolar"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: For Designer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

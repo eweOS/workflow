@@ -1,0 +1,43 @@
+{
+  "FILENAME": "meson-python-0.18.0-1-any.pkg.tar.zst",
+  "NAME": "meson-python",
+  "BASE": "meson-python",
+  "VERSION": "0.18.0-1",
+  "DESC": "Meson PEP 517 Python build backend",
+  "CSIZE": "81850",
+  "ISIZE": "313003",
+  "MD5SUM": "64a146fb72d9aa90950e32d0aa813171",
+  "SHA256SUM": "69f71b59d4e6438e7374fe3a008ef6971ed233e881d4ebf2448f88973fb12ec5",
+  "PGPSIG": "iF4EABYCAAYFAmg7GTsACgkQw1jnDXfq/1TfawD6AmuFq3bd0ogmj2JthuzX0f6LlpTsmi3J1jkcUwE5GvAA/RCTfY6CmDgZWxUbORJ5HjT/zeULdIILk3iXONqbaQEE",
+  "URL": "https://github.com/mesonbuild/meson-python",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1748703782",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "meson",
+    "patchelf",
+    "python",
+    "python-packaging",
+    "python-pyproject-metadata"
+  ],
+  "OPTDEPENDS": [
+    "python-colorama: colored output"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "ninja",
+    "python-build",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "cython",
+    "python-gitpython",
+    "python-pytest",
+    "python-pytest-mock",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

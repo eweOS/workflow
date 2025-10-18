@@ -1,0 +1,40 @@
+{
+  "FILENAME": "prison-6.17.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "prison",
+  "BASE": "prison",
+  "VERSION": "6.17.0-1",
+  "DESC": "A library to produce QRCode barcodes and DataMatrix barcodes",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "78708",
+  "ISIZE": "233336",
+  "MD5SUM": "1c4b09a8a5fa4d3b73b723a26ecc5fcf",
+  "SHA256SUM": "b97a3716dc3ef26ac36fc01e1766acdca48caa6ac52e95473563b9a13ca4b0ca",
+  "PGPSIG": "iF4EABYCAAYFAmihfqwACgkQw1jnDXfq/1TjIQD+OUsg+timj14p71H5cCukE3BXpJVx4IWHIGoNZQmzETYA/2MP8rXlBoavhSazgOA03yOTk7D1hxDZSRx83piWqCMF",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755414875",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdmtx",
+    "llvm-libs",
+    "musl",
+    "qrencode",
+    "qt6-base",
+    "qt6-multimedia",
+    "zxing-cpp"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

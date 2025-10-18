@@ -1,0 +1,49 @@
+{
+  "FILENAME": "ranger-1.9.4-4-any.pkg.tar.zst",
+  "NAME": "ranger",
+  "BASE": "ranger",
+  "VERSION": "1.9.4-4",
+  "DESC": "Simple, vim-like file manager",
+  "CSIZE": "588503",
+  "ISIZE": "2634848",
+  "MD5SUM": "d2f0d767a8f42c65e54031772c443743",
+  "SHA256SUM": "f39efcbb3a6b7b99511bc1c00ef9921bc6174229f75bb21f5f719a2b45c5577f",
+  "PGPSIG": "iF4EABYCAAYFAmfdEe0ACgkQw1jnDXfq/1T4/QEA9btZ5UzPedPtLMZMJeuoJCow0DJS16BTX4oAh1N5cKIA/RRl/GmUJXPcAQYuPQzi/oKivMAljeXeciwrQ3SDk3MC",
+  "URL": "https://ranger.github.io",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1742541343",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "atool: for previews of archives",
+    "elinks: for previews of html pages",
+    "ffmpegthumbnailer: for video previews",
+    "highlight: for syntax highlighting of code",
+    "libcaca: for ASCII-art image previews",
+    "lynx: for previews of html pages",
+    "mediainfo: for viewing information about media files",
+    "odt2txt: for OpenDocument texts",
+    "perl-image-exiftool: for viewing information about media files",
+    "poppler: for pdf previews",
+    "python-chardet: in case of encoding detection problems",
+    "sudo: to use the 'run as root'-feature",
+    "transmission-cli: for viewing bittorrent information",
+    "ueberzug: for previews of images",
+    "w3m: for previews of images and html pages"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

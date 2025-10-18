@@ -1,0 +1,35 @@
+{
+  "FILENAME": "hyprcursor-0.1.13-1-loongarch64.pkg.tar.zst",
+  "NAME": "hyprcursor",
+  "BASE": "hyprcursor",
+  "VERSION": "0.1.13-1",
+  "DESC": "The hyprland cursor format, library and utilities",
+  "CSIZE": "172081",
+  "ISIZE": "556861",
+  "MD5SUM": "cfbd88ac119640b13d1d422ede2d6c15",
+  "SHA256SUM": "27f27c9a297b97c9c553fcd8ec1588b0ed487c8a841e1199deac53058de21c15",
+  "PGPSIG": "iF4EABYCAAYFAmiPK2UACgkQw1jnDXfq/1RBQQD+Lo6GHtIBDG3q0zKtxYlxs4fGCVEyYm6Lvt7bqVj1vaQBAO3e6k6UnTGhNj4ATEtg7oSh/Y+7mwmga+fP+rDsF3MI",
+  "URL": "https://github.com/hyprwm/hyprcursor",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1754213859",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "hyprlang",
+    "libhyprlang.so",
+    "cairo",
+    "librsvg",
+    "libzip",
+    "tomlplusplus"
+  ],
+  "PROVIDES": [
+    "libhyprcursor.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "python-cryptography-44.0.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-cryptography",
+  "BASE": "python-cryptography",
+  "VERSION": "44.0.0-1",
+  "DESC": "A package designed to expose cryptographic recipes and primitives to Python developers",
+  "CSIZE": "1402980",
+  "ISIZE": "5097438",
+  "MD5SUM": "a26b34bc23300e49c92af6f6bbadfdc1",
+  "SHA256SUM": "d9dc79421b0786becbf3ffa140236baa6e5d11162d78c009990e76592feaa778",
+  "PGPSIG": "iF4EABYCAAYFAmduaWkACgkQw1jnDXfq/1T8GQD/SreMx84HamgOwPcpJX3ssy1upLdSObObUD6qovgMrTwBAMhF9TGqwQMdVJj7IPntRGfl3fSI5RArJM9oyWlSiukK",
+  "URL": "https://github.com/pyca/cryptography",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1735289207",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-cffi"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools-rust",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-maturin"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-subtests",
+    "python-iso8601",
+    "python-pretend",
+    "python-hypothesis",
+    "python-pytz",
+    "python-certifi"
+  ],
+  "REPO": "main"
+}

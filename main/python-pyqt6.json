@@ -1,0 +1,66 @@
+{
+  "FILENAME": "python-pyqt6-6.9.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-pyqt6",
+  "BASE": "pyqt6",
+  "VERSION": "6.9.1-1",
+  "DESC": "A set of Python bindings for the Qt6 toolkit",
+  "GROUPS": [
+    "pyqt6"
+  ],
+  "CSIZE": "4303039",
+  "ISIZE": "25459542",
+  "MD5SUM": "288d5a796fd68718676c26ee5729a92f",
+  "SHA256SUM": "9408a32133ee7d4952727a2373129a6e237ad13cf3a4e2c1f4b7d135a1447f35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLcbEAAKCRDDWOcNd+r/VAfvAP445NHVsmZNKrPmq7Ucm41GqA8BHxNLqYbayNVUcyPbowD/Y8bOFMWExwbtN2EDXNuQZbyAF1N9DPLEWwV77cc91ww=",
+  "URL": "https://riverbankcomputing.com/software/pyqt/intro",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756826947",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "python-pyqt6-sip"
+  ],
+  "PROVIDES": [
+    "qt6-python-bindings"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: QtHelp, QtDesigner bindings",
+    "qt6-svg: QtSvg bindings",
+    "qt6-declarative: QtQml bindings, qmlplugin",
+    "qt6-quick3d: QtQuick3D bindings",
+    "qt6-connectivity: QtBluetooth, QtNfc bindings",
+    "qt6-multimedia: QtMultimedia, QtSpatialAudio bindings",
+    "qt6-positioning: QtPositioning bindings",
+    "qt6-remoteobjects: QtRemoteObjects bindings",
+    "qt6-sensors: QtSensors bindings",
+    "qt6-serialport: QtSerialPort bindings",
+    "qt6-speech: QtTextToSpeech bindings",
+    "qt6-webchannel: QtWebChannel bindings",
+    "qt6-webengine: QtPdf bindings",
+    "qt6-websockets: QtWebSockets bindings",
+    "dbus-python: for python-dbus mainloop support"
+  ],
+  "MAKEDEPENDS": [
+    "sip",
+    "pyqt-builder",
+    "python-dbus",
+    "qt6-tools",
+    "qt6-svg",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools",
+    "qt6-multimedia",
+    "qt6-remoteobjects",
+    "qt6-positioning",
+    "qt6-sensors",
+    "qt6-serialport",
+    "qt6-speech",
+    "qt6-webchannel",
+    "qt6-websockets",
+    "qt6-connectivity"
+  ],
+  "REPO": "main"
+}

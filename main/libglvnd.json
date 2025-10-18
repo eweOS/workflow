@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libglvnd-1.7.0-4-loongarch64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-4",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "419960",
+  "ISIZE": "3385682",
+  "MD5SUM": "22e7e6e745c603f21b4e3db6b2bbb979",
+  "SHA256SUM": "9ae9a99d4b9d8b133e036bb06960485cfae50fcb04a59fcc4958599586eca58c",
+  "PGPSIG": "iF4EABYCAAYFAmcSBVkACgkQw1jnDXfq/1QiSAEA7FT7t/F9AbwjL850YWfKy28opHBA2dFBdX5lf4oSKM0A/jI0pPQ7BAuUzTFED8ck9LYmXDmj0jgKRFI41i+sCNoF",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1729234234",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "mesa"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

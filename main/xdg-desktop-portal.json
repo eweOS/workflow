@@ -1,0 +1,42 @@
+{
+  "FILENAME": "xdg-desktop-portal-1.20.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal",
+  "BASE": "xdg-desktop-portal",
+  "VERSION": "1.20.3-1",
+  "DESC": "Desktop integration portals for sandboxed apps",
+  "CSIZE": "448911",
+  "ISIZE": "1989737",
+  "MD5SUM": "dc020de8469fa29c5c7b282239ecddfb",
+  "SHA256SUM": "d699b4797cc4c5cb66d2a9db0e661d49450c172c0d1439e73dd9db236b2ad577",
+  "PGPSIG": "iF4EABYCAAYFAmg3FbUACgkQw1jnDXfq/1Ro5wEAsO4fV/ytuzA87HTHSPb4WpNWtdPEunxe7iUr9QiVerwA/iCwArcyBxi5sfz2NygiNZjxk2XAbvZmhOFrmssi3zMG",
+  "URL": "https://flatpak.github.io/xdg-desktop-portal/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1748440839",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "geoclue",
+    "glib",
+    "json-glib",
+    "pipewire",
+    "fuse3",
+    "gdk-pixbuf",
+    "bubblewrap",
+    "gstreamer-devel"
+  ],
+  "OPTDEPENDS": [
+    "xdg-desktop-portal-impl: Portal backends"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "flatpak",
+    "git",
+    "libportal",
+    "meson",
+    "xmlto",
+    "python-packaging"
+  ],
+  "REPO": "main"
+}

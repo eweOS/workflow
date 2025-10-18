@@ -1,0 +1,50 @@
+{
+  "FILENAME": "python-fonttools-4.59.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-fonttools",
+  "BASE": "python-fonttools",
+  "VERSION": "4.59.1-1",
+  "DESC": "A library to manipulate font files from Python",
+  "CSIZE": "4000902",
+  "ISIZE": "20502880",
+  "MD5SUM": "2d6de0d5c006436f3fa04d7967476bc2",
+  "SHA256SUM": "e1815a2325eb95f165ddb9c186fe2148728a374c445afae3a21b31e5b547d1f3",
+  "PGPSIG": "iF4EABYCAAYFAmigViIACgkQw1jnDXfq/1SQAwD+Pezsg+xSIFqLWzHZ1zfbPx2df5CaVxR87FUPLvlmoWIA/2ZxNnLmOwedufr41xOA2JBTZC3fbuGxb2Zj6Inepg8E",
+  "URL": "https://github.com/fonttools/fonttools",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1755338875",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-brotli: to compress/decompress WOFF 2.0 web fonts",
+    "python-fs: to read/write UFO source files",
+    "python-lxml: faster backend for XML files reading/writing",
+    "python-lz4: for graphite type tables in ttLib/tables",
+    "python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel",
+    "python-pyqt5: for drawing glyphs with Qt’s QPainterPath",
+    "python-reportlab: to drawing glyphs as PNG images",
+    "python-scipy: for finding wrong contour/component order between different masters",
+    "python-sympy: for symbolic font statistics analysis",
+    "python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables",
+    "python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx",
+    "python-zopfli: faster backend fom WOFF 1.0 web fonts compression"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-brotli",
+    "python-fs",
+    "python-pytest",
+    "python-ufolib2"
+  ],
+  "REPO": "main"
+}

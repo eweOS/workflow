@@ -1,0 +1,32 @@
+{
+  "FILENAME": "openh264-2.6.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "openh264",
+  "BASE": "openh264",
+  "VERSION": "2.6.0-1",
+  "DESC": "Open Source H264 Codec",
+  "CSIZE": "427666",
+  "ISIZE": "1006488",
+  "MD5SUM": "3603af3ae6369db8df31d5c627417ba9",
+  "SHA256SUM": "16c698d0f9093f9cd915e85c7902550279214cabcea313cc23f3a31f79ce54ed",
+  "PGPSIG": "iF4EABYCAAYFAmezQfUACgkQw1jnDXfq/1QLWwEA5MjxYpKe0B55qS8zRSf/AJBwMFYwunkm3nbQ4B+AQNIA/AkXCWlI44kMzfnDtpn9HT2NcfJI0D/0e+Ly9GzJsEEO",
+  "URL": "https://github.com/cisco/openh264",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1739801562",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libopenh264.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

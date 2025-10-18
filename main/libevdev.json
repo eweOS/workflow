@@ -1,0 +1,30 @@
+{
+  "FILENAME": "libevdev-1.13.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "libevdev",
+  "BASE": "libevdev",
+  "VERSION": "1.13.4-1",
+  "DESC": "Wrapper library for evdev devices",
+  "CSIZE": "73195",
+  "ISIZE": "232914",
+  "MD5SUM": "e29eb9eacd0c7a941c4033c42b1a17fc",
+  "SHA256SUM": "375042d5c20296138dbe2ad0b502ef66718e335816ccebd3a35f19dbf6609403",
+  "PGPSIG": "iF4EABYCAAYFAmfkEBcACgkQw1jnDXfq/1SJfAD/eOb2UV7dB0+4Es6X1TpY8rbNkiQ/bVESKniJ4Mk8LcwBAI1Kc9HTqWN+515GkfYflWRtOz49RaRQENRCvQ3CTtcF",
+  "URL": "https://www.freedesktop.org/wiki/Software/libevdev/",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1742999641",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libevdev.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "python-lark-parser-1.2.2-1-any.pkg.tar.zst",
+  "NAME": "python-lark-parser",
+  "BASE": "python-lark-parser",
+  "VERSION": "1.2.2-1",
+  "DESC": "A modern parsing library",
+  "CSIZE": "314156",
+  "ISIZE": "1300349",
+  "MD5SUM": "dc3704a40e206707ba8f93e33640f9a7",
+  "SHA256SUM": "c78e310c56d2a6e7ec048fb296aafc699295bcf6d473436c1604d388f965c69e",
+  "PGPSIG": "iF4EABYCAAYFAmduPfEACgkQw1jnDXfq/1S4uQEAwkr2xHhSEPRJj3119HQQPaw74OSJbv5Q1PoACMDQwMIA/2TLsPcFKWw10myrGjKC2Wrge24iwiobo3ufCHtpdsQI",
+  "URL": "https://github.com/lark-parser/lark",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1735278345",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-typing_extensions"
+  ],
+  "PROVIDES": [
+    "python-lark"
+  ],
+  "OPTDEPENDS": [
+    "python-atomicwrites: for atomic_cache",
+    "python-regex: for regex support"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-tzlocal",
+    "python-atomicwrites",
+    "python-regex"
+  ],
+  "REPO": "main"
+}

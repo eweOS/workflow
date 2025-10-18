@@ -1,0 +1,32 @@
+{
+  "FILENAME": "speex-1.2.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "speex",
+  "BASE": "speex",
+  "VERSION": "1.2.1-1",
+  "DESC": "A free codec for free speech",
+  "CSIZE": "499063",
+  "ISIZE": "613347",
+  "MD5SUM": "2b8538c177f6185bc8b8a44a5e383787",
+  "SHA256SUM": "1d33fd929169fa7d0a5596e53129a1bc2174d1e0303a83d5d326bf80822a312d",
+  "PGPSIG": "iF4EABYCAAYFAmdRcssACgkQw1jnDXfq/1TJswEA5f6EzEeummRjx13XbnhKL1dFwrwfq7ZWAahjOsBUOygA/2D0tE3b1eqbmdspub01Po5mFOEV7YYUpx9CakkhGzgN",
+  "URL": "https://www.speex.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733391235",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libogg",
+    "speexdsp",
+    "libogg.so",
+    "libspeexdsp.so"
+  ],
+  "PROVIDES": [
+    "libspeex.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

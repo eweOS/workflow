@@ -1,0 +1,41 @@
+{
+  "FILENAME": "sfwbar-1.0_beta16-1-loongarch64.pkg.tar.zst",
+  "NAME": "sfwbar",
+  "BASE": "sfwbar",
+  "VERSION": "1.0_beta16-1",
+  "DESC": "S* Floating Window taskBar",
+  "CSIZE": "295995",
+  "ISIZE": "1086584",
+  "MD5SUM": "c6e392d4b7188206ee13bcad8c9aac4c",
+  "SHA256SUM": "b0381f9aabafb22ec7954ddf4f0246de163fa112df315ce412ef3534de72ff36",
+  "PGPSIG": "iF4EABYCAAYFAmdfjjsACgkQw1jnDXfq/1TamAD/WyiqSdOZTepu0XvgHiudaRmgc++sLECgv5Fk9rw7XJ4A+gLEn4eeumbWy3pE3FjPSfG3jJJMSyPjrzdbVpq5g60I",
+  "URL": "https://github.com/LBCrion/sfwbar",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1734315813",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wayland",
+    "gtk3",
+    "json-c",
+    "gtk-layer-shell",
+    "wayland-protocols"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: ALSA audio volume control,",
+    "libpulse: pulse audio volume control,",
+    "libmpdclient: music player daemon control,",
+    "libxkbcommon: xkb layout conversion support"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libpulse",
+    "libmpdclient",
+    "alsa-lib",
+    "python-docutils",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

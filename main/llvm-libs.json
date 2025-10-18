@@ -1,0 +1,34 @@
+{
+  "FILENAME": "llvm-libs-20.1.8-2-loongarch64.pkg.tar.zst",
+  "NAME": "llvm-libs",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LLVM runtime libraries",
+  "CSIZE": "2819540",
+  "ISIZE": "17812453",
+  "MD5SUM": "120abd0dd895ac87611037abe473bb01",
+  "SHA256SUM": "f82aaf84ec22ea120d8d8f79866fc95942a6ff37200b4846a924d26265d1ab66",
+  "PGPSIG": "iF4EABYCAAYFAmiqtHAACgkQw1jnDXfq/1RvlQD+P7iMcQ5CpYj1OdQMn/sOXrfSAFVmWRpJLpjs6GM6W6cBAPvHao7f1wYGOv7GsHIUah5CBOdIGh/JJZLR7zMhiGUB",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1756005858",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "snappy-1.2.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "snappy",
+  "BASE": "snappy",
+  "VERSION": "1.2.2-1",
+  "DESC": "A fast compressor/decompressor library",
+  "CSIZE": "32593",
+  "ISIZE": "78904",
+  "MD5SUM": "2c248c7cb9060f87feff1b5aa336a4e4",
+  "SHA256SUM": "86e9eb867505149dc5d49f2368f690d6240ce72968f6bab5d84f3646cf33ca41",
+  "PGPSIG": "iF4EABYCAAYFAmhG+doACgkQw1jnDXfq/1QrkwEA2LsPDjbWEEbumTymZRdQeTvOrAOBM7F14CRCncZhKksBAICaY036AOynIy6VYi+QUvRuuV8hY93ukD/BEG2aFdwM",
+  "URL": "https://github.com/google/snappy",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749482330",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libsnappy.so"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "cmake",
+    "gtest"
+  ],
+  "CHECKDEPENDS": [
+    "zlib"
+  ],
+  "REPO": "main"
+}

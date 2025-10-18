@@ -1,0 +1,30 @@
+{
+  "FILENAME": "musl-1.2.5-6-loongarch64.pkg.tar.zst",
+  "NAME": "musl",
+  "BASE": "musl",
+  "VERSION": "1.2.5-6",
+  "DESC": "An implementation of the C/POSIX standard library.",
+  "GROUPS": [
+    "base-devel"
+  ],
+  "CSIZE": "575149",
+  "ISIZE": "1207315",
+  "MD5SUM": "3a587c580dd742810e2aaf61d588ff91",
+  "SHA256SUM": "b16539678a280045e519910aeebb3275c94b79fe190d03be87dacd5bd8886796",
+  "PGPSIG": "iF4EABYCAAYFAmghm0cACgkQw1jnDXfq/1RqKwEAuBcXxlZb+UJUOVQ6R/dmTCp3QMEh6tkkjVMic38ao6QA+wSwmmycVkD9iCvrZfM0Kql6jWcZBEgkuRyA0/zupMsD",
+  "URL": "https://musl.libc.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1747033165",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "ld-musl-loongarch64.so.1",
+    "libc.so"
+  ],
+  "MAKEDEPENDS": [
+    "lld"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "btrfs-progs-6.17-1-loongarch64.pkg.tar.zst",
+  "NAME": "btrfs-progs",
+  "BASE": "btrfs-progs",
+  "VERSION": "6.17-1",
+  "DESC": "Btrfs filesystem utilities",
+  "CSIZE": "980611",
+  "ISIZE": "4854042",
+  "MD5SUM": "35f76441efacf91c1a49a180f8becaa0",
+  "SHA256SUM": "dd26f26cadea23e7b10985a77e8a219c3e8baf51ebbfc0d0618e449a3c9485bf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO0FYQAKCRDDWOcNd+r/VI+CAP9IJZSzBG2bHVfRPHvdPOWqayCSEnbsLkQtCal2fe4e/gEAqyHMPFQzqvTBqCVRglYm3/2sULlWyHYN/rZTWlfwvwc=",
+  "URL": "https://btrfs.readthedocs.io",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1760364035",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "util-linux-libs",
+    "zlib",
+    "zstd",
+    "libgcrypt",
+    "libudev",
+    "lzo"
+  ],
+  "OPTDEPENDS": [
+    "python: libbtrfsutil python bindings",
+    "e2fsprogs: btrfs-convert",
+    "reiserfsprogs: btrfs-convert"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc",
+    "xmlto",
+    "python",
+    "python-setuptools",
+    "e2fsprogs",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

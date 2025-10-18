@@ -1,0 +1,39 @@
+{
+  "FILENAME": "qt6-3d-6.9.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-3d",
+  "BASE": "qt6-3d",
+  "VERSION": "6.9.1-2",
+  "DESC": "C++ and QML APIs for easy inclusion of 3D graphics",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "3730252",
+  "ISIZE": "16183301",
+  "MD5SUM": "18a6a6142be4a3a5c1130408c7d4d800",
+  "SHA256SUM": "2e27b1776ced66a4092c3bd2bd634151ee3a4dbcd5b1a6430d14ecd94839b9d1",
+  "PGPSIG": "iF4EABYCAAYFAmhdZHcACgkQw1jnDXfq/1RXMgEAoAQ3O5ohjtOs+yKYvx/90LPcSdhDO20HZ/NFPM/m2m8A/3UZiUixpRn3ekkEvTelWX+dj+8HR90x03N6MnexH44A",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750950729",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "assimp: assimp importer plugin",
+    "qt6-declarative: QML bindings",
+    "qt6-shadertools: RHI renderer"
+  ],
+  "MAKEDEPENDS": [
+    "assimp",
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-declarative",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

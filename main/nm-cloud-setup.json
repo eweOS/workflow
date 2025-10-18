@@ -1,0 +1,52 @@
+{
+  "FILENAME": "nm-cloud-setup-1.52.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "nm-cloud-setup",
+  "BASE": "networkmanager",
+  "VERSION": "1.52.1-1",
+  "DESC": "Automatically configure NetworkManager in cloud",
+  "CSIZE": "45453",
+  "ISIZE": "91823",
+  "MD5SUM": "f03afdc288970a250eddbbac76a63c2d",
+  "SHA256SUM": "162ca9a3f75ea20f8d12899589d59ae3b976bda2d8ef9e7dd42e24bd8678f469",
+  "PGPSIG": "iF4EABYCAAYFAmiJdyoACgkQw1jnDXfq/1T/mAD+KIQ/Q2JrSvU7en8JzdWtpVESVBA18ySTf1dMd9rPLQcBAIzup8XrE3uO2I8yk7woeUrf/jO9iDok7CE4kaBvs4cB",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1753839606",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "curl",
+    "glib2",
+    "libnm",
+    "networkmanager"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pyalpm-0.10.12-1-loongarch64.pkg.tar.zst",
+  "NAME": "pyalpm",
+  "BASE": "pyalpm",
+  "VERSION": "0.10.12-1",
+  "DESC": "Python 3 bindings for libalpm",
+  "CSIZE": "72480",
+  "ISIZE": "290009",
+  "MD5SUM": "4cd57c9e345b02633458c420dbe6db56",
+  "SHA256SUM": "b7716a513d0fc3741b5d853dd88e3fa3592eaedc0e825b700cfbf22693417247",
+  "PGPSIG": "iF4EABYCAAYFAmhWdEsACgkQw1jnDXfq/1RimgEA2Ja0agBpjxmA17jD94W5imSHBCXtu1ZYdLpsAmWEHCIA/RMXwGZV+P6nH9+pMWXW1C5HlhP4Ity/Wo8VNsT6ibAC",
+  "URL": "https://gitlab.archlinux.org/archlinux/pyalpm",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1750496767",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "pacman"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools",
+    "python-pkgconfig",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-pacman"
+  ],
+  "REPO": "main"
+}

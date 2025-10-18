@@ -1,0 +1,39 @@
+{
+  "FILENAME": "python-beautifulsoup4-4.13.4-1-any.pkg.tar.zst",
+  "NAME": "python-beautifulsoup4",
+  "BASE": "python-beautifulsoup4",
+  "VERSION": "4.13.4-1",
+  "DESC": "A Python HTML/XML parser designed for quick turnaround projects like screen-scraping",
+  "CSIZE": "438431",
+  "ISIZE": "2149038",
+  "MD5SUM": "c1a4869734382018fb40d58f8cb31748",
+  "SHA256SUM": "440412a46ad364842064910e7145dad6fb2727b0e7d8597a5c42a3a83950df5f",
+  "PGPSIG": "iF4EABYCAAYFAmhCz48ACgkQw1jnDXfq/1TU9AD/YSv4cub43qjWA2tLcYfBR2Vm8PUdTcqbo+7HQfOjaWkBAP4+s3u/FuZSMs9TG3b9FGyNpU8z8+A4nffj0OUPAbUH",
+  "URL": "https://www.crummy.com/software/BeautifulSoup/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1749209364",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-soupsieve",
+    "python-typing_extensions"
+  ],
+  "OPTDEPENDS": [
+    "python-cchardet: alternative to autodetect character encodings",
+    "python-chardet: to autodetect character encodings",
+    "python-lxml: alternative HTML parser",
+    "python-html5lib: alternative HTML parser"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-hatchling"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

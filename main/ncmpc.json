@@ -1,0 +1,40 @@
+{
+  "FILENAME": "ncmpc-0.52-2-loongarch64.pkg.tar.zst",
+  "NAME": "ncmpc",
+  "BASE": "ncmpc",
+  "VERSION": "0.52-2",
+  "DESC": "Fully featured MPD client which runs in a terminal",
+  "CSIZE": "260944",
+  "ISIZE": "765524",
+  "MD5SUM": "420f6521020ccbd9468a81246fc55d28",
+  "SHA256SUM": "ba6d3bdd14ea3d90e4e2e72c198c558164b17af7984e8c8e83cd6de3c0b30b2c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaPHP0gAKCRDDWOcNd+r/VBzHAP9RBewGV6sN3Be+R07B2/Avi5kynxz1RdkQZx0UEnbJWAEA9zblrDSddQbMhinZCgqpg0+C0i7V8RmkkQ8ObvqU6go=",
+  "URL": "https://www.musicpd.org/clients/ncmpc/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1760677860",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "pcre2",
+    "fmt",
+    "libfmt.so",
+    "libmpdclient",
+    "libmpdclient.so",
+    "ncurses",
+    "libncursesw.so"
+  ],
+  "OPTDEPENDS": [
+    "python-beautifulsoup4: for lyrics scripts",
+    "python-requests: for lyrics scripts"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "fmt",
+    "libmpdclient",
+    "meson",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

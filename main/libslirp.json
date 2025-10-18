@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libslirp-4.9.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libslirp",
+  "BASE": "libslirp",
+  "VERSION": "4.9.1-1",
+  "DESC": "A general purpose TCP-IP emulator.",
+  "CSIZE": "67175",
+  "ISIZE": "136806",
+  "MD5SUM": "50c888801de5609c3a9e806c5e37666e",
+  "SHA256SUM": "8c75bb456e1d4192863462c985edbbe2839fdc9c37dabbc3e582ca3732d5b914",
+  "PGPSIG": "iF4EABYCAAYFAmhCh3sACgkQw1jnDXfq/1ROmQD/TobvHIUjEuEnP04pIaVXoVqQf7glrWBYR5OJAX5nuMMBAOB2pXO1MnNLR+MYt9OviPJDm9FC5vxHNI/bjexTx9UC",
+  "URL": "https://gitlab.freedesktop.org/slirp/libslirp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1749190912",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib"
+  ],
+  "PROVIDES": [
+    "libslirp.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
