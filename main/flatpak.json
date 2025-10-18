@@ -1,0 +1,59 @@
+{
+  "FILENAME": "flatpak-1.16.1-3-riscv64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.16.1-3",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "1929994",
+  "ISIZE": "6770747",
+  "MD5SUM": "9d8af647baddd310f4b1f9e2dabf5f28",
+  "SHA256SUM": "1831fbb78d9576d5318a5078b54ec58e0a8ebb4fff8063bd89962c8ea9e09736",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLfrlAAKCRDDWOcNd+r/VAwkAQD8MeJ3nMXzlkXhYFuMSDI78NUVeCVFEAX+yskruFiAuwD/Z0bgN8RTZcf6HIt+lh+AqYlOD+7Rq1zlEACFBXIG2wo=",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756883648",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "libxml2",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "zstd",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "libxslt",
+    "meson",
+    "python-packaging",
+    "python-pyparsing",
+    "xmlto",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "socat"
+  ],
+  "REPO": "main"
+}

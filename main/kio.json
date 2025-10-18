@@ -1,0 +1,65 @@
+{
+  "FILENAME": "kio-6.17.0-1-riscv64.pkg.tar.zst",
+  "NAME": "kio",
+  "BASE": "kio",
+  "VERSION": "6.17.0-1",
+  "DESC": "Resource and network access abstraction",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "4270908",
+  "ISIZE": "17816999",
+  "MD5SUM": "457ce4182ecb20c5b9a1424fe1e397de",
+  "SHA256SUM": "a7ea93c4aa9265e1ab531086e417d85f72af5d614c144addf86f98b7a2c0e2e4",
+  "PGPSIG": "iF4EABYCAAYFAmigy3AACgkQw1jnDXfq/1QnLwEAhkienRhgk4oTWKeorIyqdGLnRgdiFsY310KLfl0zmnkA/R/juS8tUKLwbrf0hAVUsdui4R31mD4/oMcFPUhKj64E",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755367157",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "acl",
+    "karchive",
+    "kauth",
+    "kbookmarks",
+    "kcolorscheme",
+    "kcompletion",
+    "kconfig",
+    "kconfigwidgets",
+    "kcoreaddons",
+    "kcrash",
+    "kdbusaddons",
+    "kguiaddons",
+    "ki18n",
+    "kiconthemes",
+    "kitemviews",
+    "kjobwidgets",
+    "kservice",
+    "kwallet",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libxml2",
+    "libxslt",
+    "qt6-5compat",
+    "qt6-base",
+    "solid",
+    "util-linux-libs"
+  ],
+  "OPTDEPENDS": [
+    "kded: proxy management and cookie storage",
+    "kdoctools: for the help kioslave",
+    "kio-extras: extra protocols support (sftp, fish and more)",
+    "kio-fuse: to mount remote filesystems via FUSE",
+    "switcheroo-control: hybrid GPU support"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-tools",
+    "linux-headers",
+    "kdoctools"
+  ],
+  "REPO": "main"
+}

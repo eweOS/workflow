@@ -1,0 +1,40 @@
+{
+  "FILENAME": "python-cryptography-44.0.0-1-riscv64.pkg.tar.zst",
+  "NAME": "python-cryptography",
+  "BASE": "python-cryptography",
+  "VERSION": "44.0.0-1",
+  "DESC": "A package designed to expose cryptographic recipes and primitives to Python developers",
+  "CSIZE": "1435420",
+  "ISIZE": "4539697",
+  "MD5SUM": "dc9d462c7cfc9eef2a90d46adcc6da8a",
+  "SHA256SUM": "e1581345f25a4250bc1202efe1d82839c16b9f76e205c66b975dfcb2ac95be23",
+  "PGPSIG": "iF4EABYCAAYFAmeq92gACgkQw1jnDXfq/1T6ewD9Ex9zprt9SIuA3YnZc7AkrLoqPVEgJ69HfuJzoqXW4mEA/ixUs+SUa9TR6loJ37/wQewULV9THsHb6qmx5xZL8pIB",
+  "URL": "https://github.com/pyca/cryptography",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1739257477",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-cffi"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools-rust",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-maturin"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-subtests",
+    "python-iso8601",
+    "python-pretend",
+    "python-hypothesis",
+    "python-pytz",
+    "python-certifi"
+  ],
+  "REPO": "main"
+}

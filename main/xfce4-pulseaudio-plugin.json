@@ -1,0 +1,37 @@
+{
+  "FILENAME": "xfce4-pulseaudio-plugin-0.5.1-1-riscv64.pkg.tar.zst",
+  "NAME": "xfce4-pulseaudio-plugin",
+  "BASE": "xfce4-pulseaudio-plugin",
+  "VERSION": "0.5.1-1",
+  "DESC": "Pulseaudio plugin for the Xfce4 panel",
+  "GROUPS": [
+    "xfce4-goodies"
+  ],
+  "CSIZE": "120748",
+  "ISIZE": "434930",
+  "MD5SUM": "41e55c731ced33d3a7d988e81ee8d795",
+  "SHA256SUM": "1760684cfbceff8fe4e8607467b6c9a905866bba10e868e2e2722d9ad52571a6",
+  "PGPSIG": "iF4EABYCAAYFAmgUcH0ACgkQw1jnDXfq/1QmHAEAk3AwodAw/elRIf6JIzYBP+W2+m2HJKutyIlpfAx7rQUA/19o9ZYO4d4ibwBnTLTSzcepPGEzyZz7wQIjwTN9CnME",
+  "URL": "https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1746170157",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "xfce4-panel",
+    "libpulse",
+    "libnotify",
+    "libcanberra"
+  ],
+  "OPTDEPENDS": [
+    "pavucontrol: default pulseaudio mixer"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

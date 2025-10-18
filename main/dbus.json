@@ -1,0 +1,38 @@
+{
+  "FILENAME": "dbus-1.16.2-2-riscv64.pkg.tar.zst",
+  "NAME": "dbus",
+  "BASE": "dbus",
+  "VERSION": "1.16.2-2",
+  "DESC": "Freedesktop.org message bus system",
+  "CSIZE": "533344",
+  "ISIZE": "1420394",
+  "MD5SUM": "c62ea5e07b62f5afd6239fbe255e95a0",
+  "SHA256SUM": "a1ce7d70ba2eab8a16e3a8ed0e3ea28c984a32a8a4588ac2931a092e56187d56",
+  "PGPSIG": "iF4EABYCAAYFAmgoY9QACgkQw1jnDXfq/1TKqAD/cbJJGRlIV6DBY19g9zI3gHYAqNfUA/xJX4Fb7Vnp0d8A/jwsythjDDxbmJLaFNsIo6dcd+BEWYGPDeIHzcxlwIIK",
+  "URL": "https://wiki.freedesktop.org/www/Software/dbus/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747477644",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libdbus",
+    "libdbus-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "linux-headers",
+    "meson",
+    "ninja",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

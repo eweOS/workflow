@@ -1,0 +1,30 @@
+{
+  "FILENAME": "libevdev-1.13.4-1-riscv64.pkg.tar.zst",
+  "NAME": "libevdev",
+  "BASE": "libevdev",
+  "VERSION": "1.13.4-1",
+  "DESC": "Wrapper library for evdev devices",
+  "CSIZE": "69815",
+  "ISIZE": "231162",
+  "MD5SUM": "d8bb9fe329b7020883a3545100d8bb55",
+  "SHA256SUM": "6565096d87b841007f68c5acce38693f60ede54e9711b87588b7136599184318",
+  "PGPSIG": "iF4EABYCAAYFAmfkEYYACgkQw1jnDXfq/1QbYgD/TXuWAS6oQbMp6XGhWhkOO/3mUA49tJiWp8vBR9Hwj3MBAO45EziLJ5TKXC1SbCLbnDRHJKnROzgOTuutoHme0ywM",
+  "URL": "https://www.freedesktop.org/wiki/Software/libevdev/",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742999995",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libevdev.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

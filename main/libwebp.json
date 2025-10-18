@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libwebp-1.6.0-2-riscv64.pkg.tar.zst",
+  "NAME": "libwebp",
+  "BASE": "libwebp",
+  "VERSION": "1.6.0-2",
+  "DESC": "A library to encode and decode images in WebP format.",
+  "CSIZE": "366374",
+  "ISIZE": "830726",
+  "MD5SUM": "e67e28b6c14044fd4640f854f4848802",
+  "SHA256SUM": "1e6501c5a774bcebaf0d5d091c0024fa48910841039792fc8cd8ee7657dfe77d",
+  "PGPSIG": "iF4EABYCAAYFAmir1ugACgkQw1jnDXfq/1TgIwD9HRIe6Hpi2k8141s2x8F9k6/lWiZvzz21cBMLrpX8MXUA+wQJvRVAynJiulKyXB82ajBvHI/bUCEIT+s23eYmIDYB",
+  "URL": "https://chromium.googlesource.com/webm/libwebp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756092830",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libjpeg",
+    "libpng",
+    "libtiff"
+  ],
+  "PROVIDES": [
+    "libwebp.so",
+    "libwebpdecoder.so",
+    "libwebpdemux.so",
+    "libwebpmux.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

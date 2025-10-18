@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libsndfile-1.2.2-3-riscv64.pkg.tar.zst",
+  "NAME": "libsndfile",
+  "BASE": "libsndfile",
+  "VERSION": "1.2.2-3",
+  "DESC": "Library for reading and writing files containing sampled sound",
+  "CSIZE": "311838",
+  "ISIZE": "762959",
+  "MD5SUM": "61a655f4b07d721f053aa9cea85b1e65",
+  "SHA256SUM": "dbb86df2f69bafb6b27bd6b08ff71cdf4d688deba3dc2ec816ef6362b4edba39",
+  "PGPSIG": "iF4EABYCAAYFAmfWiAcACgkQw1jnDXfq/1Q86gD/VkNuyXsWo8rmQd91W2A+DrLHBAhUsLkAVs8yZfevg7sBAMxQUtdcKPoxpIAznCsJqwYMmqJvzWZ57I+3ZgCez6AD",
+  "URL": "https://libsndfile.github.io/libsndfile/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742112560",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libflac",
+    "libogg",
+    "libvorbis",
+    "libopus"
+  ],
+  "PROVIDES": [
+    "libsndfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "autoconf",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

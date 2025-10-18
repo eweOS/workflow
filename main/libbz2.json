@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libbz2-1.1.0-4-riscv64.pkg.tar.zst",
+  "NAME": "libbz2",
+  "BASE": "libbz2",
+  "VERSION": "1.1.0-4",
+  "DESC": "A high-quality data compression program",
+  "CSIZE": "33549",
+  "ISIZE": "56225",
+  "MD5SUM": "dd476ae7c29efcc3230ef4f6c73b53cd",
+  "SHA256SUM": "f5bb1ce81c75ce0f4083650152edcdf79e9c49fec22d3d7fcc90f9726f2c1f73",
+  "PGPSIG": "iF4EABYCAAYFAmcR7/8ACgkQw1jnDXfq/1TVTAEA1IVKtcggJfhagkzCLIe8Ag7pMs8q7YMvhzPDUEEa/wkBANz0ctu1LJieOJW/13aOoqkBJpH9kB0Hrmvjoh0BtPME",
+  "URL": "https://sourceware.org/bzip2/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729228769",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "sh"
+  ],
+  "PROVIDES": [
+    "bzip2",
+    "libbz2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

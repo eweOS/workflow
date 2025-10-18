@@ -1,0 +1,55 @@
+{
+  "FILENAME": "libportal-0.9.1-2-riscv64.pkg.tar.zst",
+  "NAME": "libportal",
+  "BASE": "libportal",
+  "VERSION": "0.9.1-2",
+  "DESC": "GIO-style async APIs for most Flatpak portals",
+  "CSIZE": "108283",
+  "ISIZE": "545850",
+  "MD5SUM": "4dd441020ae4b8dad01249c930c138f7",
+  "SHA256SUM": "aa93d13733c5df797a485fb53bf7e16f4014ade0ad7c8eb600474266bc556bc5",
+  "PGPSIG": "iF4EABYCAAYFAmie9m4ACgkQw1jnDXfq/1TVCwD/U87eoMWoRWG93DdqNmGWsLn7QAIdge6mTSichFcf+JkBAP0d4r6NBlIgL2mmW04LL+j6y/wtdsAa2UBsV7lJfHEP",
+  "URL": "https://github.com/flatpak/libportal",
+  "LICENSE": [
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755248657",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so"
+  ],
+  "PROVIDES": [
+    "libportal.so"
+  ],
+  "OPTDEPENDS": [
+    "libportal-docs: API documentation",
+    "libportal-gtk3: GTK 3 backend",
+    "libportal-gtk4: GTK 4 backend",
+    "libportal-qt6: Qt 6 backend",
+    "xdg-desktop-portal: Portal service"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gjs",
+    "glib2",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "qt6-base",
+    "qt6-tools",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbusmock",
+    "python-pytest",
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}

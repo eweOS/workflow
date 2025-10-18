@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libslirp-4.9.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libslirp",
+  "BASE": "libslirp",
+  "VERSION": "4.9.1-1",
+  "DESC": "A general purpose TCP-IP emulator.",
+  "CSIZE": "74318",
+  "ISIZE": "133286",
+  "MD5SUM": "e62b189d4722cd9174e4603271326671",
+  "SHA256SUM": "3110b2655b0fce95a9a629a85cf5224928923686bced4f12be67fd5e923f3093",
+  "PGPSIG": "iF4EABYCAAYFAmhCii4ACgkQw1jnDXfq/1RNgQEApDVva4Vq9v5QrD89wf/Vd8+8rFBvBdtjCOlMenwIFHwA/RlcRnvbv0YRRbcYDHZ1O4XVUfwTH3/pC94Fm7TAs4wG",
+  "URL": "https://gitlab.freedesktop.org/slirp/libslirp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1749191575",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib"
+  ],
+  "PROVIDES": [
+    "libslirp.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

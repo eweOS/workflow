@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libx265-1:4.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libx265",
+  "BASE": "x265",
+  "VERSION": "1:4.1-1",
+  "CSIZE": "627762",
+  "ISIZE": "1372906",
+  "MD5SUM": "3c5bd66891c77687944fccf17e7a3744",
+  "SHA256SUM": "e5c89e68c4cad2fc5662e67fa1a8ee95f06ebe6355b70eea10266655b02d6bcb",
+  "PGPSIG": "iF4EABYCAAYFAmdRThcACgkQw1jnDXfq/1SciwD9FVo0MYmjNyGcAkE3TXvynsXxg7gZymWWtIggbXLBHdQA/2ZzObfX+oxGr1baiEaJUQiBEZ6s3GZ/26jcZrTZmtUD",
+  "URL": "https://www.videolan.org/developers/x265.html",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733381740",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libx265.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "cmake",
+    "samurai",
+    "git"
+  ],
+  "REPO": "main"
+}

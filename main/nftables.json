@@ -1,0 +1,40 @@
+{
+  "FILENAME": "nftables-1.1.5-1-riscv64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.5-1",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "417182",
+  "ISIZE": "930078",
+  "MD5SUM": "05e1ff52d52fbcf859f0213c7ac82738",
+  "SHA256SUM": "29d07826edf42fca1164227c49120a6f0e68644207fcc031ab083f482e0e5d48",
+  "PGPSIG": "iF4EABYCAAYFAmix5i0ACgkQw1jnDXfq/1Tw5wEA1jB19fDLhN9LNI29pPgkJamDrJGdbudkSJ0tATTk1LsA/13q0q6cKEuuAHaXewP2UtIfInivWzqumgt08Jf56bQJ",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756489952",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "linux-headers",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

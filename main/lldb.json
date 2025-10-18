@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-20.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "6757732",
+  "ISIZE": "18390826",
+  "MD5SUM": "9e540dc459a648f327f46fd2391ada92",
+  "SHA256SUM": "9d6adb67ab69231164a8e1b0c67569fdd954da9fbcaf2c1801f8ca7e0dea9476",
+  "PGPSIG": "iF4EABYCAAYFAmir0sIACgkQw1jnDXfq/1QRIQEAw8HlN+UxLmXL9YaeKAy9Ec52W+XAp/5jMZ7UnmZCSBwBAN8HzDdLwtHKo9rNrO3dGbZod/0H6WOFTd7LNbFdqy8J",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756006124",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

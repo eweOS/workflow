@@ -1,0 +1,35 @@
+{
+  "FILENAME": "hyprcursor-0.1.13-1-riscv64.pkg.tar.zst",
+  "NAME": "hyprcursor",
+  "BASE": "hyprcursor",
+  "VERSION": "0.1.13-1",
+  "DESC": "The hyprland cursor format, library and utilities",
+  "CSIZE": "178329",
+  "ISIZE": "481213",
+  "MD5SUM": "1e353545e1ed6c1d1cd4c4a91e0adf32",
+  "SHA256SUM": "b61eb0167b7db51356d3ca23bddc76cf9490900a0a8d090063c562ea89b1909e",
+  "PGPSIG": "iF4EABYCAAYFAmiPL+sACgkQw1jnDXfq/1QC5gEAg7u0zADMuiYrl0NJKnao8uH/kUHdiDxfDxChgTtyJdsBAIaB8q0wK5B/o4tECSZqmSG1dffmWbdnM/PILaLIG8wH",
+  "URL": "https://github.com/hyprwm/hyprcursor",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754214950",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "hyprlang",
+    "libhyprlang.so",
+    "cairo",
+    "librsvg",
+    "libzip",
+    "tomlplusplus"
+  ],
+  "PROVIDES": [
+    "libhyprcursor.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake"
+  ],
+  "REPO": "main"
+}

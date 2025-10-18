@@ -1,0 +1,36 @@
+{
+  "FILENAME": "plymouth-24.004.60-11-riscv64.pkg.tar.zst",
+  "NAME": "plymouth",
+  "BASE": "plymouth",
+  "VERSION": "24.004.60-11",
+  "DESC": "Graphical boot splash screen",
+  "CSIZE": "1084831",
+  "ISIZE": "1864202",
+  "MD5SUM": "43d7497cc45a34f890e1b0c07caffc17",
+  "SHA256SUM": "515a9a82f40d9d0fed2711b4af31d7d01691c4e98f140a1e5b228d4b7b64bed1",
+  "PGPSIG": "iF4EABYCAAYFAmd4HokACgkQw1jnDXfq/1RuFwD/dqqfSrnE4/nCOkEolxPbge2DVYSv7XOChOm005j1JUgA/3S0MI/dveS18hXMCnBKtbeJ4ie5SuGKeGQsS+QvLVAP",
+  "URL": "https://www.freedesktop.org/wiki/Software/Plymouth/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1735925630",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "freetype2",
+    "libdrm",
+    "libevdev",
+    "libpng",
+    "libxkbcommon",
+    "pango",
+    "musl-rpmatch"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-headers",
+    "librsvg"
+  ],
+  "REPO": "main"
+}

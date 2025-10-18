@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libxfce4ui-4.20.2-1-riscv64.pkg.tar.zst",
+  "NAME": "libxfce4ui",
+  "BASE": "libxfce4ui",
+  "VERSION": "4.20.2-1",
+  "DESC": "Widgets library for the Xfce desktop environment",
+  "CSIZE": "414111",
+  "ISIZE": "1985762",
+  "MD5SUM": "2b25e7b0287bfe6387d53cffa004a833",
+  "SHA256SUM": "dde91395806afc2e567bb9d0870e36cb1e6daa346dae8dd36e5de885483b14c7",
+  "PGPSIG": "iF4EABYCAAYFAmihW4MACgkQw1jnDXfq/1SopwEAhmJXgHAt6SnDTly5seaPH93pVFiKVeCoveJOKd3CN8wA/i/g0tYGq4qvvNRaMyeXvAZg9Okx4ng5LcfIFtgyAoEH",
+  "URL": "https://docs.xfce.org/xfce/libxfce4ui/start",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755405739",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "gettext-tiny",
+    "glib",
+    "gtk3",
+    "libxfce4util",
+    "xfconf",
+    "libepoxy"
+  ],
+  "PROVIDES": [
+    "libxfceui-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "xfce4-dev-tools",
+    "vala",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

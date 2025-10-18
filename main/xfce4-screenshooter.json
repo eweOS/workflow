@@ -1,0 +1,37 @@
+{
+  "FILENAME": "xfce4-screenshooter-1.11.2-1-riscv64.pkg.tar.zst",
+  "NAME": "xfce4-screenshooter",
+  "BASE": "xfce4-screenshooter",
+  "VERSION": "1.11.2-1",
+  "DESC": "An application to take screenshots",
+  "GROUPS": [
+    "xfce4-goodies"
+  ],
+  "CSIZE": "157934",
+  "ISIZE": "650528",
+  "MD5SUM": "67a9dea65b5d5dee9992415dc5dcd2d6",
+  "SHA256SUM": "b6d41b46b38cd215abdb8fb564049c67d4e0d07fb2d0e09b381425b4b944c2fd",
+  "PGPSIG": "iF4EABYCAAYFAmg3F7IACgkQw1jnDXfq/1T6RwD9HNiSFqVR4K7m9RpVrjb5UkquhcaLW5gUQ0gxI3k8WiUBANu15Lqw9r6+ueFpIOzgHpgICTDCXhZ1SdA/3UXdoAwB",
+  "URL": "https://docs.xfce.org/apps/xfce4-screenshooter/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1748441311",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "xfce4-panel",
+    "hicolor-icon-theme"
+  ],
+  "OPTDEPENDS": [
+    "curl: upload screenshots to Imgur",
+    "jq: upload screenshots to Imgur",
+    "xclip: upload screenshots to Imgur",
+    "zenity: upload screenshots to Imgur"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

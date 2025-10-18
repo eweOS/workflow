@@ -1,0 +1,44 @@
+{
+  "FILENAME": "sane-1.4.0-1-riscv64.pkg.tar.zst",
+  "NAME": "sane",
+  "BASE": "sane",
+  "VERSION": "1.4.0-1",
+  "DESC": "Scanner Access Now Easy",
+  "CSIZE": "4169281",
+  "ISIZE": "15467591",
+  "MD5SUM": "4cbf9d05ad78f90e9676c3eac4b30e67",
+  "SHA256SUM": "65509566bf6d09501e5bbdbdb0167ce10bec4e2487dd1103c7f61e77fd738515",
+  "PGPSIG": "iF4EABYCAAYFAmhXyngACgkQw1jnDXfq/1RNVwEAi2RQBeqhcwD1lpowzX9fEOOCutvuxzH/qD78QmbfqcoBAJpKcR3BwFQw+Yq+gx36HWu8hvJqibAQjc61V3pph6kC",
+  "URL": "https://gitlab.com/sane-project/backends",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LicenseRef-GPL-2.0-or-later-with-linking-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750583883",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "cairo",
+    "libpng",
+    "curl",
+    "glib2",
+    "libjpeg-turbo",
+    "libtiff",
+    "libusb",
+    "libxml2",
+    "poppler-glib"
+  ],
+  "PROVIDES": [
+    "libsane.so"
+  ],
+  "OPTDEPENDS": [
+    "sane-airscan: for scanners working in driverless mode"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf-archive",
+    "python",
+    "texlive-latexextra"
+  ],
+  "REPO": "main"
+}

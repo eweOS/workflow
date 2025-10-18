@@ -1,0 +1,40 @@
+{
+  "FILENAME": "libldap-2.6.10-1-riscv64.pkg.tar.zst",
+  "NAME": "libldap",
+  "BASE": "openldap",
+  "VERSION": "2.6.10-1",
+  "DESC": "Lightweight Directory Access Protocol (LDAP) client libraries",
+  "CSIZE": "287294",
+  "ISIZE": "566471",
+  "MD5SUM": "eae7bb1026211ae93a9b30ae35baefde",
+  "SHA256SUM": "4a80972a9815b0ee325a03db1f13bd3a0c2cbef5ee70bd3f646d79b899bf0fa4",
+  "PGPSIG": "iF4EABYCAAYFAmhZga8ACgkQw1jnDXfq/1SflwEAujDKfsgMbvPYdlOqFz1MBIHurZt8c7lajkuq0qA1Th0BAPeGbrfrO9lYEgoGPNrnqaQWBDRgu9RXpZJ99+zjRk8K",
+  "URL": "https://www.openldap.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750696521",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "e2fsprogs",
+    "libxcrypt",
+    "openssl",
+    "libsasl"
+  ],
+  "MAKEDEPENDS": [
+    "cyrus-sasl",
+    "e2fsprogs",
+    "util-linux-libs",
+    "chrpath",
+    "unixodbc",
+    "libsodium",
+    "libltdl",
+    "mandoc-soelim",
+    "libxcrypt",
+    "libldap",
+    "openssl",
+    "perl"
+  ],
+  "REPO": "main"
+}

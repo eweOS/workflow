@@ -1,0 +1,40 @@
+{
+  "FILENAME": "prison-6.17.0-1-riscv64.pkg.tar.zst",
+  "NAME": "prison",
+  "BASE": "prison",
+  "VERSION": "6.17.0-1",
+  "DESC": "A library to produce QRCode barcodes and DataMatrix barcodes",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "85390",
+  "ISIZE": "229200",
+  "MD5SUM": "9c69975a4a6b8970473c107d92c02757",
+  "SHA256SUM": "84cf5ca5b5bd7f29cede1692f8d1019eab4daa16647039828daeb61bf64cb41c",
+  "PGPSIG": "iF4EABYCAAYFAmihf8QACgkQw1jnDXfq/1QYOwD/YxMgEB3ehQ8PtzxxnLLeqFfoI9OrV0Ee+a9l8e/kPx8A/ijEMsQw/wGU3u6dDrs1vqWeo2Pg4UlD70TYvTwxG4wE",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755415008",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdmtx",
+    "llvm-libs",
+    "musl",
+    "qrencode",
+    "qt6-base",
+    "qt6-multimedia",
+    "zxing-cpp"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

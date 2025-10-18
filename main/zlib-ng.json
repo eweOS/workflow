@@ -1,0 +1,34 @@
+{
+  "FILENAME": "zlib-ng-2.2.5-1-riscv64.pkg.tar.zst",
+  "NAME": "zlib-ng",
+  "BASE": "zlib-ng",
+  "VERSION": "2.2.5-1",
+  "DESC": "zlib data compression library for the next generation systems",
+  "CSIZE": "95016",
+  "ISIZE": "206070",
+  "MD5SUM": "929db67fd3351d9a91baa773e7bf0215",
+  "SHA256SUM": "5e19bc1253201185d2770d455680d94990aaba7090476a2c13ad09608974dcc6",
+  "PGPSIG": "iF4EABYCAAYFAmiYepMACgkQw1jnDXfq/1TG+AD+PkGmJUhNUGiRU6i8/gpNhQvTqkmwUsm3rAbjaUDsvagA/3ECj1aiMuCiy9MVl2Vm4ro7KCWO4k1isNvoF8YQylgF",
+  "URL": "https://github.com/zlib-ng/zlib-ng",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754823853",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "CONFLICTS": [
+    "zlib"
+  ],
+  "PROVIDES": [
+    "zlib",
+    "libz.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

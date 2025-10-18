@@ -1,0 +1,48 @@
+{
+  "FILENAME": "podman-5.6.0-2-riscv64.pkg.tar.zst",
+  "NAME": "podman",
+  "BASE": "podman",
+  "VERSION": "5.6.0-2",
+  "DESC": "Tool and library for running OCI-based containers in pods",
+  "CSIZE": "28578361",
+  "ISIZE": "81049232",
+  "MD5SUM": "62d4a9a035f60b04db2af9329ea4d8af",
+  "SHA256SUM": "d9e4b6f1623fe0135c177cf6475b04e7741db0c2d2001cf466e34f57ed821e9a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLf6pAAKCRDDWOcNd+r/VCygAQCmorIvFibtwaTu39goIslfwxSoo87f6BtWFQUEhHIxBgEAqeXhNoyIeRrcksEwtIE3/gGIzxh2w8+FLhwAD+DlSgM=",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756886811",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "catatonit",
+    "conmon",
+    "containers-common",
+    "oci-runtime",
+    "gpgme",
+    "libseccomp"
+  ],
+  "OPTDEPENDS": [
+    "apparmor: for AppArmor support",
+    "btrfs-progs: support btrfs backend devices",
+    "cni-plugins: for an alternative container-network-stack implementation",
+    "fuse-overlayfs: for storage driver in rootless environment",
+    "slirp4netns: for alternative rootless network support",
+    "podman-compose: for docker-compose compatibility",
+    "podman-docker: for Docker-compatible CLI"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libical-3.0.20-3-riscv64.pkg.tar.zst",
+  "NAME": "libical",
+  "BASE": "libical",
+  "VERSION": "3.0.20-3",
+  "DESC": "Implementation of iCalendar protocols and data formats",
+  "CSIZE": "788975",
+  "ISIZE": "7194651",
+  "MD5SUM": "3b7d23f38693bc5ad180728dda459913",
+  "SHA256SUM": "90792de4580c3c61f002bd54f671b49915a8a4678a7cc4a2378ffd4e44a7f1ad",
+  "PGPSIG": "iF4EABYCAAYFAmgqr0gACgkQw1jnDXfq/1R/JQD8DbAuK/JvRQkdN3aw7xMgurvhygH2rYnFtTk3q7Vii2kBALAQoNQ0DC1KRXo1WfRhHEsissLUH+mGuqvzZ8nQpuID",
+  "URL": "https://github.com/libical/libical",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747627926",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "icu",
+    "libxml2"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "ninja",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-gobject",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

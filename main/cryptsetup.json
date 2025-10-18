@@ -1,0 +1,38 @@
+{
+  "FILENAME": "cryptsetup-2.8.1-1-riscv64.pkg.tar.zst",
+  "NAME": "cryptsetup",
+  "BASE": "cryptsetup",
+  "VERSION": "2.8.1-1",
+  "DESC": "Userspace setup tool for transparent encryption of block devices using dm-crypt",
+  "CSIZE": "921508",
+  "ISIZE": "3219942",
+  "MD5SUM": "67e50c0b4b82a6634ef5e2e83831177a",
+  "SHA256SUM": "c383a7dbb4f065ee64df8817373fd52efd2d31b74d9e84a6cdc940dc62b6ff32",
+  "PGPSIG": "iF4EABYCAAYFAmilmZ0ACgkQw1jnDXfq/1R9hwEAlyJXntVo5F9VH1Sl5vZxktgBMbkN9BH3xur094ryuYgA/3oXK8ZOp5Pg/TYdJNa1a0h9j4jzGpDc8bw+Pip3Xb0A",
+  "URL": "https://gitlab.com/cryptsetup/cryptsetup",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755683873",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "device-mapper",
+    "libdevmapper.so",
+    "util-linux-libs",
+    "popt",
+    "json-c",
+    "libjson-c.so",
+    "argon2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libcryptsetup.so"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers",
+    "git"
+  ],
+  "REPO": "main"
+}

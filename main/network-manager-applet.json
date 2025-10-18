@@ -1,0 +1,33 @@
+{
+  "FILENAME": "network-manager-applet-1.36.0-2-riscv64.pkg.tar.zst",
+  "NAME": "network-manager-applet",
+  "BASE": "network-manager-applet",
+  "VERSION": "1.36.0-2",
+  "DESC": "Applet for managing network connections",
+  "CSIZE": "153493",
+  "ISIZE": "538449",
+  "MD5SUM": "21da9de14f4f3636f411e9387368f0f6",
+  "SHA256SUM": "900cc0075ec4f7791770fad52172c5e571bb4179f3aa4f231a47f602b0259011",
+  "PGPSIG": "iF4EABYCAAYFAmdW9FUACgkQw1jnDXfq/1STqQEAr6sZQ6X9mHNYhhQ6craLriMygxNYFZbMMyRy/0Sl67AA/jhD79C8P9VoTzaL9oK2W+n1kYgguiEIkZH1O2qANBME",
+  "URL": "https://gitlab.gnome.org/GNOME/network-manager-applet",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733752006",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libnma",
+    "libsecret",
+    "networkmanager",
+    "nm-connection-editor"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

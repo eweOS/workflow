@@ -1,0 +1,44 @@
+{
+  "FILENAME": "wesnoth-1.19.14-1-riscv64.pkg.tar.zst",
+  "NAME": "wesnoth",
+  "BASE": "wesnoth",
+  "VERSION": "1.19.14-1",
+  "DESC": "An open source, turn-based strategy game with a high fantasy theme",
+  "CSIZE": "526090924",
+  "ISIZE": "650080900",
+  "MD5SUM": "d47577fd7d090051ea775795bbb67054",
+  "SHA256SUM": "07e215cd78f38256c46d28080bc0e79b4d57b1f47d0087ebf2f028184eb1f383",
+  "PGPSIG": "iF4EABYCAAYFAmiS7dsACgkQw1jnDXfq/1QWyQEAluRI44fCe9R7Y+cQdkDQ3tGbtOc6e9EM6bjWWRUsYqkBANWBIVJN5N2wps/YC8J8DuRu9/LFHRy62b2yL5WOV5QJ",
+  "URL": "https://www.wesnoth.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754454484",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "boost-libs",
+    "sdl2",
+    "sdl2-image",
+    "sdl2-mixer",
+    "fontconfig",
+    "cairo",
+    "pango",
+    "libvorbis",
+    "libbz2",
+    "zlib-ng",
+    "openssl",
+    "curl",
+    "dbus",
+    "readline",
+    "gettext-tiny",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "boost"
+  ],
+  "REPO": "main"
+}

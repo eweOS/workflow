@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wayland-1.24.0-1-riscv64.pkg.tar.zst",
+  "NAME": "wayland",
+  "BASE": "wayland",
+  "VERSION": "1.24.0-1",
+  "DESC": "A computer display server protocol",
+  "CSIZE": "173816",
+  "ISIZE": "814799",
+  "MD5SUM": "2a75fba01ecf84d40bfb4ba55d50b7aa",
+  "SHA256SUM": "3799231a94ed3b1ef93f71bdad56c3d91f46b3cf2ca836cb795b9f6edb56ef65",
+  "PGPSIG": "iF4EABYCAAYFAmhuB2wACgkQw1jnDXfq/1QRFwD9G6VdJhqdw/wn/bkRSTA43goYu+FtEwpanEnScdHw7iUA/1Te6vWYd9+fJeI1BqXRm82UCPWjyVXqEriEfwmeoJ8A",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1752041824",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "expat",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libwayland-client.so",
+    "libwayland-cursor.so",
+    "libwayland-egl.so",
+    "libwayland-server.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

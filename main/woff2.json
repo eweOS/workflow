@@ -1,0 +1,33 @@
+{
+  "FILENAME": "woff2-1.0.2-2-riscv64.pkg.tar.zst",
+  "NAME": "woff2",
+  "BASE": "woff2",
+  "VERSION": "1.0.2-2",
+  "DESC": "Web Open Font Format 2 reference implementation",
+  "CSIZE": "60130",
+  "ISIZE": "138050",
+  "MD5SUM": "556e8ff7b9ebd3bd9854db493d1b3a3f",
+  "SHA256SUM": "0d19a6875384c7ced4f8509d79152af75bd38d2daa6b23298568671eae1d0eaf",
+  "PGPSIG": "iF4EABYCAAYFAmdWmbIACgkQw1jnDXfq/1RGbgD/cWDC7JVVlYZk92Y+MtMNk522yHLlPcoZnP1WgdoEnnsA/1y9kU/gjaVUdzkbnYFEvHz1TKExI2h8ZBLILwXyP84N",
+  "URL": "https://github.com/google/woff2",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733728873",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli"
+  ],
+  "PROVIDES": [
+    "libwoff2common.so",
+    "libwoff2dec.so",
+    "libwoff2enc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

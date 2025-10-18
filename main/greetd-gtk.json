@@ -1,0 +1,31 @@
+{
+  "FILENAME": "greetd-gtk-0.8-2-riscv64.pkg.tar.zst",
+  "NAME": "greetd-gtk",
+  "BASE": "gtkgreet",
+  "VERSION": "0.8-2",
+  "DESC": "GTK based greeter for greetd",
+  "CSIZE": "14998",
+  "ISIZE": "27325",
+  "MD5SUM": "823e25a583989e8ab389e5ba75676023",
+  "SHA256SUM": "24f7a5b5110ca2aacd240382f224cb8401646c1a6de1c4e2193c79aa590724e4",
+  "PGPSIG": "iF4EABYCAAYFAmczGQsACgkQw1jnDXfq/1S20gD9GDTR1sZtKpUAfy6QGiJijujprInaPFTSMT24uAg5E8EBALs/igf+36ggvjE4t/AXpq05fW9r9wG+pNeDDk21HAEB",
+  "URL": "https://git.sr.ht/~kennylevinsen/gtkgreet",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1731402079",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "greetd",
+    "gtk3",
+    "json-c",
+    "gtk-layer-shell"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "scdoc"
+  ],
+  "REPO": "main"
+}

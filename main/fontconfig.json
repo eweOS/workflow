@@ -1,0 +1,33 @@
+{
+  "FILENAME": "fontconfig-2.17.1-2-riscv64.pkg.tar.zst",
+  "NAME": "fontconfig",
+  "BASE": "fontconfig",
+  "VERSION": "2.17.1-2",
+  "DESC": "Library for configuring and customizing font access",
+  "CSIZE": "189918",
+  "ISIZE": "558069",
+  "MD5SUM": "5c21aa8761c0518247b9444b212e3b91",
+  "SHA256SUM": "8a13d588344d0a36a727f28ef4b35b59e2fcd6a7b165658c1eaea3376e187f6c",
+  "PGPSIG": "iF4EABYCAAYFAmij8AsACgkQw1jnDXfq/1QrcQD9Ed7sVC7Rnmzc78bTtaLhx6M789HBBEzlHgMMCs7co/8A/R4zW1i0YI9+vyO9/Zf5dXVmOG8VkogMRzti5diRYRUH",
+  "URL": "https://www.freedesktop.org/wiki/Software/fontconfig/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755574905",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "freetype2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libfontconfig.so"
+  ],
+  "MAKEDEPENDS": [
+    "gperf",
+    "meson",
+    "symlinks"
+  ],
+  "REPO": "main"
+}

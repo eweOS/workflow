@@ -1,0 +1,55 @@
+{
+  "FILENAME": "emacs-nogui-30.2-1-riscv64.pkg.tar.zst",
+  "NAME": "emacs-nogui",
+  "BASE": "emacs",
+  "VERSION": "30.2-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor - without GUI",
+  "CSIZE": "55447909",
+  "ISIZE": "129381660",
+  "MD5SUM": "54042405d4b52e264175d96e165c07a5",
+  "SHA256SUM": "1380d5e4ebcbc3b158dbf56f96dc8087ddacbf73155df0e8730b3947e656a9dd",
+  "PGPSIG": "iF4EABYCAAYFAmie+50ACgkQw1jnDXfq/1T7+AD+JL8kn0I4/QtgZc8BCXz595IQ0gnYAj9R+lSf34kTEIYBAOlLyRQhE6V3f/RKH/PcP5VO95NJCo+U/YyOei5vTD8N",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755249005",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs",
+    "emacs-nox"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "texinfo",
+    "linux-headers",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "REPO": "main"
+}

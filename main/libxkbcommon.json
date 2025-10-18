@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libxkbcommon-1.11.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libxkbcommon",
+  "BASE": "libxkbcommon",
+  "VERSION": "1.11.0-1",
+  "DESC": "Keymap handling library for toolkits and window systems",
+  "CSIZE": "295283",
+  "ISIZE": "942082",
+  "MD5SUM": "9bfabbd557739eb6f774ad825bdd864b",
+  "SHA256SUM": "d94cce701b80e22c61bfa92a805931bed6bf71b0c59d558258746c6d827583a6",
+  "PGPSIG": "iF4EABYCAAYFAmidmsAACgkQw1jnDXfq/1SFZAD/RikapMTgit7h0amzvqNjpXELCtCHYOEzZdGL6BawdlcA/REL8mr+8dv1zwDJM9dXhYhn5hk3qw96x2UdquHA4ikO",
+  "URL": "https://xkbcommon.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755159827",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxml2",
+    "xkeyboard-config"
+  ],
+  "PROVIDES": [
+    "libxkbcommon.so",
+    "libxkbregistry.so"
+  ],
+  "MAKEDEPENDS": [
+    "libxml2",
+    "meson",
+    "bison",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

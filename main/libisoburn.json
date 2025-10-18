@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libisoburn-1.5.6-3-riscv64.pkg.tar.zst",
+  "NAME": "libisoburn",
+  "BASE": "libisoburn",
+  "VERSION": "1.5.6-3",
+  "DESC": "frontend for libraries libburn and libisofs",
+  "CSIZE": "773612",
+  "ISIZE": "1895304",
+  "MD5SUM": "03723ecff7b2a87ad0485198cb91c469",
+  "SHA256SUM": "ed422a27f6134609df8af44d09c35364e2b6beadf5323e784bff3137da6f209b",
+  "PGPSIG": "iF4EABYCAAYFAmdWupgACgkQw1jnDXfq/1TUhQEAoHvkbzV3aj4H4wAdpzAfYBu+eazhn/doTqnjTtEV8JUA/Rc66VFeo51VLTUph7AGVUqKThsM6CAELeaz0Z9UXQkL",
+  "URL": "https://dev.lovelyhq.com/libburnia",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733737263",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libburn",
+    "libisofs",
+    "readline"
+  ],
+  "PROVIDES": [
+    "xorriso",
+    "xorriso-tcltk"
+  ],
+  "OPTDEPENDS": [
+    "tk: xorriso-tcltk frontend",
+    "sudo: use with xorriso-dd-target"
+  ],
+  "REPO": "main"
+}

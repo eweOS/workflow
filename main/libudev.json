@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libudev-1.0.3.r5.bbeb7ad.r.bbeb7ad-1-riscv64.pkg.tar.zst",
+  "NAME": "libudev",
+  "BASE": "libudev",
+  "VERSION": "1.0.3.r5.bbeb7ad.r.bbeb7ad-1",
+  "DESC": "Daemonless replacement for libudev",
+  "CSIZE": "15561",
+  "ISIZE": "34811",
+  "MD5SUM": "dfed3c059c9afd7a1599f32267fcdaff",
+  "SHA256SUM": "6a31a60ed25e2582111be33c402e63fe5e9961a578f5ba16ad60c7d42fd8e5e4",
+  "PGPSIG": "iF4EABYCAAYFAmcSCjAACgkQw1jnDXfq/1RDCgD7BmA4s/CJwVF5rLSpsBgMjUPT2Jz9UjW9EqQ8QhJGR/UA/RXd8vy2/FcR8VMxlhPZrzFpRCfY/ibkxo5DgE0V4ZYF",
+  "URL": "https://github.com/illiliti/libudev-zero",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729235491",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libudev-zero",
+    "libeudev",
+    "libudev"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "make",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

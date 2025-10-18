@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libalpm-7.0.0-13-riscv64.pkg.tar.zst",
+  "NAME": "libalpm",
+  "BASE": "pacman",
+  "VERSION": "7.0.0-13",
+  "DESC": "Arch Linux package management library",
+  "CSIZE": "292302",
+  "ISIZE": "1138836",
+  "MD5SUM": "154762d15c991cbf45755318b5884d29",
+  "SHA256SUM": "d85bb1b25dfa0375a87bac962404b6f4bb6cc224d75c6ccd63bf234a3e218968",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLffaQAKCRDDWOcNd+r/VDiyAQDWEaDjgPf1PH4V8Wzc1Ynsx3CtKLdCcdNFUXkVzZPXdgD/bo5EJPocrExlhOFqxSYOfcSNx/0C9OFpmo0L91Jp6wo=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756880656",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "libarchive",
+    "curl",
+    "gettext",
+    "gpgme"
+  ],
+  "PROVIDES": [
+    "libalpm.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

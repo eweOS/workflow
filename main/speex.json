@@ -1,0 +1,32 @@
+{
+  "FILENAME": "speex-1.2.1-1-riscv64.pkg.tar.zst",
+  "NAME": "speex",
+  "BASE": "speex",
+  "VERSION": "1.2.1-1",
+  "DESC": "A free codec for free speech",
+  "CSIZE": "496753",
+  "ISIZE": "599563",
+  "MD5SUM": "d620add0d3cb8d91f0741d19fff7ba70",
+  "SHA256SUM": "30242f3fab995fbd9382fff4c938782ce38708b179bc906bd06471bfe4bf6f4c",
+  "PGPSIG": "iF4EABYCAAYFAmdRdngACgkQw1jnDXfq/1QXzwD/VFPQVUv3sP/KnbNJVnQdDCX8ki2vFQgIL4L2jlFefNEA/RGph37MtiAgMWw2rMYEHd8NqlIWtcR4uvrgiSH/0dkF",
+  "URL": "https://www.speex.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733392132",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libogg",
+    "speexdsp",
+    "libogg.so",
+    "libspeexdsp.so"
+  ],
+  "PROVIDES": [
+    "libspeex.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

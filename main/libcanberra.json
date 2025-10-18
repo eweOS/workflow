@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libcanberra-0.30-2-riscv64.pkg.tar.zst",
+  "NAME": "libcanberra",
+  "BASE": "libcanberra",
+  "VERSION": "0.30-2",
+  "DESC": "A small and lightweight implementation of the XDG Sound Theme Specification",
+  "CSIZE": "72056",
+  "ISIZE": "251468",
+  "MD5SUM": "4e3ee4ed45e7844ffd4e900f1bc93790",
+  "SHA256SUM": "347beabdca796b15e7d999ff5e7e644d5f7d1d03209249472cb1f2293e5fdff1",
+  "PGPSIG": "iF4EABYCAAYFAmcVzocACgkQw1jnDXfq/1SWVwEAzpMMZSQTCzBULmyHq2CzVameDbi6mVNqPo/3HtHbdZ8A/1JNQFtES4bBVbHT6GP7R1JaS1d/jYIQLn6yh4AHsCcK",
+  "URL": "https://0pointer.net/lennart/projects/libcanberra/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1729482326",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libvorbis",
+    "libltdl",
+    "alsa-lib",
+    "libpulse",
+    "tdb",
+    "sound-theme-freedesktop"
+  ],
+  "PROVIDES": [
+    "libcanberra-pulse",
+    "libcanberra.so",
+    "libcanberra-gtk3.so"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: canberra-gtk-play"
+  ],
+  "MAKEDEPENDS": [
+    "gtk-doc",
+    "gtk3",
+    "git"
+  ],
+  "REPO": "main"
+}

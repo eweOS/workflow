@@ -1,0 +1,35 @@
+{
+  "FILENAME": "botan-3.9.0-1-riscv64.pkg.tar.zst",
+  "NAME": "botan",
+  "BASE": "botan",
+  "VERSION": "3.9.0-1",
+  "DESC": "Crypto library written in C++",
+  "CSIZE": "3657544",
+  "ISIZE": "10340722",
+  "MD5SUM": "81f9490a1bdce0e990af3caacff16fde",
+  "SHA256SUM": "2c7ff8b0ce0fbc52c6da34ddb1a10eee4d9a7c045d1df04fb8eec670342c7f08",
+  "PGPSIG": "iF4EABYCAAYFAmieChUACgkQw1jnDXfq/1SqUwD+KtBoiKbtfCgoVYLXz6PeBiY7FUUVu2rI2/0JLKvMt2gBANiTIaZGZ92Z34cZxMEU6DtntDsBoedPIaIoa264KWgM",
+  "URL": "https://botan.randombit.net/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755185208",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bzip2",
+    "sqlite",
+    "xz",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "boost-libs: for the botan executable",
+    "python: for using botan2.py"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

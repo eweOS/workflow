@@ -1,0 +1,60 @@
+{
+  "FILENAME": "kinfocenter-6.4.4-2-riscv64.pkg.tar.zst",
+  "NAME": "kinfocenter",
+  "BASE": "kinfocenter",
+  "VERSION": "6.4.4-2",
+  "DESC": "A utility that provides information about a computer system",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "1041360",
+  "ISIZE": "2896683",
+  "MD5SUM": "f9e9604060059766420aea70ff09b015",
+  "SHA256SUM": "2f416af10bc7cd219f646986b515a03534a55e71e4260cf45ae64b52e35ba239",
+  "PGPSIG": "iF4EABYCAAYFAmir4ysACgkQw1jnDXfq/1ThpgD/YstB/4peVYuUknN6Ta8RysBltou0UIC/wWVdWuOu5cIA/RJrwZ8eRGYJfD0Xg5bvLhcuqke8SZDTQNN0qgyxBy4G",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756095653",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dmidecode",
+    "llvm-libs",
+    "musl",
+    "glu",
+    "kauth",
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdeclarative",
+    "ki18n",
+    "kio",
+    "kirigami",
+    "kservice",
+    "libdisplay-info",
+    "libdrm",
+    "libpulse",
+    "libusb",
+    "lm_sensors",
+    "mesa-utils",
+    "qt6-base",
+    "qt6-declarative",
+    "sh",
+    "solid",
+    "systemsettings",
+    "vulkan-tools"
+  ],
+  "OPTDEPENDS": [
+    "fwupd: firmware security module",
+    "plasma-disks: SMART devices health monitor"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "linux-headers",
+    "kdoctools",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

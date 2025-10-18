@@ -1,0 +1,42 @@
+{
+  "FILENAME": "btrfs-progs-6.17-1-riscv64.pkg.tar.zst",
+  "NAME": "btrfs-progs",
+  "BASE": "btrfs-progs",
+  "VERSION": "6.17-1",
+  "DESC": "Btrfs filesystem utilities",
+  "CSIZE": "1148431",
+  "ISIZE": "4900754",
+  "MD5SUM": "23236f8b8c864a0eca3e4fad0e230834",
+  "SHA256SUM": "6f6b7e0baffff0e27a69d1c45b47a62d4ed5f0654b90c60762f8cc67a7f1022d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO0GMgAKCRDDWOcNd+r/VPEIAQCGL66g9VnAlxoyccHA0M1EypU/03Ibs6qfGOo7r9h0cAEA0bvcGT33WfgWn3rD4Pxca0oQ/ss2uWAGGfx9jxawAQM=",
+  "URL": "https://btrfs.readthedocs.io",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1760364158",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "util-linux-libs",
+    "zlib",
+    "zstd",
+    "libgcrypt",
+    "libudev",
+    "lzo"
+  ],
+  "OPTDEPENDS": [
+    "python: libbtrfsutil python bindings",
+    "e2fsprogs: btrfs-convert",
+    "reiserfsprogs: btrfs-convert"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc",
+    "xmlto",
+    "python",
+    "python-setuptools",
+    "e2fsprogs",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

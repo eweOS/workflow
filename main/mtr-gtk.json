@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mtr-gtk-0.96-1-riscv64.pkg.tar.zst",
+  "NAME": "mtr-gtk",
+  "BASE": "mtr",
+  "VERSION": "0.96-1",
+  "DESC": "Combines the functionality of traceroute and ping into one tool",
+  "CSIZE": "67972",
+  "ISIZE": "140496",
+  "MD5SUM": "11230440568b07cc946a123f3788ed98",
+  "SHA256SUM": "c60c3201835b8da33ef80dc9bff4ec491256f2bc3ca24c422d514f8c5434118e",
+  "PGPSIG": "iF4EABYCAAYFAmhrjEUACgkQw1jnDXfq/1TgZAD+N36VEa+MyWIz53MTxaFcJYWdfc8eVYKr03Ssr8nMyiQBAMvvYf6giIRYXKtemTeeRYIh2QEVi5oBwu1PL1dyUf4O",
+  "URL": "https://www.bitwizard.nl/mtr/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1751879189",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "jansson",
+    "ncurses",
+    "libcap",
+    "gtk3"
+  ],
+  "CONFLICTS": [
+    "mtr"
+  ],
+  "PROVIDES": [
+    "mtr"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

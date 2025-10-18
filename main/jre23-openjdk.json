@@ -1,0 +1,57 @@
+{
+  "FILENAME": "jre23-openjdk-23.0.2.u7-1-riscv64.pkg.tar.zst",
+  "NAME": "jre23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 runtime environment",
+  "CSIZE": "39132812",
+  "ISIZE": "143764091",
+  "MD5SUM": "57096c61ab9332f18233e706acd89820",
+  "SHA256SUM": "a8396efe7844b07231207c932fb1ad9693cf5feca98d7c8c791eef1ffc03355b",
+  "PGPSIG": "iF4EABYCAAYFAmgEfeUACgkQw1jnDXfq/1Qr1QD/RZWbGGouzfAEiEkDW/CRe4uH49JCut3/+S/KJoFT6cIBANBgS3p2VF8o0Qg+gxWW0XvBELrcXyBkARWxQk4mr3QJ",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1745119760",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common"
+  ],
+  "CONFLICTS": [
+    "jdk23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

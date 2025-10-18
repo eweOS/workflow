@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-20.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "410990",
+  "ISIZE": "939231",
+  "MD5SUM": "7777c58e21f468389b109d9cc065647e",
+  "SHA256SUM": "1f3678066058785995a06284d029a0af00c1d0fa6be4a858d205404b19fdef00",
+  "PGPSIG": "iF4EABYCAAYFAmir0sIACgkQw1jnDXfq/1SacwD/fFcBRHyMcwS39d/iZbOCfktsqzqTgZ7t+YFxxUBne7IA+wbxzUZLW/cvDagUKI7LR8p1dqc83+QIQQYPbNZEHLoE",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756006124",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

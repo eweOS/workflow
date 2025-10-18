@@ -1,0 +1,45 @@
+{
+  "FILENAME": "appstream-glib-0.8.3-2-riscv64.pkg.tar.zst",
+  "NAME": "appstream-glib",
+  "BASE": "appstream-glib",
+  "VERSION": "0.8.3-2",
+  "DESC": "Objects and methods for reading and writing AppStream metadata",
+  "CSIZE": "495671",
+  "ISIZE": "2244611",
+  "MD5SUM": "cecea648f64a3a926d47702a200f44ad",
+  "SHA256SUM": "3a66b0cda0061388c992849882c91f3fdc5a58288f63b0274fda1106b7bc6b43",
+  "PGPSIG": "iF4EABYCAAYFAmdT8VwACgkQw1jnDXfq/1SQmAEAgymNAjTzlI2qVX570myhmAqpOscCtCufNMkUSbU3gK8A/23dKd9IndYkDDc74CDAFzuEyh8aSPHrt45//o9Xb7II",
+  "URL": "https://people.freedesktop.org/~hughsient/appstream-glib/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1733554619",
+  "PACKAGER": "eweos-riscv64-lpi4aworker2 <eweos-riscv64-lpi4aworker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "curl",
+    "fontconfig",
+    "freetype2",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "json-glib",
+    "libarchive",
+    "libyaml",
+    "pacman",
+    "pango",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "appdata-tools",
+    "libappstream-glib.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gperf",
+    "meson"
+  ],
+  "REPO": "main"
+}

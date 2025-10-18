@@ -1,0 +1,52 @@
+{
+  "FILENAME": "gnome-maps-47.1-2-riscv64.pkg.tar.zst",
+  "NAME": "gnome-maps",
+  "BASE": "gnome-maps",
+  "VERSION": "47.1-2",
+  "DESC": "Find places around the world",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1320337",
+  "ISIZE": "5371697",
+  "MD5SUM": "6a74a5f5af9cbb7fd564478675f389d5",
+  "SHA256SUM": "d973c6881587ea1bdc8eff7bd9b05b50c09571c21da926d114cd672e6d321f0f",
+  "PGPSIG": "iF4EABYCAAYFAmgsOZgACgkQw1jnDXfq/1RZLQD/eDLkX/4hVswTBzO81G/JEmN4CYsUnBjIh0G370EylZYBAOGAYVinZC+fqHw5Fc7iUmgRp9Jb9y7yksZs1pizxgIC",
+  "URL": "https://apps.gnome.org/Maps",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747729045",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "hicolor-icon-theme",
+    "geoclue",
+    "geocode-glib-2",
+    "gjs",
+    "glib2",
+    "gtk4",
+    "json-glib",
+    "libadwaita",
+    "libgweather-4",
+    "libportal",
+    "librest",
+    "librsvg",
+    "libshumate",
+    "libxml2",
+    "pango"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "yelp-tools"
+  ],
+  "CHECKDEPENDS": [
+    "gnome-keyring",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

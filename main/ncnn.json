@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ncnn-20240820-4-riscv64.pkg.tar.zst",
+  "NAME": "ncnn",
+  "BASE": "ncnn",
+  "VERSION": "20240820-4",
+  "DESC": "High-performance neural network inference framework optimized for the mobile platform",
+  "CSIZE": "1266390",
+  "ISIZE": "5222155",
+  "MD5SUM": "8b4c9f772be7e58e97f5d12f3cee128c",
+  "SHA256SUM": "e6c0692df72d2b9af35a3c89194ea4db09434f8179f49485e8062841994020a9",
+  "PGPSIG": "iF4EABYCAAYFAmfZP+cACgkQw1jnDXfq/1QHvQEAyrEfE/NIhgojG/83t3AN23EO6bEdxr8VEsJ/UG/oUtMA/ix/tbuz5hx+SZtqfVwgNCUANptLhcKcs9Q7cKvciwMO",
+  "URL": "https://github.com/Tencent/ncnn",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742290430",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "vulkan-icd-loader"
+  ],
+  "OPTDEPENDS": [
+    "protobuf: for onnx2ncnn"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "glslang",
+    "ninja",
+    "protobuf",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

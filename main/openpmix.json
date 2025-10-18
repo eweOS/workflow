@@ -1,0 +1,39 @@
+{
+  "FILENAME": "openpmix-5.0.8-1-riscv64.pkg.tar.zst",
+  "NAME": "openpmix",
+  "BASE": "openpmix",
+  "VERSION": "5.0.8-1",
+  "DESC": "Extended version of the PMI standard",
+  "CSIZE": "985328",
+  "ISIZE": "3208086",
+  "MD5SUM": "5b538b95d61a7065cf7c1e0802fdf125",
+  "SHA256SUM": "ffe1a99b755ee4b94ff34b194119fa02937944e5d55613f3fbf4d3a9c2999b92",
+  "PGPSIG": "iF4EABYCAAYFAmgpiI8ACgkQw1jnDXfq/1TbPQD/bwtFU2jqPrLEi8NiViEe/QFBqtyvum9zfEsTht4NKbEA/31zDbGJivXwVnKFs98Go3EK57E40yHCqLC0S8w5uz0K",
+  "URL": "https://github.com/openpmix/openpmix",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747552368",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "hwloc",
+    "jansson",
+    "libevent",
+    "zlib",
+    "curl"
+  ],
+  "PROVIDES": [
+    "libpmix.so",
+    "pmix"
+  ],
+  "MAKEDEPENDS": [
+    "perl",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "openpmix"
+  ],
+  "REPO": "main"
+}

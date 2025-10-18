@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pyalpm-0.10.12-1-riscv64.pkg.tar.zst",
+  "NAME": "pyalpm",
+  "BASE": "pyalpm",
+  "VERSION": "0.10.12-1",
+  "DESC": "Python 3 bindings for libalpm",
+  "CSIZE": "73965",
+  "ISIZE": "289801",
+  "MD5SUM": "bcb88ca9701a8e92c8ae1b33bfda1f60",
+  "SHA256SUM": "2ad16c00f2df2dfb3e7d958a2f9548d64a7b6077e06a89a6fa01568de3e30fa7",
+  "PGPSIG": "iF4EABYCAAYFAmhXj5cACgkQw1jnDXfq/1T2bgEAwNZ1k2QVVgvv/vPLsA24lX8fn5cZKoN6p3Ijve1hc9cA/jyA6PgWmLaS1Sn9SXkTjjC7lmi6l3Ny5aF4cRuZoAAF",
+  "URL": "https://gitlab.archlinux.org/archlinux/pyalpm",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750569271",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "pacman"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools",
+    "python-pkgconfig",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-pacman"
+  ],
+  "REPO": "main"
+}

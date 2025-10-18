@@ -1,0 +1,31 @@
+{
+  "FILENAME": "nginx-1.28.0-2-riscv64.pkg.tar.zst",
+  "NAME": "nginx",
+  "BASE": "nginx",
+  "VERSION": "1.28.0-2",
+  "DESC": "Lightweight HTTP server and IMAP/POP3 proxy server",
+  "CSIZE": "599457",
+  "ISIZE": "1256080",
+  "MD5SUM": "30e6cc7e14c736165ae773b71363dfa4",
+  "SHA256SUM": "ef38c64ae7594c9032bbf0b07df3e406cbdfd19d483f853901372c74e90799d0",
+  "PGPSIG": "iF4EABYCAAYFAmi2g0QACgkQw1jnDXfq/1RgngEA0Jsikm+lCPtDXpu+Hf5q7C7se6u0xuTgR3euvcjuFG0BANkEnuYtX2tSDvv3pHaDUpTLE+eS630hJxZbj4O1SM4K",
+  "URL": "https://nginx.org",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756792270",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "pcre2",
+    "zlib",
+    "openssl",
+    "libxcrypt",
+    "dinit",
+    "catnest"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

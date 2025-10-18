@@ -1,0 +1,30 @@
+{
+  "FILENAME": "gtk-layer-shell-0.9.2-1-riscv64.pkg.tar.zst",
+  "NAME": "gtk-layer-shell",
+  "BASE": "gtk-layer-shell",
+  "VERSION": "0.9.2-1",
+  "DESC": "Library to create Wayland desktop components using the Layer Shell protocol",
+  "CSIZE": "68014",
+  "ISIZE": "232024",
+  "MD5SUM": "5eee89a5ef7eac95a1cd29146bef57ff",
+  "SHA256SUM": "183e61c64b12d48eeaff651e2081eee95b6925660d7fb990a62c1592fdaf9396",
+  "PGPSIG": "iF4EABYCAAYFAmhajtQACgkQw1jnDXfq/1ThGgEA7cOaCrwjDT2ASGpvkqqowAT21y4ANq626boyThUr8r8BAJ4ZbFgDFa4oQ/j6FKmQuw+KAsd87Uv1s0UX8pJeSPMF",
+  "URL": "https://github.com/wmww/gtk-layer-shell",
+  "LICENSE": [
+    "LGPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750765693",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "gtk3",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

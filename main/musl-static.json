@@ -1,0 +1,30 @@
+{
+  "FILENAME": "musl-static-1.2.5-6-riscv64.pkg.tar.zst",
+  "NAME": "musl-static",
+  "BASE": "musl",
+  "VERSION": "1.2.5-6",
+  "DESC": "An implementation of the C/POSIX standard library.",
+  "GROUPS": [
+    "base-devel"
+  ],
+  "CSIZE": "690784",
+  "ISIZE": "3474244",
+  "MD5SUM": "5f3fe9deb6a3b4f6a499592f5695c451",
+  "SHA256SUM": "5772c2421d0113598cf139b1a0bd3493277b963d493f6fee45dcfd004fb0a118",
+  "PGPSIG": "iF4EABYCAAYFAmghnsIACgkQw1jnDXfq/1ShHAEApq4vZ+Z89ZaoUG0QFh7yalBg8vzD2rdD/74OQjFPB3sBAJxYuOZ2EWrHjlfD7ymfxMI4RD8o4TlRDtv6LxVciTYB",
+  "URL": "https://musl.libc.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747033946",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "ld-musl-riscv64.so.1",
+    "libc.so"
+  ],
+  "MAKEDEPENDS": [
+    "lld"
+  ],
+  "REPO": "main"
+}

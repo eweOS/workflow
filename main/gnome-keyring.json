@@ -1,0 +1,43 @@
+{
+  "FILENAME": "gnome-keyring-48.0-1-riscv64.pkg.tar.zst",
+  "NAME": "gnome-keyring",
+  "BASE": "gnome-keyring",
+  "VERSION": "48.0-1",
+  "DESC": "Stores passwords and encryption keys",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "996282",
+  "ISIZE": "3551160",
+  "MD5SUM": "c90a45ed0f79f7bd2250276ed96a865a",
+  "SHA256SUM": "eb0d97a8f90069b4ffc0ecd1ea2806f30dcc52472a2e04fd46191e0f5c46f70e",
+  "PGPSIG": "iF4EABYCAAYFAmfjaQ8ACgkQw1jnDXfq/1TUbgEA5CSiTCev7hStB0ZAkf+3NmAF9sMNeqQt/PwERyFRvXUA/1N1fUFSbJiXAKWS/OPLI4XMwNvJP91mFRdg2NC9VygC",
+  "URL": "https://gitlab.gnome.org/GNOME/gnome-keyring",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742956750",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dconf",
+    "gcr-3",
+    "gcr-4",
+    "glib2",
+    "libgcrypt",
+    "pam"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "glib2",
+    "meson",
+    "p11-kit",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "spirv-llvm-translator-20.1.2-2-riscv64.pkg.tar.zst",
+  "NAME": "spirv-llvm-translator",
+  "BASE": "spirv-llvm-translator",
+  "VERSION": "20.1.2-2",
+  "DESC": "Tool and a library for bi-directional translation between SPIR-V and LLVM IR",
+  "CSIZE": "1113977",
+  "ISIZE": "3935661",
+  "MD5SUM": "f6b0fa68bf88cedd25e558b930fd3788",
+  "SHA256SUM": "55f747fa67df6e5fa25e1d9c3df071d53289e5bd7cf6c690e819bd1bc6f624a8",
+  "PGPSIG": "iF4EABYCAAYFAmhdKL8ACgkQw1jnDXfq/1QcMAD7BFjKX7/Mnlzh2QNzE5kFHn6yXR/8Yz8Zygf+Oaj9IusBAJ+9n3CvHzl5ZRMLggsBqEKZUIJpN+zhk3E4i+vTyOQP",
+  "URL": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750935670",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "spirv-tools"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "llvm-devel",
+    "spirv-headers",
+    "llvm-lto",
+    "git"
+  ],
+  "REPO": "main"
+}

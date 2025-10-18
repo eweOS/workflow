@@ -1,0 +1,37 @@
+{
+  "FILENAME": "cairo-1.18.4-1-riscv64.pkg.tar.zst",
+  "NAME": "cairo",
+  "BASE": "cairo",
+  "VERSION": "1.18.4-1",
+  "DESC": "2D graphics library with support for multiple output devices",
+  "CSIZE": "561377",
+  "ISIZE": "1144968",
+  "MD5SUM": "9234174c58ca797c3b18af40ce29fd1c",
+  "SHA256SUM": "49486b6e3ae94e257b9c86dd13da21c5d87be05b05150416e31a0cb2a20fe8e1",
+  "PGPSIG": "iF4EABYCAAYFAmfRXr8ACgkQw1jnDXfq/1SafAD9EiCNkIYfn45JuMbSP/F03q4o7/THA1rJV5zbmEoj4wgBAM76QVIijLCLc9xVRmZbUZ0o0Ij2vk7NJez5cM0JIkwC",
+  "URL": "https://cairographics.org/",
+  "LICENSE": [
+    "LGPL-2.1",
+    "MPL-1.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1741774359",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpng",
+    "fontconfig",
+    "lzo",
+    "pixman",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libcairo-gobject.so",
+    "libcairo-script-interpreter.so",
+    "libcairo.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gtk-doc"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libhidapi-0.15.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libhidapi",
+  "BASE": "libhidapi",
+  "VERSION": "0.15.0-1",
+  "DESC": "A Simple cross-platform library for communicating with HID devices.",
+  "CSIZE": "34097",
+  "ISIZE": "89397",
+  "MD5SUM": "da615921d3caae78acc624520734d83c",
+  "SHA256SUM": "48caef64fd688424399330654f472682b0a7ed9c800a53a8cd45d2973c1ea7ee",
+  "PGPSIG": "iF4EABYCAAYFAmhab6cACgkQw1jnDXfq/1S3WQD+NOYKdOW+EKsy1wdTPBb4AGmDClhAVCFqNPKEdke3iRUBAJvLV5n2ErnXNG7zaDpNLgctwYPe7UMzzkioitUsLTsH",
+  "URL": "https://libusb.info/hidapi",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1750757744",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libudev",
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

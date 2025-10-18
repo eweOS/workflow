@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libmusicbrainz-5.1.0-2-riscv64.pkg.tar.zst",
+  "NAME": "libmusicbrainz",
+  "BASE": "libmusicbrainz",
+  "VERSION": "5.1.0-2",
+  "DESC": "Library That Provides Access to the MusicBrainz Server",
+  "CSIZE": "167816",
+  "ISIZE": "740917",
+  "MD5SUM": "feb9183d776a16ba1a533d97d9553257",
+  "SHA256SUM": "5595eb96647647a66e38ac932ce11fa720aa79b6e9a7e4c1999bc6be2a080879",
+  "PGPSIG": "iF4EABYCAAYFAmgsiIIACgkQw1jnDXfq/1SrTwD+JyR56pkjJg3Xv7TaTqCZSyYnq5hiDscXLJ6gDhzev5AA/RAKtmpKWu9iHpcUyZ1szjNrR6id5QvkKr+9DNBGNMUL",
+  "URL": "https://musicbrainz.org/doc/libmusicbrainz",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747749189",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "neon",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libmusicbrainz5",
+    "libmusicbrainz5.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

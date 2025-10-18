@@ -1,0 +1,35 @@
+{
+  "FILENAME": "kwayland-6.4.4-1-riscv64.pkg.tar.zst",
+  "NAME": "kwayland",
+  "BASE": "kwayland",
+  "VERSION": "6.4.4-1",
+  "DESC": "Qt-style Client and Server library wrapper for the Wayland libraries",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "281400",
+  "ISIZE": "1187733",
+  "MD5SUM": "2162ca99342c5e103c11f3af8ec3e075",
+  "SHA256SUM": "3078dddd0bef9ee8fe736167dd900a39a70920a67cc238aee7cbdb7fc7aa28c0",
+  "PGPSIG": "iF4EABYCAAYFAmiiJ50ACgkQw1jnDXfq/1Rk3AEAtvN7Nh7HjHq7AeX8MjWsUqDeNdd3scQt/On1MNIuEvcA/i0wzoN9C8yYRIzq3j5z33vTbPKN6FEgcwdMzkkhDnYF",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1755457838",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "linux-headers",
+    "plasma-wayland-protocols",
+    "qt6-tools",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

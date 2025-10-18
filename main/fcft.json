@@ -1,0 +1,39 @@
+{
+  "FILENAME": "fcft-3.3.2-1-riscv64.pkg.tar.zst",
+  "NAME": "fcft",
+  "BASE": "fcft",
+  "VERSION": "3.3.2-1",
+  "DESC": "Simple library for font loading and glyph rasterization",
+  "CSIZE": "67282",
+  "ISIZE": "108364",
+  "MD5SUM": "1636ed3894116f552b89dfaf6da5655b",
+  "SHA256SUM": "13a984707bbcac5bd8a50958532dfd7f4760104963662786a87aad1c732c8d2a",
+  "PGPSIG": "iF4EABYCAAYFAmiXaysACgkQw1jnDXfq/1SC3wD/flHLh9jAE6RS+unyjFbq3fQ2+gibpZiHMGvai0lio+8BAMgvi/9z4Am7c6pneYLp8Er3/PbqPxqWyvPqGU4wWjwH",
+  "URL": "https://codeberg.org/dnkl/fcft",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1754754484",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "libutf8proc",
+    "nanosvg",
+    "pixman"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "tllist",
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "check",
+    "ttf-noto-fonts-emoji",
+    "ttf-unifont"
+  ],
+  "REPO": "main"
+}

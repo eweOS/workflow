@@ -1,0 +1,51 @@
+{
+  "FILENAME": "mpv-0.40.0-3-riscv64.pkg.tar.zst",
+  "NAME": "mpv",
+  "BASE": "mpv",
+  "VERSION": "0.40.0-3",
+  "DESC": "a free, open source, and cross-platform media player",
+  "CSIZE": "1052431",
+  "ISIZE": "3714723",
+  "MD5SUM": "252d4f561f6499ac63feaf8d4ea02e1a",
+  "SHA256SUM": "acb752372a38b8e151b992124a6c956144732936cdda4f552028a98aee314d45",
+  "PGPSIG": "iF4EABYCAAYFAmir1okACgkQw1jnDXfq/1RCRAEAmbU8nWpJgFM255efY/wUtuFqunQ+ry59uxwef+dWuVkBAOJpGxxCYws9zmDpFXbO2cyZiuXdAoh+iGzlFYQhysEI",
+  "URL": "https://mpv.io/",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756092687",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib",
+    "wayland",
+    "zlib",
+    "ffmpeg",
+    "libass",
+    "lcms2",
+    "libarchive",
+    "sdl2",
+    "zimg",
+    "zlib",
+    "alsa-lib",
+    "pipewire",
+    "libpulse",
+    "libplacebo",
+    "libdrm",
+    "libjpeg",
+    "libxkbcommon",
+    "libdisplay-info",
+    "mesa",
+    "libglvnd",
+    "libva",
+    "vulkan-icd-loader"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "wayland-protocols",
+    "linux-headers",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

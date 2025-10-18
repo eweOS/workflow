@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-20.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "82753097",
+  "ISIZE": "886589930",
+  "MD5SUM": "b854b096fcfbcb27a9fd0186d25a3ec5",
+  "SHA256SUM": "849b44df19aec0742f682d3f366152b31450f98cc0efa07ddab4ab358fb14925",
+  "PGPSIG": "iF4EABYCAAYFAmir0sEACgkQw1jnDXfq/1SLFgD/bhIvcDAH7UF9QP8k0kf6UrpzVnZ9uJevb+mCKHE71l8BALTrULKyclT5S4p0bBgw0qL/jlgupeXmsXWCDXzHpycG",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756006124",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

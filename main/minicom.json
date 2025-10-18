@@ -1,0 +1,30 @@
+{
+  "FILENAME": "minicom-2.10-1-riscv64.pkg.tar.zst",
+  "NAME": "minicom",
+  "BASE": "minicom",
+  "VERSION": "2.10-1",
+  "DESC": "A serial communication program",
+  "CSIZE": "116899",
+  "ISIZE": "221348",
+  "MD5SUM": "9f18603be417c678cbff416eab912ad5",
+  "SHA256SUM": "01581f0b9ab29b8020ae4f81404cefa1801a2e94b171514ef81b2a436a54e580",
+  "PGPSIG": "iF4EABYCAAYFAmfdNMgACgkQw1jnDXfq/1RYjAEAmLkpnbrxyq6tyACDnX4WlI3hO/5awOqgwpI0T6JS/8cBALY00pWB3zf8deSR763X0a/cKXKyButnJrLVE7K6cqYL",
+  "URL": "https://salsa.debian.org/minicom-team/minicom",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1742550233",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "bash"
+  ],
+  "OPTDEPENDS": [
+    "lrzsz: for xmodem, ymodem and zmodem file transfer protocols"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

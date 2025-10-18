@@ -1,0 +1,36 @@
+{
+  "FILENAME": "lvm2-2.03.34-1-riscv64.pkg.tar.zst",
+  "NAME": "lvm2",
+  "BASE": "lvm2",
+  "VERSION": "2.03.34-1",
+  "DESC": "Logical Volume Manager 2 utilities",
+  "CSIZE": "2270221",
+  "ISIZE": "4501487",
+  "MD5SUM": "810af1bba6b4e22eaf92a85578ef5004",
+  "SHA256SUM": "2929e57090c37e58dcb8998a4572cb3059b9b9a44c3174c6bb0bf47d4622d45b",
+  "PGPSIG": "iF4EABYCAAYFAmi2VUAACgkQw1jnDXfq/1S1rwD8DlnAsXZPZKbrZLQS+CKxjvmnWchdMm2Z+HwFtaYyQk8BAPl07v53km4omQx4tGKuaaGQ91IyH42Xk4GYf1UQNfwH",
+  "URL": "https://sourceware.org/lvm2/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1756780471",
+  "PACKAGER": "visionfive2-2 <visionfive2-2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "device-mapper>=2.03.34",
+    "util-linux-libs",
+    "libblkid.so",
+    "readline",
+    "libreadline.so",
+    "libaio",
+    "libaio.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

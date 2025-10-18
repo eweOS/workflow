@@ -1,0 +1,79 @@
+{
+  "FILENAME": "texlive-basic-20240312-2-any.pkg.tar.zst",
+  "NAME": "texlive-basic",
+  "BASE": "texlive-texmf",
+  "VERSION": "20240312-2",
+  "DESC": "TeX Live - Essential programs and files",
+  "GROUPS": [
+    "texlive"
+  ],
+  "CSIZE": "8244486",
+  "ISIZE": "34972942",
+  "MD5SUM": "bdca5dc41ed9ba6a601dceaa827db13f",
+  "SHA256SUM": "2d3ad1bab098aa212a8424f4ec5561465cfb25d0b1d6c4a70d37dad1fa7750e7",
+  "PGPSIG": "iF4EABYCAAYFAmdupWwACgkQw1jnDXfq/1R3ZgEA0AsKzN5cusTBpaxwjfakO+EDx+a1uTAXuAvHoXDIaIgA/2dKWY/7cGAMPmtAhak26ViDk1odiATiulxiw8AVQU0C",
+  "URL": "https://tug.org/texlive/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1735303230",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "texlive-core"
+  ],
+  "DEPENDS": [
+    "texlive-bin",
+    "perl"
+  ],
+  "CONFLICTS": [
+    "texlive-core"
+  ],
+  "PROVIDES": [
+    "texlive-core",
+    "texlive-amsfonts",
+    "texlive-bibtex",
+    "texlive-cm",
+    "texlive-colorprofiles",
+    "texlive-dvipdfmx",
+    "texlive-dvips",
+    "texlive-ec",
+    "texlive-enctex",
+    "texlive-etex",
+    "texlive-etex-pkg",
+    "texlive-glyphlist",
+    "texlive-graphics-def",
+    "texlive-hyph-utf8",
+    "texlive-hyphen-base",
+    "texlive-hyphenex",
+    "texlive-ifplatform",
+    "texlive-iftex",
+    "texlive-knuth-lib",
+    "texlive-knuth-local",
+    "texlive-kpathsea",
+    "texlive-lua-alt-getopt",
+    "texlive-luahbtex",
+    "texlive-makeindex",
+    "texlive-metafont",
+    "texlive-mflogo",
+    "texlive-mfware",
+    "texlive-modes",
+    "texlive-pdftex",
+    "texlive-plain",
+    "texlive-tex",
+    "texlive-tex-ini-files",
+    "texlive-texlive-common",
+    "texlive-texlive-en",
+    "texlive-texlive-msg-translations",
+    "texlive-texlive-scripts",
+    "texlive-texlive.infra",
+    "texlive-tlshell",
+    "texlive-unicode-data",
+    "texlive-xdvi"
+  ],
+  "OPTDEPENDS": [
+    "perl-tk: for the tlmgr GUI",
+    "biber: for bibliography processing"
+  ],
+  "REPO": "main"
+}
