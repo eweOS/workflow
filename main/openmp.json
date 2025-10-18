@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-20.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "418563",
+  "ISIZE": "1121807",
+  "MD5SUM": "89745f215d6717a99b0a1c66da630293",
+  "SHA256SUM": "7c73304b458955c0ed062839ae12e1899038111f81ddd6cec9eb1333658dfeab",
+  "PGPSIG": "iF4EABYCAAYFAmiql4QACgkQw1jnDXfq/1QI7wEA5XhjAbt++o/B75X9xYhGI6TB6NLcs2+YJuMwdp3YKAMBAPFckPtFpJwxPHM1pYDHxiUq9I2lW0LZ11xcKWYzbuAH",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005868",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

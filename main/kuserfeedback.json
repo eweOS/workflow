@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kuserfeedback-6.17.0-1-aarch64.pkg.tar.zst",
+  "NAME": "kuserfeedback",
+  "BASE": "kuserfeedback",
+  "VERSION": "6.17.0-1",
+  "DESC": "Framework for collecting user feedback for applications via telemetry and surveys",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "369633",
+  "ISIZE": "1920824",
+  "MD5SUM": "259105ace23d5ae044edcc1f4b61ff2e",
+  "SHA256SUM": "41319e23d54da5e01a43eff1ae85c95b3c6307494e12ddc1e1850003a90d5af9",
+  "PGPSIG": "iF4EABYCAAYFAmihoIUACgkQw1jnDXfq/1RIdQD/U8AnNIL7AkiO+5APdhl4PjNzpbPnhw2YEDq3IjJx2XIBAKZuclmT53GM58yu79PkuIDvCKBgRI0anC+VX5yOw0UN",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755423535",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-charts: Feedback console",
+    "qt6-declarative: QML bindings",
+    "qt6-svg: Feedback console"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-charts",
+    "qt6-declarative",
+    "qt6-svg",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

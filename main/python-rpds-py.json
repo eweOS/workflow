@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-rpds-py-0.24.0-1-aarch64.pkg.tar.zst",
+  "NAME": "python-rpds-py",
+  "BASE": "python-rpds-py",
+  "VERSION": "0.24.0-1",
+  "DESC": "Python bindings to the Rust rpds crate for persistent data structures",
+  "CSIZE": "318454",
+  "ISIZE": "748284",
+  "MD5SUM": "e32aa378445c2c89df19b2ba4d9c0de2",
+  "SHA256SUM": "e7a30d01ef9db9557caf14cccc87005f34089d4dd6bb64d89109b1d2eb214895",
+  "PGPSIG": "iF4EABYCAAYFAmgFqu0ACgkQw1jnDXfq/1QHfwEAmPF+X4swM/V9xiWLj9YZsT7hOwH6glhx/l47x7LHOcYBAJ5HQnUv42ROhbR04nZgTWbbahfjfnZ5neCK3jSWUMEP",
+  "URL": "https://rpds.readthedocs.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1745202030",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "python"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-maturin"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

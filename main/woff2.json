@@ -1,0 +1,33 @@
+{
+  "FILENAME": "woff2-1.0.2-2-aarch64.pkg.tar.zst",
+  "NAME": "woff2",
+  "BASE": "woff2",
+  "VERSION": "1.0.2-2",
+  "DESC": "Web Open Font Format 2 reference implementation",
+  "CSIZE": "60905",
+  "ISIZE": "137994",
+  "MD5SUM": "46a9194aacfee9f3b0b6ba1790592e6c",
+  "SHA256SUM": "fdf0e7f1bf561d5ca249bef05eb3dd7f3a46f9361de6670bc5c6703f3874588e",
+  "PGPSIG": "iF4EABYCAAYFAmdWmRsACgkQw1jnDXfq/1RtywD/ZgIGKQRbvao6zlFySCNvaYzLFXdMIyVnppXakv/WM+wA/iLfuehHgL3LXLzuaxtyr2jhOsk/gIwD7qry3I2ONVYD",
+  "URL": "https://github.com/google/woff2",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733728754",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli"
+  ],
+  "PROVIDES": [
+    "libwoff2common.so",
+    "libwoff2dec.so",
+    "libwoff2enc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

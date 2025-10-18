@@ -1,0 +1,38 @@
+{
+  "FILENAME": "wcm-0.10.0-1-aarch64.pkg.tar.zst",
+  "NAME": "wcm",
+  "BASE": "wcm",
+  "VERSION": "0.10.0-1",
+  "DESC": "Wayfire Configuration Manager",
+  "CSIZE": "347909",
+  "ISIZE": "2027397",
+  "MD5SUM": "656f174374e56b4a9d7bdc771a612ca6",
+  "SHA256SUM": "b1c2f4c7d020b9b6210e0c2cc9ffb64f3b8c07a233f7906f24e3d3d60ca6e25c",
+  "PGPSIG": "iF4EABYCAAYFAmix5P8ACgkQw1jnDXfq/1RzmAD/Ufmsq5QItKbhQfWYVe/46luuUWAiQ2FFSpG/UqrLcMcBAOcqULIAwAj2vFSQdYg5px/rVT4BrkXrqUEBIMfyXZUJ",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756489709",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wayfire",
+    "wf-shell",
+    "gtkmm3",
+    "wdisplays",
+    "wlroots0.19"
+  ],
+  "OPTDEPENDS": [
+    "wdisplays: display configuration tool"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "glm",
+    "wlroots0.19-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

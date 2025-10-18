@@ -1,0 +1,38 @@
+{
+  "FILENAME": "kmod-34.2-1-aarch64.pkg.tar.zst",
+  "NAME": "kmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-1",
+  "DESC": "Linux kernel module management tool",
+  "CSIZE": "99340",
+  "ISIZE": "173571",
+  "MD5SUM": "efbfe0691248a38b9451c0cd7c894c92",
+  "SHA256SUM": "f3c37de2a1ee005de72cd0743a5ad51479391f70adbca402c10464a74e70ec11",
+  "PGPSIG": "iF4EABYCAAYFAmhGdDUACgkQw1jnDXfq/1Qt9gD/S4EOXTix8HMsRphmn7xmq/NtUWNdg1VUS8y+1hE8QpIA/iTGYEl10ut5rr72cnV1ueczMLcP+pJzxGSsnXuNLDAN",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749448118",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}

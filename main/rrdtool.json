@@ -1,0 +1,38 @@
+{
+  "FILENAME": "rrdtool-1.9.0-3-aarch64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.9.0-3",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "296386",
+  "ISIZE": "717932",
+  "MD5SUM": "fdb0c156fd15d4cb7b6ddd11fc2ecf73",
+  "SHA256SUM": "92bda7e30e662539f596f26a15d94d0e0bcd9e2005c7c84542a764edaf5c9dd2",
+  "PGPSIG": "iF4EABYCAAYFAmi2gpwACgkQw1jnDXfq/1Sh4QD/WJYnNdIu/0FGlxNYsqUfiJb5RiuN1BbCIrcTvbqPIncBAN3zlygnuknyhWxA4kXg7SCswnszUUtX2j6L03e8cwQL",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756792202",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}

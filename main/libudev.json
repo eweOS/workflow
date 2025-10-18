@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libudev-1.0.3.r5.bbeb7ad.r.bbeb7ad-1-aarch64.pkg.tar.zst",
+  "NAME": "libudev",
+  "BASE": "libudev",
+  "VERSION": "1.0.3.r5.bbeb7ad.r.bbeb7ad-1",
+  "DESC": "Daemonless replacement for libudev",
+  "CSIZE": "16469",
+  "ISIZE": "38811",
+  "MD5SUM": "42970b081dc5c34f6e02fee0f0666d26",
+  "SHA256SUM": "381c7b1b3cb1ab3652c4c30be8598d31437b8eb14493d9401ecfd7a4b73992e4",
+  "PGPSIG": "iF4EABYCAAYFAmcSCXUACgkQw1jnDXfq/1RfOwD+NnPsPZlRSPva9dWDdkFU412eAnw4VOdL2daRRwUa+FoA/1rLymze998coJq4Mnq/7QhrUnF3svixXDl04XPzGrII",
+  "URL": "https://github.com/illiliti/libudev-zero",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729235314",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libudev-zero",
+    "libeudev",
+    "libudev"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "make",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

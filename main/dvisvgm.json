@@ -1,0 +1,40 @@
+{
+  "FILENAME": "dvisvgm-3.5-1-aarch64.pkg.tar.zst",
+  "NAME": "dvisvgm",
+  "BASE": "dvisvgm",
+  "VERSION": "3.5-1",
+  "DESC": "A fast DVI, EPS, and PDF to SVG converter",
+  "CSIZE": "1016029",
+  "ISIZE": "1883893",
+  "MD5SUM": "416c46cf4b7e38735478345ac80b1cf9",
+  "SHA256SUM": "35290f9ffa45166f78bce7325c2c04525d7280996a2e63b6c6d222ea220727f9",
+  "PGPSIG": "iF4EABYCAAYFAmhaiZYACgkQw1jnDXfq/1Ri3AD/Wr64Tfd/laomiYMugEpmmg1VcOYlmw+pc8OMZWQ/cqIBANTQStW/6TvlS4nu52ZNKOClRRhN+2DMdylr/Ffy9xUC",
+  "URL": "https://dvisvgm.de/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750764254",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli",
+    "freetype2",
+    "ghostscript",
+    "potrace",
+    "texlive-bin",
+    "woff2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "mupdf-tools: to process PDF files"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf-archive",
+    "git",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

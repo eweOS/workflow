@@ -1,0 +1,32 @@
+{
+  "FILENAME": "liburcu-0.15.3-1-aarch64.pkg.tar.zst",
+  "NAME": "liburcu",
+  "BASE": "liburcu",
+  "VERSION": "0.15.3-1",
+  "DESC": "Userspace data synchronization library based on Read-Copy Update",
+  "CSIZE": "159283",
+  "ISIZE": "722712",
+  "MD5SUM": "a7801da206366b55c9cbf7e72b146983",
+  "SHA256SUM": "2bfa18886fafb4cd22484d7f024bdc82d778e70a6f9ef38c01e1e8af40f0f865",
+  "PGPSIG": "iF4EABYCAAYFAmiqiPoACgkQw1jnDXfq/1QJyQEAnEO5UgkFISCNGG4CNIHoTr/65s+kOWV4EwY3QfgwIFUA/36I5/BPOQLFUKfScY2A4pW6wHtuVE38x8/10+HC4MgE",
+  "URL": "https://lttng.org/files/urcu/userspace-rcu-0.15.3.tar.bz2",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756007355",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liburcu-bp.so",
+    "liburcu-cds.so",
+    "liburcu-common.so",
+    "liburcu-mb.so",
+    "liburcu-memb.so",
+    "liburcu-qsbr.so",
+    "liburcu.so"
+  ],
+  "REPO": "main"
+}

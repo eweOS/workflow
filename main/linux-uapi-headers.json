@@ -1,0 +1,32 @@
+{
+  "FILENAME": "linux-uapi-headers-6.17.2-1-aarch64.pkg.tar.zst",
+  "NAME": "linux-uapi-headers",
+  "BASE": "linux-uapi-headers",
+  "VERSION": "6.17.2-1",
+  "DESC": "Kernel headers sanitized for use in userspace",
+  "CSIZE": "1894985",
+  "ISIZE": "6933179",
+  "MD5SUM": "41f78dfb6904cd63956bafa5ab971869",
+  "SHA256SUM": "9824e042f0565aa7137827fa59f774440a7b80705de07115183d873b6667fc88",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO0KXAAKCRDDWOcNd+r/VMhmAQDQjRzk0a+yeheXGTrQzASpnuwic9yL5BLVAUJ0+cjmygEAxLqKEhUzRUtP6QvVWv72RakD91H8lgWKxWgKbkTp4go=",
+  "URL": "http://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only with Linux-syscall-note"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760365317",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "REPLACES": [
+    "linux-headers"
+  ],
+  "CONFLICTS": [
+    "linux-headers"
+  ],
+  "PROVIDES": [
+    "linux-headers"
+  ],
+  "MAKEDEPENDS": [
+    "rsync"
+  ],
+  "REPO": "main"
+}

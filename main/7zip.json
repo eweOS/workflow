@@ -1,0 +1,35 @@
+{
+  "FILENAME": "7zip-25.01-1-aarch64.pkg.tar.zst",
+  "NAME": "7zip",
+  "BASE": "7zip",
+  "VERSION": "25.01-1",
+  "DESC": "Command-line file archiver with high compression ratio",
+  "CSIZE": "2200706",
+  "ISIZE": "6124458",
+  "MD5SUM": "447e990d1789e0e6d8d25860cb6b29e1",
+  "SHA256SUM": "6fd2c6d451317cfb0ff01a4740f662ce117edc2aeaf280ce845cd881a217a33b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO76IAAKCRDDWOcNd+r/VJ6CAP0WgIDTYAmT/ej2//AbmvRbhbJb4h5mau2VjxzuEbuCtwD/QCiiL8h7OS3l9C4GIlY1IQ/uzAsgXTG3AmaEHONjEg0=",
+  "URL": "https://7-zip.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "BSD-3-Clause",
+    "custom:unRAR"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760492230",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "p7zip"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "p7zip"
+  ],
+  "PROVIDES": [
+    "p7zip"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,44 @@
+{
+  "FILENAME": "gdk-pixbuf-2.44.1-1-aarch64.pkg.tar.zst",
+  "NAME": "gdk-pixbuf",
+  "BASE": "gdk-pixbuf",
+  "VERSION": "2.44.1-1",
+  "DESC": "A library that loads image data in various formats",
+  "CSIZE": "590329",
+  "ISIZE": "2941210",
+  "MD5SUM": "1dc49ff0aeda098e1af820de3d322cb0",
+  "SHA256SUM": "3797864d2f10dc40bfb4cafd98a753b4b6329f7c75e053cd6b92cf1ae1eee08e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMouyQAKCRDDWOcNd+r/VOPzAP9VGF4nvNVEm1RQ2Z6bf8d8HXCab7fB35tatrm3R+XETgEAu0WdiS/W8qm0J5zFGEAU0aTcDX5Wne7kcR/y0RDr1A0=",
+  "URL": "https://wiki.gnome.org/Projects/GdkPixbuf",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1758080758",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "glib",
+    "libpng",
+    "shared-mime-info",
+    "libtiff",
+    "libjpeg"
+  ],
+  "PROVIDES": [
+    "gdk-pixbuf2",
+    "libgdk_pixbuf-2.0.so"
+  ],
+  "OPTDEPENDS": [
+    "libwmf: Load .wmf and .apm",
+    "libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf",
+    "libavif: Load .avif",
+    "libheif: Load .heif, .heic, and .avif",
+    "libjxl: Load .jxl",
+    "librsvg: Load .svg, .svgz, and .svg.gz",
+    "webp-pixbuf-loader: Load .webp"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "meson"
+  ],
+  "REPO": "main"
+}

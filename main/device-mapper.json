@@ -1,0 +1,30 @@
+{
+  "FILENAME": "device-mapper-2.03.34-1-aarch64.pkg.tar.zst",
+  "NAME": "device-mapper",
+  "BASE": "lvm2",
+  "VERSION": "2.03.34-1",
+  "DESC": "Device mapper userspace library and tools",
+  "CSIZE": "277939",
+  "ISIZE": "681511",
+  "MD5SUM": "6f0b6397a7127b92b8ad3d439d9073ff",
+  "SHA256SUM": "410899792c59cd7631a2b7befc2e680ca1283e4a8db31723bab5610a8a04b9ef",
+  "PGPSIG": "iF4EABYCAAYFAmi2VGgACgkQw1jnDXfq/1REpgD/UT1+1D4kwtG4vFRECP0w+eBzpUOG5WRNlOyXus6V8oUA/27/1F98pB34qAbUBTX8VQKjhFR0yufToZLi2ASHiKgN",
+  "URL": "http://sourceware.org/dm/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756780344",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libdevmapper.so",
+    "libdevmapper-event.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

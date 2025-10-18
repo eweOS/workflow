@@ -1,0 +1,36 @@
+{
+  "FILENAME": "lvm2-2.03.34-1-aarch64.pkg.tar.zst",
+  "NAME": "lvm2",
+  "BASE": "lvm2",
+  "VERSION": "2.03.34-1",
+  "DESC": "Logical Volume Manager 2 utilities",
+  "CSIZE": "2281259",
+  "ISIZE": "5056079",
+  "MD5SUM": "3aad198311e92e1cdaa2eb32029bd992",
+  "SHA256SUM": "88f518b052c21fd4822bb3583634151a9a534fd4dc4664eb0e4ae43d38b4bd40",
+  "PGPSIG": "iF4EABYCAAYFAmi2VGgACgkQw1jnDXfq/1TzaAD6AzrCmAck7/XlOItB9aJWlyhMO08aXSTeSkWj50Rb0vkBAPi9gXwN+YB0IYoekLkxNEKmYzwIYhVsrya+T13uJ10E",
+  "URL": "https://sourceware.org/lvm2/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756780344",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "device-mapper>=2.03.34",
+    "util-linux-libs",
+    "libblkid.so",
+    "readline",
+    "libreadline.so",
+    "libaio",
+    "libaio.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "fontconfig-2.17.1-2-aarch64.pkg.tar.zst",
+  "NAME": "fontconfig",
+  "BASE": "fontconfig",
+  "VERSION": "2.17.1-2",
+  "DESC": "Library for configuring and customizing font access",
+  "CSIZE": "200158",
+  "ISIZE": "597741",
+  "MD5SUM": "ecee393b1edc06d61a6fc71e2258e15c",
+  "SHA256SUM": "12788765b89ffebc209168671ee629ccf98c1d1caca5156fdd0e78935bb9962c",
+  "PGPSIG": "iF4EABYCAAYFAmij72AACgkQw1jnDXfq/1SX+wD+OG1QekXkNm0bTuR5QPvTfcmCSRxQaOQRWvvQ/G/0D20A/0i2+YA/QNYYV9XkN1GMxYcQOvyAOFoqqdajoNp3yGkJ",
+  "URL": "https://www.freedesktop.org/wiki/Software/fontconfig/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755574799",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "expat",
+    "freetype2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libfontconfig.so"
+  ],
+  "MAKEDEPENDS": [
+    "gperf",
+    "meson",
+    "symlinks"
+  ],
+  "REPO": "main"
+}

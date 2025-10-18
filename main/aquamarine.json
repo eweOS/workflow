@@ -1,0 +1,40 @@
+{
+  "FILENAME": "aquamarine-0.9.5-1-aarch64.pkg.tar.zst",
+  "NAME": "aquamarine",
+  "BASE": "aquamarine",
+  "VERSION": "0.9.5-1",
+  "DESC": "A very light linux rendering backend library",
+  "CSIZE": "436797",
+  "ISIZE": "1358291",
+  "MD5SUM": "f35011fc1b57b2745509aab4d717b251",
+  "SHA256SUM": "a17fb6c042188a9773654396c6dc8587ffdfbfee042711164bc1402774c96386",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaOiJWQAKCRDDWOcNd+r/VMGXAQCHK2rb9h2g5PaKzb4megxLrheTkgOpUo+hPRq/WjFj+gEAsWWnQpuK8JfDvXpPr2gopo0Ksvo5xSs15om5lKdfcgQ=",
+  "URL": "https://github.com/hyprwm/aquamarine",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760070092",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libdrm",
+    "libinput",
+    "hyprutils",
+    "pixman",
+    "libdisplay-info",
+    "wayland",
+    "seatd",
+    "mesa"
+  ],
+  "PROVIDES": [
+    "libaquamarine.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "wayland-protocols",
+    "hwdata",
+    "hyprwayland-scanner",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

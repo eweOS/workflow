@@ -1,0 +1,42 @@
+{
+  "FILENAME": "ghostscript-10.03.1-2-aarch64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.03.1-2",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21179479",
+  "ISIZE": "43826841",
+  "MD5SUM": "9ae7dd7fe5ccff14fafb448c4277c305",
+  "SHA256SUM": "71d1e03aa4cb7df69acee6cb30b8a3b5d752d5ae00c948ac50dbf81ad047d3ad",
+  "PGPSIG": "iF4EABYCAAYFAmc/Ux4ACgkQw1jnDXfq/1S5lAEA8pNeV8eaL0vEVwwRJyWBxlCLIB8fo29LuvHQ/ohKMVEBALBf3OFD2Qck/TbyCyTjjPyEIISDL3HS2iwYqLdfQHgL",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1732203087",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "fcitx5-configtool-5.1.10-1-aarch64.pkg.tar.zst",
+  "NAME": "fcitx5-configtool",
+  "BASE": "fcitx5-configtool",
+  "VERSION": "5.1.10-1",
+  "DESC": "Configuration tool for fcitx5",
+  "CSIZE": "336717",
+  "ISIZE": "1147351",
+  "MD5SUM": "b903ef5b5edc4c869afa5c93937948d2",
+  "SHA256SUM": "f4b51c65e8dd948c70cac496d1f1ed0768a30ab7d9e1e292874f9d9b547dc20a",
+  "PGPSIG": "iF4EABYCAAYFAmh7N1sACgkQw1jnDXfq/1QS/wEApZO7+wUQzQys4NEeT4ynXkTXPOayo/7JiARE8cmOzTwA/iBA6mMrIhOmOuulNtVagpvHYkyctBGSl8n+KTVEqPEJ",
+  "URL": "https://github.com/fcitx/fcitx5-configtool",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1752906008",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fcitx5",
+    "fcitx5-qt",
+    "qt6-base",
+    "qt6-svg",
+    "kwidgetsaddons",
+    "kitemviews",
+    "iso-codes"
+  ],
+  "PROVIDES": [
+    "libFcitx5Migrator.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "extra-cmake-modules",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

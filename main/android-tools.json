@@ -1,0 +1,41 @@
+{
+  "FILENAME": "android-tools-35.0.2-11-aarch64.pkg.tar.zst",
+  "NAME": "android-tools",
+  "BASE": "android-tools",
+  "VERSION": "35.0.2-11",
+  "DESC": "Android platform tools",
+  "CSIZE": "2100586",
+  "ISIZE": "5172034",
+  "MD5SUM": "ad99115cdd3eceade91e3f56647c996c",
+  "SHA256SUM": "70811dafeda710f002caff348dcc63db325da9eb672a5b593da8c19dc66ccaf7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaPHLrQAKCRDDWOcNd+r/VBDFAP9vpF6XwlH2MzBLO/iDrYImJYkShiJK9rfVf4oB5yiawwEAtfxI7reu7HSqYK5yGMnJUmOqqOWlY0s2GVLIW543hQ4=",
+  "URL": "http://tools.android.com/",
+  "LICENSE": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760676867",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "brotli",
+    "fmt",
+    "libusb",
+    "pcre2",
+    "protobuf",
+    "googletest",
+    "zstd",
+    "python",
+    "abseil-cpp"
+  ],
+  "OPTDEPENDS": [
+    "python: mkbootimg, unpack_bootimg and repack_bootimg support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "go",
+    "perl",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

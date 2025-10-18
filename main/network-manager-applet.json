@@ -1,0 +1,33 @@
+{
+  "FILENAME": "network-manager-applet-1.36.0-2-aarch64.pkg.tar.zst",
+  "NAME": "network-manager-applet",
+  "BASE": "network-manager-applet",
+  "VERSION": "1.36.0-2",
+  "DESC": "Applet for managing network connections",
+  "CSIZE": "156695",
+  "ISIZE": "559625",
+  "MD5SUM": "8656158a6c6fc9105e003e8261afcc9f",
+  "SHA256SUM": "0e2ac2e35a9e9dead5212b704dcb0fc5800d54a55f50ad2ab05595bd05fa20ae",
+  "PGPSIG": "iF4EABYCAAYFAmdWuLQACgkQw1jnDXfq/1QLNAD+KXTyQ7XjJc56eqCeDkbcuqboT22xjtzRnsqnS2PuuKEBAKZIGainiUZTLH9q4RnAtna5CExTz0zATyL2BAUqT0EO",
+  "URL": "https://gitlab.gnome.org/GNOME/network-manager-applet",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733736809",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libnma",
+    "libsecret",
+    "networkmanager",
+    "nm-connection-editor"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

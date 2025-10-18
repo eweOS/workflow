@@ -1,0 +1,50 @@
+{
+  "FILENAME": "openssh-9.9p2-1-aarch64.pkg.tar.zst",
+  "NAME": "openssh",
+  "BASE": "openssh",
+  "VERSION": "9.9p2-1",
+  "DESC": "SSH protocol implementation for remote login, command execution and file transfer",
+  "CSIZE": "1270695",
+  "ISIZE": "4690408",
+  "MD5SUM": "81da57b584b4d21a5b8e61fe35ae851e",
+  "SHA256SUM": "59cf0db8b20569a88660ecf56eca9dfac39923bf13e213d75105627217d7bf65",
+  "PGPSIG": "iF4EABYCAAYFAme0W7oACgkQw1jnDXfq/1SsmQEA10iY+Pm65MygWg0Yv36WjvVVxwPdWNEQY0FKMb6zNAkBAL1LGYoLGc/KZDwSduC89c/xuyn27CD1PzKfocSVYCUO",
+  "URL": "https://www.openssh.com/portable.html",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "LicenseRef-Public-Domain",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1739873652",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "krb5",
+    "libkrb5.so",
+    "libgssapi_krb5.so",
+    "libedit",
+    "libedit.so",
+    "libxcrypt",
+    "openssl",
+    "pam",
+    "libpam.so",
+    "zlib",
+    "libz.so"
+  ],
+  "OPTDEPENDS": [
+    "libfido2: FIDO/U2F support",
+    "sh: for ssh-copy-id and findssl.sh"
+  ],
+  "MAKEDEPENDS": [
+    "krb5",
+    "libedit",
+    "libxcrypt",
+    "linux-headers",
+    "openssl",
+    "pam",
+    "zlib"
+  ],
+  "REPO": "main"
+}

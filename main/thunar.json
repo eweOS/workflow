@@ -1,0 +1,50 @@
+{
+  "FILENAME": "thunar-4.20.2-1-aarch64.pkg.tar.zst",
+  "NAME": "thunar",
+  "BASE": "thunar",
+  "VERSION": "4.20.2-1",
+  "DESC": "Modern, fast and easy-to-use file manager for Xfce",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "1868107",
+  "ISIZE": "9182833",
+  "MD5SUM": "70be1e720ff03b433bd5690ee869ef37",
+  "SHA256SUM": "9c40251c2297a849be081371b5dd40faa074bbc5fcb3cad41cef7d66fc4a15d3",
+  "PGPSIG": "iF4EABYCAAYFAmfGl8IACgkQw1jnDXfq/1SHGAD/VMbOkpUVVFvU9+F8WMxHRpWYF3SBUMTuV0p+dADILqUA/i4s7U3tZrzOT9pS7h1bewDWIEuAVHvlV0GOYEnJiFQD",
+  "URL": "https://docs.xfce.org/xfce/thunar/start",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1741068692",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "desktop-file-utils",
+    "libexif",
+    "hicolor-icon-theme",
+    "libnotify",
+    "pcre2",
+    "exo",
+    "libxfce4util",
+    "libxfce4ui",
+    "libpng"
+  ],
+  "OPTDEPENDS": [
+    "catfish: file searching",
+    "gvfs: trash support, mounting with udisk and remote filesystems",
+    "tumbler: thumbnail previews",
+    "thunar-volman: removable device management",
+    "thunar-archive-plugin: archive creation and extraction",
+    "thunar-media-tags-plugin: view/edit ID3/OGG tags"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "gobject-introspection",
+    "xfce4-panel",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

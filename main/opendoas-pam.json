@@ -1,0 +1,36 @@
+{
+  "FILENAME": "opendoas-pam-6.8.2-2-aarch64.pkg.tar.zst",
+  "NAME": "opendoas-pam",
+  "BASE": "opendoas",
+  "VERSION": "6.8.2-2",
+  "DESC": "Run commands as super user or another user, with pam support",
+  "CSIZE": "23262",
+  "ISIZE": "37537",
+  "MD5SUM": "af099a55494cdab774eee44772c1469f",
+  "SHA256SUM": "a5b76071de855d35738c381ed537c21861d9c624a561ad40b2278d8ac5f55685",
+  "PGPSIG": "iF4EABYCAAYFAmcTwjIACgkQw1jnDXfq/1QwwgD6AwXLJpOBR+/or4Ssf1Hi2ohJ2C6DLQKgCRzplR5bAQMA/2iW/hwIlvY9XtHOhprinJHDPtCURSk8pxS0+li50I8A",
+  "URL": "https://github.com/Duncaen/OpenDoas",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729348139",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "doas"
+  ],
+  "DEPENDS": [
+    "pam"
+  ],
+  "CONFLICTS": [
+    "opendoas"
+  ],
+  "PROVIDES": [
+    "doas",
+    "opendoas"
+  ],
+  "MAKEDEPENDS": [
+    "pam"
+  ],
+  "REPO": "main"
+}

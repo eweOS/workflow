@@ -1,0 +1,41 @@
+{
+  "FILENAME": "krb5-1.22.1-1-aarch64.pkg.tar.zst",
+  "NAME": "krb5",
+  "BASE": "krb5",
+  "VERSION": "1.22.1-1",
+  "DESC": "The Kerberos network authentication system",
+  "CSIZE": "1453430",
+  "ISIZE": "4301279",
+  "MD5SUM": "beaad6305a3fbd38ce97a333ab16c500",
+  "SHA256SUM": "55d2c992d2f01ced837f446354c8f955784aa921588a8ff23e81dff01a82593c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMN/IgAKCRDDWOcNd+r/VPcyAQDBvK/jyEf8aZnJHVZtxRGjjJ5BbBwlxYuveXFursG1oQD+MeqUqdTibbLVthuL4S3bAXGCC49pVSmfrjYbiBpLwws=",
+  "URL": "https://web.mit.edu/kerberos/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1757642476",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "libverto",
+    "e2fsprogs",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libgssapi_krb5.so",
+    "libgssrpc.so",
+    "libk5crypto.so",
+    "libkadm5clnt_mit.so",
+    "libkadm5srv_mit.so",
+    "libkdb5.so",
+    "libkdb_ldap.so",
+    "libkrad.so",
+    "libkrb5.so",
+    "libkrb5support.so"
+  ],
+  "MAKEDEPENDS": [
+    "perl"
+  ],
+  "REPO": "main"
+}

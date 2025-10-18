@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libinput-gestures-2.76-1-any.pkg.tar.zst",
+  "NAME": "libinput-gestures",
+  "BASE": "libinput-gestures",
+  "VERSION": "2.76-1",
+  "DESC": "Actions gestures on your touchpad using libinput",
+  "CSIZE": "31113",
+  "ISIZE": "87360",
+  "MD5SUM": "70c7ccd3c57d41934366f70b89020eed",
+  "SHA256SUM": "1d410c88043bc2475bb2eb226b908315d29d7a12606035db13a88edea1019b90",
+  "PGPSIG": "iF4EABYCAAYFAmcTQD0ACgkQw1jnDXfq/1QZAQEAuO5iiO9oYmV7ri5qnSPzIZPGt0HNAl0eCljodh9WtWMA/3aAmlLzUgeshhZr+bFQDdcQF6ii7QHnO4LHB4uytT8M",
+  "URL": "https://github.com/bulletmark/libinput-gestures",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1729314882",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python>=3.5",
+    "libinput",
+    "hicolor-icon-theme"
+  ],
+  "OPTDEPENDS": [
+    "wmctrl: required for _internal command, as per default configuration"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "testing"
+}

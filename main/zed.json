@@ -1,0 +1,63 @@
+{
+  "FILENAME": "zed-0.191.6-2-aarch64.pkg.tar.zst",
+  "NAME": "zed",
+  "BASE": "zed",
+  "VERSION": "0.191.6-2",
+  "DESC": "A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter",
+  "CSIZE": "83702814",
+  "ISIZE": "246080999",
+  "MD5SUM": "f3a24c3c2cf7b5d8735c656b351b9047",
+  "SHA256SUM": "2c4bd6f4575dfa604fff1f34195f3c9df6d16e6aed7d7bb0e27327a13976ac3f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLcINgAKCRDDWOcNd+r/VOmAAP9kn+Lxs8gfvgFDbI1mURvuSVUJvLqLnLi3kjD88bF8bwD/RkJM9049aoAC6BeiBM04qWpnM9CZP0LSH+H4JXAwRgY=",
+  "URL": "https://zed.dev",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "AGPL-3.0-or-later",
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756822425",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "alsa-lib",
+    "curl",
+    "dbus",
+    "fontconfig",
+    "llvm-libs",
+    "libxkbcommon",
+    "musl",
+    "nodejs",
+    "openssl",
+    "pipewire",
+    "sqlite",
+    "vulkan-driver",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd"
+  ],
+  "OPTDEPENDS": [
+    "npm: improved JSON language support (needed to run json-language-server)",
+    "clangd: improved C/C++ language support",
+    "rust-analyzer: improved Rust language support",
+    "org.freedesktop.secrets: to keep you logged into your Zed account"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "clang",
+    "lld",
+    "cargo",
+    "cargo-about",
+    "cmake",
+    "git",
+    "gn",
+    "ninja",
+    "protobuf",
+    "libpulse",
+    "python-httplib2",
+    "linux-headers",
+    "bsd-compat-headers",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

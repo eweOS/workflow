@@ -1,0 +1,29 @@
+{
+  "FILENAME": "rav1e-0.7.1-3-aarch64.pkg.tar.zst",
+  "NAME": "rav1e",
+  "BASE": "rav1e",
+  "VERSION": "0.7.1-3",
+  "DESC": "An AV1 encoder focused on speed and safety",
+  "CSIZE": "3534708",
+  "ISIZE": "12746124",
+  "MD5SUM": "38b65e0ebc72523a82e1e0c1113f15e4",
+  "SHA256SUM": "493b9e2828600b84f8c1030277b3ef25e943c5cf983a1e9ee859c51b80e9a4ac",
+  "PGPSIG": "iF4EABYCAAYFAmcy+nYACgkQw1jnDXfq/1Qo6gD/ev3QhBGcfUus1eR/mgcRqxTRFf75BFdzkvugkcL2J4cA/RaH7e4a867RjX32MgvL5nTdVS+1CtRXszL2IdWi784F",
+  "URL": "https://github.com/xiph/rav1e/",
+  "LICENSE": [
+    "custom:BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1731393870",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "librav1e.so"
+  ],
+  "MAKEDEPENDS": [
+    "cargo-c",
+    "git",
+    "nasm",
+    "rust"
+  ],
+  "REPO": "main"
+}

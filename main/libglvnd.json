@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libglvnd-1.7.0-4-aarch64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-4",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "367267",
+  "ISIZE": "4150258",
+  "MD5SUM": "95fe169ca03fb3539fa4ee7df1f5b14c",
+  "SHA256SUM": "93209f43883398b7500c061e861a090c63d70336e8f40823e6cc49886831f59b",
+  "PGPSIG": "iF4EABYCAAYFAmcSBU0ACgkQw1jnDXfq/1QWXwD/Yl49Ft1i4vY427jDNxg0RGVOaaVBvNusi07dFbMIa7cBAMEWXCTnhHz58wLHTfs9q+eKt5GF88Gb6UBfG1PQIFoC",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1729234231",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "mesa"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "nss-3.117-1-aarch64.pkg.tar.zst",
+  "NAME": "nss",
+  "BASE": "nss",
+  "VERSION": "3.117-1",
+  "DESC": "Network Security Services",
+  "CSIZE": "1588315",
+  "ISIZE": "4239215",
+  "MD5SUM": "c7ce9906d4051ecfd1c51264908477f4",
+  "SHA256SUM": "3c8cea5b45c8ac63bea9fedd6327f54530cb87538f990dc15112b11073281a80",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaPEdtQAKCRDDWOcNd+r/VPRaAP9bbnOSMxE/ueHCooQM7fSgLkoaYKLyoMS3Sw5euZ5f5QEAiSkIXTyoa3+UhLhif7upI3nxF8TWdozabIBZ7Uq4pQs=",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760632354",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "nspr>=4.35",
+    "p11-kit>=0.23.19",
+    "sqlite",
+    "zlib",
+    "sh"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

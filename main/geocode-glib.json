@@ -1,0 +1,41 @@
+{
+  "FILENAME": "geocode-glib-3.26.4-2-aarch64.pkg.tar.zst",
+  "NAME": "geocode-glib",
+  "BASE": "geocode-glib",
+  "VERSION": "3.26.4-2",
+  "DESC": "Helper library for geocoding services",
+  "CSIZE": "122942",
+  "ISIZE": "880561",
+  "MD5SUM": "6b4dc11e689f9f17c607265550ebf321",
+  "SHA256SUM": "c78132e2b93f77186daaecf9289d4798dd23765f9ff86ed43cae02a0f8de5e64",
+  "PGPSIG": "iF4EABYCAAYFAmdT8RMACgkQw1jnDXfq/1S+qAD7BoyCbUf8Dn/J0FAUwUf7kM15VO3erbReMvEmThG93OkBAPJ4zXU13ElkpxOWDEtDhNvlmtN2duwOrB3qCDMrtswN",
+  "URL": "https://gitlab.gnome.org/GNOME/geocode-glib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733554644",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "json-glib",
+    "libsoup3"
+  ],
+  "PROVIDES": [
+    "libgeocode-glib-2.so",
+    "geocode-glib-2"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "json-glib",
+    "libsoup3",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "musl-locales"
+  ],
+  "REPO": "main"
+}

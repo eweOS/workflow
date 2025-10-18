@@ -1,0 +1,72 @@
+{
+  "FILENAME": "jdk23-openjdk-23.0.2.u7-1-aarch64.pkg.tar.zst",
+  "NAME": "jdk23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 development kit",
+  "CSIZE": "186913329",
+  "ISIZE": "336173724",
+  "MD5SUM": "40b636b49e15f07c22748b5d21e940d8",
+  "SHA256SUM": "23132775a8e267243afcee48137edc09b68aeb944bb9acfd6eeeeee17f5f4a72",
+  "PGPSIG": "iF4EABYCAAYFAmfk0bwACgkQw1jnDXfq/1SdMgEA39tjrJSDJQ7gA6kKbUdQ6mnlyJ17h22ZpHZAo3vLfl0BAMsA+PFMutdMtpKui9Lsinruo3CFwSz/vZIWJLHpSaoJ",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1743048271",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common",
+    "java-environment-common",
+    "hicolor-icon-theme",
+    "libelf",
+    "giflib",
+    "libpng",
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz"
+  ],
+  "CONFLICTS": [
+    "jre23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.2.u7-1",
+    "java-environment=23",
+    "java-environment-openjdk=23",
+    "jdk23-openjdk=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: for basic sound support",
+    "gtk3: for the Gtk+ 3 look and feel - desktop usage"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

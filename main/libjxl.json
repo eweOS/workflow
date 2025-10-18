@@ -1,0 +1,52 @@
+{
+  "FILENAME": "libjxl-0.11.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libjxl",
+  "BASE": "libjxl",
+  "VERSION": "0.11.1-1",
+  "DESC": "JPEG XL image format reference implementation",
+  "CSIZE": "3411737",
+  "ISIZE": "9307797",
+  "MD5SUM": "10a9697670d08615265416a11c0e487f",
+  "SHA256SUM": "c9b1da04d98debe6a88806bb78c213b30733e2575dee693d04e10c2e113145cf",
+  "PGPSIG": "iF4EABYCAAYFAmdicHYACgkQw1jnDXfq/1RWDgD/ZhbU+jUG21pmRkwi/fkXnsvUf+WQJ3v+T6I7xuy5RBYA/ikBtNHeg4+EvqWtV84Aq2Gemd0FITsDEqrlne3IizYN",
+  "URL": "https://jpeg.org/jpegxl/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1734502023",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli",
+    "giflib",
+    "highway",
+    "libjpeg-turbo",
+    "libpng"
+  ],
+  "PROVIDES": [
+    "libjxl.so",
+    "libjxl_cms.so",
+    "libjxl_threads.so"
+  ],
+  "OPTDEPENDS": [
+    "gdk-pixbuf2: for gdk-pixbuf loader",
+    "gimp: for gimp plugin",
+    "java-runtime: for JNI bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "brotli",
+    "gdk-pixbuf2",
+    "giflib",
+    "highway",
+    "libjpeg-turbo",
+    "libpng",
+    "gtest",
+    "python",
+    "asciidoc",
+    "graphviz",
+    "xdg-utils"
+  ],
+  "REPO": "main"
+}

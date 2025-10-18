@@ -1,0 +1,45 @@
+{
+  "FILENAME": "libnma-gtk3-1.10.6-2-aarch64.pkg.tar.zst",
+  "NAME": "libnma-gtk3",
+  "BASE": "libnma",
+  "VERSION": "1.10.6-2",
+  "DESC": "NetworkManager GUI client library (GTK3)",
+  "CSIZE": "120372",
+  "ISIZE": "494812",
+  "MD5SUM": "3f43da8d3892cd4dabc0b7bdb5243524",
+  "SHA256SUM": "ff2c46223fca6d98e557531be5ed6573df1e14841aaec5bc0b6e4a4b16127900",
+  "PGPSIG": "iF4EABYCAAYFAmdWm70ACgkQw1jnDXfq/1RM4QD+LepRiDqkhicgkL4ScHPi9//Rz3c1Mt8+fiSaMZeD610BAMkMnTVUbkLVhZzDPqrnwo+8B2+5ZYSWxiFBQEgWGuQM",
+  "URL": "https://gitlab.gnome.org/GNOME/libnma",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733729403",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libnma-common=1.10.6-2",
+    "gtk3"
+  ],
+  "PROVIDES": [
+    "libnma.so",
+    "libnma"
+  ],
+  "MAKEDEPENDS": [
+    "dconf",
+    "gcr-4",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "gtk3",
+    "gtk4",
+    "iso-codes",
+    "libnm",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "mobile-broadband-provider-info",
+    "vala"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "gtk-doc-1.34.0-1-any.pkg.tar.gz",
+  "NAME": "gtk-doc",
+  "BASE": "gtk-doc",
+  "VERSION": "1.34.0-1",
+  "DESC": "Documentation tool for public library API",
+  "CSIZE": "794856",
+  "ISIZE": "3237956",
+  "MD5SUM": "d28c07795b31bb1193e6943ada38f038",
+  "SHA256SUM": "78e2d84c23e760af550aed251c848ab49966da764b101dc2a191990650311487",
+  "PGPSIG": "iF4EABYCAAYFAmbR8OMACgkQw1jnDXfq/1SldgEA9VDc4BCQCJmY7T4ykHz9+QbCr4zGauSjI+4abBt8YSQBAPBSffAuIKAWaJ/CfCGPfq18j98O1pSxKA7dLLm6OG4B",
+  "URL": "https://www.gtk.org/gtk-doc/",
+  "LICENSE": [
+    "GFDL-1.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1725035008",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "docbook-xml",
+    "docbook-xsl",
+    "glib2",
+    "glib2-docs",
+    "python-lxml",
+    "python-pygments"
+  ],
+  "OPTDEPENDS": [
+    "dblatex: PDF support"
+  ],
+  "MAKEDEPENDS": [
+    "yelp-tools",
+    "git",
+    "meson"
+  ],
+  "REPO": "main"
+}

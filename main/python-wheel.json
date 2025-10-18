@@ -1,0 +1,39 @@
+{
+  "FILENAME": "python-wheel-0.46.1-1-any.pkg.tar.zst",
+  "NAME": "python-wheel",
+  "BASE": "python-wheel",
+  "VERSION": "0.46.1-1",
+  "DESC": "A built-package format for Python",
+  "CSIZE": "57752",
+  "ISIZE": "217769",
+  "MD5SUM": "4c927ea0e62e3260b3c78b640a1b3f6d",
+  "SHA256SUM": "bee8930dbec2d559029dca7ccbd58fa44b585dd07c18047166776470b13c47a2",
+  "PGPSIG": "iF4EABYCAAYFAmgKaS8ACgkQw1jnDXfq/1QtwAD+IuJrKcs5WxUssoCGmEyTHnFBOaZejwLzYqaQBPANm/8BAKMW9d0jWNaSYg6aVuJ8KupwaKUJsVQfeWXQSQ63NSAE",
+  "URL": "https://pypi.python.org/pypi/wheel",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1745512950",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python-packaging"
+  ],
+  "OPTDEPENDS": [
+    "python-keyring: for wheel.signatures",
+    "python-xdg: for wheel.signatures"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "python-jsonschema",
+    "python-pytest",
+    "python-xdg",
+    "python-pytest-cov",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

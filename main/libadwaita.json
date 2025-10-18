@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libadwaita-1.8.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libadwaita",
+  "BASE": "libadwaita",
+  "VERSION": "1.8.1-1",
+  "DESC": "Building blocks for modern adaptive GNOME applications",
+  "CSIZE": "907338",
+  "ISIZE": "5388646",
+  "MD5SUM": "811a15bf23775f3819b81935e17c63e8",
+  "SHA256SUM": "c59a216030b93f0fea1f54f61a0afb0c9e5f49c4935ffc2efc8851b0b7ee6e89",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO0MKQAKCRDDWOcNd+r/VBsTAP0V8wuxAriHGYealof7GHlHlcI+4Qy4NCmozY66Mvy95gEAtFYf0O1cMka/ysP2alKAoOUiTOiRfL/Rvy1kNNafWQg=",
+  "URL": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760365550",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "appstream",
+    "fribidi",
+    "glib",
+    "graphene",
+    "gtk4",
+    "pango"
+  ],
+  "PROVIDES": [
+    "libadwaita-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "sassc",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

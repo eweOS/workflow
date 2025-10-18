@@ -1,0 +1,31 @@
+{
+  "FILENAME": "spirv-llvm-translator-20.1.2-2-aarch64.pkg.tar.zst",
+  "NAME": "spirv-llvm-translator",
+  "BASE": "spirv-llvm-translator",
+  "VERSION": "20.1.2-2",
+  "DESC": "Tool and a library for bi-directional translation between SPIR-V and LLVM IR",
+  "CSIZE": "1124360",
+  "ISIZE": "4180925",
+  "MD5SUM": "f881cb69a8fd9d4a634863ccfa96d2c2",
+  "SHA256SUM": "5137ec46b7dc13fe384103d181e8a6ca8ba38eef83ebc5c646e1f3ae8ec9e0d3",
+  "PGPSIG": "iF4EABYCAAYFAmhdJiUACgkQw1jnDXfq/1RkVwEAjj/YIS0HYx8cdpq4TMOIN5Q0AQpgEOWD7YC1X3RvGCMA/3jiViu5psd8TLtpcx/2X8dCEy0dfCuLk81ge7WxzYoJ",
+  "URL": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1750935471",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "spirv-tools"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "llvm-devel",
+    "spirv-headers",
+    "llvm-lto",
+    "git"
+  ],
+  "REPO": "main"
+}

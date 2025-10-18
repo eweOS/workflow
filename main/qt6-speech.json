@@ -1,0 +1,39 @@
+{
+  "FILENAME": "qt6-speech-6.9.1-2-aarch64.pkg.tar.zst",
+  "NAME": "qt6-speech",
+  "BASE": "qt6-speech",
+  "VERSION": "6.9.1-2",
+  "DESC": "Qt Speech support",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "143210",
+  "ISIZE": "521021",
+  "MD5SUM": "fa3b290f479b8f4d2d249e1f189366c1",
+  "SHA256SUM": "4670d1b2de95a4e7cb01fff230c99426cc9aba35360bf0c51e1f20641c64a682",
+  "PGPSIG": "iF4EABYCAAYFAmhejw0ACgkQw1jnDXfq/1S/pAD/XVHQNbpFP9rVzmuAFAvOpsmes85FFeVlMm67C9neivQBAJFAdjHmzufo9qd+d7zRIreuasUQhLt8MPe3LcpwOkoI",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751027922",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-multimedia"
+  ],
+  "OPTDEPENDS": [
+    "flite: flite TTS backend",
+    "speech-dispatcher: speech-dispatcher TTS backend",
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flite",
+    "git",
+    "ninja",
+    "qt6-declarative"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libxslt-1.1.43-2-aarch64.pkg.tar.zst",
+  "NAME": "libxslt",
+  "BASE": "libxslt",
+  "VERSION": "1.1.43-2",
+  "DESC": "XML stylesheet transformation library",
+  "CSIZE": "225820",
+  "ISIZE": "781148",
+  "MD5SUM": "014965041a372bbff72c1b1409d98831",
+  "SHA256SUM": "a37a20cf5675a6b43c22fcb5dc740006888ff2bb47b0ccc78e68787e03b4bdc8",
+  "PGPSIG": "iF4EABYCAAYFAmgqpzUACgkQw1jnDXfq/1QuwwD+PgQzX/X6rgXgMuvNhWFGk3yenvkHOMLWVu7XTZeGVeoA/2heRc2+eu8dtBRM5csh2QXAky9QY/maEOfIAE3IU3AM",
+  "URL": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747626065",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libgcrypt",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxslt.so",
+    "libexslt.so"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "docbook-xml"
+  ],
+  "REPO": "main"
+}

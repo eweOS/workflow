@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-77.1-1-aarch64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "77.1-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "14817505",
+  "ISIZE": "43188490",
+  "MD5SUM": "7d8e903d34681bd33689c6613ea50ab7",
+  "SHA256SUM": "b9d8eea678fe0a9e9db3f741071950c6470f08d5b3b8e969b8e606f8a1f208d6",
+  "PGPSIG": "iF4EABYCAAYFAmgBvQoACgkQw1jnDXfq/1Qm3QD/RfFhWo5de4X+w/UPjPwgD4TXhfYKwOgt101/whWx+4sA/jhJ4dJBkWFpp3hoOlqLDMC9GRh78DGysooIrt/HZKcK",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1744944099",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

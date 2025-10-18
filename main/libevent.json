@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libevent-2.1.12-6-aarch64.pkg.tar.zst",
+  "NAME": "libevent",
+  "BASE": "libevent",
+  "VERSION": "2.1.12-6",
+  "DESC": "Event notification library",
+  "CSIZE": "323953",
+  "ISIZE": "1120759",
+  "MD5SUM": "f93c07c321a8ec38a29628969cb94e2a",
+  "SHA256SUM": "6b17a14ba97d8aecc5e05239359e80f7f3fcad790b23ec721061c28a0439468f",
+  "PGPSIG": "iF4EABYCAAYFAmduP5wACgkQw1jnDXfq/1RGXAD9FNcdxC00Mmml5StZQYa9axXlTvmYSHJrP90XEpL8DBMA/3BW4kfuCdh00fULr8WbCwx+OHauVtAQ1++oga4xeUwL",
+  "URL": "https://libevent.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1735278745",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libevent-2.1.so",
+    "libevent_core-2.1.so",
+    "libevent_extra-2.1.so",
+    "libevent_openssl-2.1.so",
+    "libevent_pthreads-2.1.so"
+  ],
+  "OPTDEPENDS": [
+    "python: event_rpcgen.py"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "zlib"
+  ],
+  "REPO": "main"
+}

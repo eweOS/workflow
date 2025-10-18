@@ -1,0 +1,43 @@
+{
+  "FILENAME": "bpftool-6.14.6-2-aarch64.pkg.tar.zst",
+  "NAME": "bpftool",
+  "BASE": "linux-tools",
+  "VERSION": "6.14.6-2",
+  "DESC": "Inspection and simple manipulation of eBPF programs and maps",
+  "GROUPS": [
+    "linux-tools"
+  ],
+  "CSIZE": "912847",
+  "ISIZE": "1954099",
+  "MD5SUM": "2791df21f20d767645ce4b6e4d09054f",
+  "SHA256SUM": "afd9435c681aaded568f00acb65079888306c0b341c78074dc7fdc749ac09a89",
+  "PGPSIG": "iF4EABYCAAYFAmgoQsAACgkQw1jnDXfq/1QjwQD/VwEVQr/u6Esk+Z/U+nnhaqI9PqC2e4ouVEd8n2IB8k4A/iC0JzHIB+1mlOv7RSGvCG9HgZkCZFyL8zcQbwrDpvEA",
+  "URL": "https://www.kernel.org",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747469265",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "zlib",
+    "libelf",
+    "libcap",
+    "zstd",
+    "llvm-libs"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "asciidoc",
+    "xmlto",
+    "readline",
+    "zlib",
+    "libcap",
+    "libelf",
+    "python-docutils",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

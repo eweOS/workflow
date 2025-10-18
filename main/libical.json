@@ -1,0 +1,37 @@
+{
+  "FILENAME": "libical-3.0.20-3-aarch64.pkg.tar.zst",
+  "NAME": "libical",
+  "BASE": "libical",
+  "VERSION": "3.0.20-3",
+  "DESC": "Implementation of iCalendar protocols and data formats",
+  "CSIZE": "786126",
+  "ISIZE": "7330403",
+  "MD5SUM": "9cb934c06f838f9842d91ed1d1e22fcf",
+  "SHA256SUM": "8d67e8f6c82f96ef8b13385b7e97342d04b4c3d8fc40516d0652f26d429f3daa",
+  "PGPSIG": "iF4EABYCAAYFAmgqp5UACgkQw1jnDXfq/1T5lAEAvMeRtUjdJh5HJQVQk7c236O9+kW94j3btiqGmXSd4a0A/jZoHlFEXCTAiSvZvbFJEgl2NdZX5hp6J0FhOkZ8AJgC",
+  "URL": "https://github.com/libical/libical",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747626137",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib2",
+    "icu",
+    "libxml2"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "ninja",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-gobject",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

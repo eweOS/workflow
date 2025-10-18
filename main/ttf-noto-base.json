@@ -1,0 +1,35 @@
+{
+  "FILENAME": "ttf-noto-base-2025.05.01-3-any.pkg.tar.zst",
+  "NAME": "ttf-noto-base",
+  "BASE": "font-noto",
+  "VERSION": "2025.05.01-3",
+  "DESC": "Google Noto TTF fonts (Base)",
+  "CSIZE": "6226",
+  "ISIZE": "11357",
+  "MD5SUM": "6e719bfd81a3359f2a7c2aec1b834b1d",
+  "SHA256SUM": "bce78a8bbaafee79f0b729b5dc9c38eb7a66313bfc56d11c97a75f52fa2c9927",
+  "PGPSIG": "iF4EABYCAAYFAmikQLwACgkQw1jnDXfq/1RbDwEAmaZJT2hbNXEO4BbXuC8gOF+QtLgNo6o5QM41LwbPq5MBAJJnn3cBIsG3zMCAxDR7T4jVOa+Al1BnfMhXwYWm9A0G",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1755595609",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ttf-noto-sans",
+    "ttf-noto-sans-mono",
+    "ttf-noto-serif"
+  ],
+  "PROVIDES": [
+    "font-base",
+    "font-noto-base"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-extra: additional characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

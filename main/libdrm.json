@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libdrm-2.4.126-1-aarch64.pkg.tar.zst",
+  "NAME": "libdrm",
+  "BASE": "libdrm",
+  "VERSION": "2.4.126-1",
+  "DESC": "Userspace interface to kernel DRM services",
+  "CSIZE": "324053",
+  "ISIZE": "1060818",
+  "MD5SUM": "1e3d839e0cef2949dea0caa1843741a6",
+  "SHA256SUM": "ff392c926a60c89d5e4800446b85d59aaf3be799e1584e62996f60561243ef0e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaO38ZgAKCRDDWOcNd+r/VHApAP9n3lHhXe8Yu0UwOnQSdurLPjr0sjqwNhR7jLHD5t9zwQD/ZaIODq1URcqG73wwzebMHFeNbYu1YZvENpbPh+w0BgI=",
+  "URL": "https://dri.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1760427283",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libpciaccess"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-uapi-headers"
+  ],
+  "CHECKDEPENDS": [
+    "cairo"
+  ],
+  "REPO": "main"
+}

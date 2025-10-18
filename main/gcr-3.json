@@ -1,0 +1,47 @@
+{
+  "FILENAME": "gcr-3-3.41.2-2-aarch64.pkg.tar.zst",
+  "NAME": "gcr-3",
+  "BASE": "gcr-3",
+  "VERSION": "3.41.2-2",
+  "DESC": "A library for bits of crypto UI and parsing",
+  "CSIZE": "901753",
+  "ISIZE": "4007568",
+  "MD5SUM": "94f9b7b5971bd98876c3be8f5f03347d",
+  "SHA256SUM": "1c9709b2bc3c864a43900fac970357658a824f4de4cbb619ebde9f053b4a2d93",
+  "PGPSIG": "iF4EABYCAAYFAmdT8TYACgkQw1jnDXfq/1TYugEAlvbPkM5mqpK2c+bu0iiUxNPExZ8DGD1zwPxwOFIBuhMBANqlwU4xaScD4t04UOT1mREIwelodheHX+vObFoUvVcC",
+  "URL": "https://gitlab.gnome.org/GNOME/gcr",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1733554605",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "hicolor-icon-theme",
+    "libgcrypt",
+    "libp11-kit",
+    "libsecret",
+    "pango"
+  ],
+  "PROVIDES": [
+    "gcr",
+    "libgck-1.so",
+    "libgcr-base-3.so",
+    "libgcr-ui-3.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "libxslt",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

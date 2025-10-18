@@ -1,0 +1,35 @@
+{
+  "FILENAME": "bird2-2.17.1-1-aarch64.pkg.tar.zst",
+  "NAME": "bird2",
+  "BASE": "bird2",
+  "VERSION": "2.17.1-1",
+  "DESC": "RIP, OSPF, BGP, MPLS, BFD, Babel routing daemon",
+  "CSIZE": "509574",
+  "ISIZE": "1233557",
+  "MD5SUM": "4a5a81f34d9d7b9bb88e2ebe0be3cbb0",
+  "SHA256SUM": "74bc77d83c5d5c97979ce3f731feadbe2af3c41030e120daf845829ddb6f3049",
+  "PGPSIG": "iF4EABYCAAYFAmhetxIACgkQw1jnDXfq/1R6NwD/ceZGGyZbD2h1rLa0Xc6qSteJZWoiAttVavWHgj2rMY8A/1jUU/AnYYuIjhSsdaXCrNxExUZZrKJwXVBf0S2sYBMF",
+  "URL": "https://bird.network.cz/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751038177",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "ncurses",
+    "libssh2"
+  ],
+  "CONFLICTS": [
+    "bird"
+  ],
+  "PROVIDES": [
+    "bird"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

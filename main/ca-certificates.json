@@ -1,0 +1,36 @@
+{
+  "FILENAME": "ca-certificates-20240618-1-any.pkg.tar.gz",
+  "NAME": "ca-certificates",
+  "BASE": "ca-certificates",
+  "VERSION": "20240618-1",
+  "DESC": "Common CA certificates (default providers)",
+  "CSIZE": "1770",
+  "ISIZE": "0",
+  "MD5SUM": "6e5b758835df8976637fcff409224666",
+  "SHA256SUM": "be3417db8002a229f906ef6e11e8fa0d71c045a46014a8ab055e3243e2bfc2c5",
+  "PGPSIG": "iF4EABYCAAYFAmah/OMACgkQw1jnDXfq/1RjRwEAxOh4npqIAaJj49xvdTlfGLMVEuIIeWBbRhNzVp6dXkQBAO9rGXr7JIJwOJZFK8jJqQC1y3FvoE1uPYDwTwPe40MD",
+  "URL": "https://src.fedoraproject.org/rpms/ca-certificates",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1721892189",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "ca-certs"
+  ],
+  "DEPENDS": [
+    "ca-certificates-mozilla"
+  ],
+  "CONFLICTS": [
+    "ca-certs"
+  ],
+  "PROVIDES": [
+    "ca-certs"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "p11-kit"
+  ],
+  "REPO": "main"
+}

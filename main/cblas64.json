@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cblas64-3.12.1-1-aarch64.pkg.tar.zst",
+  "NAME": "cblas64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-1",
+  "DESC": "C interface to BLAS (64-bit integers)",
+  "CSIZE": "46058",
+  "ISIZE": "198904",
+  "MD5SUM": "adf53f006be1ba4c740a9ec32867c197",
+  "SHA256SUM": "138ada89a4e1cb5983e499d761f608fd0ec82d0456b0dffdc3df7e89ff52a48a",
+  "PGPSIG": "iF4EABYCAAYFAmd/66kACgkQw1jnDXfq/1Tc4QEAuUkkVraJScgmCPb1qlZ61goYenv4tn78DclqZKf+dwwBAJWpnTntrX7N66EpLQAxbD9i0JBlIRzFVWpArsjHBwUO",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1736436722",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "blas64"
+  ],
+  "OPTDEPENDS": [
+    "cblas: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

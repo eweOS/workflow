@@ -1,0 +1,41 @@
+{
+  "FILENAME": "wasi-llvm-libs-20.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "wasi-llvm-libs",
+  "BASE": "wasi-llvm-libs",
+  "VERSION": "20.1.8-1",
+  "DESC": "LLVM runtime libraries for WASI platform",
+  "CSIZE": "3209270",
+  "ISIZE": "18348354",
+  "MD5SUM": "e8ec8d366a9d6af563def8bfc9db9a4a",
+  "SHA256SUM": "57c8e0ca06579a273a1977ad506176d307acb902c14a6203b69b1a064975cf18",
+  "PGPSIG": "iF4EABYCAAYFAmiqgpQACgkQw1jnDXfq/1Ty+gEA456JeLeXIFriioNFV1iQjHXlP7gyS7EEPxZgXhXqxTwA/0rTSbixP+k9bmyhCuuSrO89KrZNXXSGBYDYaNkoiGAI",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756005701",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "CONFLICTS": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "PROVIDES": [
+    "wasi-compiler-rt",
+    "wasi-libc++",
+    "wasi-libc++abi"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "wasi-libc",
+    "python"
+  ],
+  "REPO": "main"
+}

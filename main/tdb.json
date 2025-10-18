@@ -1,0 +1,31 @@
+{
+  "FILENAME": "tdb-1.4.14-1-aarch64.pkg.tar.zst",
+  "NAME": "tdb",
+  "BASE": "tdb",
+  "VERSION": "1.4.14-1",
+  "DESC": "Trivial Database similar to GDBM but allows simultaneous commits",
+  "CSIZE": "79440",
+  "ISIZE": "197837",
+  "MD5SUM": "66744a7a6b43a920b555f21bab0c89f3",
+  "SHA256SUM": "7fab99610c38cb673fec075d147684a37a712f24e30c1f15597937c17d001432",
+  "PGPSIG": "iF4EABYCAAYFAmiZU3wACgkQw1jnDXfq/1RyYAEAoko0DIFZ6C3KRRnMKmgdTOvCJuXrfdvLcluZfJadLjABANmkurR0zeuT54U4LGggQxY17DmXT0H5iisLgmRWk0MG",
+  "URL": "https://tdb.samba.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1754879461",
+  "PACKAGER": "nyaacho <nyaacho@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libtdb.so"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

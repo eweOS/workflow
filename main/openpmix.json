@@ -1,0 +1,39 @@
+{
+  "FILENAME": "openpmix-5.0.8-1-aarch64.pkg.tar.zst",
+  "NAME": "openpmix",
+  "BASE": "openpmix",
+  "VERSION": "5.0.8-1",
+  "DESC": "Extended version of the PMI standard",
+  "CSIZE": "956771",
+  "ISIZE": "3622073",
+  "MD5SUM": "9b7e9ec4dc53879ce7275990ca0270d9",
+  "SHA256SUM": "10904408f83e222462722f2840e424357bc7114c854828cab1f474cf7538ce13",
+  "PGPSIG": "iF4EABYCAAYFAmgphugACgkQw1jnDXfq/1QCYwEA30WATD+rOFlhd3yXrRh0vqQGbUZXWG7VHI+9LjOM0LIA/RnJcMWfdldYZ/t4Lyv/b7t59MnQc2Ebc2yUW1z31YwN",
+  "URL": "https://github.com/openpmix/openpmix",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1747552189",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "curl",
+    "hwloc",
+    "jansson",
+    "libevent",
+    "zlib",
+    "curl"
+  ],
+  "PROVIDES": [
+    "libpmix.so",
+    "pmix"
+  ],
+  "MAKEDEPENDS": [
+    "perl",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "openpmix"
+  ],
+  "REPO": "main"
+}
