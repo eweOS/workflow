@@ -1,0 +1,36 @@
+{
+  "FILENAME": "ca-certificates-20240618-1-any.pkg.tar.gz",
+  "NAME": "ca-certificates",
+  "BASE": "ca-certificates",
+  "VERSION": "20240618-1",
+  "DESC": "Common CA certificates (default providers)",
+  "CSIZE": "1782",
+  "ISIZE": "0",
+  "MD5SUM": "fb46a03f8b9809c25a0a51ecbafd7c82",
+  "SHA256SUM": "1339d3cb860bad570426780148d73ab92a0b01116bb3bb1c08e7101b2a832088",
+  "PGPSIG": "iF4EABYCAAYFAmah/N4ACgkQw1jnDXfq/1TYsQD/ZLUMukBvPh5uubTMsbmIkvnAzoYjZ0FH9M1lt6Z55OQBALitgNIBn0XAQdwP6uP4lJbn+XF5LT78dntJ14N4kyYG",
+  "URL": "https://src.fedoraproject.org/rpms/ca-certificates",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1721892185",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "ca-certs"
+  ],
+  "DEPENDS": [
+    "ca-certificates-mozilla"
+  ],
+  "CONFLICTS": [
+    "ca-certs"
+  ],
+  "PROVIDES": [
+    "ca-certs"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "p11-kit"
+  ],
+  "REPO": "main"
+}

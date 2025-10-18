@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libftdi-1.5-3-x86_64.pkg.tar.zst",
+  "NAME": "libftdi",
+  "BASE": "libftdi",
+  "VERSION": "1.5-3",
+  "DESC": "An open source library to talk to FTDI chips.",
+  "CSIZE": "48823",
+  "ISIZE": "116978",
+  "MD5SUM": "4d97cc4d2b7b42537894662c0d0893ac",
+  "SHA256SUM": "0c5bbceae5834d40da3fd5603b437722bd801c1ab36c73f23d473c2364e6283b",
+  "PGPSIG": "iF4EABYCAAYFAmcthhAACgkQw1jnDXfq/1ShbwEAzKY0tx11Ikyt5Cqa8m4n5VnwpVUxVGB9lSOQ2UQAywkBAJVPXEoNv/+aNAORxbJuEWrWFlEjipZZxqRzMT/ISLMD",
+  "URL": "https://www.intra2net.com/en/developer/libftdi",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1731036771",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libftdi1.so",
+    "libftdipp1.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "boost",
+    "boost-libs"
+  ],
+  "REPO": "main"
+}

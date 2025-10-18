@@ -1,0 +1,32 @@
+{
+  "FILENAME": "ntbtls-0.3.2-3-x86_64.pkg.tar.zst",
+  "NAME": "ntbtls",
+  "BASE": "ntbtls",
+  "VERSION": "0.3.2-3",
+  "DESC": "Not Too Bad TLS library",
+  "CSIZE": "42767",
+  "ISIZE": "89105",
+  "MD5SUM": "9a99a359b5a424a01302fe10b7d18bcd",
+  "SHA256SUM": "fb5e0bdb385cf4c92addf7f355440e94ab462a1b720ff7bf383dcaca49f9e9ae",
+  "PGPSIG": "iF4EABYCAAYFAmcR5zYACgkQw1jnDXfq/1TteQD/QH/JS6YuWt0derzabr0HTqzMM4zkshbq3AGw6so/Ti8A/jpNoD4fiYC3F8iycNyfTCfJNaPhT4Uzpi0FG9tF8JIJ",
+  "URL": "https://wiki.gnupg.org/NTBTLS",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729226521",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libgcrypt",
+    "libgpg-error",
+    "libksba"
+  ],
+  "PROVIDES": [
+    "libntbtls.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

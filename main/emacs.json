@@ -1,0 +1,69 @@
+{
+  "FILENAME": "emacs-30.2-1-x86_64.pkg.tar.zst",
+  "NAME": "emacs",
+  "BASE": "emacs",
+  "VERSION": "30.2-1",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor",
+  "CSIZE": "55947805",
+  "ISIZE": "130695114",
+  "MD5SUM": "39a7e411196eb01e6502925b82238fb5",
+  "SHA256SUM": "13bcba045404013024f67e24743afbe594435e27356e2a4a971a2ffc3256d7df",
+  "PGPSIG": "iF0EABYCAAYFAmie99sACgkQw1jnDXfq/1SmhwD4lltMw55JygaAI/JfYV7S2hsMmHZhFuutZkLJ63JuKAEAqPhhbTRpV1u249rCGKE8ebpqsR9pYbk8/uvlRceijgM=",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755248961",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "texinfo",
+    "linux-headers",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "REPO": "main"
+}

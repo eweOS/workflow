@@ -1,0 +1,35 @@
+{
+  "FILENAME": "bird2-2.17.1-1-x86_64.pkg.tar.zst",
+  "NAME": "bird2",
+  "BASE": "bird2",
+  "VERSION": "2.17.1-1",
+  "DESC": "RIP, OSPF, BGP, MPLS, BFD, Babel routing daemon",
+  "CSIZE": "505716",
+  "ISIZE": "1235029",
+  "MD5SUM": "104501d60b47a4a2de2ed7af5aaaf010",
+  "SHA256SUM": "656243166547022d125a5949a464798e289eb19420033f37087187aac1486aa8",
+  "PGPSIG": "iF4EABYCAAYFAmhetw0ACgkQw1jnDXfq/1RsTwD/Q9JBvA9wzkrOCUklkrUWfEMe5SAV77PpPLaJsR6kX2AA/1MHtc2Merd+mRxLFi/Znml+4DnZa0eXfB9gYXXo1m4F",
+  "URL": "https://bird.network.cz/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751038175",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "ncurses",
+    "libssh2"
+  ],
+  "CONFLICTS": [
+    "bird"
+  ],
+  "PROVIDES": [
+    "bird"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

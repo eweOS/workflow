@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libsndfile-1.2.2-3-x86_64.pkg.tar.zst",
+  "NAME": "libsndfile",
+  "BASE": "libsndfile",
+  "VERSION": "1.2.2-3",
+  "DESC": "Library for reading and writing files containing sampled sound",
+  "CSIZE": "307313",
+  "ISIZE": "762087",
+  "MD5SUM": "36b1b91ea8ccd6c4302ed5454ffd8818",
+  "SHA256SUM": "c40bc001b340552c587495f092d71a4cb6e9c7c257cf369d7a4b046dbbc06fce",
+  "PGPSIG": "iF4EABYCAAYFAmfWhKIACgkQw1jnDXfq/1SoeAD8D0Cy8yFOzsY3O6WWl9/vQ2t7WrzoSgFeaKGhupFqPuwA/36xoIyhUM3uK8KOBlqPm8zscLpzzK2DCcsHjshJFH4C",
+  "URL": "https://libsndfile.github.io/libsndfile/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1742111886",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libflac",
+    "libogg",
+    "libvorbis",
+    "libopus"
+  ],
+  "PROVIDES": [
+    "libsndfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "autoconf",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

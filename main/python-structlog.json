@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-structlog-25.4.0-1-any.pkg.tar.zst",
+  "NAME": "python-structlog",
+  "BASE": "python-structlog",
+  "VERSION": "25.4.0-1",
+  "DESC": "Structured Logging for Python",
+  "CSIZE": "142815",
+  "ISIZE": "702529",
+  "MD5SUM": "7d687556b1dfdc27728f9731bc259be7",
+  "SHA256SUM": "2790380b1e9e33957b4d5b3c380062ad996cce7cb2a29af7fc9c019a0ce06e2e",
+  "PGPSIG": "iF4EABYCAAYFAmhDtSAACgkQw1jnDXfq/1TNHgD+OjMT617olqQmaQTIAputTZmsNFohxeW6saivHEUBCmgBAIowCSjnWfyycrL+S0P/j6D/21LlGuUxh0dFbP/Sh4cD",
+  "URL": "https://www.structlog.org",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1749268139",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-greenlet: for greenlet support in structlog.threadlocal (deprecated)",
+    "python-twisted: for structlog.twisted",
+    "python-rich: for structlog.dev"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-installer",
+    "python-hatchling",
+    "python-hatch-vcs",
+    "python-hatch-fancy-pypi-readme"
+  ],
+  "REPO": "main"
+}

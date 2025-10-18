@@ -1,0 +1,72 @@
+{
+  "FILENAME": "jdk23-openjdk-23.0.2.u7-1-x86_64.pkg.tar.zst",
+  "NAME": "jdk23-openjdk",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 development kit",
+  "CSIZE": "189208326",
+  "ISIZE": "339896144",
+  "MD5SUM": "a2eec39207f22847ae5cdd9d6ef90f72",
+  "SHA256SUM": "d4657e475c31b9b7b2eb6a5d47cba31584651a9f003980cbb40e86ac904526ce",
+  "PGPSIG": "iF4EABYCAAYFAmfk0V4ACgkQw1jnDXfq/1R8agD+I72WwyKoxSiyddcoOXv+bEbGoqsK5XYvvpzUrGAZ9CsA/0wBgAqmD6xmAkKM8rfGNy48P/7V1Xq8876lxefezeYN",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1743048264",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common",
+    "java-environment-common",
+    "hicolor-icon-theme",
+    "libelf",
+    "giflib",
+    "libpng",
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz"
+  ],
+  "CONFLICTS": [
+    "jre23-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=23",
+    "java-runtime-openjdk=23",
+    "jre23-openjdk=23.0.2.u7-1",
+    "java-environment=23",
+    "java-environment-openjdk=23",
+    "jdk23-openjdk=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: for basic sound support",
+    "gtk3: for the Gtk+ 3 look and feel - desktop usage"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

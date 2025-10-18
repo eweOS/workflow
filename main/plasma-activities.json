@@ -1,0 +1,43 @@
+{
+  "FILENAME": "plasma-activities-6.4.4-1-x86_64.pkg.tar.zst",
+  "NAME": "plasma-activities",
+  "BASE": "plasma-activities",
+  "VERSION": "6.4.4-1",
+  "DESC": "Core components for KDE Activities",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "128707",
+  "ISIZE": "390330",
+  "MD5SUM": "36bc4475349f72da103bf1d080e70b8e",
+  "SHA256SUM": "45d2097e547b45fa1466de4836233b5e127c29a584ff8ba01a4e7c1919013cdc",
+  "PGPSIG": "iF4EABYCAAYFAmiiF/8ACgkQw1jnDXfq/1SktQEA38pCYgOTiBSeNht3D9PePHwChe1ZWmEzJoDsQTCMTcAA/jcg3ggK/gnElY++vkJ+irEopg2FEkxtqI1jHqjyOYYO",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755454134",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "kactivities"
+  ],
+  "DEPENDS": [
+    "kconfig",
+    "kcoreaddons",
+    "qt6-base"
+  ],
+  "CONFLICTS": [
+    "kactivities"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

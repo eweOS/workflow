@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-yaml-6.0.2-3-x86_64.pkg.tar.zst",
+  "NAME": "python-yaml",
+  "BASE": "python-yaml",
+  "VERSION": "6.0.2-3",
+  "DESC": "Python bindings for YAML, using fast libYAML library",
+  "CSIZE": "218353",
+  "ISIZE": "961017",
+  "MD5SUM": "12a19493a4329837735ff880dd283c23",
+  "SHA256SUM": "8dbb1b3feed0d2526f3ef9a5ebe065d7f348d8b987e7bbd7c0343433a2414040",
+  "PGPSIG": "iF4EABYCAAYFAmdP27sACgkQw1jnDXfq/1SHOAD9HvNir+cRsAFJKKC/RqUZrCsHMgi48EL9v8T1Jquw6yEA/ApFTYJQqgv500yg966bHzjSxDTXRFB6E+ilcj3HmQIN",
+  "URL": "https://github.com/yaml/pyyaml",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733287019",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libyaml",
+    "python"
+  ],
+  "PROVIDES": [
+    "python-pyyaml"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,46 @@
+{
+  "FILENAME": "openjdk23-src-23.0.2.u7-1-x86_64.pkg.tar.zst",
+  "NAME": "openjdk23-src",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 sources",
+  "CSIZE": "49940462",
+  "ISIZE": "53284361",
+  "MD5SUM": "c3382efb699d6174c9535048093e888a",
+  "SHA256SUM": "ec8a5c00ba46cfad7278d5b4e0e3f678bd089a880f0d241e6864dbaf1198a4a6",
+  "PGPSIG": "iF4EABYCAAYFAmfk0V8ACgkQw1jnDXfq/1S1cgEAzqRDRJXqTrCVWMFaCL9b6LDFaUeDKEjG2W3rbh+jWzwBAKKEf0tWPRC6qi7Lb6P1DG0Ndq09mK0j9tdbfMtpOD0L",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1743048264",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "jdk23-openjdk=23.0.2.u7-1"
+  ],
+  "PROVIDES": [
+    "openjdk23-src=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

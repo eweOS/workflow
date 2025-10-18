@@ -1,0 +1,33 @@
+{
+  "FILENAME": "network-manager-applet-1.36.0-2-x86_64.pkg.tar.zst",
+  "NAME": "network-manager-applet",
+  "BASE": "network-manager-applet",
+  "VERSION": "1.36.0-2",
+  "DESC": "Applet for managing network connections",
+  "CSIZE": "156121",
+  "ISIZE": "545169",
+  "MD5SUM": "90c07a073b4b4dfb18bfc415f3fae0e8",
+  "SHA256SUM": "6c3f4f9b8b87dcc9ddec09e412ac25a804b97fa5ea69f005b063f3a913c76ef0",
+  "PGPSIG": "iF4EABYCAAYFAmdWuH4ACgkQw1jnDXfq/1TZHgEA+5YOZCGE+DNH/7i1cuxlKYCWnxQIvBViFhywsmhLmKYBANW/nO29nu7oWkOtAEADghS0hXcjT5eZ/iHoFM3yDMkF",
+  "URL": "https://gitlab.gnome.org/GNOME/network-manager-applet",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733736776",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libnma",
+    "libsecret",
+    "networkmanager",
+    "nm-connection-editor"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

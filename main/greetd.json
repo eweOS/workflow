@@ -1,0 +1,31 @@
+{
+  "FILENAME": "greetd-0.10.3-6-x86_64.pkg.tar.zst",
+  "NAME": "greetd",
+  "BASE": "greetd",
+  "VERSION": "0.10.3-6",
+  "DESC": "Generic greeter daemon",
+  "CSIZE": "353275",
+  "ISIZE": "710686",
+  "MD5SUM": "834305e5f7b4832d5a127c9726e5e48a",
+  "SHA256SUM": "717006ac773b24cd1ce99bb0283d214991b5037d4a6266167a1d363ff2feb168",
+  "PGPSIG": "iF4EABYCAAYFAmdQH/0ACgkQw1jnDXfq/1ThxQEA8HOSJWzw+/+7F7pQWhBbrzx+R/nUD003fzz8OYgOFM4A/2+9SyNGWPnGbo5UiRiQRKOco74+1Nl4XUezA852c58F",
+  "URL": "https://git.sr.ht/~kennylevinsen/greetd",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733304476",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "greetd-agreety",
+    "pam"
+  ],
+  "OPTDEPENDS": [
+    "turnstile: user service and session manager support"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "pam"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,30 @@
+{
+  "FILENAME": "device-mapper-2.03.34-1-x86_64.pkg.tar.zst",
+  "NAME": "device-mapper",
+  "BASE": "lvm2",
+  "VERSION": "2.03.34-1",
+  "DESC": "Device mapper userspace library and tools",
+  "CSIZE": "288085",
+  "ISIZE": "672911",
+  "MD5SUM": "eb00f98a7b874f98999f62351b47e604",
+  "SHA256SUM": "98df3ca37c36eb3dcc3597c49c3a92828c28e5f77d0ae4c7940f9abdcab0fc64",
+  "PGPSIG": "iF4EABYCAAYFAmi2VE8ACgkQw1jnDXfq/1QcEgD/Zy0uyurYCQEPRiPR/jPMYAk6+uQa5payJWmA5PmgNaoBAO4CFK/vCP+scYHvp8qdZ/spwH5571E5R8sHGz+rSL8A",
+  "URL": "http://sourceware.org/dm/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756780335",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "PROVIDES": [
+    "libdevmapper.so",
+    "libdevmapper-event.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

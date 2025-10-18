@@ -1,0 +1,47 @@
+{
+  "FILENAME": "qt6-multimedia-6.9.1-1-x86_64.pkg.tar.zst",
+  "NAME": "qt6-multimedia",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.9.1-1",
+  "DESC": "Classes for audio, video, radio and camera functionality",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "15443035",
+  "ISIZE": "66815909",
+  "MD5SUM": "46d758162fd3e4b631eddb2d1230e2f7",
+  "SHA256SUM": "7c45cdf500bb437b138430492150f7b62b796ed27a8112b9f9299cc5efe99c6f",
+  "PGPSIG": "iF4EABYCAAYFAmhaXdwACgkQw1jnDXfq/1S1JwEAwqvcr7L1/bM+Ms8IAsnWmslPpUy9flgMFhxdAZ9uk4AA+wVaKie2/uL5ULmuh8dat3wkfzNZsYCAs5/PJtHDi9cJ",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750753092",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpulse",
+    "qt6-base",
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings",
+    "qt6-quick3d: for QtQuick3DAudio"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

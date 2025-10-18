@@ -1,0 +1,42 @@
+{
+  "FILENAME": "rust-1.88.0-1-x86_64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.88.0-1",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "98085007",
+  "ISIZE": "288129447",
+  "MD5SUM": "7567e00f17cdfad8363a43b6187bf271",
+  "SHA256SUM": "253ae9fe4f3f5dcfc171180ce610c2789df10caea0faad2baa8716f6a5741440",
+  "PGPSIG": "iF4EABYCAAYFAmh1EBEACgkQw1jnDXfq/1QetwEA9XYw1uIuBEao3gYHoCIulq//W3zp5qhD6Kz1sh+dN/MBAKG1khvlrx7VZxhuw7Q83suQhqSVRgbRiXEbxz/nZsEJ",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1752500719",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "musl-static",
+    "curl",
+    "libssh2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,57 @@
+{
+  "FILENAME": "libplasma-6.4.4-1-x86_64.pkg.tar.zst",
+  "NAME": "libplasma",
+  "BASE": "libplasma",
+  "VERSION": "6.4.4-1",
+  "DESC": "Plasma library and runtime components",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "2633715",
+  "ISIZE": "5769715",
+  "MD5SUM": "fb2c781ed4f2aac5068bc2ebd837d537",
+  "SHA256SUM": "2ae5f3550181363e7b9452b9a9fe49671a1fbd745e1d64ba5fa0f5a3196da081",
+  "PGPSIG": "iF4EABYCAAYFAmikHlEACgkQw1jnDXfq/1QPIgD+I5ETpDW3FyYXRJLzqyon/coVLL+sTM+XV8nXbHvxs04A/0YNUVIRch0y2FctaWm2OqFQTunyn5qXYl3Sz/FyOiEF",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755586809",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "REPLACES": [
+    "plasma-framework"
+  ],
+  "DEPENDS": [
+    "plasma-activities",
+    "kcmutils",
+    "kcolorscheme",
+    "kconfig",
+    "kcoreaddons",
+    "kglobalaccel",
+    "ki18n",
+    "kiconthemes",
+    "kio",
+    "kirigami",
+    "knotifications",
+    "kpackage",
+    "ksvg",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libglvnd",
+    "qt6-5compat",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "CONFLICTS": [
+    "plasma-framework"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "plasma-wayland-protocols",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

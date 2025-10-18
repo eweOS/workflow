@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-20.1.8-2-x86_64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-2",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "457814",
+  "ISIZE": "1152927",
+  "MD5SUM": "19fc9174332af0025acb229ab0b1eabf",
+  "SHA256SUM": "29b87302bf8784e2e9341a6389bd83a6abbe00cf22bf82758ab98fb6304934f7",
+  "PGPSIG": "iF4EABYCAAYFAmiqkS8ACgkQw1jnDXfq/1Q0bwEA2GoVmwP0pAnymiJfFhDq/IGTOoXXYKMUbjN5FRk7RDMBAPYNpW5NB6QVGIK313nhhGtYgzbtpTfgntQKw6Cjcw4J",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756005861",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

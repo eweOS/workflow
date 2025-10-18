@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libva-2.22.0-2-x86_64.pkg.tar.zst",
+  "NAME": "libva",
+  "BASE": "libva",
+  "VERSION": "2.22.0-2",
+  "DESC": "Video Acceleration (VA) API for Linux",
+  "CSIZE": "219160",
+  "ISIZE": "888703",
+  "MD5SUM": "1428840154caf64e9122ae1df2c953e4",
+  "SHA256SUM": "86484c49a06a9d5534bb73535e559dd28681bb7a337b0a0fdad5acb004e25d1a",
+  "PGPSIG": "iF4EABYCAAYFAmcTqxMACgkQw1jnDXfq/1RAVgEAtkPWaJDVB+39+00oIw8T1cznUZ2vq7javbUgJghptN8A/19ZMFr0Yuim0TiiGOIk0hCQ2OoCc2yBTOsOFI9dc9QL",
+  "URL": "https://01.org/linuxmedia/vaapi",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729342225",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libdrm",
+    "wayland"
+  ],
+  "PROVIDES": [
+    "libva-drm.so",
+    "libva-wayland.so",
+    "libva.so"
+  ],
+  "OPTDEPENDS": [
+    "intel-media-driver: backend for Intel GPUs (>= Broadwell)",
+    "libva-intel-driver: backend for Intel GPUs (<= Haswell)",
+    "libva-mesa-driver: backend for AMD and NVIDIA GPUs"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libglvnd",
+    "linux-headers",
+    "mesa",
+    "meson"
+  ],
+  "REPO": "main"
+}

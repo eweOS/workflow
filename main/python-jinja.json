@@ -1,0 +1,38 @@
+{
+  "FILENAME": "python-jinja-3.1.6-2-any.pkg.tar.zst",
+  "NAME": "python-jinja",
+  "BASE": "python-jinja",
+  "VERSION": "3.1.6-2",
+  "DESC": "A simple pythonic template language written in Python",
+  "CSIZE": "383992",
+  "ISIZE": "1850890",
+  "MD5SUM": "d56839b88551215a8fb88b9f950f791c",
+  "SHA256SUM": "c2ca9ccc0c5e895e02e432d3014cc548fe31c7eeff3cd98267edf42a184c50ca",
+  "PGPSIG": "iF4EABYCAAYFAmfTqO4ACgkQw1jnDXfq/1SmuAEAmMopH2cHYW0meDMyQ/+M2P7jf9FWxeIIYPD2nzzchssBAN77kXoVmXnp6omA896UI/ZfmgpHjRdwMTx3NBu4L+MG",
+  "URL": "https://palletsprojects.com/p/jinja/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1741924608",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-markupsafe"
+  ],
+  "OPTDEPENDS": [
+    "python-babel: for i18n support"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel",
+    "python-flit-core"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-trio"
+  ],
+  "REPO": "main"
+}

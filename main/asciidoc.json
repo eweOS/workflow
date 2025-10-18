@@ -1,0 +1,41 @@
+{
+  "FILENAME": "asciidoc-10.2.1-3-any.pkg.tar.zst",
+  "NAME": "asciidoc",
+  "BASE": "asciidoc",
+  "VERSION": "10.2.1-3",
+  "DESC": "Text document format for short documents, articles, books and UNIX man pages",
+  "CSIZE": "715937",
+  "ISIZE": "2458839",
+  "MD5SUM": "3b7e80918872cb94b740e81e8d576408",
+  "SHA256SUM": "ec33a4feda5a8c10aa4f67e803727a4fa82560d9f889a5cebe39f23fa8d1df23",
+  "PGPSIG": "iF4EABYCAAYFAmdP15IACgkQw1jnDXfq/1QDAwD+OxsPptpu9P9VHUzsHcTDGbywN4peUzEvjzDmOv8DhBsBAM5c4XstG0LjZzMyd2l6vyiqJoY20cgNeA+/8GLhcQQP",
+  "URL": "https://asciidoc-py.github.io",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1733285971",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "docbook-xsl",
+    "libxslt",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "graphviz: graphviz-filter",
+    "lilypond: music-filter",
+    "imagemagick: music-filter",
+    "source-highlight: source-highlight-filter",
+    "dblatex: pdf generation",
+    "fop: alternative pdf generation",
+    "w3m: text generation",
+    "lynx: alternative text generation"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

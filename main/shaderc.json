@@ -1,0 +1,33 @@
+{
+  "FILENAME": "shaderc-2025.3-1-x86_64.pkg.tar.zst",
+  "NAME": "shaderc",
+  "BASE": "shaderc",
+  "VERSION": "2025.3-1",
+  "DESC": "Collection of tools, libraries and tests for shader compilation",
+  "CSIZE": "265486",
+  "ISIZE": "759109",
+  "MD5SUM": "01b4c8fbb5db4459aad44d6228aaedc1",
+  "SHA256SUM": "518167e344e661eb498a536aaff1fc5afc9e601c88d805dc6ff635b37455b1ad",
+  "PGPSIG": "iF4EABYCAAYFAmiCP2UACgkQw1jnDXfq/1R46AD/fmq0+RbFkTf/forHhXSDSDKXFex3oUvXg3lMDsiDZM8A/2OsDM4cTYmL2kKd317S4FRiKgeVpC6beiL/gQ6xGLUH",
+  "URL": "https://github.com/google/shaderc",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1753366973",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glslang",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "libshaderc_shared.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "spirv-headers"
+  ],
+  "REPO": "main"
+}

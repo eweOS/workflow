@@ -1,0 +1,31 @@
+{
+  "FILENAME": "wl-clipboard-2.2.1-2-x86_64.pkg.tar.zst",
+  "NAME": "wl-clipboard",
+  "BASE": "wl-clipboard",
+  "VERSION": "2.2.1-2",
+  "DESC": "Command-line copy/paste utilities for Wayland",
+  "CSIZE": "35287",
+  "ISIZE": "104012",
+  "MD5SUM": "a148a6da2b43895f77ab5659c28f0c95",
+  "SHA256SUM": "76b89eaaeeb48857ae13ba88c3e4836be14f60e0f7dcd559f5afac7082b3dbc3",
+  "PGPSIG": "iF4EABYCAAYFAmdWmTgACgkQw1jnDXfq/1RRVgEA/e3T92hbKi7hynKdYf8jqeUzT36HiRHnuijldfNApBcA/RP2SMavPvjSbfwGC8604hTW+n58J6bVzsZr4HG9PN0I",
+  "URL": "https://github.com/bugaevc/wl-clipboard",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1733728784",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "xdg-utils: for content type inference in wl-copy",
+    "mailcap: for type inference in wl-paste"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

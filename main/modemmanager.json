@@ -1,0 +1,47 @@
+{
+  "FILENAME": "modemmanager-1.24.2-1-x86_64.pkg.tar.zst",
+  "NAME": "modemmanager",
+  "BASE": "modemmanager",
+  "VERSION": "1.24.2-1",
+  "DESC": "Mobile broadband modem management service",
+  "CSIZE": "616970",
+  "ISIZE": "1787749",
+  "MD5SUM": "dde54a699c7dbe41a66c0227cffee670",
+  "SHA256SUM": "9143ae3be8430566e863e39aab8c47de9d0fd1b8fc83f4c8ec462ff357508f30",
+  "PGPSIG": "iF4EABYCAAYFAmilm0MACgkQw1jnDXfq/1StNgEA0xdfwt3CkggXC7W9rCEd41UUTKjl4bjGepfvSN1fWFoBAI/vI823Q4f/0w1U3y0RGsNKPRHdNb+KvFSR8v+vysUC",
+  "URL": "https://www.freedesktop.org/wiki/Software/ModemManager/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755684280",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "dbus",
+    "llvm-libs",
+    "glib2",
+    "musl",
+    "hicolor-icon-theme",
+    "mobile-broadband-provider-info",
+    "libmm-glib=1.24.2-1",
+    "glib2"
+  ],
+  "OPTDEPENDS": [
+    "usb_modeswitch: install if your modem shows up as a storage drive"
+  ],
+  "MAKEDEPENDS": [
+    "bash-completion",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus",
+    "python-gobject"
+  ],
+  "REPO": "main"
+}

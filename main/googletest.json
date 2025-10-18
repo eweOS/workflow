@@ -1,0 +1,37 @@
+{
+  "FILENAME": "googletest-1.17.0-1-x86_64.pkg.tar.zst",
+  "NAME": "googletest",
+  "BASE": "googletest",
+  "VERSION": "1.17.0-1",
+  "DESC": "C++ testing utility based on the xUnit framework",
+  "CSIZE": "549385",
+  "ISIZE": "2128697",
+  "MD5SUM": "74ccf9778f20e4f7024a880bd5e7c043",
+  "SHA256SUM": "005e76bba13f956e1534c0e7e94ccdeca667f7d143f16d7d9e765c5e26c33bb2",
+  "PGPSIG": "iF4EABYCAAYFAmiTIvIACgkQw1jnDXfq/1QkGQD/R2E666dhZEU7WwlHa5+ujZ0a/YJIn7pblX2Wu9tlBsMA/AkAp9+hqHKJnfIYPSLHlAbXtETq9ZV+CF0h2Xdvx5YP",
+  "URL": "https://github.com/google/googletest",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754473816",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "gmock",
+    "gtest"
+  ],
+  "OPTDEPENDS": [
+    "python: gmock generator"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "cmake",
+    "llvm-libs",
+    "sh"
+  ],
+  "REPO": "main"
+}

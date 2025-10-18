@@ -1,0 +1,45 @@
+{
+  "FILENAME": "prismlauncher-9.4-1-x86_64.pkg.tar.zst",
+  "NAME": "prismlauncher",
+  "BASE": "prismlauncher",
+  "VERSION": "9.4-1",
+  "DESC": "Minecraft launcher with ability to manage multiple instances.",
+  "CSIZE": "5442918",
+  "ISIZE": "12141860",
+  "MD5SUM": "a567b2f173c3d7f76b1949b7bc8fb160",
+  "SHA256SUM": "d012cee42760fae65f4035812250a8ac7656dfb63ef4446a953a3fe8330d38fa",
+  "PGPSIG": "iF4EABYCAAYFAmgBDQwACgkQw1jnDXfq/1TcsgD/T/mVwGQl35KdVJSLOsOHn43yAjICLZAgRyfus3nsggABAMy+5N19p2IRAnqmDKBrsl1kiRx5nlNTbUo8pJlZqdQK",
+  "URL": "https://prismlauncher.org",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1744899215",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "java-runtime",
+    "qt6-base",
+    "qt6-svg",
+    "qt6-imageformats",
+    "qt6-networkauth",
+    "qt6-5compat",
+    "zlib",
+    "hicolor-icon-theme",
+    "tomlplusplus",
+    "cmark"
+  ],
+  "OPTDEPENDS": [
+    "glfw: to use system GLFW libraries",
+    "openal: to use system OpenAL libraries",
+    "visualvm: Profiling support"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment=23",
+    "cmake",
+    "extra-cmake-modules",
+    "git",
+    "scdoc",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

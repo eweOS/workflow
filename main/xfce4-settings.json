@@ -1,0 +1,43 @@
+{
+  "FILENAME": "xfce4-settings-4.20.2-1-x86_64.pkg.tar.zst",
+  "NAME": "xfce4-settings",
+  "BASE": "xfce4-settings",
+  "VERSION": "4.20.2-1",
+  "DESC": "Xfce's Configuration System",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "994030",
+  "ISIZE": "4724171",
+  "MD5SUM": "d2ed163abc3a2550f09f8ebe62f91b93",
+  "SHA256SUM": "bf766aa957312cc36fe58d82c355067fb8b26708b9cf985873ecb2c8a793ac13",
+  "PGPSIG": "iF4EABYCAAYFAmid8lsACgkQw1jnDXfq/1QrlQD/SoWApySD7t3Pl++J1/G147oGEwizNy0byFflBCmb6I8A/2ARs/bNBw8bSkuPFwvROqekfTIooK3D3Cq1OHttQgMM",
+  "URL": "https://docs.xfce.org/xfce/xfce4-settings/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755182343",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "exo",
+    "garcon",
+    "libxfce4ui",
+    "xfconf",
+    "libnotify",
+    "libcanberra",
+    "gtk-layer-shell"
+  ],
+  "OPTDEPENDS": [
+    "python: xfce4-compose-mail -- 'mailto:' URI handling",
+    "xiccd: for displays support in xfce4-color-settings",
+    "cups: for printers support in xfce4-color-settings",
+    "sane: for scanners support in xfce4-color-settings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

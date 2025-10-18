@@ -1,0 +1,35 @@
+{
+  "FILENAME": "lm_sensors-3.6.2-1-x86_64.pkg.tar.zst",
+  "NAME": "lm_sensors",
+  "BASE": "lm_sensors",
+  "VERSION": "3.6.2-1",
+  "DESC": "User space tools for general SMBus access and hardware monitoring",
+  "CSIZE": "149223",
+  "ISIZE": "448696",
+  "MD5SUM": "b6b866a77b6ef4a92c625757ed48e81c",
+  "SHA256SUM": "6dffec23ce227adc544f73ca918b608d46529956ce31769e1651fe7852bf8312",
+  "PGPSIG": "iF4EABYCAAYFAmhg4jsACgkQw1jnDXfq/1SwAQD/QzxXN/RhJJr7HtJf4cxPq8TDqtM/5JPgU2lAf1BQO6ABAISAar8h1fvwFAx5Jr4HAuU+j3cTPcS8cqrqmVftJuwE",
+  "URL": "https://github.com/hramrach/lm-sensors",
+  "LICENSE": [
+    "GPL-2.0-only OR LGPL-2.1-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751180325",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libsensors.so"
+  ],
+  "OPTDEPENDS": [
+    "rrdtool: for logging with sensord",
+    "perl: for sensor detection and configuration convert"
+  ],
+  "MAKEDEPENDS": [
+    "rrdtool",
+    "perl"
+  ],
+  "REPO": "main"
+}

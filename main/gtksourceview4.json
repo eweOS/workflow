@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gtksourceview4-4.8.4-4-x86_64.pkg.tar.zst",
+  "NAME": "gtksourceview4",
+  "BASE": "gtksourceview4",
+  "VERSION": "4.8.4-4",
+  "DESC": "A text editor widget for code editing",
+  "CSIZE": "1107259",
+  "ISIZE": "5640513",
+  "MD5SUM": "5089f36667c0a7e5afb7d2a37ae571c9",
+  "SHA256SUM": "96f9a31ec7afd468251e1721da7f1c20d58d8cef660e3d9afbe6a12657aef518",
+  "PGPSIG": "iF4EABYCAAYFAmgrWk0ACgkQw1jnDXfq/1Q5TwEA0qwmczuX0A78FbnrMj7JiqhEbhTDn2YLz6Z5hU2WEJcA/jAtd+G76Y7k+pANdHhRL83oQweS6IWqu/Tf62RIAt8A",
+  "URL": "https://wiki.gnome.org/Projects/GtkSourceView/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747671912",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "gtk3",
+    "libxml2",
+    "fribidi",
+    "pcre2"
+  ],
+  "PROVIDES": [
+    "libgtksourceview-4.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "vala"
+  ],
+  "REPO": "main"
+}

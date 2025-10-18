@@ -1,0 +1,41 @@
+{
+  "FILENAME": "xfce4-notifyd-0.9.7-1-x86_64.pkg.tar.zst",
+  "NAME": "xfce4-notifyd",
+  "BASE": "xfce4-notifyd",
+  "VERSION": "0.9.7-1",
+  "DESC": "Notification daemon for the Xfce desktop",
+  "GROUPS": [
+    "xfce4-goodies"
+  ],
+  "CSIZE": "253877",
+  "ISIZE": "956145",
+  "MD5SUM": "262d4edffe46d3564bfeb9ea4862713d",
+  "SHA256SUM": "b6164b1751a1c3befcab19f4fa109fbcc9b21a9f3e9c9f3abe522fc010a8de62",
+  "PGPSIG": "iF4EABYCAAYFAmfFdCkACgkQw1jnDXfq/1S8gQEAyCHiBSSErsnzOWX8bUD/OXAk3kzn2acCK6lSo+/vGU4BAKCK8NaS2ZpGvHMXCOJaNHV7zIMIK/pWtg3i6iANJCMB",
+  "URL": "https://docs.xfce.org/apps/notifyd/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1740994125",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libxfce4ui",
+    "libxfce4util",
+    "libnotify",
+    "xfconf",
+    "sqlite",
+    "libcanberra",
+    "hicolor-icon-theme"
+  ],
+  "PROVIDES": [
+    "notification-daemon"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-panel",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

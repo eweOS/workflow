@@ -1,0 +1,43 @@
+{
+  "FILENAME": "util-linux-libs-2.41.2-1-x86_64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.41.2-1",
+  "DESC": "util-linux runtime libraries",
+  "CSIZE": "508687",
+  "ISIZE": "1185866",
+  "MD5SUM": "465168bf8de9c6bb29610d124ea0cfb2",
+  "SHA256SUM": "f35de54d317bd2b15073457410a2d22ac82d3ea82541f4a2250130c199d45dfe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaOiKYwAKCRDDWOcNd+r/VHkcAQCb2dU8CDBdJAFwJs+c2ZBePNsYhLXL8QCGYK7jx0MIzwD9ETdgiKV2Uj2NNSU8xTV0ytEsYaV99cKjwKGc/F25rgA=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1760070249",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

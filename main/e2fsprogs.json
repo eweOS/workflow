@@ -1,0 +1,40 @@
+{
+  "FILENAME": "e2fsprogs-1.47.3-2-x86_64.pkg.tar.zst",
+  "NAME": "e2fsprogs",
+  "BASE": "e2fsprogs",
+  "VERSION": "1.47.3-2",
+  "DESC": "Ext2/3/4 filesystem utilities",
+  "CSIZE": "1438249",
+  "ISIZE": "5005806",
+  "MD5SUM": "0cc4d18a28b6b6476ccc5790e6274837",
+  "SHA256SUM": "ac39242b357db02e5349f92a2060961c484886d40d1705d792befc3167a1b462",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaLexpwAKCRDDWOcNd+r/VMH7AP9MKjMGbc3zK+aKpV1FC132h9fInM19iRH+8Vxx8r/I1QD/RTUd+/lA5qcDqBRQHcsUad6R8uuq4Df0YTpapGyU3w4=",
+  "URL": "http://e2fsprogs.sourceforge.net",
+  "LICENSE": [
+    "GPL",
+    "LGPL",
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756868993",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libcom_err.so",
+    "libe2p.so",
+    "libext2fs.so",
+    "libss.so"
+  ],
+  "OPTDEPENDS": [
+    "lvm2: for e2scrub",
+    "util-linux: for e2scrub",
+    "smtp-forwarder: for e2scrub_fail script"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

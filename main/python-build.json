@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-build-1.3.0-1-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.3.0-1",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "56822",
+  "ISIZE": "211998",
+  "MD5SUM": "6b7c500c72479c8e3b2e15066aefb4c9",
+  "SHA256SUM": "3485016b94061e068805880d36eb3e0dbfc47fdb76ec8eff8d5487a494daf4ca",
+  "PGPSIG": "iF4EABYCAAYFAmidrjcACgkQw1jnDXfq/1RI3wD+NXhhSJhZWiH0+O5cUxf2GXydZ1EqMfo5xjkGM06QScIBAJEeU9572TFU9EjKs1napuEYkz63GPSh3SFANVcBuoUE",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1755164918",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "REPO": "main"
+}

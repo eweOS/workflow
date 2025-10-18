@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libcanberra-0.30-2-x86_64.pkg.tar.zst",
+  "NAME": "libcanberra",
+  "BASE": "libcanberra",
+  "VERSION": "0.30-2",
+  "DESC": "A small and lightweight implementation of the XDG Sound Theme Specification",
+  "CSIZE": "74338",
+  "ISIZE": "261220",
+  "MD5SUM": "dd32a97d4b0e7fc315e57812311c6ce0",
+  "SHA256SUM": "95b5df6f6805feaa73d10dc7233bd4d16df6d679291aa18c9b7610d8bf018bb9",
+  "PGPSIG": "iF4EABYCAAYFAmcVzcgACgkQw1jnDXfq/1TUQQEAvA8Z/6vdTULovRTwVaihK2nOQsVBteg8SqZlMaBiQl0A/ifZiFI3apSeJLwsGsPwU5FfHoykNZdhh80iKz/O+ZUM",
+  "URL": "https://0pointer.net/lennart/projects/libcanberra/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729482179",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libvorbis",
+    "libltdl",
+    "alsa-lib",
+    "libpulse",
+    "tdb",
+    "sound-theme-freedesktop"
+  ],
+  "PROVIDES": [
+    "libcanberra-pulse",
+    "libcanberra.so",
+    "libcanberra-gtk3.so"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: canberra-gtk-play"
+  ],
+  "MAKEDEPENDS": [
+    "gtk-doc",
+    "gtk3",
+    "git"
+  ],
+  "REPO": "main"
+}

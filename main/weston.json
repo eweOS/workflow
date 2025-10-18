@@ -1,0 +1,41 @@
+{
+  "FILENAME": "weston-14.0.2-3-x86_64.pkg.tar.zst",
+  "NAME": "weston",
+  "BASE": "weston",
+  "VERSION": "14.0.2-3",
+  "DESC": "Reference implementation of a Wayland compositor",
+  "CSIZE": "1044794",
+  "ISIZE": "2419387",
+  "MD5SUM": "1cffc1765b023df0c0cc82c248095f2c",
+  "SHA256SUM": "a08cfa5650aa30e65b9fac03447264c5e9c4eeab7a7231c838da62e7c3e4bfdc",
+  "PGPSIG": "iF4EABYCAAYFAmirIv4ACgkQw1jnDXfq/1TwMAD/fFnHFim81CDrlJOVJmnV+Mo61rZdYzeKkUEEQREyckcBAK3wRXnPlpI/1paQAG2kizihMxPgGiGYrhbff3YyfrQA",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1756046790",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "wayland",
+    "libxkbcommon",
+    "libinput",
+    "pixman",
+    "libdrm",
+    "cairo",
+    "libpng",
+    "mesa",
+    "dbus",
+    "pam",
+    "seatd",
+    "libdisplay-info"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

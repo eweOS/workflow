@@ -1,0 +1,40 @@
+{
+  "FILENAME": "at-spi2-core-2.54.0-3-x86_64.pkg.tar.zst",
+  "NAME": "at-spi2-core",
+  "BASE": "at-spi2-core",
+  "VERSION": "2.54.0-3",
+  "DESC": "Protocol definitions and daemon for D-Bus at-spi",
+  "CSIZE": "708471",
+  "ISIZE": "3904655",
+  "MD5SUM": "f7b23e5379dada4275d7fdeb652b48a4",
+  "SHA256SUM": "ce32517acfd2f6281256ab2bb16abe6ffc1395a15034327e33cc46419276922d",
+  "PGPSIG": "iF4EABYCAAYFAmgqo0oACgkQw1jnDXfq/1RYmQD9GHSMymgL+0/5EkoM2/GlwVkB0TV9gdaza8Mo3OyJcmABAPFlbMqnm6DXCMMtqRDSr4NJonJALm+SOhqn6E4fBzMJ",
+  "URL": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747625068",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "dbus",
+    "glib",
+    "gsettings-desktop-schemas",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "at-spi2-atk=2.54.0-3",
+    "atk=2.54.0-3",
+    "libatk-1.0.so",
+    "libatk-bridge-2.0.so",
+    "libatspi.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "at-spi2-core"
+  ],
+  "REPO": "main"
+}

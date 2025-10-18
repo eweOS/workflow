@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libfdt-1.7.2-1-x86_64.pkg.tar.zst",
+  "NAME": "libfdt",
+  "BASE": "dtc",
+  "VERSION": "1.7.2-1",
+  "DESC": "The device-tree compiler",
+  "CSIZE": "38748",
+  "ISIZE": "120079",
+  "MD5SUM": "ab21f410ccb92c2f5ea500f94ddf4a58",
+  "SHA256SUM": "429d68f52e58a2e582b515dad906665101e6b7a7d1b652311105dcba520016d2",
+  "PGPSIG": "iF4EABYCAAYFAmcwk+cACgkQw1jnDXfq/1SY5AEAwZ60T606aCg5T+vIZPrKqpgFpd8MlBUiuPNGBjJc7cgA/0AUyIdo3f0Ktpezcexn70TTvgW2Jo46ShDShCrIzlUM",
+  "URL": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git/",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1731236928",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libfdt.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}

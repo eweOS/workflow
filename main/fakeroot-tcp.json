@@ -1,0 +1,39 @@
+{
+  "FILENAME": "fakeroot-tcp-1.37.1.2-1-x86_64.pkg.tar.zst",
+  "NAME": "fakeroot-tcp",
+  "BASE": "fakeroot",
+  "VERSION": "1.37.1.2-1",
+  "DESC": "Tool for simulating superuser privileges (TCP IPC)",
+  "GROUPS": [
+    "base-devel"
+  ],
+  "CSIZE": "33791",
+  "ISIZE": "72819",
+  "MD5SUM": "f43b28882172a8eeee8ad3be70a1e9ed",
+  "SHA256SUM": "93a86bdc51eac5c20064ed8b15188f267001a2c246963acecc604fb202f040d3",
+  "PGPSIG": "iF4EABYCAAYFAmgm/tsACgkQw1jnDXfq/1QtKwD/RyTuZ7Ytjp2JxJHM0RUvMtNlUj3vsEE6Ply8VzSvQCoA+wRiSyi24rEwKCefMoEW3B2KnGDRVofKTSRnWyccMR0F",
+  "URL": "https://tracker.debian.org/pkg/fakeroot",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1747386330",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "filesystem",
+    "util-linux"
+  ],
+  "CONFLICTS": [
+    "fakeroot"
+  ],
+  "PROVIDES": [
+    "fakeroot"
+  ],
+  "MAKEDEPENDS": [
+    "libcap",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

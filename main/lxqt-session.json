@@ -1,0 +1,42 @@
+{
+  "FILENAME": "lxqt-session-2.2.0-1-x86_64.pkg.tar.zst",
+  "NAME": "lxqt-session",
+  "BASE": "lxqt-session",
+  "VERSION": "2.2.0-1",
+  "DESC": "The LXQt session manager",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "230525",
+  "ISIZE": "859428",
+  "MD5SUM": "44ee5e2ec3818898adf9cc3b15f69f9b",
+  "SHA256SUM": "d184cd94c187b49ae02ce51526d426722a368fc8d28935c0b89affc3c1f9dca2",
+  "PGPSIG": "iF4EABYCAAYFAmggzx0ACgkQw1jnDXfq/1QXxQD9HXLKRA03qvJWYPu5kOy4JVKFjXnwFWOew1zqFgX9XkQA/R+DUindBLZfhpzYt1JzpvE0PVK0/Y5LqGYjoXQYi1sO",
+  "URL": "https://github.com/lxqt/lxqt-session",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1746980897",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "liblxqt",
+    "qtxdg-tools",
+    "xdg-user-dirs",
+    "libudev",
+    "kwindowsystem",
+    "libQt6Xdg.so",
+    "layer-shell-qt",
+    "libprocps"
+  ],
+  "OPTDEPENDS": [
+    "breeze-icons: Default icon theme",
+    "oxygen-icons: Alternative icon theme",
+    "lxqt-labwc-session: Wayland session"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

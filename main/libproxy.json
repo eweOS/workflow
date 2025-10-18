@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libproxy-0.5.11-1-x86_64.pkg.tar.zst",
+  "NAME": "libproxy",
+  "BASE": "libproxy",
+  "VERSION": "0.5.11-1",
+  "DESC": "Automatic proxy configuration management library",
+  "CSIZE": "28998",
+  "ISIZE": "70520",
+  "MD5SUM": "c923a3341b68b98a87543539349b8414",
+  "SHA256SUM": "08df1435cca661c30f2c9500c20c8039b1052b85aec9491bd02b5d19b63c252a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMouHQAKCRDDWOcNd+r/VHRHAQCBTP8glSSfgLIzainP0Op1nCcZpl+PT+D4zaK0dSjpywEA2qTzrdxx3D4sVe0FlCAxRoCE3gEKzOf+lD8lIgrYigk=",
+  "URL": "https://libproxy.github.io/libproxy/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1758080583",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "curl",
+    "duktape",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "libproxy-webkit<0.5.0-1"
+  ],
+  "PROVIDES": [
+    "libproxy.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

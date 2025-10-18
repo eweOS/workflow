@@ -1,0 +1,35 @@
+{
+  "FILENAME": "boost-1.88.0-2-x86_64.pkg.tar.zst",
+  "NAME": "boost",
+  "BASE": "boost",
+  "VERSION": "1.88.0-2",
+  "DESC": "Free peer-reviewed portable C++ source libraries (development headers)",
+  "CSIZE": "31426903",
+  "ISIZE": "211340358",
+  "MD5SUM": "1f26b79288e3a7579f05d4ec43a1612a",
+  "SHA256SUM": "df792ea844fe3e44a240a0dd744090394149befad70dd100959587dc0b589a33",
+  "PGPSIG": "iF4EABYCAAYFAmiR0BIACgkQw1jnDXfq/1SIbAD8D9xALlj2KKXXdk3ZFwMIq7p9hsxNganqWgcM8F89BkUA/i1tZ1oGFt2crEHPXuMChLNo1ZteTD/+82Mo5AsI5QkF",
+  "URL": "https://www.boost.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754386331",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "boost-libs=1.88.0",
+    "linux-headers"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "icu",
+    "linux-headers",
+    "python",
+    "libbz2",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

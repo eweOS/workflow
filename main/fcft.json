@@ -1,0 +1,39 @@
+{
+  "FILENAME": "fcft-3.3.2-1-x86_64.pkg.tar.zst",
+  "NAME": "fcft",
+  "BASE": "fcft",
+  "VERSION": "3.3.2-1",
+  "DESC": "Simple library for font loading and glyph rasterization",
+  "CSIZE": "69165",
+  "ISIZE": "117804",
+  "MD5SUM": "678d9cd8ac9da624d181dfbf24541ec4",
+  "SHA256SUM": "517914dbf5edb12cc440bb25b044bf5bf1c94aeb2601f53998d002183897895b",
+  "PGPSIG": "iF4EABYCAAYFAmiXaVMACgkQw1jnDXfq/1Q3OAEA5Pah+hA69q3i4jB14ECZf9vWn6CJe6QTIn3nXlXnyccBAL9jSUsDWYAe2DWf0uo/pAli8RQ1/Mx3+7JfO7eWQewB",
+  "URL": "https://codeberg.org/dnkl/fcft",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1754754037",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "libutf8proc",
+    "nanosvg",
+    "pixman"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "tllist",
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "check",
+    "ttf-noto-fonts-emoji",
+    "ttf-unifont"
+  ],
+  "REPO": "main"
+}

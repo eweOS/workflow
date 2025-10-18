@@ -1,0 +1,34 @@
+{
+  "FILENAME": "glfw-3.5.0-1-x86_64.pkg.tar.zst",
+  "NAME": "glfw",
+  "BASE": "glfw",
+  "VERSION": "3.5.0-1",
+  "DESC": "A free, open source, portable framework for graphical application development",
+  "CSIZE": "139227",
+  "ISIZE": "550502",
+  "MD5SUM": "2863c31df36c9a70dfb4db90e228823a",
+  "SHA256SUM": "90b4bf86eae9d5cc49d68f3c2d96df222edd3a1c3bb37101c0757ddd6ee641fe",
+  "PGPSIG": "iF4EABYCAAYFAmidphoACgkQw1jnDXfq/1ReDwEAq3jJ+CRq8POVuAcn5JRfIEBMUyzaXRGZXHAJnlD42CwBAIc7rRIcqpK+tvP61LJGBShypyjCuze7Dj2qAwTQlcUG",
+  "URL": "https://www.glfw.org/",
+  "LICENSE": [
+    "custom:ZLIB"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755162833",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libgl",
+    "libxkbcommon",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "mesa",
+    "cmake",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "extra-cmake-modules",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

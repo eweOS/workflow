@@ -1,0 +1,40 @@
+{
+  "FILENAME": "dvisvgm-3.5-1-x86_64.pkg.tar.zst",
+  "NAME": "dvisvgm",
+  "BASE": "dvisvgm",
+  "VERSION": "3.5-1",
+  "DESC": "A fast DVI, EPS, and PDF to SVG converter",
+  "CSIZE": "1029637",
+  "ISIZE": "1895965",
+  "MD5SUM": "8a221ab2f6af47b1aabfc3b1bf5dba6a",
+  "SHA256SUM": "d83ec74852aa1d4abeff8e45fb9df33f5bc9833f22a02f1f53993cd808e1ea02",
+  "PGPSIG": "iF4EABYCAAYFAmhaiWMACgkQw1jnDXfq/1RP4AEA4pq7lt2xv8/btzw8V4gOQTiLAgFn93OGGb3BxDS5xTAA/3wEj/S0kSlj49rS9v21IhxgZ6fXb0PmFnytLSQbTB8O",
+  "URL": "https://dvisvgm.de/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1750764241",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "brotli",
+    "freetype2",
+    "ghostscript",
+    "potrace",
+    "texlive-bin",
+    "woff2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "mupdf-tools: to process PDF files"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf-archive",
+    "git",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

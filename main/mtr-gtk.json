@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mtr-gtk-0.96-1-x86_64.pkg.tar.zst",
+  "NAME": "mtr-gtk",
+  "BASE": "mtr",
+  "VERSION": "0.96-1",
+  "DESC": "Combines the functionality of traceroute and ping into one tool",
+  "CSIZE": "66978",
+  "ISIZE": "142648",
+  "MD5SUM": "c423a9a739114d15ac39301278523265",
+  "SHA256SUM": "8e7c8b16ca711cee498e4cedaf12f6feb4e7313c1467c5131671cdfb9afcd3cc",
+  "PGPSIG": "iF4EABYCAAYFAmhrg0QACgkQw1jnDXfq/1R8egEA6gmFLMgiwhILvXSdxyUo8CPpnn0Qk6ImKwf9PThSM3YA/jdfBhS/auDOgeme/9BUCogQnEkoHsCjWu6d6X3cDvcA",
+  "URL": "https://www.bitwizard.nl/mtr/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1751876936",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "jansson",
+    "ncurses",
+    "libcap",
+    "gtk3"
+  ],
+  "CONFLICTS": [
+    "mtr"
+  ],
+  "PROVIDES": [
+    "mtr"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

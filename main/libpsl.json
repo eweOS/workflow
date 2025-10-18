@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libpsl-0.21.5-4-x86_64.pkg.tar.zst",
+  "NAME": "libpsl",
+  "BASE": "libpsl",
+  "VERSION": "0.21.5-4",
+  "DESC": "Public Suffix List library",
+  "CSIZE": "74528",
+  "ISIZE": "108971",
+  "MD5SUM": "d437273180844bbb54adad25b1921192",
+  "SHA256SUM": "9dd182b7d2542933ce7e11083cde2e6b067e06f738ca7a90da49a2f795f4c457",
+  "PGPSIG": "iF4EABYCAAYFAmcVwCoACgkQw1jnDXfq/1QMVgEA4XjBsDTEjbLb9jc9JTVLv+49ekAbHtzccaurhtZwSqsBAJjMHztJTxF21msLZII4bxbnIXdWxFUh3bdGAGitYs4M",
+  "URL": "https://github.com/rockdaboot/libpsl",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1729478700",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl",
+    "libidn2",
+    "libunistring"
+  ],
+  "PROVIDES": [
+    "libpsl.so"
+  ],
+  "MAKEDEPENDS": [
+    "libidn2",
+    "libunistring",
+    "meson"
+  ],
+  "REPO": "main"
+}

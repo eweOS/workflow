@@ -1,0 +1,35 @@
+{
+  "FILENAME": "botan-3.9.0-1-x86_64.pkg.tar.zst",
+  "NAME": "botan",
+  "BASE": "botan",
+  "VERSION": "3.9.0-1",
+  "DESC": "Crypto library written in C++",
+  "CSIZE": "3550404",
+  "ISIZE": "10531607",
+  "MD5SUM": "e1263f247eb751f95b76ed7c81ea4ab4",
+  "SHA256SUM": "d3d5d1d2b990fb68f18e4a0d3cf744b20d4477df7188d49edb3db890f4b93e9c",
+  "PGPSIG": "iF4EABYCAAYFAmid+I8ACgkQw1jnDXfq/1QiuAEA/BBHMX4MzidQ5GO6YGPNencXXSkFDSGJVb30j/pEpW0BAPrCJJj7J8HbCZuz6QJhDCddaW3Zi6RKrVHG+yreT88B",
+  "URL": "https://botan.randombit.net/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755183661",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bzip2",
+    "sqlite",
+    "xz",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "boost-libs: for the botan executable",
+    "python: for using botan2.py"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
