@@ -94,7 +94,7 @@ jobs:
           -w ${{ github.workspace }}
           ghcr.io/eweos/docker:master
           bash -c "
-          pacman -Sy --noconfirm pacman-contrib git &&
+          pacman -Sy --noconfirm pacman-contrib git mercurial &&
           cd repo &&
           bash ../meta/tools/bump_ver.sh ${{ github.event.inputs.version }} &&
           updpkgsums
