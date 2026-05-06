@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pacman-7.1.0-2-x86_64.pkg.tar.zst",
+  "NAME": "pacman",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-2",
+  "DESC": "A library-based package manager with dependency support",
+  "CSIZE": "754533",
+  "ISIZE": "3615499",
+  "MD5SUM": "9aa6a3ccec3a0d211ff481d8c6f71469",
+  "SHA256SUM": "52ba2b58d8174b7e0c3e706327b512290d5aa3b55231f8be86755af5710c4520",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuqbwAKCRDDWOcNd+r/VG28APwK4n03ZbMGy2kb9RJo+RlhppNxFooMlVOEM68VINjwkgD9FJ3D0GI84eFIg6cs1xXpAhqrIcgQWlxazy3I3KBOQAI=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1774955367",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "bash",
+    "libalpm=7.1.0",
+    "fakeroot",
+    "pacman-mirrorlist"
+  ],
+  "PROVIDES": [
+    "makepkg"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

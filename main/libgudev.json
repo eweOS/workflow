@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libgudev-238-1-x86_64.pkg.tar.zst",
+  "NAME": "libgudev",
+  "BASE": "libgudev",
+  "VERSION": "238-1",
+  "DESC": "GObject bindings for libudev",
+  "CSIZE": "31581",
+  "ISIZE": "171532",
+  "MD5SUM": "fd2b04bbf1c2b55743550a5b90a03e1c",
+  "SHA256SUM": "75ca62183dbba592d6695137168029b4f7c16cc37c8e8ee1cda17c5670ec8a6b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabg4mQAKCRDDWOcNd+r/VINEAQDNt0fI6vVGjlWs1C2muQ+GM7uA+e3JyFvDL/RYg1xtSAEAngf7AsNxK1Dt9U6BHY/jzs3ZEsSqKIqadVTXUfINGwY=",
+  "URL": "https://gitlab.gnome.org/GNOME/libgudev",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1773680988",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "musl",
+    "libudev-zero"
+  ],
+  "PROVIDES": [
+    "libgudev-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "gtk-doc",
+    "vala"
+  ],
+  "REPO": "main"
+}

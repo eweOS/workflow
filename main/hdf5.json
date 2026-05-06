@@ -1,0 +1,36 @@
+{
+  "FILENAME": "hdf5-2.1.0-2-x86_64.pkg.tar.zst",
+  "NAME": "hdf5",
+  "BASE": "hdf5",
+  "VERSION": "2.1.0-2",
+  "DESC": "HDF5 scientific data model implementation",
+  "CSIZE": "3343867",
+  "ISIZE": "12484115",
+  "MD5SUM": "f86c65841dff9e55cf82e8a94b490156",
+  "SHA256SUM": "6bf88e5a325bd3a5fbf5ec4b46086a5ab6ab41056fc0b5343a95000cd255fd0a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuquAAKCRDDWOcNd+r/VOnHAP92rHITDnM8tWk6HeKZS7hz+C2bTJ70x2lpeaRTJt9R0gEAm8W8SAXMCmDFzkLk3cS64SrOUACUjaSIIKg0B4x4bgQ=",
+  "URL": "https://www.hdfgroup.org/solutions/hdf5/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1774955147",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libhdf5.so",
+    "libhdf5_hl_f90cstub.so",
+    "libhdf5_f90cstub.so",
+    "libhdf5_hl_fortran.so",
+    "libhdf5_fortran.so",
+    "libhdf5_tools.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "perl",
+    "flang"
+  ],
+  "REPO": "main"
+}

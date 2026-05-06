@@ -1,0 +1,53 @@
+{
+  "FILENAME": "qt6-multimedia-gstreamer-6.10.0-1-x86_64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-gstreamer",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.10.0-1",
+  "DESC": "Gstreamer backend for qt6-multimedia",
+  "CSIZE": "7813338",
+  "ISIZE": "20311678",
+  "MD5SUM": "2aadc230a6f3be3c952d65b16aec6b18",
+  "SHA256SUM": "c691f8021fdcd14d71db75909c615df29f29f0e002093d0f834b8b506fff9fb2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQs8KgAKCRDDWOcNd+r/VIefAPsFC6x7qxaLkEAv+rDOXPCp4s4VWZuWqrYxF1waK2/bHQD9Gl7SSruq6LQWZj89F6+Auni6px9lGJxDHnL5DdzclA0=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1762344143",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "glib2",
+    "gst-plugins-base",
+    "gstreamer",
+    "libglvnd",
+    "qt6-base",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugins-good: camera support, additional plugins",
+    "gst-plugins-bad: camera support, additional plugins",
+    "gst-plugins-ugly: additional plugins",
+    "gst-libav: additional plugins"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-quick3d-devel",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

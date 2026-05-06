@@ -1,0 +1,33 @@
+{
+  "FILENAME": "dinit-0.21.0-1-x86_64.pkg.tar.zst",
+  "NAME": "dinit",
+  "BASE": "dinit",
+  "VERSION": "0.21.0-1",
+  "DESC": "Service monitoring / 'init' system",
+  "CSIZE": "281190",
+  "ISIZE": "635933",
+  "MD5SUM": "eff3c5d552fa982d77ca3a591f7e9f09",
+  "SHA256SUM": "59870d5a419347feda6e33da315f6bad997566a057b2936ba37d6f31cb9e24e4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4tHwAKCRDDWOcNd+r/VOLCAQDbGPhZxRVGaxTJ+lj4kIUJ6m/wDm9KiWcrnkRP1uYLbwEAsAYxURNyxSopYR3PlNr4RyR739PDydNgbJAH81zoFg4=",
+  "URL": "https://github.com/davmac314/dinit",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1775119885",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "busybox",
+    "musl",
+    "llvm-libs",
+    "libcap"
+  ],
+  "OPTDEPENDS": [
+    "dinit-services: dinit service files"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

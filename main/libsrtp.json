@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libsrtp-2.8.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libsrtp",
+  "BASE": "libsrtp",
+  "VERSION": "2.8.0-1",
+  "DESC": "Library for SRTP (Secure Realtime Transport Protocol)",
+  "CSIZE": "52398",
+  "ISIZE": "164054",
+  "MD5SUM": "de1de11d7668a5418119282e9917f4ba",
+  "SHA256SUM": "5475e7e64f80d4f2c40276210d89a82cd35671dafc384698a44de7f679804d97",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadf+kAAKCRDDWOcNd+r/VHJfAQDf81Sr1kcfJAdbAvInoGll2cp3qYBDFpNBF+c7sX2iyQD+PHTngpPenKiZLuzGzQpRql/JPYfOtldMdhlK/IPaJwM=",
+  "URL": "https://github.com/cisco/libsrtp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1775763355",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "nss",
+    "libpcap"
+  ],
+  "PROVIDES": [
+    "libsrtp2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "samurai"
+  ],
+  "REPO": "main"
+}

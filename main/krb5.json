@@ -1,0 +1,41 @@
+{
+  "FILENAME": "krb5-1.22.1-1-x86_64.pkg.tar.zst",
+  "NAME": "krb5",
+  "BASE": "krb5",
+  "VERSION": "1.22.1-1",
+  "DESC": "The Kerberos network authentication system",
+  "CSIZE": "1460092",
+  "ISIZE": "4154295",
+  "MD5SUM": "eeea314c29b7ef857911b3f038180f39",
+  "SHA256SUM": "53fbddc95d73a089ccb9176927e61c99293d59ad64f8f5da280e3d3cbda8f120",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaMN/GwAKCRDDWOcNd+r/VD2AAPwMzULx9x9f/qiUWrThPtfXto8pVLpqDNYVXqaR5Srm6wD7BKjaALLIUx141nXh+ZZIKI42b261hrGOcjI4OCGhtAE=",
+  "URL": "https://web.mit.edu/kerberos/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1757642472",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libverto",
+    "e2fsprogs",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libgssapi_krb5.so",
+    "libgssrpc.so",
+    "libk5crypto.so",
+    "libkadm5clnt_mit.so",
+    "libkadm5srv_mit.so",
+    "libkdb5.so",
+    "libkdb_ldap.so",
+    "libkrad.so",
+    "libkrb5.so",
+    "libkrb5support.so"
+  ],
+  "MAKEDEPENDS": [
+    "perl"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,45 @@
+{
+  "FILENAME": "appstream-glib-0.8.3-3-x86_64.pkg.tar.zst",
+  "NAME": "appstream-glib",
+  "BASE": "appstream-glib",
+  "VERSION": "0.8.3-3",
+  "DESC": "Objects and methods for reading and writing AppStream metadata",
+  "CSIZE": "502241",
+  "ISIZE": "2302763",
+  "MD5SUM": "0c311ae9d36aed30ddbf1d319b10c97a",
+  "SHA256SUM": "5c3f8fa471530f7be1001d1cd97094c94e6dc3bda854e2cbbd1d3264df053a62",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXCUqgAKCRDDWOcNd+r/VF4JAP4/EqjbYoFaKfqL8Srz4D7M1WNj/PAg+szfgcyEJe1fwQEA/0UKsPTCIeuMrJ1vOGFa1LpqPKeaObAwLGTuhNT4Igc=",
+  "URL": "https://people.freedesktop.org/~hughsient/appstream-glib/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1768986370",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "cairo",
+    "curl",
+    "fontconfig",
+    "freetype2",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "json-glib",
+    "libarchive",
+    "libyaml",
+    "libalpm",
+    "pango",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "appdata-tools",
+    "libappstream-glib.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gperf",
+    "meson"
+  ],
+  "REPO": "main"
+}

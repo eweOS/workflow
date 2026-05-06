@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-20.1.8-3-x86_64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "77656902",
+  "ISIZE": "417546127",
+  "MD5SUM": "e8aeb49e2a1db0d156605234c97c8e1c",
+  "SHA256SUM": "aced78af1e31e5cd919b954f6d2e982c465388c3133384f3f79cd2ca81f99a5b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSqJkgAKCRDDWOcNd+r/VP8EAQD52m0/JCJA/shhe1S4sjlrzRvV9StVV/Wun0ksEHajfAD/TphOKTnsRfGL5fWHNpD0bIihw4dlPU1iX2/ryArCxAY=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1764392191",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

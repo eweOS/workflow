@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ttf-noto-2026.04.01-1-any.pkg.tar.zst",
+  "NAME": "ttf-noto",
+  "BASE": "font-noto",
+  "VERSION": "2026.04.01-1",
+  "DESC": "Google Noto TTF fonts",
+  "CSIZE": "6207",
+  "ISIZE": "11357",
+  "MD5SUM": "070673a3e2708f793444b3c681bcee8d",
+  "SHA256SUM": "747df0cc88bab56975fcd2d4bda6e32ff3f9dd8efd013a8ef1239b6e66db4216",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4bnAAKCRDDWOcNd+r/VHM9AP9FUEFIZvP08jG6FX5nWDWlmD+sIsz4b+6a53arvshlrwD+IiXdh/lPPQqXgAdRooXZqqpAtOJBwLy8/yQGnCng6A0=",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1775115313",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "ttf-noto-base",
+    "ttf-noto-extra"
+  ],
+  "PROVIDES": [
+    "font-noto"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-cjk: CJK characters",
+    "font-noto-emoji: Emoji characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

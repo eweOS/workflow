@@ -1,0 +1,44 @@
+{
+  "FILENAME": "doxywizard-1.16.1-1-x86_64.pkg.tar.zst",
+  "NAME": "doxywizard",
+  "BASE": "doxygen",
+  "VERSION": "1.16.1-1",
+  "DESC": "Tool for generating documentation from annotated sources (GUI frontend)",
+  "CSIZE": "819465",
+  "ISIZE": "1224362",
+  "MD5SUM": "fb150731c05cd56b87f4ac6ddf8f6dd6",
+  "SHA256SUM": "c94c11f1c4260045372d54d8fe8fa3bdd50478216f1db8ff3618addeaad574dc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCafK4DAAKCRDDWOcNd+r/VNzGAQCq2Dha1sYeHN73LXh0GqLJIRol0G4Q3VedaoKoL8ufKQD+NDntqVXW3t6nywYW8cDXy6A8o/tmOEODa2UqO+IYPA0=",
+  "URL": "https://www.doxygen.nl",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1777514591",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libglvnd",
+    "qt6-base",
+    "qt6-svg",
+    "doxygen=1.16.1"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "clang",
+    "llvm",
+    "fmt",
+    "spdlog",
+    "sqlite",
+    "qt6-base",
+    "libglvnd",
+    "llvm-devel",
+    "qt6-svg"
+  ],
+  "CHECKDEPENDS": [
+    "perl",
+    "python"
+  ],
+  "REPO": "main"
+}

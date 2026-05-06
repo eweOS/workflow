@@ -1,0 +1,37 @@
+{
+  "FILENAME": "openai-codex-0.112.0-1-x86_64.pkg.tar.zst",
+  "NAME": "openai-codex",
+  "BASE": "openai-codex",
+  "VERSION": "0.112.0-1",
+  "DESC": "Lightweight coding agent that runs in your terminal",
+  "CSIZE": "37802270",
+  "ISIZE": "97257777",
+  "MD5SUM": "491c8ef48bce8fef1df29bb4bf6fba8d",
+  "SHA256SUM": "79a976eced52ded0b9e862427f71458a365eacb7527e30dc780c986caf207c47",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabee4QAKCRDDWOcNd+r/VN69AQDmol8/AjAOY7SGEJxufSSxiiI7VyRXNzU/IZhKmWVYVgEAkxq+gd2MtT+8/eRpC/ryKe6Gpz4rW/m7QytpoaKz2gU=",
+  "URL": "https://openai.com/codex/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1773638884",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libcap",
+    "openssl",
+    "llvm-libs",
+    "zlib-ng",
+    "zstd",
+    "xz"
+  ],
+  "OPTDEPENDS": [
+    "git: For Git repository operations",
+    "ripgrep: For accelarated searching"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

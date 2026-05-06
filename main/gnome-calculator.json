@@ -1,0 +1,48 @@
+{
+  "FILENAME": "gnome-calculator-50.0-1-x86_64.pkg.tar.zst",
+  "NAME": "gnome-calculator",
+  "BASE": "gnome-calculator",
+  "VERSION": "50.0-1",
+  "DESC": "GNOME Scientific calculator",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1818114",
+  "ISIZE": "9391722",
+  "MD5SUM": "89bd4d6464f3b80d141cfd800b391dc2",
+  "SHA256SUM": "9e98a58a01dac616acee5eac74cbfe8fc984bebed8eb5a97902b1cdb3d6e7dd2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadyCxwAKCRDDWOcNd+r/VL5RAP9cRPXDLOfTMGDFMJFvTT84rmEXwwsp+Y8Lz6r2pHLx5wEAwftWUK5ujawqak7q/hB6BwVJdcqq+wqj4YAdrPsO/Qc=",
+  "URL": "https://apps.gnome.org/Calculator",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1776059369",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "dconf",
+    "glib2",
+    "gtk4",
+    "gtksourceview5",
+    "hicolor-icon-theme",
+    "libadwaita",
+    "libgee",
+    "libmpc",
+    "libsoup3",
+    "libxml2",
+    "mpfr"
+  ],
+  "PROVIDES": [
+    "libgcalc-2.so",
+    "libgci-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "blueprint-compiler",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "vala",
+    "yelp-tools"
+  ],
+  "REPO": "main"
+}

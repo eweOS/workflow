@@ -1,0 +1,66 @@
+{
+  "FILENAME": "kio-6.20.0-1-x86_64.pkg.tar.zst",
+  "NAME": "kio",
+  "BASE": "kio",
+  "VERSION": "6.20.0-1",
+  "DESC": "Resource and network access abstraction",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "4348775",
+  "ISIZE": "18135299",
+  "MD5SUM": "954c0dd0cb45ff1774abf486b219a239",
+  "SHA256SUM": "05d216c71f93b4649a29319b1f26eaab06e9a4b5fe7bdf573042e304dbadcd46",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRrCvgAKCRDDWOcNd+r/VHS0AP0bvgvmQzQF43dZyYnX5VAsNNZvLElBW+aO4lwfZcleZwD7BwBhYW165aUe277mtc8g/1OwH/Y3TSEQPwPQduYWrgI=",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1763361640",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "acl",
+    "karchive",
+    "kauth",
+    "kbookmarks",
+    "kcolorscheme",
+    "kcompletion",
+    "kconfig",
+    "kconfigwidgets",
+    "kcoreaddons",
+    "kcrash",
+    "kdbusaddons",
+    "kguiaddons",
+    "ki18n",
+    "kiconthemes",
+    "kitemviews",
+    "kjobwidgets",
+    "kservice",
+    "kwallet",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libxml2",
+    "libxslt",
+    "qt6-5compat",
+    "qt6-base",
+    "solid",
+    "util-linux-libs"
+  ],
+  "OPTDEPENDS": [
+    "kded: proxy management and cookie storage",
+    "kdoctools: for the help kioslave",
+    "kio-extras: extra protocols support (sftp, fish and more)",
+    "kio-fuse: to mount remote filesystems via FUSE",
+    "switcheroo-control: hybrid GPU support"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-tools",
+    "linux-headers",
+    "kdoctools",
+    "qt6-base-devel"
+  ],
+  "REPO": "main"
+}

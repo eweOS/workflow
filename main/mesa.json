@@ -1,0 +1,62 @@
+{
+  "FILENAME": "mesa-26.0.5-1-x86_64.pkg.tar.zst",
+  "NAME": "mesa",
+  "BASE": "mesa",
+  "VERSION": "26.0.5-1",
+  "DESC": "An open-source implementation of the OpenGL specification",
+  "CSIZE": "10785539",
+  "ISIZE": "38735229",
+  "MD5SUM": "e5ecc0da15090dced37bd4dff3919686",
+  "SHA256SUM": "d6a17d05e3267ac4baad2312b259261d43c8afa67350a9b51cb8f7a6db9c907f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaeL6JwAKCRDDWOcNd+r/VKlsAQDINhKMDko3vSnCEt5b6MYYHhOZFr12fVN7VKSsQOg0mAEAytwfs9Hy09os5NJZzYVmuuCA7GjOcaWQeOxlWuxKxAU=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1776482971",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "REPLACES": [
+    "libva-mesa-driver"
+  ],
+  "DEPENDS": [
+    "libglvnd",
+    "libelf",
+    "zstd",
+    "libdrm",
+    "llvm",
+    "spirv-tools"
+  ],
+  "CONFLICTS": [
+    "libva-mesa-driver"
+  ],
+  "PROVIDES": [
+    "libva-mesa-driver",
+    "mesa-libgl",
+    "libva-driver",
+    "opengl-driver"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen"
+  ],
+  "REPO": "main"
+}

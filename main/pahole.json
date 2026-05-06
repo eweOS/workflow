@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pahole-1.31-2-x86_64.pkg.tar.zst",
+  "NAME": "pahole",
+  "BASE": "pahole",
+  "VERSION": "1.31-2",
+  "DESC": "Pahole and other DWARF utils",
+  "CSIZE": "363507",
+  "ISIZE": "816164",
+  "MD5SUM": "d7131a83ab9e7778be1669bf13be3315",
+  "SHA256SUM": "133fe1f3fdd977bde57e77f58587a5bad65c7bc8b304b30abcf5be1e8d3d561a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaUQXhwAKCRDDWOcNd+r/VOrxAP9Esgvs80uzTC5HhJ0C+5ZF9ojDSzWRXVtVv/EXWhTC+gEAuhLFj4Rlv7k/qsvcHdIqLfWpCda4bq+zMqpCS8QqFwQ=",
+  "URL": "https://git.kernel.org/pub/scm/devel/pahole/pahole.git",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1766070607",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "bash",
+    "libelf",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libdwarves.so",
+    "libdwarves_emit.so",
+    "libdwarves_reorganize.so"
+  ],
+  "OPTDEPENDS": [
+    "ostra-cg: Generate call graphs from encoded traces"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "cmake",
+    "git",
+    "libelf",
+    "linux-headers",
+    "ninja",
+    "zlib"
+  ],
+  "REPO": "main"
+}

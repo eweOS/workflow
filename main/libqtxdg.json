@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libqtxdg-4.3.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libqtxdg",
+  "BASE": "libqtxdg",
+  "VERSION": "4.3.0-1",
+  "DESC": "Library providing freedesktop.org XDG specs implementations for Qt",
+  "CSIZE": "177408",
+  "ISIZE": "500989",
+  "MD5SUM": "08df0396922ab3717d9f93e8693850f2",
+  "SHA256SUM": "63b12573c4e45804cbe2df517bc311cfc74e852932887e0fb9cab5c3eb37a88d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRqFkAAKCRDDWOcNd+r/VJvdAP90GzAAiRM+1zSgGpranEIAsd+GFptK9vYxHraFUh8ZiAD9ELX9pPmsDkf3v/2Utlu+HMbki8pZ7l6BwXVspr5HSwk=",
+  "URL": "https://github.com/lxqt/libqtxdg",
+  "LICENSE": [
+    "LGPL",
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1763346107",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-svg"
+  ],
+  "PROVIDES": [
+    "libQt6Xdg.so",
+    "libQt6XdgIconLoader.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools",
+    "qt6-base-devel"
+  ],
+  "CHECKDEPENDS": [
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}

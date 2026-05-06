@@ -1,0 +1,32 @@
+{
+  "FILENAME": "connman-2.0-1-x86_64.pkg.tar.zst",
+  "NAME": "connman",
+  "BASE": "connman",
+  "VERSION": "2.0-1",
+  "DESC": "Intel's modular network connection manager",
+  "CSIZE": "599420",
+  "ISIZE": "1480590",
+  "MD5SUM": "3ca8bee896dd94e75984ffefcb8ac70c",
+  "SHA256SUM": "7ff320b9ecf029b36b0e45e1fdd5aeb3314f1a3aa4497dce836eb40fb843956b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaaFc9AAKCRDDWOcNd+r/VCSsAQDNZVcMEuyt+kPlq/ogjX2OlZuEvQGrRA2JnFu5nf8vxAEAw1/cNmM+ZkkjI8FmwNAxIL/t4lneVFWSPOuRWGWT5gE=",
+  "URL": "https://01.org/connman",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1772182879",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "dbus",
+    "glib",
+    "nftables"
+  ],
+  "OPTDEPENDS": [
+    "wpa_supplicant: for wireless network support"
+  ],
+  "MAKEDEPENDS": [
+    "wpa_supplicant",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,45 @@
+{
+  "FILENAME": "libplacebo-7.360.0-2-x86_64.pkg.tar.zst",
+  "NAME": "libplacebo",
+  "BASE": "libplacebo",
+  "VERSION": "7.360.0-2",
+  "DESC": "Reusable library for GPU-accelerated video/image rendering primitives",
+  "CSIZE": "586034",
+  "ISIZE": "1564046",
+  "MD5SUM": "243e8d4ff813e11e8180886cc229dc21",
+  "SHA256SUM": "978b9262d62d86b055954f710657f1e179f0db4bde80144f93e1e42b54c9b360",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaea32wAKCRDDWOcNd+r/VOaUAQCkNe198DzJ2X0b70uEOZRPZY8RVQvvGi5Og5Y22yjElgEA/AS0YUzIjz138moainNpJkRgAPZfxAN+e9EZLpsFpwc=",
+  "URL": "https://github.com/haasn/libplacebo",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1776728349",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "vulkan-icd-loader",
+    "glslang",
+    "lcms2",
+    "shaderc",
+    "xxhash",
+    "liblcms2.so",
+    "libshaderc_shared.so",
+    "libvulkan.so"
+  ],
+  "PROVIDES": [
+    "libplacebo.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "glad",
+    "vulkan-headers",
+    "python",
+    "python-setuptools",
+    "python-markupsafe",
+    "python-jinja",
+    "libglvnd",
+    "fast_float"
+  ],
+  "REPO": "main"
+}
