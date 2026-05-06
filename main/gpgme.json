@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gpgme-2.0.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "gpgme",
+  "BASE": "gpgme",
+  "VERSION": "2.0.1-2",
+  "DESC": "A C wrapper library for GnuPG",
+  "CSIZE": "318345",
+  "ISIZE": "1055649",
+  "MD5SUM": "a86dba98ae804fe7f43b24af0613e05a",
+  "SHA256SUM": "fb1c9bbfaa47f0b93219e2d0bd6bb7b43de47675beb92b25fe35c9e25a891936",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaTZt4gAKCRDDWOcNd+r/VFfeAQD15flLidbCK35bVEXF2JhZWx/e/XzlXll2u3s+hivukQD/fyafSsA5GGlhFnNyOo8SDD9VqMXutaDqmFHaIVNZqgM=",
+  "URL": "https://www.gnupg.org/related_software/gpgme/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1765175147",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libgpg-error",
+    "gnupg>=2",
+    "libassuan"
+  ],
+  "PROVIDES": [
+    "libgpgme.so"
+  ],
+  "MAKEDEPENDS": [
+    "gnupg",
+    "libgpg-error"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "openjph-0.25.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "openjph",
+  "BASE": "openjph",
+  "VERSION": "0.25.2-1",
+  "DESC": "Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)",
+  "CSIZE": "173665",
+  "ISIZE": "519680",
+  "MD5SUM": "3fe02385b1e5fbc9c0cd53d8038b685f",
+  "SHA256SUM": "26b0cab569dcf79892693063c32e03ecc4a6b797e7a958fd62ca88b7dcf67b0c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRMWTgAKCRDDWOcNd+r/VI4aAQChXzQfWSD7EvvPPUDzrBUFFZyekDlcX68fC47AnA47gAD/XnpQs1rlm29XiQZ3lViEJRjTQwVad51ujTrtc7qWlA8=",
+  "URL": "https://github.com/aous72/OpenJPH",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1762858839",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libopenjph.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

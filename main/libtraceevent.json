@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libtraceevent-1.9.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "libtraceevent",
+  "BASE": "libtraceevent",
+  "VERSION": "1.9.0-1",
+  "DESC": "Library to parse raw trace event formats",
+  "CSIZE": "85773",
+  "ISIZE": "218339",
+  "MD5SUM": "fb6a2f89d35c255f755fb3ab0baddae4",
+  "SHA256SUM": "3ef05a5fc4e7517141e1aab29ed73e4e9246df3af4990b81467e7d919cdba0f7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabZ3ZgAKCRDDWOcNd+r/VL5iAQCSE9gX7qtNsrvy+Uo0j8hiirYi1FOJg6sy3gNAVVqvlQEA01i2jICEtrkdwzyoO7Wegacz9HvuYQfSd+NwAmO4IQY=",
+  "URL": "Library",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1773565988",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libtraceevent.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "asciidoc",
+    "doxygen",
+    "xmlto",
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "gamemode-1.8.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "gamemode",
+  "BASE": "gamemode",
+  "VERSION": "1.8.2-1",
+  "DESC": "A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS",
+  "CSIZE": "24239",
+  "ISIZE": "69394",
+  "MD5SUM": "01f4848cfb185169a832a323721928a6",
+  "SHA256SUM": "f37f208973f03933d06db150601588c00c4b487759011aea00db1967e0de9ffb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcWHQAKCRDDWOcNd+r/VO2AAQDPyo0hQEP0bBdzBPhiBvne0k2GAjhXTzimdJ/OaMp2vAEAzdyt8yr+lVad/X5hapO4IcL6NDs9YTaSzHnWivCGMgE=",
+  "URL": "https://github.com/FeralInteractive/gamemode",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1769412757",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "bash",
+    "llvm-libs",
+    "musl",
+    "dbus",
+    "libinih"
+  ],
+  "PROVIDES": [
+    "libgamemode.so",
+    "libgamemodeauto.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "appstream"
+  ],
+  "REPO": "main"
+}

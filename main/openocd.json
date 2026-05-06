@@ -1,0 +1,33 @@
+{
+  "FILENAME": "openocd-0.12.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "openocd",
+  "BASE": "openocd",
+  "VERSION": "0.12.0-1",
+  "DESC": "Tool for on-chip programming and debugging",
+  "CSIZE": "1783560",
+  "ISIZE": "5164432",
+  "MD5SUM": "845703646cfd23abc1407c8304d00b36",
+  "SHA256SUM": "c8929d4c0c189e4a3a91b362199509819ca41421f537537edf2f5a75008387b7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaPXYVgAKCRDDWOcNd+r/VEeHAP0eHiG3fEyn8/Lf7+npgHjPrpPJZmrjxGjwgzBJd7aBaQD/YrsGNNIAJs15bPXZKBIftaDXurss8AwUy36f7FEBuAI=",
+  "URL": "https://openocd.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1760942332",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libftdi",
+    "libusb",
+    "libhidapi",
+    "libgpiod",
+    "jimtcl",
+    "libjaylink"
+  ],
+  "MAKEDEPENDS": [
+    "texinfo",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

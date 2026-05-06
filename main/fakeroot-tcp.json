@@ -1,0 +1,36 @@
+{
+  "FILENAME": "fakeroot-tcp-1.37.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "fakeroot-tcp",
+  "BASE": "fakeroot",
+  "VERSION": "1.37.2-2",
+  "DESC": "Tool for simulating superuser privileges (TCP IPC)",
+  "CSIZE": "30251",
+  "ISIZE": "72345",
+  "MD5SUM": "caf9e4fe6207c43649e6b3a91b3bf0af",
+  "SHA256SUM": "c216a38a031cbbb856ac7638968748a38b843ecc557902394b90bc7cd583b0ca",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYILZgAKCRDDWOcNd+r/VP7uAP9jGwf5nRYANO3GC85hjz3h1WhO489qLJ8S0WoZOhPC7gEAgNXeLAYSaWf5MaOQpmE8jIPnx2+nXnpbMDUx0s+qSA8=",
+  "URL": "https://tracker.debian.org/pkg/fakeroot",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1770130266",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "filesystem",
+    "util-linux"
+  ],
+  "CONFLICTS": [
+    "fakeroot"
+  ],
+  "PROVIDES": [
+    "fakeroot"
+  ],
+  "MAKEDEPENDS": [
+    "libcap",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,56 @@
+{
+  "FILENAME": "gegl-0.4.70-2-loongarch64.pkg.tar.zst",
+  "NAME": "gegl",
+  "BASE": "gegl",
+  "VERSION": "0.4.70-2",
+  "DESC": "Graph based image processing framework",
+  "CSIZE": "4361893",
+  "ISIZE": "17762802",
+  "MD5SUM": "95424896458bdfff35d43ef23c4bf215",
+  "SHA256SUM": "454653d3992a17b8ce28933baeb0977ed23efc22554d923cf88f6ced1f55cecd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadi9zQAKCRDDWOcNd+r/VLw7AQCC2HX34hH3mQqBWNc0sbrqkRyNT4Jxx7mNwjJkear7BAD/bIZAXUiBuAYhBhVefKpl9ZLwSZ/Yepz9zrkPsS5weAE=",
+  "URL": "https://www.gegl.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later OR LGPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775812171",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "babl",
+    "cairo",
+    "gdk-pixbuf2",
+    "glib2",
+    "jasper",
+    "json-glib",
+    "lcms2",
+    "lensfun",
+    "libjpeg-turbo",
+    "libpng",
+    "libraw",
+    "librsvg",
+    "libspiro",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "pango",
+    "poppler-glib"
+  ],
+  "OPTDEPENDS": [
+    "ffmpeg: FFmpeg Frame Loader and FFmpeg Frame Saver plugins",
+    "graphviz: for gegl-introspect",
+    "sdl2: SDL2 Display plugin"
+  ],
+  "MAKEDEPENDS": [
+    "ffmpeg",
+    "git",
+    "gobject-introspection",
+    "libgexiv2",
+    "meson",
+    "python-gobject",
+    "sdl2",
+    "vala",
+    "gi-docgen"
+  ],
+  "REPO": "main"
+}

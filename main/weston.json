@@ -1,0 +1,42 @@
+{
+  "FILENAME": "weston-15.0.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "weston",
+  "BASE": "weston",
+  "VERSION": "15.0.0-1",
+  "DESC": "Reference implementation of a Wayland compositor",
+  "CSIZE": "1077166",
+  "ISIZE": "2837419",
+  "MD5SUM": "8fe0e3bdad074ffd89c7f0bb358ff8c7",
+  "SHA256SUM": "800cfe47f366ac787faed9f756d683414514a201a16def6a34c591f8207af894",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaahfSgAKCRDDWOcNd+r/VHsVAQCVww4CCzyQ1dXrReccRY/2eJ6TZaaZtqkGkRJ1KEANLwD+K+iWzx7KYoZgSzS524p64cSY3F7ef9Jmxda4x0BddwQ=",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1772642224",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "wayland",
+    "libxkbcommon",
+    "libinput",
+    "pixman",
+    "libdrm",
+    "cairo",
+    "libpng",
+    "mesa",
+    "dbus",
+    "pam",
+    "seatd",
+    "libdisplay-info",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

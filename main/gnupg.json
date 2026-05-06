@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnupg-2.4.9-1-loongarch64.pkg.tar.zst",
+  "NAME": "gnupg",
+  "BASE": "gnupg",
+  "VERSION": "2.4.9-1",
+  "DESC": "GNU Privacy Guard",
+  "CSIZE": "3202040",
+  "ISIZE": "10961380",
+  "MD5SUM": "c8beee2b85198b8d3679f1d7c53cd5b3",
+  "SHA256SUM": "c8b736f43f6832e574f265083e0dad62028eb326ab2254a46c388ae618e4de7a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaX92XgAKCRDDWOcNd+r/VM/RAQClmwmjb1zqYHKdlXIstEneXA1MZADM0uudzAUib2m0DgEAyDqQnnY1AEkN4zgWgKj+NAgO7pdWt5soavZ4NEDxmAw=",
+  "URL": "https://gnupg.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1769961007",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "pinentry",
+    "libgcrypt"
+  ],
+  "PROVIDES": [
+    "gpg"
+  ],
+  "OPTDEPENDS": [
+    "ntbtls: For dirmngr support"
+  ],
+  "MAKEDEPENDS": [
+    "ntbtls"
+  ],
+  "REPO": "main"
+}

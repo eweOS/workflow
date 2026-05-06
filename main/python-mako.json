@@ -1,0 +1,44 @@
+{
+  "FILENAME": "python-mako-1.3.10-1-any.pkg.tar.zst",
+  "NAME": "python-mako",
+  "BASE": "python-mako",
+  "VERSION": "1.3.10-1",
+  "DESC": "A template library written in Python.",
+  "CSIZE": "208682",
+  "ISIZE": "1010616",
+  "MD5SUM": "5e7d796c19fc1bf9f51ebdad9bfad98c",
+  "SHA256SUM": "7e0ca5b5ee81bd8d50f96712186f20699c861d004609ef966af9246b5aa19f01",
+  "PGPSIG": "iF4EABYCAAYFAmf8q3oACgkQw1jnDXfq/1SbagD6AovX9DBOWm86Q2K4wUmSwZllOw3iKi1CTjCSrtxhQfMBAPS0wGZn8+Z7GLmMI2nYld9ptMiLak+x5jnTywoq1ggB",
+  "URL": "https://pypi.org/project/Mako/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1744612363",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "python",
+    "python-markupsafe"
+  ],
+  "OPTDEPENDS": [
+    "python-babel: for i18n features",
+    "python-beaker: for caching support",
+    "python-dogpile.cache: for caching support",
+    "python-pygments: for syntax highlighting"
+  ],
+  "MAKEDEPENDS": [
+    "python-wheel",
+    "python-installer",
+    "python-build",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-babel",
+    "python-beaker",
+    "python-dogpile.cache",
+    "python-pygments",
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

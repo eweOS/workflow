@@ -1,0 +1,43 @@
+{
+  "FILENAME": "exiv2-0.28.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "exiv2",
+  "BASE": "exiv2",
+  "VERSION": "0.28.8-1",
+  "DESC": "Exif, Iptc and XMP metadata manipulation library and tools",
+  "CSIZE": "3870877",
+  "ISIZE": "15987243",
+  "MD5SUM": "2c1fda628b8ce87b55acc2538c9a011a",
+  "SHA256SUM": "5a70edbe7bb4cb581d7e45e3b904280463018b60b15eec6d167559974a73a5c6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaco7egAKCRDDWOcNd+r/VL+9AQCqoJGLKdKdp6OhGEDT4OLC7lXMX5idTJ+2pSTtmVQqrAEAk4IeKXHIib9yCOK5y23fBmltnSlroEMJ7tsv/oaMFQ4=",
+  "URL": "https://exiv2.org",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1774861235",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "brotli",
+    "libbrotlidec.so",
+    "curl",
+    "expat",
+    "libexpat.so",
+    "gettext",
+    "libcurl.so",
+    "libinih",
+    "libINIReader.so",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libexiv2.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "gtest",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

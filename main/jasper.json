@@ -1,0 +1,34 @@
+{
+  "FILENAME": "jasper-4.2.9-1-loongarch64.pkg.tar.zst",
+  "NAME": "jasper",
+  "BASE": "jasper",
+  "VERSION": "4.2.9-1",
+  "DESC": "Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard",
+  "CSIZE": "438175",
+  "ISIZE": "879876",
+  "MD5SUM": "3eeed97d03c7042a50f0959793db6c71",
+  "SHA256SUM": "4674362ea3ce215aa493348d48aa9d39e6a05051518223a07d503d07750ac249",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabfS/wAKCRDDWOcNd+r/VJ2hAP9YNLrOUU/dEFeduQPEOgfZrCOjc/2plGWjnkImIEPN+gD9ETbplEhFVE7Popia/PjkmliyFMWBqNjeS+PrZEarrQ0=",
+  "URL": "https://www.ece.uvic.ca/~frodo/jasper/",
+  "LICENSE": [
+    "LicenseRef-JasPer2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1773654968",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libglvnd",
+    "libjpeg-turbo"
+  ],
+  "PROVIDES": [
+    "libjasper.so"
+  ],
+  "OPTDEPENDS": [
+    "jasper-doc: documentation"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libjpeg-turbo"
+  ],
+  "REPO": "main"
+}

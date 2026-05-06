@@ -1,0 +1,35 @@
+{
+  "FILENAME": "boost-1.90.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "boost",
+  "BASE": "boost",
+  "VERSION": "1.90.0-2",
+  "DESC": "Free peer-reviewed portable C++ source libraries (development headers)",
+  "CSIZE": "21592506",
+  "ISIZE": "185808374",
+  "MD5SUM": "41c07273736fb11a35b577e49a7c453f",
+  "SHA256SUM": "008fc692b0e50f5bead8ce4330ae7e113bc7a74b45fd2e7c68a65555b4497b4b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ6MEwAKCRDDWOcNd+r/VM1wAQDqWzel1ruWqsGY2b0TuS+G3nW9GCmgl1KiqEXLe0MEjAEAk+d64NL8qLq8ptEkbgwklQ70mFXmDEPvpCeZkJjBag0=",
+  "URL": "https://www.boost.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1771997400",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "boost-libs=1.90.0",
+    "linux-headers"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "icu",
+    "linux-headers",
+    "python",
+    "libbz2",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

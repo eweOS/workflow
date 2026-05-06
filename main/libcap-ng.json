@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libcap-ng-0.9.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "libcap-ng",
+  "BASE": "libcap-ng",
+  "VERSION": "0.9.3-1",
+  "DESC": "Library for programming Linux capabilities",
+  "CSIZE": "67061",
+  "ISIZE": "117918",
+  "MD5SUM": "ac80e5fa30d032c27665af9f8469ae18",
+  "SHA256SUM": "14695fdf51537b00185361f057811f3ed147768527cfedc68601d9fe9989bfd1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaebUOwAKCRDDWOcNd+r/VJN1AP9H02GV9emJJHlb2tO+gtCsEQUdCKO4GWI5E4LMutlIuwEAgVXoSVgLCxzmNtlNxnUf3jFjW5ev+98kwAUaBeAYHgo=",
+  "URL": "https://github.com/stevegrubb/libcap-ng",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1776735629",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libcap-ng.so",
+    "libdrop_ambient.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-5.0.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "5.0.0-1",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "817448",
+  "ISIZE": "2903538",
+  "MD5SUM": "27b4afe9d752b77f3a52c9697354e401",
+  "SHA256SUM": "37a67ad9c591e07bbf695277b03974c76d5dc41f05fd990e5daa57584130e36a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacurugAKCRDDWOcNd+r/VK8oAQDRObyZadik8RXYSQXqJzbiLcwe0ME/MYWR8zcr0/VUPgD6A7/N0PAp9PwLhleuzPhQBcffN+DQ6t/vmvSccZ3Kxwc=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1774955524",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

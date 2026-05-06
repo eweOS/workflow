@@ -1,0 +1,33 @@
+{
+  "FILENAME": "hyprwire-0.3.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "hyprwire",
+  "BASE": "hyprwire",
+  "VERSION": "0.3.0-2",
+  "DESC": "A fast and consistent wire protocol for IPC",
+  "CSIZE": "170558",
+  "ISIZE": "493588",
+  "MD5SUM": "8ad750ec4e1d52afc54399e1c58c2dcb",
+  "SHA256SUM": "7cdb2d01a1f398aa9afe55181937fa6bdab2bc633bfa4e7df00dc21647493e24",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadN8PQAKCRDDWOcNd+r/VHTYAQCoKA3sW211QRBj9D3eyKt3ATjezgOmZXZBRDitqxh/EQEA6CUivIdvxoCTRqiuSIDJTlZviapbR8D6zMnzwI4mwgI=",
+  "URL": "https://github.com/hyprwm/hyprwire",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775467818",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "hyprutils",
+    "libffi",
+    "pugixml"
+  ],
+  "PROVIDES": [
+    "libhyprwire.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

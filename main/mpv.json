@@ -1,0 +1,55 @@
+{
+  "FILENAME": "mpv-0.41.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "mpv",
+  "BASE": "mpv",
+  "VERSION": "0.41.0-2",
+  "DESC": "a free, open source, and cross-platform media player",
+  "CSIZE": "1711293",
+  "ISIZE": "4260728",
+  "MD5SUM": "e480c13567b4cd6a57313f1f900e1a42",
+  "SHA256SUM": "6203741ae6d21dad4e7b0d7a616b87c4c42fcd29a3c503e41262b730f550ba2a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac5uhwAKCRDDWOcNd+r/VFpbAQDKkWKNTk9AWno83LRdZzIA0NQziX7V8xAWiY/zSTLNQwD/Sd51JkMHevEXvebgrUAu2ElMirZaGm2UFfgAk0L5tAI=",
+  "URL": "https://mpv.io/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775136636",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "alsa-lib",
+    "wayland",
+    "zlib",
+    "ffmpeg",
+    "libass",
+    "lcms2",
+    "libarchive",
+    "sdl2",
+    "zimg",
+    "zlib",
+    "alsa-lib",
+    "pipewire",
+    "libpulse",
+    "libplacebo",
+    "libdrm",
+    "libjpeg",
+    "libxkbcommon",
+    "libdisplay-info",
+    "libsixel",
+    "mesa",
+    "libglvnd",
+    "libva",
+    "vulkan-icd-loader"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "wayland-protocols",
+    "linux-headers",
+    "vulkan-headers"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

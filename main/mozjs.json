@@ -1,0 +1,39 @@
+{
+  "FILENAME": "mozjs-140.5.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "mozjs",
+  "BASE": "mozjs",
+  "VERSION": "140.5.0-2",
+  "DESC": "JavaScript interpreter and libraries - Version 128",
+  "CSIZE": "13122071",
+  "ISIZE": "44122415",
+  "MD5SUM": "4e1b8193a94c761e96e11fb4ceb41627",
+  "SHA256SUM": "f5b135e4e917d43453c0811fdb96e0e71ce1d7296da4413d292b3ef07638a1b8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ7JtwAKCRDDWOcNd+r/VDejAP0Tsft2JTj+Kh/ZUjgUOxB8Mh/brPi4bu8qSVm/MfCUXQEAiqcAEFIo+d1I3blIBLtDuup6Ck7ZsVEv6/+3zbvA/Q8=",
+  "URL": "https://spidermonkey.dev/",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1772013016",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "readline",
+    "sh",
+    "zlib",
+    "nspr",
+    "icu"
+  ],
+  "PROVIDES": [
+    "js140"
+  ],
+  "MAKEDEPENDS": [
+    "cbindgen",
+    "linux-headers",
+    "python",
+    "rust",
+    "zip"
+  ],
+  "REPO": "main"
+}

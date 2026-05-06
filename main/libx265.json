@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libx265-1:4.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libx265",
+  "BASE": "x265",
+  "VERSION": "1:4.1-1",
+  "CSIZE": "832582",
+  "ISIZE": "2429018",
+  "MD5SUM": "b014da6c7c1819fbe4572f90e6b4df26",
+  "SHA256SUM": "e4f8baa24f5492ad8cac91487b24fbf79ba70e22eb89428c20fd56e63cbbff62",
+  "PGPSIG": "iF4EABYCAAYFAmdRTV0ACgkQw1jnDXfq/1TuhgEAqPDczzJ0h4gk7W7kfvnYWdKUhM89rkQmeFeF4Q3GMz4A/RnCbhdFxWcTYKLVpwkb+wuwALcnYSp+JXn+04Kev3kB",
+  "URL": "https://www.videolan.org/developers/x265.html",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1733381651",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <eweos-loong64-3a6000worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libx265.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "cmake",
+    "samurai",
+    "git"
+  ],
+  "REPO": "main"
+}

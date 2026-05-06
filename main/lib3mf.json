@@ -1,0 +1,34 @@
+{
+  "FILENAME": "lib3mf-2.5.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "lib3mf",
+  "BASE": "lib3mf",
+  "VERSION": "2.5.0-2",
+  "DESC": "C++ implementation of 3D Manufacturing Format (3MF)",
+  "CSIZE": "1747632",
+  "ISIZE": "16577269",
+  "MD5SUM": "7803864a928da98e4dc9ecd1e8e2893a",
+  "SHA256SUM": "6d8f52ea8270b53f408aec0e3049aabded33535be08ac1b749d71018b0df4854",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaea5kQAKCRDDWOcNd+r/VDOhAQC6PmJATmu7/LjTp6u9XCPy+4hlzRJLqHWWzACcPG/swgEApqKqTqtEtv8cI8hI2gW1FYS5KjLcgD/XsbaGSrdxdwA=",
+  "URL": "https://3mf.io/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1776728350",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "util-linux-libs",
+    "zlib-ng",
+    "libzip"
+  ],
+  "PROVIDES": [
+    "lib3mf.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "fast_float"
+  ],
+  "REPO": "main"
+}

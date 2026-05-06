@@ -1,0 +1,34 @@
+{
+  "FILENAME": "wf-recorder-0.6.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "wf-recorder",
+  "BASE": "wf-recorder",
+  "VERSION": "0.6.0-1",
+  "DESC": "Screen recorder for wlroots-based compositors such as sway",
+  "CSIZE": "54077",
+  "ISIZE": "119939",
+  "MD5SUM": "2e1983daed0f72d0989f4d53b4330eab",
+  "SHA256SUM": "356925e2560398d3aa0ebe982769ad32432d165c7e685c4fe7409825b24e1e6b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRWmWwAKCRDDWOcNd+r/VPUvAP9yA+AkrQnbCzeM/xt+LaDupPuuWf0sfA+coSfXs8a22gEAoXvxSaUg6kUJaQOQCOmY84KgPecea3pOqTfFSQ32NwU=",
+  "URL": "https://github.com/ammen99/wf-recorder",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1763026834",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "ffmpeg",
+    "libpulse",
+    "pipewire",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "slurp: Select a region to record"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

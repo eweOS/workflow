@@ -1,0 +1,43 @@
+{
+  "FILENAME": "libnotify-0.8.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "libnotify",
+  "BASE": "libnotify",
+  "VERSION": "0.8.8-1",
+  "DESC": "Library for sending desktop notifications",
+  "CSIZE": "41847",
+  "ISIZE": "157239",
+  "MD5SUM": "e3cf1600cd6a87df7daa13a0d82dd7f1",
+  "SHA256SUM": "c8d3a4a58580b90bb81b0d3f99c13894630c0250a759078622fed768f9107ba8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZxctQAKCRDDWOcNd+r/VLt7APsFfZ53mymhPXuzt3y112on8YoVkAd8uwZEAEiep0BKpQEAgsF9z8Kdg5ufVV6kZCzjUGaJRkO1fZJP7cZI2hl/gQ8=",
+  "URL": "https://gitlab.gnome.org/GNOME/libnotify",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1771855110",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "gdk-pixbuf2",
+    "glib2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libnotify.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "xmlto"
+  ],
+  "CHECKDEPENDS": [
+    "dbus",
+    "gtk4",
+    "python-dbusmock",
+    "python-gobject",
+    "weston"
+  ],
+  "REPO": "main"
+}

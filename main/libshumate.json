@@ -1,0 +1,47 @@
+{
+  "FILENAME": "libshumate-1.6.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libshumate",
+  "BASE": "libshumate",
+  "VERSION": "1.6.1-1",
+  "DESC": "Map widget for GTK 4",
+  "CSIZE": "394435",
+  "ISIZE": "1338099",
+  "MD5SUM": "58b44b7134cab7038ae703b86d7cb024",
+  "SHA256SUM": "9a7338dde1e293523b76e8800e6e3f6c31cad398cf609ba8fc72a97c8a2ce2a4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaeMWogAKCRDDWOcNd+r/VDtxAP9wgA+X8C4XRqcZ8IJjGblITSJZCk4BGueOj79xFuyO8QEAsN0V7yZSNqCr3RAYFrQQ/AxxRpGrBBTMGSMqYw4TkAk=",
+  "URL": "https://wiki.gnome.org/Projects/libshumate",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1776490452",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "cairo",
+    "gdk-pixbuf2",
+    "glib2",
+    "graphene",
+    "gtk4",
+    "json-glib",
+    "libsoup3",
+    "pango",
+    "protobuf-c",
+    "sqlite"
+  ],
+  "PROVIDES": [
+    "libshumate-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gperf",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

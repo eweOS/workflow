@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-build-1.4.0-1-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.4.0-1",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "59662",
+  "ISIZE": "224834",
+  "MD5SUM": "d586d3e36414dced58e5c9e14887f8e7",
+  "SHA256SUM": "26bc6560ec108ab5449e8bdbb163775d274306df3d55eb03538a88030d23f425",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabkl6AAKCRDDWOcNd+r/VA64AP9yWw9ikHzOm4hYV7zNMqCM3q7Layi6p1dcvsm5uuKoVwEAsBViM3kbHRYooiAqrG3HDnxQtrdXg4Um7rM4Xkpxfgo=",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1773741750",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "REPO": "main"
+}

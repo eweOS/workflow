@@ -1,0 +1,44 @@
+{
+  "FILENAME": "sane-1.4.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "sane",
+  "BASE": "sane",
+  "VERSION": "1.4.0-2",
+  "DESC": "Scanner Access Now Easy",
+  "CSIZE": "4027313",
+  "ISIZE": "16290655",
+  "MD5SUM": "dd38ff8a382e21870624146b743615e5",
+  "SHA256SUM": "d611e1932c73a3211fe907cb0e261e9b039cc3029a0b9391d37b60c2f72b333a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXsHjgAKCRDDWOcNd+r/VA5HAP0XNZUYm6oizRpqGTtZCpBSusLH5dISm2jApSR66WiU9QEAyZksvv9JObWLt7Bg9J4tnoJ46Vom2V3UsILCJae+Igk=",
+  "URL": "https://gitlab.com/sane-project/backends",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LicenseRef-GPL-2.0-or-later-with-linking-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1769670340",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "bash",
+    "cairo",
+    "libpng",
+    "curl",
+    "glib2",
+    "libjpeg-turbo",
+    "libtiff",
+    "libusb",
+    "libxml2",
+    "poppler-glib"
+  ],
+  "PROVIDES": [
+    "libsane.so"
+  ],
+  "OPTDEPENDS": [
+    "sane-airscan: for scanners working in driverless mode"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf-archive",
+    "python",
+    "texlive-latexextra"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "dinit-0.21.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "dinit",
+  "BASE": "dinit",
+  "VERSION": "0.21.0-1",
+  "DESC": "Service monitoring / 'init' system",
+  "CSIZE": "270275",
+  "ISIZE": "744653",
+  "MD5SUM": "14a38925af6502840486d3ad16999d91",
+  "SHA256SUM": "47ddb3b4b1fccc6d17991d8b8734ae0d6bdf02020022255385a9c8395650dd84",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4tJgAKCRDDWOcNd+r/VH0SAQC3OEwnY7WOmRsgnj3U1StUXJT5heSZJXRma+FL5p+OJAEA5CK5lHfhZq/RGrknMjC/hk9eYFTh6tA9oegGPw6o0g4=",
+  "URL": "https://github.com/davmac314/dinit",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775119885",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "busybox",
+    "musl",
+    "llvm-libs",
+    "libcap"
+  ],
+  "OPTDEPENDS": [
+    "dinit-services: dinit service files"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

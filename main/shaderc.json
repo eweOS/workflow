@@ -1,0 +1,33 @@
+{
+  "FILENAME": "shaderc-2026.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "shaderc",
+  "BASE": "shaderc",
+  "VERSION": "2026.1-1",
+  "DESC": "Collection of tools, libraries and tests for shader compilation",
+  "CSIZE": "142710",
+  "ISIZE": "707432",
+  "MD5SUM": "632ebe246eaffd1daff97d8ab7c13712",
+  "SHA256SUM": "fa9038075f0f931fff0bce63f73f5b243efd73b740b10f952fa01a788c0e0ce5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabfesgAKCRDDWOcNd+r/VIiAAQCODjatAtED+RlGlaI8bUvJID4CHysMivlNakEyyhR5oAD/X8XX9hhxcBuXh9Cm79xSMY1K7J9y0kDx4JyT6slHfgg=",
+  "URL": "https://github.com/google/shaderc",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1773657969",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "glslang",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "libshaderc_shared.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "spirv-headers"
+  ],
+  "REPO": "main"
+}

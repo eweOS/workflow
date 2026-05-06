@@ -1,0 +1,60 @@
+{
+  "FILENAME": "fastfetch-2.62.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "fastfetch",
+  "BASE": "fastfetch",
+  "VERSION": "2.62.1-1",
+  "DESC": "Like Neofetch, but much faster because written in C",
+  "CSIZE": "772396",
+  "ISIZE": "2799076",
+  "MD5SUM": "948b36fd17efe89411b16c3f5017c068",
+  "SHA256SUM": "8539bd3a7ac3c0f2cbb9520260564a2129fd069b56ef73a11aff92795060ea3b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCafK2ewAKCRDDWOcNd+r/VN7fAP9HWRofSVul6ukgxk4IVomOfKYRVPRWPr2mp9Xw8mefOgD/X6HC3zGbZcB/X1XU4c3cmHD7c/1PfFcP7zmY/NXMLQM=",
+  "URL": "https://github.com/fastfetch-cli/fastfetch",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1777514471",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "yyjson"
+  ],
+  "OPTDEPENDS": [
+    "chafa: Image output as ascii art",
+    "dbus: Bluetooth, Player & Media detection",
+    "dconf: Needed for values that are only stored in DConf + Fallback for GSettings",
+    "ddcutil: Brightness detection of external displays",
+    "directx-headers: GPU detection in WSL",
+    "glib2: Output for values that are only stored in GSettings",
+    "imagemagick: Image output using sixel or kitty graphics protocol",
+    "libnm: Wifi detection",
+    "libpulse: Sound detection",
+    "mesa: Needed by the OpenGL module for gl context creation.",
+    "libxrandr: Multi monitor support",
+    "ocl-icd: OpenCL module",
+    "pciutils: GPU output",
+    "vulkan-icd-loader: Vulkan module & fallback for GPU output",
+    "xfconf: Needed for XFWM theme and XFCE Terminal font",
+    "zlib: Faster image output when using kitty graphics protocol",
+    "libdrm: Displays detection"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers",
+    "python",
+    "directx-headers",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "wayland",
+    "dconf",
+    "imagemagick",
+    "dbus",
+    "libpulse",
+    "xfconf",
+    "libdrm",
+    "libegl",
+    "yyjson",
+    "zlib"
+  ],
+  "REPO": "main"
+}

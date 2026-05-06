@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libisoburn-1.5.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "libisoburn",
+  "BASE": "libisoburn",
+  "VERSION": "1.5.8-1",
+  "DESC": "frontend for libraries libburn and libisofs",
+  "CSIZE": "832526",
+  "ISIZE": "2231872",
+  "MD5SUM": "c022d242c20e501ddc81c89da494f04c",
+  "SHA256SUM": "b4084490457a494a87b40baf4197b2b4994f98802a08cb5f7498852eaac9d466",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadnqVgAKCRDDWOcNd+r/VIwkAQC9EtoXcG4DeZuXqL+SqcL9FmqYFn8WhjBltdUweAC1wgD/UcRYgqkiOR7O9C1J7VNEOZugAExzk84RrR5SyPLqWgQ=",
+  "URL": "https://dev.lovelyhq.com/libburnia",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775889265",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libburn",
+    "libisofs",
+    "readline"
+  ],
+  "PROVIDES": [
+    "xorriso",
+    "xorriso-tcltk"
+  ],
+  "OPTDEPENDS": [
+    "tk: xorriso-tcltk frontend",
+    "sudo: use with xorriso-dd-target"
+  ],
+  "REPO": "main"
+}

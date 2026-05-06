@@ -1,0 +1,44 @@
+{
+  "FILENAME": "rust-1.94.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.94.1-2",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "93159294",
+  "ISIZE": "275105380",
+  "MD5SUM": "150e6a5f71bb4db356ad0e6d09b59785",
+  "SHA256SUM": "673686dddc13234195898d94aab5b3904739a5d52fbf249f7632532f8d46555c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaeLwDAAKCRDDWOcNd+r/VBUuAP0YVO0e+y41jCPK2Y9A+XfPmg/X24mjFvG8Khi3VeUrNAEAhqQEq5dUcV173lUUVXLCTeGpFYt7GiJYTBgfD1T0DgU=",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1776477887",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "curl",
+    "libssh2",
+    "openssl",
+    "sqlite"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja",
+    "musl-static"
+  ],
+  "REPO": "main"
+}

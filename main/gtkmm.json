@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtkmm-4.22.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "gtkmm",
+  "BASE": "gtkmm",
+  "VERSION": "4.22.0-1",
+  "DESC": "C++ bindings for GTK 4",
+  "CSIZE": "2066757",
+  "ISIZE": "11360459",
+  "MD5SUM": "78da07486ce9e1ac8bf703d1a00fb243",
+  "SHA256SUM": "ed3aef3765b5c3502c8802347d8b3e4428b153edb5c36c526837c1b4a468c286",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac1hogAKCRDDWOcNd+r/VJlZAQDcRK6k311jkgf7Bv+NB/RzHF3IYMjSKJyMef5pncdYzQEA9zO3Dqs7OLxj6kSnP9uiKVPEh5u44go4YnqiDWx/8gg=",
+  "URL": "https://www.gtkmm.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1775067136",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "gtk4",
+    "pangomm",
+    "cairomm",
+    "glibmm",
+    "libsigc++3"
+  ],
+  "PROVIDES": [
+    "libgtkmm-4.0.so",
+    "gtkmm-gtk4",
+    "gtkmm-4.0"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "mm-common",
+    "perl-xml-parser"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}
