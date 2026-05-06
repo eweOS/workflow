@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "54202494",
+  "ISIZE": "695614297",
+  "MD5SUM": "691ccff2f2c93e568e7753609b32d9d5",
+  "SHA256SUM": "4a9b65f7630c56563148ca7522fe3f833daa29f40001a8557c9dc1ce20f3242c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uAAKCRDDWOcNd+r/VLALAQDUM8mYoINo3VoAeHygYmndVbFz9R5EjNamIclWqqTsogEAxVWwlqBAD5gDuaXPtDkcv5bWBVkYEMauyLJbj8wMcQU=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libinput-1.31.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libinput",
+  "BASE": "libinput",
+  "VERSION": "1.31.1-1",
+  "DESC": "Input device management and event handling library",
+  "CSIZE": "342708",
+  "ISIZE": "1104722",
+  "MD5SUM": "2bfcf2ec7faaceee61ab389c8a4c569f",
+  "SHA256SUM": "5a05688b61a1b73539913c9c8d7ab2d58a3459f5373bbe5c6f59ba64fc2453ae",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4WJAAKCRDDWOcNd+r/VKx0AQCQhYXVXpREgCWxcyF5cTx3Y87fszfcuJdBzB8oiMUJxwD+IYm5Hc/5C9lS5xc118WdF5qqr6u6dFhskQlFd1tqQAQ=",
+  "URL": "https://gitlab.freedesktop.org/libinput",
+  "LICENSE": [
+    "custom:X11"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775114006",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libudev",
+    "libevdev",
+    "mtdev",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "check",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

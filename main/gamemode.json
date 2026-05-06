@@ -1,0 +1,39 @@
+{
+  "FILENAME": "gamemode-1.8.2-1-aarch64.pkg.tar.zst",
+  "NAME": "gamemode",
+  "BASE": "gamemode",
+  "VERSION": "1.8.2-1",
+  "DESC": "A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS",
+  "CSIZE": "23050",
+  "ISIZE": "64922",
+  "MD5SUM": "eb0ac41344fc9c444348102096cd821b",
+  "SHA256SUM": "268b32c81a2e612bf1c5377e0a296a8cb348c1745ced6d67cdd26bd969aa7a36",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcWMQAKCRDDWOcNd+r/VNLwAQCy6KnWw7yP1kt9nNnVb0XSS38SQKEsAUhN2HoESzeOnAD/fR3rCnkgnHrgUzSexRXLGqtHUynSyjRFBeUWrVv3WQI=",
+  "URL": "https://github.com/FeralInteractive/gamemode",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1769412769",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "bash",
+    "llvm-libs",
+    "musl",
+    "dbus",
+    "libinih"
+  ],
+  "PROVIDES": [
+    "libgamemode.so",
+    "libgamemodeauto.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "appstream"
+  ],
+  "REPO": "main"
+}

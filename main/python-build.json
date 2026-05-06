@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-build-1.4.0-1-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.4.0-1",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "59645",
+  "ISIZE": "224834",
+  "MD5SUM": "c941fa9a45234fdcc25450b532f456ad",
+  "SHA256SUM": "4dd4ee21890dde25298c5895e88319adb433983c53937f7431bef92222770978",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabkl7QAKCRDDWOcNd+r/VE9cAP9LH5Y++50LKDVSrPsRax7HZzPJ88O7SJUGFahvmw2UPQEAkiZATlKfhUK4NU2TRSjs49OXrNAex5aDzGEIg8LDLgA=",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1773741754",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "REPO": "main"
+}

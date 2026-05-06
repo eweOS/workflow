@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "75880768",
+  "ISIZE": "416160317",
+  "MD5SUM": "3b7b9cce6cad44aff03c1cad1a6809f3",
+  "SHA256SUM": "e827b24e608fde35265eb1a9a0724b75ce80d957d10f1eb5c1332004ca1f5cc4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uAAKCRDDWOcNd+r/VMcQAQCU0Hkrj2JCqz297xbBiBLMkVR29GTKSJYGwSoMnBEG2AEA2Gdx6uFDO0X1XI7BpHdiliYLhoQjbE8O59xv2GLFfAY=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

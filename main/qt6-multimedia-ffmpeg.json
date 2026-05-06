@@ -1,0 +1,46 @@
+{
+  "FILENAME": "qt6-multimedia-ffmpeg-6.10.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-ffmpeg",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.10.0-1",
+  "DESC": "FFMpeg backend for qt6-multimedia",
+  "CSIZE": "12077500",
+  "ISIZE": "31805361",
+  "MD5SUM": "0d4bcedfa35fe742bd07dfbd58269d04",
+  "SHA256SUM": "dba9a94fbacc9eef21bd2586e439107f95516876629b3633b46da732d41c3a76",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQs8TgAKCRDDWOcNd+r/VBZ6AQCqLVhuAEPVlq7fP2HC4O3ZmjYyavVr8KpihPXKJQMhzAD/SY2fJCl1RSS6ec0kbBjGVFUez3LGOAE1vOq64/pJrwU=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1762344163",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "ffmpeg",
+    "libglvnd",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-quick3d-devel",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

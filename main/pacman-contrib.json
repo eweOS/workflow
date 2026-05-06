@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pacman-contrib-1.10.6-8-aarch64.pkg.tar.zst",
+  "NAME": "pacman-contrib",
+  "BASE": "pacman-contrib",
+  "VERSION": "1.10.6-8",
+  "DESC": "Contributed scripts and tools for pacman systems",
+  "CSIZE": "53873",
+  "ISIZE": "119385",
+  "MD5SUM": "f6ccb363eac6639280d2424c6224d97b",
+  "SHA256SUM": "ee1954edd62ffba253cfe9e5cf80dbde51b6507bb5bc37645dcc51339a54093f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXCUrQAKCRDDWOcNd+r/VFEQAQDWeyKZk0gg0A69pr8d+oyTJAa6jsOFMKjx9Z7D2RqGgQEAmCZgKv3NEVPCzQBrKPvDuH7p3A2pNpGNyILPBSv0SAA=",
+  "URL": "https://gitlab.archlinux.org/pacman/pacman-contrib",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1768986383",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "pacman",
+    "libalpm"
+  ],
+  "OPTDEPENDS": [
+    "diffutils: for pacdiff",
+    "fakeroot: for checkupdates",
+    "mlocate: for pacdiff --locate",
+    "perl: for pacsearch",
+    "sudo: privilege elevation for several scripts",
+    "vim: default merge program for pacdiff"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc"
+  ],
+  "REPO": "main"
+}

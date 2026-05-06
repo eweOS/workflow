@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "418285",
+  "ISIZE": "1121751",
+  "MD5SUM": "3b7f5e44ba5ea921efc1fcd2293109bf",
+  "SHA256SUM": "5a7e17accb25c8e3485111bd61eca5a8a08552fdec922a140f6e233ce4fecf15",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uQAKCRDDWOcNd+r/VO+AAP9P5PwObthTa86bEEb2snqa5xc3eL09Upml7zfPHkErMQD8CJYJTqJxmqq/IC1JFf2ANoJ6Z61KUPaHWla4zg+nfQ8=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

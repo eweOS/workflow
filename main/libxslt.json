@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libxslt-1.1.45-1-aarch64.pkg.tar.zst",
+  "NAME": "libxslt",
+  "BASE": "libxslt",
+  "VERSION": "1.1.45-1",
+  "DESC": "XML stylesheet transformation library",
+  "CSIZE": "175290",
+  "ISIZE": "462292",
+  "MD5SUM": "531b7cbcfef770a58172e5b0fe764325",
+  "SHA256SUM": "2dd16cefdfd0de7e9850e47b88d07c450252e4179c8c42a2f51525ce8288a5ee",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcaHgAKCRDDWOcNd+r/VDGYAQDp6Z+Wpvlrncl/Uxz+UFrx0XcRPYQl1IllIh3NkqBcAgEA/FDuhdcK6mrjSNei02rS/zGZLjl0ESjHXFD9fla7zwM=",
+  "URL": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1769413755",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libgcrypt",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxslt.so",
+    "libexslt.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "docbook-xml"
+  ],
+  "REPO": "main"
+}

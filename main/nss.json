@@ -1,0 +1,35 @@
+{
+  "FILENAME": "nss-3.122-1-aarch64.pkg.tar.zst",
+  "NAME": "nss",
+  "BASE": "nss",
+  "VERSION": "3.122-1",
+  "DESC": "Network Security Services",
+  "CSIZE": "1595148",
+  "ISIZE": "4264176",
+  "MD5SUM": "383e729f4d0195439fb791c0d02d81e1",
+  "SHA256SUM": "8aa06a7e63182b3c94c905a816e307ceeafacbdae42b9d5b70cedb5574305583",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCad0+dAAKCRDDWOcNd+r/VKcAAQDapGXcg2yO/S8iBlkEE0Kc9HCXXd0zrTFJVanDhmSr3AEAoHHM0WUumK0Lm42xVJpoj6NNkAaA4mL7jHPywY6s1wo=",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1776107368",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "nspr>=4.35",
+    "p11-kit>=0.23.19",
+    "sqlite",
+    "zlib",
+    "sh"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

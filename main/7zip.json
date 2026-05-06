@@ -1,0 +1,35 @@
+{
+  "FILENAME": "7zip-26.01-1-aarch64.pkg.tar.zst",
+  "NAME": "7zip",
+  "BASE": "7zip",
+  "VERSION": "26.01-1",
+  "DESC": "Command-line file archiver with high compression ratio",
+  "CSIZE": "2200665",
+  "ISIZE": "6124410",
+  "MD5SUM": "1ba94b9c553d113af2eac862ed103375",
+  "SHA256SUM": "13469b16a4f51d8bfe904d1caf15555cb4b072c2fe5f7b57ada81a038f63078e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCafK0zAAKCRDDWOcNd+r/VAz1AP455p9HsuEJmrvVSIs4Y19cDBxr1L05JSYGprogxhlG1QD/ReOgngNGd6TZ8bMM3/T7OrAN9MiCuTc2cKeaXfm4iwg=",
+  "URL": "https://7-zip.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "BSD-3-Clause",
+    "custom:unRAR"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1777514050",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "p7zip"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "p7zip"
+  ],
+  "PROVIDES": [
+    "p7zip"
+  ],
+  "REPO": "main"
+}

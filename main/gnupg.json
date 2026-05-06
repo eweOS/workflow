@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnupg-2.4.9-1-aarch64.pkg.tar.zst",
+  "NAME": "gnupg",
+  "BASE": "gnupg",
+  "VERSION": "2.4.9-1",
+  "DESC": "GNU Privacy Guard",
+  "CSIZE": "3118742",
+  "ISIZE": "9975828",
+  "MD5SUM": "1d4233fc4b25dac7e8272d3a393b0e62",
+  "SHA256SUM": "2f778528b7640bb3e8b817b6193cb92fa5d7b614e662d3b958c31ce302cf270d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaX92eQAKCRDDWOcNd+r/VJfEAP9qF3/+spBRbqWpjaG1btt7vQjhlX6O2gujLUBW3IWfswEA2PUv8HDT0lXrZWna06Cd6wqkZDOfK4Skkwy0aYkfuwg=",
+  "URL": "https://gnupg.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1769961001",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "pinentry",
+    "libgcrypt"
+  ],
+  "PROVIDES": [
+    "gpg"
+  ],
+  "OPTDEPENDS": [
+    "ntbtls: For dirmngr support"
+  ],
+  "MAKEDEPENDS": [
+    "ntbtls"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libgudev-238-1-aarch64.pkg.tar.zst",
+  "NAME": "libgudev",
+  "BASE": "libgudev",
+  "VERSION": "238-1",
+  "DESC": "GObject bindings for libudev",
+  "CSIZE": "31356",
+  "ISIZE": "176396",
+  "MD5SUM": "f2d898baa972b20482d49f8ad3355c47",
+  "SHA256SUM": "62d95d849c5c71acb3b3bc5fd0da62124a1d0d546ca86dff78d2ea6c8f5da083",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabg4pwAKCRDDWOcNd+r/VOe5AQCbBDTbfPX9g3hq0CUhrYBQm6h0js79Fptya1iAwCEivgEAv1IpVj9dnRGZ+grP0dREaRJSAGiVvy6zrepUmHjRjQA=",
+  "URL": "https://gitlab.gnome.org/GNOME/libgudev",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1773680998",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libudev-zero"
+  ],
+  "PROVIDES": [
+    "libgudev-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "gtk-doc",
+    "vala"
+  ],
+  "REPO": "main"
+}

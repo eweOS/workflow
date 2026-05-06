@@ -1,0 +1,37 @@
+{
+  "FILENAME": "pyalpm-0.11.1-1-aarch64.pkg.tar.zst",
+  "NAME": "pyalpm",
+  "BASE": "pyalpm",
+  "VERSION": "0.11.1-1",
+  "DESC": "Python 3 bindings for libalpm",
+  "CSIZE": "62676",
+  "ISIZE": "241981",
+  "MD5SUM": "5f6c2be88dc70bab3b32fce23afa8698",
+  "SHA256SUM": "b5db24642834cf70f09dfb453be9f7f0e9df621ebaf805eff50ae305c4050bce",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcZ7AAKCRDDWOcNd+r/VC45AP0dbugtaK1ILogg+2sia+wUTQuL6knFNzyZEiQdtqA+rwD/UfyQj5GbdV21o+c3XyFEOUrd1Dhrwkvl6ULvnzzJOgQ=",
+  "URL": "https://gitlab.archlinux.org/archlinux/pyalpm",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1769413718",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "python",
+    "libalpm"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools",
+    "python-pkgconfig",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "meson-python"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-pacman"
+  ],
+  "REPO": "main"
+}

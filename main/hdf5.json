@@ -1,0 +1,36 @@
+{
+  "FILENAME": "hdf5-2.1.0-2-aarch64.pkg.tar.zst",
+  "NAME": "hdf5",
+  "BASE": "hdf5",
+  "VERSION": "2.1.0-2",
+  "DESC": "HDF5 scientific data model implementation",
+  "CSIZE": "2956226",
+  "ISIZE": "12257177",
+  "MD5SUM": "0432dfaf904b5c4a0346bccb3d004085",
+  "SHA256SUM": "ecaf8bcccac3337b5789734101085f709c6ed98e34c9fd4e0120db47f039a032",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuq6gAKCRDDWOcNd+r/VAI5AQDT8WFj5fyYzC15PTOvOaScQNqkoqmdytRPHNGLTfEy3QD+IWG8y/9BuXvFvd7by06/llmLWtaDB+zc9YkQBfBd3ws=",
+  "URL": "https://www.hdfgroup.org/solutions/hdf5/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1774955121",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libhdf5.so",
+    "libhdf5_hl_f90cstub.so",
+    "libhdf5_f90cstub.so",
+    "libhdf5_hl_fortran.so",
+    "libhdf5_fortran.so",
+    "libhdf5_tools.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "perl",
+    "flang"
+  ],
+  "REPO": "main"
+}

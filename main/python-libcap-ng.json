@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-libcap-ng-0.9.3-1-aarch64.pkg.tar.zst",
+  "NAME": "python-libcap-ng",
+  "BASE": "libcap-ng",
+  "VERSION": "0.9.3-1",
+  "DESC": "Library for programming Linux capabilities (Python bindings)",
+  "CSIZE": "27432",
+  "ISIZE": "98751",
+  "MD5SUM": "30f5b0218eadb6af9d18e4e73f8f91e2",
+  "SHA256SUM": "bee7d7dacbd58e43bc27805828ebe639be7856211956513728d21c2085d9a024",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaebURQAKCRDDWOcNd+r/VNe0AP9yDZXbGHj3WEAHtF224AzjLVcCs9MDux4dsrRKLL9IhwEAipbsf52tYsvbGwp4AvoanEOuas2pY6z2yRsmAj7XvQo=",
+  "URL": "https://github.com/stevegrubb/libcap-ng",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1776735635",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "python"
+  ],
+  "PROVIDES": [
+    "libcap-ng.so",
+    "libdrop_ambient.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libnvme-1.16.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libnvme",
+  "BASE": "libnvme",
+  "VERSION": "1.16.1-1",
+  "DESC": "C Library for NVM Express on Linux",
+  "CSIZE": "366016",
+  "ISIZE": "1560665",
+  "MD5SUM": "f525bc633a06118b3bd3d15c456e302c",
+  "SHA256SUM": "7c89f19bc3553a115c9116eee10b995da3ff085ec73385f7369d14bbd130729e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadf93AAKCRDDWOcNd+r/VOMYAQC/q5Znuiz052UghGb+tnCvxiTLpaaTA7fS8jpAuO9uggEAwo/KsM0KT28iN/lnG169AovVNZQWTI4NEhNhAZEdJgI=",
+  "URL": "https://github.com/linux-nvme/libnvme",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775763205",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "dbus",
+    "llvm-libs",
+    "musl",
+    "json-c",
+    "keyutils",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "meson",
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

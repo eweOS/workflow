@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-78.2-1-aarch64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "78.2-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "15192092",
+  "ISIZE": "44571959",
+  "MD5SUM": "310ad8039b7eb4d7da2fc6eb595194bb",
+  "SHA256SUM": "b9b3da64695248e824e25cb2618784d84fdfcdfe43661e29b1a60af7c2af9de4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ6HUAAKCRDDWOcNd+r/VMFGAP9ZgMC2e6MWajvwp0ylzVqckBcktV8owQHRSIQSF8zrTgEAg9As061syd5DPUp/91bxetVHa5FqemPWmYbZAY7QGgU=",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1771996789",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

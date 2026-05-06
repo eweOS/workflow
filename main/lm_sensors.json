@@ -1,0 +1,35 @@
+{
+  "FILENAME": "lm_sensors-3.6.2-1-aarch64.pkg.tar.zst",
+  "NAME": "lm_sensors",
+  "BASE": "lm_sensors",
+  "VERSION": "3.6.2-1",
+  "DESC": "User space tools for general SMBus access and hardware monitoring",
+  "CSIZE": "141279",
+  "ISIZE": "433316",
+  "MD5SUM": "066736f83da9e22cc3e85fee287f216a",
+  "SHA256SUM": "cac65a08548a488405cab550afb3536d27498a641242f75282c71cffef4c48ee",
+  "PGPSIG": "iF4EABYCAAYFAmhg4kMACgkQw1jnDXfq/1RAQAD9Eo3Yj2QhCp9sBzHvLLWy/YavEmKrXNGMB3dAfH5W9fwA/1kBbwJ6O8OPU7pBXeQPCbcEYaUwv+dqOVCXThdEhv0E",
+  "URL": "https://github.com/hramrach/lm-sensors",
+  "LICENSE": [
+    "GPL-2.0-only OR LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1751180335",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "bash",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libsensors.so"
+  ],
+  "OPTDEPENDS": [
+    "rrdtool: for logging with sensord",
+    "perl: for sensor detection and configuration convert"
+  ],
+  "MAKEDEPENDS": [
+    "rrdtool",
+    "perl"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "llvm-devel-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "llvm-devel",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "Development files for LLVM",
+  "CSIZE": "56402195",
+  "ISIZE": "293938575",
+  "MD5SUM": "254bf5b8e7d05e3cfe74f9ae94ac36bf",
+  "SHA256SUM": "3a948a988ec3a66036cecb45c510e199b689483aa6b798c0f22c2aad44f47b76",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uQAKCRDDWOcNd+r/VLl8AQCjakFi7kD3JY7lbPR+n3IiFxY4HCEW1a5ypRdv1bhP+AEAzXWh76UcAKbhrcQnxc4HIH6P4L+fXJPOZTVrGHTppgM=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs",
+    "llvm-tools",
+    "mlir",
+    "openmp",
+    "clang-tools"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

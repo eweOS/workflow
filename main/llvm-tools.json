@@ -1,0 +1,50 @@
+{
+  "FILENAME": "llvm-tools-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "LLVM binary and object tools",
+  "CSIZE": "25442244",
+  "ISIZE": "82034227",
+  "MD5SUM": "1a67f8f1797a54130f2c68263597d4b0",
+  "SHA256SUM": "55f8b128bb9ac959ebbd2c7facf2692634512f9926ef8f762f28665fa8cfe0b6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uQAKCRDDWOcNd+r/VI2/AQDrmN8iIjTJcKvTrGL/9LOrMdH7EPGmFu2SaQihMPuMkQD/axfzWdkgMUIJccyFisEtsYfG+8/8z86K2FZs6EiTWAY=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

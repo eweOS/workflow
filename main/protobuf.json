@@ -1,0 +1,36 @@
+{
+  "FILENAME": "protobuf-34.1-2-aarch64.pkg.tar.zst",
+  "NAME": "protobuf",
+  "BASE": "protobuf",
+  "VERSION": "34.1-2",
+  "DESC": "Google's data interchange format",
+  "CSIZE": "4698007",
+  "ISIZE": "15308569",
+  "MD5SUM": "99662edfbf702ed70f0a6aaca9234f3e",
+  "SHA256SUM": "a1855f583570d66ed97603b4b3f0b2b21dc60b3e1d6d43f42845bbb026727806",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadi9NwAKCRDDWOcNd+r/VDI9AQDCneR4D3hF7wM0f/QX+5mn9IdZFEcz4Ourq5h2vpZ+bQEA6Oimob5yfjR6fneESPsziZLWfGF1yoKlQiesCkOlVQM=",
+  "URL": "https://github.com/protocolbuffers/protobuf/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775811882",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "abseil-cpp",
+    "jsoncpp",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "libprotobuf.so",
+    "libprotobuf-lite.so",
+    "libprotoc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "CHECKDEPENDS": [
+    "googletest"
+  ],
+  "REPO": "main"
+}

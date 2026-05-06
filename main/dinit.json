@@ -1,0 +1,33 @@
+{
+  "FILENAME": "dinit-0.21.0-1-aarch64.pkg.tar.zst",
+  "NAME": "dinit",
+  "BASE": "dinit",
+  "VERSION": "0.21.0-1",
+  "DESC": "Service monitoring / 'init' system",
+  "CSIZE": "275953",
+  "ISIZE": "625685",
+  "MD5SUM": "7fd28bc47b50eb12d2fd0725296ee411",
+  "SHA256SUM": "4c472e32cb9d311a76973f59b188813abb1a0b7dd206e2869a7573e5ad0765ca",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4tMQAKCRDDWOcNd+r/VCSKAQCTTCMJpxLE6X6flDsDN6A2NLL4YJ/VYyRxh96J5jq/aQEAim7ezOi81DBKczLQI5P0yDWUq0NSrKmU+Jqnn++iJwQ=",
+  "URL": "https://github.com/davmac314/dinit",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775119889",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "busybox",
+    "musl",
+    "llvm-libs",
+    "libcap"
+  ],
+  "OPTDEPENDS": [
+    "dinit-services: dinit service files"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

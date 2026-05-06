@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "32458243",
+  "ISIZE": "111286706",
+  "MD5SUM": "0287bacca56542502137aca0488440bf",
+  "SHA256SUM": "8bab10f3fcceb0756347ca054675b1311494c3c6e6136bed03a1c4f0fc4b89a1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uAAKCRDDWOcNd+r/VDXZAQCSn5mpbhScFwOKVyFvCqdofqDRF2XYUVLvKHk3MtmX1QEAubxmEap8ljJpGCoYwhJG6g2RysyFmRHNzPFISXRcDA0=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

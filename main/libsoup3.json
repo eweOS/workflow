@@ -1,0 +1,50 @@
+{
+  "FILENAME": "libsoup3-3.6.6-1-aarch64.pkg.tar.zst",
+  "NAME": "libsoup3",
+  "BASE": "libsoup3",
+  "VERSION": "3.6.6-1",
+  "DESC": "HTTP client/server library for GNOME",
+  "CSIZE": "468020",
+  "ISIZE": "2047259",
+  "MD5SUM": "ccbace7f8a6e2bf97826e30771951db6",
+  "SHA256SUM": "c8e65a025e974b771cb08f1bb9c6c7c0ab742cedcb82a55a76865c5c03470dbc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZxd0AAKCRDDWOcNd+r/VCBAAP4kFxzBf9MZE2wr31fwrCSQMXImbUIW3Rth+SjvMrIhiAEAvswxUIsoEPjRm9JcHG8DwQdqUWvzuaQCb+oXa89TigE=",
+  "URL": "https://wiki.gnome.org/Projects/libsoup",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1771855349",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "brotli",
+    "glib2",
+    "glib-networking",
+    "krb5",
+    "libnghttp2",
+    "libpsl",
+    "sqlite",
+    "zlib",
+    "libbrotlidec.so",
+    "libgssapi_krb5.so",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so",
+    "libpsl.so"
+  ],
+  "PROVIDES": [
+    "libsoup-3.0.so"
+  ],
+  "OPTDEPENDS": [
+    "samba: Windows Domain SSO"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-5compat-6.10.0-2-aarch64.pkg.tar.zst",
+  "NAME": "qt6-5compat",
+  "BASE": "qt6-5compat",
+  "VERSION": "6.10.0-2",
+  "DESC": "Module that contains unsupported Qt 5 APIs",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "572815",
+  "ISIZE": "2254622",
+  "MD5SUM": "f9f851cc844c3645e1e8d138a67638c4",
+  "SHA256SUM": "a02780f72b8d48960e40d97dcf4fd3ce8fd04657711a11534ae5f6784e8f2053",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ7hVwAKCRDDWOcNd+r/VAltAQCI+xpSdos3gTK1t0iKqMGXDwCy9a/Tc39fHgb4Htif1wEAwfLvRFJbVM00n/hKZO6Ouox9H8NELwxB+k88aEEuawM=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1772020127",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-shadertools",
+    "icu"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: for QtGraphicalEffects"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-declarative",
+    "qt6-shadertools-devel",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "gtk-doc-1.35.1-1-any.pkg.tar.zst",
+  "NAME": "gtk-doc",
+  "BASE": "gtk-doc",
+  "VERSION": "1.35.1-1",
+  "DESC": "Documentation tool for public library API",
+  "CSIZE": "425537",
+  "ISIZE": "3237907",
+  "MD5SUM": "7d48fc250802b778ae3ac18eb677f118",
+  "SHA256SUM": "fc4496bab356bc5c6fcd2ca612f4491828011d88cb73ec2b690cce5de925a57c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQ69CgAKCRDDWOcNd+r/VDV2AQC7G5HEhxcln5zB2KXqDG9HLjKNZw8RA2wmFBEI2jR9wAEAp97jAGM9VNaMxG9e8rQydVqjxJ3dT9xgm42OLamlAgk=",
+  "URL": "https://www.gtk.org/gtk-doc/",
+  "LICENSE": [
+    "GFDL-1.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1762573865",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "docbook-xml",
+    "docbook-xsl",
+    "glib2",
+    "glib2-docs",
+    "python-lxml",
+    "python-pygments"
+  ],
+  "OPTDEPENDS": [
+    "dblatex: PDF support"
+  ],
+  "MAKEDEPENDS": [
+    "yelp-tools",
+    "git",
+    "meson"
+  ],
+  "REPO": "main"
+}

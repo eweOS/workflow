@@ -1,0 +1,37 @@
+{
+  "FILENAME": "lximage-qt-2.3.0-1-aarch64.pkg.tar.zst",
+  "NAME": "lximage-qt",
+  "BASE": "lximage-qt",
+  "VERSION": "2.3.0-1",
+  "DESC": "The LXQt image viewer and screenshot tool",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "295617",
+  "ISIZE": "1252086",
+  "MD5SUM": "f5370306e8db0c7e93c0ba660f7f2a69",
+  "SHA256SUM": "d48aa850a55ca0d6dc8341fb60a07feb418484e45b9f006878468e6a8bbfb7ac",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRrlsQAKCRDDWOcNd+r/VMzcAP9SU6Z4gjDbSc5Rzoputu+z/SpKwzRh71duHFqibNMiwQEAtR2eFA3AUwo1lksuF0hrcXpWyvI4ZinjGFEnPZvrWwI=",
+  "URL": "https://github.com/lxqt/lximage-qt",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1763370723",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "lxqt-themes",
+    "libfm-qt",
+    "qt6-svg",
+    "libexif",
+    "libfm-qt6.so"
+  ],
+  "OPTDEPENDS": [
+    "qt6-imageformats: support for additional image formats (WEBP, TIFF, etc.)",
+    "kimageformats: support for additional image formats (PCX, XCF, HEIF, etc.)"
+  ],
+  "MAKEDEPENDS": [
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

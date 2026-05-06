@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtkmm-4.22.0-1-aarch64.pkg.tar.zst",
+  "NAME": "gtkmm",
+  "BASE": "gtkmm",
+  "VERSION": "4.22.0-1",
+  "DESC": "C++ bindings for GTK 4",
+  "CSIZE": "2070504",
+  "ISIZE": "11239955",
+  "MD5SUM": "61492c7dc1cdda702835766497e4c0a0",
+  "SHA256SUM": "251f84000534bdb4778d8a1802a4f599b1f96250fb83efb3305b1828ebc29f22",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac1f5gAKCRDDWOcNd+r/VOpKAQDV/ZDMGH5z7FgzEE43k5V57qEmX8VAIvB6LwSjWMQ36QEA2hTBlQlb8XI0mQm8QPxKqS7C7BoRxVucHw49TID10gI=",
+  "URL": "https://www.gtkmm.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775067130",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "gtk4",
+    "pangomm",
+    "cairomm",
+    "glibmm",
+    "libsigc++3"
+  ],
+  "PROVIDES": [
+    "libgtkmm-4.0.so",
+    "gtkmm-gtk4",
+    "gtkmm-4.0"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "mm-common",
+    "perl-xml-parser"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

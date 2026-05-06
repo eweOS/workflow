@@ -1,0 +1,69 @@
+{
+  "FILENAME": "emacs-30.2-3-aarch64.pkg.tar.zst",
+  "NAME": "emacs",
+  "BASE": "emacs",
+  "VERSION": "30.2-3",
+  "DESC": "Extensible, customizable, self-documenting free/libre text editor",
+  "CSIZE": "55941145",
+  "ISIZE": "130700666",
+  "MD5SUM": "cd70e6723128179ef4ba080bc38ff39a",
+  "SHA256SUM": "816ee16c83e6d95b7e9ea8ec03ff473551dcc714a0623514ab8331292f4603d2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaTZltgAKCRDDWOcNd+r/VInsAP9S349lkAi5C0Nh/jvvtofCR+yMvsJbLiZ4PF5I5dq0ZgD/cL/y5J8Zr2bKJQL/y0KGtqEsZem/pv2/yjdctv8AqwM=",
+  "URL": "https://www.gnu.org/software/emacs/emacs.html",
+  "LICENSE": [
+    "GPL-3.0-or-later AND LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1765172652",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "acl",
+    "dbus",
+    "ncurses",
+    "libxml2",
+    "zlib-ng",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "CONFLICTS": [
+    "emacs"
+  ],
+  "PROVIDES": [
+    "emacs"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "texinfo",
+    "linux-headers",
+    "at-spi2-core",
+    "libjpeg",
+    "libpng",
+    "librsvg",
+    "dav1d",
+    "libtiff",
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "pango",
+    "cairo",
+    "glib",
+    "gtk3",
+    "gdk-pixbuf",
+    "alsa-lib"
+  ],
+  "REPO": "main"
+}

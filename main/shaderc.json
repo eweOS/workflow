@@ -1,0 +1,33 @@
+{
+  "FILENAME": "shaderc-2026.1-1-aarch64.pkg.tar.zst",
+  "NAME": "shaderc",
+  "BASE": "shaderc",
+  "VERSION": "2026.1-1",
+  "DESC": "Collection of tools, libraries and tests for shader compilation",
+  "CSIZE": "263769",
+  "ISIZE": "753344",
+  "MD5SUM": "7f0e2fae09293d9b479ed3223aeb5ff3",
+  "SHA256SUM": "4acfd3117f03f9673609ef0795dcace2468b139bcadb4407ef8dee46a15493fb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabfewAAKCRDDWOcNd+r/VB3uAQCa95mDC8+7pDcBIK7+mFLQAqQ19Qf3ngrun+PI+PeTOwD/eWotc871xD3x4QcyZP/PTWd6ZHQeigSS3i/1aVkP3AI=",
+  "URL": "https://github.com/google/shaderc",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1773657978",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "glslang",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "libshaderc_shared.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "spirv-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,64 @@
+{
+  "FILENAME": "python-sphinx-8.2.3-1-any.pkg.tar.zst",
+  "NAME": "python-sphinx",
+  "BASE": "python-sphinx",
+  "VERSION": "8.2.3-1",
+  "DESC": "Python documentation generator",
+  "CSIZE": "3677522",
+  "ISIZE": "21349998",
+  "MD5SUM": "6dfd5b9bcdc9bc733d0134c446ab714c",
+  "SHA256SUM": "399134e7654e0c30f53db07587f81f6b656463c6e86d07a9e48470d02fb1542b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaaFLUwAKCRDDWOcNd+r/VKznAP9RNZ2cpJVl2HeGv1Q/Z2GttnT+JVpUzwa5bphnn3nuawD/fF7t+E6cJMkaghlLGIyD3tz/hW0ftsuuEuuMj72itQc=",
+  "URL": "http://www.sphinx-doc.org/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1772178107",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "python-babel",
+    "python-docutils",
+    "python-imagesize",
+    "python-jinja",
+    "python-packaging",
+    "python-pygments",
+    "python-requests",
+    "python-roman-numerals-py",
+    "python-snowballstemmer",
+    "python-sphinx-alabaster-theme",
+    "python-sphinxcontrib-applehelp",
+    "python-sphinxcontrib-devhelp",
+    "python-sphinxcontrib-htmlhelp",
+    "python-sphinxcontrib-jsmath",
+    "python-sphinxcontrib-qthelp",
+    "python-sphinxcontrib-serializinghtml"
+  ],
+  "OPTDEPENDS": [
+    "imagemagick: for ext.imgconverter",
+    "texlive-fontsextra: for the default admonition title icons in PDF output",
+    "texlive-latexextra: for generation of PDF documentation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "cython",
+    "imagemagick",
+    "libzip",
+    "librsvg",
+    "python-defusedxml",
+    "python-pytest",
+    "python-setuptools",
+    "python-typing_extensions",
+    "texlive-fontsextra",
+    "texlive-fontsrecommended",
+    "texlive-latexextra",
+    "texlive-luatex",
+    "texlive-xetex"
+  ],
+  "REPO": "main"
+}

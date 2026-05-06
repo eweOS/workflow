@@ -1,0 +1,39 @@
+{
+  "FILENAME": "tor-0.4.9.6-1-aarch64.pkg.tar.zst",
+  "NAME": "tor",
+  "BASE": "tor",
+  "VERSION": "0.4.9.6-1",
+  "DESC": "Anonymizing overlay network.",
+  "CSIZE": "5946843",
+  "ISIZE": "30387862",
+  "MD5SUM": "4bd28da13ce4bc6a379336f4972f53cc",
+  "SHA256SUM": "2f81e382b698d90fd4df1d5f78a1feb746ec80dba2a07ffefe05eac8fabc0bbb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacndlQAKCRDDWOcNd+r/VB0VAQCmrkbWeTpDXTcBvxXr1/En/m6bOkBV2RVPSqs7/D2+mQD+M1JWI1rufMXgOoYuVsRIZqPh1WLUgfFPjjNabYGrfwg=",
+  "URL": "https://www.torproject.org/download/tor/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "LGPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1774837241",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "bash",
+    "libcap",
+    "openssl",
+    "libevent",
+    "liblzma.so",
+    "libseccomp.so",
+    "libz.so",
+    "libzstd.so"
+  ],
+  "OPTDEPENDS": [
+    "torsocks: for torify"
+  ],
+  "MAKEDEPENDS": [
+    "ca-certificates",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

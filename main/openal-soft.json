@@ -1,0 +1,35 @@
+{
+  "FILENAME": "openal-soft-1.25.1-1-aarch64.pkg.tar.zst",
+  "NAME": "openal-soft",
+  "BASE": "openal-soft",
+  "VERSION": "1.25.1-1",
+  "DESC": "A software implementation of the OpenAL 3D audio API",
+  "CSIZE": "835949",
+  "ISIZE": "2017914",
+  "MD5SUM": "49ad99003b92e1e82b7e712ddb2d26a6",
+  "SHA256SUM": "c9a498cc9ad124faaaa26433025300f163d0a4ef8af8aee6a79a86487a921de3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcgTAAKCRDDWOcNd+r/VAO3AQDt7oXXHj1zxv8+Yw2nDwdDJGZcss7tHbs7Y+1IN4v0qAD/RwhdrJN0dtM8ODzdelptjiVfJhCxzz0iHB24Et9+Bws=",
+  "URL": "https://openal-soft.org",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1769415302",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "alsa-lib",
+    "pipewire",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "openal",
+    "libopenal.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "clang-tools"
+  ],
+  "REPO": "main"
+}

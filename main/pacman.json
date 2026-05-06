@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pacman-7.1.0-2-aarch64.pkg.tar.zst",
+  "NAME": "pacman",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-2",
+  "DESC": "A library-based package manager with dependency support",
+  "CSIZE": "755872",
+  "ISIZE": "3623692",
+  "MD5SUM": "eab7a35d9f5e72df911821c302a1ce4e",
+  "SHA256SUM": "0b92d2e0a37a7edd1c46762c233545aea959b9772dc3e0bf8491e6dcff63f350",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuqgQAKCRDDWOcNd+r/VM7MAP4kH95odjUqPTyyxcCTG1Yk283y6jcnHnpwhR4vdjrByQEA6OvCJM8zE4h4/D6ncjnFABg5ylg+vC/lzYIUSTYWeAw=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1774955373",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "bash",
+    "libalpm=7.1.0",
+    "fakeroot",
+    "pacman-mirrorlist"
+  ],
+  "PROVIDES": [
+    "makepkg"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

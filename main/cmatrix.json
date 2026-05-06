@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cmatrix-2.0-4-aarch64.pkg.tar.zst",
+  "NAME": "cmatrix",
+  "BASE": "cmatrix",
+  "VERSION": "2.0-4",
+  "DESC": "A curses-based scrolling 'Matrix'-like screen",
+  "CSIZE": "37349",
+  "ISIZE": "89809",
+  "MD5SUM": "ead1d7c1502a7ce0db6231ec84853861",
+  "SHA256SUM": "8c68e3f1db2fdde10445534ce8656d4ddfe4e798f113b99dcfd29d3e94f84791",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaedNugAKCRDDWOcNd+r/VIzJAQC03Db5cfjJ326doAh0kH4rThcvW74lkkbNjyb82z44xgD/Qpa5xr6PvNEsr5AueIVPjWxL9UuXN8Ti+/wxH+DwVQQ=",
+  "URL": "https://www.asty.org/cmatrix/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1776766744",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "kbd: cmatrix-tty custom font",
+    "xterm: cmatrix-tty custom font"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "manifold-3.4.0-1-aarch64.pkg.tar.zst",
+  "NAME": "manifold",
+  "BASE": "manifold",
+  "VERSION": "3.4.0-1",
+  "DESC": "Geometry library for creating and operating on manifold triangle meshes",
+  "CSIZE": "664888",
+  "ISIZE": "2440677",
+  "MD5SUM": "1b192f63566a58c69a690b09cbef6256",
+  "SHA256SUM": "743f718f221ed1068cc92e92a5691456b8418f5e1d84c7858a99bb40679c2627",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadT9KAAKCRDDWOcNd+r/VFH1AP91v72L80DzQUFopTQ+wvtemqz7zfx00eS5C1MgDRiPcAEA7T+n0clu1g64sbABtai4/MtsDoAnaiUN+5XJU09UDgk=",
+  "URL": "https://github.com/elalish/manifold",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775566242",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "onetbb",
+    "clipper2",
+    "assimp"
+  ],
+  "PROVIDES": [
+    "libmanifold.so",
+    "libmanifoldc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

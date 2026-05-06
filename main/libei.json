@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libei-1.5.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libei",
+  "BASE": "libei",
+  "VERSION": "1.5.0-1",
+  "DESC": "Library for Emulated Input",
+  "CSIZE": "107060",
+  "ISIZE": "354188",
+  "MD5SUM": "056be097cd99c15a2bf3109dd18b6a08",
+  "SHA256SUM": "10dadf235464f03f6d89a243705803f680a4527fff26087999a996de7dfc35a9",
+  "PGPSIG": "iF4EABYCAAYFAmizB2wACgkQw1jnDXfq/1ScDgD/Sh4KgXckPAlO5mcAI98koyYcazI2TF2VMsQ/srv3d4AA/j71ksF6HfMjniBByY1gBhrhjKLLzsRvhoULJ06qqhMG",
+  "URL": "https://libinput.pages.freedesktop.org/libei/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1756564077",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libevdev",
+    "basu"
+  ],
+  "PROVIDES": [
+    "libei.so",
+    "libeis.so",
+    "liboeffis.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "libxkbcommon",
+    "meson",
+    "python-attrs",
+    "python-dbusmock",
+    "python-jinja",
+    "python-pytest",
+    "python-structlog",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

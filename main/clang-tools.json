@@ -1,0 +1,45 @@
+{
+  "FILENAME": "clang-tools-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "clang-based tools",
+  "CSIZE": "20644284",
+  "ISIZE": "74577909",
+  "MD5SUM": "7d0feb05f3c4382cebf6381277330e81",
+  "SHA256SUM": "8a861b2f710d44d890dcbda3f56556a9ca32479ff244178f342d930a41ce728e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uAAKCRDDWOcNd+r/VGy1AQCkBbB+LioKAkQy/NeZx+1nE5Qmg/1X7uFnCRTc08AzFgEAnFALcYodnQjfvpEbNUesjJCz47nDqkcw9FsKCQWrDwk=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

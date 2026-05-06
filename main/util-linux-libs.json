@@ -1,0 +1,47 @@
+{
+  "FILENAME": "util-linux-libs-2.41.3-1-aarch64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.41.3-1",
+  "DESC": "util-linux runtime libraries",
+  "CSIZE": "488839",
+  "ISIZE": "1248450",
+  "MD5SUM": "dec0aeca6bea0a89c3fa84b7f5a7c0d3",
+  "SHA256SUM": "66b9eb93f1ec1e563fa2daee4f70b109912cfb4391e0bd4392df63cf898c64a0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaUuN2gAKCRDDWOcNd+r/VHHVAQDNjY78ZcxLNkUNUVmTXaOwahe7yqy013QL6nX6v+dOdAD/X7Mo7x0NcxKs0UIP9WmxKjal/HBhZjkw5mU2sCB63Q8=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1766559622",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers",
+    "utmps"
+  ],
+  "REPO": "main"
+}

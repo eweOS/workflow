@@ -1,0 +1,40 @@
+{
+  "FILENAME": "nftables-1.1.6-1-aarch64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.6-1",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "447887",
+  "ISIZE": "1055493",
+  "MD5SUM": "5dc200d674857a3224c6cede30ef89e8",
+  "SHA256SUM": "3c1b9284f13a632035f8fe5f34ed03fa954e27a7d775fa3639b2f51ef4383a6c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaUyv1gAKCRDDWOcNd+r/VJP4AP9HwFltztYrokwipQtLdHzutyWWdUhPf6qEyZZbnz2VuwEAptkRsmgcBo+7YdMc/E2+el1CFsbIkszjtW7wYbh4nwc=",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1766633909",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "linux-headers",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

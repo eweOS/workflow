@@ -1,0 +1,35 @@
+{
+  "FILENAME": "boost-1.90.0-2-aarch64.pkg.tar.zst",
+  "NAME": "boost",
+  "BASE": "boost",
+  "VERSION": "1.90.0-2",
+  "DESC": "Free peer-reviewed portable C++ source libraries (development headers)",
+  "CSIZE": "31752617",
+  "ISIZE": "213932213",
+  "MD5SUM": "5f228b02213af82862005fafd2479ae1",
+  "SHA256SUM": "8bb4c187264ab4e6343563c0d43e171a5e0658a6163d2d8b88cc07d1ec0d9c93",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ6LmQAKCRDDWOcNd+r/VKFYAQCbJKLUdKM1vGE+mAAYUXasM32sF3eaKJHByFMeWj4OBAD3cR4pYT14r8N8zHaU09n9TsZJplelh7JCQg67wnNUAQ==",
+  "URL": "https://www.boost.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1771997402",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "boost-libs=1.90.0",
+    "linux-headers"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "icu",
+    "linux-headers",
+    "python",
+    "libbz2",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

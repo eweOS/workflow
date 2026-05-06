@@ -1,0 +1,43 @@
+{
+  "FILENAME": "xfce4-settings-4.20.4-1-aarch64.pkg.tar.zst",
+  "NAME": "xfce4-settings",
+  "BASE": "xfce4-settings",
+  "VERSION": "4.20.4-1",
+  "DESC": "Xfce's Configuration System",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "1006782",
+  "ISIZE": "4808322",
+  "MD5SUM": "5c75978ffc8c8805e5631fee47bb5e91",
+  "SHA256SUM": "3773d6093b583d2dd84652844e28894675fbb88526c692a9f8330b123d272e55",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabizFQAKCRDDWOcNd+r/VOT6AQDrXqzUX7Bn6xxKjoaVwrPr6le7mlA8uKIaq/BBvLdDDAD/TGohOHwTrNC7ew+7J33mXq9CNalKBQcFcEH6Ics9zAM=",
+  "URL": "https://docs.xfce.org/xfce/xfce4-settings/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1773712315",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "exo",
+    "garcon",
+    "libxfce4ui",
+    "xfconf",
+    "libnotify",
+    "libcanberra",
+    "gtk-layer-shell"
+  ],
+  "OPTDEPENDS": [
+    "python: xfce4-compose-mail -- 'mailto:' URI handling",
+    "xiccd: for displays support in xfce4-color-settings",
+    "cups: for printers support in xfce4-color-settings",
+    "sane: for scanners support in xfce4-color-settings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "glfw-3.5.0-1-aarch64.pkg.tar.zst",
+  "NAME": "glfw",
+  "BASE": "glfw",
+  "VERSION": "3.5.0-1",
+  "DESC": "A free, open source, portable framework for graphical application development",
+  "CSIZE": "136332",
+  "ISIZE": "557798",
+  "MD5SUM": "93731e34ad6bc4ae6ecd74843f7280fb",
+  "SHA256SUM": "2b075cdc4706b22378bb9f02813b8e814d305f483a30c498cf6434acc0684002",
+  "PGPSIG": "iF4EABYCAAYFAmidpiMACgkQw1jnDXfq/1RbqgD/ebskoamID2S6VJOylGQ5uAr+eqilJLyMrybb4Mkyx+kA/1cpOqooNLimcOkjItLHx+S6LhjzgCYtezbyJFsktwsK",
+  "URL": "https://www.glfw.org/",
+  "LICENSE": [
+    "custom:ZLIB"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1755162838",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libgl",
+    "libxkbcommon",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "mesa",
+    "cmake",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "extra-cmake-modules",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

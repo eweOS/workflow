@@ -1,0 +1,35 @@
+{
+  "FILENAME": "pango-1.57.0-1-aarch64.pkg.tar.zst",
+  "NAME": "pango",
+  "BASE": "pango",
+  "VERSION": "1.57.0-1",
+  "DESC": "A library for layout and rendering of text",
+  "CSIZE": "482752",
+  "ISIZE": "2247931",
+  "MD5SUM": "c9d54456e0dcbce51dd3098e351a8efa",
+  "SHA256SUM": "011f8b096c4c2575ffe515eaf8d1f63e6c86d58dcdf148d90a8eb92cbec57942",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQ+I7QAKCRDDWOcNd+r/VEw0APoCWX6+s1yrTqP6FOv+X5HnJa96ygFgV/9H3ltr/xs/RwD9FzSOghTrBtYseyvO6CawZwQgmuPLLkn8frbZMkR2ugg=",
+  "URL": "https://www.pango.org/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1762626037",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "cairo",
+    "glib",
+    "fribidi",
+    "harfbuzz"
+  ],
+  "PROVIDES": [
+    "libpango-1.0.so",
+    "libpangocairo-1.0.so",
+    "libpangoft2-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

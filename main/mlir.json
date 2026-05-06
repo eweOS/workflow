@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mlir-20.1.8-3-aarch64.pkg.tar.zst",
+  "NAME": "mlir",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "Multi-Level IR Compiler Framework for LLVM",
+  "CSIZE": "97140243",
+  "ISIZE": "633077177",
+  "MD5SUM": "db370d34d5d81d4ffaf0ef1921eebe67",
+  "SHA256SUM": "4a0c8a2e0a6b9d2e46811cc74a1c461dfdf3a1c2fe16aee21436de9ebc52ce71",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSq4uQAKCRDDWOcNd+r/VLCeAQDYjow3SzlsKB+dvomHY906ceyvxQPJUZWP1Gif4wnr6wEAypo5oZlP6o5PtAdTTh795ccBEUi4uRq5aidLmVfnWgs=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1764392216",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "fakeroot-tcp-1.37.2-2-aarch64.pkg.tar.zst",
+  "NAME": "fakeroot-tcp",
+  "BASE": "fakeroot",
+  "VERSION": "1.37.2-2",
+  "DESC": "Tool for simulating superuser privileges (TCP IPC)",
+  "CSIZE": "33566",
+  "ISIZE": "79369",
+  "MD5SUM": "3cf8404cfa152b0c63e8c302c29d72c5",
+  "SHA256SUM": "c80d01fba822c257cc56ac81659070b0f5bb5977ff393bdc0c0d5876b36ad58d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYILfAAKCRDDWOcNd+r/VO9mAPwPBJhyrI9G3CcB3y/yAKYQ/5dG9Rb+sYeI1LW47yYr2gD+OFPAXHdB3S5G+ygout4OIjDbVTX7hSh3UHzrb58NvgE=",
+  "URL": "https://tracker.debian.org/pkg/fakeroot",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1770130266",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "filesystem",
+    "util-linux"
+  ],
+  "CONFLICTS": [
+    "fakeroot"
+  ],
+  "PROVIDES": [
+    "fakeroot"
+  ],
+  "MAKEDEPENDS": [
+    "libcap",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

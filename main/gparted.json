@@ -1,0 +1,44 @@
+{
+  "FILENAME": "gparted-1.8.1-1-aarch64.pkg.tar.zst",
+  "NAME": "gparted",
+  "BASE": "gparted",
+  "VERSION": "1.8.1-1",
+  "DESC": "A Partition Magic clone, frontend to GNU Parted",
+  "CSIZE": "2339348",
+  "ISIZE": "7838455",
+  "MD5SUM": "52713190e58d29752f50655e0c97bf14",
+  "SHA256SUM": "476cd97fff256c1e9cfba9d43fca213f8d8d085191f815c013681804401e7987",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4ZAAAKCRDDWOcNd+r/VLfoAP9y3Pqw9s2QA3tO68vPS7KXtCe8Atm2en9sGLq7Kmqc5wEA9EJ1v6921znXyjY5VHSsGfHV7mo16JqqYuhOXirkjQQ=",
+  "URL": "https://gparted.org/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1775114684",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "parted",
+    "gtkmm3"
+  ],
+  "OPTDEPENDS": [
+    "dosfstools: for FAT16 and FAT32 partitions",
+    "jfsutils: for jfs partitions",
+    "f2fs-tools: for Flash-Friendly File System",
+    "btrfs-progs: for btrfs partitions",
+    "exfatprogs: for exFAT partitions",
+    "ntfs-3g: for ntfs partitions",
+    "reiserfsprogs: for reiser partitions",
+    "udftools: for UDF file system support",
+    "xfsprogs: for xfs partitions",
+    "nilfs-utils: for nilfs2 support",
+    "polkit: to run gparted from application menu",
+    "gpart: for recovering corrupt partition tables",
+    "mtools: utilities to access MS-DOS disks"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "itstool",
+    "pkgconf"
+  ],
+  "REPO": "main"
+}

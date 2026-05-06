@@ -1,0 +1,34 @@
+{
+  "FILENAME": "zlib-ng-2.3.3-2-aarch64.pkg.tar.zst",
+  "NAME": "zlib-ng",
+  "BASE": "zlib-ng",
+  "VERSION": "2.3.3-2",
+  "DESC": "zlib data compression library for the next generation systems",
+  "CSIZE": "108158",
+  "ISIZE": "231196",
+  "MD5SUM": "9324de7a0b4de4615a094dfcd9550801",
+  "SHA256SUM": "258d7f766a89578846dfcdc3e4cdde2d4142730b349e2dbc1e6928f8a16a3c50",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZxKlAAKCRDDWOcNd+r/VMppAP9xY3DPT90XOpK68LJrNZp25sYj5FEb1BWLx33UGVyPiwD/Q1Bi+xxOS/071XuvuuYiHGv9xH7Wawi4ppZjUA43lw8=",
+  "URL": "https://github.com/zlib-ng/zlib-ng",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1771850469",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "CONFLICTS": [
+    "zlib"
+  ],
+  "PROVIDES": [
+    "zlib",
+    "libz.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "connman-2.0-1-aarch64.pkg.tar.zst",
+  "NAME": "connman",
+  "BASE": "connman",
+  "VERSION": "2.0-1",
+  "DESC": "Intel's modular network connection manager",
+  "CSIZE": "578983",
+  "ISIZE": "1534022",
+  "MD5SUM": "57c91d122a163ecff959afad8c974cb0",
+  "SHA256SUM": "035857307602d276d1e33f9dff48ab1a0c5aada88600300a36b2a3b13d68e89c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaaFc9wAKCRDDWOcNd+r/VAu7AP9Uf4m3E+QjUONpvqoG/NVOQf+YxE6agiQnm0u3urGs6AEA/ffeWDWwBI8lUsGprTxO2MrH0Bmsir63CJ+KJ5o8+QI=",
+  "URL": "https://01.org/connman",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1772182880",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "dbus",
+    "glib",
+    "nftables"
+  ],
+  "OPTDEPENDS": [
+    "wpa_supplicant: for wireless network support"
+  ],
+  "MAKEDEPENDS": [
+    "wpa_supplicant",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

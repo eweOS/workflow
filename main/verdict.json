@@ -1,0 +1,32 @@
+{
+  "FILENAME": "verdict-1.4.4-1-aarch64.pkg.tar.zst",
+  "NAME": "verdict",
+  "BASE": "verdict",
+  "VERSION": "1.4.4-1",
+  "DESC": "Compute quality functions of 2 and 3-dimensional regions",
+  "CSIZE": "111420",
+  "ISIZE": "195997",
+  "MD5SUM": "6b3bad7ff6831835da2356752a1da2da",
+  "SHA256SUM": "b2468387f528204a93e320c4065f1cb434c30a5c13a61fe7d44d21c8c33ad0c8",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabq4oAAKCRDDWOcNd+r/VKsOAPdHV9bEpyteSwYYT16ZxzscKYExT5ZR8xaecAEDj3e2AP4hXtxmuL+H+s/epf+OkiY67Y79WDFmCsLRbeNgcw3eBg==",
+  "URL": "https://github.com/sandialabs/verdict",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1773844836",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libverdict.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "doxygen",
+    "googletest"
+  ],
+  "REPO": "main"
+}

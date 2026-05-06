@@ -1,0 +1,51 @@
+{
+  "FILENAME": "libelf-0.194-1-aarch64.pkg.tar.zst",
+  "NAME": "libelf",
+  "BASE": "libelf",
+  "VERSION": "0.194-1",
+  "DESC": "libelf is a free ELF object file access library (libraries)",
+  "CSIZE": "1438020",
+  "ISIZE": "4333424",
+  "MD5SUM": "7a41076c65bd794750af237490d3df0a",
+  "SHA256SUM": "4c548a6e4a28e5bf12c120c800f495aec33d8ce60742101d248e2b64d320f4cb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRBPBwAKCRDDWOcNd+r/VDTeAQCQcig2Ymu5Dmr75voCciGIoTKcccISntM+mUV3Uf7MUAD+J31Pp4zZrxM1BoRwNZiluVGlYgTmaO8XwBWKsvLh0Q0=",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL-3.0-or-later OR GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1762676737",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libbz2",
+    "xz",
+    "zlib",
+    "zstd",
+    "openssl",
+    "musl-fts",
+    "musl-obstack",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "libasm",
+    "libdebuginfod",
+    "libdw",
+    "libelf"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers",
+    "zstd",
+    "libbz2",
+    "openssl"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libalpm-7.1.0-2-aarch64.pkg.tar.zst",
+  "NAME": "libalpm",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-2",
+  "DESC": "Arch Linux package management library",
+  "CSIZE": "307057",
+  "ISIZE": "1247961",
+  "MD5SUM": "5536221a5b0fd9644d82a427ec051a78",
+  "SHA256SUM": "a97971308e4bdb625aca88ce29db30894acfa2d1e48060dfa7e4de4ba90bdae8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuqgQAKCRDDWOcNd+r/VFUpAP9Kr9+h7euQBPeNNHbIqPQ0D5djoNOXn+/8VdClc6BjdwEAr5QmxTLt2Zj6LzxV1q3vuqLUD3C5nEojrlqqLg2EQgA=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1774955373",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libarchive",
+    "curl",
+    "gettext",
+    "gpgme"
+  ],
+  "PROVIDES": [
+    "libalpm.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

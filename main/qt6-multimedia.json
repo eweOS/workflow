@@ -1,0 +1,48 @@
+{
+  "FILENAME": "qt6-multimedia-6.10.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-multimedia",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.10.0-1",
+  "DESC": "Classes for audio, video, radio and camera functionality",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "15803456",
+  "ISIZE": "67693187",
+  "MD5SUM": "efc0c94c7748028b8a73110a6e4fa876",
+  "SHA256SUM": "408493a8531ae3a0f95d436b170b0f46fa0348d391f2a8dd8baf9c0ca84810a3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQs8TgAKCRDDWOcNd+r/VBcoAQDJXBtEdNb+twhH2D66owt6GCRg7imZInv6hUhQ6/XvYwEAshpVqy6FWUq58CMtqbUj3fwWBALyydQYjqmq7U7SBQ8=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1762344163",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libpulse",
+    "qt6-base",
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings",
+    "qt6-quick3d: for QtQuick3DAudio"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-quick3d-devel",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}
