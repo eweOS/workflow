@@ -1,0 +1,45 @@
+{
+  "FILENAME": "appstream-glib-0.8.3-3-riscv64.pkg.tar.zst",
+  "NAME": "appstream-glib",
+  "BASE": "appstream-glib",
+  "VERSION": "0.8.3-3",
+  "DESC": "Objects and methods for reading and writing AppStream metadata",
+  "CSIZE": "491422",
+  "ISIZE": "2254507",
+  "MD5SUM": "f7f42800e37964aff5ca80c97d85c768",
+  "SHA256SUM": "89104f5f0d5ed0b6f5b477b1f40f663f10f3505da102f893a6aec7d0c09aac81",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXCVXQAKCRDDWOcNd+r/VP+qAP4vdokGQDLbxG0SjyWRVA0ETwCQagBGB7BjIyfMpSI4UQD/XYQsSuwV5r7v77ddb2Je9mP7GiC7TmrD3EYyi8oMPQg=",
+  "URL": "https://people.freedesktop.org/~hughsient/appstream-glib/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1768986489",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "cairo",
+    "curl",
+    "fontconfig",
+    "freetype2",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "json-glib",
+    "libarchive",
+    "libyaml",
+    "libalpm",
+    "pango",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "appdata-tools",
+    "libappstream-glib.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gperf",
+    "meson"
+  ],
+  "REPO": "main"
+}

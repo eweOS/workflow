@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libcap-ng-0.9.3-1-riscv64.pkg.tar.zst",
+  "NAME": "libcap-ng",
+  "BASE": "libcap-ng",
+  "VERSION": "0.9.3-1",
+  "DESC": "Library for programming Linux capabilities",
+  "CSIZE": "66554",
+  "ISIZE": "106614",
+  "MD5SUM": "b105dc60b6d29f638966774a390027c2",
+  "SHA256SUM": "7c0de8b82b878258b6e88675aca55a65028560199ac23cf983db5a6444f22e2e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaebVBAAKCRDDWOcNd+r/VNLAAP9LVALMHAgoVoMvV4DdpMu19M273DwGwx3zNb1ALFRJhAEA8QBMqrnudf+DzbHvXnBCvcjAHWWwr9ulglmwKqz9EA8=",
+  "URL": "https://github.com/stevegrubb/libcap-ng",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1776735778",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libcap-ng.so",
+    "libdrop_ambient.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

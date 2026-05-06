@@ -1,0 +1,33 @@
+{
+  "FILENAME": "shaderc-2026.1-1-riscv64.pkg.tar.zst",
+  "NAME": "shaderc",
+  "BASE": "shaderc",
+  "VERSION": "2026.1-1",
+  "DESC": "Collection of tools, libraries and tests for shader compilation",
+  "CSIZE": "198529",
+  "ISIZE": "1027432",
+  "MD5SUM": "e4d91a8b22d29dab62b37fc79fe4e9b8",
+  "SHA256SUM": "0b20436e61c117ac6521871cec3e503c2c9fa185ed527e5d60754c55f1863663",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabffTAAKCRDDWOcNd+r/VNGRAQDJADZvFQuJ6Pz7FLsgs4PNQtCDPXCNn6Fd/osA8KM/kQEAn/LchXADmhT0/6o2nOFeppPoQzy0DqjyBMYMs70Y2AU=",
+  "URL": "https://github.com/google/shaderc",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773658072",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "glslang",
+    "spirv-tools"
+  ],
+  "PROVIDES": [
+    "libshaderc_shared.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "spirv-headers"
+  ],
+  "REPO": "main"
+}

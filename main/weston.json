@@ -1,0 +1,42 @@
+{
+  "FILENAME": "weston-15.0.0-1-riscv64.pkg.tar.zst",
+  "NAME": "weston",
+  "BASE": "weston",
+  "VERSION": "15.0.0-1",
+  "DESC": "Reference implementation of a Wayland compositor",
+  "CSIZE": "1134590",
+  "ISIZE": "2782435",
+  "MD5SUM": "257513c8438d94885312dd42cff66818",
+  "SHA256SUM": "7479fcd9717e8426a6751fc01bdc0952b063d9a2eb943bbd8f389b2a0090bd35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaahf8QAKCRDDWOcNd+r/VKoGAP9XXiX8bn2DjGuaUQTZ6rZjV/ByiAxnH+FcXrD2L9QwmAEAnxL/vV/7OE1DMXppbp0iEEKPtDDMSYnS2a8Y0C+BJQg=",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1772642326",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "wayland",
+    "libxkbcommon",
+    "libinput",
+    "pixman",
+    "libdrm",
+    "cairo",
+    "libpng",
+    "mesa",
+    "dbus",
+    "pam",
+    "seatd",
+    "libdisplay-info",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

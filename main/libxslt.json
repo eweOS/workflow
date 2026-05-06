@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libxslt-1.1.45-1-riscv64.pkg.tar.zst",
+  "NAME": "libxslt",
+  "BASE": "libxslt",
+  "VERSION": "1.1.45-1",
+  "DESC": "XML stylesheet transformation library",
+  "CSIZE": "171139",
+  "ISIZE": "403756",
+  "MD5SUM": "8641237fe80bcf59c5ba64633cf5e170",
+  "SHA256SUM": "3cf3e276e6f962c8b2ec542914fef9566bc8ead11ca283a62ed772c0fbf818fe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcaxAAKCRDDWOcNd+r/VKI1AQC5q4RWlB7sD0LXe0VgfgwCV44hTqlZw4chIot8BDSPuwD/RgYM+nuhPdIWxJYZ/5NvEATouTTz6z2TmOwpvqFL0gc=",
+  "URL": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+  "LICENSE": [
+    "custom:MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1769413881",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libgcrypt",
+    "libxml2",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libxslt.so",
+    "libexslt.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "docbook-xml"
+  ],
+  "REPO": "main"
+}

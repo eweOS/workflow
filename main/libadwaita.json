@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libadwaita-1.8.4-1-riscv64.pkg.tar.zst",
+  "NAME": "libadwaita",
+  "BASE": "libadwaita",
+  "VERSION": "1.8.4-1",
+  "DESC": "Building blocks for modern adaptive GNOME applications",
+  "CSIZE": "924513",
+  "ISIZE": "5138326",
+  "MD5SUM": "a82163776ae1105725cc577d83223cb4",
+  "SHA256SUM": "347d577feb4148bb2e1d54ab05f3e2b8edda3080caaa68b4916f83024dcc57bd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYm4PQAKCRDDWOcNd+r/VLM2AQD7hZW09E7nrwO/Pj39gP3JNMD+xMsW+cSZeqtT31NAtAD9FfpyqwNy0leh87DyCmjM07A92Wqv99h2192HQi+gZAM=",
+  "URL": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1770632605",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "appstream",
+    "fribidi",
+    "glib",
+    "graphene",
+    "gtk4",
+    "pango"
+  ],
+  "PROVIDES": [
+    "libadwaita-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "sassc",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

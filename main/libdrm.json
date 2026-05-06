@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libdrm-2.4.131-1-riscv64.pkg.tar.zst",
+  "NAME": "libdrm",
+  "BASE": "libdrm",
+  "VERSION": "2.4.131-1",
+  "DESC": "Userspace interface to kernel DRM services",
+  "CSIZE": "320817",
+  "ISIZE": "1031639",
+  "MD5SUM": "46f4f9604059ea8c528dadc676d5db93",
+  "SHA256SUM": "f592bfea434fb7b9c21f434a8e941d154a3f22335634e8db85965328ac58c763",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYSB/AAKCRDDWOcNd+r/VBmxAP0XwXgZbKHuxFmsEOFIKJJqZWGPYE5MtfrVPmG+HLM76AD/TLqiAZ5JmS2K9jLJsP16aGyJ7aHBZg5ibROZ2yFb2wE=",
+  "URL": "https://dri.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1770291695",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "libpciaccess"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-uapi-headers"
+  ],
+  "CHECKDEPENDS": [
+    "cairo"
+  ],
+  "REPO": "main"
+}

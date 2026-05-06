@@ -1,0 +1,50 @@
+{
+  "FILENAME": "llvm-tools-20.1.8-3-riscv64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "LLVM binary and object tools",
+  "CSIZE": "25452819",
+  "ISIZE": "74338363",
+  "MD5SUM": "2c8f5957337c5f4caf93b2d0990110a3",
+  "SHA256SUM": "f4b77becbf8d1b4cae8851947825f0e52eb6fe1565affd606122836647b25e11",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSvL0QAKCRDDWOcNd+r/VDz1AQCcAQswSLZJylipjVY1qGiWxSN4xQ/USIroTZaf5NFkBQD8CYNg084obBD0ADl9tZgZl9GuWuG6DgsPmEkiaWcnsQo=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1764392493",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "vulkan-icd-loader-1.4.341.0-1-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-icd-loader",
+  "BASE": "vulkan-icd-loader",
+  "VERSION": "1.4.341.0-1",
+  "DESC": "Vulkan Installable Client Driver (ICD) Loader",
+  "CSIZE": "185509",
+  "ISIZE": "468739",
+  "MD5SUM": "0931e97b5ad127e38b4f7d2029265d18",
+  "SHA256SUM": "cf4eb562654cba886dac05b11c09796138a25c2309b09d8ba738c58deea18280",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabewZQAKCRDDWOcNd+r/VI9AAQDRcTWm4xqjjVf5bYk3Cbq47qpnh4JLxZG8UORblMSF5wD/V3+weKiVadtbid4ZrBpVqIi6U6xDHuq6ord8qDiTcQk=",
+  "URL": "https://www.khronos.org/vulkan/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773646089",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "PROVIDES": [
+    "libvulkan.so"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-driver: packaged vulkan driver"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "wayland",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

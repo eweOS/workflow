@@ -1,0 +1,45 @@
+{
+  "FILENAME": "fcitx5-5.1.19-1-riscv64.pkg.tar.zst",
+  "NAME": "fcitx5",
+  "BASE": "fcitx5",
+  "VERSION": "5.1.19-1",
+  "DESC": "Next generation of fcitx",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "9484493",
+  "ISIZE": "18009018",
+  "MD5SUM": "bde4d8e1a9f655268fb495aa6ef9c790",
+  "SHA256SUM": "2fe7dc9dfc34085d8b1b9c8121f7d80319e4d382b0ee94a684f572419d6e6d3c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac48oAAKCRDDWOcNd+r/VIQ2APsGWx6ljSq0TYEUKhgdJLvi2zABBxD9BbiqJrIYOD+/FwEAs4Hs2STxfK21WgWPQeNWCU+8nkwAOWXxOAd9BCI84g0=",
+  "URL": "https://github.com/fcitx/fcitx5",
+  "LICENSE": [
+    "LGPL-2.1-or-later AND Unicode-DFS-2016"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775122680",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "cairo",
+    "dbus",
+    "iso-codes",
+    "libuv",
+    "libxkbcommon",
+    "pango",
+    "wayland",
+    "gdk-pixbuf"
+  ],
+  "PROVIDES": [
+    "fcitx"
+  ],
+  "MAKEDEPENDS": [
+    "ninja",
+    "wayland-protocols",
+    "fmt",
+    "extra-cmake-modules",
+    "zstd",
+    "linux-headers",
+    "nlohmann-json"
+  ],
+  "REPO": "main"
+}

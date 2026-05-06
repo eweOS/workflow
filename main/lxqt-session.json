@@ -1,0 +1,42 @@
+{
+  "FILENAME": "lxqt-session-2.3.0-1-riscv64.pkg.tar.zst",
+  "NAME": "lxqt-session",
+  "BASE": "lxqt-session",
+  "VERSION": "2.3.0-1",
+  "DESC": "The LXQt session manager",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "230973",
+  "ISIZE": "872022",
+  "MD5SUM": "74ad8d5e28e679caa979fad6a68d3395",
+  "SHA256SUM": "17fb93cbc96b050ba3dd9888d22d894ac04746bfd6ae21e1cfa38ba3febc9cdc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRruTwAKCRDDWOcNd+r/VGjXAQCg7dCDu+PYwMnDB/LY2LN/HAnT2La6u9U0p12bbxYkpwEAmXVJrCrox7utxTPBinsLGkIHLhI6eVOYxXzQr1JmFQU=",
+  "URL": "https://github.com/lxqt/lxqt-session",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763372721",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "liblxqt",
+    "qtxdg-tools",
+    "xdg-user-dirs",
+    "libudev",
+    "kwindowsystem",
+    "libQt6Xdg.so",
+    "layer-shell-qt",
+    "libprocps"
+  ],
+  "OPTDEPENDS": [
+    "breeze-icons: Default icon theme",
+    "oxygen-icons: Alternative icon theme",
+    "lxqt-labwc-session: Wayland session"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

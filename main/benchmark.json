@@ -1,0 +1,32 @@
+{
+  "FILENAME": "benchmark-1.9.5-1-riscv64.pkg.tar.zst",
+  "NAME": "benchmark",
+  "BASE": "benchmark",
+  "VERSION": "1.9.5-1",
+  "DESC": "A microbenchmark support library",
+  "CSIZE": "229693",
+  "ISIZE": "626212",
+  "MD5SUM": "95844cae8c05ebf9263ae54a2febffea",
+  "SHA256SUM": "a010dbbf07fdad518804116635ea2aee4b811b32d78ff39c0652b95ae9e15ab0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaaFeWQAKCRDDWOcNd+r/VFfmAQC618WHAliJzuicBGUWSlW2jPN2fbPqBxg8fcI7txT1GQD7BhNKLM8SjzVsNxzvriVNvyRhjhixinXgMw+NAt6OyQs=",
+  "URL": "https://github.com/google/benchmark",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1772183013",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libbenchmark.so",
+    "libbenchmark_main.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "mozjs-140.5.0-2-riscv64.pkg.tar.zst",
+  "NAME": "mozjs",
+  "BASE": "mozjs",
+  "VERSION": "140.5.0-2",
+  "DESC": "JavaScript interpreter and libraries - Version 128",
+  "CSIZE": "12324453",
+  "ISIZE": "33806751",
+  "MD5SUM": "733ed11d302c3a3928559994b5462d64",
+  "SHA256SUM": "e89824bbebc0eecd6a54617ece4957ecc06a064e5c5113a57577b43c19ba4534",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ7SxwAKCRDDWOcNd+r/VFNxAP453z4aV4TB3vubVfE410P1aPk0/1rQbIQXVZso7ZPOHQEA2btOapQKxfu6N+OJ+DzfuRrTBmlRq9U1jTYtkcsMbQA=",
+  "URL": "https://spidermonkey.dev/",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1772013854",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "readline",
+    "sh",
+    "zlib",
+    "nspr",
+    "icu"
+  ],
+  "PROVIDES": [
+    "js140"
+  ],
+  "MAKEDEPENDS": [
+    "cbindgen",
+    "linux-headers",
+    "python",
+    "rust",
+    "zip"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,46 @@
+{
+  "FILENAME": "openjdk23-doc-23.0.2.u7-1-riscv64.pkg.tar.zst",
+  "NAME": "openjdk23-doc",
+  "BASE": "java23-openjdk",
+  "VERSION": "23.0.2.u7-1",
+  "DESC": "OpenJDK Java 23 documentation",
+  "CSIZE": "27258461",
+  "ISIZE": "310783689",
+  "MD5SUM": "86dd8e5c31d4803799b09b60ca574f9b",
+  "SHA256SUM": "485049c12c0f895be919bb615df178f627d50f03ca13be75ec624fb1d0cef50a",
+  "PGPSIG": "iF4EABYCAAYFAmgEfeUACgkQw1jnDXfq/1S8KgD/fSMRWv3xRnW7W2mLA5XICT1YMXZ8+CXX6zU362NRr2cBAMvu94et1Zr2no7g8HJEVSx8lU5UAf7Pu+Cbzfd8M9UI",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1745119760",
+  "PACKAGER": "visionfive2-3 <visionfive2-3@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "jdk23-openjdk=23.0.2.u7-1"
+  ],
+  "PROVIDES": [
+    "openjdk23-doc=23.0.2.u7-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=22",
+    "java-environment<24",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

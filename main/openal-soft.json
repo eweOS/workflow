@@ -1,0 +1,35 @@
+{
+  "FILENAME": "openal-soft-1.25.1-1-riscv64.pkg.tar.zst",
+  "NAME": "openal-soft",
+  "BASE": "openal-soft",
+  "VERSION": "1.25.1-1",
+  "DESC": "A software implementation of the OpenAL 3D audio API",
+  "CSIZE": "802729",
+  "ISIZE": "1785138",
+  "MD5SUM": "7432f1edef1ffddc0f76393b0841a29b",
+  "SHA256SUM": "bc7b237375dec5e3709fbbc7a6daedb8f1e919745d6b2d8e29c525699f64afa7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXciiQAKCRDDWOcNd+r/VK7eAQCiTLB8wWJMcPa96XX8lhZYx0RyOX+vqpkBJf9gjq/mtwD+OXYq5ACZnqrXg9pAx94Llm7J6+A2R9vS/UDZPobQHQc=",
+  "URL": "https://openal-soft.org",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1769415415",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "alsa-lib",
+    "pipewire",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "openal",
+    "libopenal.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "clang-tools"
+  ],
+  "REPO": "main"
+}

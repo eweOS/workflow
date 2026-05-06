@@ -1,0 +1,35 @@
+{
+  "FILENAME": "pango-1.57.0-1-riscv64.pkg.tar.zst",
+  "NAME": "pango",
+  "BASE": "pango",
+  "VERSION": "1.57.0-1",
+  "DESC": "A library for layout and rendering of text",
+  "CSIZE": "475294",
+  "ISIZE": "2172739",
+  "MD5SUM": "1f7eb147d8e09f87a726cb5043ae0348",
+  "SHA256SUM": "f7385a2033baa5ae4f277a8750e2ecc3e6cada606bc060d2cfbbf3a4556eb65d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQ+KVAAKCRDDWOcNd+r/VIATAQC2WaWdNqKRaFt8Erl0Oiqs7tbLxVANGNNMf55r5WjV8QEAqpEPl9JeCDvYGHrn2w4d7QZc6dk1dSPiKdLEoIPRbAY=",
+  "URL": "https://www.pango.org/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1762626323",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "cairo",
+    "glib",
+    "fribidi",
+    "harfbuzz"
+  ],
+  "PROVIDES": [
+    "libpango-1.0.so",
+    "libpangocairo-1.0.so",
+    "libpangoft2-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gobject-introspection"
+  ],
+  "REPO": "main"
+}

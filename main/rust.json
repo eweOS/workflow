@@ -1,0 +1,44 @@
+{
+  "FILENAME": "rust-1.94.1-2-riscv64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.94.1-2",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "96347446",
+  "ISIZE": "264421961",
+  "MD5SUM": "dac626d75b6457b0a0cb2aa3d9e787ca",
+  "SHA256SUM": "c507fd32128e8faea7495fb9ac627a82a076e55e9724c39569dbdab2f2f437ff",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaeMlegAKCRDDWOcNd+r/VOQjAP9rK9iLakMvT/ve6gHDkJ8gFvLd+gkZ2B39GtK1T36v3wEAyPXW8UjYIIa0EwWk6Vft1sITZMg2+9yAhC+W266eEQc=",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1776478210",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "curl",
+    "libssh2",
+    "openssl",
+    "sqlite"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja",
+    "musl-static"
+  ],
+  "REPO": "main"
+}

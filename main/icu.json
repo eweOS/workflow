@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-78.2-1-riscv64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "78.2-1",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "15057284",
+  "ISIZE": "43863650",
+  "MD5SUM": "9d44503ceee9c2bbfe4c8e9aa77bae4f",
+  "SHA256SUM": "c9aa9e17d8482fd3cbf0b98346ed02ac29e6ab320de6f4ee99c29c4cf29497cc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZ6NgAAKCRDDWOcNd+r/VMebAP0TO4CvbP8e1E8KxyVypRyDstxLS1ur5441A7cOVF7huAD/S2mk5sWEoOF8s5+rqlF1irSy6Q5X4cLlMu6hM52m1wM=",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1771996886",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,34 @@
+{
+  "FILENAME": "lib3mf-2.5.0-2-riscv64.pkg.tar.zst",
+  "NAME": "lib3mf",
+  "BASE": "lib3mf",
+  "VERSION": "2.5.0-2",
+  "DESC": "C++ implementation of 3D Manufacturing Format (3MF)",
+  "CSIZE": "1786148",
+  "ISIZE": "15929141",
+  "MD5SUM": "355d462edab406ec6c8ee3063fa56159",
+  "SHA256SUM": "e7efa3ff24d74ac72af184644091c7b405ce9aea3fc9956d904381f3a9b36014",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaea9ygAKCRDDWOcNd+r/VKtfAP4nQ8t8s4tzIUjlBb6qZTdTuvIGk+LbY/nkDmwPbnOBWQEAmPnlZ87++QqUFzZfXFynYAuxi+PHISX3GwwRV+7PPg8=",
+  "URL": "https://3mf.io/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1776728697",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "util-linux-libs",
+    "zlib-ng",
+    "libzip"
+  ],
+  "PROVIDES": [
+    "lib3mf.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "fast_float"
+  ],
+  "REPO": "main"
+}

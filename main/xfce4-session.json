@@ -1,0 +1,39 @@
+{
+  "FILENAME": "xfce4-session-4.20.4-1-riscv64.pkg.tar.zst",
+  "NAME": "xfce4-session",
+  "BASE": "xfce4-session",
+  "VERSION": "4.20.4-1",
+  "DESC": "Xfce's session manager",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "408179",
+  "ISIZE": "1417588",
+  "MD5SUM": "4e9ce962f0bdd5c531e0fd84d538a06a",
+  "SHA256SUM": "22bbf84861d157812b58fd1be37fcdce22de0a0f52d4c757056caab2d409cb00",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabizYAAKCRDDWOcNd+r/VK+hAQC6k84TvnOuekOnL8+mDoOK9grZM0OBqzVgJTQ6y1VRAwD/RM9gQ4wKe5ZVHk6QDMpBk/qFyU2XBJ339JwR13XyAgI=",
+  "URL": "https://docs.xfce.org/xfce/xfce4-session/start",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773712347",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libxfce4ui",
+    "xfconf",
+    "hicolor-icon-theme",
+    "libxfce4windowing"
+  ],
+  "OPTDEPENDS": [
+    "gnome-keyring: for keyring support when GNOME compatibility is enabled",
+    "xfce4-screensaver: for locking screen with xflock4",
+    "light-locker: for locking screen with xflock4"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "virglrenderer-1.3.0-2-riscv64.pkg.tar.zst",
+  "NAME": "virglrenderer",
+  "BASE": "virglrenderer",
+  "VERSION": "1.3.0-2",
+  "DESC": "A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering",
+  "CSIZE": "1203348",
+  "ISIZE": "5023597",
+  "MD5SUM": "78fcee58a2a6538b75d9e8dcaa4ca6a1",
+  "SHA256SUM": "f71bff4f8e4cbe3a8cf0734e532c00358e8482ed4c82ba97d10316c73a56615e",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac5vFAAKCRDDWOcNd+r/VPNKAPUUPpvwB7lA/xKXA2BNNFLe8aQcEgrjfUzqefo18YwOAQD3CZXwBD36m8BWkPwo8WFiE7PRSbIObFLwZBOJpbfZDQ==",
+  "URL": "https://virgil3d.github.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775136595",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libepoxy",
+    "mesa",
+    "libva"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson",
+    "ninja",
+    "vulkan-icd-loader",
+    "vulkan-headers",
+    "linux-headers",
+    "python-yaml"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "main"
+}

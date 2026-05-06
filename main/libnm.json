@@ -1,0 +1,55 @@
+{
+  "FILENAME": "libnm-1.56.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libnm",
+  "BASE": "networkmanager",
+  "VERSION": "1.56.0-1",
+  "DESC": "NetworkManager client library",
+  "CSIZE": "1140813",
+  "ISIZE": "6367089",
+  "MD5SUM": "ee8f8745097a5fc5d00d5c278cf2810c",
+  "SHA256SUM": "99ddc6bee6148f58683aa5ceea06b3ae77bcc342d8050d757b0ad9ae09d67773",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZxsagAKCRDDWOcNd+r/VEjeAP93sYJbb74/QqOYx4m8K3wMyBk5LcKXLv2PoFa6fqwANgEA01tNSAFsSrfbnRm81eX8ahSi8djOM3RpORCqpaOFRgQ=",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1771856654",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "glib2",
+    "nspr",
+    "nss",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libnm.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnvme",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}

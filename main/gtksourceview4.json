@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gtksourceview4-4.8.4-4-riscv64.pkg.tar.zst",
+  "NAME": "gtksourceview4",
+  "BASE": "gtksourceview4",
+  "VERSION": "4.8.4-4",
+  "DESC": "A text editor widget for code editing",
+  "CSIZE": "1102646",
+  "ISIZE": "5583889",
+  "MD5SUM": "d5686dd38f3d7e26e97fa0615df430ce",
+  "SHA256SUM": "bab489971d00e74673fe86df533ef5caa43ed03cb136dbd42855b0e0d3f50cb2",
+  "PGPSIG": "iF4EABYCAAYFAmgrXGMACgkQw1jnDXfq/1Q8dgD/e0LMKyuJ25E6LgE+ec76WwAm4r6vZbcvOIV1BmB4ijsBAOrqJoL7owaao//Orvgr85TMm2CT3STlzwSu5nJXrZMF",
+  "URL": "https://wiki.gnome.org/Projects/GtkSourceView/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1747672328",
+  "PACKAGER": "visionfive2-1 <visionfive2-1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "glib",
+    "gtk3",
+    "libxml2",
+    "fribidi",
+    "pcre2"
+  ],
+  "PROVIDES": [
+    "libgtksourceview-4.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "vala"
+  ],
+  "REPO": "main"
+}

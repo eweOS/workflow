@@ -1,0 +1,39 @@
+{
+  "FILENAME": "python-wheel-0.46.3-1-any.pkg.tar.zst",
+  "NAME": "python-wheel",
+  "BASE": "python-wheel",
+  "VERSION": "0.46.3-1",
+  "DESC": "A built-package format for Python",
+  "CSIZE": "76894",
+  "ISIZE": "297305",
+  "MD5SUM": "42eaeee2f519a22c27bb259c871616ac",
+  "SHA256SUM": "da787387d9446f6f187a6177f663c508d56eac966ba15b0eccf1dc6221b04697",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaboEfwAKCRDDWOcNd+r/VNJ0AQDQrzcaNqbnMyrxzisgmHefm8c0Drb1QPYz/D2Pyb6NnwD9GNr3JGDAe1xuYDLMB6RR9F6hFBXStBXKCFzaEgWcGgI=",
+  "URL": "https://pypi.python.org/pypi/wheel",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1773798720",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "python-packaging"
+  ],
+  "OPTDEPENDS": [
+    "python-keyring: for wheel.signatures",
+    "python-xdg: for wheel.signatures"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "python-jsonschema",
+    "python-pytest",
+    "python-xdg",
+    "python-pytest-cov",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

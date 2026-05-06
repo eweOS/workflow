@@ -1,0 +1,53 @@
+{
+  "FILENAME": "nm-cloud-setup-1.56.0-1-riscv64.pkg.tar.zst",
+  "NAME": "nm-cloud-setup",
+  "BASE": "networkmanager",
+  "VERSION": "1.56.0-1",
+  "DESC": "Automatically configure NetworkManager in cloud",
+  "CSIZE": "48301",
+  "ISIZE": "85999",
+  "MD5SUM": "844b8f816b499ab39b9419cf552bf68d",
+  "SHA256SUM": "3ce8333ef036e1fe46bf3be5ca689d5771b3ff635c708e978d2d58690f8bc3a3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaZxsagAKCRDDWOcNd+r/VPlhAQC47Deh5+SvTpiui0LqpxtUfoYq4CGg9mKGbqqkSrrTWAD+IrPLnlhXP3eNURvm1EgwFCdjrWlP0XdhjucwdkvYEwM=",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1771856654",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "bash",
+    "curl",
+    "glib2",
+    "libnm",
+    "networkmanager"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnvme",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}

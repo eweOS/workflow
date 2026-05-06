@@ -1,0 +1,48 @@
+{
+  "FILENAME": "lxqt-panel-2.3.0-1-riscv64.pkg.tar.zst",
+  "NAME": "lxqt-panel",
+  "BASE": "lxqt-panel",
+  "VERSION": "2.3.0-1",
+  "DESC": "The LXQt desktop panel",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "1287646",
+  "ISIZE": "5047105",
+  "MD5SUM": "08578a731d21765c3c2b135dca17f1ab",
+  "SHA256SUM": "e7a2ee2b0ada0de001e7957bb535f199541d1f9c115cf4fc3ace111abff8e2bf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRsIswAKCRDDWOcNd+r/VK4+AP48udlX3Bk6MTaQPFoHNSwf3n49nQ/1dHUurqJlu9AudQD9Ho9A/7uZS+sfBbANEZwXdnhUDf9U4gwXGjOvDGGzMgo=",
+  "URL": "https://github.com/lxqt/lxqt-panel",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763378534",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "libdbusmenu-lxqt",
+    "lxqt-menu-data",
+    "lxqt-globalkeys",
+    "solid",
+    "libQt6Xdg.so",
+    "layer-shell-qt"
+  ],
+  "OPTDEPENDS": [
+    "libpulse: Volume control plugin",
+    "alsa-lib: Volume control plugin",
+    "libstatgrab: CPU monitor and Network monitor plugins",
+    "libsysstat: System Statistics plugin",
+    "lm_sensors: Sensors plugin"
+  ],
+  "MAKEDEPENDS": [
+    "lxqt-build-tools",
+    "liblxqt",
+    "libpulse",
+    "libstatgrab",
+    "libsysstat",
+    "alsa-lib",
+    "linux-headers",
+    "qt6-base-devel"
+  ],
+  "REPO": "main"
+}

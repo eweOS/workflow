@@ -1,0 +1,33 @@
+{
+  "FILENAME": "openocd-0.12.0-1-riscv64.pkg.tar.zst",
+  "NAME": "openocd",
+  "BASE": "openocd",
+  "VERSION": "0.12.0-1",
+  "DESC": "Tool for on-chip programming and debugging",
+  "CSIZE": "1861928",
+  "ISIZE": "4970592",
+  "MD5SUM": "9f57b9e24ab8ab92b7a0dc5dc8e69a3d",
+  "SHA256SUM": "fef4ab90cfac1f738eec7301b99da3e1bd39451336d99bb32548ac2c458ef733",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaPXZrAAKCRDDWOcNd+r/VLSpAPwIGcW5sIDynUQ+SSVCxHaqrwCH0IxOLuuZpBBa3vUPfAD+IoSu4zYCSRxTlcWhaf56nhNaRU1NlSVIk/RcX6p34Q0=",
+  "URL": "https://openocd.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1760942450",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "libftdi",
+    "libusb",
+    "libhidapi",
+    "libgpiod",
+    "jimtcl",
+    "libjaylink"
+  ],
+  "MAKEDEPENDS": [
+    "texinfo",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

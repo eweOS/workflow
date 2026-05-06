@@ -1,0 +1,37 @@
+{
+  "FILENAME": "sdl2-compat-2.32.64-1-riscv64.pkg.tar.zst",
+  "NAME": "sdl2-compat",
+  "BASE": "sdl2-compat",
+  "VERSION": "2.32.64-1",
+  "DESC": "An SDL2 compatibility layer that uses SDL3 behind the scenes",
+  "CSIZE": "651912",
+  "ISIZE": "3368339",
+  "MD5SUM": "a7c15b532b1009582f814e7fa8d3d1af",
+  "SHA256SUM": "97bd4bb4e07f75629e836c7195efefa72fd6aa07aec981da2b2a440207f99176",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaaivnwAKCRDDWOcNd+r/VPSmAP4qZ5ExWo95mffxrT44WUTbZVa5LCtffWvv2Jv8K+kpFAEA9zFkDVUYuqEl9n3dLJE7pBsrKl9fWIXxIgl6+h2ivwM=",
+  "URL": "https://github.com/libsdl-org/sdl2-compat",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1772662792",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "REPLACES": [
+    "sdl2"
+  ],
+  "DEPENDS": [
+    "musl",
+    "sdl3"
+  ],
+  "CONFLICTS": [
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2=2.32.64"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

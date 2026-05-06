@@ -1,0 +1,39 @@
+{
+  "FILENAME": "gamemode-1.8.2-1-riscv64.pkg.tar.zst",
+  "NAME": "gamemode",
+  "BASE": "gamemode",
+  "VERSION": "1.8.2-1",
+  "DESC": "A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS",
+  "CSIZE": "25001",
+  "ISIZE": "69634",
+  "MD5SUM": "d4e1493b1fd4aa48c31a2d64344aad5c",
+  "SHA256SUM": "96b689befffa73c71e3ac4968b756cf0a9ae66ab0201f3b08a93237db7e93592",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaXcWqgAKCRDDWOcNd+r/VKs6AQDbUvVuEox00fnaAqHpc/lo2rNpAHMf0X7antDQUtbYAgEA9p148GkLuHlJ4FrDQVBS3UO/XprbeCcBhRgxcMV0KgI=",
+  "URL": "https://github.com/FeralInteractive/gamemode",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1769412871",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "bash",
+    "llvm-libs",
+    "musl",
+    "dbus",
+    "libinih"
+  ],
+  "PROVIDES": [
+    "libgamemode.so",
+    "libgamemodeauto.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "appstream"
+  ],
+  "REPO": "main"
+}

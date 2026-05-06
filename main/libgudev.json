@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libgudev-238-1-riscv64.pkg.tar.zst",
+  "NAME": "libgudev",
+  "BASE": "libgudev",
+  "VERSION": "238-1",
+  "DESC": "GObject bindings for libudev",
+  "CSIZE": "32048",
+  "ISIZE": "170764",
+  "MD5SUM": "b1655a526b652e18e742f5f33e8ac1bb",
+  "SHA256SUM": "bdd4293e1b47891b923d80d38c260f2c7912cd8a895c5d417095015cd3eb999b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabhBdAAKCRDDWOcNd+r/VK+qAP9fOQugWe5FOHyRk1YHsUyO3A3EQxMs9TjkKKZdKyoAJQD/Zb2XqhsAS6F9lFX8N85XkDX4lemKjoydzLHpiD02Dgs=",
+  "URL": "https://gitlab.gnome.org/GNOME/libgudev",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773683230",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "libudev-zero"
+  ],
+  "PROVIDES": [
+    "libgudev-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "gtk-doc",
+    "vala"
+  ],
+  "REPO": "main"
+}

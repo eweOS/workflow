@@ -1,0 +1,33 @@
+{
+  "FILENAME": "hyprwire-0.3.0-2-riscv64.pkg.tar.zst",
+  "NAME": "hyprwire",
+  "BASE": "hyprwire",
+  "VERSION": "0.3.0-2",
+  "DESC": "A fast and consistent wire protocol for IPC",
+  "CSIZE": "174440",
+  "ISIZE": "409236",
+  "MD5SUM": "9cb3d7cbc8a60885e6680770bf2d3a78",
+  "SHA256SUM": "5a5a955b1ae31649c724fd7e4773e60c9332a328ee002512ddc567b36f602d1b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadN9BQAKCRDDWOcNd+r/VHI1AP4pQE9vjEKSyjUxjEWU0DT4XTS5qaEOF56Dqh2RbHYZmwD/WbSU5RjXPVH+j4sRzGnF1VTrRuN646ghQNOceDy+0Q0=",
+  "URL": "https://github.com/hyprwm/hyprwire",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775467924",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "hyprutils",
+    "libffi",
+    "pugixml"
+  ],
+  "PROVIDES": [
+    "libhyprwire.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

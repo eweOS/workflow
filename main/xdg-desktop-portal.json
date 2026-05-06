@@ -1,0 +1,43 @@
+{
+  "FILENAME": "xdg-desktop-portal-1.21.0-1-riscv64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal",
+  "BASE": "xdg-desktop-portal",
+  "VERSION": "1.21.0-1",
+  "DESC": "Desktop integration portals for sandboxed apps",
+  "CSIZE": "546713",
+  "ISIZE": "1947185",
+  "MD5SUM": "eac18b7ea44922f87280456e1a1b97b7",
+  "SHA256SUM": "037edfb3b094c2707075068805bce58ffeb1299ba03ffa48e38f5fc85cd10dea",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacumxgAKCRDDWOcNd+r/VLRAAP4/ax5kHnGLvNmFk3As+iwGeO5r2Kr32eqKouDiw/MQ3wD9HikuMX/8n+ncdbhInNf8Kpgz3AOryVMQWz8rb0gHegA=",
+  "URL": "https://flatpak.github.io/xdg-desktop-portal/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1774954347",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "geoclue",
+    "glib",
+    "json-glib",
+    "pipewire",
+    "fuse3",
+    "gdk-pixbuf",
+    "bubblewrap",
+    "gstreamer-devel",
+    "libgudev"
+  ],
+  "OPTDEPENDS": [
+    "xdg-desktop-portal-impl: Portal backends"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "flatpak",
+    "git",
+    "libportal",
+    "meson",
+    "xmlto",
+    "python-packaging"
+  ],
+  "REPO": "main"
+}

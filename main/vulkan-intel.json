@@ -1,0 +1,59 @@
+{
+  "FILENAME": "vulkan-intel-26.0.5-1-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-intel",
+  "BASE": "mesa",
+  "VERSION": "26.0.5-1",
+  "DESC": "Open-source Vulkan driver for Intel GPUs",
+  "CSIZE": "6633761",
+  "ISIZE": "34083846",
+  "MD5SUM": "4683b7c636422dc1ffb711db11e10e4f",
+  "SHA256SUM": "2ac2526324c1b26583584ff570067b1d36421044a7ae58b954e52f5ee7304be6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaeM0MQAKCRDDWOcNd+r/VPwuAP4wIxYLR3L1dugJPuyvYAUEs77PAfJyVKS/ubfYJ0X19AEA5nS+odVicaDt/amue0Lc0XogtKW3y+kTnN2aYBDpXwM=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1776494553",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen"
+  ],
+  "REPO": "main"
+}

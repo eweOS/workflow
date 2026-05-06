@@ -1,0 +1,31 @@
+{
+  "FILENAME": "openjph-0.25.2-1-riscv64.pkg.tar.zst",
+  "NAME": "openjph",
+  "BASE": "openjph",
+  "VERSION": "0.25.2-1",
+  "DESC": "Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)",
+  "CSIZE": "156838",
+  "ISIZE": "431800",
+  "MD5SUM": "7110163186c4e4d75f44b3ff54f81aa1",
+  "SHA256SUM": "3e482073845f0bea4506b88cba4b5d3727f910c2f2b9940103b395261cd3bfb8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRMXbwAKCRDDWOcNd+r/VEHIAQCc8F+VRH+pu0RCU1mFx1bmJiamxvwSEXRZE8BiH80rbAEA0jBCZVmCJ0Bov/LrhYKkQu5WAqOAvct/wxw8SFSVOgs=",
+  "URL": "https://github.com/aous72/OpenJPH",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1762858936",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libopenjph.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

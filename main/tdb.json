@@ -1,0 +1,31 @@
+{
+  "FILENAME": "tdb-1.4.15-1-riscv64.pkg.tar.zst",
+  "NAME": "tdb",
+  "BASE": "tdb",
+  "VERSION": "1.4.15-1",
+  "DESC": "Trivial Database similar to GDBM but allows simultaneous commits",
+  "CSIZE": "81864",
+  "ISIZE": "189829",
+  "MD5SUM": "38dd589e79e1538b3fc08cc9ca56bac7",
+  "SHA256SUM": "ec1304da85bea16e2e863019b8b703162e752b27c1c0747b674c510a81a843cf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4WzwAKCRDDWOcNd+r/VNpuAP9sm5QfcPTo3Ki7SbSRV52xRX4Nx6CMpIFZw+epSOItkQEApDJ/3ZOuNvKoVKDyZQkoA9f1IUu6oU1ze70xLKQAzAo=",
+  "URL": "https://tdb.samba.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775113973",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "PROVIDES": [
+    "libtdb.so"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

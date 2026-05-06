@@ -1,0 +1,40 @@
+{
+  "FILENAME": "dvisvgm-3.6-1-riscv64.pkg.tar.zst",
+  "NAME": "dvisvgm",
+  "BASE": "dvisvgm",
+  "VERSION": "3.6-1",
+  "DESC": "A fast DVI, EPS, and PDF to SVG converter",
+  "CSIZE": "1048973",
+  "ISIZE": "1892698",
+  "MD5SUM": "b0551fe54b05f2da3dbfe2bfd884af81",
+  "SHA256SUM": "90b9c84a635daf6d4ababd5b41efa74228f8af284303de13890a8cf5a5c9eaa4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYmO7AAKCRDDWOcNd+r/VGJ5APwLDcbQnnaBZy25AvlCfev1NfNaHX6OSgq/XI0E8zYFhAD+ISzqQB9E2het9Vkpss9SDsf2bhPBnVKwMHCrMCkl4QE=",
+  "URL": "https://dvisvgm.de/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1770621664",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "brotli",
+    "freetype2",
+    "ghostscript",
+    "potrace",
+    "texlive-bin",
+    "woff2",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "mupdf-tools: to process PDF files"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf-archive",
+    "git",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

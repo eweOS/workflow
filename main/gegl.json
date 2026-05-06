@@ -1,0 +1,56 @@
+{
+  "FILENAME": "gegl-0.4.70-2-riscv64.pkg.tar.zst",
+  "NAME": "gegl",
+  "BASE": "gegl",
+  "VERSION": "0.4.70-2",
+  "DESC": "Graph based image processing framework",
+  "CSIZE": "4550342",
+  "ISIZE": "17474598",
+  "MD5SUM": "fe5781781bf2d6694774564d68093ab4",
+  "SHA256SUM": "1810f11ebaa43f728b6b418246477e38c9eae5112e9d1992c151be4e4efbee53",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadi/pgAKCRDDWOcNd+r/VG80AP4p3uNZKvtg9t8Vi+LySn7cDAnR7WxvR2a3TM3rNrY1oQEAlLX+FE1CgBxJetwXR8Faeb7dTKI0n/RD/Crg0NfrCwc=",
+  "URL": "https://www.gegl.org/",
+  "LICENSE": [
+    "GPL-3.0-or-later OR LGPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775812319",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "babl",
+    "cairo",
+    "gdk-pixbuf2",
+    "glib2",
+    "jasper",
+    "json-glib",
+    "lcms2",
+    "lensfun",
+    "libjpeg-turbo",
+    "libpng",
+    "libraw",
+    "librsvg",
+    "libspiro",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "pango",
+    "poppler-glib"
+  ],
+  "OPTDEPENDS": [
+    "ffmpeg: FFmpeg Frame Loader and FFmpeg Frame Saver plugins",
+    "graphviz: for gegl-introspect",
+    "sdl2: SDL2 Display plugin"
+  ],
+  "MAKEDEPENDS": [
+    "ffmpeg",
+    "git",
+    "gobject-introspection",
+    "libgexiv2",
+    "meson",
+    "python-gobject",
+    "sdl2",
+    "vala",
+    "gi-docgen"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "dinit-0.21.0-1-riscv64.pkg.tar.zst",
+  "NAME": "dinit",
+  "BASE": "dinit",
+  "VERSION": "0.21.0-1",
+  "DESC": "Service monitoring / 'init' system",
+  "CSIZE": "274520",
+  "ISIZE": "616013",
+  "MD5SUM": "d1c84a2c055d2aab23808f1c2ef5aeba",
+  "SHA256SUM": "1e413fe01ea658d07f41845d3f46abda7bfecfbe8ee76ce8e46d4e97b3ca8174",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCac4uRAAKCRDDWOcNd+r/VMZeAP9fWN1Ro0DfQ0o1d5yRWCHXZHxbjQwmd/2XCKOh8iAiOAEA2drZ/qmUs9kJn63r6Hhpu9zRj0++vHN6A9eP4lLKMQk=",
+  "URL": "https://github.com/davmac314/dinit",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775119987",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "busybox",
+    "musl",
+    "llvm-libs",
+    "libcap"
+  ],
+  "OPTDEPENDS": [
+    "dinit-services: dinit service files"
+  ],
+  "MAKEDEPENDS": [
+    "make",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

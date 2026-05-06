@@ -1,0 +1,48 @@
+{
+  "FILENAME": "qt6-multimedia-6.10.0-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-multimedia",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.10.0-1",
+  "DESC": "Classes for audio, video, radio and camera functionality",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "16400687",
+  "ISIZE": "80217578",
+  "MD5SUM": "99bc06271a215e4cb2c162e1073ce275",
+  "SHA256SUM": "2b1f2cc00790af11dce3a6eb0626325fc46e3a78e0776309a15ca393d7f2135a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQtC8gAKCRDDWOcNd+r/VGmdAQCFF2Qqh/w07AEepp+AgnYniq1apY64/vTVngkRh9X//wD/Wnk4tL6YfV2rBlBHFibZMeGczLydZUjS4WlZGyPj4QE=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1762344310",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libpulse",
+    "qt6-base",
+    "qt6-multimedia-backend"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings",
+    "qt6-quick3d: for QtQuick3DAudio"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-quick3d-devel",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "libxkbcommon-1.13.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libxkbcommon",
+  "BASE": "libxkbcommon",
+  "VERSION": "1.13.1-1",
+  "DESC": "Keymap handling library for toolkits and window systems",
+  "CSIZE": "306025",
+  "ISIZE": "968576",
+  "MD5SUM": "1293775b300032f7c0bc52d1a20ce51b",
+  "SHA256SUM": "f7e2f767a70c6685cc52b6e3df87de824d32dfb744c750652f12883b7336bad1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaY/ppQAKCRDDWOcNd+r/VJAGAQDvmPjtOiSQqd68DcKaKM+XZIFXo5YjuR2hxUMxAS/ppwD/Vo7W2FVsURcykRJVNhNg0S+blsnP9qqKhjHfPocWTgw=",
+  "URL": "https://xkbcommon.org/",
+  "LICENSE": [
+    "MIT",
+    "MIT-open-group",
+    "HPND",
+    "HPND-sell-variant",
+    "X11",
+    "LicenseRef-digital-equipment-corporation"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1771039095",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "libxml2",
+    "xkeyboard-config"
+  ],
+  "PROVIDES": [
+    "libxkbcommon.so",
+    "libxkbregistry.so"
+  ],
+  "MAKEDEPENDS": [
+    "libxml2",
+    "meson",
+    "bison",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,38 @@
+{
+  "FILENAME": "hwloc-2.13.0-1-riscv64.pkg.tar.zst",
+  "NAME": "hwloc",
+  "BASE": "hwloc",
+  "VERSION": "2.13.0-1",
+  "DESC": "a portable abstraction of hierarchical architectures",
+  "CSIZE": "2524977",
+  "ISIZE": "3675018",
+  "MD5SUM": "5f1d6a222bf5c0923a3d49fa772f6f4e",
+  "SHA256SUM": "912bf4baa7fa60c2aa1637504904f06894955f3b921207146d1e218ad0c8ae68",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaalDzwAKCRDDWOcNd+r/VHv+AP4k23OY+mf9ktEwXXtBLeb4IJb+jdO5FHeFajWq4L7EMQD+K8YP/6WYnDd0fHFcqLVpN1EoWbnS0CN0kUX5jaleNgE=",
+  "URL": "https://www.open-mpi.org/projects/hwloc/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1772700598",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "libudev"
+  ],
+  "PROVIDES": [
+    "libhwloc.so"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Graphics support in lstopo",
+    "ncurses: TUI support in lstopo",
+    "libxml2: XML plugin for topology import/export support",
+    "libpciaccess: PCI plugin for PCI object discovery"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "ncurses",
+    "libpciaccess"
+  ],
+  "REPO": "main"
+}

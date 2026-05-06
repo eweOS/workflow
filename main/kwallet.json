@@ -1,0 +1,52 @@
+{
+  "FILENAME": "kwallet-6.20.0-1-riscv64.pkg.tar.zst",
+  "NAME": "kwallet",
+  "BASE": "kwallet",
+  "VERSION": "6.20.0-1",
+  "DESC": "Secure and unified container for user passwords",
+  "GROUPS": [
+    "kf6"
+  ],
+  "CSIZE": "567959",
+  "ISIZE": "2259509",
+  "MD5SUM": "e50ae5cf821f1aa3bca7d88453a744d3",
+  "SHA256SUM": "554a7fd0fcd9ddb4bf593f6f02cc21100cbdd950fdbe74c9b4cb6f34f5059e35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRrCPwAKCRDDWOcNd+r/VLwXAQCILTUbhFvcrBGG1YaZL7RKcMwZeK81IZCdxh2Dyt7j4QEA20jGTSIC4kugekuqOUaiPVFbONqflxZn2c2rWtvCBQg=",
+  "URL": "https://community.kde.org/Frameworks",
+  "LICENSE": [
+    "LGPL-2.0-only",
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763361323",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "gpgmepp",
+    "kcolorscheme",
+    "kconfig",
+    "kcoreaddons",
+    "kcrash",
+    "kdbusaddons",
+    "ki18n",
+    "knotifications",
+    "kwidgetsaddons",
+    "kwindowsystem",
+    "libgcrypt",
+    "libsecret",
+    "qca-qt6",
+    "qt6-base"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "OPTDEPENDS": [
+    "kwalletmanager: Configuration GUI"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "kservice",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

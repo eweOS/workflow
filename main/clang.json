@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-20.1.8-3-riscv64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "20.1.8-3",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "103398668",
+  "ISIZE": "581421589",
+  "MD5SUM": "0b2301b623e7f599d2c0aad1504dd2e0",
+  "SHA256SUM": "cf1a1c23205d73c8030beda0646a664161114faf893ff3097999bb1d2f8f9839",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaSvL0AAKCRDDWOcNd+r/VHLvAP0V3JI4cbWImA03rWmSl2ZtvGy6WaNc+8Tf7533qUKXkAD/cTlH5OfPoadCFzdW8rm7t+Q1PuETdaZ7lBGihcNK0A0=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1764392493",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

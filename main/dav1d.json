@@ -1,0 +1,32 @@
+{
+  "FILENAME": "dav1d-1.5.3-1-riscv64.pkg.tar.zst",
+  "NAME": "dav1d",
+  "BASE": "dav1d",
+  "VERSION": "1.5.3-1",
+  "DESC": "A new open-source AV1 decoder.",
+  "CSIZE": "298609",
+  "ISIZE": "516121",
+  "MD5SUM": "2bfb641346cc7bd1f006ae30c6cd0fcd",
+  "SHA256SUM": "2ee2bf624a4a0629dc6530aef5d8576c9d664f0e1c57aabee290d22ccc2af476",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaX93QwAKCRDDWOcNd+r/VE+1AP93bkcZpVYQ6XfPGO7ahH6OePgO/r/yYlgmOr627eoqFwD7BPq8ZVK/y9O2l4/dCB8zS+hIkm3ihg2HzbIiRI1u7gw=",
+  "URL": "https://www.videolan.org/projects/dav1d.html",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1769961234",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "xxhash"
+  ],
+  "PROVIDES": [
+    "libdav1d.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "nasm"
+  ],
+  "REPO": "main"
+}

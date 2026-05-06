@@ -1,0 +1,36 @@
+{
+  "FILENAME": "xdg-desktop-portal-lxqt-1.3.0-1-riscv64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-lxqt",
+  "BASE": "xdg-desktop-portal-lxqt",
+  "VERSION": "1.3.0-1",
+  "DESC": "A backend implementation for xdg-desktop-portal using Qt/KDE Frameworks/libfm-qt",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "57954",
+  "ISIZE": "142195",
+  "MD5SUM": "d4678ad1d033afbd493a38c13af13c82",
+  "SHA256SUM": "94aa66ecf8ac18f5f1a9b6b50278b401d13bf06d8eb40c880688ae8c783da323",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRry0wAKCRDDWOcNd+r/VDZoAQDTqUfTgT2WAgsBWlB06WyRJ5zG8/4rPkJr8Zf+b29VxAEAszNBK0nV97hSEO+CvWVQ+chlDLugvZSH20zPoQarmQg=",
+  "URL": "https://github.com/lxqt/xdg-desktop-portal-lxqt",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763374048",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "qt6-base",
+    "kwindowsystem",
+    "xdg-desktop-portal",
+    "libfm-qt"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "qt6-base-devel"
+  ],
+  "REPO": "main"
+}

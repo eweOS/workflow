@@ -1,0 +1,39 @@
+{
+  "FILENAME": "tor-0.4.9.6-1-riscv64.pkg.tar.zst",
+  "NAME": "tor",
+  "BASE": "tor",
+  "VERSION": "0.4.9.6-1",
+  "DESC": "Anonymizing overlay network.",
+  "CSIZE": "5883760",
+  "ISIZE": "29554806",
+  "MD5SUM": "b1cf9483c969ea8c601a5e985cb2bdfb",
+  "SHA256SUM": "5920fb1f2b5374af47f24da8a0ab1912a096582ac524e54b2e15fd7fcbd6bbcb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacnfIgAKCRDDWOcNd+r/VKxlAP0ZG2u7OeCD3cWbJHKBcF3PJZcYZeA+z9AhAGSRZ50kPAEA2Bkt8zwhrlxf8Dge12WVr8JjXE8Ir4Mq9icsS1rfxQk=",
+  "URL": "https://www.torproject.org/download/tor/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "LGPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1774837373",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "bash",
+    "libcap",
+    "openssl",
+    "libevent",
+    "liblzma.so",
+    "libseccomp.so",
+    "libz.so",
+    "libzstd.so"
+  ],
+  "OPTDEPENDS": [
+    "torsocks: for torify"
+  ],
+  "MAKEDEPENDS": [
+    "ca-certificates",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

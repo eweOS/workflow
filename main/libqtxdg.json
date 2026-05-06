@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libqtxdg-4.3.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libqtxdg",
+  "BASE": "libqtxdg",
+  "VERSION": "4.3.0-1",
+  "DESC": "Library providing freedesktop.org XDG specs implementations for Qt",
+  "CSIZE": "166450",
+  "ISIZE": "437549",
+  "MD5SUM": "a028aa9ffd5b07adb48c4de093641148",
+  "SHA256SUM": "1350107001d310360130f4ef30d4c46572b1fc07d2f7bfafd719541f2f416455",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRqG3AAKCRDDWOcNd+r/VHBQAP0ZHGOHrIOXu4pYwFx2HdYn8zpvqAuJMtgnzg/xjKMOhAEAp0BWHmLfJ9E6enrCK8Pb5zLbMb2rFUY/rYysrboHzQM=",
+  "URL": "https://github.com/lxqt/libqtxdg",
+  "LICENSE": [
+    "LGPL",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763346228",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-svg"
+  ],
+  "PROVIDES": [
+    "libQt6Xdg.so",
+    "libQt6XdgIconLoader.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools",
+    "qt6-base-devel"
+  ],
+  "CHECKDEPENDS": [
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}

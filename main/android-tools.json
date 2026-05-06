@@ -1,0 +1,41 @@
+{
+  "FILENAME": "android-tools-35.0.2-16-riscv64.pkg.tar.zst",
+  "NAME": "android-tools",
+  "BASE": "android-tools",
+  "VERSION": "35.0.2-16",
+  "DESC": "Android platform tools",
+  "CSIZE": "2928897",
+  "ISIZE": "8864586",
+  "MD5SUM": "3d71c31b2576336eab47adaa0cfc29b4",
+  "SHA256SUM": "b7029f25ad387df887ebb3cc81cb181e3ba2ca68d30aae551f79d3c7cdf785aa",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadbXBQAKCRDDWOcNd+r/VOKDAP9/4p7kOegHB2JJx2D4zXbKJ2SByQ7d3pNEi8RlBNqtgAD8CNpQUDCSTvC5E5VxAtcsocpMf/vzPzgkbGj8KxqdzQ0=",
+  "URL": "http://tools.android.com/",
+  "LICENSE": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775687025",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "brotli",
+    "fmt",
+    "libusb",
+    "pcre2",
+    "protobuf",
+    "googletest",
+    "zstd",
+    "python",
+    "abseil-cpp"
+  ],
+  "OPTDEPENDS": [
+    "python: mkbootimg, unpack_bootimg and repack_bootimg support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "go",
+    "perl",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

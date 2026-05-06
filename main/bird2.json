@@ -1,0 +1,35 @@
+{
+  "FILENAME": "bird2-2.17.1-2-riscv64.pkg.tar.zst",
+  "NAME": "bird2",
+  "BASE": "bird2",
+  "VERSION": "2.17.1-2",
+  "DESC": "RIP, OSPF, BGP, MPLS, BFD, Babel routing daemon",
+  "CSIZE": "495966",
+  "ISIZE": "1158076",
+  "MD5SUM": "464032f64299ad2b75e33e19921fd20b",
+  "SHA256SUM": "e420de939af326c17f66e17ccf976cc754208256f85ba83cf663e65a1ce281d2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaT9tGwAKCRDDWOcNd+r/VPUmAQD6MQir2Ut91wd9TZkRySgJ9thPL1NFRbwhyArFtv8C7gD/TvKXbAleX4aqPMfRWhKL7jm6pjjwqJ8m5uT1I+QoFwI=",
+  "URL": "https://bird.network.cz/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1765764761",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "ncurses",
+    "libssh2"
+  ],
+  "CONFLICTS": [
+    "bird"
+  ],
+  "PROVIDES": [
+    "bird"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "coin-4.0.8-1-riscv64.pkg.tar.zst",
+  "NAME": "coin",
+  "BASE": "coin",
+  "VERSION": "4.0.8-1",
+  "DESC": "Coin3D core library",
+  "CSIZE": "5542014",
+  "ISIZE": "13409474",
+  "MD5SUM": "48c30338ddf73b1eef2079521d68c0b4",
+  "SHA256SUM": "2117db597da33d5aa1325438afebde2fcbfe46f15cc805159887d2053090d764",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaddJqQAKCRDDWOcNd+r/VBU8AP9yRND952UtIubJOkWPpdtGcby2oSG2yQMBlGt3n7OzbQEA8IgiIEa+RNxLv3hwbTT2mBho0GbO4UD0jp6ke7SJZgk=",
+  "URL": "https://www.coin3d.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775715931",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "libglvnd",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libCoin.so"
+  ],
+  "OPTDEPENDS": [
+    "fontconfig",
+    "freetype",
+    "bzip2",
+    "openal-soft",
+    "zlib-ng",
+    "glu",
+    "mozjs"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

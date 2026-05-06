@@ -1,0 +1,37 @@
+{
+  "FILENAME": "lxqt-notificationd-2.3.0-1-riscv64.pkg.tar.zst",
+  "NAME": "lxqt-notificationd",
+  "BASE": "lxqt-notificationd",
+  "VERSION": "2.3.0-1",
+  "DESC": "LXQt notification daemon and library.",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "113639",
+  "ISIZE": "379193",
+  "MD5SUM": "29aab62efcd69bd00f51a1132ccc8972",
+  "SHA256SUM": "ca0e02b926d51f8f080e4983fb905009afee9ee0a013d0c75e82c4747a0e65c1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaRrx7gAKCRDDWOcNd+r/VOs0AQDV/lt6O5l+3u+pqDh6dr6HVtkiw1022sZFUeQdG5tLTgD+NCjWCbxUd12vVoghCRtIUNpfnDNGBtMS0rXuCD9cQAw=",
+  "URL": "https://github.com/lxqt/lxqt-notificationd",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1763373756",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "qt6-base",
+    "liblxqt",
+    "kwindowsystem",
+    "libQt6Xdg.so",
+    "layer-shell-qt"
+  ],
+  "PROVIDES": [
+    "notification-daemon"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-5.0.0-1-riscv64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "5.0.0-1",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "866623",
+  "ISIZE": "2193186",
+  "MD5SUM": "a1c27eb54e35970fc09b9b0e66d9f014",
+  "SHA256SUM": "98b2c4e9b2da8af518592ccced2c06d5a215f80fb14b32f65b1a2b44d0aae1bf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuypwAKCRDDWOcNd+r/VFKWAP90KtBUdT4Go99L3MT3ji4FX7hQbgySaUxp5YkNYwrUZwEA95fTYUGCSWAM34NCp3m96PHAwY/a8rR+Jt4tbr73CgA=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1774957103",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

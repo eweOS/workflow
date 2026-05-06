@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pahole-1.31-2-riscv64.pkg.tar.zst",
+  "NAME": "pahole",
+  "BASE": "pahole",
+  "VERSION": "1.31-2",
+  "DESC": "Pahole and other DWARF utils",
+  "CSIZE": "342504",
+  "ISIZE": "737644",
+  "MD5SUM": "6876c314aa4f560b1dba6d710c2c1419",
+  "SHA256SUM": "bb30fa9891069f9063f55b3d00b2f696d94220f479c0b46c83f9cfd4135e3827",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaUQYCgAKCRDDWOcNd+r/VPXfAP9MB2VUhDqLZOxAUYauHAG6ogh3SuXktWt3x0ZpbGXpjgD+PePd2vBlH+UBAEDcbBXkUPPqXshvJP92Zv83fnyzUQA=",
+  "URL": "https://git.kernel.org/pub/scm/devel/pahole/pahole.git",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1766070707",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "bash",
+    "libelf",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libdwarves.so",
+    "libdwarves_emit.so",
+    "libdwarves_reorganize.so"
+  ],
+  "OPTDEPENDS": [
+    "ostra-cg: Generate call graphs from encoded traces"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "cmake",
+    "git",
+    "libelf",
+    "linux-headers",
+    "ninja",
+    "zlib"
+  ],
+  "REPO": "main"
+}

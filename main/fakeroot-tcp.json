@@ -1,0 +1,36 @@
+{
+  "FILENAME": "fakeroot-tcp-1.37.2-2-riscv64.pkg.tar.zst",
+  "NAME": "fakeroot-tcp",
+  "BASE": "fakeroot",
+  "VERSION": "1.37.2-2",
+  "DESC": "Tool for simulating superuser privileges (TCP IPC)",
+  "CSIZE": "36720",
+  "ISIZE": "80145",
+  "MD5SUM": "070c62387a478ac1d0fa5183f0c07bc0",
+  "SHA256SUM": "0cb43de99e740da92bbbf5a33d3ca19778133342acf8796e9e725dcd362ee35d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaYINuwAKCRDDWOcNd+r/VAxfAQDIKqnG2QAi4F7RDmd+bx85uK4RkRdgjJ5e9eFcO83QBQD6A1gPWjxJ3seol4EsfmO3uK0QtPoID7oxbKsbGmWJGQI=",
+  "URL": "https://tracker.debian.org/pkg/fakeroot",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1770130767",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "filesystem",
+    "util-linux"
+  ],
+  "CONFLICTS": [
+    "fakeroot"
+  ],
+  "PROVIDES": [
+    "fakeroot"
+  ],
+  "MAKEDEPENDS": [
+    "libcap",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

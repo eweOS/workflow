@@ -1,0 +1,37 @@
+{
+  "FILENAME": "fcitx5-configtool-5.1.13-1-riscv64.pkg.tar.zst",
+  "NAME": "fcitx5-configtool",
+  "BASE": "fcitx5-configtool",
+  "VERSION": "5.1.13-1",
+  "DESC": "Configuration tool for fcitx5",
+  "CSIZE": "361383",
+  "ISIZE": "1275451",
+  "MD5SUM": "f2ac23de228d91958965d500b973c576",
+  "SHA256SUM": "0bed60c004c279a80b2e94d632c7e31b447c32f0a31cad356cc4c9d7a4e427ac",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaddAqwAKCRDDWOcNd+r/VHX7AQCp/f61gCEEzPc4d9OF6ypBFpL+LCTvykI3GBMwSEu8gwEA3id6dzPgfuKq6TMLFojTj1CFrVFkFRFvonDGUutN+gc=",
+  "URL": "https://github.com/fcitx/fcitx5-configtool",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775714193",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "fcitx5",
+    "fcitx5-qt",
+    "qt6-base",
+    "qt6-svg",
+    "kwidgetsaddons",
+    "kitemviews",
+    "iso-codes"
+  ],
+  "PROVIDES": [
+    "libFcitx5Migrator.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "extra-cmake-modules",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

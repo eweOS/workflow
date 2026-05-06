@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pacman-7.1.0-2-riscv64.pkg.tar.zst",
+  "NAME": "pacman",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-2",
+  "DESC": "A library-based package manager with dependency support",
+  "CSIZE": "761553",
+  "ISIZE": "3640709",
+  "MD5SUM": "d9d0bbb959226a2cd72489e951b94d81",
+  "SHA256SUM": "62ae3d5a706f88dea46c8942cb4dc70d42cbb3b79376248d77196dc66ac25d17",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacureQAKCRDDWOcNd+r/VM+5AP95DFuJxBeb5QzsHrJMkP+oQVJXqu+RbReFVs9R2Q4uigD9GZ5aHshwR8+BfOXCqDWyrciNCDp5xxXq5r7NqgSOiAg=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1774955567",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "bash",
+    "libalpm=7.1.0",
+    "fakeroot",
+    "pacman-mirrorlist"
+  ],
+  "PROVIDES": [
+    "makepkg"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

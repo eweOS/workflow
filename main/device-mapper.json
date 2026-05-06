@@ -1,0 +1,30 @@
+{
+  "FILENAME": "device-mapper-2.03.39-1-riscv64.pkg.tar.zst",
+  "NAME": "device-mapper",
+  "BASE": "lvm2",
+  "VERSION": "2.03.39-1",
+  "DESC": "Device mapper userspace library and tools",
+  "CSIZE": "292034",
+  "ISIZE": "642422",
+  "MD5SUM": "23f6e39569b5b1b5b416baa7d3e2a7cf",
+  "SHA256SUM": "478d04ab3a508c7fd85b13496956a696b72cc69f070a986f98570c4c0f8c6001",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadoSoAAKCRDDWOcNd+r/VJYCAP9NC6Y1u2xbXS/57n2Se00rDunFYDkwXEljsy1Z94OyCgEAlKvIwoeNJtoHz9Uj5orCrleQBiRcLshha3suMVg1VAk=",
+  "URL": "http://sourceware.org/dm/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775899454",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "PROVIDES": [
+    "libdevmapper.so",
+    "libdevmapper-event.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

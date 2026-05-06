@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libkmod-34.2-2-riscv64.pkg.tar.zst",
+  "NAME": "libkmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-2",
+  "DESC": "Linux kernel module management library",
+  "CSIZE": "53818",
+  "ISIZE": "118180",
+  "MD5SUM": "9a1db36d29957c9848a04235cee99886",
+  "SHA256SUM": "911d92fbebd1c20c4fcfd356702881910f46a925e0bf921f9227132a054fc843",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaQnEDQAKCRDDWOcNd+r/VO9ZAPsGu45nk/ZbsL5g/ZmjcvDlXf2PCTK+4MAIBMM7Ii6TxgD+O7Ia2aAxA5Yv+gVfqZWymzccpvYLwCda9P1mmiJi3g4=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1762247865",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "PROVIDES": [
+    "libkmod.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}

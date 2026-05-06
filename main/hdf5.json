@@ -1,0 +1,36 @@
+{
+  "FILENAME": "hdf5-2.1.0-2-riscv64.pkg.tar.zst",
+  "NAME": "hdf5",
+  "BASE": "hdf5",
+  "VERSION": "2.1.0-2",
+  "DESC": "HDF5 scientific data model implementation",
+  "CSIZE": "2604652",
+  "ISIZE": "7216382",
+  "MD5SUM": "77de6a62d715086bb88f0f29c67ecfa2",
+  "SHA256SUM": "067959b44ad3ef33b30f6a9d15a2b81217707de6c8846ba8c107f04907cf1e97",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCacuwZwAKCRDDWOcNd+r/VH9sAQCB9dAjmTYJv/h2/OqnUAOrJ2n0lPv6N74jEBIU4fryqQD6Aw2YoQAAvLY/iuS3RKszLdhL7prdipcMSiPfkQYJYg0=",
+  "URL": "https://www.hdfgroup.org/solutions/hdf5/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1774955266",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libhdf5.so",
+    "libhdf5_hl_f90cstub.so",
+    "libhdf5_f90cstub.so",
+    "libhdf5_hl_fortran.so",
+    "libhdf5_fortran.so",
+    "libhdf5_tools.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "perl",
+    "flang"
+  ],
+  "REPO": "main"
+}

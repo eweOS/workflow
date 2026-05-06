@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libnvme-1.16.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libnvme",
+  "BASE": "libnvme",
+  "VERSION": "1.16.1-1",
+  "DESC": "C Library for NVM Express on Linux",
+  "CSIZE": "371414",
+  "ISIZE": "1526833",
+  "MD5SUM": "588b9fe68cbbbbf3763f6c3244514ee0",
+  "SHA256SUM": "0aad1bd8902aeaa13c7a34b19d423bff57c10580ef07c7b1a27bdd15cca34cd2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCadgB5AAKCRDDWOcNd+r/VMazAP9znO6mLuNNuJLZsiI0FuY0qs8grZyga09ATBULh2P4OwEAyMgBqW8o8U1ZM/7rJNkc4joeG2pgpYWkJcXIYTEv4go=",
+  "URL": "https://github.com/linux-nvme/libnvme",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1775764194",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "dbus",
+    "llvm-libs",
+    "musl",
+    "json-c",
+    "keyutils",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "meson",
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

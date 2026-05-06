@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libtraceevent-1.9.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libtraceevent",
+  "BASE": "libtraceevent",
+  "VERSION": "1.9.0-1",
+  "DESC": "Library to parse raw trace event formats",
+  "CSIZE": "90119",
+  "ISIZE": "211171",
+  "MD5SUM": "f21ef418fe368980d3bc65d198febe31",
+  "SHA256SUM": "f536c540cbe17c47a21db9080abff08770a2a18c92b1309c38ffc798608b9d85",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabZ4AgAKCRDDWOcNd+r/VImqAQDJp74LMEidiyFYQ57T1+oFnlp6irFCbGyuHhPHLv1MDAD9F7C4+N4fKcn1qaDPVnZszpOffchlUul7TCvbE2ZH3gQ=",
+  "URL": "Library",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773566114",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libtraceevent.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "asciidoc",
+    "doxygen",
+    "xmlto",
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

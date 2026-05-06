@@ -1,0 +1,34 @@
+{
+  "FILENAME": "flashrom-1.7.0-1-riscv64.pkg.tar.zst",
+  "NAME": "flashrom",
+  "BASE": "flashrom",
+  "VERSION": "1.7.0-1",
+  "DESC": "A utility for detecting, reading, writing, verifying and erasing flash chips",
+  "CSIZE": "5588087",
+  "ISIZE": "9307415",
+  "MD5SUM": "865bca19ffe74c37a89e26435c4b3668",
+  "SHA256SUM": "a7d46379e235a67af37cc69f4b8df4c8d25c8e4beea06ea16f9b4075cce4cc3f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCabfdLgAKCRDDWOcNd+r/VHt9AP4zHlgvtXUDdBQcVKzgA1c7X+tLIwtySIyD+DQns7D/kAD+N4Kl25eyQQIlB19DdZSFtCy3P78VotSOdV7Iq88Wews=",
+  "URL": "https://review.coreboot.org/admin/repos/flashrom,general",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1773657507",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "libusb",
+    "libftdi",
+    "pciutils",
+    "libjaylink"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers",
+    "python-sphinx",
+    "git"
+  ],
+  "REPO": "main"
+}
