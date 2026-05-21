@@ -12,19 +12,9 @@ pass=$OSC_PASS
 EOF
 
 BRANCH_NAME=$1
-OBS_LOC=eweOS:Main/$BRANCH_NAME
 
-if osc branch eweOS:OBS/template $OBS_LOC \
+if osc rmkpac --scmsync "https://github.com/eweOS/packages#$BRANCH_NAME" eweOS:Main $BRANCH_NAME \
 	| grep -q 'already exists'; then
 	echo "Creation failed, package exists."
 	exit 1
 fi
-
-osc checkout $OBS_LOC
-
-sed -i "s:placeholder:$BRANCH_NAME:g" \
-	"${OBS_LOC}"/_service
-
-rm "${OBS_LOC}"/_link || true
-
-osc commit $OBS_LOC -m "Create package"
