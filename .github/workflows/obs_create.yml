@@ -12,11 +12,10 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-      - name: Install OSC
-        run: |
-          sudo apt update
-          sudo apt install -y osc
-          sudo pip install m2crypto
+      - name: Install UV
+        uses: astral-sh/setup-uv@v8.1.0
+        with:
+          python-version: 3.13
       - name: Start creating package
         env:
           PKG: ${{ github.event.client_payload.pkg }}

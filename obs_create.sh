@@ -13,7 +13,7 @@ EOF
 
 BRANCH_NAME=$1
 
-if osc rmkpac --scmsync "https://github.com/eweOS/packages#$BRANCH_NAME" eweOS:Main $BRANCH_NAME \
+if uvx osc rmkpac --scmsync "https://github.com/eweOS/packages#$BRANCH_NAME" eweOS:Main $BRANCH_NAME \
 	| grep -q 'already exists'; then
 	echo "Creation failed, package exists."
 	exit 1
