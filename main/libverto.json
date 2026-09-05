@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libverto-0.3.2-7-loongarch64.pkg.tar.zst",
+  "NAME": "libverto",
+  "BASE": "libverto",
+  "VERSION": "0.3.2-7",
+  "DESC": "Main event loop abstraction library",
+  "CSIZE": "18826",
+  "ISIZE": "53198",
+  "MD5SUM": "c6fc2250f35e2fb482bca7e82f344d46",
+  "SHA256SUM": "3a86ec662bb04cf9ccef153a080be08584f1bbbcd4eef6faed3128f17d448d0a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag86FwAKCRDDWOcNd+r/VIfjAP9tvAaZIrLmloloF8fPS/0pYTt1NCR3s7SlqVK7Rxx62gEA+tXEUyHQbmfx/5Wee4lvUr6Wie8J8By1R04xs6PgTg0=",
+  "URL": "https://github.com/latchset/libverto",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779382800",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "REPLACES": [
+    "libverto-libevent<0.3.2-4"
+  ],
+  "DEPENDS": [
+    "libevent"
+  ],
+  "CONFLICTS": [
+    "krb5<1.19.3-2",
+    "libverto-libevent<0.3.2-4"
+  ],
+  "PROVIDES": [
+    "libverto.so",
+    "libverto-libevent.so",
+    "libverto-module-base"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

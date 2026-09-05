@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libsasl-2.1.28-6-loongarch64.pkg.tar.zst",
+  "NAME": "libsasl",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-6",
+  "DESC": "Cyrus Simple Authentication Service Layer (SASL) library",
+  "CSIZE": "173225",
+  "ISIZE": "550543",
+  "MD5SUM": "30c75ef3e990bd7acde697c226f65ea9",
+  "SHA256SUM": "ef32d117fe0c7c162e5f4968db2b1c2aeb31ed73e2e80f90dc448218283cc766",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7mgQAKCRDDWOcNd+r/VPgxAQCoU6CvLTuQezhEEXlkMzKw+znQaQ45eqzMm7Lw3rJjJgD9GZHInYTmRMleD8YCoTXXJvPX0J0FGb6GIeYlkYk+2gU=",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779361341",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "gdbm",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libsasl2.so"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

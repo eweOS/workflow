@@ -1,0 +1,36 @@
+{
+  "FILENAME": "xdg-desktop-portal-lxqt-1.4.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-lxqt",
+  "BASE": "xdg-desktop-portal-lxqt",
+  "VERSION": "1.4.0-2",
+  "DESC": "A backend implementation for xdg-desktop-portal using Qt/KDE Frameworks/libfm-qt",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "61043",
+  "ISIZE": "183611",
+  "MD5SUM": "5c02a5cde3a97c5681fd7d31b5b028b0",
+  "SHA256SUM": "6468658409acc24226cc01a8084420525af8693ace81e9f98ad3b88eca20566d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiF7yAAKCRDDWOcNd+r/VFK1AQCNsLNsS/onHyOp9+v7Ie95eElChucRb0+9PB0yxyu4DAEAy8KD5xAZQR03Kfs+JSN8bNm19htrCE9GyrlYKVpWKwY=",
+  "URL": "https://github.com/lxqt/xdg-desktop-portal-lxqt",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780579300",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "kwindowsystem",
+    "xdg-desktop-portal",
+    "libfm-qt"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "qt6-base-devel"
+  ],
+  "REPO": "main"
+}

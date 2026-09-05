@@ -1,0 +1,31 @@
+{
+  "FILENAME": "greetd-0.10.3-8-loongarch64.pkg.tar.zst",
+  "NAME": "greetd",
+  "BASE": "greetd",
+  "VERSION": "0.10.3-8",
+  "DESC": "Generic greeter daemon",
+  "CSIZE": "327440",
+  "ISIZE": "712356",
+  "MD5SUM": "0291f4da6231f183dd4e88e7c17a7a96",
+  "SHA256SUM": "e6589d44f896db3fc10c799f802a0e03d4cd0ad418e038ab39c6056d4eefe464",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7RlQAKCRDDWOcNd+r/VC+vAQDuJh2N3w1+4Oax2Wu+BiUwgxDDoEWAeT98oG0IHHQY6gEA6EIWUeujmssexzLGRdS55rhTe5L/ULdEd6ZzA3XvCgk=",
+  "URL": "https://git.sr.ht/~kennylevinsen/greetd",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779355950",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "greetd-agreety",
+    "pam"
+  ],
+  "OPTDEPENDS": [
+    "turnstile: user service and session manager support"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "pam"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "json-glib-1.10.8-2-loongarch64.pkg.tar.zst",
+  "NAME": "json-glib",
+  "BASE": "json-glib",
+  "VERSION": "1.10.8-2",
+  "DESC": "JSON library built on GLib",
+  "CSIZE": "196115",
+  "ISIZE": "1012110",
+  "MD5SUM": "36cbbe3bd735e84270d303dcddcbd801",
+  "SHA256SUM": "cc571c79a10a1dba4dfef9719c161fafb9d7341149f0a1918446021ccb52845a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag+HWgAKCRDDWOcNd+r/VEu3AQD9RAZIXwLVUM73EgWMngHHJVsve5/UfjxPErOMWjHFbAD/XzKPPHLo0IuE0m/VIeYepYJvLY+4IQXXD0l6VHcg/gY=",
+  "URL": "https://wiki.gnome.org/Projects/JsonGlib",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779402529",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "glib",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so"
+  ],
+  "PROVIDES": [
+    "libjson-glib-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-docutils"
+  ],
+  "REPO": "main"
+}

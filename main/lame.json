@@ -1,0 +1,30 @@
+{
+  "FILENAME": "lame-3.100-5-loongarch64.pkg.tar.zst",
+  "NAME": "lame",
+  "BASE": "lame",
+  "VERSION": "3.100-5",
+  "DESC": "a high quality MP3 encoder licensed under the LGPL.",
+  "CSIZE": "296487",
+  "ISIZE": "1179332",
+  "MD5SUM": "86c3355e58231088a5102ab777cadb3f",
+  "SHA256SUM": "290714f7d3170b6629964f9cf3ea21e449b8af05959bbf911e1c08213ddeab56",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag844QAKCRDDWOcNd+r/VH+dAQC7EDWM11cMXN5GqTRXiYEEd+cyVpYjoUKxQSOdq9L54QD/XZkdWR+V5xFX8yTY+ZWVUt07oEF5ycpIZi11gFUAzws=",
+  "URL": "https://lame.sourceforge.io/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779382464",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libmp3lame.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

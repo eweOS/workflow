@@ -1,0 +1,43 @@
+{
+  "FILENAME": "coin-4.0.10-1-loongarch64.pkg.tar.zst",
+  "NAME": "coin",
+  "BASE": "coin",
+  "VERSION": "4.0.10-1",
+  "DESC": "Coin3D core library",
+  "CSIZE": "5564201",
+  "ISIZE": "14665537",
+  "MD5SUM": "2e9381ad1ed60f37a21982969f6cd151",
+  "SHA256SUM": "852c7b2c8300a1960d37cc866e63e6384e29c183fcddb742242ac2055314f095",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalinZAAKCRDDWOcNd+r/VB7MAP0cQtMaAjv8Z7lXzfZACQvtPS914+5t/XbxmtdUSFNirQEApRRfmGUohMEdWYUbxAguOb+9cq+PxIgPtj9wSX8zqws=",
+  "URL": "https://www.coin3d.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1784194982",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "libglvnd",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libCoin.so"
+  ],
+  "OPTDEPENDS": [
+    "fontconfig",
+    "freetype",
+    "bzip2",
+    "openal-soft",
+    "zlib-ng",
+    "glu",
+    "mozjs"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

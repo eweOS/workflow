@@ -1,0 +1,36 @@
+{
+  "FILENAME": "hdf5-2.2.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "hdf5",
+  "BASE": "hdf5",
+  "VERSION": "2.2.0-1",
+  "DESC": "HDF5 scientific data model implementation",
+  "CSIZE": "2248821",
+  "ISIZE": "7971753",
+  "MD5SUM": "4f6fcc9f60a818b63f5262fdeb26e3a8",
+  "SHA256SUM": "4c31e78b89909ad9838075817b106634b564c96d1de91a9c96dad43b942b27a5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoElQQAKCRDDWOcNd+r/VHL/AQDL+86SqgY9EcHd5rYNZ1JxFWpu1+mZgbujlKAjB3NtqgEA3W5jI6bL986QeRq/Soa+9eYya7K3pVx5apH/moLH6AM=",
+  "URL": "https://www.hdfgroup.org/solutions/hdf5/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1786848612",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libhdf5.so",
+    "libhdf5_hl_f90cstub.so",
+    "libhdf5_f90cstub.so",
+    "libhdf5_hl_fortran.so",
+    "libhdf5_fortran.so",
+    "libhdf5_tools.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "perl",
+    "flang"
+  ],
+  "REPO": "main"
+}
