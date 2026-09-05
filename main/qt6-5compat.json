@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-5compat-6.11.1-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-5compat",
+  "BASE": "qt6-5compat",
+  "VERSION": "6.11.1-1",
+  "DESC": "Module that contains unsupported Qt 5 APIs",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "588278",
+  "ISIZE": "2035160",
+  "MD5SUM": "affc8f4ed7010d3712ae91ba4133e81a",
+  "SHA256SUM": "c3a67535f3b2430ddc20536c68004b137eacccf088a74570951e787a2d3bdc93",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiFbnwAKCRDDWOcNd+r/VPz/AQCT0Zs7m4O1tlDlQ2KmALwzRew6FRaziV0lof2DkxdeRgEAikErHB0+13tVaB0PC9cccass/ydlB5q8PtZ6u7ZVrAg=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780570768",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-shadertools",
+    "icu"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: for QtGraphicalEffects"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-declarative",
+    "qt6-shadertools-devel",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-21.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "413024",
+  "ISIZE": "945031",
+  "MD5SUM": "77e2e72cc0fae285f053ff36c1bc3ffb",
+  "SHA256SUM": "644e319aae2ca19c6366a11ccac3e087246c3b2d2699d51b5f3b9e1f0963ffa4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah+yPgAKCRDDWOcNd+r/VETyAQCqw1oTxZEaNqGSg+3VQruxTwGWhxPXgoc2d9XS+EPcJAEAqhDirLyTc74LayLh2hjy4pv0ET5URzaLhUjspp3T1gM=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780381175",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

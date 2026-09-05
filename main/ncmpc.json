@@ -1,0 +1,40 @@
+{
+  "FILENAME": "ncmpc-0.53-1-riscv64.pkg.tar.zst",
+  "NAME": "ncmpc",
+  "BASE": "ncmpc",
+  "VERSION": "0.53-1",
+  "DESC": "Fully featured MPD client which runs in a terminal",
+  "CSIZE": "269132",
+  "ISIZE": "764819",
+  "MD5SUM": "3daf5b7186f91a47400c43e6dc3a0753",
+  "SHA256SUM": "9b225cc95bce654dc886baab4d5568417ade4087937fd2949ef3640908fd46ca",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamBWKgAKCRDDWOcNd+r/VOgQAP4ofvE6BvLS1xBWe987jdjc8TY7PnVz6NR9NwkdnXj+TAEAqYxqUECdcEqDiIiH/X0a9k/okMsevleT5KNEs7nRjA0=",
+  "URL": "https://www.musicpd.org/clients/ncmpc/",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784698491",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "pcre2",
+    "fmt",
+    "libfmt.so",
+    "libmpdclient",
+    "libmpdclient.so",
+    "ncurses",
+    "libncursesw.so"
+  ],
+  "OPTDEPENDS": [
+    "python-beautifulsoup4: for lyrics scripts",
+    "python-requests: for lyrics scripts"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "fmt",
+    "libmpdclient",
+    "meson",
+    "ncurses"
+  ],
+  "REPO": "main"
+}

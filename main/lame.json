@@ -1,0 +1,30 @@
+{
+  "FILENAME": "lame-3.100-5-riscv64.pkg.tar.zst",
+  "NAME": "lame",
+  "BASE": "lame",
+  "VERSION": "3.100-5",
+  "DESC": "a high quality MP3 encoder licensed under the LGPL.",
+  "CSIZE": "306799",
+  "ISIZE": "1076476",
+  "MD5SUM": "efb4241b2f272ca6ccd0543bf6ff6bbb",
+  "SHA256SUM": "0ecfcd6d831ce5149a0162272c92d3ab8b93205ffa9e438cdfb03f8298c2d10b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahEGjAAKCRDDWOcNd+r/VEXGAQCFFyV84btrojsamGPF6I1D2Y3+60n0DCDVvg8vCO6iLAEAjD35tdKDc+Jz4RGEZ0Vux/XQ+zuxzYegb93DXlAGowQ=",
+  "URL": "https://lame.sourceforge.io/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779500631",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libmp3lame.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

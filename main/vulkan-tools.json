@@ -1,0 +1,35 @@
+{
+  "FILENAME": "vulkan-tools-1.4.350.0-1-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-tools",
+  "BASE": "vulkan-tools",
+  "VERSION": "1.4.350.0-1",
+  "DESC": "Vulkan Development Tools",
+  "CSIZE": "492990",
+  "ISIZE": "1733136",
+  "MD5SUM": "92ccf79309725922042ac5ee87b1be6b",
+  "SHA256SUM": "32721f93f98123cec1d10b085c64480eaf152235f74800dd70c47faa595c3d4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaidwiQAKCRDDWOcNd+r/VMUOAP9ZW6rzGriryl5W+W9X3ZzIzFByri6UhGB3pVL2BMgxKQEAk/oHMMXSvuGL+fP/I1sJFapDUvba0ZP0z2AEnkpXfwg=",
+  "URL": "https://github.com/KhronosGroup/Vulkan-Tools/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780969494",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "wayland",
+    "libvulkan.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "wayland-protocols",
+    "glslang",
+    "spirv-tools",
+    "vulkan-volk",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

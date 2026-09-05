@@ -1,0 +1,33 @@
+{
+  "FILENAME": "base-baremetal-1-6-any.pkg.tar.zst",
+  "NAME": "base-baremetal",
+  "BASE": "base",
+  "VERSION": "1-6",
+  "DESC": "Minimal package set to define a baremetal eweOS installation",
+  "CSIZE": "1803",
+  "ISIZE": "0",
+  "MD5SUM": "2f6db712972e1289b9ccf6620a24cba1",
+  "SHA256SUM": "d6826e1cfa1b37917ca9fde7887b7081ab8cd4f63ce2bd1e6a036eaf44aba593",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8VUAAKCRDDWOcNd+r/VP/sAQC/Iq/KkH2PL5nrBYy0BfMHvhZf044oA2bj4o632MOaaAD+JIulB2YIpekg0l1EZoAEqQs2vQyMrchlwT32VV6FawM=",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779373391",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "base",
+    "pciutils",
+    "dinit",
+    "dinit-services",
+    "limine",
+    "tinyramfs",
+    "kmod"
+  ],
+  "OPTDEPENDS": [
+    "linux: linux kernel (stable)",
+    "linux-lts: linux kernel (lts)",
+    "linux-firmware: firmware binary blobs"
+  ],
+  "REPO": "main"
+}

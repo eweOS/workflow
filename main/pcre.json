@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pcre-8.45-6-riscv64.pkg.tar.zst",
+  "NAME": "pcre",
+  "BASE": "pcre",
+  "VERSION": "8.45-6",
+  "DESC": "A library that implements Perl 5-style regular expressions",
+  "CSIZE": "1270664",
+  "ISIZE": "5027454",
+  "MD5SUM": "41272ccae5ff40809e1f5edc284db736",
+  "SHA256SUM": "7afa5f73b63529a5146a3d70e258326a54419fb29db9a431f6aac86fa39f9002",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8RXAAKCRDDWOcNd+r/VO/gAP4hfnCHVAezliikQPCN8U+M+dLOSTYDZKhW4cUEt8SYrQD/U60CRz6etYOghCQkKFmtygsu2Q4X3JFRkgXJjP2xZAg=",
+  "URL": "https://www.pcre.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779372256",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "llvm-libs",
+    "readline",
+    "zlib",
+    "libbz2"
+  ],
+  "PROVIDES": [
+    "libpcreposix.so",
+    "libpcrecpp.so",
+    "libpcre32.so",
+    "libpcre16.so",
+    "libpcre.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

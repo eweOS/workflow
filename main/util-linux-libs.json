@@ -1,0 +1,47 @@
+{
+  "FILENAME": "util-linux-libs-2.42-1-riscv64.pkg.tar.zst",
+  "NAME": "util-linux-libs",
+  "BASE": "util-linux",
+  "VERSION": "2.42-1",
+  "DESC": "util-linux runtime libraries",
+  "CSIZE": "553629",
+  "ISIZE": "1264852",
+  "MD5SUM": "f564e8da3b3fb3709d53c1fe1f771b71",
+  "SHA256SUM": "272e7ee9183e6d1a76d694b92af72fff252862f9ed9308d0cb4e322da5df7abe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakezKwAKCRDDWOcNd+r/VNmYAQCcLvTruG/+YwerKSjyfWYEg+9G4zFd2f5kERdD2asiyQD+MlFvljwVS5wx9O76y9kXkbhPz1np7uaOXuC60yoYKw8=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1783083785",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libutil-linux",
+    "libblkid.so",
+    "libfdisk.so",
+    "liblastlog2.so",
+    "libmount.so",
+    "libsmartcols.so",
+    "libuuid.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers",
+    "utmps"
+  ],
+  "REPO": "main"
+}

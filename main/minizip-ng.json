@@ -1,0 +1,40 @@
+{
+  "FILENAME": "minizip-ng-4.2.2-1-riscv64.pkg.tar.zst",
+  "NAME": "minizip-ng",
+  "BASE": "minizip-ng",
+  "VERSION": "4.2.2-1",
+  "DESC": "Fork of the popular zip manipulation library found in the zlib distribution",
+  "CSIZE": "92445",
+  "ISIZE": "261745",
+  "MD5SUM": "b80c4b0bb4e1a7befb22f181a7b0ca65",
+  "SHA256SUM": "5f327f8c7d3d884503eeafd79d4d224c09da4e48fd63d7d8a14ba28e823bc26e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalcIhwAKCRDDWOcNd+r/VPdVAQCRqWNHb5akDZK4gaeiFUe1QJYQUM4SA9eYexawjC8qSwEA6a08u2TLBxBjOXLEpkN85JdAMRRXtryWH0GjytMTAAY=",
+  "URL": "https://github.com/zlib-ng/minizip-ng",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784088934",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "REPLACES": [
+    "minizip"
+  ],
+  "DEPENDS": [
+    "bzip2",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "minizip"
+  ],
+  "PROVIDES": [
+    "minizip"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,29 @@
+{
+  "FILENAME": "rav1e-0.7.1-4-riscv64.pkg.tar.zst",
+  "NAME": "rav1e",
+  "BASE": "rav1e",
+  "VERSION": "0.7.1-4",
+  "DESC": "An AV1 encoder focused on speed and safety",
+  "CSIZE": "1913104",
+  "ISIZE": "4537933",
+  "MD5SUM": "37baf1b325230428dd3ebed035d2f4da",
+  "SHA256SUM": "2352c336e5464453d3ce1e3212181da6b32c82991c5c64de64c5dc5b08d5984a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahDIYgAKCRDDWOcNd+r/VGxOAP9Pw4IUqiI3TVwx+7dXai7MvbppV+hfGnAsk/D8d+YKqAEAspatdQh1+msL3Vg4dJ/YqZF7UW7aJ8xRUQBhhrWqnww=",
+  "URL": "https://github.com/xiph/rav1e/",
+  "LICENSE": [
+    "custom:BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779482830",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "PROVIDES": [
+    "librav1e.so"
+  ],
+  "MAKEDEPENDS": [
+    "cargo-c",
+    "git",
+    "nasm",
+    "rust"
+  ],
+  "REPO": "main"
+}

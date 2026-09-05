@@ -1,0 +1,31 @@
+{
+  "FILENAME": "ca-certificates-mozilla-3.126-1-riscv64.pkg.tar.zst",
+  "NAME": "ca-certificates-mozilla",
+  "BASE": "nss",
+  "VERSION": "3.126-1",
+  "DESC": "Mozilla's set of trusted CA certificates",
+  "CSIZE": "427821",
+  "ISIZE": "1071201",
+  "MD5SUM": "beb585db708693c706cd726624242a3b",
+  "SHA256SUM": "048561fa91645fee5166fbc33209e9292bb1850048e3156edb877b8877a66cc7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCal9vJgAKCRDDWOcNd+r/VMl8AP9kGwo3h8+kWrcXTU0nubID5nJTU9up6BrtLAJgLoTGnQD/Wu1qm/V/0XKrpVnrXmxB8/ajpngYumtaXHbfVO4ffwc=",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "GPL",
+    "MPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784639265",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "ca-certificates-utils>=20181109-3"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

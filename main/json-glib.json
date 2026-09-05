@@ -1,0 +1,37 @@
+{
+  "FILENAME": "json-glib-1.10.8-2-riscv64.pkg.tar.zst",
+  "NAME": "json-glib",
+  "BASE": "json-glib",
+  "VERSION": "1.10.8-2",
+  "DESC": "JSON library built on GLib",
+  "CSIZE": "204163",
+  "ISIZE": "997470",
+  "MD5SUM": "8d57b35da8161b99b8f397d6bdcf27ee",
+  "SHA256SUM": "2c1791a87e4076ddd9b9ac694bce8c061049bb988fac9e1ad57b3dcaa110aff7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahHYpgAKCRDDWOcNd+r/VDS2AP9plu/ZwGBeTCiJ1JYbf1hMcdEEbihxVFXvXdGn9KGPNgD+JULxVwvUWWT/QpbwDpjFVWzJNl8v+O4b+f9aXCSdSwQ=",
+  "URL": "https://wiki.gnome.org/Projects/JsonGlib",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779554354",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "glib",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so"
+  ],
+  "PROVIDES": [
+    "libjson-glib-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-docutils"
+  ],
+  "REPO": "main"
+}

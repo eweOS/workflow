@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gnome-keyring-50.0-1-riscv64.pkg.tar.zst",
+  "NAME": "gnome-keyring",
+  "BASE": "gnome-keyring",
+  "VERSION": "50.0-1",
+  "DESC": "Stores passwords and encryption keys",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1010922",
+  "ISIZE": "3647031",
+  "MD5SUM": "a80ecb7f81825e7a6bd05ceb0cfd0da2",
+  "SHA256SUM": "f33cbbc1efc2107fd02c3e76657f762f1e8725ebb0f184e834a0db86e321037a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZn/wAKCRDDWOcNd+r/VCQXAQDHqUw1Hn+QGBzCc/eA6HTlMmDOZabbpJaJd2I5Qx/ZGQD+LGwCoaUeEVwgeN8Z8MDEdnZp9iTwNm69F5zcErLTbw0=",
+  "URL": "https://gitlab.gnome.org/GNOME/gnome-keyring",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779853208",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "dconf",
+    "gcr-3",
+    "gcr-4",
+    "glib2",
+    "libgcrypt",
+    "pam",
+    "libcap-ng"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "glib2",
+    "meson",
+    "p11-kit",
+    "python",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}
