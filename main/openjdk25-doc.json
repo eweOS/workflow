@@ -1,0 +1,46 @@
+{
+  "FILENAME": "openjdk25-doc-25.0.4.u4-1-x86_64.pkg.tar.zst",
+  "NAME": "openjdk25-doc",
+  "BASE": "java25-openjdk",
+  "VERSION": "25.0.4.u4-1",
+  "DESC": "OpenJDK Java 25 documentation",
+  "CSIZE": "27440842",
+  "ISIZE": "312992782",
+  "MD5SUM": "c534c490259522608ca6a3f0cb4a9ea1",
+  "SHA256SUM": "27fba4b53525862949beac2eace22f66f7e5c7b2a93a8f23bb360fd8ba322418",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaipwqgAKCRDDWOcNd+r/VOTdAP9Jqe+c28olwOwfeJz7umh7gLc2AGNaoqgA71m13IoP1AD+OkZhk4Yoz54/G9+8+JQhmHXcs5sxCSlGvn6Koif2jQ0=",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1781165664",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "jdk25-openjdk=25.0.4.u4-1"
+  ],
+  "PROVIDES": [
+    "openjdk25-doc=25.0.4.u4-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=24",
+    "java-environment<26",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

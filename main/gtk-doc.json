@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtk-doc-1.36.1-1-any.pkg.tar.zst",
+  "NAME": "gtk-doc",
+  "BASE": "gtk-doc",
+  "VERSION": "1.36.1-1",
+  "DESC": "Documentation tool for public library API",
+  "CSIZE": "484127",
+  "ISIZE": "3598515",
+  "MD5SUM": "fbdae525ceb3a2643e3929fc4c46a445",
+  "SHA256SUM": "1fd1e67cfede0ffd389d6478b4e33a8dada71d650660afed74fe73f365e573d0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZxTgAKCRDDWOcNd+r/VAl7AP0WHZ/tjkEv2T4E+NgC5HzfXieg5oaO46kOKudps73LhAEA9+ADfCbqmiV+IPFu7m/jkeMbFjxuosfeFelWlzJ/xgY=",
+  "URL": "https://www.gtk.org/gtk-doc/",
+  "LICENSE": [
+    "GFDL-1.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779855718",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "docbook-xml",
+    "docbook-xsl",
+    "glib2",
+    "glib2-docs",
+    "python-lxml",
+    "python-pygments"
+  ],
+  "OPTDEPENDS": [
+    "dblatex: PDF support"
+  ],
+  "MAKEDEPENDS": [
+    "yelp-tools",
+    "git",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "gtk3",
+    "python-parameterized"
+  ],
+  "REPO": "main"
+}

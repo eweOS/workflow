@@ -1,0 +1,33 @@
+{
+  "FILENAME": "base-baremetal-1-6-any.pkg.tar.zst",
+  "NAME": "base-baremetal",
+  "BASE": "base",
+  "VERSION": "1-6",
+  "DESC": "Minimal package set to define a baremetal eweOS installation",
+  "CSIZE": "1803",
+  "ISIZE": "0",
+  "MD5SUM": "231764f59b473d9777fc20520566ea90",
+  "SHA256SUM": "4e9ebcc9ea547b8ae51a7c0697a326659ed626bbdb3b6f1cecd606df1ea7a57e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag62KAAKCRDDWOcNd+r/VC0vAQCSG6nub67JkGyPGjwQgFgH51mkmbkFLSsSjMGKuLIkpQD/VTv1V6M5jWjlOVXzaT8fYx3r1IoIUtYb6kilfe5kxQA=",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779349034",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "base",
+    "pciutils",
+    "dinit",
+    "dinit-services",
+    "limine",
+    "tinyramfs",
+    "kmod"
+  ],
+  "OPTDEPENDS": [
+    "linux: linux kernel (stable)",
+    "linux-lts: linux kernel (lts)",
+    "linux-firmware: firmware binary blobs"
+  ],
+  "REPO": "main"
+}

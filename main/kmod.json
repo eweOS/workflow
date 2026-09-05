@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kmod-34.2-4-x86_64.pkg.tar.zst",
+  "NAME": "kmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-4",
+  "DESC": "Linux kernel module management tool",
+  "CSIZE": "99007",
+  "ISIZE": "168899",
+  "MD5SUM": "89de48c9e76a9c9cc892e17424f3e2e0",
+  "SHA256SUM": "6ebec85685d19282554ada931928552e57550462bb0733e4193f9779c365e4f6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahRxCQAKCRDDWOcNd+r/VFY7AP4kD7972/4sDxmEMjBaF+8Vq10rv5k1Asn9dbT1jaAOfgEA73p4qQDEoAWBh6lzi7OViRvU2PENaN7VS4s9ls6TiwY=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779724564",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole",
+    "symlinks"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}

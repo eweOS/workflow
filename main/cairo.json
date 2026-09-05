@@ -1,0 +1,37 @@
+{
+  "FILENAME": "cairo-1.18.4-2-x86_64.pkg.tar.zst",
+  "NAME": "cairo",
+  "BASE": "cairo",
+  "VERSION": "1.18.4-2",
+  "DESC": "2D graphics library with support for multiple output devices",
+  "CSIZE": "543219",
+  "ISIZE": "1227344",
+  "MD5SUM": "1e048affc85c49b5e2f22e8805cbc390",
+  "SHA256SUM": "4e82d5c7c974753472c294e3c5c76de88bf739c8c6ff7d9a72cdff7435dc3a98",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag624QAKCRDDWOcNd+r/VFFzAQCW6L+OaOsoutDwhbyk/Q/ionKD1dAD4ffxnnWaH54XvgD/a0rNLcmutLD4zs/VTM9nRbDupFTlEellifmlC5hOyA0=",
+  "URL": "https://cairographics.org/",
+  "LICENSE": [
+    "LGPL-2.1",
+    "MPL-1.1"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779349160",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libpng",
+    "fontconfig",
+    "lzo",
+    "pixman",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libcairo-gobject.so",
+    "libcairo-script-interpreter.so",
+    "libcairo.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gtk-doc"
+  ],
+  "REPO": "main"
+}

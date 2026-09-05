@@ -1,0 +1,54 @@
+{
+  "FILENAME": "harfbuzz-14.3.1-1-x86_64.pkg.tar.zst",
+  "NAME": "harfbuzz",
+  "BASE": "harfbuzz",
+  "VERSION": "14.3.1-1",
+  "DESC": "OpenType text shaping engine",
+  "CSIZE": "1201177",
+  "ISIZE": "4233531",
+  "MD5SUM": "32255245aba0b70493117302e3431877",
+  "SHA256SUM": "b4a308208cb77d755c1053031f0cd2b66fd206178f9bf833dc44a341f0e64162",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoAkbQAKCRDDWOcNd+r/VDkvAPwKwB9H5aBpGz1/HYqNlj+tiqQUd6qw++QDoMq6DMh4xAEArQNsiecZQgQzmTZlZTiytcMbtURrMHNn6HQ+JaDOjQE=",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1786783086",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "glib",
+    "freetype2",
+    "graphite",
+    "libfreetype.so",
+    "libgraphite2.so",
+    "libglib-2.0.so",
+    "libgobject-2.0.so"
+  ],
+  "PROVIDES": [
+    "libharfbuzz.so",
+    "libharfbuzz-subset.so",
+    "libharfbuzz-gobject.so",
+    "libharfbuzz-gpu.so",
+    "libharfbuzz-raster.so",
+    "libharfbuzz-vector.so"
+  ],
+  "OPTDEPENDS": [
+    "harfbuzz-utils: utilities"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

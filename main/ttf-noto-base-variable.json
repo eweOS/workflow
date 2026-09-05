@@ -1,0 +1,39 @@
+{
+  "FILENAME": "ttf-noto-base-variable-2026.08.01-1-any.pkg.tar.zst",
+  "NAME": "ttf-noto-base-variable",
+  "BASE": "font-noto",
+  "VERSION": "2026.08.01-1",
+  "DESC": "Google Noto TTF fonts (Base) - variable",
+  "CSIZE": "6275",
+  "ISIZE": "11357",
+  "MD5SUM": "aca9ef34994b0c1955d59e118d360a8e",
+  "SHA256SUM": "2c9551789bd3266a7fd27fc5c30a1bd858d8abb970c1fe703bdd45e1393a0c69",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanF6hQAKCRDDWOcNd+r/VJcXAP9DEmgEpOaAY/oghDoaLXGSlSZCKjXwr50B/IlNpG4OTQEA0pBF+Zk9wqC2esY8aopq4Ux7sriyp/xuzEUlK1Vw8QI=",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1785822142",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "ttf-noto-sans-variable",
+    "ttf-noto-sans-mono-variable",
+    "ttf-noto-serif-variable"
+  ],
+  "CONFLICTS": [
+    "ttf-noto-base"
+  ],
+  "PROVIDES": [
+    "font-base",
+    "font-noto-base",
+    "ttf-noto-base"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-extra: additional characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libtraceevent-1.9.0-2-x86_64.pkg.tar.zst",
+  "NAME": "libtraceevent",
+  "BASE": "libtraceevent",
+  "VERSION": "1.9.0-2",
+  "DESC": "Library to parse raw trace event formats",
+  "CSIZE": "94304",
+  "ISIZE": "226618",
+  "MD5SUM": "27cea13103b318387f1c5a2104c6337a",
+  "SHA256SUM": "333a56332017f091ea7e41a08b1352607e6ca090066768d14ca7161d9454a320",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8AUAAKCRDDWOcNd+r/VBTRAP9AWdx/jCBNhQ5sXJ8QxMPMAV/GwMwlvpr1g8oFk5jEOwD/T/2FWgfAf2BSN/kZUp3iHl+70bfYrVZy6zpoiGnwRwU=",
+  "URL": "Library",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779368016",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libtraceevent.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "asciidoc",
+    "doxygen",
+    "xmlto",
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}
