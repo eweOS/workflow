@@ -1,0 +1,37 @@
+{
+  "FILENAME": "brotli-1.2.0-3-aarch64.pkg.tar.zst",
+  "NAME": "brotli",
+  "BASE": "brotli",
+  "VERSION": "1.2.0-3",
+  "DESC": "Generic-purpose lossless compression algorithm",
+  "CSIZE": "459527",
+  "ISIZE": "947149",
+  "MD5SUM": "4361e3d69559f2532d51d0771bfe008a",
+  "SHA256SUM": "786356a85a824e108ceb52d4a12fe746ba53a09010d334fa7bc666045c164677",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag6zrwAKCRDDWOcNd+r/VNLPAQDh+PNgpomg/cBf5SNPLCrHIgBmG1W+9jwng/bnzsjl/AD8CawuXFLk62mW7y4+5yy8t3ol5T9XUcbTuP/nkjbtygQ=",
+  "URL": "https://github.com/google/brotli",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779348305",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libbrotlicommon.so",
+    "libbrotlidec.so",
+    "libbrotlienc.so"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "llvm-libs",
+    "cmake",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

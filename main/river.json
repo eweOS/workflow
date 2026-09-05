@@ -1,0 +1,41 @@
+{
+  "FILENAME": "river-0.4.8-1-aarch64.pkg.tar.zst",
+  "NAME": "river",
+  "BASE": "river",
+  "VERSION": "0.4.8-1",
+  "DESC": "A non-monolithic Wayland compositor",
+  "CSIZE": "291950",
+  "ISIZE": "834999",
+  "MD5SUM": "be5c2064a770394b638f45490c3e8af1",
+  "SHA256SUM": "3148aab9951e0dbf4a7e9eb80f8ee27e4413896be929bed1cc1859e35b75066b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanzAVgAKCRDDWOcNd+r/VAOKAP49G400GlnG87mpLIjlTQjSMDygP8M5av9uUHmQ3oZSyAD/SG2Os0QDu/PFskRvO5BnqnIKuXdbKeWJDHXoWGtJWgA=",
+  "URL": "https://isaacfreund.com/software/river",
+  "LICENSE": [
+    "0BSD",
+    "CC-BY-SA-4.0",
+    "GPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786560763",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libevdev",
+    "libinput",
+    "libxkbcommon",
+    "musl",
+    "pixman",
+    "wayland",
+    "wlroots0.20"
+  ],
+  "CONFLICTS": [
+    "river-classic"
+  ],
+  "MAKEDEPENDS": [
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.20-devel",
+    "zig"
+  ],
+  "REPO": "main"
+}

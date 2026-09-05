@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-5.0.0-2-aarch64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "5.0.0-2",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "780136",
+  "ISIZE": "2744242",
+  "MD5SUM": "fe61184cd05b33ad61f72939a140b650",
+  "SHA256SUM": "0434398c33c3a4521f0c8c86fb7718006889beff781d673136fa2f3d105d24a9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8MVQAKCRDDWOcNd+r/VByYAP0Y6b2gIp3lFgKp8FL8GZNCswkRaAC9rFonlvW0/hAqWwEA+kaRffByg64t0G95qjjfphZcOkKdEpcOvVNuQ14zUQ0=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779370934",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

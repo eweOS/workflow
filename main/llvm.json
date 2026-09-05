@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-21.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "33444713",
+  "ISIZE": "112012999",
+  "MD5SUM": "58dbe1a5219b1764b8c4c57c6ef19002",
+  "SHA256SUM": "f81fd7d579756a3fc8a77bb22395d9f40d79280857637e8092a2f6969b457114",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6F5wAKCRDDWOcNd+r/VBSLAQDX3oePiAA1B4vWFmfSMYcAKXGG8nz9Z3tpkM5cs1jIhAEAqtX4zfsdL148m5h/o9TDS5kgOA57NWKPxHD5rkqeRgc=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780380776",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

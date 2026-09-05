@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libftdi-1.5-5-aarch64.pkg.tar.zst",
+  "NAME": "libftdi",
+  "BASE": "libftdi",
+  "VERSION": "1.5-5",
+  "DESC": "An open source library to talk to FTDI chips.",
+  "CSIZE": "48722",
+  "ISIZE": "117226",
+  "MD5SUM": "ce92f8258ba39e8f42fef7e1efd47a37",
+  "SHA256SUM": "5291552cbe3cde5d0bd65e1cb4f09d7ae43a53b2fcb3133e7b4e67413aea51e9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7CQQAKCRDDWOcNd+r/VEMoAP9tGaC0+iyDlwwpH/HtSamzqmi+0zazGV8htzMXSEAbXgEAwPrw+gQQzVWAqjp9MKIjLdHb5Vp1jAHOltoOi9s+1gY=",
+  "URL": "https://www.intra2net.com/en/developer/libftdi",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779352121",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libftdi1.so",
+    "libftdipp1.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "boost",
+    "boost-libs"
+  ],
+  "REPO": "main"
+}

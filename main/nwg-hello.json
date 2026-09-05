@@ -1,0 +1,37 @@
+{
+  "FILENAME": "nwg-hello-0.4.1-2-any.pkg.tar.zst",
+  "NAME": "nwg-hello",
+  "BASE": "nwg-hello",
+  "VERSION": "0.4.1-2",
+  "DESC": "GTK3-based greeter for greetd written in python",
+  "CSIZE": "1498784",
+  "ISIZE": "1634186",
+  "MD5SUM": "6cbb839d17fd310f285554c44b4f8f20",
+  "SHA256SUM": "7ba5704ea9a4280085ff00bf41677d6b4f05a84b9903f4fe4888a0d4b6eca606",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8D6QAKCRDDWOcNd+r/VCgqAQCfsuyFUD9fuhIXErgiNp+C+gCc0m/+rpkV/Nh7Atn0SAEA65fSvOqqi7f0+QFRdiN5fvNn6O03hoy58/uS32uoHAc=",
+  "URL": "https://github.com/nwg-piotr/nwg-hello",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779368931",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "greetd",
+    "python",
+    "python-gobject",
+    "gtk3",
+    "gtk-layer-shell"
+  ],
+  "OPTDEPENDS": [
+    "sway: Wayland compositor nwg-hello has been made for",
+    "hyprland: Wayland compositor nwg-hello has been made for"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

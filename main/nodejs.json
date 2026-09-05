@@ -1,0 +1,46 @@
+{
+  "FILENAME": "nodejs-26.7.0-1-aarch64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "26.7.0-1",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "15269599",
+  "ISIZE": "48299916",
+  "MD5SUM": "93b9b1e157115d47f6330e0df24b612f",
+  "SHA256SUM": "d7128cd27e9b28d536e90204bf9b4178a6f1b2c3efc5e1c87d89b8dd182e4320",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapcVVAAKCRDDWOcNd+r/VMesAP4473tZAJc6GMUYlMwbA1SoXGqgD/D0SYRwczh50f+TKAEA7vVKCmAUw+6++VxxnDaMGe3tlk+/ggDu+SpzcqDaXAQ=",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788283638",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares",
+    "ada-url",
+    "zstd",
+    "libffi",
+    "sqlite",
+    "simdutf"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "ninja",
+    "linux-headers",
+    "googletest"
+  ],
+  "REPO": "main"
+}

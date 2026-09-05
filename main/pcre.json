@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pcre-8.45-6-aarch64.pkg.tar.zst",
+  "NAME": "pcre",
+  "BASE": "pcre",
+  "VERSION": "8.45-6",
+  "DESC": "A library that implements Perl 5-style regular expressions",
+  "CSIZE": "2313322",
+  "ISIZE": "5171042",
+  "MD5SUM": "d1c35994ce39cbb2182d3392cb978c5f",
+  "SHA256SUM": "0b220d76ee43370550e7adedcbee617715af291a2499640f4246cdadea068c45",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7CwAAKCRDDWOcNd+r/VAxhAP0atm26WSG8bPzGrpi3hjG0PUUph9Y/Bg1V/vJT4kfPUgD/TbYUPPJSFW/rWs6dYiS2L4IpDINeCSij8fx3SXoQeAs=",
+  "URL": "https://www.pcre.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779352182",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "llvm-libs",
+    "readline",
+    "zlib",
+    "libbz2"
+  ],
+  "PROVIDES": [
+    "libpcreposix.so",
+    "libpcrecpp.so",
+    "libpcre32.so",
+    "libpcre16.so",
+    "libpcre.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

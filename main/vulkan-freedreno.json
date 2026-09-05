@@ -1,0 +1,59 @@
+{
+  "FILENAME": "vulkan-freedreno-26.2.0-2-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-freedreno",
+  "BASE": "mesa",
+  "VERSION": "26.2.0-2",
+  "DESC": "Open-source Vulkan driver for Adreno GPUs",
+  "CSIZE": "2265282",
+  "ISIZE": "14086700",
+  "MD5SUM": "8849a41481c721547bbd9cfa850f5cb0",
+  "SHA256SUM": "f6df15df365d87bd1d49a58ff3352aa4d4f9e75c27d48ecb40db073b77dc2f61",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapfV+gAKCRDDWOcNd+r/VKKYAQDf2CUFxJ91DnlYyBj2yx7izPlC1DltsRGVb+Stg2IL9QD/VEqBgnMmLJ/19BoLtdK7uoIDu5HJHwqWPCxzT6H60gE=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788335782",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen"
+  ],
+  "REPO": "main"
+}

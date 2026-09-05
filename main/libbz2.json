@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libbz2-1.1.0-6-aarch64.pkg.tar.zst",
+  "NAME": "libbz2",
+  "BASE": "libbz2",
+  "VERSION": "1.1.0-6",
+  "DESC": "A high-quality data compression program",
+  "CSIZE": "36681",
+  "ISIZE": "64665",
+  "MD5SUM": "dc31d82635c83ec54a5f15ee42cee1bd",
+  "SHA256SUM": "643b34fcda5bcc7da8d5c56a1a28714fbd65a5027de95c540c571c3e50e84c42",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag/EwQAKCRDDWOcNd+r/VGEcAP42ibZWqsAhxfSFNbWB/5sIvi4sKtZfJJv3D0CXKfpeZAD+I6JgdiB121WKVTcQp9vMgiEGiE8FaJbAB/MB8UPexAQ=",
+  "URL": "https://sourceware.org/bzip2/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779418303",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "sh"
+  ],
+  "PROVIDES": [
+    "bzip2",
+    "libbz2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "git"
+  ],
+  "REPO": "main"
+}

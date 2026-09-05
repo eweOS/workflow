@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libkmod-34.2-4-aarch64.pkg.tar.zst",
+  "NAME": "libkmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-4",
+  "DESC": "Linux kernel module management library",
+  "CSIZE": "53828",
+  "ISIZE": "127988",
+  "MD5SUM": "b1bb015a55d462e2ebc42cc582a6362a",
+  "SHA256SUM": "4f9b5363f6135c6f2545a78d8aa5c8a25a594a4bcb6bab92b4ba4d3dcb8410ad",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahRxDgAKCRDDWOcNd+r/VPGIAP9FjpkUnV8Knj9mqLo94XeqlOMzv1q6Z93u0LLxR9V/EAD9HTKNcawUOd0jp4wRxx789dSh2bOhDi9rCykDLUTWTwc=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779724570",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "PROVIDES": [
+    "libkmod.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole",
+    "symlinks"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}
