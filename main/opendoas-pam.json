@@ -1,0 +1,36 @@
+{
+  "FILENAME": "opendoas-pam-6.8.2-3-loongarch64.pkg.tar.zst",
+  "NAME": "opendoas-pam",
+  "BASE": "opendoas",
+  "VERSION": "6.8.2-3",
+  "DESC": "Run commands as super user or another user, with pam support",
+  "CSIZE": "23023",
+  "ISIZE": "38041",
+  "MD5SUM": "efa87c1d19de6c2675dde64b2b28da22",
+  "SHA256SUM": "ef38995abdc35c2ab9d5c7092302717e7b02d9fb8d829d3e91a28b114e2de3e4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8AtgAKCRDDWOcNd+r/VLOEAP47z+HD0Z3kIDuEcF1js/uTrLX0aiW2h+vikiJeLlyV0gEAz3e13t+efihXkXvBbUxGYZIyVhNLPmktgjPe1ybngwg=",
+  "URL": "https://github.com/Duncaen/OpenDoas",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779368101",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "REPLACES": [
+    "doas"
+  ],
+  "DEPENDS": [
+    "pam"
+  ],
+  "CONFLICTS": [
+    "opendoas"
+  ],
+  "PROVIDES": [
+    "doas",
+    "opendoas"
+  ],
+  "MAKEDEPENDS": [
+    "pam"
+  ],
+  "REPO": "main"
+}

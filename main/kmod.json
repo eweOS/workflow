@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kmod-34.2-4-loongarch64.pkg.tar.zst",
+  "NAME": "kmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-4",
+  "DESC": "Linux kernel module management tool",
+  "CSIZE": "92799",
+  "ISIZE": "173219",
+  "MD5SUM": "18c67f2ef8eac193f70519b876c18660",
+  "SHA256SUM": "0db68a28acf75d6de07da6cfacf9496dfaf28c035c6d852b7d90c0bb5c0159e1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahRw/gAKCRDDWOcNd+r/VC3vAQDDwFG1ERqUPqcIV1QpFPaaqNOnlKfin6JVKlZqUSHVbQEA2eKUpVcP/xVQ+VABZ7v7H5PLGas7xDnk6l2uczzhYgI=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779724559",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole",
+    "symlinks"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}

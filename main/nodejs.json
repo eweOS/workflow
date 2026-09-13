@@ -1,0 +1,46 @@
+{
+  "FILENAME": "nodejs-26.7.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "26.7.0-1",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "18149974",
+  "ISIZE": "69553897",
+  "MD5SUM": "eacbaf80c7d6cf798d972c682a47aea7",
+  "SHA256SUM": "368bab0493b976919a40a771f49036ac7e5264a74adc829a51dca3dec1dc61e1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapcc/QAKCRDDWOcNd+r/VND2AP9U8tKZ1i2PkrFxuWEcNbOQ1+o9poyHDudV42sCv0lGBAEAjA+T50thCD9PaQ38VaZuahN+0uChjzBSkhAAi+kiHQg=",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1788283636",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares",
+    "ada-url",
+    "zstd",
+    "libffi",
+    "sqlite",
+    "simdutf"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "ninja",
+    "linux-headers",
+    "googletest"
+  ],
+  "REPO": "main"
+}

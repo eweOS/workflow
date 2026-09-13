@@ -1,0 +1,41 @@
+{
+  "FILENAME": "sdl2-mixer-2.8.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "sdl2-mixer",
+  "BASE": "sdl2-mixer",
+  "VERSION": "2.8.2-1",
+  "DESC": "An audio mixer that supports various file formats for Simple Directmedia Layer",
+  "CSIZE": "83972",
+  "ISIZE": "249503",
+  "MD5SUM": "e626c365bfafd3b00969dfa2577e05f9",
+  "SHA256SUM": "40e35b0269e17744e1902ed9c28fbbfe85c3f8b2d82a215c62b960047581b0f7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahR2qwAKCRDDWOcNd+r/VFvyAP9eXryy+atvQNGpQa+7j5RO7kzrTTPzTSXnXqJems8vFAD+JNOvxfbpdnWdueEhrUFOyDjRkk6ciczKnSLp0A3YWAU=",
+  "URL": "https://wiki.libsdl.org/SDL2_mixer/FrontPage",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779726018",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2_mixer",
+    "libSDL2_mixer-2.0.so"
+  ],
+  "OPTDEPENDS": [
+    "fluidsynth: use fluidsynth for MIDI outout",
+    "libflac: for FLAC support",
+    "mpg123: for MP3 support",
+    "libvorbis: for Vorbis (OGG) support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libflac",
+    "mpg123",
+    "libvorbis",
+    "fluidsynth"
+  ],
+  "REPO": "main"
+}

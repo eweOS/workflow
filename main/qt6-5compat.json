@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-5compat-6.11.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-5compat",
+  "BASE": "qt6-5compat",
+  "VERSION": "6.11.1-1",
+  "DESC": "Module that contains unsupported Qt 5 APIs",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "551737",
+  "ISIZE": "2249016",
+  "MD5SUM": "1f7e82bd68f86da77d56ac7e48118117",
+  "SHA256SUM": "5489a812e42203b94011a7b317d3cf025d454ecda59284e465d67a65d8f2e51f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiExdwAKCRDDWOcNd+r/VI0RAQCnrtEQdtcXV9baL4YWR8+az4EwzTnLDYTtuILLydmdVgD8DqjbC2iyxovi/O7j6AYKfT2bPEPZl81jQZ4rGZty2gg=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780560090",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-shadertools",
+    "icu"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: for QtGraphicalEffects"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-declarative",
+    "qt6-shadertools-devel",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "REPO": "main"
+}

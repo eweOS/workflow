@@ -1,0 +1,32 @@
+{
+  "FILENAME": "orc-0.4.42-4-loongarch64.pkg.tar.zst",
+  "NAME": "orc",
+  "BASE": "orc",
+  "VERSION": "0.4.42-4",
+  "DESC": "Optimized Inner Loop Runtime Compiler",
+  "CSIZE": "359817",
+  "ISIZE": "1482953",
+  "MD5SUM": "671f58c363df44def6c77c580b651fb5",
+  "SHA256SUM": "73b187b884f107710ea580abf5468b0cc808d794a5ff5192770bee291c0d80a6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag86XAAKCRDDWOcNd+r/VGJoAP9xMO6tVidaKQAGgOwbgL6AoL68ziasZM4ixJsr1HhhjgD/UKCbgp/XFRy8WWNyV0FTVTX5AmujeKhEnPCR2XqnBw4=",
+  "URL": "https://gstreamer.freedesktop.org/modules/orc.html",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779382870",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liborc-0.4.so",
+    "liborc-test-0.4.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

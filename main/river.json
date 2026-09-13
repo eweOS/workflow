@@ -1,0 +1,41 @@
+{
+  "FILENAME": "river-0.4.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "river",
+  "BASE": "river",
+  "VERSION": "0.4.8-1",
+  "DESC": "A non-monolithic Wayland compositor",
+  "CSIZE": "310381",
+  "ISIZE": "970759",
+  "MD5SUM": "429d2098fff536cf391154375fdc2898",
+  "SHA256SUM": "0f2d23261a97105120df1d1da5c67bbd24aea07891f10e556bfe312dbd1e1c6a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanzALQAKCRDDWOcNd+r/VHQuAP4np+7Bf5d91Flv2ZBSkxsQF/OcEQ5Pf8Eg67FB/ER0/wD8D7+bnkfmIvOIZyMn2zkDMJOc1K6cxyohzz3psIvCIQs=",
+  "URL": "https://isaacfreund.com/software/river",
+  "LICENSE": [
+    "0BSD",
+    "CC-BY-SA-4.0",
+    "GPL-3.0-only",
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1786560759",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libevdev",
+    "libinput",
+    "libxkbcommon",
+    "musl",
+    "pixman",
+    "wayland",
+    "wlroots0.20"
+  ],
+  "CONFLICTS": [
+    "river-classic"
+  ],
+  "MAKEDEPENDS": [
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.20-devel",
+    "zig"
+  ],
+  "REPO": "main"
+}

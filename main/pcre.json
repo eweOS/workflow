@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pcre-8.45-6-loongarch64.pkg.tar.zst",
+  "NAME": "pcre",
+  "BASE": "pcre",
+  "VERSION": "8.45-6",
+  "DESC": "A library that implements Perl 5-style regular expressions",
+  "CSIZE": "1014760",
+  "ISIZE": "3919848",
+  "MD5SUM": "dc6371131367c0bae24d3423e5f370ea",
+  "SHA256SUM": "c745a72e7a73281aadf84044130a8eca864345e3c63f16e2ac8adbf059f747d0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7VAgAKCRDDWOcNd+r/VN40APsEtJWXXOyarfMDanQ/D0GaayFqOtZ+1Sxsjgy1P7BOxgD7BuMvxCxYQ2jRoPvrxVHmXrrdORhMbLHcf44iDdN6TAU=",
+  "URL": "https://www.pcre.org/",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779356874",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "readline",
+    "zlib",
+    "libbz2"
+  ],
+  "PROVIDES": [
+    "libpcreposix.so",
+    "libpcrecpp.so",
+    "libpcre32.so",
+    "libpcre16.so",
+    "libpcre.so"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

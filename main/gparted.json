@@ -1,0 +1,44 @@
+{
+  "FILENAME": "gparted-1.8.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "gparted",
+  "BASE": "gparted",
+  "VERSION": "1.8.1-2",
+  "DESC": "A Partition Magic clone, frontend to GNU Parted",
+  "CSIZE": "2363536",
+  "ISIZE": "7951079",
+  "MD5SUM": "c19c185751c061faf445c33d0bbee3c7",
+  "SHA256SUM": "5485212a89f76d2941311735d35a51ecd96f3980d248931f486df9854011d50f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahAD/gAKCRDDWOcNd+r/VNBgAQClb5bSgbd+bBdlbhGeV7sNBweX7UFApX8uLOt7+op91wD/d9QWEGNv4+PqHba8QRqP5Eh4d9iRrKlt/nfK6Ws3VAg=",
+  "URL": "https://gparted.org/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779434273",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "parted",
+    "gtkmm3"
+  ],
+  "OPTDEPENDS": [
+    "dosfstools: for FAT16 and FAT32 partitions",
+    "jfsutils: for jfs partitions",
+    "f2fs-tools: for Flash-Friendly File System",
+    "btrfs-progs: for btrfs partitions",
+    "exfatprogs: for exFAT partitions",
+    "ntfs-3g: for ntfs partitions",
+    "reiserfsprogs: for reiser partitions",
+    "udftools: for UDF file system support",
+    "xfsprogs: for xfs partitions",
+    "nilfs-utils: for nilfs2 support",
+    "polkit: to run gparted from application menu",
+    "gpart: for recovering corrupt partition tables",
+    "mtools: utilities to access MS-DOS disks"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "itstool",
+    "pkgconf"
+  ],
+  "REPO": "main"
+}
