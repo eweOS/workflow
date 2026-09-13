@@ -1,0 +1,33 @@
+{
+  "FILENAME": "svt-av1-4.1.0-1-riscv64.pkg.tar.zst",
+  "NAME": "svt-av1",
+  "BASE": "svt-av1",
+  "VERSION": "4.1.0-1",
+  "DESC": "Scalable Video Technology AV1 encoder and decoder",
+  "CSIZE": "1006973",
+  "ISIZE": "1919244",
+  "MD5SUM": "55df1964f8ad2e74a7a998db919a4c31",
+  "SHA256SUM": "afd162701e7c338c705705f9d5bb42fb6e0a54cace4edbc82da21918a62b9d4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakus3QAKCRDDWOcNd+r/VNGLAQCttQkzBv9cSkBG218n/REujujCQMJtTGbKr8fewAP0OQEAj3ZWLgOH1cP9cO1mYh1y5zc35UE8/1Z3UoJeB6SHzwE=",
+  "URL": "https://gitlab.com/AOMediaCodec/SVT-AV1",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "custom: Alliance for Open Media Patent License 1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1783344453",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libSvtAv1Enc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "nasm",
+    "ninja"
+  ],
+  "REPO": "main"
+}

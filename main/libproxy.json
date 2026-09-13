@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libproxy-0.5.12-2-riscv64.pkg.tar.zst",
+  "NAME": "libproxy",
+  "BASE": "libproxy",
+  "VERSION": "0.5.12-2",
+  "DESC": "Automatic proxy configuration management library",
+  "CSIZE": "29230",
+  "ISIZE": "69688",
+  "MD5SUM": "eca711c0d616af28fddaf3af09498152",
+  "SHA256SUM": "5c458c8583e11af03cd5a93fd54fe069e45364757de4f5ae910290199d905250",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahGgfgAKCRDDWOcNd+r/VE3VAP9KRzQew9qOVgoVlYmHZLmctM/APLEuDri7e/hx9eN8GgD7B6j/c+F+5wS46m0kS5G/28B/kF6bYahHFkw5sQE6WwU=",
+  "URL": "https://libproxy.github.io/libproxy/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779540026",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "curl",
+    "duktape",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "libproxy-webkit<0.5.0-1"
+  ],
+  "PROVIDES": [
+    "libproxy.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

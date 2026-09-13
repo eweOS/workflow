@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-21.1.8-1-riscv64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "6812112",
+  "ISIZE": "18707516",
+  "MD5SUM": "444708cc46fd682e6d7c4b42797882f6",
+  "SHA256SUM": "e0f8ffb143dfa4a9f3c03158eda686b81a55a5e7ff74f414f1f9efa071d092d1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah+yPQAKCRDDWOcNd+r/VA0HAPsER2HFqywnEeMcaMmKe3WU6AM+NKZ98ZcQd3mnozPXIwEAozFhduH/Qi3yfujfQWJzV5sgEJwAf9hfec/LnpZcaAQ=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780381175",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

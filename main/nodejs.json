@@ -1,0 +1,46 @@
+{
+  "FILENAME": "nodejs-26.7.0-1-riscv64.pkg.tar.zst",
+  "NAME": "nodejs",
+  "BASE": "nodejs",
+  "VERSION": "26.7.0-1",
+  "DESC": "JavaScript runtime",
+  "CSIZE": "20868181",
+  "ISIZE": "66437713",
+  "MD5SUM": "755366af164c1df2977fc2efd982c387",
+  "SHA256SUM": "9bb6d27af059ec65681094c9abfe9e69e2d95fb672f0665a5d740d6e1b72aca2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapd4PwAKCRDDWOcNd+r/VFVSAQD2nVxTdCNaWsS5aAs/ELZ2ap2qTNFPx2s7FEBxbxWhdgEA2pq4is8W+T1r9aqoPeJY5361v1YyUpHP0faZWB9mYQA=",
+  "URL": "https://nodejs.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1788283755",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "brotli",
+    "openssl",
+    "zlib",
+    "icu",
+    "libuv",
+    "libnghttp2",
+    "c-ares",
+    "ada-url",
+    "zstd",
+    "libffi",
+    "sqlite",
+    "simdutf"
+  ],
+  "OPTDEPENDS": [
+    "npm: package manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python",
+    "ninja",
+    "linux-headers",
+    "googletest"
+  ],
+  "REPO": "main"
+}

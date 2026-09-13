@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libinput-1.31.3-1-riscv64.pkg.tar.zst",
+  "NAME": "libinput",
+  "BASE": "libinput",
+  "VERSION": "1.31.3-1",
+  "DESC": "Input device management and event handling library",
+  "CSIZE": "398792",
+  "ISIZE": "1403825",
+  "MD5SUM": "d1949851b0f190d199e981a2f78e30f5",
+  "SHA256SUM": "d0f3ea4c75231ab8a5a29135dec6796f2011ff093727942d90330cde823dd0a5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiprLAAKCRDDWOcNd+r/VNnMAQD4y9XaM3dH8xqFsnAEf/i4sNPAKlUsWU7BpYY3oxrPLQD/VIe77EFgrIIliVOy+5IzPuJFY768SKlyPhNxZecjmg0=",
+  "URL": "https://gitlab.freedesktop.org/libinput",
+  "LICENSE": [
+    "custom:X11"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1781164844",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "libudev",
+    "libevdev",
+    "mtdev",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "check",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

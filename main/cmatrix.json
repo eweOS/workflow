@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cmatrix-2.0-5-riscv64.pkg.tar.zst",
+  "NAME": "cmatrix",
+  "BASE": "cmatrix",
+  "VERSION": "2.0-5",
+  "DESC": "A curses-based scrolling 'Matrix'-like screen",
+  "CSIZE": "37662",
+  "ISIZE": "90161",
+  "MD5SUM": "c4a2247ec9014bb84ecb4d5f192c1620",
+  "SHA256SUM": "bc358c649144a0edf0e0f3cff65fabdb07452b14dad1d2adc2141a825918a46b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahIUDgAKCRDDWOcNd+r/VJFNAQC09sgi9Vk11gcaC0n/aDyhSvXeHo2swXX2ev7n4tF9xwD/RoJCKtuZCqwKAeeYL/4m4QqDnOz9Xqkf/1epD6a67wc=",
+  "URL": "https://www.asty.org/cmatrix/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779569680",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "kbd: cmatrix-tty custom font",
+    "xterm: cmatrix-tty custom font"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

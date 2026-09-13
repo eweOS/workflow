@@ -1,0 +1,39 @@
+{
+  "FILENAME": "kmod-34.2-4-riscv64.pkg.tar.zst",
+  "NAME": "kmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-4",
+  "DESC": "Linux kernel module management tool",
+  "CSIZE": "96472",
+  "ISIZE": "154155",
+  "MD5SUM": "19fe89a521299313a3781024d26c6161",
+  "SHA256SUM": "49ad276fd6ad0d52b2f1a5a5daa3ebda06dcd03fdc3bb2dfe6a30f6240677331",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahSGowAKCRDDWOcNd+r/VEG0AP9IR5Cwm6VIhgBuT2NTU8Nwm2lZ1qlgs9kFsMBkKsgt0AEAsGBokmJuhc7+hhSLEPGgbCZUXMLgXQi0VWVrgJgAOQs=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779730055",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole",
+    "symlinks"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}

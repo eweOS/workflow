@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libverto-0.3.2-7-riscv64.pkg.tar.zst",
+  "NAME": "libverto",
+  "BASE": "libverto",
+  "VERSION": "0.3.2-7",
+  "DESC": "Main event loop abstraction library",
+  "CSIZE": "20287",
+  "ISIZE": "52302",
+  "MD5SUM": "b21d3ba095cc2b480423b8898fac1643",
+  "SHA256SUM": "754a6314d1c36c52dcbdacd37743a58119c339f71e73532c7283db01368a18db",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahC78QAKCRDDWOcNd+r/VC1gAQCME5VxSeXkqLCY8QdMKTlmzO3y8o9Ro5fkHxzf36yjeAEAirDkDKVV8Un5NVD4gqhRxohUOdbiJzMC9XQl82/1PgI=",
+  "URL": "https://github.com/latchset/libverto",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779481568",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "REPLACES": [
+    "libverto-libevent<0.3.2-4"
+  ],
+  "DEPENDS": [
+    "libevent"
+  ],
+  "CONFLICTS": [
+    "krb5<1.19.3-2",
+    "libverto-libevent<0.3.2-4"
+  ],
+  "PROVIDES": [
+    "libverto.so",
+    "libverto-libevent.so",
+    "libverto-module-base"
+  ],
+  "MAKEDEPENDS": [
+    "autoconf"
+  ],
+  "REPO": "main"
+}

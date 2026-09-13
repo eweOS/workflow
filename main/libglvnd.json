@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libglvnd-1.7.0-7-riscv64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-7",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "485626",
+  "ISIZE": "3581163",
+  "MD5SUM": "dea51a4abd27ac5d059d3e871ec62054",
+  "SHA256SUM": "966a66476fe25665fa9a2445a27632e6ef27b8ae634720fb7da005c0ecd00d03",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapQ2rwAKCRDDWOcNd+r/VGCzAQDc35mVCZX4uvpf9BdJcYQ03Cu9A3X7D559uEwMXHwcRQEA7hMU85MxoZHCDRBDimrY5PriiCgyHGc5I07Li9qEwA0=",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1788098625",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "OPTDEPENDS": [
+    "mesa: An open-source implementation of graphics and computation APIs"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

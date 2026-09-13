@@ -1,0 +1,42 @@
+{
+  "FILENAME": "util-linux-2.42-1-riscv64.pkg.tar.zst",
+  "NAME": "util-linux",
+  "BASE": "util-linux",
+  "VERSION": "2.42-1",
+  "DESC": "Miscellaneous system utilities for Linux",
+  "CSIZE": "1519500",
+  "ISIZE": "6094889",
+  "MD5SUM": "d598fde6ef13b05df6c4d4d6c8fbdb1d",
+  "SHA256SUM": "e61090753734305afab07d75d9e56c92f71b1775aa6dead45e7c89ee021b5f36",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakezKwAKCRDDWOcNd+r/VG9xAP0dOryD3CcW/IfGYNG1lU6NxS/5Z/FyUKs6qOHW6U3ScgEAryZ4L9mq0QBvfze9cbiB36+T0tT8bICIBSy+hcfQdQw=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1783083785",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "util-linux-libs",
+    "pam",
+    "libudev",
+    "utmps"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers",
+    "utmps"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "e2fsprogs-1.47.4-2-riscv64.pkg.tar.zst",
+  "NAME": "e2fsprogs",
+  "BASE": "e2fsprogs",
+  "VERSION": "1.47.4-2",
+  "DESC": "Ext2/3/4 filesystem utilities",
+  "CSIZE": "1421930",
+  "ISIZE": "4966713",
+  "MD5SUM": "0c82c0e7349c69567e7b4da6a5e23710",
+  "SHA256SUM": "d3efd3a2cf27ed28faa0de16caff1f3204c1ca6e9932f66b6b9f7eb98dbaeb74",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7Y3gAKCRDDWOcNd+r/VBWbAQDRMfY2jLqqIaejTBV0H4w1xhaSysIEKuZTN1ZxsRNBygD+MDuFca/GLG+qR3SQ6J/xzDlh+284XoDo/MwLZXOHAQc=",
+  "URL": "http://e2fsprogs.sourceforge.net",
+  "LICENSE": [
+    "GPL",
+    "LGPL",
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779357787",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libcom_err.so",
+    "libe2p.so",
+    "libext2fs.so",
+    "libss.so"
+  ],
+  "OPTDEPENDS": [
+    "lvm2: for e2scrub",
+    "util-linux: for e2scrub",
+    "smtp-forwarder: for e2scrub_fail script"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

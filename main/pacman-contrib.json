@@ -1,0 +1,36 @@
+{
+  "FILENAME": "pacman-contrib-1.13.1-1-riscv64.pkg.tar.zst",
+  "NAME": "pacman-contrib",
+  "BASE": "pacman-contrib",
+  "VERSION": "1.13.1-1",
+  "DESC": "Contributed scripts and tools for pacman systems",
+  "CSIZE": "53819",
+  "ISIZE": "120510",
+  "MD5SUM": "21011c2cc9d9feb7ab381a4e92cbb81e",
+  "SHA256SUM": "f2151f3c958e96ee9b028fa2362f74a2f9f0bf3161c4cf8b347267d885a2162e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah1FKAAKCRDDWOcNd+r/VGpfAP4rVzpmkEJyzyKgopiS6BdHP4glw6uCHsyCDSJpxCl+WwEAycceMOnraFroTweTUD+c3olh/jfGiakXa7btR4z8Pg0=",
+  "URL": "https://gitlab.archlinux.org/pacman/pacman-contrib",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780303172",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "pacman",
+    "libalpm"
+  ],
+  "OPTDEPENDS": [
+    "diffutils: for pacdiff",
+    "fakeroot: for checkupdates",
+    "mlocate: for pacdiff --locate",
+    "perl: for pacsearch",
+    "sudo: privilege elevation for several scripts",
+    "vim: default merge program for pacdiff"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc"
+  ],
+  "REPO": "main"
+}

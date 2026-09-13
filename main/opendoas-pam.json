@@ -1,0 +1,36 @@
+{
+  "FILENAME": "opendoas-pam-6.8.2-3-riscv64.pkg.tar.zst",
+  "NAME": "opendoas-pam",
+  "BASE": "opendoas",
+  "VERSION": "6.8.2-3",
+  "DESC": "Run commands as super user or another user, with pam support",
+  "CSIZE": "22551",
+  "ISIZE": "34465",
+  "MD5SUM": "6dc5526ad6f4ef1b0e0e4a220f952ea5",
+  "SHA256SUM": "a275a880f057173b386f55db0413dc47ec62e3e7e1cb68e448174094e960c572",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag9yvQAKCRDDWOcNd+r/VEHfAP9KLbRAVyf7DhpvJJi1HflEIMI02VIB5BgIcZPadcQvPQD/Zm5nqzes2QlaNr75sEgUxNhfY4tNOe7Oy/2tUzAGfgA=",
+  "URL": "https://github.com/Duncaen/OpenDoas",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779397277",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "REPLACES": [
+    "doas"
+  ],
+  "DEPENDS": [
+    "pam"
+  ],
+  "CONFLICTS": [
+    "opendoas"
+  ],
+  "PROVIDES": [
+    "doas",
+    "opendoas"
+  ],
+  "MAKEDEPENDS": [
+    "pam"
+  ],
+  "REPO": "main"
+}

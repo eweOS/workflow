@@ -1,0 +1,50 @@
+{
+  "FILENAME": "openssh-10.4p1-1-riscv64.pkg.tar.zst",
+  "NAME": "openssh",
+  "BASE": "openssh",
+  "VERSION": "10.4p1-1",
+  "DESC": "SSH protocol implementation for remote login, command execution and file transfer",
+  "CSIZE": "1638209",
+  "ISIZE": "6451931",
+  "MD5SUM": "269638558efb290a26107d6c24eba371",
+  "SHA256SUM": "b9a1dbc5c741edd1beb0e565535cfc3915808baa4372bef013fed0802c317be6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamL6WgAKCRDDWOcNd+r/VGf9AQCKh9Z1sY9ItrXjiQM5X4NFw+dSEHqekzn/YEHu3TmCFwD/ckQqB8m/V5oRZ6Ac61FTUsSHSVITGnv0hK9+MJeatQ4=",
+  "URL": "https://www.openssh.com/portable.html",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "LicenseRef-Public-Domain",
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784871565",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "krb5",
+    "libkrb5.so",
+    "libgssapi_krb5.so",
+    "libedit",
+    "libedit.so",
+    "libxcrypt",
+    "openssl",
+    "pam",
+    "libpam.so",
+    "zlib",
+    "libz.so"
+  ],
+  "OPTDEPENDS": [
+    "libfido2: FIDO/U2F support",
+    "sh: for ssh-copy-id and findssl.sh"
+  ],
+  "MAKEDEPENDS": [
+    "krb5",
+    "libedit",
+    "libxcrypt",
+    "linux-headers",
+    "openssl",
+    "pam",
+    "zlib"
+  ],
+  "REPO": "main"
+}

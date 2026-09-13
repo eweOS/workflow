@@ -1,0 +1,41 @@
+{
+  "FILENAME": "asciidoc-10.2.1-4-any.pkg.tar.zst",
+  "NAME": "asciidoc",
+  "BASE": "asciidoc",
+  "VERSION": "10.2.1-4",
+  "DESC": "Text document format for short documents, articles, books and UNIX man pages",
+  "CSIZE": "713422",
+  "ISIZE": "2459147",
+  "MD5SUM": "f9654f5bb5bb50972900285f38101e46",
+  "SHA256SUM": "c569891c1f94e094f5aed7021f0813e2af0fe43c07f1250f62dc77dbebfee0ce",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7fFgAKCRDDWOcNd+r/VOjLAQCHydJm+OLmNnFyTTa6JPq1ppJso6Sy+/lodZ/3pwPMeQEA76ePAPpe3ziehvHPrKtngzEULdzvgT8pbJIyRb/cIAA=",
+  "URL": "https://asciidoc-py.github.io",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779359496",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "docbook-xsl",
+    "libxslt",
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "graphviz: graphviz-filter",
+    "lilypond: music-filter",
+    "imagemagick: music-filter",
+    "source-highlight: source-highlight-filter",
+    "dblatex: pdf generation",
+    "fop: alternative pdf generation",
+    "w3m: text generation",
+    "lynx: alternative text generation"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}
