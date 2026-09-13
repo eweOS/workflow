@@ -1,0 +1,37 @@
+{
+  "FILENAME": "virglrenderer-1.3.0-3-x86_64.pkg.tar.zst",
+  "NAME": "virglrenderer",
+  "BASE": "virglrenderer",
+  "VERSION": "1.3.0-3",
+  "DESC": "A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering",
+  "CSIZE": "587958",
+  "ISIZE": "2678917",
+  "MD5SUM": "6f91b6f8a8fedf7193af8254d3964da8",
+  "SHA256SUM": "81656c88992c4841f97109eb214ab436ab1409ab6c7f8a7affa7877378b976c2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag742AAKCRDDWOcNd+r/VH2ZAP9oKmUtvUi0sPjXr5NsXMlQ8hTuZ0QyeSOvemexGhTuNwD+KO4MTAA81Kt2tEIjxz4Bw3znHMjqLuildprd9wRbBQE=",
+  "URL": "https://virgil3d.github.io/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779366048",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libepoxy",
+    "mesa",
+    "libva"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson",
+    "ninja",
+    "vulkan-icd-loader",
+    "vulkan-headers",
+    "linux-headers",
+    "python-yaml"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "main"
+}

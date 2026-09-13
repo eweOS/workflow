@@ -1,0 +1,41 @@
+{
+  "FILENAME": "sdl2-mixer-2.8.2-1-x86_64.pkg.tar.zst",
+  "NAME": "sdl2-mixer",
+  "BASE": "sdl2-mixer",
+  "VERSION": "2.8.2-1",
+  "DESC": "An audio mixer that supports various file formats for Simple Directmedia Layer",
+  "CSIZE": "89014",
+  "ISIZE": "244279",
+  "MD5SUM": "472ad1bb86168dc9525ca2544b6f3e0a",
+  "SHA256SUM": "da10cae9bd37ec97be25c6e265b756a432ca5b6c35b88627f6526a6a3ee961bc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahR2xwAKCRDDWOcNd+r/VHRAAP9soXuyNDumuTMMmFo1bsgtmkCYIUKjscQe1XDbkFIgQgEA74SOMru2SvpcxNMflUonaVnsNNtgkWvoDUuKkIUAEQs=",
+  "URL": "https://wiki.libsdl.org/SDL2_mixer/FrontPage",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779726047",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "musl",
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2_mixer",
+    "libSDL2_mixer-2.0.so"
+  ],
+  "OPTDEPENDS": [
+    "fluidsynth: use fluidsynth for MIDI outout",
+    "libflac: for FLAC support",
+    "mpg123: for MP3 support",
+    "libvorbis: for Vorbis (OGG) support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libflac",
+    "mpg123",
+    "libvorbis",
+    "fluidsynth"
+  ],
+  "REPO": "main"
+}

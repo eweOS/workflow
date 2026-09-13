@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lame-4.0-1-x86_64.pkg.tar.zst",
+  "NAME": "lame",
+  "BASE": "lame",
+  "VERSION": "4.0-1",
+  "DESC": "a high quality MP3 encoder licensed under the LGPL.",
+  "CSIZE": "302302",
+  "ISIZE": "1023434",
+  "MD5SUM": "ead0a0c91e4585e066db04792778a86f",
+  "SHA256SUM": "c731ad63bc454cae019becfe935faa5e5bb1906156921e3d29311c53b4654c61",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCap4WswAKCRDDWOcNd+r/VBZjAP4udNDPyJsFDq+I1FeL09vxCXeUbTN3rzySphA1fmJw7QD9FE2tEi4OxddpqYcQ767QA1Kap5jsUpQZUpBAs0dRPAU=",
+  "URL": "https://lame.sourceforge.io/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1788745877",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "mpg123"
+  ],
+  "PROVIDES": [
+    "libmp3lame.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

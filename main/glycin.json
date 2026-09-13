@@ -1,0 +1,54 @@
+{
+  "FILENAME": "glycin-2.0.7-1-x86_64.pkg.tar.zst",
+  "NAME": "glycin",
+  "BASE": "glycin",
+  "VERSION": "2.0.7-1",
+  "DESC": "Sandboxed and extendable image decoding",
+  "CSIZE": "8517908",
+  "ISIZE": "20226409",
+  "MD5SUM": "4838e16167adf4c9436405e7827d86aa",
+  "SHA256SUM": "4ab5fcd92a32b97c3540ae08b44632070c2da2054f44305d5fd0aeacf11ab6d5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamL24gAKCRDDWOcNd+r/VDOzAP9VGhv4wZolCqIFaYmcG4jRn/V+gknDOS4FbUBM+k+ueQD+PG4x9OpiqryMlskw6QcsI3l4R/EnhsWQB/AwJMHhNA4=",
+  "URL": "https://gnome.pages.gitlab.gnome.org/glycin/",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1784869408",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "bubblewrap",
+    "cairo",
+    "fontconfig",
+    "llvm-libs",
+    "glib2",
+    "musl",
+    "lcms2",
+    "libjxl",
+    "librsvg",
+    "libseccomp"
+  ],
+  "PROVIDES": [
+    "libglycin-2.so"
+  ],
+  "OPTDEPENDS": [
+    "libheif: Load .avif, .heic and .heif"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "git",
+    "gtk4",
+    "gobject-introspection",
+    "libheif",
+    "meson",
+    "rust",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "dav1d",
+    "ffmpeg",
+    "rav1e",
+    "svt-av1"
+  ],
+  "REPO": "main"
+}

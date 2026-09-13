@@ -1,0 +1,50 @@
+{
+  "FILENAME": "openssh-10.4p1-1-x86_64.pkg.tar.zst",
+  "NAME": "openssh",
+  "BASE": "openssh",
+  "VERSION": "10.4p1-1",
+  "DESC": "SSH protocol implementation for remote login, command execution and file transfer",
+  "CSIZE": "1515735",
+  "ISIZE": "5382755",
+  "MD5SUM": "536aaa7b42bc6c712736090b7c3ee2df",
+  "SHA256SUM": "6acc834eae2607230dbfd9d083f8b7ac37bb132765a5f47f7bcda00605ea13bf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamL5UgAKCRDDWOcNd+r/VDXmAQD0S0gS4YLtiKXnT8X4rjTYdPpVDsH/3jJVWYtBolRhuwEA/2WPYzDbDtVllkD/ATv/cTpfa11HJ7ojfQhtOhIC3A0=",
+  "URL": "https://www.openssh.com/portable.html",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "LicenseRef-Public-Domain",
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1784871469",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "krb5",
+    "libkrb5.so",
+    "libgssapi_krb5.so",
+    "libedit",
+    "libedit.so",
+    "libxcrypt",
+    "openssl",
+    "pam",
+    "libpam.so",
+    "zlib",
+    "libz.so"
+  ],
+  "OPTDEPENDS": [
+    "libfido2: FIDO/U2F support",
+    "sh: for ssh-copy-id and findssl.sh"
+  ],
+  "MAKEDEPENDS": [
+    "krb5",
+    "libedit",
+    "libxcrypt",
+    "linux-headers",
+    "openssl",
+    "pam",
+    "zlib"
+  ],
+  "REPO": "main"
+}

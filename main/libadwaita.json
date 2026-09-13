@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libadwaita-1.9.1-1-x86_64.pkg.tar.zst",
+  "NAME": "libadwaita",
+  "BASE": "libadwaita",
+  "VERSION": "1.9.1-1",
+  "DESC": "Building blocks for modern adaptive GNOME applications",
+  "CSIZE": "986271",
+  "ISIZE": "5242974",
+  "MD5SUM": "8cef9596093b676306e65018d51e82ed",
+  "SHA256SUM": "1d09bcaea5b45f662bc053d3d17fe61fda0002032c77b23508b3093074ce788c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahz16wAKCRDDWOcNd+r/VJL6APwMuJVDLCpYwGEzOR01RQ90llFLwtZd/SjT2Lqn9eA3fQD/Xq8AaUcoiCLFGlApLtDUIZaMZka3/RCShuibpjzhpwg=",
+  "URL": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1780282797",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "appstream",
+    "fribidi",
+    "glib",
+    "graphene",
+    "gtk4",
+    "pango"
+  ],
+  "PROVIDES": [
+    "libadwaita-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "sassc",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

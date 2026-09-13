@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ncnn-20260526-1-x86_64.pkg.tar.zst",
+  "NAME": "ncnn",
+  "BASE": "ncnn",
+  "VERSION": "20260526-1",
+  "DESC": "High-performance neural network inference framework optimized for the mobile platform",
+  "CSIZE": "3826420",
+  "ISIZE": "11705854",
+  "MD5SUM": "5e2219887d45e3a7e4fef00b5c189417",
+  "SHA256SUM": "1fec234b9e730a7878cc3505cc08cd1b1d7531bc0c7fd4ddf58f62a85b8a8127",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCal9luwAKCRDDWOcNd+r/VK/aAQCYPK/ryX7dXAoWthaZyJBFCQmgwPYavixL+nxY0DEHRgD/R4yvP5P48axFPPm6KfQMoGuOvxUUlAiMhCsM7YvZ7gE=",
+  "URL": "https://github.com/Tencent/ncnn",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1784637023",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "vulkan-icd-loader"
+  ],
+  "OPTDEPENDS": [
+    "protobuf: for onnx2ncnn"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "glslang",
+    "ninja",
+    "protobuf",
+    "vulkan-headers"
+  ],
+  "REPO": "main"
+}

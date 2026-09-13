@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libmm-glib-1.24.2-2-x86_64.pkg.tar.zst",
+  "NAME": "libmm-glib",
+  "BASE": "modemmanager",
+  "VERSION": "1.24.2-2",
+  "DESC": "ModemManager library",
+  "CSIZE": "805042",
+  "ISIZE": "7731927",
+  "MD5SUM": "bcf1cb59a34ce87a6d7b536fada3e895",
+  "SHA256SUM": "f2dc1c80a4da24b01ed5d146ccf90ef9456230de4345632e8f8a2f0311be808a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8CWQAKCRDDWOcNd+r/VGEoAQDK4eFgjtEob8daLDL+wQ/gN4b47iFT89GOrA7o+Cf7zwEA/9o3kW1R7JpKlHzAv9NrIm0WGb2td6zFwOnUZ8B/9gw=",
+  "URL": "https://www.freedesktop.org/wiki/Software/ModemManager/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779368453",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "llvm-libs",
+    "glib2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libmm-glib.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash-completion",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus",
+    "python-gobject"
+  ],
+  "REPO": "main"
+}

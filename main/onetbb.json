@@ -1,0 +1,41 @@
+{
+  "FILENAME": "onetbb-2023.0.0-2-x86_64.pkg.tar.zst",
+  "NAME": "onetbb",
+  "BASE": "onetbb",
+  "VERSION": "2023.0.0-2",
+  "DESC": "High level abstract threading library (oneAPI Threading Building Blocks)",
+  "CSIZE": "493559",
+  "ISIZE": "2199831",
+  "MD5SUM": "fa2af6093ddd9fe3591c064932df58bf",
+  "SHA256SUM": "4e6ebd64952e2f36a3d02eb054c6909fc05aa5da3b39cb758472bdd06b9729b9",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoGI0gAKCRDDWOcNd+r/VHR+APjqjfAIakJes9j6UFZjFVHvmE2yRWDRanIdKTzvifZUAQDdHlqwBE8RiKGFYEKT2tnPSomMjSmj+LVLH/DDJoh8Cg==",
+  "URL": "https://uxlfoundation.github.io/oneTBB/",
+  "LICENSE": [
+    "Apache"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1786874455",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "REPLACES": [
+    "tbb"
+  ],
+  "DEPENDS": [
+    "hwloc"
+  ],
+  "CONFLICTS": [
+    "tbb"
+  ],
+  "PROVIDES": [
+    "tbb=2023.0.0"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "swig",
+    "python-setuptools",
+    "linux-headers",
+    "python-pip"
+  ],
+  "REPO": "main"
+}

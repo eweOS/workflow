@@ -1,0 +1,72 @@
+{
+  "FILENAME": "jdk25-openjdk-25.0.4.u4-1-x86_64.pkg.tar.zst",
+  "NAME": "jdk25-openjdk",
+  "BASE": "java25-openjdk",
+  "VERSION": "25.0.4.u4-1",
+  "DESC": "OpenJDK Java 25 development kit",
+  "CSIZE": "211655731",
+  "ISIZE": "393771152",
+  "MD5SUM": "8242e90e4603d73f7859046c2b39e44a",
+  "SHA256SUM": "534511fe6149c8653b2ca48ca662fdebd5110da66da98b608de6516c6ed8ab16",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaipwqgAKCRDDWOcNd+r/VAZwAQDT9JgasBJ72c2rXzuqDrwpS9cvB4gO/Lg/btrGY+UuiQEAmAmJFJDsc1dRLBSAd0yNlQqZxln2xmMM2bSwzbo3qwg=",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1781165664",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common",
+    "java-environment-common",
+    "hicolor-icon-theme",
+    "libelf",
+    "giflib",
+    "libpng",
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz"
+  ],
+  "CONFLICTS": [
+    "jre25-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=25",
+    "java-runtime-openjdk=25",
+    "jre25-openjdk=25.0.4.u4-1",
+    "java-environment=25",
+    "java-environment-openjdk=25",
+    "jdk25-openjdk=25.0.4.u4-1"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: for basic sound support",
+    "gtk3: for the Gtk+ 3 look and feel - desktop usage"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=24",
+    "java-environment<26",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
