@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gpgmepp-2.0.0-2-aarch64.pkg.tar.zst",
+  "NAME": "gpgmepp",
+  "BASE": "gpgmepp",
+  "VERSION": "2.0.0-2",
+  "DESC": "C++ bindings for GPGME",
+  "CSIZE": "147928",
+  "ISIZE": "517348",
+  "MD5SUM": "7e222fb8b26017bd913ea1595bf0e942",
+  "SHA256SUM": "cca1899f1b6824d98d37bf583cba878780ea585088b70126bc7ea009a92b78a8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7pNgAKCRDDWOcNd+r/VDwYAP91tMUgjZ8C9srBn6Klkzlq/GzUvy/mV8vGSaGY30pEXgEAsoITEM09AWv6lp8aFxLcuwWtzptdtb7CI8ZYyIcuqAg=",
+  "URL": "https://gnupg.org/software/gpgme/index.html",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779362083",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "gpgme",
+    "libgpg-error"
+  ],
+  "CONFLICTS": [
+    "gpgme<2"
+  ],
+  "PROVIDES": [
+    "libgpgmepp.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

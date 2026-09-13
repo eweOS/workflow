@@ -1,0 +1,52 @@
+{
+  "FILENAME": "plasma5support-6.5.5-2-aarch64.pkg.tar.zst",
+  "NAME": "plasma5support",
+  "BASE": "plasma5support",
+  "VERSION": "6.5.5-2",
+  "DESC": "Support components for porting from KF5/Qt5 to KF6/Qt6",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "1391578",
+  "ISIZE": "8619382",
+  "MD5SUM": "1e0f0bba761edc738db9d803c72748e4",
+  "SHA256SUM": "338e9bf2d5d17fb7dbb69dff46437beac85394ef53be546cd5160b57f9560a4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8j/wAKCRDDWOcNd+r/VM27AQCs/aQWqwKa1zLtcKX8eJHQFCTmbb8zmmdiFh+slPGRIgD9EiblXU964cOyXjAHbfWZkAmCJ+8AO2mE8Zw/l7ulggU=",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779376967",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "kconfig",
+    "kcoreaddons",
+    "kguiaddons",
+    "kholidays",
+    "ki18n",
+    "kidletime",
+    "kio",
+    "kjobwidgets",
+    "knotifications",
+    "kservice",
+    "kunitconversion",
+    "libksysguard",
+    "qt6-base",
+    "qt6-declarative",
+    "solid"
+  ],
+  "OPTDEPENDS": [
+    "gpsd: GPS-based geolocation dataengine",
+    "networkmanager-qt: IP-based geolocation dataengine",
+    "plasma-activities: activities dataengine"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "networkmanager-qt",
+    "plasma-activities",
+    "qt6-tools",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "avrdude-8.2-2-aarch64.pkg.tar.zst",
+  "NAME": "avrdude",
+  "BASE": "avrdude",
+  "VERSION": "8.2-2",
+  "DESC": "A utility to program AVR microcontrollers.",
+  "CSIZE": "2507747",
+  "ISIZE": "14413298",
+  "MD5SUM": "8d0451c0e968e9a7c0b9ec23c250fa15",
+  "SHA256SUM": "10252638095971dc773efd78ab90ccc05429b21a27a6ee1d1e62f0fcf1996a81",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapRDPAAKCRDDWOcNd+r/VC14AQCyweb7SjYYeLEXalMSGIjAS8MUqVu434DOINoIoXFBRwD+KKFnx6cTdgJAhIVf/5xffhVWvW5hnlcjxoXmEKyDHAc=",
+  "URL": "https://github.com/avrdudes/avrdude",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788101876",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libelf",
+    "libusb",
+    "libhidapi",
+    "libftdi",
+    "readline",
+    "libserialport"
+  ],
+  "PROVIDES": [
+    "libavrdude.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

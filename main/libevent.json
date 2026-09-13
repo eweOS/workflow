@@ -1,0 +1,40 @@
+{
+  "FILENAME": "libevent-2.1.13-1-aarch64.pkg.tar.zst",
+  "NAME": "libevent",
+  "BASE": "libevent",
+  "VERSION": "2.1.13-1",
+  "DESC": "Event notification library",
+  "CSIZE": "319355",
+  "ISIZE": "1114595",
+  "MD5SUM": "43e32e74b9b26990113c4fa09f1780c5",
+  "SHA256SUM": "4f44e7f5c1f9cef26e240240c66ec76f46a5b59a2dcf88319da0390e166da4be",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalmLDAAKCRDDWOcNd+r/VCP2AP9MjKmCa7ARVzNxI3c59BB1wyurscajd/a5hOJyg9ptYQD8C5vE7BFTmn7+maaFf7VEUppXybZoAi1fDM1PszgkAwM=",
+  "URL": "https://libevent.org/",
+  "LICENSE": [
+    "BSD-3-Clause-Modification"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1784253408",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libevent-2.1.so",
+    "libevent_core-2.1.so",
+    "libevent_extra-2.1.so",
+    "libevent_openssl-2.1.so",
+    "libevent_pthreads-2.1.so"
+  ],
+  "OPTDEPENDS": [
+    "python: event_rpcgen.py"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "python",
+    "zlib"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "greetd-0.10.3-8-aarch64.pkg.tar.zst",
+  "NAME": "greetd",
+  "BASE": "greetd",
+  "VERSION": "0.10.3-8",
+  "DESC": "Generic greeter daemon",
+  "CSIZE": "328239",
+  "ISIZE": "605804",
+  "MD5SUM": "f9961745b42dfbeee6860ad691c8e671",
+  "SHA256SUM": "9f1976b7694baf9f27d47731a87b60c16b5a6af46a865afe4f827ee05ca2a61f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7EXgAKCRDDWOcNd+r/VI0NAQDmt1FWuIPg3GDeTOmQiZNKsGDRglvFp728Qpu+atxh8QEAqSobSwo2MECC10iKOdxqEP06WAiHigsa0qmxPRD3ywk=",
+  "URL": "https://git.sr.ht/~kennylevinsen/greetd",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779352486",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "greetd-agreety",
+    "pam"
+  ],
+  "OPTDEPENDS": [
+    "turnstile: user service and session manager support"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "pam"
+  ],
+  "REPO": "main"
+}

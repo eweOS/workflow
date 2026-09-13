@@ -1,0 +1,43 @@
+{
+  "FILENAME": "meson-python-0.20.0-1-any.pkg.tar.zst",
+  "NAME": "meson-python",
+  "BASE": "meson-python",
+  "VERSION": "0.20.0-1",
+  "DESC": "Meson PEP 517 Python build backend",
+  "CSIZE": "84800",
+  "ISIZE": "329840",
+  "MD5SUM": "ad18842ac3f4d32ac2ab5e224101f83a",
+  "SHA256SUM": "ad45658a79f0955ebce8f46e5cf4a9b08204adbe6d9aed0d84307dc4d5d508d3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakMhogAKCRDDWOcNd+r/VOk5AQD0PF7Gpa+4e/tzxTpnZDwwT1Aw/UnQwnj012s2r17H5QEAqwa+HKMDPBpo7ZNib6Pff5p3I5QNID9znS0oiqLt4gg=",
+  "URL": "https://github.com/mesonbuild/meson-python",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1782784364",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "meson",
+    "patchelf",
+    "python",
+    "python-packaging",
+    "python-pyproject-metadata"
+  ],
+  "OPTDEPENDS": [
+    "python-colorama: colored output"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "ninja",
+    "python-build",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "cython",
+    "python-gitpython",
+    "python-pytest",
+    "python-pytest-mock",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

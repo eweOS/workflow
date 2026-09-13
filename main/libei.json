@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libei-1.6.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libei",
+  "BASE": "libei",
+  "VERSION": "1.6.0-1",
+  "DESC": "Library for Emulated Input",
+  "CSIZE": "113414",
+  "ISIZE": "377948",
+  "MD5SUM": "975cd7d2c03151b1a79ae1578b48f711",
+  "SHA256SUM": "2599032f797cb0a907bdcd5fe53b4c62636bb16f2ede94d297929e0054883b09",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahzzVwAKCRDDWOcNd+r/VAlDAQC0QGNOdPxI7wQZ06frJ1qMVFbRBHdDjmajOM2hO7qPMQD3eubxKB/xRSuzJeLvP76/AuHhXGyI4RhY7qjArLg5Dg==",
+  "URL": "https://libinput.pages.freedesktop.org/libei/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780282242",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libevdev",
+    "basu"
+  ],
+  "PROVIDES": [
+    "libei.so",
+    "libeis.so",
+    "liboeffis.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "libxkbcommon",
+    "meson",
+    "python-attrs",
+    "python-dbusmock",
+    "python-jinja",
+    "python-pytest",
+    "python-structlog",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

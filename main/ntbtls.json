@@ -1,0 +1,32 @@
+{
+  "FILENAME": "ntbtls-0.3.2-5-aarch64.pkg.tar.zst",
+  "NAME": "ntbtls",
+  "BASE": "ntbtls",
+  "VERSION": "0.3.2-5",
+  "DESC": "Not Too Bad TLS library",
+  "CSIZE": "44153",
+  "ISIZE": "89895",
+  "MD5SUM": "c77af021389ef36d0aa4f4aca0e41ed4",
+  "SHA256SUM": "6980c1a9a1e83b3fddc18cd39ca9a816defb1718969f7d9133f7c62034bb8020",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahQ14wAKCRDDWOcNd+r/VAH9AQCNvRynpsnxDrV4de2OnnA4Hx3LvvAMKkBeSexkPMOhYgEAjjJYEfW7dVCgUtjzTEtXfVAn+CJ+l78V2OXwszYaDQs=",
+  "URL": "https://wiki.gnupg.org/NTBTLS",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779709405",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libgcrypt",
+    "libgpg-error",
+    "libksba"
+  ],
+  "PROVIDES": [
+    "libntbtls.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

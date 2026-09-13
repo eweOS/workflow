@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libisoburn-1.5.8-2-aarch64.pkg.tar.zst",
+  "NAME": "libisoburn",
+  "BASE": "libisoburn",
+  "VERSION": "1.5.8-2",
+  "DESC": "frontend for libraries libburn and libisofs",
+  "CSIZE": "850372",
+  "ISIZE": "2201584",
+  "MD5SUM": "3cd7844458333856a72626ae0fdeab34",
+  "SHA256SUM": "44e2d7779d0db7a543196d08cb4fbe58d52281020a87bb0f92ccd6ea441afe9b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7JZQAKCRDDWOcNd+r/VM6fAPwJBfVKMfVcRlWImgU6eBRWg2kDwfJPSgMLKkwVTPiqNQD8Czk0NW+Hepb8kot87UqIvUgxjUV7lfsTjk8yE/+sUgw=",
+  "URL": "https://dev.lovelyhq.com/libburnia",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779353939",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libburn",
+    "libisofs",
+    "readline"
+  ],
+  "PROVIDES": [
+    "xorriso",
+    "xorriso-tcltk"
+  ],
+  "OPTDEPENDS": [
+    "tk: xorriso-tcltk frontend",
+    "sudo: use with xorriso-dd-target"
+  ],
+  "REPO": "main"
+}

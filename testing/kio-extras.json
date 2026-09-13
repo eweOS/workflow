@@ -1,0 +1,68 @@
+{
+  "FILENAME": "kio-extras-25.04.1-1-aarch64.pkg.tar.zst",
+  "NAME": "kio-extras",
+  "BASE": "kio-extras",
+  "VERSION": "25.04.1-1",
+  "DESC": "Additional components to increase the functionality of KIO",
+  "GROUPS": [
+    "kde-applications",
+    "kde-network"
+  ],
+  "CSIZE": "1853518",
+  "ISIZE": "6226307",
+  "MD5SUM": "8db438719ef04078892c3c94fdf18a28",
+  "SHA256SUM": "2978e734c151dfa3ec9299cc6aaafb83f42171924f12dec666f765f0253a1af7",
+  "PGPSIG": "iF4EABYCAAYFAmhACBMACgkQw1jnDXfq/1TFVAEA32W/u8DwzoHK4UxxXatcowB2bdHJR39ZSnpBK1v8AukBANKpT07hJR6yZgnaFY7AbDhTKzxnh7MNDbLKvTJQvSUH",
+  "URL": "https://www.kde.org/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1749027143",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "karchive",
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "kdnssd",
+    "ki18n",
+    "kio",
+    "knotifications",
+    "kservice",
+    "ktextwidgets",
+    "kwidgetsaddons",
+    "libkexiv2",
+    "libproxy",
+    "libxcurcommon",
+    "phonon-qt6",
+    "plasma-activities",
+    "qt6-5compat",
+    "qt6-base",
+    "qt6-svg",
+    "sh",
+    "solid",
+    "syntax-highlighting"
+  ],
+  "OPTDEPENDS": [
+    "icoutils: Windows executable thumbnails",
+    "kimageformats: thumbnails for additional image formats",
+    "libappimage: AppImage thumbnails",
+    "openexr: EXR format thumbnails",
+    "perl: info kioslave",
+    "plasma-activities-stats: recently used kioslave",
+    "qt6-imageformats: thumbnails for additional image formats",
+    "taglib: audio file thumbnails"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "gperf",
+    "kdoctools",
+    "openexr",
+    "plasma-activities-stats",
+    "qcoro",
+    "taglib"
+  ],
+  "REPO": "testing"
+}

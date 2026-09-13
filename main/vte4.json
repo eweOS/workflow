@@ -1,0 +1,50 @@
+{
+  "FILENAME": "vte4-0.84.1-2-aarch64.pkg.tar.zst",
+  "NAME": "vte4",
+  "BASE": "vte",
+  "VERSION": "0.84.1-2",
+  "DESC": "Virtual Terminal Emulator widget (GTK4)",
+  "CSIZE": "458257",
+  "ISIZE": "1556020",
+  "MD5SUM": "45812cbdd5237f36b431bf865377ac8d",
+  "SHA256SUM": "c02e29003f54a40272fa47e3ee467f710aba3a684c02ccbf28e2c4782c7538dd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanlceQAKCRDDWOcNd+r/VKXCAQCZ9OtOVcbM4RJv7btGgnQ0CMVusX7VFD889k7fuyOWnAD+Lk1UfzaT0eRXLHdsSTchNMWzwq7nAFdesIfE2QOwVAM=",
+  "URL": "https://wiki.gnome.org/Apps/Terminal/VTE",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786338691",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "cairo",
+    "fribidi",
+    "gdk-pixbuf2",
+    "glib2",
+    "icu",
+    "lz4",
+    "pango",
+    "pcre2",
+    "simdutf",
+    "fmt",
+    "gtk4",
+    "vte-common"
+  ],
+  "PROVIDES": [
+    "libvte-2.91-gtk4.so"
+  ],
+  "MAKEDEPENDS": [
+    "at-spi2-core",
+    "fast_float",
+    "git",
+    "gobject-introspection",
+    "gperf",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "vala",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

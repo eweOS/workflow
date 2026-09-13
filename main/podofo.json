@@ -1,0 +1,41 @@
+{
+  "FILENAME": "podofo-1.1.1-1-aarch64.pkg.tar.zst",
+  "NAME": "podofo",
+  "BASE": "podofo",
+  "VERSION": "1.1.1-1",
+  "DESC": "A C++ library to work with the PDF file format",
+  "CSIZE": "2656440",
+  "ISIZE": "5727859",
+  "MD5SUM": "e4c7c7898fea9bbed7731dc6952c719f",
+  "SHA256SUM": "0ffaf09e1c203ca281a9e492d1dcf688efd0a22accddf94ddff57dbd81ab7b23",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalnFGQAKCRDDWOcNd+r/VCWlAP9E++xchcXER9DFo5/wZnjg2BGYZKtwhgRmnsbZ+RZaygEA/HNJNR2ggqR7Mz5FXtHCv9TVV9GEmzGF1gSKkgzWmg4=",
+  "URL": "http://podofo.sourceforge.net",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1784268125",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "fontconfig",
+    "freetype2",
+    "libidn",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libxml2",
+    "lua",
+    "openssl",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libpodofo.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

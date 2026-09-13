@@ -1,0 +1,39 @@
+{
+  "FILENAME": "fcft-3.3.3-2-aarch64.pkg.tar.zst",
+  "NAME": "fcft",
+  "BASE": "fcft",
+  "VERSION": "3.3.3-2",
+  "DESC": "Simple library for font loading and glyph rasterization",
+  "CSIZE": "69152",
+  "ISIZE": "118034",
+  "MD5SUM": "a7a3961f2e35fac920b2109ed650070b",
+  "SHA256SUM": "f43a89196c9fdc6cfa718b61b3f2cfffd600170f23e08645d10225d0775053af",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag66AwAKCRDDWOcNd+r/VB9bAQDf+EPWukiJJCk9rCCAk2h2ijsI0pIyXNO9rLu+RodBKwEAx17+dyRpV7i9iPKEscOooFK8i2mL/2IX7wZqkWCxXQY=",
+  "URL": "https://codeberg.org/dnkl/fcft",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779350002",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "fontconfig",
+    "freetype2",
+    "harfbuzz",
+    "libutf8proc",
+    "nanosvg",
+    "pixman"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "tllist",
+    "git"
+  ],
+  "CHECKDEPENDS": [
+    "check",
+    "ttf-noto-fonts-emoji",
+    "ttf-unifont"
+  ],
+  "REPO": "main"
+}
