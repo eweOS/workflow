@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libalpm-7.1.0-4-loongarch64.pkg.tar.zst",
+  "NAME": "libalpm",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-4",
+  "DESC": "Arch Linux package management library",
+  "CSIZE": "296723",
+  "ISIZE": "1230089",
+  "MD5SUM": "6adb743079ee849b09846a3793c30593",
+  "SHA256SUM": "6ba5396ae3974c6a8cbbbb7743bc86a7ae86a4d6ce32a6a5c0537e4bebebb1f0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag9ExwAKCRDDWOcNd+r/VO8QAQCmD9jXfalEIbFbf5x+bD94n02FD/KJOboiczsCIPiq9QD/UhYfiLRyeqW/j27G+s32P+OB1WofoFgF7sEY1Te4agY=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779385503",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libarchive",
+    "curl",
+    "gettext",
+    "gpgme"
+  ],
+  "PROVIDES": [
+    "libalpm.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

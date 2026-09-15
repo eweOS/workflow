@@ -1,0 +1,33 @@
+{
+  "FILENAME": "woff2-1.0.2-4-loongarch64.pkg.tar.zst",
+  "NAME": "woff2",
+  "BASE": "woff2",
+  "VERSION": "1.0.2-4",
+  "DESC": "Web Open Font Format 2 reference implementation",
+  "CSIZE": "61123",
+  "ISIZE": "155458",
+  "MD5SUM": "ad74ef41a6a9b81e98a1edfe227849d9",
+  "SHA256SUM": "7afc93c0521219e2000918c8228ead7734f1b51b4853d9b4c9749bbcedcde909",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8+OwAKCRDDWOcNd+r/VH1uAQCCgj94op0yn11zM/gx0c1YcHAQDcB51Y5BVCYhNX0cxgEAzpSHE1AhQCR05xWwAMWjEYDLEGtLC152AlbNjDhz6gk=",
+  "URL": "https://github.com/google/woff2",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779383868",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "brotli"
+  ],
+  "PROVIDES": [
+    "libwoff2common.so",
+    "libwoff2dec.so",
+    "libwoff2enc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

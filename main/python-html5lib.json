@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-html5lib-1.1-4-any.pkg.tar.zst",
+  "NAME": "python-html5lib",
+  "BASE": "python-html5lib",
+  "VERSION": "1.1-4",
+  "DESC": "A Python HTML parser/tokenizer based on the WHATWG HTML5 spec",
+  "CSIZE": "312957",
+  "ISIZE": "1735832",
+  "MD5SUM": "c0e08a4d66952e16e006e301ebb93f6f",
+  "SHA256SUM": "5c25041f2cea8faf3a71c0824c4902a398d48be85e39d36078888cb76b61cae8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag/S2AAKCRDDWOcNd+r/VPnIAP9nfX/bzqPYnYKqpOjrLpcle4Ra9Z45GT5ojqVs2MXmrQEAlb0tfrThfW/yLFXbJAhe+y4FOeKYV+L+8UHlqTOT0Ag=",
+  "URL": "https://github.com/html5lib",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779421911",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "python-six",
+    "python-webencodings"
+  ],
+  "OPTDEPENDS": [
+    "python-lxml: lxml treebuilder",
+    "python-genshi: genshi treewalker"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-expect",
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

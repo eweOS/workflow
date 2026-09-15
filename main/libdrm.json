@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libdrm-2.4.134-1-loongarch64.pkg.tar.zst",
+  "NAME": "libdrm",
+  "BASE": "libdrm",
+  "VERSION": "2.4.134-1",
+  "DESC": "Userspace interface to kernel DRM services",
+  "CSIZE": "334259",
+  "ISIZE": "1132837",
+  "MD5SUM": "85f475de1b6def2bccefe2941170348d",
+  "SHA256SUM": "a2a3ea9d3e4d431c179c574cd1b1267dabb157a575b4e303694ce619e130a542",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahz0GQAKCRDDWOcNd+r/VGzaAP9SksnhBE+207MFqxfwsuUpeYwamd1O6lPAt+O3/YhndAD/T+/7P/YKj4wStcUycZOUBZJZrvFDy9phMdL8mUnHlgQ=",
+  "URL": "https://dri.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780282424",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libpciaccess"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "linux-uapi-headers"
+  ],
+  "CHECKDEPENDS": [
+    "cairo"
+  ],
+  "REPO": "main"
+}

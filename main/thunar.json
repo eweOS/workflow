@@ -1,0 +1,50 @@
+{
+  "FILENAME": "thunar-4.20.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "thunar",
+  "BASE": "thunar",
+  "VERSION": "4.20.2-2",
+  "DESC": "Modern, fast and easy-to-use file manager for Xfce",
+  "GROUPS": [
+    "xfce4"
+  ],
+  "CSIZE": "1814842",
+  "ISIZE": "9119614",
+  "MD5SUM": "50c0c515d57a9e1731c941f9ba5b34a3",
+  "SHA256SUM": "a9e201b6a1592b5dd5d1e7f471eda81dcbcfd76949415f2c48cc885db2780806",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahAJawAKCRDDWOcNd+r/VASkAP47Qoy+c+v9sgRFoD58lclWzvdv6h9pFq8/r7YOffic1gEAqRKTWmODnIYPf3TfedjbXPXBMFQ7Vjy3a6J7mSlWDwc=",
+  "URL": "https://docs.xfce.org/xfce/thunar/start",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779435715",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "desktop-file-utils",
+    "libexif",
+    "hicolor-icon-theme",
+    "libnotify",
+    "pcre2",
+    "exo",
+    "libxfce4util",
+    "libxfce4ui",
+    "libpng"
+  ],
+  "OPTDEPENDS": [
+    "catfish: file searching",
+    "gvfs: trash support, mounting with udisk and remote filesystems",
+    "tumbler: thumbnail previews",
+    "thunar-volman: removable device management",
+    "thunar-archive-plugin: archive creation and extraction",
+    "thunar-media-tags-plugin: view/edit ID3/OGG tags"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "intltool",
+    "gobject-introspection",
+    "xfce4-panel",
+    "xfce4-dev-tools"
+  ],
+  "REPO": "main"
+}
