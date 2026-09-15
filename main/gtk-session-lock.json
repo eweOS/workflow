@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gtk-session-lock-0.2.0-3-aarch64.pkg.tar.zst",
+  "NAME": "gtk-session-lock",
+  "BASE": "gtk-session-lock",
+  "VERSION": "0.2.0-3",
+  "DESC": "A library to create screen lockers for Wayland using the ext-session-lock protocol",
+  "CSIZE": "14002",
+  "ISIZE": "36126",
+  "MD5SUM": "2707c315bad5c8df94c1c432181d13e6",
+  "SHA256SUM": "3d84f5cf03aa542fb4a616d8d7133960ac7869760bb1a01339fa08a534ce0a12",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8BmwAKCRDDWOcNd+r/VKczAP9SXrrPKsIWdnrJtG1ttARZATO2j/bd+yuRyxUBjq9S1gEAwJPbC92cqHanFvYPMIlHd9YrXmLdfCW2FHY8yhQ1zQg=",
+  "URL": "https://github.com/Cu3PO42/gtk-session-lock",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779368323",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "gtk3",
+    "wayland"
+  ],
+  "PROVIDES": [
+    "libgtk-session-lock.so=0-64"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gobject-introspection",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,45 @@
+{
+  "FILENAME": "rust-1.96.1-1-aarch64.pkg.tar.zst",
+  "NAME": "rust",
+  "BASE": "rust",
+  "VERSION": "1.96.1-1",
+  "DESC": "Systems programming language focused on safety, speed and concurrency",
+  "CSIZE": "94035917",
+  "ISIZE": "272609331",
+  "MD5SUM": "14a39ed343cda04d13187ec6afb83044",
+  "SHA256SUM": "cc9df3a35ce534e228e116dfacdefccfc49f893cdc25162a77082624fc1fe877",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalypNwAKCRDDWOcNd+r/VCsuAP4g3hiIpk64LYGbEergJ9ET/z3BFtM7EnCdNJcrdMQnlwD+MN2a+HYV0unrUbtST30hKrDx/mYiz9u1b4O/C79+8gQ=",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1784455681",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "curl",
+    "libssh2",
+    "openssl",
+    "sqlite",
+    "libgit2"
+  ],
+  "PROVIDES": [
+    "cargo",
+    "rustfmt",
+    "rustdoc"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja",
+    "musl-static"
+  ],
+  "REPO": "main"
+}

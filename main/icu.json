@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-78.2-2-aarch64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "78.2-2",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "15185589",
+  "ISIZE": "44573343",
+  "MD5SUM": "699a4eb9087f7c08b5ec8d1d01bf3832",
+  "SHA256SUM": "7c5885d2be1000f9da2ed18a884a86fa67a83b10eb36c0819f8417fed0ce3807",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7ATAAKCRDDWOcNd+r/VL/SAP0SQcE9Eez8zX1YZ5AIp9vIPqzvgKUGxrDSygfhPbuVpgEA3Z2BxKvt2wOO5GtfPYWPo1p7zTpwARJe1jxDC2X85Ao=",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779351149",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}
