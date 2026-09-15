@@ -1,0 +1,40 @@
+{
+  "FILENAME": "rrdtool-1.10.3-1-riscv64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.10.3-1",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "293704",
+  "ISIZE": "717960",
+  "MD5SUM": "2c1bd24616aecc86b5b25df7faebcbb3",
+  "SHA256SUM": "0b0ba5007e25f859cc5a506226f2a97b6e6af1d6c884b1811af2a9cdcc00254a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamrGhwAKCRDDWOcNd+r/VNRSAQCPsqMzw8cmKB9B6DWu/kFMwFas61IzMr7hs/eDkvOucgD/Y6twmsZB1pSAlbucT4InPfDfCupzDIcI6Hvdv1WvLQY=",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1785382747",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "python-wheel",
+    "python-installer",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,44 @@
+{
+  "FILENAME": "labwc-0.20.2-1-riscv64.pkg.tar.zst",
+  "NAME": "labwc",
+  "BASE": "labwc",
+  "VERSION": "0.20.2-1",
+  "DESC": "Stacking wayland compositor with look and feel from openbox",
+  "CSIZE": "280514",
+  "ISIZE": "563991",
+  "MD5SUM": "fa58f446e4019f493802fbe723c3ebcc",
+  "SHA256SUM": "d1dd065a08f3c6b63f030d17998d9b2892d30cb9ed0da19023b2b83bed47de4b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapjvlgAKCRDDWOcNd+r/VCW8AQDHgdJTSv80TgeUaYSVAI3bJwkHvo0yS6AqU4u5tIFeHQD/ZttH+RHSb3q7o6EJNYAg+0Jgu0Nf4LWoWcrJWd7LlAc=",
+  "URL": "https://github.com/labwc/labwc",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1788408128",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "libinput",
+    "libpng",
+    "librsvg",
+    "pango",
+    "pixman",
+    "seatd",
+    "wlroots0.20",
+    "wayland",
+    "libsfdo",
+    "libxml2",
+    "harfbuzz"
+  ],
+  "OPTDEPENDS": [
+    "bemenu: default launcher via Alt+F3"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.20-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
