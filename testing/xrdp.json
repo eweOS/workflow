@@ -1,0 +1,39 @@
+{
+  "FILENAME": "xrdp-0.10.6-1-x86_64.pkg.tar.zst",
+  "NAME": "xrdp",
+  "BASE": "xrdp",
+  "VERSION": "0.10.6-1",
+  "DESC": "An open source remote desktop protocol (RDP) server",
+  "CSIZE": "640109",
+  "ISIZE": "3760756",
+  "MD5SUM": "d9101d7d718a1c2ce72b7a5e100f1da9",
+  "SHA256SUM": "e35c075f461cb62f9e9eae415cdf834dc9b45ec2c025fb94fc0864934e0fee17",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag6GsQAKCRDDWOcNd+r/VFMqAP0YSZ4Zh2L6vFg4ftsl+75DWgzHUo1ELXzc6lDCCNZdKAD/ZIPGf5GyWXZPJTkxt+sHR7EYlAlrVmJiX/iXkNdzwQU=",
+  "URL": "https://github.com/neutrinolabs/xrdp",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779336839",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "ffmpeg",
+    "fuse3",
+    "x264",
+    "pam",
+    "lame"
+  ],
+  "OPTDEPENDS": [
+    "tigervnc",
+    "tightvnc",
+    "realvnc-vnc-server"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "cmocka"
+  ],
+  "CHECKDEPENDS": [
+    "check"
+  ],
+  "REPO": "testing"
+}

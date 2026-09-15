@@ -1,0 +1,47 @@
+{
+  "FILENAME": "enlightenment-0.27.1.r75.207ffcb47-1-x86_64.pkg.tar.zst",
+  "NAME": "enlightenment",
+  "BASE": "enlightenment",
+  "VERSION": "0.27.1.r75.207ffcb47-1",
+  "DESC": "Enlightenment window manager",
+  "CSIZE": "409481163",
+  "ISIZE": "422869183",
+  "MD5SUM": "344f6828325d12a5d9ded58889c5e46b",
+  "SHA256SUM": "c8e61d66603679d9157b8924e53c6f8caa4eb43d23f38c1decd5a960c0f57653",
+  "PGPSIG": "iF4EABYCAAYFAmijXF8ACgkQw1jnDXfq/1T4OQEApisVZWkPXfGQo6d4xfl9FC5BPQaV/DXb87dsFqCnoGkBAIxiLK/MsBZ0Em7fDGumfCbaNzhha3pAAAJMTfPsPmkA",
+  "URL": "http://www.enlightenment.org",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1755537140",
+  "PACKAGER": "eweos-x8664-worker1 <eweos-x8664-worker1@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib",
+    "efl",
+    "hicolor-icon-theme",
+    "libexif",
+    "librsvg",
+    "libpulse",
+    "libxkbcommon",
+    "pam",
+    "util-linux-libs",
+    "wayland",
+    "ttf-font"
+  ],
+  "OPTDEPENDS": [
+    "acpid: power events on laptop lid close",
+    "bluez: Bluetooth control module",
+    "connman: network connection manager module",
+    "fprintd: fingerprint password settings",
+    "geoclue: geolocation module",
+    "packagekit: package manager integration module"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "wayland-protocols",
+    "git"
+  ],
+  "REPO": "testing"
+}
