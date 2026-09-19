@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libgweather-4.6.0-2-x86_64.pkg.tar.zst",
+  "NAME": "libgweather",
+  "BASE": "libgweather",
+  "VERSION": "4.6.0-2",
+  "DESC": "Location and timezone database and weather-lookup library",
+  "CSIZE": "356491",
+  "ISIZE": "1835589",
+  "MD5SUM": "3e94e663d4c2e060d981fd26d99e3190",
+  "SHA256SUM": "b7ea9e8a9ca1d657b06907cbfe24d5653d27b75a256785658f0d66d77f0d5b51",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag86qgAKCRDDWOcNd+r/VG/EAQDfG27Mg4itHrt5rsgU9devPR4beSWfPzmves1xt6QMFgD/Y/xpn0071L8SepZYCVBZTlIXVJsykLIjIJJMs3BNTws=",
+  "URL": "https://wiki.gnome.org/Projects/LibGWeather",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779382941",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "dconf",
+    "geocode-glib-2",
+    "glib2",
+    "json-glib",
+    "libsoup3",
+    "libxml2",
+    "gweather-locations"
+  ],
+  "PROVIDES": [
+    "libgweather-4",
+    "libgweather-4.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-gobject",
+    "vala"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,35 @@
+{
+  "FILENAME": "crun-1.28-1-x86_64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.28-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "242262",
+  "ISIZE": "583542",
+  "MD5SUM": "7eb29bf938d9a385d830e2f6bcd8fe05",
+  "SHA256SUM": "9d71cc205ce556cd3c9ade976ae7ca23a284facc711bb707edb7ff2d8be1faf3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahz7vgAKCRDDWOcNd+r/VAi7AP9wWTIISdCSGgo0eGJDRMQbNyaGVCXZ2yzE7T8/cqBa0AD/UGCMUg98tPYTZ0gVRUAWgb0c2rFOfylkXgi9sAFCqww=",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1780284323",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "yajl",
+    "libcap",
+    "libseccomp",
+    "libuargp",
+    "json-c"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "go-md2man",
+    "git"
+  ],
+  "REPO": "main"
+}

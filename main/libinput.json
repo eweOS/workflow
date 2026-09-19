@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libinput-1.31.3-1-x86_64.pkg.tar.zst",
+  "NAME": "libinput",
+  "BASE": "libinput",
+  "VERSION": "1.31.3-1",
+  "DESC": "Input device management and event handling library",
+  "CSIZE": "343042",
+  "ISIZE": "1091265",
+  "MD5SUM": "62124c8ddbfc5b68b3a761042c1c7007",
+  "SHA256SUM": "59aeef932d6580657426d670ebe8ef425e72b1ded778417020feae9ee84b43e0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaipqdgAKCRDDWOcNd+r/VM8TAP47OHi54p5C1me4P1XltTyhGbTAKz7miFeecuGD+M4MYwEAq80GTzFJ6tugoBfogpbHUQTCmpyshKNnE50OZy7pMQE=",
+  "URL": "https://gitlab.freedesktop.org/libinput",
+  "LICENSE": [
+    "custom:X11"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1781164743",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libudev",
+    "libevdev",
+    "mtdev",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "check",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}
