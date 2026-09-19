@@ -1,0 +1,41 @@
+{
+  "FILENAME": "wf-shell-0.10.0-3-loongarch64.pkg.tar.zst",
+  "NAME": "wf-shell",
+  "BASE": "wf-shell",
+  "VERSION": "0.10.0-3",
+  "DESC": "GTK3-based panel for the Wayfire compositor",
+  "CSIZE": "6362292",
+  "ISIZE": "7316459",
+  "MD5SUM": "6754de9d042a3fb9c3486305c3a6e816",
+  "SHA256SUM": "15a19835d24db4029b7b5debc0a704467e63c4053c06edcffcb27f4c3aad7bc1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahAH8gAKCRDDWOcNd+r/VNZuAP9iGlDjdKnxcGJYZt67TjhJxQ9CEiwgfVlt7jUrzMYKlQEAoyO4NtSRkSB4+AsrFZHJMzRXp1vzkKKgsvigDDWe/gQ=",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779435444",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "wf-config",
+    "gtkmm3",
+    "gtk-layer-shell",
+    "libdbusmenu-gtk3",
+    "libpulse",
+    "alsa-lib",
+    "wlroots0.19"
+  ],
+  "MAKEDEPENDS": [
+    "wayland",
+    "wayfire",
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "git",
+    "gobject-introspection",
+    "glib2",
+    "glm",
+    "wlroots0.19-devel"
+  ],
+  "REPO": "main"
+}

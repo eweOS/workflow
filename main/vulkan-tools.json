@@ -1,0 +1,35 @@
+{
+  "FILENAME": "vulkan-tools-1.4.350.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-tools",
+  "BASE": "vulkan-tools",
+  "VERSION": "1.4.350.0-1",
+  "DESC": "Vulkan Development Tools",
+  "CSIZE": "494194",
+  "ISIZE": "2110032",
+  "MD5SUM": "7c9c9f46d85ecba9a9ca09724252035f",
+  "SHA256SUM": "d1357b943afaa5fa25e65f1cc9c744785ca417d2e4d2a8b5dc80c339b023865e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaidvewAKCRDDWOcNd+r/VCMnAPwObPXcDBOsn4V+uMoJrqvCJlsyy6kJi7g1uo8c0pUzPQEA6pcvbqZ1yxo2WECeDwx8FSLoNbO0PLHbej9e9AeYvg8=",
+  "URL": "https://github.com/KhronosGroup/Vulkan-Tools/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780969393",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "wayland",
+    "libvulkan.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "wayland-protocols",
+    "glslang",
+    "spirv-tools",
+    "vulkan-volk",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
