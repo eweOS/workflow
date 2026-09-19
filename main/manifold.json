@@ -1,0 +1,35 @@
+{
+  "FILENAME": "manifold-3.4.0-2-riscv64.pkg.tar.zst",
+  "NAME": "manifold",
+  "BASE": "manifold",
+  "VERSION": "3.4.0-2",
+  "DESC": "Geometry library for creating and operating on manifold triangle meshes",
+  "CSIZE": "733551",
+  "ISIZE": "2638005",
+  "MD5SUM": "493461ae50d63808cfbd8ddf6c8af45c",
+  "SHA256SUM": "458cb0759959bb92b4dd95d7aefca5d1f8f02c21f540c4bf9d851462ba322946",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahHDWwAKCRDDWOcNd+r/VH62AP9bUfXrqy1Pq0Y5Bd5sbmzYYILByGtnOuRGYA3N2SEDLQEAsgiq7R18u+q1CG6xl14KB9zKoX2FUrcoxbkF6jOjNQM=",
+  "URL": "https://github.com/elalish/manifold",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779547787",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "onetbb",
+    "clipper2",
+    "assimp"
+  ],
+  "PROVIDES": [
+    "libmanifold.so",
+    "libmanifoldc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

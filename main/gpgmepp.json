@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gpgmepp-2.0.0-2-riscv64.pkg.tar.zst",
+  "NAME": "gpgmepp",
+  "BASE": "gpgmepp",
+  "VERSION": "2.0.0-2",
+  "DESC": "C++ bindings for GPGME",
+  "CSIZE": "148639",
+  "ISIZE": "494204",
+  "MD5SUM": "46d61bba8a4e08495bb2c4947ed43701",
+  "SHA256SUM": "9399abdb9fd8caf569474fa237351eb7ee8686b8166be327abe0891a807c8d9a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahRApgAKCRDDWOcNd+r/VFjkAPwNMeWFq0vaPBrUyFdQk3Bz3K9zE+kpGP7wZJRGL4DV/wD+PRgDgAAXSCf0I++cLFtSuUwCyNEVRNko5Dtb++ye+Aw=",
+  "URL": "https://gnupg.org/software/gpgme/index.html",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779712099",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "gpgme",
+    "libgpg-error"
+  ],
+  "CONFLICTS": [
+    "gpgme<2"
+  ],
+  "PROVIDES": [
+    "libgpgmepp.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

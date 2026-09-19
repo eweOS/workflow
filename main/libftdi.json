@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libftdi-1.5-5-riscv64.pkg.tar.zst",
+  "NAME": "libftdi",
+  "BASE": "libftdi",
+  "VERSION": "1.5-5",
+  "DESC": "An open source library to talk to FTDI chips.",
+  "CSIZE": "47994",
+  "ISIZE": "110002",
+  "MD5SUM": "9b5ba88206033c56fe4698f96d992808",
+  "SHA256SUM": "ecf272db3118609e551ed8a2f9b64b4483cd20a7436c98733e8cb650c8341059",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahEFxAAKCRDDWOcNd+r/VJo7AQD+bXFG1Ae1MCrowwE1Aq3bylgwXAHJQKs2dm7wk/uQMAEA4A+2MHlRlufrmhwTdmJjQl8eHb4DvGwzx7Sl4XHYSwQ=",
+  "URL": "https://www.intra2net.com/en/developer/libftdi",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779500464",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libftdi1.so",
+    "libftdipp1.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "boost",
+    "boost-libs"
+  ],
+  "REPO": "main"
+}
