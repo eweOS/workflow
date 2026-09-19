@@ -1,0 +1,60 @@
+{
+  "FILENAME": "fastfetch-2.68.1-1-aarch64.pkg.tar.zst",
+  "NAME": "fastfetch",
+  "BASE": "fastfetch",
+  "VERSION": "2.68.1-1",
+  "DESC": "Like Neofetch, but much faster because written in C",
+  "CSIZE": "971322",
+  "ISIZE": "3204173",
+  "MD5SUM": "ee711d48a3cdb3e9cc8d8dc34207abde",
+  "SHA256SUM": "389f280485491e01330986421199b04567bc243c0a9b02d6ff574f3b39fbdd8f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapgBXQAKCRDDWOcNd+r/VA9gAPwOM05FKTEixH8mvKj20C7J5GPXZ2/+fVZcm+0Uo8c9pgD9GidtKYVdkE6XJcoqkoiLbU4v2Txr5S9hcjRZ/5X6Hgs=",
+  "URL": "https://github.com/fastfetch-cli/fastfetch",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788347168",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "yyjson"
+  ],
+  "OPTDEPENDS": [
+    "chafa: Image output as ascii art",
+    "dbus: Bluetooth, Player & Media detection",
+    "dconf: Needed for values that are only stored in DConf + Fallback for GSettings",
+    "ddcutil: Brightness detection of external displays",
+    "directx-headers: GPU detection in WSL",
+    "glib2: Output for values that are only stored in GSettings",
+    "imagemagick: Image output using sixel or kitty graphics protocol",
+    "libnm: Wifi detection",
+    "libpulse: Sound detection",
+    "libglvnd: Needed by the OpenGL module for gl context creation.",
+    "libxrandr: Multi monitor support",
+    "ocl-icd: OpenCL module",
+    "pciutils: GPU output",
+    "vulkan-icd-loader: Vulkan module & fallback for GPU output",
+    "xfconf: Needed for XFWM theme and XFCE Terminal font",
+    "zlib: Faster image output when using kitty graphics protocol",
+    "libdrm: Displays detection"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers",
+    "python",
+    "directx-headers",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "wayland",
+    "dconf",
+    "imagemagick",
+    "dbus",
+    "libpulse",
+    "xfconf",
+    "libdrm",
+    "libegl",
+    "yyjson",
+    "zlib"
+  ],
+  "REPO": "main"
+}

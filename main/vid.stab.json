@@ -1,0 +1,32 @@
+{
+  "FILENAME": "vid.stab-1.1.1-2-aarch64.pkg.tar.zst",
+  "NAME": "vid.stab",
+  "BASE": "vid.stab",
+  "VERSION": "1.1.1-2",
+  "DESC": "Video stabilization library",
+  "CSIZE": "52946",
+  "ISIZE": "126202",
+  "MD5SUM": "238f752d9a429b840184132c156f7383",
+  "SHA256SUM": "338602e1b42978756f23dfbbeff7746fdb3ef2792f48e93c19dd3b06b9ffa68a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7tqgAKCRDDWOcNd+r/VK6CAQDPs6EICeahRt1GkKviMsvp2BLyn52M6dm5jZEBzGjV9AEAmXVqjCfTRCBUcAnWlejJexiaocmJ2qRw7mU+3K2iRwU=",
+  "URL": "http://public.hronopik.de/vid.stab",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779363232",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libvidstab.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja"
+  ],
+  "REPO": "main"
+}

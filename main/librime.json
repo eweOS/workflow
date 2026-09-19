@@ -1,0 +1,39 @@
+{
+  "FILENAME": "librime-1.17.0-1-aarch64.pkg.tar.zst",
+  "NAME": "librime",
+  "BASE": "librime",
+  "VERSION": "1.17.0-1",
+  "DESC": "Rime Input Method Engine",
+  "CSIZE": "644034",
+  "ISIZE": "1892039",
+  "MD5SUM": "cce48d81c8321ede55447d0a19d7957e",
+  "SHA256SUM": "c47cba21a64f74825d38b6cc7963f84b27ceb36851666281296af6e720101de0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoO8HAAKCRDDWOcNd+r/VF4TAQDKRRtRa9TAE5rpFQ5BP0B94/I9kRzfw+P8/vhHschAdAEAv0MC7S+FNYe2YReXP6X6pxfg6keJN1ABW2No7RFVpgM=",
+  "URL": "https://rime.im",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1787018538",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "boost-libs",
+    "leveldb",
+    "libmarisa",
+    "llvm-libs",
+    "musl",
+    "opencc",
+    "yaml-cpp"
+  ],
+  "PROVIDES": [
+    "librime.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen",
+    "googletest",
+    "ninja"
+  ],
+  "REPO": "main"
+}
