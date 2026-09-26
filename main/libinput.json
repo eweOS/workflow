@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libinput-1.32.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "libinput",
+  "BASE": "libinput",
+  "VERSION": "1.32.0-1",
+  "DESC": "Input device management and event handling library",
+  "CSIZE": "372020",
+  "ISIZE": "1508678",
+  "MD5SUM": "1d2f22ca68211cf570e04c7eb0b5d4d0",
+  "SHA256SUM": "9fa50fda2c10c6ae3c94754edaa5c8024dcfda12a5ce0ac30f21eb4ab2cddfab",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCarF0zAAKCRDDWOcNd+r/VHApAQDWPFDtTQ1OtEYeeSC5qdj0bZjQU7Kbwd+C90bbvYyPLgD/RKtAtCymAZLgmXHnfNPObroIwWW4OQru1IpEPvtsFgQ=",
+  "URL": "https://gitlab.freedesktop.org/libinput",
+  "LICENSE": [
+    "custom:X11"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1790014626",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libudev",
+    "libevdev",
+    "mtdev",
+    "lua54"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "check",
+    "linux-headers"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

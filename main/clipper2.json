@@ -1,0 +1,32 @@
+{
+  "FILENAME": "clipper2-2.0.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "clipper2",
+  "BASE": "clipper2",
+  "VERSION": "2.0.1-2",
+  "DESC": "Polygon operation library",
+  "CSIZE": "153248",
+  "ISIZE": "529085",
+  "MD5SUM": "8d51f5428773751e119bf46fa62b3ab0",
+  "SHA256SUM": "0410bbc01ee483231fc4e1a2910b8107de4094efcce7b34cff0fe407239a4213",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7ibQAKCRDDWOcNd+r/VEuAAP9X+CIOzsFRsSepv01NRPGT7SXd0iUDPkAhN0W1YCh6YQEAhazniDn0rVtEOtbXf1UvS00fdOEVINmO0usP6GK+kwM=",
+  "URL": "https://github.com/AngusJohnson/Clipper2",
+  "LICENSE": [
+    "BSL-1.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779360259",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libClipper2.so",
+    "libClipper2Z.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

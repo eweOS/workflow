@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cmatrix-2.0-5-loongarch64.pkg.tar.zst",
+  "NAME": "cmatrix",
+  "BASE": "cmatrix",
+  "VERSION": "2.0-5",
+  "DESC": "A curses-based scrolling 'Matrix'-like screen",
+  "CSIZE": "37866",
+  "ISIZE": "91809",
+  "MD5SUM": "400ef4de80ca1daa18aea09c9064059b",
+  "SHA256SUM": "fdb0e319af81d278397ccadf7a7e4f5aef7945245bb60bc695b43528d900c2e7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7oaAAKCRDDWOcNd+r/VLBzAP4xOOtUi3odrMa1Smck7dGXMOK0nh8jezuPuMFU35QelAD/UJSwunhL5JvTYaPh9imZ95lk5n+iRy1xswoRR1FG3wc=",
+  "URL": "https://www.asty.org/cmatrix/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779361892",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "kbd: cmatrix-tty custom font",
+    "xterm: cmatrix-tty custom font"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

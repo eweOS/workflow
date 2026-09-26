@@ -1,0 +1,37 @@
+{
+  "FILENAME": "googletest-1.18.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "googletest",
+  "BASE": "googletest",
+  "VERSION": "1.18.0-1",
+  "DESC": "C++ testing utility based on the xUnit framework",
+  "CSIZE": "555137",
+  "ISIZE": "2265904",
+  "MD5SUM": "5e294bd52c36f32677cb4616da8eecf5",
+  "SHA256SUM": "58b2fb34fa8c719d6834c5a0f05e26a2269d847ec95cdde7fe32b6d24cdee34c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoAyHgAKCRDDWOcNd+r/VICqAP46L6Fq5L4qp5tJ4VKhqRnCGDW28MtiP9wHH16auHQYrwEA5fmlHzebqsJhQAl4btR5All+bUNrdH4t0wRXnBAyYQI=",
+  "URL": "https://github.com/google/googletest",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1786786658",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "gmock",
+    "gtest"
+  ],
+  "OPTDEPENDS": [
+    "python: gmock generator"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "cmake",
+    "llvm-libs",
+    "sh"
+  ],
+  "REPO": "main"
+}

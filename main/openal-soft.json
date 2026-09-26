@@ -1,0 +1,35 @@
+{
+  "FILENAME": "openal-soft-1.25.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "openal-soft",
+  "BASE": "openal-soft",
+  "VERSION": "1.25.2-1",
+  "DESC": "A software implementation of the OpenAL 3D audio API",
+  "CSIZE": "828742",
+  "ISIZE": "2128304",
+  "MD5SUM": "bb022e5cd5468c7117a267994e3f3b64",
+  "SHA256SUM": "02fa0541b9b69dfd2ee595d3a769c458868d1a65069e9c7124d696fd220468c6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZ0owAKCRDDWOcNd+r/VJhUAQDDeayxkrnPRmR71sHfySV4MmSaHEaS+kmkdSatWdwIjQEA0UfAnNweKjkDuL7LgpozJBk5/LZtWS4dVnID8DqaYwY=",
+  "URL": "https://openal-soft.org",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779856385",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "alsa-lib",
+    "pipewire",
+    "zlib-ng"
+  ],
+  "PROVIDES": [
+    "openal",
+    "libopenal.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "clang-tools"
+  ],
+  "REPO": "main"
+}

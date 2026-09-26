@@ -1,0 +1,34 @@
+{
+  "FILENAME": "zlib-ng-2.3.3-3-loongarch64.pkg.tar.zst",
+  "NAME": "zlib-ng",
+  "BASE": "zlib-ng",
+  "VERSION": "2.3.3-3",
+  "DESC": "zlib data compression library for the next generation systems",
+  "CSIZE": "109376",
+  "ISIZE": "253036",
+  "MD5SUM": "1f352070e9c5a54d57bf084a8be8af70",
+  "SHA256SUM": "7d0902691e3a7ce6407d0aa81928bfaf57a4b9996f0a72839fce58cb060aa11b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag86RwAKCRDDWOcNd+r/VCrwAP4tuXCeHSB+uAWjqdMSCGYS7lrb9vg5MzKU08vE/MTWJwD8CS7hwRVuNBMATKgJpC5pZcK15YOLDHHp4f12hDCQ4gI=",
+  "URL": "https://github.com/zlib-ng/zlib-ng",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779382805",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "CONFLICTS": [
+    "zlib"
+  ],
+  "PROVIDES": [
+    "zlib",
+    "libz.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "simdutf-9.0.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "simdutf",
+  "BASE": "simdutf",
+  "VERSION": "9.0.0-1",
+  "DESC": "SIMD-accelerated Unicode and Base64 routines",
+  "CSIZE": "200362",
+  "ISIZE": "1170692",
+  "MD5SUM": "25372265ccc6a8d7828dd6546c922001",
+  "SHA256SUM": "f457086e8d62dcd4c1f31c3d351f1ab97592b6e573afc5e9da102177cd3b2895",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah00rgAKCRDDWOcNd+r/VK0TAP4iX90zkisqtgYRrbgawz8jtiSlvWpjY1gor5YYCGfwDAEAoR0BskdmZzzm/zYu4GobC5bxy32emy5xakYdCMONwAA=",
+  "URL": "https://simdutf.github.io/simdutf/",
+  "LICENSE": [
+    "Apache-2.0 OR MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780298732",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libsimdutf.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python"
+  ],
+  "REPO": "main"
+}
