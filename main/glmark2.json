@@ -1,0 +1,36 @@
+{
+  "FILENAME": "glmark2-2023.01-5-aarch64.pkg.tar.zst",
+  "NAME": "glmark2",
+  "BASE": "glmark2",
+  "VERSION": "2023.01-5",
+  "DESC": "An OpenGL 2.0 and ES 2.0 benchmark",
+  "CSIZE": "7718582",
+  "ISIZE": "13346750",
+  "MD5SUM": "8d9c125af015c5c24ce08bce1e3468dc",
+  "SHA256SUM": "0290588d5e16cdf5dcf2746128c908c4690b238a7a69144fa90848cd30930826",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7F+wAKCRDDWOcNd+r/VLqwAP95DQs8IB7IQTKWwk0vF7qecOnAvn9PFAI6HZG0LZFgKAEAtz61N9SJ15LHw2aXQy4trYA+2N3DYYuR6dNRwVbqjwg=",
+  "URL": "https://github.com/glmark2/glmark2",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "custom:SGI"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779353015",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libdrm",
+    "libjpeg-turbo",
+    "libpng",
+    "libgl",
+    "wayland",
+    "libudev-zero"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

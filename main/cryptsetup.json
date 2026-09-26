@@ -1,0 +1,38 @@
+{
+  "FILENAME": "cryptsetup-2.8.6-2-aarch64.pkg.tar.zst",
+  "NAME": "cryptsetup",
+  "BASE": "cryptsetup",
+  "VERSION": "2.8.6-2",
+  "DESC": "Userspace setup tool for transparent encryption of block devices using dm-crypt",
+  "CSIZE": "922743",
+  "ISIZE": "3326469",
+  "MD5SUM": "211da84d49b32c801bbf62e13770d4a5",
+  "SHA256SUM": "83bb852f0e4f2f4802de8a38cf7aec6e30dfa52e43de0d2ec195845c37f24588",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakuK0gAKCRDDWOcNd+r/VG2LAP9yDPgisKtOGAUip5LfVcjHZWuxbN0n1AbE73F7EZ/FdwD/UnmiYQIntzaunYv/ufr02aFk0HC9DgTrrvGJ4Zxx9gE=",
+  "URL": "https://gitlab.com/cryptsetup/cryptsetup",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1783335828",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "device-mapper",
+    "libdevmapper.so",
+    "util-linux-libs",
+    "popt",
+    "json-c",
+    "libjson-c.so",
+    "argon2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libcryptsetup.so"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers",
+    "git"
+  ],
+  "REPO": "main"
+}

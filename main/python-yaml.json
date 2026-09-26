@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-yaml-6.0.3-2-aarch64.pkg.tar.zst",
+  "NAME": "python-yaml",
+  "BASE": "python-yaml",
+  "VERSION": "6.0.3-2",
+  "DESC": "Python bindings for YAML, using fast libYAML library",
+  "CSIZE": "212667",
+  "ISIZE": "961162",
+  "MD5SUM": "bb794fde671eda67c43c8189065cea7f",
+  "SHA256SUM": "726d0be312bcfb74df831a7c64583b7fb7d4fbaa115e435b04247dc6a14970b1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7qTAAKCRDDWOcNd+r/VN2/AQC06kpSeDr+xxPasFWsJ9aLzLVGZFPUCaKPUnFAXVd+BgEA/yD2eLS0I1fgg2rrJSaryoGNhNtXyOYAlgcTVR/QeQo=",
+  "URL": "https://github.com/yaml/pyyaml",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779362315",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libyaml",
+    "python"
+  ],
+  "PROVIDES": [
+    "python-pyyaml"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

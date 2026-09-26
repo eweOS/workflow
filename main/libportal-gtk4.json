@@ -1,0 +1,48 @@
+{
+  "FILENAME": "libportal-gtk4-0.11.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libportal-gtk4",
+  "BASE": "libportal",
+  "VERSION": "0.11.0-1",
+  "DESC": "GIO-style async APIs for most Flatpak portals - GTK 4 backend",
+  "CSIZE": "13368",
+  "ISIZE": "28222",
+  "MD5SUM": "27955040455895d4e550c1139f165322",
+  "SHA256SUM": "1ccd72c30620a8251952e33787218d227b4526ce90917fcc19fe532e3ba70829",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCarV0sQAKCRDDWOcNd+r/VFZWAPwJDLW5JpJYIn9+1bt+C1cRx1l3H/zlUCqINyTSPiu3RgD+JhjIw6LmHwObJg7gFpbpfFB4KIkLniB4IUwrDD527wY=",
+  "URL": "https://github.com/flatpak/libportal",
+  "LICENSE": [
+    "LGPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1790276667",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "glib2",
+    "gtk4",
+    "libportal"
+  ],
+  "PROVIDES": [
+    "libportal-gtk4.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gjs",
+    "glib2",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "qt6-base",
+    "qt6-base-devel",
+    "qt6-tools",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbusmock",
+    "python-pytest",
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}
