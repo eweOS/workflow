@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtk-doc-1.36.1-1-any.pkg.tar.zst",
+  "NAME": "gtk-doc",
+  "BASE": "gtk-doc",
+  "VERSION": "1.36.1-1",
+  "DESC": "Documentation tool for public library API",
+  "CSIZE": "484128",
+  "ISIZE": "3598515",
+  "MD5SUM": "b0006eebf60a59d1bb755f1d503e4b56",
+  "SHA256SUM": "01c20e95a7e7a5a8d0a7772ce232fecfb92c0032345621216ce5ff8f0c86a511",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZ0HwAKCRDDWOcNd+r/VO6FAP47ZpYWNg01E49g9DySvw9PwbII3cNSgiGG/tsmIJiHSgD+NWl9AhzrTEj6tXfGJZRxYypTp6T/WpEDz9gWn+nH3wM=",
+  "URL": "https://www.gtk.org/gtk-doc/",
+  "LICENSE": [
+    "GFDL-1.1-or-later",
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779856369",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "docbook-xml",
+    "docbook-xsl",
+    "glib2",
+    "glib2-docs",
+    "python-lxml",
+    "python-pygments"
+  ],
+  "OPTDEPENDS": [
+    "dblatex: PDF support"
+  ],
+  "MAKEDEPENDS": [
+    "yelp-tools",
+    "git",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "gtk3",
+    "python-parameterized"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "avrdude-8.2-2-riscv64.pkg.tar.zst",
+  "NAME": "avrdude",
+  "BASE": "avrdude",
+  "VERSION": "8.2-2",
+  "DESC": "A utility to program AVR microcontrollers.",
+  "CSIZE": "2358293",
+  "ISIZE": "14199658",
+  "MD5SUM": "06a23feb6b1c88813c48faeb101fdd6e",
+  "SHA256SUM": "f9dc015ca2d09cfc7f3357f56df4e64345f197e1e661cdfb51796c7fb4cefeba",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapRERAAKCRDDWOcNd+r/VDl5AP9Pr+uxF/XK8wDQ/zxgRfeOR8UGZnWI+QPmcxGB8C+UhQD/aDWz8HV5bj20Ot6nS1btgXhp0tEpCuK2n3PgF6pxzgc=",
+  "URL": "https://github.com/avrdudes/avrdude",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1788102104",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libelf",
+    "libusb",
+    "libhidapi",
+    "libftdi",
+    "readline",
+    "libserialport"
+  ],
+  "PROVIDES": [
+    "libavrdude.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

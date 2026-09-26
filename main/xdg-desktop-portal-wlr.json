@@ -1,0 +1,45 @@
+{
+  "FILENAME": "xdg-desktop-portal-wlr-0.8.3-1-riscv64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-wlr",
+  "BASE": "xdg-desktop-portal-wlr",
+  "VERSION": "0.8.3-1",
+  "DESC": "xdg-desktop-portal backend for wlroots",
+  "CSIZE": "47231",
+  "ISIZE": "90524",
+  "MD5SUM": "5ef58bced90a9d0b00baf468e37ac25c",
+  "SHA256SUM": "0dab4891c4ef5a5aa7c3e74d28f712af3ac504005eddc67dea6d93b4a474fe91",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakMrfQAKCRDDWOcNd+r/VCWcAQDBF9+Pc1bPwaa3wk5oQwPE2b8WOtLl4gLOxhqx51x7qwD8COjgLur5gX5rwP82wZmUDMkeahzU+WgqNm5egBO5NgY=",
+  "URL": "https://github.com/emersion/xdg-desktop-portal-wlr",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1782787101",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "basu",
+    "libdrm",
+    "libinih",
+    "libpipewire",
+    "mesa",
+    "pipewire",
+    "pipewire-session-manager",
+    "wayland",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "bemenu: to choose which output to screencast using bemenu",
+    "slurp: to choose which output to screencast using slurp",
+    "wofi: to choose which output to screencast using wofi"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "meson",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

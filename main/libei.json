@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libei-1.6.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libei",
+  "BASE": "libei",
+  "VERSION": "1.6.0-1",
+  "DESC": "Library for Emulated Input",
+  "CSIZE": "125937",
+  "ISIZE": "392204",
+  "MD5SUM": "9185a78f35a994f27b440752b5892bc6",
+  "SHA256SUM": "aecdb7444cf48f542799a5d107f1449fd0bd45b48be25eae26045d80e997ca46",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah0KUQAKCRDDWOcNd+r/VCh7AQDglcNglk1BvikbkGTJWT1DpthxNfMGTxgyIgzWzQJBdQD/fZmUOhu4TT7IcVU+a0nb7GIMw3vcph/buYgFCXwlOQ4=",
+  "URL": "https://libinput.pages.freedesktop.org/libei/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780288097",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libevdev",
+    "basu"
+  ],
+  "PROVIDES": [
+    "libei.so",
+    "libeis.so",
+    "liboeffis.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "libxkbcommon",
+    "meson",
+    "python-attrs",
+    "python-dbusmock",
+    "python-jinja",
+    "python-pytest",
+    "python-structlog",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

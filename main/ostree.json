@@ -1,0 +1,52 @@
+{
+  "FILENAME": "ostree-2026.4-1-riscv64.pkg.tar.zst",
+  "NAME": "ostree",
+  "BASE": "ostree",
+  "VERSION": "2026.4-1",
+  "DESC": "Operating system and container binary deployment and upgrades",
+  "CSIZE": "633657",
+  "ISIZE": "2282499",
+  "MD5SUM": "88f122fe21675f8bb50548a306aa85c5",
+  "SHA256SUM": "48456b8b58736dacaa7337a2f88848511b4be74f17566eb429bbd59ccc4d6256",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq+8ewAKCRDDWOcNd+r/VDvOAQCSk/vHuG2nYFIZf4Km6rZTQYNtIYvHp9uABh5SKcTafAD/ZeNowPuyZwGNR/DZO4ii8umLmOB+zqtZDtwFHG2gug0=",
+  "URL": "https://ostreedev.github.io/ostree/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1789902263",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "bash",
+    "composefs",
+    "fuse3",
+    "gpgme",
+    "libgpg-error",
+    "libsodium",
+    "util-linux",
+    "zlib",
+    "curl",
+    "glib",
+    "gpgme",
+    "libarchive",
+    "openssl",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libostree-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "e2fsprogs",
+    "git",
+    "glib",
+    "gobject-introspection",
+    "libarchive",
+    "libsoup3",
+    "linux-headers",
+    "openssl",
+    "python",
+    "xz"
+  ],
+  "REPO": "main"
+}

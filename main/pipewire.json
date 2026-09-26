@@ -1,0 +1,57 @@
+{
+  "FILENAME": "pipewire-1.6.9-1-riscv64.pkg.tar.zst",
+  "NAME": "pipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.6.9-1",
+  "DESC": "Low-latency audio/video router and processor",
+  "CSIZE": "2328917",
+  "ISIZE": "7446007",
+  "MD5SUM": "f181560fd51a4bad53b693e34b4e1068",
+  "SHA256SUM": "332115fa2de36260ff286e9e6a8ac13038ad3af85d21e6c42525215b376611ec",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq+hZQAKCRDDWOcNd+r/VJiEAQDneopyINAS4Za/XlpTWzorqBTS/s9nv+kuknotFOyOlgD9GMPQMb8BBQVcpewVDisHqBketmXpaV05a0jRddEOggU=",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1789895103",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libpipewire=:1.6.9-1",
+    "alsa-lib",
+    "dbus",
+    "ffmpeg",
+    "fftw",
+    "glib",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "dbus",
+    "doxygen",
+    "ffmpeg",
+    "glib",
+    "gstreamer-devel",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb",
+    "linux-headers",
+    "meson",
+    "fftw"
+  ],
+  "CHECKDEPENDS": [
+    "desktop-file-utils",
+    "openal"
+  ],
+  "REPO": "main"
+}
