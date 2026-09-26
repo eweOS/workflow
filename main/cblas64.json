@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cblas64-3.12.1-2-x86_64.pkg.tar.zst",
+  "NAME": "cblas64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-2",
+  "DESC": "C interface to BLAS (64-bit integers)",
+  "CSIZE": "47025",
+  "ISIZE": "195719",
+  "MD5SUM": "67f2ffaeb10da348a4821f1109fb2830",
+  "SHA256SUM": "535282586fb1c47b38476aeae5f5dd5f66462ee94443e6caae5f61b0552f1a4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7GrgAKCRDDWOcNd+r/VFN3AP46yg7+t0emSZMCYH98jjH4d4LuSH+2mznLUQVlO1cVnAD/U9M+qqid0X+unlXW5N7No7arJLtQdXjPnaiwMNCB1gA=",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779352921",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "blas64"
+  ],
+  "OPTDEPENDS": [
+    "cblas: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

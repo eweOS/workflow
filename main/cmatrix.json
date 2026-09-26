@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cmatrix-2.0-5-x86_64.pkg.tar.zst",
+  "NAME": "cmatrix",
+  "BASE": "cmatrix",
+  "VERSION": "2.0-5",
+  "DESC": "A curses-based scrolling 'Matrix'-like screen",
+  "CSIZE": "37192",
+  "ISIZE": "89713",
+  "MD5SUM": "a188b7111c3d7fac47646440565cfb5a",
+  "SHA256SUM": "13ad2c50863184dbb90a6bfb7c6cf601a3e695feb103119b781adf3549232b9e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag670gAKCRDDWOcNd+r/VGtVAQCtF5H15XQM7a3vR2RQtf4UHJuBEZ91c50mFn1KjJe1gQEAnZuHPWXLqmQLdNQUqwhBn4nEYvBtnmT6qp6d0nH+yAI=",
+  "URL": "https://www.asty.org/cmatrix/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779350478",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "ncurses"
+  ],
+  "OPTDEPENDS": [
+    "kbd: cmatrix-tty custom font",
+    "xterm: cmatrix-tty custom font"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

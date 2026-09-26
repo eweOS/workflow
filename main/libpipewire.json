@@ -1,0 +1,46 @@
+{
+  "FILENAME": "libpipewire-1.6.9-1-x86_64.pkg.tar.zst",
+  "NAME": "libpipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.6.9-1",
+  "DESC": "Low-latency audio/video router and processor - client library",
+  "CSIZE": "512235",
+  "ISIZE": "2076793",
+  "MD5SUM": "f978e5682c6af8800eccfd1b216a4980",
+  "SHA256SUM": "c37d7178025cdced51233e751c261a3a3ff4b50cdf820171090d935cf76a8399",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq+fTwAKCRDDWOcNd+r/VOJdAP0VutZtHBtRCs1pli/mESbFzvYJzHkBm/rxci5jde0yLAD/V39VjrSR+u0oo+ZRPDPgMS5SNuaolPqDy1coYqCPIws=",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1789894971",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "PROVIDES": [
+    "libpipewire-0.3.so"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "dbus",
+    "doxygen",
+    "ffmpeg",
+    "glib",
+    "gstreamer-devel",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb",
+    "linux-headers",
+    "meson",
+    "fftw"
+  ],
+  "CHECKDEPENDS": [
+    "desktop-file-utils",
+    "openal"
+  ],
+  "REPO": "main"
+}
