@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-21.1.8-1-x86_64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "34566113",
+  "ISIZE": "117206739",
+  "MD5SUM": "f7f35910ebb3ea74ba0fb28ffd2587f0",
+  "SHA256SUM": "2e5510b848a442e37d15a2448559b5be40c72818e3c5ba9874d6b0cc3ac8a336",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6BcQAKCRDDWOcNd+r/VG/xAQDsIS3ETLQOB0RmtZs5lg5QPW5lbcSN99UkoesCI2cS/wD+NqyIOufjUHW/Seefxi5AYGGioHOxpz7pY0Vm0u3qRQE=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1780380764",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

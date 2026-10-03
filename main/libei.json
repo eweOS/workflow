@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libei-1.6.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libei",
+  "BASE": "libei",
+  "VERSION": "1.6.0-1",
+  "DESC": "Library for Emulated Input",
+  "CSIZE": "115292",
+  "ISIZE": "363692",
+  "MD5SUM": "2f38a414d6e643bc831cd181faca13ff",
+  "SHA256SUM": "dd0699d17e642b3fa8126542177620fb2dbf43a2b5a27814a50da0c4c668f7d7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahzzSwAKCRDDWOcNd+r/VJAMAPoDhpCvNuR/D5MFK/Spe9v+mqu+preWxE7jKFweHEvGrAEAohDxTmdn+bwtgWJQ/Abnz0jctW/SbL5/yIcWLtHiPgU=",
+  "URL": "https://libinput.pages.freedesktop.org/libei/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1780282235",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libevdev",
+    "basu"
+  ],
+  "PROVIDES": [
+    "libei.so",
+    "libeis.so",
+    "liboeffis.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-headers",
+    "libxkbcommon",
+    "meson",
+    "python-attrs",
+    "python-dbusmock",
+    "python-jinja",
+    "python-pytest",
+    "python-structlog",
+    "python-yaml"
+  ],
+  "REPO": "main"
+}

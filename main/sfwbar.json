@@ -1,0 +1,48 @@
+{
+  "FILENAME": "sfwbar-1.0_beta17-2-x86_64.pkg.tar.zst",
+  "NAME": "sfwbar",
+  "BASE": "sfwbar",
+  "VERSION": "1.0_beta17-2",
+  "DESC": "S* Floating Window taskBar",
+  "CSIZE": "376849",
+  "ISIZE": "1248142",
+  "MD5SUM": "9989df1bd3ebdb715003a9c31f003d76",
+  "SHA256SUM": "9656e64573152576b2393e0230c94ba4e073cd5849bee3f5ac71d74ad9dc4b76",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag79fwAKCRDDWOcNd+r/VEVNAP4olCbutqwZ3+bEQZQxajz5cnAIEn6j+2YI+GWx7kJ3vQD+NvDLvw8dd/1WGfWko5Sqi4JavuRHU8fxnO0za33jYgg=",
+  "URL": "https://github.com/LBCrion/sfwbar",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779367276",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "musl",
+    "cairo",
+    "pango",
+    "glib",
+    "wayland",
+    "gtk3",
+    "json-c",
+    "gtk-layer-shell",
+    "wayland-protocols",
+    "libxkbcommon"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: ALSA audio volume control",
+    "libpulse: Pulseaudio volume control",
+    "libpipewire: Pipewire volume control",
+    "libmpdclient: music player daemon control",
+    "libxkbcommon: xkb layout conversion support"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libpulse",
+    "libmpdclient",
+    "alsa-lib",
+    "python-docutils",
+    "linux-headers",
+    "libpipewire"
+  ],
+  "REPO": "main"
+}
