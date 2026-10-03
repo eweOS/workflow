@@ -1,0 +1,39 @@
+{
+  "FILENAME": "librime-1.17.0-1-riscv64.pkg.tar.zst",
+  "NAME": "librime",
+  "BASE": "librime",
+  "VERSION": "1.17.0-1",
+  "DESC": "Rime Input Method Engine",
+  "CSIZE": "737836",
+  "ISIZE": "2315151",
+  "MD5SUM": "cb42b8fc175f8d38df42f6faaf7f46f7",
+  "SHA256SUM": "364e0213e8bef620e9cff5a70313bb1d7c6dbd3515cc445b525d2a10bfc1d369",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoPAhQAKCRDDWOcNd+r/VPzjAQDAFks7SBr1HTExO43uw71P5j2FaXuqIDtvMmvNn11GFgEAhpmDYL5gguMfOWSRZT9Hkt8rYiutWD5GU4EricDBvAA=",
+  "URL": "https://rime.im",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1787018909",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "boost-libs",
+    "leveldb",
+    "libmarisa",
+    "llvm-libs",
+    "musl",
+    "opencc",
+    "yaml-cpp"
+  ],
+  "PROVIDES": [
+    "librime.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen",
+    "googletest",
+    "ninja"
+  ],
+  "REPO": "main"
+}

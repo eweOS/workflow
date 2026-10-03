@@ -1,0 +1,52 @@
+{
+  "FILENAME": "libjxl-0.12.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libjxl",
+  "BASE": "libjxl",
+  "VERSION": "0.12.0-1",
+  "DESC": "JPEG XL image format reference implementation",
+  "CSIZE": "1439378",
+  "ISIZE": "4156492",
+  "MD5SUM": "d4f6c1576d93e36eab5139ec9419fe15",
+  "SHA256SUM": "92f542a99210183123d0d42b868e9788c41704854627dfc11bf1ef2fac2f81e3",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamrFcwAKCRDDWOcNd+r/VI0kAQDltVxeXoysKKzCXEPjD6Z1tJgyzSFj+T1ivnpD/G7JLQD2Kdofb19cENzx01MAAFPjYvdgr/rEpmYbRMeU4SG5BQ==",
+  "URL": "https://jpeg.org/jpegxl/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1785349761",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "brotli",
+    "giflib",
+    "highway",
+    "libjpeg-turbo",
+    "libpng"
+  ],
+  "PROVIDES": [
+    "libjxl.so",
+    "libjxl_cms.so",
+    "libjxl_threads.so"
+  ],
+  "OPTDEPENDS": [
+    "gdk-pixbuf2: for gdk-pixbuf loader",
+    "gimp: for gimp plugin",
+    "java-runtime: for JNI bindings"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "cmake",
+    "brotli",
+    "gdk-pixbuf2",
+    "giflib",
+    "highway",
+    "libjpeg-turbo",
+    "libpng",
+    "gtest",
+    "python",
+    "asciidoc",
+    "graphviz",
+    "xdg-utils"
+  ],
+  "REPO": "main"
+}

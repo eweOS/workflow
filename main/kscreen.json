@@ -1,0 +1,50 @@
+{
+  "FILENAME": "kscreen-6.5.5-3-riscv64.pkg.tar.zst",
+  "NAME": "kscreen",
+  "BASE": "kscreen",
+  "VERSION": "6.5.5-3",
+  "DESC": "KDE screen management software",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "1961744",
+  "ISIZE": "3325639",
+  "MD5SUM": "87832c1566b4b6a2be12613073f01269",
+  "SHA256SUM": "9c63b6957597153eafeb09df9ea33c4e845c35acc8580ade6fe205755aec119c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiGTMgAKCRDDWOcNd+r/VMhNAQC23SAV9/450TH5I3fPDEKfA2gZEb35OGv9rE0qED4lCgEAhcb99VFgtJe8xeGu73SkTwcEB5NHGCy7zhAvmmOsBgY=",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780585008",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "ki18n",
+    "kirigami",
+    "kitemmodels",
+    "ksvg",
+    "kwindowsystem",
+    "layer-shell-qt",
+    "libkscreen",
+    "libplasma",
+    "plasma5support",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-sensors",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-base-devel",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "libmm-glib-1.24.2-2-riscv64.pkg.tar.zst",
+  "NAME": "libmm-glib",
+  "BASE": "modemmanager",
+  "VERSION": "1.24.2-2",
+  "DESC": "ModemManager library",
+  "CSIZE": "804938",
+  "ISIZE": "7627255",
+  "MD5SUM": "c012c7937aa9a115e5d25c244c33e21e",
+  "SHA256SUM": "f8ef0dab4395cf804f0458dcf249fc93afdfd7c17f51cd576228aa8cf060cdc3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahIK6QAKCRDDWOcNd+r/VA9oAP0YOIyp2YU/awiM5ZD4CbKbmdiJeaA/8K6xUC7ZR5HxlgEAiqnrdGp0CpybqwOQCKUd0034caOfE8ELohrimVTQoQ0=",
+  "URL": "https://www.freedesktop.org/wiki/Software/ModemManager/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779566825",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "llvm-libs",
+    "glib2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libmm-glib.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash-completion",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus",
+    "python-gobject"
+  ],
+  "REPO": "main"
+}

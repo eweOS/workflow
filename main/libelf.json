@@ -1,0 +1,51 @@
+{
+  "FILENAME": "libelf-0.195-1-riscv64.pkg.tar.zst",
+  "NAME": "libelf",
+  "BASE": "libelf",
+  "VERSION": "0.195-1",
+  "DESC": "libelf is a free ELF object file access library (libraries)",
+  "CSIZE": "893687",
+  "ISIZE": "4103793",
+  "MD5SUM": "8446cbd26cae9ac9e45b6f935c960c75",
+  "SHA256SUM": "e87e3385dd7957ba4b8783827b6fea3483e52ed442e1fdf31f2ea6c71b434aa1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakIl0gAKCRDDWOcNd+r/VOkWAP93mNb2KPfGx3ps1e7hOGkBVzI8QNTpsoQ8mMWLhGbM2AD/dOq+xLpm/4KxqaU8byBQ43jncBHLpybkeWXC8PCSvwk=",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "LGPL-3.0-or-later OR GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1782719900",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "libbz2",
+    "xz",
+    "zlib",
+    "zstd",
+    "openssl",
+    "musl-fts",
+    "musl-obstack",
+    "libuargp"
+  ],
+  "PROVIDES": [
+    "libasm",
+    "libdebuginfod",
+    "libdw",
+    "libelf"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers",
+    "zstd",
+    "libbz2",
+    "openssl"
+  ],
+  "REPO": "main"
+}
