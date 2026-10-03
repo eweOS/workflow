@@ -1,0 +1,32 @@
+{
+  "FILENAME": "sbc-2.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "sbc",
+  "BASE": "sbc",
+  "VERSION": "2.1-1",
+  "DESC": "Bluetooth low-complexity, subband codec (SBC) library",
+  "CSIZE": "27232",
+  "ISIZE": "96170",
+  "MD5SUM": "9b347ff7aa8ace1fd1002e086b00affa",
+  "SHA256SUM": "2b88b6d328422abd1ad9e5d57d90f3d7ee8de44adef7059493e23a3fdf2f4a29",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq/w6gAKCRDDWOcNd+r/VEk/AP9ujonGHnMF1lk22m8C6ht2r2TNTqnfD5XHDRrlGHVoIQD/b8DC4W0lRd+N4t/Ye43Iv9EKVn9C/UBqp8S+66ShuAY=",
+  "URL": "https://git.kernel.org/pub/scm/bluetooth/sbc.git",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "LGPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1789915929",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libsndfile"
+  ],
+  "PROVIDES": [
+    "libsbc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

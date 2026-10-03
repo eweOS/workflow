@@ -1,0 +1,32 @@
+{
+  "FILENAME": "opencsg-1.8.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "opencsg",
+  "BASE": "opencsg",
+  "VERSION": "1.8.2-2",
+  "DESC": "OpenGL image-based CSG-rendering library",
+  "CSIZE": "84066",
+  "ISIZE": "270775",
+  "MD5SUM": "a7335a0d205647ca09ab797663af63da",
+  "SHA256SUM": "456ceb475eab420e48396aa8f4348bdc44ef83f65767374767400d9f4b317cc2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag9xRwAKCRDDWOcNd+r/VG1iAP9c5MpR6CO9K4tEy7pSMNgY1OM8onGdI0AhqbX/McpQlAD/VPGJHzaGyHGGdwEf8FPGbyUbi+gDem9jwj0hommk1AM=",
+  "URL": "https://opencsg.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779396919",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libglvnd"
+  ],
+  "PROVIDES": [
+    "libopencsg.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "glad"
+  ],
+  "REPO": "main"
+}

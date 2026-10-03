@@ -1,0 +1,36 @@
+{
+  "FILENAME": "gpgmepp-2.0.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "gpgmepp",
+  "BASE": "gpgmepp",
+  "VERSION": "2.0.0-2",
+  "DESC": "C++ bindings for GPGME",
+  "CSIZE": "143825",
+  "ISIZE": "539596",
+  "MD5SUM": "90168e19f5b62a0d03ee5f0703bda4fd",
+  "SHA256SUM": "aad991f03fa018410469dd85c2193a0d6b3183e66660efd9380e0cb12dd83b5c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag87KQAKCRDDWOcNd+r/VJBdAP40jMqzAlYGjBuTXJaWnfzWZs0x6IuNi1odc2cgUn5tgAD/WNh+47dWAHM9BjT1SbfDxO5VK6sXi5xh44XeJIDF6Qo=",
+  "URL": "https://gnupg.org/software/gpgme/index.html",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779383069",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "gpgme",
+    "libgpg-error"
+  ],
+  "CONFLICTS": [
+    "gpgme<2"
+  ],
+  "PROVIDES": [
+    "libgpgmepp.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

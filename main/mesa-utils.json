@@ -1,0 +1,48 @@
+{
+  "FILENAME": "mesa-utils-9.0.0.r70.g1c877d39-1-loongarch64.pkg.tar.zst",
+  "NAME": "mesa-utils",
+  "BASE": "mesa-demos",
+  "VERSION": "9.0.0.r70.g1c877d39-1",
+  "DESC": "Essential Mesa utilities",
+  "CSIZE": "196311",
+  "ISIZE": "749608",
+  "MD5SUM": "c6026e7a130d371815339dd7e1302e3f",
+  "SHA256SUM": "350f93923805471a205183a2f1d1f87eb8d40c06253f443834b10832d8ccf6c3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahAC5wAKCRDDWOcNd+r/VFzBAP9QnZbjGLmTtQtVLS1gteJwsEgTDbZemQxewjGfiUu0GwEA8SxQ0Ux2k7uKWRQE3yIHEC8bx8G5p6NfWtJzJtwHQQo=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779434189",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libgl",
+    "vulkan-icd-loader",
+    "wayland",
+    "libdrm",
+    "libxkbcommon",
+    "libdecor"
+  ],
+  "PROVIDES": [
+    "eglinfo",
+    "es2gears",
+    "eglgears"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libgl",
+    "glu",
+    "glslang",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "libdecor",
+    "wayland-protocols",
+    "wayland",
+    "libdrm",
+    "libxkbcommon",
+    "git",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

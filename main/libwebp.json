@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libwebp-1.6.0-3-loongarch64.pkg.tar.zst",
+  "NAME": "libwebp",
+  "BASE": "libwebp",
+  "VERSION": "1.6.0-3",
+  "DESC": "A library to encode and decode images in WebP format.",
+  "CSIZE": "407489",
+  "ISIZE": "1092573",
+  "MD5SUM": "d598e9940f2416caf9c42abeb0ae1ce9",
+  "SHA256SUM": "7093a032e3c1abb05294040267e6ac62b7e048cd71630bcb4ff3556aa96666fc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7A3wAKCRDDWOcNd+r/VJ2QAP49rMkYarvhqRj4SeoEZMLGsCeBadBiFOW52lvXqC+3ewEAyBqQeCcENjlscHYzTzJKrBvdZee2h/ytyngG44SNIws=",
+  "URL": "https://chromium.googlesource.com/webm/libwebp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779351765",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libjpeg",
+    "libpng",
+    "libtiff"
+  ],
+  "PROVIDES": [
+    "libwebp.so",
+    "libwebpdecoder.so",
+    "libwebpdemux.so",
+    "libwebpmux.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

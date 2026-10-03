@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libgudev-238-2-loongarch64.pkg.tar.zst",
+  "NAME": "libgudev",
+  "BASE": "libgudev",
+  "VERSION": "238-2",
+  "DESC": "GObject bindings for libudev",
+  "CSIZE": "29717",
+  "ISIZE": "172636",
+  "MD5SUM": "8585f8ea423b712fa6de57e5de9e5f7f",
+  "SHA256SUM": "ae770275da354d45d7a221f885e2c5cf9ac1665c4110297eb922ce2af0fc5262",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag+LfQAKCRDDWOcNd+r/VIxRAP90hYFO6A79TnxpHFKZ7gd4XoMcwH9hie2AlVl8njo5QQD/aW4d/QPkqJiYjXKMtW1wQZTfnGkfOyaKIq6dOCe8JwY=",
+  "URL": "https://gitlab.gnome.org/GNOME/libgudev",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779403639",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libudev-zero"
+  ],
+  "PROVIDES": [
+    "libgudev-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "gobject-introspection",
+    "gtk-doc",
+    "vala"
+  ],
+  "REPO": "main"
+}

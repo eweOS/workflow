@@ -1,0 +1,57 @@
+{
+  "FILENAME": "gtk4-4.24.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "gtk4",
+  "BASE": "gtk4",
+  "VERSION": "4.24.0-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "12714490",
+  "ISIZE": "52941966",
+  "MD5SUM": "f227582f31f9118338dc40a47e20d7f7",
+  "SHA256SUM": "d9cca9d2413f5e8c4406c3cd37580b1e1ab3e8f3f15acf2b1f7afbe01316ad93",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCasBNZwAKCRDDWOcNd+r/VEANAQD/fZNlYhbtPNEE/P9EztSqH5HmcqFc+UEm1CDJwl1+PgD/fLKKEn9OYKddIEYJDZZcQaTk2bjSKBAItka2ZMVPSwU=",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1790987489",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "cairo",
+    "libdrm",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "desktop-file-utils",
+    "librsvg",
+    "libcups",
+    "vulkan-icd-loader",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "glslang",
+    "lld",
+    "linux-headers",
+    "shaderc"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

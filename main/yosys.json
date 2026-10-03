@@ -1,0 +1,39 @@
+{
+  "FILENAME": "yosys-0.68-1-loongarch64.pkg.tar.zst",
+  "NAME": "yosys",
+  "BASE": "yosys",
+  "VERSION": "0.68-1",
+  "DESC": "An open framework for RTL synthesis tools",
+  "CSIZE": "16672755",
+  "ISIZE": "58735418",
+  "MD5SUM": "4223ed9d524ef5ba91b93b58cc3be04d",
+  "SHA256SUM": "60757eab8007ec05e853e17adf5e0e96c5ba7d3a25a86f81c1c54085f0bb50ae",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoAq7wAKCRDDWOcNd+r/VLnqAP4mOkSSYZzZygsa4+kvT7Y+Jeiboz3GYNRGbpBerosURwD+Jz84s5hckj66jiXK5BZLIa+NfzoHWCdYJdLOPBs/iQo=",
+  "URL": "https://yosyshq.net/yosys/",
+  "LICENSE": [
+    "ISC"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1786783860",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "abc",
+    "tcl",
+    "readline",
+    "slang",
+    "zlib-ng"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "cxxopts",
+    "git",
+    "googletest",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "iverilog"
+  ],
+  "REPO": "main"
+}

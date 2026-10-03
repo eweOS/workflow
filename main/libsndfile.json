@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libsndfile-1.2.2-5-loongarch64.pkg.tar.zst",
+  "NAME": "libsndfile",
+  "BASE": "libsndfile",
+  "VERSION": "1.2.2-5",
+  "DESC": "Library for reading and writing files containing sampled sound",
+  "CSIZE": "309324",
+  "ISIZE": "845735",
+  "MD5SUM": "40edd01c5e555cfb1746d6d6af17f8e6",
+  "SHA256SUM": "d8062061041c040102b95c075d8fefd25bee18052eb5b9246b7bc3d8719e7c78",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoaV6wAKCRDDWOcNd+r/VMvyAQCI4JlcCMDcQEp3SwWEdrXheJhNdP3cRqZY3/XmNL03fwD/Tpq0Hg3kRj9zi3w+dv6Le6nhMte9pJl8XDZttBNmig4=",
+  "URL": "https://libsndfile.github.io/libsndfile/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1787205473",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libflac",
+    "libogg",
+    "libvorbis",
+    "libopus"
+  ],
+  "PROVIDES": [
+    "libsndfile.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "autoconf",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
