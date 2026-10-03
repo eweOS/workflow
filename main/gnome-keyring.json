@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gnome-keyring-50.0-1-aarch64.pkg.tar.zst",
+  "NAME": "gnome-keyring",
+  "BASE": "gnome-keyring",
+  "VERSION": "50.0-1",
+  "DESC": "Stores passwords and encryption keys",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1027310",
+  "ISIZE": "4095823",
+  "MD5SUM": "2607cdd336499f86233181746664a8c8",
+  "SHA256SUM": "ce6a74f491967e72bd2c29af9ddcb778be7c2b182499da699f5600b6ff3f70bf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZgQQAKCRDDWOcNd+r/VDcCAQCBAPMNRKqeEztl+HnNaSsswp11g6ry8ridq8OEuKFcdQEApo22RiH8KR4FNGPQO1xyzXbnze6v+0lIBL5t6Qigagg=",
+  "URL": "https://gitlab.gnome.org/GNOME/gnome-keyring",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779851315",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "dconf",
+    "gcr-3",
+    "gcr-4",
+    "glib2",
+    "libgcrypt",
+    "pam",
+    "libcap-ng"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "glib2",
+    "meson",
+    "p11-kit",
+    "python",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

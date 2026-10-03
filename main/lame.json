@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lame-4.0-1-aarch64.pkg.tar.zst",
+  "NAME": "lame",
+  "BASE": "lame",
+  "VERSION": "4.0-1",
+  "DESC": "a high quality MP3 encoder licensed under the LGPL.",
+  "CSIZE": "301678",
+  "ISIZE": "999706",
+  "MD5SUM": "0bd98c2255a8a5712a9ad975eb35bb13",
+  "SHA256SUM": "f08032f648db1b85e35111479ee17e8705a28f055667a199b3b192ba68101eaa",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCap4WtgAKCRDDWOcNd+r/VGr6AQDBOvRr6fwMhecK5cbymvgS7eI9y2xLROUUrucM3YaGoQD+IrYjIwvFNDTLTLtw55TGniVK4PVgdYh2iYP0rkw0nQQ=",
+  "URL": "https://lame.sourceforge.io/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788745879",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "mpg123"
+  ],
+  "PROVIDES": [
+    "libmp3lame.so"
+  ],
+  "MAKEDEPENDS": [
+    "nasm",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

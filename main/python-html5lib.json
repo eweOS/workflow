@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-html5lib-1.1-4-any.pkg.tar.zst",
+  "NAME": "python-html5lib",
+  "BASE": "python-html5lib",
+  "VERSION": "1.1-4",
+  "DESC": "A Python HTML parser/tokenizer based on the WHATWG HTML5 spec",
+  "CSIZE": "312945",
+  "ISIZE": "1735832",
+  "MD5SUM": "fd3539adc5b413904c5ddb97db6dd0f5",
+  "SHA256SUM": "19b77d68f75ad7142b151d28cd47653c2a1bf2b7910bc96c32310af0b9fa8f14",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag/SVQAKCRDDWOcNd+r/VF8CAQDIh/1M7u8A6Cn8YUXRVje+uRaIqkIItjH953GWztGmqgEA2JxhssOzxAlT5pIGoeUUdalx5gWNzmc8pMUDbPcvEgc=",
+  "URL": "https://github.com/html5lib",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779421788",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "python-six",
+    "python-webencodings"
+  ],
+  "OPTDEPENDS": [
+    "python-lxml: lxml treebuilder",
+    "python-genshi: genshi treewalker"
+  ],
+  "MAKEDEPENDS": [
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-expect",
+    "python-lxml"
+  ],
+  "REPO": "main"
+}

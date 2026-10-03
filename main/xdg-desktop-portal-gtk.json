@@ -1,0 +1,40 @@
+{
+  "FILENAME": "xdg-desktop-portal-gtk-1.15.3-2-aarch64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-gtk",
+  "BASE": "xdg-desktop-portal-gtk",
+  "VERSION": "1.15.3-2",
+  "DESC": "A backend implementation for xdg-desktop-portal using GTK",
+  "CSIZE": "120301",
+  "ISIZE": "437255",
+  "MD5SUM": "034bebf2f48618a91913bfe4eab73557",
+  "SHA256SUM": "3e263b52c2d145dcf08d8e2e764aebc2181ff89180573c15e48d2dbaa2901422",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8kgwAKCRDDWOcNd+r/VA6gAPwOPtXponnbHdvd0uCdgh2pkPQ76EI4CpFHVPsMiOTJxwEA9PjqWksZEfK68wqOymIcrzBxrVtiGwcNG6DkCXY4Kwc=",
+  "URL": "https://github.com/flatpak/xdg-desktop-portal-gtk",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779377251",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "fontconfig",
+    "gdk-pixbuf2",
+    "glib2",
+    "gsettings-desktop-schemas",
+    "gtk3",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "evince: Print preview"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "python",
+    "python-packaging"
+  ],
+  "REPO": "main"
+}

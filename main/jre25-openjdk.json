@@ -1,0 +1,57 @@
+{
+  "FILENAME": "jre25-openjdk-25.0.4.u4-1-aarch64.pkg.tar.zst",
+  "NAME": "jre25-openjdk",
+  "BASE": "java25-openjdk",
+  "VERSION": "25.0.4.u4-1",
+  "DESC": "OpenJDK Java 25 runtime environment",
+  "CSIZE": "49433226",
+  "ISIZE": "186046126",
+  "MD5SUM": "def97309e9ae933066c53c5f45ef2af7",
+  "SHA256SUM": "a229c0622aa250d26d9e0a5f03e8b72c1d91431b44fab0163daafe88dfe776be",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaipx/QAKCRDDWOcNd+r/VNgtAPsECd2lePqYoAb3J4XLpDrCorKYF/In5NH/D9SMqEqqsgD+L/bHcZsMIZo3g0mtHFuM6U0YNYlEeEgTlxhPbhYn4QA=",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1781165677",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common"
+  ],
+  "CONFLICTS": [
+    "jdk25-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=25",
+    "java-runtime-openjdk=25",
+    "jre25-openjdk=25.0.4.u4-1"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: open links e.g. hyperlinks"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=24",
+    "java-environment<26",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
