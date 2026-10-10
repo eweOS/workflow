@@ -1,0 +1,33 @@
+{
+  "FILENAME": "network-manager-applet-1.36.0-3-loongarch64.pkg.tar.zst",
+  "NAME": "network-manager-applet",
+  "BASE": "network-manager-applet",
+  "VERSION": "1.36.0-3",
+  "DESC": "Applet for managing network connections",
+  "CSIZE": "149578",
+  "ISIZE": "559593",
+  "MD5SUM": "26309eb7aed37c98054e6b3362c3689b",
+  "SHA256SUM": "ff0b5a0d9c13c21686d4cb9d9563eca24391cdc826fdb1f06c9b70420f336fa3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahBBHQAKCRDDWOcNd+r/VA6UAQDVxEEWUG84p/Ff16zbaMsa5bS0qQ0Kyj7DEUd9F4pz0wD8D0dmx2wURMVB/2gCmuAMwQ3v93H1BvyoSnhlEIMBpAc=",
+  "URL": "https://gitlab.gnome.org/GNOME/network-manager-applet",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779450075",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libnma",
+    "libsecret",
+    "networkmanager",
+    "nm-connection-editor"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "linux-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-declarative-6.11.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-declarative",
+  "BASE": "qt6-declarative",
+  "VERSION": "6.11.1-1",
+  "DESC": "Classes for QML and JavaScript languages",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "21020306",
+  "ISIZE": "112038965",
+  "MD5SUM": "f5a083b66e1796c0569783745072fc8b",
+  "SHA256SUM": "606b269bfc896505068c9730902b0df61a9d2d52ab80128808d18890bc428b0c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiEwdQAKCRDDWOcNd+r/VIXXAQD2ZENc8sCP0NvHKpn3LLHEvVcAz8VNjWQgr0/+zUjwzgEA6dYIndqInIW6BbxyG8iPlIEkRSR95VHqYzkfDHuIFAo=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780558208",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-svg: for QtQuickVectorImage and svgtoqml"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "python",
+    "vulkan-headers",
+    "qt6-shadertools",
+    "qt6-languageserver-devel",
+    "qt6-base-devel",
+    "qt6-svg-devel"
+  ],
+  "REPO": "main"
+}

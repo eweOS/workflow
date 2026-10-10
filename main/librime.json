@@ -1,0 +1,39 @@
+{
+  "FILENAME": "librime-1.17.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "librime",
+  "BASE": "librime",
+  "VERSION": "1.17.0-1",
+  "DESC": "Rime Input Method Engine",
+  "CSIZE": "723452",
+  "ISIZE": "2613791",
+  "MD5SUM": "09eb7045187cb304a585f53b9d525f72",
+  "SHA256SUM": "eb6768ca9c9871292b44f6275110d421840750f88edb91814f1860129d7bf223",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoO7+QAKCRDDWOcNd+r/VE6IAP9MGRjtS92NhFm3K4Pj1EkDdMvQlNdIoLV433A99nViXQD8DLeOYRkuuWPoP6vXcLIFADi2aYyXu2bhho525sF9DQw=",
+  "URL": "https://rime.im",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1787018481",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "boost-libs",
+    "leveldb",
+    "libmarisa",
+    "llvm-libs",
+    "musl",
+    "opencc",
+    "yaml-cpp"
+  ],
+  "PROVIDES": [
+    "librime.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen",
+    "googletest",
+    "ninja"
+  ],
+  "REPO": "main"
+}
