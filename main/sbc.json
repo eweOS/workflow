@@ -1,0 +1,32 @@
+{
+  "FILENAME": "sbc-2.1-1-aarch64.pkg.tar.zst",
+  "NAME": "sbc",
+  "BASE": "sbc",
+  "VERSION": "2.1-1",
+  "DESC": "Bluetooth low-complexity, subband codec (SBC) library",
+  "CSIZE": "28118",
+  "ISIZE": "81810",
+  "MD5SUM": "8a9a0d87796a20ed8d73f661a0ccfa65",
+  "SHA256SUM": "a2e7844834caaada10fc8b3a539da96e786cb07bedc9c0417fde7a75f5e6507a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq/w9gAKCRDDWOcNd+r/VElzAQDoNrl6vYD4gt9X+y5tl4YM1YqGKhQ0rbYn7OidLYje9gD/bXwpBDzBdh9/9GB/Bzp8MY1/MK64YGXUz9SAbC/6uAs=",
+  "URL": "https://git.kernel.org/pub/scm/bluetooth/sbc.git",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "LGPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1789915937",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libsndfile"
+  ],
+  "PROVIDES": [
+    "libsbc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

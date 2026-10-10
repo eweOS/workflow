@@ -1,0 +1,33 @@
+{
+  "FILENAME": "ca-certificates-utils-20240618-2-any.pkg.tar.zst",
+  "NAME": "ca-certificates-utils",
+  "BASE": "ca-certificates",
+  "VERSION": "20240618-2",
+  "DESC": "Common CA certificates (utilities)",
+  "CSIZE": "4261",
+  "ISIZE": "3708",
+  "MD5SUM": "010461a59214b578e046176adfaf3ee6",
+  "SHA256SUM": "2928ca8625d6998f947a1903be621a6c259fc0dac240819b650d48ef0e04ad35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag6z9gAKCRDDWOcNd+r/VDRBAQCo1fCGB8VMfejFs6UFAwJ0M5vKO0R9kiQ0wNzxakkgogEAp1b0sxNnaNEwquY0qlJ05ITXmxsCxh1f9fdNFYJ/5w8=",
+  "URL": "https://src.fedoraproject.org/rpms/ca-certificates",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779348475",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "bash",
+    "p11-kit>=0.24.0",
+    "symlinks"
+  ],
+  "PROVIDES": [
+    "ca-certificates",
+    "ca-certificates-java"
+  ],
+  "MAKEDEPENDS": [
+    "asciidoc",
+    "p11-kit"
+  ],
+  "REPO": "main"
+}

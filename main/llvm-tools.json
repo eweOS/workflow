@@ -1,0 +1,50 @@
+{
+  "FILENAME": "llvm-tools-21.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "llvm-tools",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "LLVM binary and object tools",
+  "CSIZE": "26266065",
+  "ISIZE": "82024868",
+  "MD5SUM": "1108cace05f3507ba70063827ae41aa9",
+  "SHA256SUM": "141615353e71eba26c4d5d9b9ddc4658f1484068d0c50d27b8f8d081ee4c9a8c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6F5wAKCRDDWOcNd+r/VLx+AP9JfBaFxCxPORlE9Vjp7RV94sJDOZ49WCpO6hgdRJC/fQD/Sz0DnR6xlkUoFmBat5exicPy8Pk5wlLWGOqGmFjHdg4=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780380776",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "binutils"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "CONFLICTS": [
+    "binutils"
+  ],
+  "PROVIDES": [
+    "binutils"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

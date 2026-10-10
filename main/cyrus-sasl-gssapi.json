@@ -1,0 +1,34 @@
+{
+  "FILENAME": "cyrus-sasl-gssapi-2.1.28-6-aarch64.pkg.tar.zst",
+  "NAME": "cyrus-sasl-gssapi",
+  "BASE": "cyrus-sasl",
+  "VERSION": "2.1.28-6",
+  "DESC": "GSSAPI authentication mechanism for Cyrus SASL",
+  "CSIZE": "26732",
+  "ISIZE": "60930",
+  "MD5SUM": "647f4724cd8ade30ef719b0e3508f1f0",
+  "SHA256SUM": "24d78086749188cf686a4fbe88d168e7e7c83c077b2ec6e7ddfef2fd6602ce74",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag633AAKCRDDWOcNd+r/VFNNAP9Vc3TCsjHHl7Hfu4l6JAIks2J9w7ZR2XEmymDUSQVNmQD+MBdPnXrHyB4amZo0ItyduuuSm1xy6DmbsEJKKv5rzQg=",
+  "URL": "https://www.cyrusimap.org/sasl/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779349394",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "REPLACES": [
+    "cyrus-sasl-plugins"
+  ],
+  "DEPENDS": [
+    "krb5",
+    "libsasl=2.1.28"
+  ],
+  "MAKEDEPENDS": [
+    "gdbm",
+    "krb5",
+    "libldap",
+    "openssl",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

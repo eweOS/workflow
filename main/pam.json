@@ -1,0 +1,37 @@
+{
+  "FILENAME": "pam-1.7.1-2-aarch64.pkg.tar.zst",
+  "NAME": "pam",
+  "BASE": "pam",
+  "VERSION": "1.7.1-2",
+  "DESC": "PAM (Pluggable Authentication Modules) library",
+  "CSIZE": "201297",
+  "ISIZE": "615143",
+  "MD5SUM": "c0c025a40df0b7c2fb948f4da1290454",
+  "SHA256SUM": "38257512252247319efa5530553711097f42d2b34fb5f681ee4192928187aed1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7pfgAKCRDDWOcNd+r/VKCoAP4wzDovnqF1WolIgYHUohmK7vSSte3KVy38q3tc+lHO9QEA4+Sn3Qn26jLMHOdm02B86g8xYcwNXRYCNWOtxpnfFws=",
+  "URL": "http://linux-pam.org",
+  "LICENSE": [
+    "GPL-2.0-or-later OR BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779362157",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libxcrypt",
+    "utmps",
+    "pambase"
+  ],
+  "PROVIDES": [
+    "libpam.so",
+    "libpamc.so",
+    "libpam_misc.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "linux-headers",
+    "meson",
+    "git"
+  ],
+  "REPO": "main"
+}

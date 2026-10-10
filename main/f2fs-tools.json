@@ -1,0 +1,33 @@
+{
+  "FILENAME": "f2fs-tools-1.16.0-1-aarch64.pkg.tar.zst",
+  "NAME": "f2fs-tools",
+  "BASE": "f2fs-tools",
+  "VERSION": "1.16.0-1",
+  "DESC": "Userland tools for the f2fs filesystem",
+  "CSIZE": "218501",
+  "ISIZE": "502440",
+  "MD5SUM": "94addbc479facbd5ae29adbaaa748037",
+  "SHA256SUM": "e7618af8f08784ac5152ebd3a4915335f7365aae035390c7da6ab8e55c479821",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanXK7AAKCRDDWOcNd+r/VLBFAQD4qxHxkhLQ4qpY8MeRI8MaiP2Yv4kn5386SzNdhmPYJgEAzxCCJhOI8ztR4zAA9jt59NWaNZPD8VIimvoDmbusxQE=",
+  "URL": "https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/about",
+  "LICENSE": [
+    "GPL-2.0-only AND (GPL-2.0-only OR LGPL-2.1-only)"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786104900",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "lz4",
+    "musl",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libf2fs.so",
+    "libf2fs_format.so"
+  ],
+  "MAKEDEPENDS": [
+    "bsd-compat-headers",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

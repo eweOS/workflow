@@ -1,0 +1,50 @@
+{
+  "FILENAME": "ghostscript-10.07.1-1-aarch64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.07.1-1",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21523930",
+  "ISIZE": "44852086",
+  "MD5SUM": "3ae9bf7c285dfb18d63d9270a16e35c0",
+  "SHA256SUM": "31d45eff0196e70e0e64e62d8f10b88c78050781beed08586d850a7627ea5afe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZfLgAKCRDDWOcNd+r/VA7aAQDHIjHC6C0UeaBhelySyELt7Rr+tAJYdRIo9MapMxWboAEAtVh4B8vAA/IS1q9bc9hOBaD9m9mmXrJoCHFQ2QfSgAQ=",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779850953",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "REPLACES": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

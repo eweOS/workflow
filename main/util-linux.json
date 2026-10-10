@@ -1,0 +1,42 @@
+{
+  "FILENAME": "util-linux-2.42-1-aarch64.pkg.tar.zst",
+  "NAME": "util-linux",
+  "BASE": "util-linux",
+  "VERSION": "2.42-1",
+  "DESC": "Miscellaneous system utilities for Linux",
+  "CSIZE": "1263478",
+  "ISIZE": "4061289",
+  "MD5SUM": "0f1c6471963fd6c7bc7b229c0a750c30",
+  "SHA256SUM": "9967b98fa3af929a58908e149a84d43292196240dca13248933227910796f14b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakeyDQAKCRDDWOcNd+r/VFEwAQDdBdGcfP2ewd7mYmAeoHCdreODDVZSqllkZrkYO366eAD/QyUkQwllDLZ1M8rbA+9OdQ8NCMzJqyaDcbNCcpwfjwA=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1783083691",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "util-linux-libs",
+    "pam",
+    "libudev",
+    "utmps"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers",
+    "utmps"
+  ],
+  "REPO": "main"
+}
