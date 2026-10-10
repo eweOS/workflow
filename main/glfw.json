@@ -1,0 +1,34 @@
+{
+  "FILENAME": "glfw-1:3.4-1-riscv64.pkg.tar.zst",
+  "NAME": "glfw",
+  "BASE": "glfw",
+  "VERSION": "1:3.4-1",
+  "DESC": "A free, open source, portable framework for graphical application development",
+  "CSIZE": "141452",
+  "ISIZE": "554953",
+  "MD5SUM": "628bd0ad9f4535368b1600533563d042",
+  "SHA256SUM": "f077269e410f1d5cb77839ab426a18b9118ebb7e63f70511ebdcd5ed5d808c4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahOQWAAKCRDDWOcNd+r/VBPAAQDhnm3+RDxao+W6cAyavwRJ/KbkT1XV0nbD04QTDaob5AEAktAFPakYq+IaUda3QTiuzw/DpdMLPrBqxOOM0k8G2Ag=",
+  "URL": "https://www.glfw.org/",
+  "LICENSE": [
+    "custom:ZLIB"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779666971",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libgl",
+    "libxkbcommon",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "mesa",
+    "cmake",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "extra-cmake-modules",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

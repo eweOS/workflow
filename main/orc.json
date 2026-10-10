@@ -1,0 +1,32 @@
+{
+  "FILENAME": "orc-0.4.42-4-riscv64.pkg.tar.zst",
+  "NAME": "orc",
+  "BASE": "orc",
+  "VERSION": "0.4.42-4",
+  "DESC": "Optimized Inner Loop Runtime Compiler",
+  "CSIZE": "405952",
+  "ISIZE": "1330865",
+  "MD5SUM": "db970397fdd206c3073ba6921c93a99a",
+  "SHA256SUM": "336abc3a6454629fb9bd3d097f38a77344c468e3b55dad0713edccd3ee75ec97",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahFVxwAKCRDDWOcNd+r/VGyMAQCT+RCWxJJiOnhkAOZFrpuOTUb1dSb/tDXFGPLWJmQxBAD/dVTFUXIgvyGcCB7fROTwRJeJ+JlQ/NO2UfzlUmrtxgo=",
+  "URL": "https://gstreamer.freedesktop.org/modules/orc.html",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779520913",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liborc-0.4.so",
+    "liborc-test-0.4.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers",
+    "meson"
+  ],
+  "REPO": "main"
+}

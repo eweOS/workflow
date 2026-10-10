@@ -1,0 +1,32 @@
+{
+  "FILENAME": "connman-2.0-2-riscv64.pkg.tar.zst",
+  "NAME": "connman",
+  "BASE": "connman",
+  "VERSION": "2.0-2",
+  "DESC": "Intel's modular network connection manager",
+  "CSIZE": "566699",
+  "ISIZE": "1300990",
+  "MD5SUM": "e00831242e5cf50f8fdc8a4d9527b69c",
+  "SHA256SUM": "de0c9fcac8f5acd217dd2ecf4bc78540c755b4dff98247de56acdcdbaf58802d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahLkmAAKCRDDWOcNd+r/VEqoAP9wZsXhrBPB0PNFhL7q7IyS3e3CBYgy/DEN4FZll8wRXgEAkIP46euN3+/6Ad2GHls8WMqgCn78dpy08D0jq+AHJgw=",
+  "URL": "https://01.org/connman",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779622965",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "dbus",
+    "glib",
+    "nftables"
+  ],
+  "OPTDEPENDS": [
+    "wpa_supplicant: for wireless network support"
+  ],
+  "MAKEDEPENDS": [
+    "wpa_supplicant",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

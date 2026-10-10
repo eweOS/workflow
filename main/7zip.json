@@ -1,0 +1,35 @@
+{
+  "FILENAME": "7zip-26.03-1-riscv64.pkg.tar.zst",
+  "NAME": "7zip",
+  "BASE": "7zip",
+  "VERSION": "26.03-1",
+  "DESC": "Command-line file archiver with high compression ratio",
+  "CSIZE": "2066263",
+  "ISIZE": "5326482",
+  "MD5SUM": "0eaacaaa224c14058413d2470affc143",
+  "SHA256SUM": "0d8a74d7054c5dccb304fa603bec1f649d29298f0d7ae867593a6a2ba3c2dbb5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaq+lgQAKCRDDWOcNd+r/VIIKAQDE5cBGKrlB/caJTRLFQkrRC+2oPO9CB72eQmdjfcGbzAEAtc2I+ETRO0SqiNVQIUC6BPacHjYPfgBUbyVfvZg7bQo=",
+  "URL": "https://7-zip.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "BSD-3-Clause",
+    "custom:unRAR"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1789896319",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "REPLACES": [
+    "p7zip"
+  ],
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "CONFLICTS": [
+    "p7zip"
+  ],
+  "PROVIDES": [
+    "p7zip"
+  ],
+  "REPO": "main"
+}

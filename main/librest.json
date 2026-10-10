@@ -1,0 +1,45 @@
+{
+  "FILENAME": "librest-0.10.2-2-riscv64.pkg.tar.zst",
+  "NAME": "librest",
+  "BASE": "librest",
+  "VERSION": "0.10.2-2",
+  "DESC": "Library for accessing RESTful web services",
+  "CSIZE": "85325",
+  "ISIZE": "420169",
+  "MD5SUM": "9580e8dfa45aa951cd5568014679baca",
+  "SHA256SUM": "33d1bd99fbbe9edd9ced420b93f4c353153fa99c8e302cdc043c71cc985a5ecb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZNhgAKCRDDWOcNd+r/VADqAQD4luHg3RcZPHqvYPFBI3099l9NsjEsyloZ0m9x36z7MwD/R060EnSCIk2x12E+bzwnAhune+O4Vs3CWDmu0w/7Qg0=",
+  "URL": "https://gitlab.gnome.org/GNOME/librest",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779846434",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "glib2",
+    "libxml2",
+    "libsoup3",
+    "json-glib",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so",
+    "libxml2.so",
+    "libsoup-3.0.so",
+    "libjson-glib-1.0.so"
+  ],
+  "PROVIDES": [
+    "librest-1.0.so",
+    "librest-extras-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "git",
+    "meson",
+    "gi-docgen",
+    "vala",
+    "libadwaita",
+    "gtksourceview5"
+  ],
+  "REPO": "main"
+}

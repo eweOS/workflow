@@ -1,0 +1,31 @@
+{
+  "FILENAME": "wl-clipboard-2.3.0-2-riscv64.pkg.tar.zst",
+  "NAME": "wl-clipboard",
+  "BASE": "wl-clipboard",
+  "VERSION": "2.3.0-2",
+  "DESC": "Command-line copy/paste utilities for Wayland",
+  "CSIZE": "36716",
+  "ISIZE": "119471",
+  "MD5SUM": "a6d7349b17e1ed43a07fc66d78475032",
+  "SHA256SUM": "94fd88897d5f9a30452f31451ef68ab31f1a7d319fbe663d0caf9119af49f957",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahKAjQAKCRDDWOcNd+r/VDJ6AP42NmUzUaapLJ30Xu7R8fjCq1fjesFryAX0IiYSXPNxOQEAoKGT0l9D1rWb3qFMoE0KdpNq5GIq1D8iteVUvYX88wg=",
+  "URL": "https://github.com/bugaevc/wl-clipboard",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779597448",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "xdg-utils: for content type inference in wl-copy",
+    "mailcap: for type inference in wl-paste"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}
