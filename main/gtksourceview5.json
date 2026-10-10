@@ -1,0 +1,52 @@
+{
+  "FILENAME": "gtksourceview5-5.22.0-1-x86_64.pkg.tar.zst",
+  "NAME": "gtksourceview5",
+  "BASE": "gtksourceview5",
+  "VERSION": "5.22.0-1",
+  "DESC": "A text widget adding syntax highlighting and more to GNOME",
+  "CSIZE": "1231181",
+  "ISIZE": "5733350",
+  "MD5SUM": "85920b44e374525b6fdaff0cee4c5ead",
+  "SHA256SUM": "2e5648e23f29da6f1f7e5f66b7134707562f3c3666be6570db5bb2f797ef904b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCarj9zQAKCRDDWOcNd+r/VHLZAQCpEKUhcsQlteKoGWnW2fSWnowBEeCSCYVV0vDxt4hS7gD9HKgxyzx+EBEmjdG68JLXQ5B5DL5AppvZ2/mkE4v2ngA=",
+  "URL": "https://wiki.gnome.org/Projects/GtkSourceView",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1790508483",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "REPLACES": [
+    "gtksourceview"
+  ],
+  "DEPENDS": [
+    "cairo",
+    "fontconfig",
+    "fribidi",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk4",
+    "hicolor-icon-theme",
+    "libxml2",
+    "pango",
+    "pcre2"
+  ],
+  "CONFLICTS": [
+    "gtksourceview"
+  ],
+  "PROVIDES": [
+    "gtksourceview",
+    "libgtksourceview-5.so",
+    "libgtksourceview-5.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "gobject-introspection",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

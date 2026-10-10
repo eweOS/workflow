@@ -1,0 +1,41 @@
+{
+  "FILENAME": "kaccounts-integration-25.04.1-1-x86_64.pkg.tar.zst",
+  "NAME": "kaccounts-integration",
+  "BASE": "kaccounts-integration",
+  "VERSION": "25.04.1-1",
+  "DESC": "Online account management system and its Plasma integration components",
+  "CSIZE": "161745",
+  "ISIZE": "550947",
+  "MD5SUM": "cb1cd622600a2ca4ede0323db8169365",
+  "SHA256SUM": "e9369e916f126a64f330aa698c9351a11031ba3f4ea8ca423614ebf6d974d000",
+  "PGPSIG": "iF4EABYCAAYFAmg//q0ACgkQw1jnDXfq/1RiZwD+JZ8M1P3dTxKUuLYMZGc53b3yoHv3yidVOWfl1vxd1G8A/R9Eak9QZegDEqbAMIjQinIL645CqRcDDcvMgjHa/j0J",
+  "URL": "https://www.kde.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1749024794",
+  "PACKAGER": "eweos-x8664-worker2 <eweos-x8664-worker2@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "ki18n",
+    "kio",
+    "kirigami",
+    "kwallet",
+    "libaccounts-qt",
+    "qt6-base",
+    "signond"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML plugin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "qcoro"
+  ],
+  "REPO": "testing"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "pam-1.7.1-2-x86_64.pkg.tar.zst",
+  "NAME": "pam",
+  "BASE": "pam",
+  "VERSION": "1.7.1-2",
+  "DESC": "PAM (Pluggable Authentication Modules) library",
+  "CSIZE": "200402",
+  "ISIZE": "595831",
+  "MD5SUM": "252d58392a3a0d61e8cd5cdda3b7a432",
+  "SHA256SUM": "527d68c19232dd096ed68619f23c65bb820e3f55f91849f09f04c31fe19281cf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7qJAAKCRDDWOcNd+r/VB+4AP4pRYTT3/8y6u+XjofkLdk6trynVjePagLeX92f5IviBAD/bFtMHdEJMjICcZCYlxYQvNftQYQ8mE59o8F7LaZbfwc=",
+  "URL": "http://linux-pam.org",
+  "LICENSE": [
+    "GPL-2.0-or-later OR BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779362318",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libxcrypt",
+    "utmps",
+    "pambase"
+  ],
+  "PROVIDES": [
+    "libpam.so",
+    "libpamc.so",
+    "libpam_misc.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "linux-headers",
+    "meson",
+    "git"
+  ],
+  "REPO": "main"
+}
