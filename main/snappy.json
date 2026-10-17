@@ -1,0 +1,35 @@
+{
+  "FILENAME": "snappy-1.2.2-2-riscv64.pkg.tar.zst",
+  "NAME": "snappy",
+  "BASE": "snappy",
+  "VERSION": "1.2.2-2",
+  "DESC": "A fast compressor/decompressor library",
+  "CSIZE": "37069",
+  "ISIZE": "82239",
+  "MD5SUM": "d8e0f24d12fa8960fd350e769203ab97",
+  "SHA256SUM": "3f064014e0c20ae8a32c22f7f479411bcafdcf2b89982791a59d394ac850c7b4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahEkKgAKCRDDWOcNd+r/VH4iAQDjMf0jaZDUzBbTxi8um4MlHKemc5lPuzbPusM8Hh/KiwD+Ld2YAtVPXponsM8jreZXxtzcJkuIpuEvbny91rJCIgM=",
+  "URL": "https://github.com/google/snappy",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779508176",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libsnappy.so"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "cmake",
+    "gtest"
+  ],
+  "CHECKDEPENDS": [
+    "zlib"
+  ],
+  "REPO": "main"
+}

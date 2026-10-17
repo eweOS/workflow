@@ -1,0 +1,45 @@
+{
+  "FILENAME": "sdl3-3.4.14-2-riscv64.pkg.tar.zst",
+  "NAME": "sdl3",
+  "BASE": "sdl3",
+  "VERSION": "3.4.14-2",
+  "DESC": "A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 3)",
+  "CSIZE": "1672191",
+  "ISIZE": "6244085",
+  "MD5SUM": "9384a7ab5b995eb536f31972ccd39b78",
+  "SHA256SUM": "c1fb827d3f738fc69aa5d73028730bb9ed244f870147f0892f3e837df7082ba0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanlbsgAKCRDDWOcNd+r/VCvsAQDycN8T7S4JdTq8++YQgxQ00UnprIOTyLxlnHxd0e3ODwD/fDc725xgQOyqUxjpDlqDe2da/HNCjBUyXyW6MMD9Swk=",
+  "URL": "https://www.libsdl.org",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1786338382",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "mesa"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: ALSA audio driver",
+    "libpulse: PulseAudio audio driver",
+    "pipewire: PipeWire audio driver",
+    "vulkan-driver: vulkan renderer",
+    "libdecor: Wayland client decorations"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "mesa",
+    "libpulse",
+    "wayland",
+    "libxkbcommon",
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "pipewire",
+    "linux-headers",
+    "libdecor",
+    "vulkan-headers",
+    "cmake"
+  ],
+  "REPO": "main"
+}

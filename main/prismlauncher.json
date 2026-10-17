@@ -1,0 +1,47 @@
+{
+  "FILENAME": "prismlauncher-11.0.3-1-riscv64.pkg.tar.zst",
+  "NAME": "prismlauncher",
+  "BASE": "prismlauncher",
+  "VERSION": "11.0.3-1",
+  "DESC": "Minecraft launcher with ability to manage multiple instances.",
+  "CSIZE": "5469320",
+  "ISIZE": "12986173",
+  "MD5SUM": "fe89e0c5cbaa6551b2cbdb6262efaea5",
+  "SHA256SUM": "2fc041859d48799313ec6c168ba15723e93c4f61d2ed9889c968f091e962dd9f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalnYQwAKCRDDWOcNd+r/VKBoAQDdhZyZrTih5U64qgDf6WaKrRUDU0sdDWRhH5NEu9SwRAEAzsM5BPbLOt1CvXQ2UErxa0JlihBJKDTTiYVzkUcgIw0=",
+  "URL": "https://prismlauncher.org",
+  "LICENSE": [
+    "GPL-3.0-only AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND Apache-2.0 AND MIT AND LicenseRef-Batch AND OFL-1.1"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784271252",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "java-runtime",
+    "qt6-base",
+    "qt6-svg",
+    "qt6-imageformats",
+    "qt6-networkauth",
+    "qt6-5compat",
+    "zlib",
+    "hicolor-icon-theme",
+    "tomlplusplus",
+    "cmark",
+    "qrencode"
+  ],
+  "OPTDEPENDS": [
+    "glfw: to use system GLFW libraries",
+    "openal: to use system OpenAL libraries",
+    "visualvm: Profiling support"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment=25",
+    "cmake",
+    "extra-cmake-modules",
+    "git",
+    "scdoc",
+    "linux-headers",
+    "gamemode"
+  ],
+  "REPO": "main"
+}

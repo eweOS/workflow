@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-tornado-6.5.5-2-riscv64.pkg.tar.zst",
+  "NAME": "python-tornado",
+  "BASE": "python-tornado",
+  "VERSION": "6.5.5-2",
+  "DESC": "open source version of the scalable, non-blocking web server and tools",
+  "CSIZE": "1168610",
+  "ISIZE": "5998534",
+  "MD5SUM": "1e2f73d1278021fa53bea9382febcaa9",
+  "SHA256SUM": "22073438997d45ea9178c3037c48284c9fd37835b536eb5a3a089c8401e24652",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahJdygAKCRDDWOcNd+r/VHs5APsH0xD5tTyV2bHhTf6OefB/oqvYlen/5Se7odiEBZEMyAD+L9RnCdmIaRSzH50SxxT+tUjSQ9ATxETQBZ6qKvx30QU=",
+  "URL": "https://www.tornadoweb.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779588378",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-pycurl: for tornado.curl_httpclient",
+    "python-pycares: an alternative non-blocking DNS resolver",
+    "python-twisted: for tornado.platform.twisted"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

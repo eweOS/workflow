@@ -1,0 +1,28 @@
+{
+  "FILENAME": "efibootmgr-18-6-riscv64.pkg.tar.zst",
+  "NAME": "efibootmgr",
+  "BASE": "efibootmgr",
+  "VERSION": "18-6",
+  "DESC": "Linux user-space application to modify the EFI Boot Manager",
+  "CSIZE": "31001",
+  "ISIZE": "62480",
+  "MD5SUM": "d69cfb9c24d545f95e4727f9aff06f28",
+  "SHA256SUM": "596f270be38a63e4b8c9fdb4fa5b8024e5d0e1585a20b6e445421bcf6cd505f3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahIROAAKCRDDWOcNd+r/VORZAQDMdgv73KYOFZ8EyJium3ZTuv0fKDrXFop2NfQeUVALswEArnoxn9qpRnz7lkjuCeumIdfOWqSflUdv8l6H4os1VgI=",
+  "URL": "https://github.com/rhboot/efibootmgr",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779568956",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "popt",
+    "efivar"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

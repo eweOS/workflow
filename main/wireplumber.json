@@ -1,0 +1,39 @@
+{
+  "FILENAME": "wireplumber-0.5.15-1-riscv64.pkg.tar.zst",
+  "NAME": "wireplumber",
+  "BASE": "wireplumber",
+  "VERSION": "0.5.15-1",
+  "DESC": "Session / policy manager implementation for PipeWire",
+  "CSIZE": "312687",
+  "ISIZE": "1096989",
+  "MD5SUM": "53750a8db9de2c5df929d572d92ad61c",
+  "SHA256SUM": "4e51f6baec01a31b2cff6bc475587ef2ea27198fef6c5eaeabaeea0099d05e6f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCal9jPQAKCRDDWOcNd+r/VLwuAQCvip6nfPPow2Lbh47LVfU9lQv7VC+SHdZsnzVGnMJxQwEA0jazT/7/JhT69UXAVPJL8+Paa3/mElLKbYWp26NTMAA=",
+  "URL": "https://pipewire.pages.freedesktop.org/wireplumber/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1784636382",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "libwireplumber=0.5.15-1",
+    "lua54",
+    "pipewire"
+  ],
+  "PROVIDES": [
+    "pipewire-session-manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "lua54",
+    "meson",
+    "pipewire",
+    "glib",
+    "python-packaging"
+  ],
+  "CHECKDEPENDS": [
+    "pipewire"
+  ],
+  "REPO": "main"
+}
