@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mpg123-1.33.7-1-x86_64.pkg.tar.zst",
+  "NAME": "mpg123",
+  "BASE": "mpg123",
+  "VERSION": "1.33.7-1",
+  "DESC": "Console based real time MPEG Audio Player for Layer 1, 2 and 3",
+  "CSIZE": "366033",
+  "ISIZE": "845684",
+  "MD5SUM": "00dbe3635d6408f47c7432c8641ca204",
+  "SHA256SUM": "4cce6b5302ebb33cf49bc82578eebbbdc7111076bf85b47f95204fe83fee1afb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCan/TlwAKCRDDWOcNd+r/VJqYAQDODEObNvpz9/JRKZJ/4nCDu761etyFglKaaQiQKkM5AQD8CFM5P+9lME4FxqI59sUs/v8UyZselx2ZjnDBCiHrnAE=",
+  "URL": "https://mpg123.de/",
+  "LICENSE": [
+    "LGPL2.1"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1786762513",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "alsa-lib"
+  ],
+  "PROVIDES": [
+    "libmpg123.so",
+    "libout123.so",
+    "libsyn123.so"
+  ],
+  "OPTDEPENDS": [
+    "sdl2: for sdl audio support",
+    "libpulse: for pulse audio support",
+    "perl: for conplay"
+  ],
+  "MAKEDEPENDS": [
+    "sdl2",
+    "libpulse"
+  ],
+  "REPO": "main"
+}

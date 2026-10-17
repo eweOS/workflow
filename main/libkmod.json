@@ -1,0 +1,42 @@
+{
+  "FILENAME": "libkmod-34.2-4-x86_64.pkg.tar.zst",
+  "NAME": "libkmod",
+  "BASE": "kmod",
+  "VERSION": "34.2-4",
+  "DESC": "Linux kernel module management library",
+  "CSIZE": "53908",
+  "ISIZE": "125332",
+  "MD5SUM": "4954d0479e0f2b6f7f7c15f90a74a994",
+  "SHA256SUM": "0e2a74d8e5efd2f3c91d9b0c9ba59042d22904af4ac098cfbfa9ba9e8582a502",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahRxCQAKCRDDWOcNd+r/VOgzAQCjYtpl5ULS2yn3qE8YNdaztiXoP3hZgc4P8K50T0T5KgEA5xfJ78NOioiYXB0IwsDZlcG4dZtt8zo/ilNEdha8JAU=",
+  "URL": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779724564",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "openssl",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "PROVIDES": [
+    "libkmod.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "scdoc",
+    "pahole",
+    "symlinks"
+  ],
+  "CHECKDEPENDS": [
+    "linux-devel",
+    "libelf",
+    "lld",
+    "linux"
+  ],
+  "REPO": "main"
+}
