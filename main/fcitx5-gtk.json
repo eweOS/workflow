@@ -1,0 +1,45 @@
+{
+  "FILENAME": "fcitx5-gtk-5.1.7-1-aarch64.pkg.tar.zst",
+  "NAME": "fcitx5-gtk",
+  "BASE": "fcitx5-gtk",
+  "VERSION": "5.1.7-1",
+  "DESC": "Fcitx5 gtk im module and glib based dbus client library",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "77974",
+  "ISIZE": "263944",
+  "MD5SUM": "719b6d461e637235103a3ba69d38dac5",
+  "SHA256SUM": "1de2ceaa01afbba5af6195e55a1aa60bea6df6771cc6e475f1a3c55ec2a266b9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaksH7wAKCRDDWOcNd+r/VHybAQDQopjf0mvlrZu17IDl/Efp2LS5UuXcdilPjEOeofL+OwEA9yDeq4fkVkxIbl4B5ecSVITs/J8VIYlB1FmGvTEq/gg=",
+  "URL": "https://github.com/fcitx/fcitx5-gtk",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1783302327",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "glib",
+    "libxkbcommon",
+    "pango",
+    "cairo",
+    "gdk-pixbuf"
+  ],
+  "PROVIDES": [
+    "fcitx-gtk"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "extra-cmake-modules",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "ninja",
+    "vulkan-headers",
+    "zstd"
+  ],
+  "REPO": "main"
+}

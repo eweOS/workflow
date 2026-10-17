@@ -1,0 +1,57 @@
+{
+  "FILENAME": "gtk4-4.24.0-1-aarch64.pkg.tar.zst",
+  "NAME": "gtk4",
+  "BASE": "gtk4",
+  "VERSION": "4.24.0-1",
+  "DESC": "Multi-platform toolkit for creating graphical user interfaces",
+  "CSIZE": "13677818",
+  "ISIZE": "55499486",
+  "MD5SUM": "94be725d963ad97b8c26a00edda5396d",
+  "SHA256SUM": "c6a771e85b30d3c5526b7e6102e43ddedef901e848bdc7feea4438daa6ac72fe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCasBOmQAKCRDDWOcNd+r/VLvJAQDS2u9JriLTqOx1upO24dnANDiDnFDCDXbBeo+vBB/MfwD/RjxnjP3jGyiLOhg14W7lDwGhfOPPKoIEzmW1jWYv4Q0=",
+  "URL": "https://www.gtk.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1790987888",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "cairo",
+    "libdrm",
+    "fontconfig",
+    "fribidi",
+    "glib",
+    "harfbuzz",
+    "libepoxy",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "libtiff",
+    "libjpeg",
+    "libxkbcommon",
+    "graphene",
+    "libepoxy",
+    "desktop-file-utils",
+    "librsvg",
+    "libcups",
+    "vulkan-icd-loader",
+    "gtk-update-icon-cache",
+    "adwaita-icon-theme"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "sassc",
+    "wayland-protocols",
+    "gobject-introspection",
+    "vulkan-headers",
+    "glslang",
+    "lld",
+    "linux-headers",
+    "shaderc"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

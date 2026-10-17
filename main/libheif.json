@@ -1,0 +1,50 @@
+{
+  "FILENAME": "libheif-1.23.5-1-aarch64.pkg.tar.zst",
+  "NAME": "libheif",
+  "BASE": "libheif",
+  "VERSION": "1.23.5-1",
+  "DESC": "An HEIF and AVIF file format decoder and encoder",
+  "CSIZE": "848837",
+  "ISIZE": "2467820",
+  "MD5SUM": "c814b457d7f167fd4c52abb08709c60b",
+  "SHA256SUM": "6724ea371b39c173e50685f0e63d8f75f785a46dead5d5315489860e6909c27f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCarODJQAKCRDDWOcNd+r/VHztAP9U5DVQBcdZLw5xW6skW9pSkiWck8tbPQYijAvTiP9xAQD/dGvg+7bd9/kRa5qWMwhmpgMITJp5QMr9Olzuq7/C7wY=",
+  "URL": "https://github.com/strukturag/libheif",
+  "LICENSE": [
+    "LGPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1790149315",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "aom",
+    "libde265",
+    "libwebp",
+    "openh264",
+    "x264",
+    "x265"
+  ],
+  "PROVIDES": [
+    "libheif.so"
+  ],
+  "OPTDEPENDS": [
+    "libjpeg-turbo: for heif-convert and heif-enc",
+    "libpng: for heif-convert and heif-enc",
+    "dav1d: dav1d encoder",
+    "ffmpeg: hardware decode",
+    "rav1e: rav1e encoder",
+    "svt-av1: svt-av1 encoder"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "dav1d",
+    "ffmpeg",
+    "gdk-pixbuf2",
+    "openjpeg2",
+    "libjpeg-turbo",
+    "libpng",
+    "rav1e",
+    "svt-av1"
+  ],
+  "REPO": "main"
+}

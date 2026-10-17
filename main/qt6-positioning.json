@@ -1,0 +1,42 @@
+{
+  "FILENAME": "qt6-positioning-6.11.1-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-positioning",
+  "BASE": "qt6-positioning",
+  "VERSION": "6.11.1-1",
+  "DESC": "Provides access to position, satellite and area monitoring classes",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "424115",
+  "ISIZE": "1769165",
+  "MD5SUM": "2434cb7eba6700c588ee671472e88e26",
+  "SHA256SUM": "a750c86ac4d50de3be76e14258261c71e5ec78eb181af0776faa1d3205c67f4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiEtDQAKCRDDWOcNd+r/VN/QAP40eFg++EQY4AZn5+v6GFCc3FD6rltPqenRKtolxjfInwD/RgxL7XNC41D0EcZ30vgIPXImH/vEbx0xgDFRuXKV9w8=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780559017",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "geoclue: geoclue2 plugin",
+    "qt6-declarative: QML bindings",
+    "qt6-serialport: NMEA plugin"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-serialport"
+  ],
+  "REPO": "main"
+}
