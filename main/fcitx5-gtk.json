@@ -1,0 +1,45 @@
+{
+  "FILENAME": "fcitx5-gtk-5.1.7-1-loongarch64.pkg.tar.zst",
+  "NAME": "fcitx5-gtk",
+  "BASE": "fcitx5-gtk",
+  "VERSION": "5.1.7-1",
+  "DESC": "Fcitx5 gtk im module and glib based dbus client library",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "71991",
+  "ISIZE": "276000",
+  "MD5SUM": "aa9a9561003bc1d1abee6d22fde8fe07",
+  "SHA256SUM": "2556121a150648a9d69455b7b895fc5cbf953fb34e766e08a37b0d6f383b19b5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaksH9gAKCRDDWOcNd+r/VEDjAQDA2vQZ1MZ12ckecW8TQa4Fw/xZO0qALF4Vmgu3uPgmsAD/c9aGT0KKoX4MhPoENH1WlTa0/l9aFCLXc0MzA2bHDwU=",
+  "URL": "https://github.com/fcitx/fcitx5-gtk",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1783302325",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "glib",
+    "libxkbcommon",
+    "pango",
+    "cairo",
+    "gdk-pixbuf"
+  ],
+  "PROVIDES": [
+    "fcitx-gtk"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "extra-cmake-modules",
+    "gobject-introspection",
+    "gtk3",
+    "gtk4",
+    "ninja",
+    "vulkan-headers",
+    "zstd"
+  ],
+  "REPO": "main"
+}

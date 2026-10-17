@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-21.1.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "75940499",
+  "ISIZE": "422362982",
+  "MD5SUM": "0917deb1e829521ca0cfa0d3d5db2c7f",
+  "SHA256SUM": "d3743e7a69fabe4aa9d7a2dc2c67b3222df0eb7f165d2bbda0dbf7b90053d4d4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6lOgAKCRDDWOcNd+r/VDpxAQDITZT3hagIsnRrZP3vhZA8gqSfo4DMJGKDgUmgnhFyrQEAtOG7HOKfEa7ZnQlPmfevNv2oZHfMjluqaZbXYTCqeAk=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780380771",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

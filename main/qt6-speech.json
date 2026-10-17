@@ -1,0 +1,41 @@
+{
+  "FILENAME": "qt6-speech-6.11.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-speech",
+  "BASE": "qt6-speech",
+  "VERSION": "6.11.1-1",
+  "DESC": "Qt Speech support",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "137451",
+  "ISIZE": "534397",
+  "MD5SUM": "dd42aa7dd4af5ab5d35afaafd2c6186e",
+  "SHA256SUM": "4225f73457b892dc40aee1373b9ce442fa2cf0a867e5b17ac6d0cb67db401f94",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiF0zQAKCRDDWOcNd+r/VKv0AP4p/xzSygHtZJDFVOMTaLSySN3T2ILO/aV5LDnkjVtyIwD6A4Y3XHwsMr1DeWDDFhXP0pqU4O0auxO13y4fTNYPHQs=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780577499",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-multimedia"
+  ],
+  "OPTDEPENDS": [
+    "flite: flite TTS backend",
+    "speech-dispatcher: speech-dispatcher TTS backend",
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flite",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative",
+    "qt6-multimedia-devel"
+  ],
+  "REPO": "main"
+}

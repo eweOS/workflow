@@ -1,0 +1,38 @@
+{
+  "FILENAME": "libqtxdg-4.4.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "libqtxdg",
+  "BASE": "libqtxdg",
+  "VERSION": "4.4.0-2",
+  "DESC": "Library providing freedesktop.org XDG specs implementations for Qt",
+  "CSIZE": "164683",
+  "ISIZE": "536888",
+  "MD5SUM": "9bd9696a63d4ae0c585b4a91cca004aa",
+  "SHA256SUM": "65515a876ddd53b4fca47901dc9755bc876cf2aed58feb9a14d9dbb266f49136",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiF4iAAKCRDDWOcNd+r/VMYfAP0d1+uEHVsSOrQc9zEf4pV2P9kVVcYSkmot/8V2BNh8GwEA30d/LDIeE6YnIl2xTy2DnezLzJH+1P/wabiXMlNqAgA=",
+  "URL": "https://github.com/lxqt/libqtxdg",
+  "LICENSE": [
+    "LGPL",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780578385",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-svg"
+  ],
+  "PROVIDES": [
+    "libQt6Xdg.so",
+    "libQt6XdgIconLoader.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "lxqt-build-tools",
+    "qt6-base-devel"
+  ],
+  "CHECKDEPENDS": [
+    "weston",
+    "qt6-wayland"
+  ],
+  "REPO": "main"
+}
