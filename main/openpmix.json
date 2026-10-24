@@ -1,0 +1,39 @@
+{
+  "FILENAME": "openpmix-6.0.0-2-x86_64.pkg.tar.zst",
+  "NAME": "openpmix",
+  "BASE": "openpmix",
+  "VERSION": "6.0.0-2",
+  "DESC": "Extended version of the PMI standard",
+  "CSIZE": "1040339",
+  "ISIZE": "3692027",
+  "MD5SUM": "9687d249d8c43a2641a2ac256323a546",
+  "SHA256SUM": "544ddbe39f5abbb80e27ae2a9adc100d270e28bb26975bd9c949420ca8324dbd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag84xgAKCRDDWOcNd+r/VEpbAP9LBuQdW77tixW+PqJ9SRi+Z/5XQvmeYZVxCC5dz2iK7wEAg1MmNDXiIZGd4E2e8A4/qTvkH3+PyTYmNHI37fYYeQ8=",
+  "URL": "https://github.com/openpmix/openpmix",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779382410",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "curl",
+    "hwloc",
+    "jansson",
+    "libevent",
+    "zlib",
+    "curl"
+  ],
+  "PROVIDES": [
+    "libpmix.so",
+    "pmix"
+  ],
+  "MAKEDEPENDS": [
+    "perl",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "openpmix"
+  ],
+  "REPO": "main"
+}

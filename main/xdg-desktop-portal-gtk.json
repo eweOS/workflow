@@ -1,0 +1,40 @@
+{
+  "FILENAME": "xdg-desktop-portal-gtk-1.15.3-2-x86_64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-gtk",
+  "BASE": "xdg-desktop-portal-gtk",
+  "VERSION": "1.15.3-2",
+  "DESC": "A backend implementation for xdg-desktop-portal using GTK",
+  "CSIZE": "120678",
+  "ISIZE": "416127",
+  "MD5SUM": "808f39ebeebc1d970d9ef251975e32e6",
+  "SHA256SUM": "7e40ac1935fcb3d2b1cccc68d664e18bef3b3bfb8dbb4ff9222855fd7da65f07",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8RSwAKCRDDWOcNd+r/VGxoAP9IWZG3u/1NRui1v2ZOxWjGs7kZpZZxQI/Rd81p3zvsWwEAge3LwZvg944bpj/oqwbbE+OmI8ExmwCK9yy8mq8bpQM=",
+  "URL": "https://github.com/flatpak/xdg-desktop-portal-gtk",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779372343",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "fontconfig",
+    "gdk-pixbuf2",
+    "glib2",
+    "gsettings-desktop-schemas",
+    "gtk3",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "evince: Print preview"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "python",
+    "python-packaging"
+  ],
+  "REPO": "main"
+}

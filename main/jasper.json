@@ -1,0 +1,34 @@
+{
+  "FILENAME": "jasper-4.2.9-2-x86_64.pkg.tar.zst",
+  "NAME": "jasper",
+  "BASE": "jasper",
+  "VERSION": "4.2.9-2",
+  "DESC": "Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard",
+  "CSIZE": "449870",
+  "ISIZE": "896324",
+  "MD5SUM": "db4a0b04c974eb099d498bbe954fd251",
+  "SHA256SUM": "1295eda77ad16d249dc01e2a76c1931b7dc6505d3c067f5011e7516efa1bf4bc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7IkgAKCRDDWOcNd+r/VN6zAP4gTzXKnw+JbF6wAe6DP8hjfIIR0HQstQ8nqdTXtQDn1AD/V43NwBkIS2WXlGQIwZ1CWqowus7tDSJRE1jj8jg/8gs=",
+  "URL": "https://www.ece.uvic.ca/~frodo/jasper/",
+  "LICENSE": [
+    "LicenseRef-JasPer2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779353714",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libglvnd",
+    "libjpeg-turbo"
+  ],
+  "PROVIDES": [
+    "libjasper.so"
+  ],
+  "OPTDEPENDS": [
+    "jasper-doc: documentation"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "libjpeg-turbo"
+  ],
+  "REPO": "main"
+}
