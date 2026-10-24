@@ -1,0 +1,46 @@
+{
+  "FILENAME": "qt6-multimedia-ffmpeg-6.11.1-3-riscv64.pkg.tar.zst",
+  "NAME": "qt6-multimedia-ffmpeg",
+  "BASE": "qt6-multimedia",
+  "VERSION": "6.11.1-3",
+  "DESC": "FFMpeg backend for qt6-multimedia",
+  "CSIZE": "12444116",
+  "ISIZE": "37345518",
+  "MD5SUM": "f300029f1f1a9dbf9aac447ba9686fc9",
+  "SHA256SUM": "0fb083316740aa92059e9e78d8ab2ffe3de10e8f09abd9b77cf14ceb5d4589e3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakodvAAKCRDDWOcNd+r/VGxFAP9JL9S/r5Qerxad3DUYL/nTLSlKBkyy2bc4dGkYTkaO0gD9EZpIF0qliwiPnYr1jZNmmnEditq3VvDYAIGL8T2Oww0=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1783241301",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "ffmpeg",
+    "libglvnd",
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-multimedia"
+  ],
+  "PROVIDES": [
+    "qt6-multimedia-backend"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ffmpeg",
+    "gstreamer-devel",
+    "git",
+    "gst-plugins-base",
+    "gst-plugins-bad",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-quick3d-devel",
+    "qt6-shadertools"
+  ],
+  "REPO": "main"
+}

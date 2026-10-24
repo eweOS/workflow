@@ -1,0 +1,39 @@
+{
+  "FILENAME": "ttf-noto-base-variable-2026.09.01-1-any.pkg.tar.zst",
+  "NAME": "ttf-noto-base-variable",
+  "BASE": "font-noto",
+  "VERSION": "2026.09.01-1",
+  "DESC": "Google Noto TTF fonts (Base) - variable",
+  "CSIZE": "6262",
+  "ISIZE": "11357",
+  "MD5SUM": "b6d0a605c6d4c3f906326c0085ef475a",
+  "SHA256SUM": "adc7421020a41fc47fe764cbed0c041478696db8e4960d6b4567b018fd5bbc4b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCartyWAAKCRDDWOcNd+r/VIaoAPsGEPQcJmbQ/DN4SxqRHET8CgeDFlD3PJPTK+1HCfGwoAD/ZLAp8NI3G02oEKAhRkLruop94sJOPPUhx4nF4brhYQ4=",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1790669288",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "ttf-noto-sans-variable",
+    "ttf-noto-sans-mono-variable",
+    "ttf-noto-serif-variable"
+  ],
+  "CONFLICTS": [
+    "ttf-noto-base"
+  ],
+  "PROVIDES": [
+    "font-base",
+    "font-noto-base",
+    "ttf-noto-base"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-extra: additional characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

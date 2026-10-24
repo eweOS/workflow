@@ -1,0 +1,32 @@
+{
+  "FILENAME": "clipper2-2.0.1-2-riscv64.pkg.tar.zst",
+  "NAME": "clipper2",
+  "BASE": "clipper2",
+  "VERSION": "2.0.1-2",
+  "DESC": "Polygon operation library",
+  "CSIZE": "147513",
+  "ISIZE": "433941",
+  "MD5SUM": "d7f993ebeb980f606dc0b1223f479f63",
+  "SHA256SUM": "b3118d02cabbcedf72a5daa408ecf48b96ed571aa0da25356f13ef404e96bc14",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag9J0gAKCRDDWOcNd+r/VNTQAP0Un42RVzVFHOThOz/kDNsLTX9pH2zaFTdjv2y4POHSVgD9HcOm3N1itXSxCn+4RtS+TS1ehIcjFhWHej8V0FDHiQA=",
+  "URL": "https://github.com/AngusJohnson/Clipper2",
+  "LICENSE": [
+    "BSL-1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779386619",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libClipper2.so",
+    "libClipper2Z.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}
