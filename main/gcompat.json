@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gcompat-1.1.0-6-aarch64.pkg.tar.zst",
+  "NAME": "gcompat",
+  "BASE": "gcompat",
+  "VERSION": "1.1.0-6",
+  "DESC": "The GNU C Library compatibility layer for musl",
+  "CSIZE": "33938",
+  "ISIZE": "81024",
+  "MD5SUM": "1f6bd843d6801e675d2e69133e7fba34",
+  "SHA256SUM": "b6d3a204f128b951b7413d680ced5ad165fc060fbc3c21d47b8431a79a8f67bd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCatkZywAKCRDDWOcNd+r/VKMYAP433qASfzNjeXZTB/7EXkbNYP+3e+f+uAmjAPdGpqqmOQEAuR2NFQviYXZnro8qJHmIrbWQITrvMMalYjkHl8b9mAY=",
+  "URL": "https://git.adelielinux.org/adelie/gcompat",
+  "LICENSE": [
+    "NCSA"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1792612939",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libucontext",
+    "musl",
+    "musl-obstack",
+    "utmps"
+  ],
+  "PROVIDES": [
+    "glibc"
+  ],
+  "MAKEDEPENDS": [
+    "musl-static"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,38 @@
+{
+  "FILENAME": "river-classic-0.3.17-1-aarch64.pkg.tar.zst",
+  "NAME": "river-classic",
+  "BASE": "river-classic",
+  "VERSION": "0.3.17-1",
+  "DESC": "A dynamic tiling wayland compositor with flexible runtime configuration",
+  "CSIZE": "382496",
+  "ISIZE": "1232750",
+  "MD5SUM": "a8fd190de0ad686c5987d6ac22c4f91d",
+  "SHA256SUM": "e6b96ba7697f8411dcf098f3c3243affe3aca5db937ace50e8ad1c7e32fdc712",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanlbKQAKCRDDWOcNd+r/VGfvAP9Z8BhxR275Mc6H1uXt7Fzbib3XErU1gE28KiIKbW3sJAD7BzPIQdNqYgmDCNmkseAuRaYoF4vp1WQZFPpvwX4xOgg=",
+  "URL": "https://codeberg.org/river/river-classic",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786338180",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "libevdev",
+    "libinput",
+    "libxkbcommon",
+    "musl",
+    "pixman",
+    "wayland",
+    "wlroots0.20"
+  ],
+  "CONFLICTS": [
+    "river"
+  ],
+  "MAKEDEPENDS": [
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.20-devel",
+    "zig"
+  ],
+  "REPO": "main"
+}

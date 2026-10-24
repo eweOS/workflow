@@ -1,0 +1,34 @@
+{
+  "FILENAME": "flashrom-1.8.0-1-aarch64.pkg.tar.zst",
+  "NAME": "flashrom",
+  "BASE": "flashrom",
+  "VERSION": "1.8.0-1",
+  "DESC": "A utility for detecting, reading, writing, verifying and erasing flash chips",
+  "CSIZE": "5719358",
+  "ISIZE": "8423348",
+  "MD5SUM": "7707f56afad4f7007377825e1f365590",
+  "SHA256SUM": "09919a7ba7433c3f59247ba13bb3c94eb645b38f04cb6aedbd65793eb98f3b37",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapgEHAAKCRDDWOcNd+r/VCEEAQC+kmBLnkB/Yre9kpMYmAek7exfmSq/QOhZCbvdWeQGMgEAv9YDLKjZYf1K15kEEdi29yWV+fjwb2dEjZquLVvWlQw=",
+  "URL": "https://review.coreboot.org/admin/repos/flashrom,general",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788347883",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "libusb",
+    "libftdi",
+    "pciutils",
+    "libjaylink"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers",
+    "python-sphinx",
+    "git"
+  ],
+  "REPO": "main"
+}

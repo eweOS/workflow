@@ -1,0 +1,42 @@
+{
+  "FILENAME": "openldap-2.6.13-1-aarch64.pkg.tar.zst",
+  "NAME": "openldap",
+  "BASE": "openldap",
+  "VERSION": "2.6.13-1",
+  "DESC": "Lightweight Directory Access Protocol (LDAP) client and server",
+  "CSIZE": "1675795",
+  "ISIZE": "4304583",
+  "MD5SUM": "1c9dafe862e3374da7859d9f5a34fe63",
+  "SHA256SUM": "aff782057d020f151788229c9ea90565543a2998cb83a91b35ae89a5f2cbcc55",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalnI0AAKCRDDWOcNd+r/VDN1AP9MmzBG5Y3vUMT46av+53YCkHA6ZpSNH0Hk8t/Uen4tVwEA0kUPw/nAQxycYJ0Phhis6eviWvdUGa++KfMnzgSB9wM=",
+  "URL": "https://www.openldap.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1784269173",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libldap>=2.6.13",
+    "libltdl",
+    "unixodbc",
+    "perl",
+    "libsodium",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "cyrus-sasl",
+    "e2fsprogs",
+    "util-linux-libs",
+    "chrpath",
+    "unixodbc",
+    "libsodium",
+    "libltdl",
+    "mandoc-soelim",
+    "libxcrypt",
+    "libldap",
+    "openssl",
+    "perl"
+  ],
+  "REPO": "main"
+}

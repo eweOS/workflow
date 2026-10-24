@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-build-1.4.0-2-any.pkg.tar.zst",
+  "NAME": "python-build",
+  "BASE": "python-build",
+  "VERSION": "1.4.0-2",
+  "DESC": "A simple, correct Python build frontend",
+  "CSIZE": "59672",
+  "ISIZE": "224834",
+  "MD5SUM": "2ca04194a44a917a70c23328459e688a",
+  "SHA256SUM": "7e9c51925c41134df5e098c45f215c0c0c1ef09e49589d23e1de43092518d69f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7IBAAKCRDDWOcNd+r/VDScAQCQN/fLwFWMz0RItB7kMLO9xLMohs0JGLxmMMkdCRMpawD9H5GUUf1NcrGnmMGuUdKCYF6NvAPsr925EqS/1DRmAQQ=",
+  "URL": "https://github.com/pypa/build",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779353610",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "python",
+    "python-packaging",
+    "python-pyproject-hooks"
+  ],
+  "OPTDEPENDS": [
+    "python-pip: to use as the Python package installer (default)",
+    "python-uv: to use as the Python package installer",
+    "python-virtualenv: to use virtualenv for build isolation"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "REPO": "main"
+}

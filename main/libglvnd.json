@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libglvnd-1.7.0-7-aarch64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-7",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "375981",
+  "ISIZE": "4369883",
+  "MD5SUM": "a19d709d709bb9dd1ed0ed1412129ee9",
+  "SHA256SUM": "ae2703e821f7c3d2c3fb5701ff995f58c174772489d43c984a9ec425c0fb4a11",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapQ2IwAKCRDDWOcNd+r/VDT+AP442ktrUcOM1zQhaGR8UPMy0j7zUirBS6wlp9O6c9RZkAEA6luKY0gvm9pUijDYHU1nsYWE+UVPUbm13FOl9I3TTQo=",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1788098535",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "OPTDEPENDS": [
+    "mesa: An open-source implementation of graphics and computation APIs"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

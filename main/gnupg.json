@@ -1,0 +1,38 @@
+{
+  "FILENAME": "gnupg-2.4.9-2-aarch64.pkg.tar.zst",
+  "NAME": "gnupg",
+  "BASE": "gnupg",
+  "VERSION": "2.4.9-2",
+  "DESC": "GNU Privacy Guard",
+  "CSIZE": "3118100",
+  "ISIZE": "9977660",
+  "MD5SUM": "650b1ed6ea4c97607af464fa1461a4b6",
+  "SHA256SUM": "3d47c40f832bb88454de6347d03c7cbec6bd1a9aadae93939702c9f29de3a539",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7FAAAKCRDDWOcNd+r/VAxEAQDEQ2SRqYgEueZxV0rjRh8JH+poJjAI2XzHx1YQJvhRiQEAu5V++L1hyIG4kMMmSIfkJrpNYXZ3XTQ6+LjV/EQNLQ0=",
+  "URL": "https://gnupg.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779352464",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "libassuan",
+    "libgpg-error",
+    "npth",
+    "libksba",
+    "pinentry",
+    "libgcrypt"
+  ],
+  "PROVIDES": [
+    "gpg"
+  ],
+  "OPTDEPENDS": [
+    "ntbtls: For dirmngr support"
+  ],
+  "MAKEDEPENDS": [
+    "ntbtls"
+  ],
+  "REPO": "main"
+}

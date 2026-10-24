@@ -1,0 +1,52 @@
+{
+  "FILENAME": "libpipewire-1.6.9-2-aarch64.pkg.tar.zst",
+  "NAME": "libpipewire",
+  "BASE": "pipewire",
+  "VERSION": "1.6.9-2",
+  "DESC": "Low-latency audio/video router and processor - client library",
+  "CSIZE": "498709",
+  "ISIZE": "2063641",
+  "MD5SUM": "feb310225be22595d1c52332d4ad577d",
+  "SHA256SUM": "3e396e1c34014b2229fecbd1b89e5f76d4dbe7e77a97180d40d0b3c8d6368c86",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCatnDRAAKCRDDWOcNd+r/VDtrAP9moiXdqGMMV/WScKaCDdfRVVuZS6F8Z6KdVttJU8cUKwEAq9lSa7nLhh97IRbqtI509EmugxdPGBRf8y7WytNFOA0=",
+  "URL": "https://pipewire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1792656262",
+  "PACKAGER": "venus <abuild@venus>",
+  "PROVIDES": [
+    "libpipewire-0.3.so"
+  ],
+  "OPTDEPENDS": [
+    "gst-plugin-pipewire: GStreamer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "bluez",
+    "bluez-libs",
+    "dbus",
+    "doxygen",
+    "ffmpeg",
+    "glib",
+    "gstreamer-devel",
+    "libebur128",
+    "libpulse",
+    "libsndfile",
+    "libudev",
+    "libusb",
+    "linux-headers",
+    "meson",
+    "fftw",
+    "fdk-aac",
+    "libopus",
+    "sbc",
+    "libfreeaptx"
+  ],
+  "CHECKDEPENDS": [
+    "desktop-file-utils",
+    "openal"
+  ],
+  "REPO": "main"
+}

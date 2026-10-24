@@ -1,0 +1,45 @@
+{
+  "FILENAME": "sdl3-3.4.14-2-aarch64.pkg.tar.zst",
+  "NAME": "sdl3",
+  "BASE": "sdl3",
+  "VERSION": "3.4.14-2",
+  "DESC": "A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 3)",
+  "CSIZE": "1677875",
+  "ISIZE": "6289529",
+  "MD5SUM": "fc5e990d27d83e1b65d339d6f4fed2df",
+  "SHA256SUM": "2641c944324db4e733f5eb368439fe23efbe4742c3a72d7f7c3284f5803a84fd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanlarAAKCRDDWOcNd+r/VO0eAQD8au/8ZP9WiZlEsTgwcBQMl2EKPvFu88/RwagZkciYcAD/Zg8HmfyKxIu2acqqdd4Hg7nAUUMqREK4ctaAtgxynwc=",
+  "URL": "https://www.libsdl.org",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786338266",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "mesa"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: ALSA audio driver",
+    "libpulse: PulseAudio audio driver",
+    "pipewire: PipeWire audio driver",
+    "vulkan-driver: vulkan renderer",
+    "libdecor: Wayland client decorations"
+  ],
+  "MAKEDEPENDS": [
+    "alsa-lib",
+    "mesa",
+    "libpulse",
+    "wayland",
+    "libxkbcommon",
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "pipewire",
+    "linux-headers",
+    "libdecor",
+    "vulkan-headers",
+    "cmake"
+  ],
+  "REPO": "main"
+}

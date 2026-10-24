@@ -1,0 +1,50 @@
+{
+  "FILENAME": "openssh-10.4p1-1-aarch64.pkg.tar.zst",
+  "NAME": "openssh",
+  "BASE": "openssh",
+  "VERSION": "10.4p1-1",
+  "DESC": "SSH protocol implementation for remote login, command execution and file transfer",
+  "CSIZE": "1372631",
+  "ISIZE": "5057171",
+  "MD5SUM": "0a5d9c40cfff163c727ecf8c0f4abed7",
+  "SHA256SUM": "fba5deab8a643cff7474ed8ee7a91abacd8620eb13a617f7e492614e24d140ad",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamL5bQAKCRDDWOcNd+r/VB+5AQDSaNz6PbaOI1QA7/TcAfpgtzoKvVzKc9HDPx1+S0MXqQD8D2UsFZjjoJj74kC2GIBDV0WWRJtpGdEhuGEHWd5QEAY=",
+  "URL": "https://www.openssh.com/portable.html",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "LicenseRef-Public-Domain",
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1784871474",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "krb5",
+    "libkrb5.so",
+    "libgssapi_krb5.so",
+    "libedit",
+    "libedit.so",
+    "libxcrypt",
+    "openssl",
+    "pam",
+    "libpam.so",
+    "zlib",
+    "libz.so"
+  ],
+  "OPTDEPENDS": [
+    "libfido2: FIDO/U2F support",
+    "sh: for ssh-copy-id and findssl.sh"
+  ],
+  "MAKEDEPENDS": [
+    "krb5",
+    "libedit",
+    "libxcrypt",
+    "linux-headers",
+    "openssl",
+    "pam",
+    "zlib"
+  ],
+  "REPO": "main"
+}
