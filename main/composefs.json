@@ -1,0 +1,36 @@
+{
+  "FILENAME": "composefs-1.0.8-2-loongarch64.pkg.tar.zst",
+  "NAME": "composefs",
+  "BASE": "composefs",
+  "VERSION": "1.0.8-2",
+  "DESC": "A file system for mounting container images",
+  "CSIZE": "48853",
+  "ISIZE": "116842",
+  "MD5SUM": "eef8a9835eb19e8408af73c1be133cb4",
+  "SHA256SUM": "b2ccdcfb7dc878fb99a171752874ddb16d584a26c0820ee194ed24ff3a3f6e08",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7kVgAKCRDDWOcNd+r/VLzrAQDZV45UGBA+8sXRF+RhmKWLiV+FvT5Y3eJpi/CM+XPNSAD8CL/fdoUXgX8Nx43HJ2N0hdWFeVkRUpSzu3LJvtLFfwM=",
+  "URL": "https://github.com/containers/composefs",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "BSD-2-Clause OR GPL-2.0-or-later",
+    "GPL-2.0-only OR Apache-2.0",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779360750",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "fuse3",
+    "linux-headers",
+    "meson",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

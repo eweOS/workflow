@@ -1,0 +1,32 @@
+{
+  "FILENAME": "verdict-1.4.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "verdict",
+  "BASE": "verdict",
+  "VERSION": "1.4.5-1",
+  "DESC": "Compute quality functions of 2 and 3-dimensional regions",
+  "CSIZE": "103244",
+  "ISIZE": "205906",
+  "MD5SUM": "25945b4c46511741f3283e834d98c9a2",
+  "SHA256SUM": "0036a357b2b9e8fee66325705f46915f1be131b3a3835cf14aaeffef5af98d4f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahz6MwAKCRDDWOcNd+r/VEiVAP4xvQooICyaMXLiNkLIbuCWe1/KwLpL3hWNZIlzKWvCTgD6A2pG2G8/PxIPDGj0vK05nSnFNslI4OxQGYJQ3/l7aQ8=",
+  "URL": "https://github.com/sandialabs/verdict",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780283989",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libverdict.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "doxygen",
+    "googletest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "svt-av1-4.1.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "svt-av1",
+  "BASE": "svt-av1",
+  "VERSION": "4.1.0-1",
+  "DESC": "Scalable Video Technology AV1 encoder and decoder",
+  "CSIZE": "992234",
+  "ISIZE": "2158724",
+  "MD5SUM": "dedf2b65fcf2f7564f95b790b61b2695",
+  "SHA256SUM": "e958bdf1225f308e56134030beb5f3a7502296c603191103341c6ebe4406c01e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakur/gAKCRDDWOcNd+r/VI56AP9luKgc5e+aFzdo5kcItWnOVbp7w+wwRfLwQ/ZQuQ6oRAD/VZEVF7Te4SWC39JcUWgCHF4D0VPk35gtSnaIFt0ktw0=",
+  "URL": "https://gitlab.com/AOMediaCodec/SVT-AV1",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "custom: Alliance for Open Media Patent License 1.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1783344326",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libSvtAv1Enc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "nasm",
+    "ninja"
+  ],
+  "REPO": "main"
+}
