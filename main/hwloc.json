@@ -1,0 +1,38 @@
+{
+  "FILENAME": "hwloc-2.14.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "hwloc",
+  "BASE": "hwloc",
+  "VERSION": "2.14.0-1",
+  "DESC": "a portable abstraction of hierarchical architectures",
+  "CSIZE": "2541174",
+  "ISIZE": "3834572",
+  "MD5SUM": "07f16ce442f07fd13c98e4226a7667b3",
+  "SHA256SUM": "9f377f914b10d02da599f2260380f3f2a4a8edf4653429f0da629b89f4ab8e88",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCajI4cwAKCRDDWOcNd+r/VP9cAQDd3ON0cIemCUbFLHGLCH0kmR9wBF71FCWTRSlMBb71NQEA/MfBjyaH+Mo4VWvUwlPx1w60grqq+MJL+jhZrQLZ+g8=",
+  "URL": "https://www.open-mpi.org/projects/hwloc/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1781676149",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libudev"
+  ],
+  "PROVIDES": [
+    "libhwloc.so"
+  ],
+  "OPTDEPENDS": [
+    "cairo: Graphics support in lstopo",
+    "ncurses: TUI support in lstopo",
+    "libxml2: XML plugin for topology import/export support",
+    "libpciaccess: PCI plugin for PCI object discovery"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "ncurses",
+    "libpciaccess"
+  ],
+  "REPO": "main"
+}

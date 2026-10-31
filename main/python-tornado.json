@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-tornado-6.5.5-2-loongarch64.pkg.tar.zst",
+  "NAME": "python-tornado",
+  "BASE": "python-tornado",
+  "VERSION": "6.5.5-2",
+  "DESC": "open source version of the scalable, non-blocking web server and tools",
+  "CSIZE": "1167791",
+  "ISIZE": "5998266",
+  "MD5SUM": "c88984e06039dd905d3382d96fc51612",
+  "SHA256SUM": "a0d3ed85ec155adbcf69c2c5a4f693cd7fd413a5c92316e47d793fc6b3d8a043",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag+SGgAKCRDDWOcNd+r/VECAAP9EZ37osmJKKGA96gNgMhULAAcpE21PEft7pD0/I09DRAEA9rxrnNLWBZKfyiWZibmLgjQIUtcHyo89OU10uQx4QAs=",
+  "URL": "https://www.tornadoweb.org/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779405284",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "python"
+  ],
+  "OPTDEPENDS": [
+    "python-pycurl: for tornado.curl_httpclient",
+    "python-pycares: an alternative non-blocking DNS resolver",
+    "python-twisted: for tornado.platform.twisted"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

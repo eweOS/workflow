@@ -1,0 +1,30 @@
+{
+  "FILENAME": "device-mapper-2.03.44-1-loongarch64.pkg.tar.zst",
+  "NAME": "device-mapper",
+  "BASE": "lvm2",
+  "VERSION": "2.03.44-1",
+  "DESC": "Device mapper userspace library and tools",
+  "CSIZE": "288568",
+  "ISIZE": "739830",
+  "MD5SUM": "37ede96cd98a1dd5907cfe6e3c58f0da",
+  "SHA256SUM": "edf0c1f3178dfdec1275c44c909887495a7fc87c1a392e1b066ca2e4fbbbcd5a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauVPLwAKCRDDWOcNd+r/VKvLAQDBxB7Y5jAswJTwAjY6KnH2gJXIWTupxRASd7LAQJNS7AD+KiyS+411an6upMKZMmv/pxlF3yx0vzEZdeeb3rMwxwo=",
+  "URL": "http://sourceware.org/dm/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793412878",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "PROVIDES": [
+    "libdevmapper.so",
+    "libdevmapper-event.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

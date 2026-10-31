@@ -1,0 +1,37 @@
+{
+  "FILENAME": "brotli-1.2.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "brotli",
+  "BASE": "brotli",
+  "VERSION": "1.2.1-1",
+  "DESC": "Generic-purpose lossless compression algorithm",
+  "CSIZE": "475340",
+  "ISIZE": "982595",
+  "MD5SUM": "9da54d21526158992aae0780f5da5814",
+  "SHA256SUM": "065baa69b97774e14a759c2665bc3126a0b02aff818722139525e4031f143375",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCatl8SgAKCRDDWOcNd+r/VIg4AQCiqzKJZOm/BUurFx5foJJQcOitLHfpfyBcdlXsVCikLAEAk7Dj0jUk0kdHU1Ss2lH4mHQizifVGdBnfmHfj3yN6Qo=",
+  "URL": "https://github.com/google/brotli",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1792638123",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libbrotlicommon.so",
+    "libbrotlidec.so",
+    "libbrotlienc.so"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "llvm-libs",
+    "cmake",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

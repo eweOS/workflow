@@ -1,0 +1,59 @@
+{
+  "FILENAME": "flatpak-1.18.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "flatpak",
+  "BASE": "flatpak",
+  "VERSION": "1.18.4-1",
+  "DESC": "Linux application sandboxing and distribution framework (formerly xdg-app)",
+  "CSIZE": "2022630",
+  "ISIZE": "8146080",
+  "MD5SUM": "b2bfb33f51ca1e323f5f6145a6058527",
+  "SHA256SUM": "f3d80780375001094045ce266d89f0e0d25a9b2b6c679571699cfb6ac7c96a8d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCasAKmQAKCRDDWOcNd+r/VFP0APsEMgM9V9nB4HEvR2iy+7OHAdQmLrcoxdl2Y5ijCW5K1QD9Easkd1cuwo3oxgb8iLxx4pfbOQm/diTb73o7N6kd4Q0=",
+  "URL": "https://flatpak.org",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1790970467",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "appstream",
+    "bubblewrap",
+    "curl",
+    "dbus",
+    "dconf",
+    "fuse3",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libseccomp",
+    "libxml2",
+    "python",
+    "wayland",
+    "ostree",
+    "gpgme",
+    "xdg-dbus-proxy",
+    "zstd",
+    "ostree",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "libflatpak.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "libxslt",
+    "meson",
+    "python-packaging",
+    "python-pyparsing",
+    "xmlto",
+    "wayland-protocols"
+  ],
+  "CHECKDEPENDS": [
+    "socat"
+  ],
+  "REPO": "main"
+}

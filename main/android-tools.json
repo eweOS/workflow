@@ -1,0 +1,42 @@
+{
+  "FILENAME": "android-tools-37.0.0-3-loongarch64.pkg.tar.zst",
+  "NAME": "android-tools",
+  "BASE": "android-tools",
+  "VERSION": "37.0.0-3",
+  "DESC": "Android platform tools",
+  "CSIZE": "3573813",
+  "ISIZE": "13396449",
+  "MD5SUM": "914252eac93ef2a76afbfc264b480238",
+  "SHA256SUM": "c184bda7abfeb01545bc1808707b718ff03ac436debba176dd6bcd788ecb89e9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCate50gAKCRDDWOcNd+r/VIZSAP9WASwvcLWJsRFYu4nTqZI9ac1hagS9EWblt3UPf3VJKQEAxjTvCh6I3pMt6q6oOm1iLcVbrFnbz9l4sfrHO5DvPw4=",
+  "URL": "http://tools.android.com/",
+  "LICENSE": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1792522589",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "brotli",
+    "fmt",
+    "libusb",
+    "pcre2",
+    "protobuf",
+    "zstd",
+    "python",
+    "abseil-cpp"
+  ],
+  "OPTDEPENDS": [
+    "python: mkbootimg, unpack_bootimg and repack_bootimg support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "go",
+    "googletest",
+    "perl",
+    "linux-headers",
+    "bsd-compat-headers"
+  ],
+  "REPO": "main"
+}

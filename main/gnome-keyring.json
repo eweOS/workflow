@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gnome-keyring-50.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "gnome-keyring",
+  "BASE": "gnome-keyring",
+  "VERSION": "50.0-1",
+  "DESC": "Stores passwords and encryption keys",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "924973",
+  "ISIZE": "3951327",
+  "MD5SUM": "d63fcb87dc0c90496d08fd65e1496f42",
+  "SHA256SUM": "465fb9fd1004bfb1b25f7f207e3c320949d58aa60456ffddf4a9ec6e612ddca4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZgWQAKCRDDWOcNd+r/VKzTAPwNrdYzACbzRo2e11DbH+1xeOeHsWJuX4t3HiSpc9fv/QD+N7w9ppeB4l30miL4T+2sYM0eUNrwNuyaaKRPTd7iRQE=",
+  "URL": "https://gitlab.gnome.org/GNOME/gnome-keyring",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779851319",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "dconf",
+    "gcr-3",
+    "gcr-4",
+    "glib2",
+    "libgcrypt",
+    "pam",
+    "libcap-ng"
+  ],
+  "PROVIDES": [
+    "org.freedesktop.secrets"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "git",
+    "glib2",
+    "meson",
+    "p11-kit",
+    "python",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

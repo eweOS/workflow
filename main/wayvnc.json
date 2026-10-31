@@ -1,0 +1,40 @@
+{
+  "FILENAME": "wayvnc-0.10.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "wayvnc",
+  "BASE": "wayvnc",
+  "VERSION": "0.10.2-1",
+  "DESC": "VNC server for wlroots-based Wayland compositors",
+  "CSIZE": "80335",
+  "ISIZE": "217063",
+  "MD5SUM": "84b24aca278c6b4df97192e9c49ca605",
+  "SHA256SUM": "601b1f42bd6bedb77cb642ee7d19b92455a9630ea060e91095c2615fd4f46f14",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauDffgAKCRDDWOcNd+r/VAsbAPwIXIgQyNaTCUAAeP8MZNrcsiS0rqvGsAAHuLyhMVTFcQEA31rLwzXbkVt7Sc5skuQ5A5fc7In942TnywAcJTxWwgw=",
+  "URL": "https://github.com/any1/wayvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793122315",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "jansson",
+    "libaml.so",
+    "libdrm",
+    "libneatvnc.so",
+    "libpixman-1.so",
+    "libxkbcommon.so",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "pam: PAM authentication"
+  ],
+  "MAKEDEPENDS": [
+    "bsd-compat-headers",
+    "git",
+    "meson",
+    "ninja",
+    "pam",
+    "scdoc"
+  ],
+  "REPO": "main"
+}

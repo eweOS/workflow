@@ -1,0 +1,59 @@
+{
+  "FILENAME": "vulkan-radeon-26.2.5-2-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-radeon",
+  "BASE": "mesa",
+  "VERSION": "26.2.5-2",
+  "DESC": "Open-source Vulkan driver for AMD GPUs",
+  "CSIZE": "3351261",
+  "ISIZE": "17127873",
+  "MD5SUM": "8d1e6799660c72d15a6c6e371bba1e16",
+  "SHA256SUM": "94c7ff434ca4f648ec22b013dd58175f3b887f12e1064c3848f86da5b66bd08d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauDNyQAKCRDDWOcNd+r/VOADAP4wQGT18IWyQ8O+MvgzbrPBNKArHQRxhYdpVNkqH83hUwEAmCMYBVs3iXMDCTJSe3QUNsOfPRNb+Ua2AOpZ4jk3ogc=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793117196",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen"
+  ],
+  "REPO": "main"
+}
