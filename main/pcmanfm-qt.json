@@ -1,0 +1,38 @@
+{
+  "FILENAME": "pcmanfm-qt-2.4.1-1-x86_64.pkg.tar.zst",
+  "NAME": "pcmanfm-qt",
+  "BASE": "pcmanfm-qt",
+  "VERSION": "2.4.1-1",
+  "DESC": "The LXQt file manager, Qt port of PCManFM",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "665599",
+  "ISIZE": "3017736",
+  "MD5SUM": "2c2e9e9da8a30248fcae3608335cb68f",
+  "SHA256SUM": "9dc75faaf6db3e4bef246810a132fcd5cc0a5e1b4ab3e9d1cf52e2518c7ba4ed",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauDfUQAKCRDDWOcNd+r/VOoBAP9A71s7lcVoINC97hzDp5UYpMK3Yk5f8aSyT2fdQx33MwEA6RJHoWCv0Ytk7VnFUrOBx2viwwnpZ5OWEx3YRbuqjgU=",
+  "URL": "https://github.com/lxqt/pcmanfm-qt",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1793122256",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "desktop-file-utils",
+    "libfm-qt",
+    "libfm-qt6.so",
+    "layer-shell-qt"
+  ],
+  "OPTDEPENDS": [
+    "gvfs: for various features like mounting without root, remote filesystems, encrypted filesystems and many others mentioned on https://github.com/lxqt/pcmanfm-qt/wiki",
+    "gvfs-mtp: MTP support (Media Transfer Protocol)",
+    "lxqt-archiver: archive management",
+    "qt6-translations: allow keyboard shortcuts to function in some languages (e.g. German)"
+  ],
+  "MAKEDEPENDS": [
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}
