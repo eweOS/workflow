@@ -1,0 +1,41 @@
+{
+  "FILENAME": "git-2.56.0-1-riscv64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.56.0-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "16256498",
+  "ISIZE": "38001094",
+  "MD5SUM": "b18ab83b79dba58f99eb0af886b14b40",
+  "SHA256SUM": "6cedf66f986402d13c9ce53c3082ff8e480b95478e24c280b228994d66ddb658",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauAegAAKCRDDWOcNd+r/VGeZAQCTI7nDeGXDF52rle2uPTHi9tPruObuKBw9BSBskZnHKAD+K/q7UzTSjYMVRddpaXYiRA0g0EP0Xr7Q3pS1OwpyXAw=",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793072376",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib-ng"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "asciidoc",
+    "xmlto",
+    "linux-headers",
+    "rust"
+  ],
+  "REPO": "main"
+}

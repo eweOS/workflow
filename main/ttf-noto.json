@@ -1,0 +1,34 @@
+{
+  "FILENAME": "ttf-noto-2026.10.01-1-any.pkg.tar.zst",
+  "NAME": "ttf-noto",
+  "BASE": "font-noto",
+  "VERSION": "2026.10.01-1",
+  "DESC": "Google Noto TTF fonts",
+  "CSIZE": "6191",
+  "ISIZE": "11357",
+  "MD5SUM": "4c9dcab5a1686a549b10b101b50fe73b",
+  "SHA256SUM": "203eae8153e1e2b9e3badfc4d6f4db0748913a9de14e07db3f408ef84586ea70",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauCdzAAKCRDDWOcNd+r/VCLOAQDIa0bhv+PyqP46oL2GX+j1g2kW24GG4a1q7Vtm9EPyEAD/SjLofrydCI0hUUigGqaHEVo6+DolQ+F4uAdrtUmvng8=",
+  "URL": "https://fonts.google.com/noto",
+  "LICENSE": [
+    "custom:SIL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1793105370",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "ttf-noto-base",
+    "ttf-noto-extra"
+  ],
+  "PROVIDES": [
+    "font-noto"
+  ],
+  "OPTDEPENDS": [
+    "font-noto-cjk: CJK characters",
+    "font-noto-emoji: Emoji characters"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

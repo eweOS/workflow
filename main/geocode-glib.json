@@ -1,0 +1,41 @@
+{
+  "FILENAME": "geocode-glib-3.26.4-3-riscv64.pkg.tar.zst",
+  "NAME": "geocode-glib",
+  "BASE": "geocode-glib",
+  "VERSION": "3.26.4-3",
+  "DESC": "Helper library for geocoding services",
+  "CSIZE": "120618",
+  "ISIZE": "862858",
+  "MD5SUM": "c0569f455ed57604292fa7340bd09546",
+  "SHA256SUM": "7166c739021aee0e9febdedd376249e4b86cf50b63c095c7adf343b639a51f02",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahO0aQAKCRDDWOcNd+r/VG7NAP95JzXCndwVKGNYguOf39WcIIkO8jEmnxtFU5Paes3plAD/cizMjNU+wpwVDn0oUM95J+Dn6+TJgzaq9N1HdCKEBw4=",
+  "URL": "https://gitlab.gnome.org/GNOME/geocode-glib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779676225",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "glib2",
+    "json-glib",
+    "libsoup3"
+  ],
+  "PROVIDES": [
+    "libgeocode-glib-2.so",
+    "geocode-glib-2"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "json-glib",
+    "libsoup3",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "musl-locales"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "yosys-0.68-1-riscv64.pkg.tar.zst",
+  "NAME": "yosys",
+  "BASE": "yosys",
+  "VERSION": "0.68-1",
+  "DESC": "An open framework for RTL synthesis tools",
+  "CSIZE": "17086840",
+  "ISIZE": "51022942",
+  "MD5SUM": "6727f33c7b69f662463e41581c831fc5",
+  "SHA256SUM": "42fe7be723781e90a877619afde80bf423038ad1314822b6e48c080e7fa76df7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoBGGQAKCRDDWOcNd+r/VJXPAQD5z8ShcdbeGaqZ/PqAVvX+VLD4CD1i5rehyHOOmYGXXgD/ea/j1Gb7oR+XcG2p2WBZg1sEgQ0qm/CyuBvDrZbqZAA=",
+  "URL": "https://yosyshq.net/yosys/",
+  "LICENSE": [
+    "ISC"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1786788372",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "abc",
+    "tcl",
+    "readline",
+    "slang",
+    "zlib-ng"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "cxxopts",
+    "git",
+    "googletest",
+    "python"
+  ],
+  "CHECKDEPENDS": [
+    "iverilog"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libnetfilter_conntrack-1.1.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libnetfilter_conntrack",
+  "BASE": "libnetfilter_conntrack",
+  "VERSION": "1.1.1-1",
+  "DESC": "Userspace library providing API to in-kernel connection tracking state table",
+  "CSIZE": "56230",
+  "ISIZE": "136601",
+  "MD5SUM": "532fd8bf7f0171a0cf91c143685a289c",
+  "SHA256SUM": "ee065fc0fedcb93b186e2293a554e4a1d8e4e175b5cd79e51fcefe7161f2d51d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauFpRAAKCRDDWOcNd+r/VJqzAQDfM//boI7h/lrdMq+BB6lTLZGa6vPbbujq73EW8aiAfQD+NO2zmtOsYlnsx7BURrtrE4QbC4n3mPRargn1lnx1igg=",
+  "URL": "https://www.netfilter.org/projects/libnetfilter_conntrack/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793157561",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "libmnl",
+    "libnfnetlink"
+  ],
+  "PROVIDES": [
+    "libnetfilter_conntrack.so"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

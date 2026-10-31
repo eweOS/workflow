@@ -1,0 +1,37 @@
+{
+  "FILENAME": "ghc-9.6.7-4-riscv64.pkg.tar.zst",
+  "NAME": "ghc",
+  "BASE": "ghc",
+  "VERSION": "9.6.7-4",
+  "DESC": "Glasgow Haskell Compiler.",
+  "CSIZE": "418793799",
+  "ISIZE": "3080037198",
+  "MD5SUM": "96fab9b7f04d6bae6bfa2bb0b41d236f",
+  "SHA256SUM": "940a8b32f67bcb1890c9e3a9e214e25d1630b3342baadfb37f53132d969b95ce",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahSCBQAKCRDDWOcNd+r/VNuDAQDmNfNtLfAQUViQOoRCRew22xx9SmG5CC2E0sI6o4IZagD8DBFm6GWNMy7bbaOOZ+RA0VLNx4Yj61l/DdBTgGjIkwk=",
+  "URL": "https://ghc.haskell.org/",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779710954",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "clang",
+    "musl",
+    "libffi",
+    "libnuma",
+    "gmp",
+    "ncurses",
+    "lld"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "ghc",
+    "cabal",
+    "alex",
+    "happy",
+    "git"
+  ],
+  "REPO": "main"
+}

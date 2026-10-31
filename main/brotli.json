@@ -1,0 +1,37 @@
+{
+  "FILENAME": "brotli-1.2.1-1-riscv64.pkg.tar.zst",
+  "NAME": "brotli",
+  "BASE": "brotli",
+  "VERSION": "1.2.1-1",
+  "DESC": "Generic-purpose lossless compression algorithm",
+  "CSIZE": "512347",
+  "ISIZE": "1025339",
+  "MD5SUM": "1990b1260291cda2e5dbcd527d4d8157",
+  "SHA256SUM": "fecde2c45b09936486dbb943da471174dc27206ddfad3fd6510b0358f5d5e4ab",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCatl9UgAKCRDDWOcNd+r/VINcAP4oyst4wc2UTa5EF2dDfOWNTJmmxM/+mLYsasrPkr6ZFgD/WbAo+UZHL2oY8JB6Gq3ltI4azCflQBPgWiYP0Ohlew4=",
+  "URL": "https://github.com/google/brotli",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1792638235",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libbrotlicommon.so",
+    "libbrotlidec.so",
+    "libbrotlienc.so"
+  ],
+  "MAKEDEPENDS": [
+    "musl",
+    "llvm-libs",
+    "cmake",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel"
+  ],
+  "REPO": "main"
+}

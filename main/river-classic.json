@@ -1,0 +1,38 @@
+{
+  "FILENAME": "river-classic-0.3.17-1-riscv64.pkg.tar.zst",
+  "NAME": "river-classic",
+  "BASE": "river-classic",
+  "VERSION": "0.3.17-1",
+  "DESC": "A dynamic tiling wayland compositor with flexible runtime configuration",
+  "CSIZE": "455670",
+  "ISIZE": "1379542",
+  "MD5SUM": "c12f7ceaa14073cfc2f97fd6b9133de7",
+  "SHA256SUM": "baee5f9bdd38cc5f0266d1c9c7f111d90c7f59d48756fcfe7db1c91afc2b66a5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanleUwAKCRDDWOcNd+r/VK+MAP4h/ZKF+gDedJVjxCnnRwhK7iJKm7PuAcmL0ai+W83mGAEA1+U2nVpE8EDjpGuitLB3fe7I460lHQbIOauPs/2zkw8=",
+  "URL": "https://codeberg.org/river/river-classic",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1786338280",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "libevdev",
+    "libinput",
+    "libxkbcommon",
+    "musl",
+    "pixman",
+    "wayland",
+    "wlroots0.20"
+  ],
+  "CONFLICTS": [
+    "river"
+  ],
+  "MAKEDEPENDS": [
+    "scdoc",
+    "wayland-protocols",
+    "wlroots0.20-devel",
+    "zig"
+  ],
+  "REPO": "main"
+}
