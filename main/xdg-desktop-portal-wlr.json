@@ -1,0 +1,45 @@
+{
+  "FILENAME": "xdg-desktop-portal-wlr-0.8.3-1-aarch64.pkg.tar.zst",
+  "NAME": "xdg-desktop-portal-wlr",
+  "BASE": "xdg-desktop-portal-wlr",
+  "VERSION": "0.8.3-1",
+  "DESC": "xdg-desktop-portal backend for wlroots",
+  "CSIZE": "49588",
+  "ISIZE": "100084",
+  "MD5SUM": "21f09bd60c8e10831832f8c627e73c73",
+  "SHA256SUM": "c890098553b93762ec6838a902624bbcaed8e91dbda33ddb2a09fb5cfbf83bb9",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakMizgAKCRDDWOcNd+r/VMnwAP4mkI9MvjTCQlPafxS8D/HBv0hCU90vTSZH96MrCJMXEQD8DUY98g85Xr8wahaFjZuym5JxFfuLLHXTjFEZ7VGiWgE=",
+  "URL": "https://github.com/emersion/xdg-desktop-portal-wlr",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1782784893",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "basu",
+    "libdrm",
+    "libinih",
+    "libpipewire",
+    "mesa",
+    "pipewire",
+    "pipewire-session-manager",
+    "wayland",
+    "xdg-desktop-portal"
+  ],
+  "PROVIDES": [
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "bemenu: to choose which output to screencast using bemenu",
+    "slurp: to choose which output to screencast using slurp",
+    "wofi: to choose which output to screencast using wofi"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "meson",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}

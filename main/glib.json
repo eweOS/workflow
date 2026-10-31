@@ -1,0 +1,49 @@
+{
+  "FILENAME": "glib-2.90.1-1-aarch64.pkg.tar.zst",
+  "NAME": "glib",
+  "BASE": "glib",
+  "VERSION": "2.90.1-1",
+  "DESC": "Low-level core library that forms the basis for projects such as GTK+ and GNOME",
+  "CSIZE": "5564226",
+  "ISIZE": "31449855",
+  "MD5SUM": "661b335c7f68475f68222110ace03e1f",
+  "SHA256SUM": "ae79c9310395cdac3481c0b3ad2853ffaab758743c3fb6f089a379b62201d657",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauA57wAKCRDDWOcNd+r/VBeZAP9jF+XQIckY94Rz/3sYT27Ru5dieu2UqAs/axSyN90h5gD/U9OYoa3M8CyjNJKMhU5XqCkWsLbQ22xW1letb0+5cQM=",
+  "URL": "https://wiki.gnome.org/Projects/GLib",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793079616",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "pcre2",
+    "libffi",
+    "util-linux-libs",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libglib-2.0.so",
+    "libgio-2.0.so",
+    "libgirepository-2.0.so",
+    "libgmodule-2.0.so",
+    "libgobject-2.0.so",
+    "libgthread-2.0.so",
+    "glib2"
+  ],
+  "MAKEDEPENDS": [
+    "gettext",
+    "python",
+    "libelf",
+    "util-linux",
+    "meson",
+    "dbus",
+    "gi-docgen",
+    "python-packaging",
+    "python-docutils",
+    "gobject-introspection",
+    "libffi-static",
+    "pcre2-static"
+  ],
+  "REPO": "main"
+}

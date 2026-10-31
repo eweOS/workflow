@@ -1,0 +1,37 @@
+{
+  "FILENAME": "cairo-1.18.6-1-aarch64.pkg.tar.zst",
+  "NAME": "cairo",
+  "BASE": "cairo",
+  "VERSION": "1.18.6-1",
+  "DESC": "2D graphics library with support for multiple output devices",
+  "CSIZE": "553526",
+  "ISIZE": "1304149",
+  "MD5SUM": "45361332553308c0ffe905e0babf76a7",
+  "SHA256SUM": "f7b28f54e1f5f51dcc7c41594334e30fc2fbdedfa1c81ba99e5f4afe23cfbf24",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauA42AAKCRDDWOcNd+r/VF8tAQDNhHewdlfk+vjLMTpJkQ65QHWzv6k9TkqrE5Yyg12LWAD+J3hYvhEv6YdHhskZBCrP1eFJrw7jxtRCYveJeaFJlww=",
+  "URL": "https://cairographics.org/",
+  "LICENSE": [
+    "LGPL-2.1",
+    "MPL-1.1"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793079616",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libpng",
+    "fontconfig",
+    "lzo",
+    "pixman",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libcairo-gobject.so",
+    "libcairo-script-interpreter.so",
+    "libcairo.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "gtk-doc"
+  ],
+  "REPO": "main"
+}

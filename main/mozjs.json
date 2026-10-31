@@ -1,0 +1,39 @@
+{
+  "FILENAME": "mozjs-140.5.0-3-aarch64.pkg.tar.zst",
+  "NAME": "mozjs",
+  "BASE": "mozjs",
+  "VERSION": "140.5.0-3",
+  "DESC": "JavaScript interpreter and libraries - Version 128",
+  "CSIZE": "13592838",
+  "ISIZE": "42263564",
+  "MD5SUM": "80b3b720247f20ae51ab0197c13ecf86",
+  "SHA256SUM": "d6990313bb1e67e34856586600ff629cba641189650d6fc43045a81e9ea5a33d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag70KwAKCRDDWOcNd+r/VC2XAQCp8xd97dSBDhVhrqTIbC8KPPuT5ShIHt4JBws8MNY3gAD8CHqrIZ6+tl8Cc/czP4Xi15a7/5+TAgvxXk1xkrdv+wM=",
+  "URL": "https://spidermonkey.dev/",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779362958",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl",
+    "readline",
+    "sh",
+    "zlib",
+    "nspr",
+    "icu"
+  ],
+  "PROVIDES": [
+    "js140"
+  ],
+  "MAKEDEPENDS": [
+    "cbindgen",
+    "linux-headers",
+    "python",
+    "rust",
+    "zip"
+  ],
+  "REPO": "main"
+}

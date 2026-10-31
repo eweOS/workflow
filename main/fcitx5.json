@@ -1,0 +1,47 @@
+{
+  "FILENAME": "fcitx5-5.1.23-1-aarch64.pkg.tar.zst",
+  "NAME": "fcitx5",
+  "BASE": "fcitx5",
+  "VERSION": "5.1.23-1",
+  "DESC": "Next generation of fcitx",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "9527253",
+  "ISIZE": "18202177",
+  "MD5SUM": "c215d551c8785f3b1b8748d5709c3d4c",
+  "SHA256SUM": "2ad859c9b0fb95be9ef5636faa74b98eadf79e78d4a031067625af1c58104019",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauGO0wAKCRDDWOcNd+r/VJe4AP9vFjxfSyqAILbRQTH+OnHpFoS87O7hSSrjLwQSkwDTSgEAutU54tFfug0ZtWXUrHyOCZH1cZExd68Xyt0o5KRCgwY=",
+  "URL": "https://github.com/fcitx/fcitx5",
+  "LICENSE": [
+    "LGPL-2.1-or-later AND Unicode-DFS-2016"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793167111",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "cairo",
+    "dbus",
+    "iso-codes",
+    "libuv",
+    "libxkbcommon",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "librsvg"
+  ],
+  "PROVIDES": [
+    "fcitx"
+  ],
+  "MAKEDEPENDS": [
+    "ninja",
+    "wayland-protocols",
+    "fmt",
+    "extra-cmake-modules",
+    "zstd",
+    "linux-headers",
+    "nlohmann-json",
+    "plasma-wayland-protocols"
+  ],
+  "REPO": "main"
+}

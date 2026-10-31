@@ -1,0 +1,35 @@
+{
+  "FILENAME": "snappy-1.3.1-1-aarch64.pkg.tar.zst",
+  "NAME": "snappy",
+  "BASE": "snappy",
+  "VERSION": "1.3.1-1",
+  "DESC": "A fast compressor/decompressor library",
+  "CSIZE": "36325",
+  "ISIZE": "86206",
+  "MD5SUM": "7c408729216653a6ca022268081b129c",
+  "SHA256SUM": "c51c630cb3b5c6fdcaf6661987b16accdd27c44d40e7707a0285274b3535d097",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauAXGgAKCRDDWOcNd+r/VPHxAQDxgCz71qiyBHtQnqgcA4rivEY5Ag1QPoIW4jYhVX+mcwD7BeHrBP6pGmMZEYAClWNAZT6mpTEp/MMZPUtvs8qtjwA=",
+  "URL": "https://github.com/google/snappy",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793070990",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libsnappy.so"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "cmake",
+    "gtest"
+  ],
+  "CHECKDEPENDS": [
+    "zlib"
+  ],
+  "REPO": "main"
+}

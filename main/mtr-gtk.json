@@ -1,0 +1,37 @@
+{
+  "FILENAME": "mtr-gtk-0.96-2-aarch64.pkg.tar.zst",
+  "NAME": "mtr-gtk",
+  "BASE": "mtr",
+  "VERSION": "0.96-2",
+  "DESC": "Combines the functionality of traceroute and ping into one tool",
+  "CSIZE": "69119",
+  "ISIZE": "145792",
+  "MD5SUM": "110df0b0007f569d25d30ec59987f93d",
+  "SHA256SUM": "4c1f6f18323f41d9056db6a9526467f52543efa55acc13c05a2490cad2984ec3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8DuAAKCRDDWOcNd+r/VGMzAQCLd1dTCCrql9ATakrLDgRLlmdRj/avt2B3sj540LyggQEA/iZVsK48Jd5k4zA20dOoMfU75MPHzHMFXCPxJNCNbwk=",
+  "URL": "https://www.bitwizard.nl/mtr/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779368833",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "jansson",
+    "ncurses",
+    "libcap",
+    "gtk3"
+  ],
+  "CONFLICTS": [
+    "mtr"
+  ],
+  "PROVIDES": [
+    "mtr"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}
