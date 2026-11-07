@@ -1,0 +1,36 @@
+{
+  "FILENAME": "python-pystemmer-3.1.0-1-riscv64.pkg.tar.zst",
+  "NAME": "python-pystemmer",
+  "BASE": "python-pystemmer",
+  "VERSION": "3.1.0-1",
+  "DESC": "Snowball stemming algorithms, for information retrieval",
+  "CSIZE": "42306",
+  "ISIZE": "87388",
+  "MD5SUM": "10bb3fbd48c48cc67f5740a858b95467",
+  "SHA256SUM": "bc5710d1b4a5397d53309ac069c82f9df67d3b71ba286ba562f6722068784cc2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaunoUQAKCRDDWOcNd+r/VINRAP9aXRzDeyDpoeZ7+YGh6gr5XV01latDq6MDAPbo0QE2vAD/S02vNLBU65PS41miie3QOKZ16wnu543R2QcGisiJqAs=",
+  "URL": "http://snowball.tartarus.org",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793714206",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "python",
+    "libstemmer"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-packaging",
+    "python-wheel",
+    "python-installer",
+    "python-setuptools"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

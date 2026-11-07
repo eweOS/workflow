@@ -1,0 +1,32 @@
+{
+  "FILENAME": "opencsg-1.8.2-2-riscv64.pkg.tar.zst",
+  "NAME": "opencsg",
+  "BASE": "opencsg",
+  "VERSION": "1.8.2-2",
+  "DESC": "OpenGL image-based CSG-rendering library",
+  "CSIZE": "83812",
+  "ISIZE": "233015",
+  "MD5SUM": "dbe16cd61ccf3f359bfc910dc3e8fb48",
+  "SHA256SUM": "3920ac647fdc0b725de2d5e4d8a17e16b4814214863ead58c7b694e132d6ba96",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahHGSAAKCRDDWOcNd+r/VNhiAP9zy29gZ4IcgPonOISlVlGmICXu4xmXdirfZRLg3dydQwD+PqwdzLUSrqHaDFQasZgQx+qziqe2sPzRXbqjIyqYqQ0=",
+  "URL": "https://opencsg.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779549749",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libglvnd"
+  ],
+  "PROVIDES": [
+    "libopencsg.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "glad"
+  ],
+  "REPO": "main"
+}

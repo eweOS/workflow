@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-declarative-6.11.1-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-declarative",
+  "BASE": "qt6-declarative",
+  "VERSION": "6.11.1-1",
+  "DESC": "Classes for QML and JavaScript languages",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "26082234",
+  "ISIZE": "138525079",
+  "MD5SUM": "d8e14308091cff33194b5eb58a2ee608",
+  "SHA256SUM": "c25374e7281b054910d03fc9aa3cedf426958c32836914b596f79f04c31c3a5f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaiFZswAKCRDDWOcNd+r/VDulAPkBiuZGMKJZoJidd8B42UQEZm0ug/iCe9JI8eyr58DyJQEAlA68zSd8Op2j53gbllFmM8KfN1UOTy+xDSwOx2k/rQ8=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-only",
+    "LGPL-3.0-only",
+    "LicenseRef-Qt-Commercial",
+    "Qt-GPL-exception-1.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780558591",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-svg: for QtQuickVectorImage and svgtoqml"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "python",
+    "vulkan-headers",
+    "qt6-shadertools",
+    "qt6-languageserver-devel",
+    "qt6-base-devel",
+    "qt6-svg-devel"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,31 @@
+{
+  "FILENAME": "cblas64-3.12.1-2-riscv64.pkg.tar.zst",
+  "NAME": "cblas64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-2",
+  "DESC": "C interface to BLAS (64-bit integers)",
+  "CSIZE": "51474",
+  "ISIZE": "170487",
+  "MD5SUM": "8dcc16ea63b93610ebada72ee1ac5d84",
+  "SHA256SUM": "74789e81edb44331efe2d20508773e658091300f39893aa37195a626217e00e7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahDgqwAKCRDDWOcNd+r/VE/dAQCZ5nZu64Lb5YrZtiXOsoU/qGLfb6dgigPT4XGkE4W+lQEAlisH5yjUjjIEticN6+ktYBJPtB45tpFa0iNcbvEq+wk=",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779487495",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "blas64"
+  ],
+  "OPTDEPENDS": [
+    "cblas: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "ntbtls-0.3.2-5-riscv64.pkg.tar.zst",
+  "NAME": "ntbtls",
+  "BASE": "ntbtls",
+  "VERSION": "0.3.2-5",
+  "DESC": "Not Too Bad TLS library",
+  "CSIZE": "44259",
+  "ISIZE": "88495",
+  "MD5SUM": "848804759cedeb9878d0762042b41374",
+  "SHA256SUM": "651780df2bacb900f272c0d1257de406cc0a5cf3c1cf73c4114ab3b396f16f4c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahQ2dwAKCRDDWOcNd+r/VDPvAQD7DaW1HRaITIJ/EhxG49QG/BBw6in2RC8l9uNQaEgxZAEA7TzVK+DUOEfOZMtorOc6JKcUtZSVZgBLgIPXCPDtZww=",
+  "URL": "https://wiki.gnupg.org/NTBTLS",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779709484",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "libgcrypt",
+    "libgpg-error",
+    "libksba"
+  ],
+  "PROVIDES": [
+    "libntbtls.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}
