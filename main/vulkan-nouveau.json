@@ -1,0 +1,59 @@
+{
+  "FILENAME": "vulkan-nouveau-26.2.6-1-loongarch64.pkg.tar.zst",
+  "NAME": "vulkan-nouveau",
+  "BASE": "mesa",
+  "VERSION": "26.2.6-1",
+  "DESC": "Open-source Vulkan driver for Nvidia Nouveau (NVK)",
+  "CSIZE": "3128706",
+  "ISIZE": "17138786",
+  "MD5SUM": "bdc4d38d3079c16adde49ef186efc9e2",
+  "SHA256SUM": "3b6c93f3aa087a5af5c36eb1597ac9fa0f0767a6cf82173caf83a1a72961d2a7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaug85QAKCRDDWOcNd+r/VAEKAP9Ox5zkPjxEVu25snHqctNV7FI8Kcvgn5yMhDWBmfWmZAEA2WFXs1jys04fiScGl3/D+4XU5kliVrjy/dRR8Jx3/g8=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793603356",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen"
+  ],
+  "REPO": "main"
+}

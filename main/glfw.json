@@ -1,0 +1,34 @@
+{
+  "FILENAME": "glfw-1:3.5.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "glfw",
+  "BASE": "glfw",
+  "VERSION": "1:3.5.1-1",
+  "DESC": "A free, open source, portable framework for graphical application development",
+  "CSIZE": "139280",
+  "ISIZE": "571914",
+  "MD5SUM": "ec386536be3d16ca826057a07c2af29c",
+  "SHA256SUM": "bb0e820d3f0a3bc014e836de1267e54dfb16755f4f05ba8326888fced418f731",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauGORgAKCRDDWOcNd+r/VH6aAP9YfkB7RXsn1FoBu6Z0fQsMd1gW7PVqZvYxEYGSPmO+dwD/TEJIrZSHNRbEF3DyGnz94sl5Cird1fu99UYx0iTNfwY=",
+  "URL": "https://www.glfw.org/",
+  "LICENSE": [
+    "custom:ZLIB"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793167068",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libgl",
+    "libxkbcommon",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "mesa",
+    "cmake",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "extra-cmake-modules",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

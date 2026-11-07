@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libglvnd-1.7.0-7-loongarch64.pkg.tar.zst",
+  "NAME": "libglvnd",
+  "BASE": "libglvnd",
+  "VERSION": "1.7.0-7",
+  "DESC": "The GL Vendor-Neutral Dispatch library",
+  "CSIZE": "430364",
+  "ISIZE": "3532075",
+  "MD5SUM": "28a0a8c9fff01700ff7dcf888f224b6e",
+  "SHA256SUM": "b67ac9458f8d7d26a5a74508a524571cdfb58570a16279c105da229c11d39027",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapQ2GQAKCRDDWOcNd+r/VIOyAQD5iVeM/tUdEiUhJ/M2OQyMfFCYYBDTn6YBNqUMI8Ks3AD/eWMt2yLTVrh9StDe8ea0x/nEyxAWQXeNFCM9GBHtSgs=",
+  "URL": "https://gitlab.freedesktop.org/glvnd/libglvnd",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1788098531",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libgl",
+    "libegl",
+    "libgles"
+  ],
+  "OPTDEPENDS": [
+    "mesa: An open-source implementation of graphics and computation APIs"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "meson"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "lvm2-2.03.44-1-loongarch64.pkg.tar.zst",
+  "NAME": "lvm2",
+  "BASE": "lvm2",
+  "VERSION": "2.03.44-1",
+  "DESC": "Logical Volume Manager 2 utilities",
+  "CSIZE": "1948110",
+  "ISIZE": "4799784",
+  "MD5SUM": "aa3ca7d1e158092c68b0165a5befb025",
+  "SHA256SUM": "f27b4012c9d417cef729851ec6897cbb0788ec2c9e440e96338f199c83dd3d0b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauVPLwAKCRDDWOcNd+r/VIkKAQDwbt0iwsJ+12zJ1mn6iErZrQKQ0pA7HRxF+74+wVXV/QEA+W+gMFEkzZrL4n+ypfJyFjVG4WtsmkrfJLgh7/5G3AI=",
+  "URL": "https://sourceware.org/lvm2/",
+  "LICENSE": [
+    "GPL2",
+    "LGPL2.1"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793412878",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "bash",
+    "device-mapper>=2.03.44",
+    "util-linux-libs",
+    "libblkid.so",
+    "readline",
+    "libreadline.so",
+    "libaio",
+    "libaio.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "libaio",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

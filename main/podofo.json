@@ -1,0 +1,41 @@
+{
+  "FILENAME": "podofo-1.1.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "podofo",
+  "BASE": "podofo",
+  "VERSION": "1.1.2-1",
+  "DESC": "A C++ library to work with the PDF file format",
+  "CSIZE": "2660844",
+  "ISIZE": "6079943",
+  "MD5SUM": "cee986b74dd9b4a1b59d1dfbd769abf3",
+  "SHA256SUM": "af603f22ad6117af22578920b1e66f02f782b3a8217d60be88eee2b9302a1d81",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCartNGgAKCRDDWOcNd+r/VI7SAP0RgG7sS4ZXVM9eG6t7US2M0cpQ0uZ6/FB/bqVB/7PZ9gD/TosebxOYK1pnJ0xJzKdUc+8k2hiq9m3dAVXUBzOxnQw=",
+  "URL": "http://podofo.sourceforge.net",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1790659710",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "fontconfig",
+    "freetype2",
+    "libidn",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libxml2",
+    "lua",
+    "openssl",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libpodofo.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

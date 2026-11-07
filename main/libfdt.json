@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libfdt-1.8.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "libfdt",
+  "BASE": "dtc",
+  "VERSION": "1.8.1-1",
+  "DESC": "The device-tree compiler",
+  "CSIZE": "38219",
+  "ISIZE": "130801",
+  "MD5SUM": "c6a20620aaf75cc24980a995f2ec985e",
+  "SHA256SUM": "31bfa35ce46c6e3a1cd07f64d178be35cca61f4c65dc48fd5aa0dc3d1d33ab09",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahzytQAKCRDDWOcNd+r/VOx9AP9zBDXJNIZb8Yxs3GeHiHs3AsGgWDg7czQlZB1/T74s7gD9EceojVPIE9tXBkw9bypGtM8qdTTKV3+rxnvkgAp1cgc=",
+  "URL": "https://git.kernel.org/pub/scm/utils/dtc/dtc.git/",
+  "LICENSE": [
+    "BSD",
+    "GPL2"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780282072",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libfdt.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "meson",
+    "ninja"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,47 @@
+{
+  "FILENAME": "fcitx5-5.1.23-1-loongarch64.pkg.tar.zst",
+  "NAME": "fcitx5",
+  "BASE": "fcitx5",
+  "VERSION": "5.1.23-1",
+  "DESC": "Next generation of fcitx",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "9498556",
+  "ISIZE": "19131121",
+  "MD5SUM": "a56de9d766ca3b30fd44acb24e3b66be",
+  "SHA256SUM": "9b68502cf6b4b1ea9e111c8f877d6262e6edbc8b95bf0adad74931f05d27adbf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauGP3gAKCRDDWOcNd+r/VBa1AP9MGINEaYVdK6mN+7c0GUZ5Qqw9tJ4sdE9pNlOC1cNRgQD8D7gzCPQSQHn7d3Y0O2nhJWWQh9af2aveWmS5pgkfkgA=",
+  "URL": "https://github.com/fcitx/fcitx5",
+  "LICENSE": [
+    "LGPL-2.1-or-later AND Unicode-DFS-2016"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793167106",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "cairo",
+    "dbus",
+    "iso-codes",
+    "libuv",
+    "libxkbcommon",
+    "pango",
+    "wayland",
+    "gdk-pixbuf",
+    "librsvg"
+  ],
+  "PROVIDES": [
+    "fcitx"
+  ],
+  "MAKEDEPENDS": [
+    "ninja",
+    "wayland-protocols",
+    "fmt",
+    "extra-cmake-modules",
+    "zstd",
+    "linux-headers",
+    "nlohmann-json",
+    "plasma-wayland-protocols"
+  ],
+  "REPO": "main"
+}
