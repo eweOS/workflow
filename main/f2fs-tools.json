@@ -1,0 +1,33 @@
+{
+  "FILENAME": "f2fs-tools-1.16.0-1-x86_64.pkg.tar.zst",
+  "NAME": "f2fs-tools",
+  "BASE": "f2fs-tools",
+  "VERSION": "1.16.0-1",
+  "DESC": "Userland tools for the f2fs filesystem",
+  "CSIZE": "220728",
+  "ISIZE": "497448",
+  "MD5SUM": "393311ce8644dae637b1579c9b596d6a",
+  "SHA256SUM": "7c661af29167906d84d7d7f91ce09771bac5bffd08f71b7d066baa90795d0aae",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanXK6AAKCRDDWOcNd+r/VCvCAP47WSgUi6LttstDqgJOYdQv3Ogc0Hf7cLrEM+V6EjMePgD/bxz7BHHRmdr/WF9ZC/bXnIeYPTGQ50O221HPxLXKRQI=",
+  "URL": "https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/about",
+  "LICENSE": [
+    "GPL-2.0-only AND (GPL-2.0-only OR LGPL-2.1-only)"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1786104897",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "lz4",
+    "musl",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libf2fs.so",
+    "libf2fs_format.so"
+  ],
+  "MAKEDEPENDS": [
+    "bsd-compat-headers",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

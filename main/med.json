@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-5.0.0-2-x86_64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "5.0.0-2",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "880915",
+  "ISIZE": "2730602",
+  "MD5SUM": "d7b7fd9e0d5280bc4899aa0ea854fbd6",
+  "SHA256SUM": "de2ed2aa230d80edd92fada1b628129bd5e070b8d5545d51e087e62b6cf765cf",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag8AgAAKCRDDWOcNd+r/VFftAQDiZzllE7U70wAgi1tpdUZO+3twctDb3xKCsl9+KW1dLQD+J9LEcTuJpJNKuIAAxrpTbUT/Wlc3tT8TmbPlNqYuMwM=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1779368019",
+  "PACKAGER": "eweos-x8664-worker2 <abuild@eweos-x8664-worker2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

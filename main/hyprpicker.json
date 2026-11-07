@@ -1,0 +1,38 @@
+{
+  "FILENAME": "hyprpicker-0.4.7-2-x86_64.pkg.tar.zst",
+  "NAME": "hyprpicker",
+  "BASE": "hyprpicker",
+  "VERSION": "0.4.7-2",
+  "DESC": "A wlroots-compatible Wayland color picker that does not suck.",
+  "CSIZE": "101936",
+  "ISIZE": "239924",
+  "MD5SUM": "80439aa4749864984a4cf35f9acec725",
+  "SHA256SUM": "29039d2dbd03a4ae91e10b8a7020350dc09f8adbc044bc8d8d4fe1c2a3a3601b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaogI2wAKCRDDWOcNd+r/VI//AQC+yviwl3txXvhcG7n1rATIvPGL33S4wAW08BByFTc/7wEArd569xQgm7TvWoJu7157AHGz89r1StPnZ5vnAEa7sQY=",
+  "URL": "https://github.com/hyprwm/hyprpicker",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1787300474",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "cairo",
+    "libxkbcommon",
+    "wayland",
+    "hyprutils"
+  ],
+  "OPTDEPENDS": [
+    "wl-clipboard: Allows --autocopy to automatically copy the output to the clipboard."
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "hyprwayland-scanner",
+    "libglvnd",
+    "libjpeg",
+    "ninja",
+    "pango",
+    "wayland-protocols"
+  ],
+  "REPO": "main"
+}
