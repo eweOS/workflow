@@ -1,0 +1,55 @@
+{
+  "FILENAME": "libnm-1.56.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libnm",
+  "BASE": "networkmanager",
+  "VERSION": "1.56.1-1",
+  "DESC": "NetworkManager client library",
+  "CSIZE": "1137231",
+  "ISIZE": "6764403",
+  "MD5SUM": "c3b08c0ee9c2d4ac35daefb47142c1b4",
+  "SHA256SUM": "21bc16fb3cbad7ed5737d78d5744d4a29d611c284044e3ef42c48d81f292392e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZO/wAKCRDDWOcNd+r/VLB3AP9xwUDYLJJi3tc+IggEYd1tbp/sMb/9XyByiQDHcC7w0QEApLs9D+MsDJkBTjISTKw1MJem5zoBP9NIWemgLj/oPAI=",
+  "URL": "https://networkmanager.dev/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779846613",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "glib2",
+    "nspr",
+    "nss",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libnm.so"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "curl",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "jansson",
+    "libndp",
+    "libnewt",
+    "libnvme",
+    "libpsl",
+    "libudev",
+    "linux-headers",
+    "meson",
+    "nftables",
+    "nspr",
+    "nss",
+    "python-gobject",
+    "readline",
+    "vala",
+    "wpa_supplicant"
+  ],
+  "CHECKDEPENDS": [
+    "python-dbus"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "wireplumber-0.5.18-1-aarch64.pkg.tar.zst",
+  "NAME": "wireplumber",
+  "BASE": "wireplumber",
+  "VERSION": "0.5.18-1",
+  "DESC": "Session / policy manager implementation for PipeWire",
+  "CSIZE": "332662",
+  "ISIZE": "1208873",
+  "MD5SUM": "0837f5619176266a950a57082c326cc6",
+  "SHA256SUM": "f9456c1a88a4545ac5b8a7390ba7449cf9ec38558ced12483bddbaafb9d722db",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaug8awAKCRDDWOcNd+r/VLahAQCjX4qj6540k2Yvki4EdJayg8fMR95RkerEflLECA3pLgEAtOK4yQ8ZHTBOa0dIMxa0+CWQ4QnqHxTHUQPhWqM/hAA=",
+  "URL": "https://pipewire.pages.freedesktop.org/wireplumber/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793604698",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libwireplumber=0.5.18-1",
+    "lua54",
+    "pipewire"
+  ],
+  "PROVIDES": [
+    "pipewire-session-manager"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "lua54",
+    "meson",
+    "pipewire",
+    "glib",
+    "python-packaging"
+  ],
+  "CHECKDEPENDS": [
+    "pipewire"
+  ],
+  "REPO": "main"
+}

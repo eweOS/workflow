@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libwebp-1.6.0-3-aarch64.pkg.tar.zst",
+  "NAME": "libwebp",
+  "BASE": "libwebp",
+  "VERSION": "1.6.0-3",
+  "DESC": "A library to encode and decode images in WebP format.",
+  "CSIZE": "483649",
+  "ISIZE": "1138389",
+  "MD5SUM": "8a08092bc21c283a7d7380c57574f668",
+  "SHA256SUM": "cf0cf0899c462d8d25add18f0af3428ac764090e859f25623bbb6f1bedf56678",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7AcwAKCRDDWOcNd+r/VNOhAP4q1/O1QMqGeo4M2uExlLxfPj6YY5KN6R8y3cTyHak5bgD/aNkPT0bS8nUsjwGYkYBMUY/UL58+pXicLa720+dV2Q0=",
+  "URL": "https://chromium.googlesource.com/webm/libwebp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779351634",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libjpeg",
+    "libpng",
+    "libtiff"
+  ],
+  "PROVIDES": [
+    "libwebp.so",
+    "libwebpdecoder.so",
+    "libwebpdemux.so",
+    "libwebpmux.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake"
+  ],
+  "REPO": "main"
+}

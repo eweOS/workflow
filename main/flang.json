@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-21.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "54730969",
+  "ISIZE": "659800072",
+  "MD5SUM": "d9c8d2b6d05371e521e9ad6031b75f45",
+  "SHA256SUM": "fdfae248264b84c847383760cc09385a4776a60066374188586f2b0aa0491435",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6F5gAKCRDDWOcNd+r/VAdBAP44rgL1/QdZmivzv1X3R657EUphft5I3Di1hj/A6rc/fAEAvq/L++p5qH6whAeUExH6K+Mu+ZdNR1O/Y4eUZ+3lBAY=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780380776",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

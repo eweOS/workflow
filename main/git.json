@@ -1,0 +1,41 @@
+{
+  "FILENAME": "git-2.56.0-1-aarch64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.56.0-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "17714577",
+  "ISIZE": "44403582",
+  "MD5SUM": "522f7209e5ad7c907a52b8c85a8ff768",
+  "SHA256SUM": "5f2cfe2bb177faf0ec25a52ab6a4bb6593be5a2530524dfb7fc23eef11fc13e0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauAb0gAKCRDDWOcNd+r/VCCGAQC2FRExrfDo11d5iwWRqYd0kOb6CXiDyv15RYW1ms6lKQD+PAEWbo8fMZHSHqBkDDheEAx9cbCEX1+Rv6v3G8BGEA8=",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793072197",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib-ng"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "asciidoc",
+    "xmlto",
+    "linux-headers",
+    "rust"
+  ],
+  "REPO": "main"
+}

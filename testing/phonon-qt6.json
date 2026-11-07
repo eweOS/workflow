@@ -1,0 +1,35 @@
+{
+  "FILENAME": "phonon-qt6-4.12.0-1-aarch64.pkg.tar.zst",
+  "NAME": "phonon-qt6",
+  "BASE": "phonon",
+  "VERSION": "4.12.0-1",
+  "DESC": "The multimedia framework by KDE",
+  "CSIZE": "453736",
+  "ISIZE": "1667639",
+  "MD5SUM": "a2b6489a1010c1247a976cba59594d11",
+  "SHA256SUM": "4d4f8c7ed4a5f3d413396c549ebddcde4e31f83c58c57242bcfec53e8f70a7ca",
+  "PGPSIG": "iF4EABYCAAYFAmdtCqAACgkQw1jnDXfq/1ShvwEA6CMC0o+5Ik+yXJ5pTXafOxU9N1lNFgFXAQceU3SG3h8BAPEezdQwet7mAVZndX4hdvTOdvsPEULvesSB4ed6EtYL",
+  "URL": "https://community.kde.org/Phonon",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1735199608",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "libpulse",
+    "qt6-5compat",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "pulseaudio: PulseAudio support",
+    "qt6-tools: Designer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-5compat",
+    "qt6-base",
+    "qt6-tools"
+  ],
+  "REPO": "testing"
+}

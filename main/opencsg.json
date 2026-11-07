@@ -1,0 +1,32 @@
+{
+  "FILENAME": "opencsg-1.8.2-2-aarch64.pkg.tar.zst",
+  "NAME": "opencsg",
+  "BASE": "opencsg",
+  "VERSION": "1.8.2-2",
+  "DESC": "OpenGL image-based CSG-rendering library",
+  "CSIZE": "84387",
+  "ISIZE": "260095",
+  "MD5SUM": "0c7757909c950884d374e29b47a89a0c",
+  "SHA256SUM": "3973ad99dcb47ba8be148cc268945dd29f4d7ed6b950f5ac0f73ac9c6393a50a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag74tAAKCRDDWOcNd+r/VJkVAP9NbtZz+lEkQaEL+ZGJciDcVULlM1vxdys/RwBoNYY3gAEA89qGD76U3fiDcw0GTix0Uf9RBPKSM58iXLy7he5DygI=",
+  "URL": "https://opencsg.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779366012",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libglvnd"
+  ],
+  "PROVIDES": [
+    "libopencsg.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "glad"
+  ],
+  "REPO": "main"
+}

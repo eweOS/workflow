@@ -1,0 +1,45 @@
+{
+  "FILENAME": "python-jsonschema-4.23.0-2-any.pkg.tar.zst",
+  "NAME": "python-jsonschema",
+  "BASE": "python-jsonschema",
+  "VERSION": "4.23.0-2",
+  "DESC": "An implementation of the JSON Schema specification for Python",
+  "CSIZE": "232579",
+  "ISIZE": "1395887",
+  "MD5SUM": "baff5ed8742b3a9ff76754c9f354e153",
+  "SHA256SUM": "bcb8a416581575ff8e8fa3ea6ee9f316c8f08b10b20da69fccfb5f53e0ce823a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7o4wAKCRDDWOcNd+r/VLy+AP9siB4UKBsrqKELjZttWBabG7Qk4T92yoUV8pprplpVSgEAjpN41EJ9iLWmzVuFbNiuKYV/DhH8U0NKsu0qDiuEfA8=",
+  "URL": "https://python-jsonschema.readthedocs.io/en/stable/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1779362026",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "python",
+    "python-attrs",
+    "python-jsonschema-specifications",
+    "python-referencing"
+  ],
+  "OPTDEPENDS": [
+    "python-fqdn: For hostname format",
+    "python-idna: For idn-hostname format",
+    "python-isoduration: For duration format",
+    "python-jsonpointer: For JSON-pointer and relative-JSON-pointer format",
+    "python-rfc3339-validator: For date-time format",
+    "python-rfc3987: For IRI, IRI-reference, URI and URI-reference format",
+    "python-uri-template: For URI-template format",
+    "python-webcolors: For color format"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel",
+    "python-hatchling",
+    "python-hatch-fancy-pypi-readme",
+    "python-hatch-vcs"
+  ],
+  "REPO": "main"
+}

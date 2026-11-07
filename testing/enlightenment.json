@@ -1,0 +1,46 @@
+{
+  "FILENAME": "enlightenment-0.26.0-1-aarch64.pkg.tar.gz",
+  "NAME": "enlightenment",
+  "BASE": "enlightenment",
+  "VERSION": "0.26.0-1",
+  "DESC": "Enlightenment window manager",
+  "CSIZE": "410752815",
+  "ISIZE": "422350043",
+  "MD5SUM": "dedf47d097fcfca3935e14f9237b436f",
+  "SHA256SUM": "f77e5e5898b4e183e8aae97d77adb286b677aab51b1379c15685731a5f12d497",
+  "PGPSIG": "iQIcBAABCAAGBQJmm2xDAAoJECeNKu/DSpAxz7AP/AlAgrBaefE/oBMfGCQrC6reIT20V0XLOo3Ezv7D4WmP13b3jRIJjUpUqWlHcZWGQayqYEHfp9a8qJLGVNT26TgYaRkN5N7Ftj5r0vqWag9ebif2RzmWDj6l0DQ6p92Ny4ykvXSzMUrqNgP9QZoO79J0NLDdV7VZhlIsnwRKCYv+AtAE/6SrPf86raAGlwcUUz2nuyNquS5UXeR3ajB2u73KPWj7jAc8hsxO7ZUSasYojYr7tl6o3B/3aZyOa2UprElDzm49DY/yyNxpCfM2bZoa8dS/045Yj0K8UNQpGZQtbwpLtoXpAUdszw06MM4VO4VNlnvboFeLthTOXNWQOeG5Hn4LWUEaKaj+VKtcF5/EELpp9gJ1npxQdPo2I5TaaYeXAHvh86Ri8NIgqZW9emIXwBz8VomHekjq5czdKU4gyIf8La5IkmDt7N3amWEunHDaPIM1WKJMZ9mqVSB6WgRm6knGNvZC76RwnONX7RiH4Hto2oBSq/Dboqoq8/dCcSCU6wVVpRSxZf0MbbxZVDgjCQvvzoHfWJ74ueC1we+n9Se0fb3J/66YAS+2fxdlFu0HSZGI4n7grNTt8L655zA4aAGZJmZRREbUNOCyra190dY+PL0M/6b5AFiApm478yhs1YYg01n5gO3VXNZe6EDPIYky8ZBIWj4RS0nz3Pxk",
+  "URL": "http://www.enlightenment.org",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1721461828",
+  "PACKAGER": "venus <venus@workers.os-build.ewe.moe>",
+  "DEPENDS": [
+    "alsa-lib",
+    "efl",
+    "hicolor-icon-theme",
+    "libexif",
+    "librsvg",
+    "libpulse",
+    "libxkbcommon",
+    "pam",
+    "util-linux-libs",
+    "wayland",
+    "ttf-font"
+  ],
+  "OPTDEPENDS": [
+    "acpid: power events on laptop lid close",
+    "bluez: Bluetooth control module",
+    "connman: network connection manager module",
+    "fprintd: fingerprint password settings",
+    "geoclue: geolocation module",
+    "packagekit: package manager integration module"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "wayland-protocols"
+  ],
+  "REPO": "testing"
+}

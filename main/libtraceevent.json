@@ -1,0 +1,35 @@
+{
+  "FILENAME": "libtraceevent-1.9.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libtraceevent",
+  "BASE": "libtraceevent",
+  "VERSION": "1.9.1-1",
+  "DESC": "Library to parse raw trace event formats",
+  "CSIZE": "94920",
+  "ISIZE": "234282",
+  "MD5SUM": "f347a25997851bc3c6c4a7cb1f416e40",
+  "SHA256SUM": "248945b3512bd3ecee7931307d26bbc816cc3e5c3671e20c209b7a991eca5836",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaunO8gAKCRDDWOcNd+r/VCLFAP0Xa+l6thvQUl9pq2O4If1bhLO4rEv16hABkTUqhjDS2AEAnmg+3OfTdM+Qlny0yRzO5TDj1Iql8fHZ8DvVCIvaGAY=",
+  "URL": "Library",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793707767",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "libtraceevent.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "asciidoc",
+    "doxygen",
+    "xmlto",
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

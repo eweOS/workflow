@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libnetfilter_conntrack-1.1.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libnetfilter_conntrack",
+  "BASE": "libnetfilter_conntrack",
+  "VERSION": "1.1.1-1",
+  "DESC": "Userspace library providing API to in-kernel connection tracking state table",
+  "CSIZE": "55152",
+  "ISIZE": "148537",
+  "MD5SUM": "477f641f3a33b6208572328ec69e23d1",
+  "SHA256SUM": "c5928b3cfa41ce71b8b453a8c58bde95865cd5744e98db89e49c822d381437aa",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauFk8QAKCRDDWOcNd+r/VCBrAQDBsTNRvrIoKBiPK9y8Au/1i00ZWPvyC34zGwVFTgYGBgEA7VGuVW2mAqKziK4ue3drKIBZl338FR1LBf6Jb0gOgg4=",
+  "URL": "https://www.netfilter.org/projects/libnetfilter_conntrack/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793156485",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libmnl",
+    "libnfnetlink"
+  ],
+  "PROVIDES": [
+    "libnetfilter_conntrack.so"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}
