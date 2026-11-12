@@ -173,11 +173,16 @@ jobs:
         run: |
           docker run \
             --rm \
+            --user ewe \
+            -e HOME=/home/ewe \
             -v $(pwd):/${{ github.workspace }} \
             -w ${{ github.workspace }} \
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
-            bash -c "pacman -Syu --noconfirm && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
+            bash -c "sudo chown -R ewe:ewe . && sudo pacman -Syu --noconfirm && set -euo pipefail && makepkg -s --noconfirm 2>&1 | tee build.log"
+      - name: Restore workspace ownership
+        if: always()
+        run: sudo chown -R $(id -u):$(id -g) .
       - uses: tibdex/github-app-token@v2.1.0
         if: always()
         id: gettoken2
