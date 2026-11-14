@@ -1,0 +1,72 @@
+{
+  "FILENAME": "jdk25-openjdk-25.0.4.u4-1-aarch64.pkg.tar.zst",
+  "NAME": "jdk25-openjdk",
+  "BASE": "java25-openjdk",
+  "VERSION": "25.0.4.u4-1",
+  "DESC": "OpenJDK Java 25 development kit",
+  "CSIZE": "208483796",
+  "ISIZE": "388803182",
+  "MD5SUM": "2fd37d00412d3bba71b0204595844196",
+  "SHA256SUM": "904b63052b6d009d8f495cde366e08453e81a7d72b52d34862869c56db62c39f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaipx/QAKCRDDWOcNd+r/VK8CAPwLIfMwn7bXcfFEXhzcmJ6Xb0Kz1iVZ5kaJnM7JW65hqgD8CqZBezQGpXBpKRAMsBvXIbuJNwSZsMQ9B3kGMWw9dQ4=",
+  "URL": "https://openjdk.java.net/",
+  "LICENSE": [
+    "LicenseRef-Java"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1781165677",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz",
+    "java-runtime-common",
+    "java-environment-common",
+    "hicolor-icon-theme",
+    "libelf",
+    "giflib",
+    "libpng",
+    "ca-certificates-utils",
+    "nss",
+    "libjpeg",
+    "lcms2",
+    "freetype2",
+    "harfbuzz"
+  ],
+  "CONFLICTS": [
+    "jre25-openjdk"
+  ],
+  "PROVIDES": [
+    "java-runtime=25",
+    "java-runtime-openjdk=25",
+    "jre25-openjdk=25.0.4.u4-1",
+    "java-environment=25",
+    "java-environment-openjdk=25",
+    "jdk25-openjdk=25.0.4.u4-1"
+  ],
+  "OPTDEPENDS": [
+    "alsa-lib: for basic sound support",
+    "gtk3: for the Gtk+ 3 look and feel - desktop usage"
+  ],
+  "MAKEDEPENDS": [
+    "java-environment>=24",
+    "java-environment<26",
+    "zip",
+    "libelf",
+    "libcups",
+    "alsa-lib",
+    "graphviz",
+    "freetype2",
+    "libjpeg",
+    "giflib",
+    "libpng",
+    "lcms2",
+    "bash",
+    "harfbuzz",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

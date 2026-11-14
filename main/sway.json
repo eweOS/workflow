@@ -1,0 +1,40 @@
+{
+  "FILENAME": "sway-1.12-2-aarch64.pkg.tar.zst",
+  "NAME": "sway",
+  "BASE": "sway",
+  "VERSION": "1.12-2",
+  "DESC": "Tiling Wayland compositor and replacement for the i3 window manager",
+  "CSIZE": "5359399",
+  "ISIZE": "5761858",
+  "MD5SUM": "3717786c08004bbc2f4771c22f90bd4c",
+  "SHA256SUM": "9a78f45ca3a04d1a44b5281e13f7f366fa992d1c44ea7b00d4bf3c0fccbcb2dc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCan/OkQAKCRDDWOcNd+r/VPrUAQDcj9YLr+QGuB39GAn1+9TXwIqtHIUGKm4oTWhRMRowJwD/b2aI9LGekZGk+6SNEN71M9VjKb+Nc3hhmuHaJSKtmA4=",
+  "URL": "https://swaywm.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786761224",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "cairo",
+    "json-c",
+    "libinput",
+    "seatd",
+    "libxkbcommon",
+    "pango",
+    "pcre2",
+    "pixman",
+    "wayland",
+    "wlroots0.20",
+    "gdk-pixbuf"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "meson",
+    "wayland-protocols",
+    "scdoc",
+    "wlroots0.20-devel"
+  ],
+  "REPO": "main"
+}

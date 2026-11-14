@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libfm-qt-2.5.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libfm-qt",
+  "BASE": "libfm-qt",
+  "VERSION": "2.5.0-1",
+  "DESC": "Core library of PCManFM-Qt (Qt binding for libfm)",
+  "CSIZE": "815941",
+  "ISIZE": "3156614",
+  "MD5SUM": "e81680d34bcea3f4b0afdd7fac47d9e8",
+  "SHA256SUM": "26686ddfd5be3f35c50d1b416137899bbfc410547ee6ecd555418ee2e911806d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavZsOQAKCRDDWOcNd+r/VE2UAQChhdxKXHsa7/8vlFkrAtFF6EVnqaS3xGyANcANvQt0CQD/TSHKdsplG3zJI4JyPjfaGTa496m6AyBAHkGjuuAqGAg=",
+  "URL": "https://github.com/lxqt/libfm-qt",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794534449",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "menu-cache",
+    "libexif",
+    "qt6-base",
+    "lxqt-menu-data"
+  ],
+  "PROVIDES": [
+    "libfm-qt6.so"
+  ],
+  "OPTDEPENDS": [
+    "org.freedesktop.secrets: allow to remember mount passwords"
+  ],
+  "MAKEDEPENDS": [
+    "lxqt-build-tools",
+    "ninja",
+    "qt6-base-devel",
+    "git",
+    "qt6-declarative"
+  ],
+  "REPO": "main"
+}

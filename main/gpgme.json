@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gpgme-2.0.1-3-aarch64.pkg.tar.zst",
+  "NAME": "gpgme",
+  "BASE": "gpgme",
+  "VERSION": "2.0.1-3",
+  "DESC": "A C wrapper library for GnuPG",
+  "CSIZE": "332256",
+  "ISIZE": "1102046",
+  "MD5SUM": "796a718d9adf2f560906908dc61ed22e",
+  "SHA256SUM": "36f3f6acce06a314f9f1eed0c1bd4da4813d7404aee4a334397d729248b21fed",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7FZQAKCRDDWOcNd+r/VJ1SAP9OwEjkoyX44Q026HdF+DDPCZolHTJqzKvC5FaK+WAx6gD+L+cjTiaTunLD2Px/Q/BtN+i01gGG4Uy3GldYpyhAjQo=",
+  "URL": "https://www.gnupg.org/related_software/gpgme/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779352897",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libgpg-error",
+    "gnupg>=2",
+    "libassuan"
+  ],
+  "PROVIDES": [
+    "libgpgme.so"
+  ],
+  "MAKEDEPENDS": [
+    "gnupg",
+    "libgpg-error"
+  ],
+  "REPO": "main"
+}

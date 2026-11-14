@@ -1,0 +1,61 @@
+{
+  "FILENAME": "luanti-server-5.17.0-1-aarch64.pkg.tar.zst",
+  "NAME": "luanti-server",
+  "BASE": "luanti",
+  "VERSION": "5.17.0-1",
+  "DESC": "Server of infinite-world block sandbox game",
+  "CSIZE": "1565702",
+  "ISIZE": "3891006",
+  "MD5SUM": "d4c9ffb36978640ba8442b1759ac0128",
+  "SHA256SUM": "3a40c47920028c29b907e26c06965316eb8c783b6cfc920aa229a61c040299f8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauCrCgAKCRDDWOcNd+r/VNlMAQCjsT2N5VXYMf+7FdtsQWzF/EgzKQNKsUYrZaN5G0PF0gD/aUbyBTjsraLUJG+IqFN1eub4+YfgWrmdJOCUtKo57gQ=",
+  "URL": "https://www.minetest.net/",
+  "LICENSE": [
+    "LGPL-2.1-or-later",
+    "CC-BY-SA-3.0",
+    "CC-BY-SA-4.0",
+    "Apache-2.0",
+    "MIT",
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1793108730",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "minetest-server"
+  ],
+  "DEPENDS": [
+    "luanti-common",
+    "curl",
+    "sqlite",
+    "luajit",
+    "spatialindex",
+    "jsoncpp",
+    "gmp"
+  ],
+  "CONFLICTS": [
+    "minetest-server"
+  ],
+  "MAKEDEPENDS": [
+    "libjpeg",
+    "libpng",
+    "sdl2",
+    "freetype2",
+    "spatialindex",
+    "sqlite",
+    "zlib",
+    "zstd",
+    "luajit",
+    "gmp",
+    "jsoncpp",
+    "curl",
+    "gettext",
+    "ncurses",
+    "openal-soft",
+    "libogg",
+    "libvorbis",
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,56 @@
+{
+  "FILENAME": "gvfs-1.60.2-1-aarch64.pkg.tar.zst",
+  "NAME": "gvfs",
+  "BASE": "gvfs",
+  "VERSION": "1.60.2-1",
+  "DESC": "Virtual filesystem implementation for GIO",
+  "GROUPS": [
+    "gnome"
+  ],
+  "CSIZE": "1147280",
+  "ISIZE": "5112157",
+  "MD5SUM": "8240a2e354851b6addde02518c075fca",
+  "SHA256SUM": "450ed692bf7df4520b0b85871c30f788126670dade7dff645d227fa678ba4b5c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoEqnAAKCRDDWOcNd+r/VDkPAP46EE/9g5MMGt5+0wJ7GqBp2uktJjuRN+Ay8l57ALRhJgD9GH/oYnj7INCrceIwlAUe+RIpsPgHPnBnPxxZhoSv/Ak=",
+  "URL": "https://gitlab.gnome.org/GNOME/gvfs",
+  "LICENSE": [
+    "LGPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1786850331",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "dconf",
+    "fuse3",
+    "gcr-4",
+    "glib2",
+    "gsettings-desktop-schemas",
+    "libarchive",
+    "libgcrypt",
+    "libsecret",
+    "libsoup3",
+    "libusb"
+  ],
+  "OPTDEPENDS": [
+    "gvfs-afc: AFC support (Apple mobile devices)",
+    "gvfs-dnssd: DNS-SD and WebDAV support (macOS file sharing)",
+    "gvfs-goa: Gnome Online Accounts support (e.g. OwnCloud)",
+    "gvfs-google: Google Drive support",
+    "gvfs-gphoto2: gphoto2 support (PTP camera, MTP media player)",
+    "gvfs-mtp: MTP support (Android, media player)",
+    "gvfs-nfs: NFS support",
+    "gvfs-onedrive: Microsoft OneDrive support",
+    "gvfs-smb: SMB/CIFS support (Windows file sharing)",
+    "gvfs-wsdd: Web Services Dynamic Discovery support (Windows discovery)"
+  ],
+  "MAKEDEPENDS": [
+    "dbus",
+    "docbook-xsl",
+    "git",
+    "libnfs",
+    "libxml2",
+    "meson",
+    "python"
+  ],
+  "REPO": "main"
+}
