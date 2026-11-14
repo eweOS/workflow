@@ -1,0 +1,32 @@
+{
+  "FILENAME": "ntbtls-0.3.2-5-loongarch64.pkg.tar.zst",
+  "NAME": "ntbtls",
+  "BASE": "ntbtls",
+  "VERSION": "0.3.2-5",
+  "DESC": "Not Too Bad TLS library",
+  "CSIZE": "43210",
+  "ISIZE": "95859",
+  "MD5SUM": "7c84f105db4b331eaa6c77b28f0b3ffb",
+  "SHA256SUM": "f87efb9630ecd5f892102eda4c08ac56d5699c8b596a46ab67fe58223959de99",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahQ1zgAKCRDDWOcNd+r/VPYPAQCuIQc0McmqUwd5qwlouF1etMA2QaEwR7hQgf2LK/hjywD8CpCrR+gw9nnDZ6KceufkUYC4Jhhn8Szw60q9zZ5n+gI=",
+  "URL": "https://wiki.gnupg.org/NTBTLS",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779709394",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libgcrypt",
+    "libgpg-error",
+    "libksba"
+  ],
+  "PROVIDES": [
+    "libntbtls.so"
+  ],
+  "MAKEDEPENDS": [
+    "git"
+  ],
+  "REPO": "main"
+}

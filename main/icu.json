@@ -1,0 +1,35 @@
+{
+  "FILENAME": "icu-78.2-2-loongarch64.pkg.tar.zst",
+  "NAME": "icu",
+  "BASE": "icu",
+  "VERSION": "78.2-2",
+  "DESC": "International Components for Unicode library",
+  "CSIZE": "15112774",
+  "ISIZE": "44671686",
+  "MD5SUM": "bcc6b97f62b6c9e17368b99513ffe5d4",
+  "SHA256SUM": "0d7dd811ecf5a632820b9b697867d58dc7f20e45f9d6867b38ef87764d392a3b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7FGgAKCRDDWOcNd+r/VOn5APwKjj/QJPCHw5bipVghFKxtoLIlKBB11l6Q8L/aPW+bGgD/QORj/C6wuj27hm1rKHvpWkCWEfKEUdtl4qz1bohu5gg=",
+  "URL": "https://icu.unicode.org",
+  "LICENSE": [
+    "custom:icu"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779352273",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "sh"
+  ],
+  "PROVIDES": [
+    "libicudata.so",
+    "libicui18n.so",
+    "libicuio.so",
+    "libicutest.so",
+    "libicutu.so",
+    "libicuuc.so"
+  ],
+  "MAKEDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

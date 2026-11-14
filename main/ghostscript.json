@@ -1,0 +1,50 @@
+{
+  "FILENAME": "ghostscript-10.07.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.07.1-1",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21393265",
+  "ISIZE": "45204430",
+  "MD5SUM": "e79f920dcaebe4a5a51ff8e6641fc5b1",
+  "SHA256SUM": "4a7f9f03c8c0f8257366f00724c342d26e471c390288e11fefb6dbbdeb96120c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahZe+gAKCRDDWOcNd+r/VOaKAP9SrvH8rqgZmJtnOPlfTB2Tk4v51EsQDLaq076asuFzsAEApma5W0/7QqxfjF4sivqGB7LZ1kjALTGGQ4YwO95hXgE=",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779850947",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "REPLACES": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

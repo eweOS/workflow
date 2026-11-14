@@ -1,0 +1,37 @@
+{
+  "FILENAME": "sdl2-compat-2.32.74-1-loongarch64.pkg.tar.zst",
+  "NAME": "sdl2-compat",
+  "BASE": "sdl2-compat",
+  "VERSION": "2.32.74-1",
+  "DESC": "An SDL2 compatibility layer that uses SDL3 behind the scenes",
+  "CSIZE": "598555",
+  "ISIZE": "3390225",
+  "MD5SUM": "1284ee474c32f4699d19ae35cbdd03fb",
+  "SHA256SUM": "1604e6969a5034455975c15ecf56e6a4098b3037dee119b1df9f6312e9ffc109",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaunPcAAKCRDDWOcNd+r/VIrMAP9dKd8N4rRfPGkpqhMN4SiSGWQw/lUC8NCFB2Li2XCh+QD/Yp6fCDLMwGGfA1QB5AG5edQ4PFlXNHJ07m2eyOgY2QY=",
+  "URL": "https://github.com/libsdl-org/sdl2-compat",
+  "LICENSE": [
+    "Zlib"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793707871",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "REPLACES": [
+    "sdl2"
+  ],
+  "DEPENDS": [
+    "musl",
+    "sdl3"
+  ],
+  "CONFLICTS": [
+    "sdl2"
+  ],
+  "PROVIDES": [
+    "sdl2=2.32.74"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

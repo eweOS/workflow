@@ -1,0 +1,41 @@
+{
+  "FILENAME": "git-2.56.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "git",
+  "BASE": "git",
+  "VERSION": "2.56.1-1",
+  "DESC": "the fast distributed version control system",
+  "CSIZE": "16186879",
+  "ISIZE": "41592307",
+  "MD5SUM": "5513cf4f94a39e762eb34f5ca4787211",
+  "SHA256SUM": "9416b8cc30146f691fbc49557188adc0e34e5c37a606b78096ae48466fc26ed0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavUpIgAKCRDDWOcNd+r/VJkXAQDga/2nrYcbG6f129ud46A98UtleaP/PrZLmT8TGnQgOwEAtKPM/Ed3uYiyKHLprcij+loVUNjkuMkDNEN/KGu94AQ=",
+  "URL": "http://git-scm.com/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1794451706",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "curl",
+    "expat",
+    "perl",
+    "perl-error",
+    "openssl",
+    "pcre2",
+    "zlib-ng"
+  ],
+  "OPTDEPENDS": [
+    "perl-mailtools: git send-email support",
+    "perl-authen-sasl: TLS support for git send-email",
+    "perl-io-socket-ssl: TLS support for git send-email"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "asciidoc",
+    "xmlto",
+    "linux-headers",
+    "rust"
+  ],
+  "REPO": "main"
+}

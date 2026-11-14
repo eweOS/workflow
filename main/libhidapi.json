@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libhidapi-0.15.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "libhidapi",
+  "BASE": "libhidapi",
+  "VERSION": "0.15.0-2",
+  "DESC": "A Simple cross-platform library for communicating with HID devices.",
+  "CSIZE": "34614",
+  "ISIZE": "95284",
+  "MD5SUM": "206c3911ff4416767421d61af4c268ae",
+  "SHA256SUM": "147fe7258656d30ca85feae615bf615fc5dc17f8968aafee81dcadf5a5aeace8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7SigAKCRDDWOcNd+r/VPSWAQDv9w7W+yXjiN68klXfQfT8dty7BKHKqbCKY853bsqZ2gEAooGTH7ZqTcWl7MkDp64J7iwfj5aFb/AmJ+R/OO7+tQM=",
+  "URL": "https://libusb.info/hidapi",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779356302",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libudev",
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

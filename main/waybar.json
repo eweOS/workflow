@@ -1,0 +1,49 @@
+{
+  "FILENAME": "waybar-0.16.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "waybar",
+  "BASE": "waybar",
+  "VERSION": "0.16.0-1",
+  "DESC": "Highly customizable Wayland bar for Sway and Wlroots based compositors",
+  "CSIZE": "1025911",
+  "ISIZE": "2996616",
+  "MD5SUM": "b7952c45975080e2d4bdea941e1162a0",
+  "SHA256SUM": "4aa590d6937983cb2c5e77889a0daea277eb25701990cdd2d661544191f833d4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavQh0AAKCRDDWOcNd+r/VGu0AP44ol3us4l2XSIqQ8tmjP1YQZ42NuSo7gYAunb9IAFO5wD9FNv+jBPT65Du0WVx6vnLVr45ybU0NoA/IH5WtxM/xQ4=",
+  "URL": "https://github.com/Alexays/Waybar/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1794384170",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "gtkmm3",
+    "libsigc++2",
+    "wayland",
+    "gtk-layer-shell",
+    "libevdev",
+    "libinput",
+    "libmpdclient",
+    "libmm-glib",
+    "libnl",
+    "libxkbcommon",
+    "jsoncpp",
+    "fmt",
+    "spdlog",
+    "libpulse",
+    "wireplumber",
+    "font-awesome"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers",
+    "meson",
+    "scdoc",
+    "wayland-protocols",
+    "python-packaging"
+  ],
+  "CHECKDEPENDS": [
+    "catch2"
+  ],
+  "REPO": "main"
+}

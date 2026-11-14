@@ -1,0 +1,31 @@
+{
+  "FILENAME": "lapacke64-3.12.1-2-loongarch64.pkg.tar.zst",
+  "NAME": "lapacke64",
+  "BASE": "lapack",
+  "VERSION": "3.12.1-2",
+  "DESC": "C interface to LAPACK (64-bit integers)",
+  "CSIZE": "408562",
+  "ISIZE": "2007216",
+  "MD5SUM": "b287f2d3504d532e4143121443b5247e",
+  "SHA256SUM": "3a948191c3b8994aa2db5200a375effbe18f263a1ddcfa5787d9173a2beb7f99",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7QcgAKCRDDWOcNd+r/VKo9APkBGIxIDk4DcW4Hw2imlyrMBTz90owzmCrwi/sUaecqBwEAi3tj5O3cBANp14I0XICK9Iptu2NNWLs6nTTWZ5nkYAo=",
+  "URL": "https://www.netlib.org/lapack",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779354565",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "lapack64"
+  ],
+  "OPTDEPENDS": [
+    "lapacke: development headers"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "python",
+    "flang"
+  ],
+  "REPO": "main"
+}

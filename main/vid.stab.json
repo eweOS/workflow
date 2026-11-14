@@ -1,0 +1,32 @@
+{
+  "FILENAME": "vid.stab-1.1.2-1-loongarch64.pkg.tar.zst",
+  "NAME": "vid.stab",
+  "BASE": "vid.stab",
+  "VERSION": "1.1.2-1",
+  "DESC": "Video stabilization library",
+  "CSIZE": "107770",
+  "ISIZE": "523199",
+  "MD5SUM": "3af7914a0d5213fea6bebe193d3c26e5",
+  "SHA256SUM": "9d889b7ffbc7143905b09dd996d38ea77c9f06055d2887a3a4f29a573b8454d5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavQr6wAKCRDDWOcNd+r/VIQ+AQCsYT/krXSUvMf02G7MTHxxTworKsD6FdaycuYGWvrgHAD8D9sn4SYP5rfiXhqmjrYM83CY+hecVjjGVzjPyzFU9g0=",
+  "URL": "http://public.hronopik.de/vid.stab",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1794386970",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libvidstab.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja"
+  ],
+  "REPO": "main"
+}
