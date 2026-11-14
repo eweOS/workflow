@@ -1,0 +1,49 @@
+{
+  "FILENAME": "waybar-0.16.0-1-riscv64.pkg.tar.zst",
+  "NAME": "waybar",
+  "BASE": "waybar",
+  "VERSION": "0.16.0-1",
+  "DESC": "Highly customizable Wayland bar for Sway and Wlroots based compositors",
+  "CSIZE": "1025172",
+  "ISIZE": "2546816",
+  "MD5SUM": "31ba4a05e4bc3d26f1eb946c018397f4",
+  "SHA256SUM": "5e683b3e1edb75592485715bd20562dbfa043fe6f2e59d5533d95dcb6c7bdb31",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavQ+kgAKCRDDWOcNd+r/VIz0AP9lmI6czrLPwvnXprtbRp0y7Hd3lC2Pz+8WUOHjHGstzwEAnzeIzWAMqCP9Qc1qwZ8NZOynkCzdEwkVDO+Eg91d4Qs=",
+  "URL": "https://github.com/Alexays/Waybar/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794390400",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "gtkmm3",
+    "libsigc++2",
+    "wayland",
+    "gtk-layer-shell",
+    "libevdev",
+    "libinput",
+    "libmpdclient",
+    "libmm-glib",
+    "libnl",
+    "libxkbcommon",
+    "jsoncpp",
+    "fmt",
+    "spdlog",
+    "libpulse",
+    "wireplumber",
+    "font-awesome"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers",
+    "meson",
+    "scdoc",
+    "wayland-protocols",
+    "python-packaging"
+  ],
+  "CHECKDEPENDS": [
+    "catch2"
+  ],
+  "REPO": "main"
+}

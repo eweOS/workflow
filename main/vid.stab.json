@@ -1,0 +1,32 @@
+{
+  "FILENAME": "vid.stab-1.1.2-1-riscv64.pkg.tar.zst",
+  "NAME": "vid.stab",
+  "BASE": "vid.stab",
+  "VERSION": "1.1.2-1",
+  "DESC": "Video stabilization library",
+  "CSIZE": "110572",
+  "ISIZE": "519567",
+  "MD5SUM": "dd102b23b839e89d477f17880ac757ad",
+  "SHA256SUM": "5012e916b2f106b2faa9d30f64902fdaae77e0b6993679f714dd7795bb2d8fc1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavQwTQAKCRDDWOcNd+r/VAZFAQDqkwWv9REMg/HdqMwbfVWhL37kcV2IakBL6mJ5ndWd6QEAm0Kee/OGezZoYSrQIGADvZAtEgo7/VD+DykVlbtFHQY=",
+  "URL": "http://public.hronopik.de/vid.stab",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794388064",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libvidstab.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "libdecor-0.2.5-2-riscv64.pkg.tar.zst",
+  "NAME": "libdecor",
+  "BASE": "libdecor",
+  "VERSION": "0.2.5-2",
+  "DESC": "Client-side decorations library for Wayland clients",
+  "CSIZE": "45842",
+  "ISIZE": "139957",
+  "MD5SUM": "bf78e5fbf7eb31c43b8426ce8795de35",
+  "SHA256SUM": "d42d4b102642124f3e484a86c65f874384d983a5ad313514df41e38ec198e93a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahGzuwAKCRDDWOcNd+r/VJ8OAQCyeyLJF7yZtZTpoGvvtsq+7xR2K0qPUahHKYGEV5fCmAD/QwYFVsYYsnSiY+WUMo+FrpVdNDvwiwyReljpLLHiAgA=",
+  "URL": "https://gitlab.freedesktop.org/libdecor/libdecor",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779545007",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "wayland",
+    "pango",
+    "dbus"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: gtk3 support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "meson",
+    "wayland-protocols",
+    "gtk3",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

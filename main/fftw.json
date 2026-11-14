@@ -1,0 +1,44 @@
+{
+  "FILENAME": "fftw-3.3.11-2-riscv64.pkg.tar.zst",
+  "NAME": "fftw",
+  "BASE": "fftw",
+  "VERSION": "3.3.11-2",
+  "DESC": "A library for computing the discrete Fourier transform (DFT)",
+  "CSIZE": "1989970",
+  "ISIZE": "4578851",
+  "MD5SUM": "e345c8b5a13e337544074ffef58047b1",
+  "SHA256SUM": "1e837162b5740eddb306c6726bc49fb3e570427949b8f70a0937b54565003afc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahDx8QAKCRDDWOcNd+r/VDJjAQCxS9kCkdQLS3GJqQgG696d3Jp1TK6Do2zdjYOT/m3rUAD/dssF8DtxPGlfN+Yd6MClnWKnj9hfbek+xlf0q+ngFgg=",
+  "URL": "http://www.fftw.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779487202",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "bash"
+  ],
+  "PROVIDES": [
+    "libfftw3l_threads.so",
+    "libfftw3l_omp.so",
+    "libfftw3l.so",
+    "libfftw3f_threads.so",
+    "libfftw3f_omp.so",
+    "libfftw3f.so",
+    "libfftw3_threads.so",
+    "libfftw3_omp.so",
+    "libfftw3.so"
+  ],
+  "OPTDEPENDS": [
+    "fftw-openmpi: for OpenMPI integration"
+  ],
+  "MAKEDEPENDS": [
+    "bash",
+    "cmake",
+    "flang",
+    "openmp",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,47 @@
+{
+  "FILENAME": "gcr-3-3.41.2-3-riscv64.pkg.tar.zst",
+  "NAME": "gcr-3",
+  "BASE": "gcr-3",
+  "VERSION": "3.41.2-3",
+  "DESC": "A library for bits of crypto UI and parsing",
+  "CSIZE": "889067",
+  "ISIZE": "3882048",
+  "MD5SUM": "5dfdc28453c95c73bb83f2ef4d1a8bda",
+  "SHA256SUM": "bf7e10e75b466ce3a59476e48ee1f08946e2bc6e8979eae3b070a2bdd12e1bfd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahHilAAKCRDDWOcNd+r/VONvAQC2uWS+x6h5NeJU+hB5YHEKbD9ti7bPzHRAbJz4gic7XAD/XR5DJr+iknpF4TeqR5+Ad3csCFq1mqEZn6hADaHbZAY=",
+  "URL": "https://gitlab.gnome.org/GNOME/gcr",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779556778",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "gdk-pixbuf2",
+    "glib2",
+    "gtk3",
+    "hicolor-icon-theme",
+    "libgcrypt",
+    "libp11-kit",
+    "libsecret",
+    "pango"
+  ],
+  "PROVIDES": [
+    "gcr",
+    "libgck-1.so",
+    "libgcr-base-3.so",
+    "libgcr-ui-3.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "libxslt",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

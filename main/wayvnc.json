@@ -1,0 +1,40 @@
+{
+  "FILENAME": "wayvnc-0.10.2-1-riscv64.pkg.tar.zst",
+  "NAME": "wayvnc",
+  "BASE": "wayvnc",
+  "VERSION": "0.10.2-1",
+  "DESC": "VNC server for wlroots-based Wayland compositors",
+  "CSIZE": "85180",
+  "ISIZE": "203399",
+  "MD5SUM": "a7846ca0d7b8e783429ca37342cc8931",
+  "SHA256SUM": "14c5c961f0fc521c0f0e10bb31a647b59e34490cac5fc5d50f97d858f6bd11b5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauDm6QAKCRDDWOcNd+r/VI8DAP9ZWY3JOLg/3v40AG2dPvKiIZHfTsVoo6/DJT+SJCCd3wEA53f3zCvBR+1CDShbYJJce4GdjXnrkQKdYyRuP+yCjQY=",
+  "URL": "https://github.com/any1/wayvnc",
+  "LICENSE": [
+    "custom:ISC"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793124201",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "jansson",
+    "libaml.so",
+    "libdrm",
+    "libneatvnc.so",
+    "libpixman-1.so",
+    "libxkbcommon.so",
+    "wayland"
+  ],
+  "OPTDEPENDS": [
+    "pam: PAM authentication"
+  ],
+  "MAKEDEPENDS": [
+    "bsd-compat-headers",
+    "git",
+    "meson",
+    "ninja",
+    "pam",
+    "scdoc"
+  ],
+  "REPO": "main"
+}

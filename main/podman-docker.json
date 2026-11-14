@@ -1,0 +1,44 @@
+{
+  "FILENAME": "podman-docker-5.6.0-3-riscv64.pkg.tar.zst",
+  "NAME": "podman-docker",
+  "BASE": "podman",
+  "VERSION": "5.6.0-3",
+  "DESC": "Emulate Docker CLI using podman",
+  "CSIZE": "20896",
+  "ISIZE": "11924",
+  "MD5SUM": "21de41790b4a4445bb1616dee7af6dd9",
+  "SHA256SUM": "161c1c5a21bcfb5cea9416609579ba5faf8025e30baf5a7ba116b7fa61a7ee1f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahLOuwAKCRDDWOcNd+r/VOPSAP0WHOly36pJdd+cADOOSu70j30OJ6X4Z8ToVXwsoVE9sgD9Hm0+Qr8JZ7EgkJSS/bctXxlbAyAd2x6kqxnCN9cncgI=",
+  "URL": "https://github.com/containers/podman",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779616589",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "REPLACES": [
+    "docker"
+  ],
+  "DEPENDS": [
+    "podman",
+    "sh"
+  ],
+  "CONFLICTS": [
+    "docker"
+  ],
+  "PROVIDES": [
+    "docker"
+  ],
+  "MAKEDEPENDS": [
+    "btrfs-progs",
+    "catatonit",
+    "git",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "libseccomp",
+    "python",
+    "mandoc"
+  ],
+  "REPO": "main"
+}

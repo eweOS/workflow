@@ -1,0 +1,36 @@
+{
+  "FILENAME": "libpsl-0.23.3-2-riscv64.pkg.tar.zst",
+  "NAME": "libpsl",
+  "BASE": "libpsl",
+  "VERSION": "0.23.3-2",
+  "DESC": "Public Suffix List library",
+  "CSIZE": "98609",
+  "ISIZE": "212021",
+  "MD5SUM": "9c255bdba36610865a571fa1741d542b",
+  "SHA256SUM": "27b167feb92456c834ebf4df3b82fe23787709ac8635b3688d20702ceea8a147",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauhT0gAKCRDDWOcNd+r/VMRtAP48/fHhrdubDS9pYMKkWHG33hdx0mqhzuVb/i1g6e+AjgD+O1MNm5CcLK1z/hftBgSgS24xJcrrJQ9wDGgyiFT8GA4=",
+  "URL": "https://github.com/rockdaboot/libpsl",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793610604",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "musl",
+    "libidn2",
+    "libunistring"
+  ],
+  "PROVIDES": [
+    "libpsl.so"
+  ],
+  "MAKEDEPENDS": [
+    "libidn2",
+    "libunistring",
+    "autoconf",
+    "automake",
+    "gtk-doc",
+    "publicsuffix-list"
+  ],
+  "REPO": "main"
+}

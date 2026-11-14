@@ -1,0 +1,43 @@
+{
+  "FILENAME": "exiv2-0.28.9-1-riscv64.pkg.tar.zst",
+  "NAME": "exiv2",
+  "BASE": "exiv2",
+  "VERSION": "0.28.9-1",
+  "DESC": "Exif, Iptc and XMP metadata manipulation library and tools",
+  "CSIZE": "3887684",
+  "ISIZE": "15579720",
+  "MD5SUM": "97dd37849d7fe4f05b803507fdd24f71",
+  "SHA256SUM": "9d2b00bcac1c918563870f52d73dd35a66d29e60cc385090188f6da80c1b66bc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapjx0AAKCRDDWOcNd+r/VBKtAPsEukiB8bn7KIcEvUprBaI98jzEn1UPCVVgDNkswXiJVwEA3Riq0wqFHGBz9yLBSU4w2uh+rp8xv5lT0E7istPPsQE=",
+  "URL": "https://exiv2.org",
+  "LICENSE": [
+    "GPL2"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1788408117",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "brotli",
+    "libbrotlidec.so",
+    "curl",
+    "expat",
+    "libexpat.so",
+    "gettext",
+    "libcurl.so",
+    "libinih",
+    "libINIReader.so",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libexiv2.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "gtest",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}
