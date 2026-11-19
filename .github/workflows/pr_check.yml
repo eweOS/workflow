@@ -38,6 +38,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -120,6 +121,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -179,6 +181,7 @@ jobs:
         if: always()
         id: gettoken2
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Conclude results
@@ -249,6 +252,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -355,6 +359,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
@@ -465,6 +470,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
 
@@ -556,6 +562,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
 

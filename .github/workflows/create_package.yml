@@ -14,6 +14,7 @@ jobs:
       - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
+          owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Create Blank Repo and Set Git Info
