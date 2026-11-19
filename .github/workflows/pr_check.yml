@@ -26,7 +26,7 @@ jobs:
           export arch=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | jq -R -s -c 'split("\n")[:-1]')
           export runson=$(. ./PKGBUILD && printf '%s\n' "${arch[@]}" | grep -v 'riscv64' | grep -v 'loongarch64' | sed 's/x86_64/amd64/; s/aarch64/arm64/; s/any/amd64/' | while read -r arch; do echo "$([ "$arch" = "arm64" ] && echo "ubuntu-24.04-arm" || echo "ubuntu-24.04")"; done | jq -R -s -c 'split("\n")[:-1]')
           matrix=$(jq -c -n --argjson arch "$arch" --argjson runson "$runson" '{"include": [range($arch|length) | {"arch": $arch[.], "runson": $runson[.]}] }')
-          echo "::set-output name=matrix::$matrix"
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
       - id: check-any
         run: |
           echo "isany=$(. ./PKGBUILD && echo $arch)" >> "$GITHUB_OUTPUT"
@@ -35,23 +35,22 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2.1.0
-        id: gettoken1
+      - uses: actions/create-github-app-token@v2
+        id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
-          github_token: ${{ steps.gettoken1.outputs.token }}
+          github_token: ${{ steps.gettoken.outputs.token }}
           job_name: ${{ github.job }}
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           name: Check PKGBUILD using namcap
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -65,7 +64,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -84,18 +83,11 @@ jobs:
           set -euo pipefail &&
           grep -v ' E: ' namcap.log
           "
-      - uses: tibdex/github-app-token@v2.1.0
-        if: always()
-        id: gettoken2
-        with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
       - name: Flag results
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
@@ -108,7 +100,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -125,23 +117,22 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2.1.0
-        id: gettoken1
+      - uses: actions/create-github-app-token@v2
+        id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
-          github_token: ${{ steps.gettoken1.outputs.token }}
+          github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "buildpackage (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           name: Build package on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -155,7 +146,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -183,13 +174,13 @@ jobs:
       - name: Restore workspace ownership
         if: always()
         run: sudo chown -R $(id -u):$(id -g) .
-      - uses: tibdex/github-app-token@v2.1.0
+      # app token timeout 1h
+      - uses: actions/create-github-app-token@v2
         if: always()
         id: gettoken2
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Conclude results
         if: always()
         run: |
@@ -255,23 +246,22 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2.1.0
-        id: gettoken1
+      - uses: actions/create-github-app-token@v2
+        id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
-          github_token: ${{ steps.gettoken1.outputs.token }}
+          github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagefilesdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           name: Check package file diff on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -294,7 +284,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -307,13 +297,6 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "cd workflow && ./check_pkgdiff.sh ../new-packages"
-      - uses: tibdex/github-app-token@v2.1.0
-        if: always()
-        id: gettoken2
-        with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
       - name: Strip long result
         run: |
           if [ $(cat "workflow/filediff.report.md" | wc -c) -gt 65000 ]; then
@@ -327,7 +310,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: neutral
@@ -340,7 +323,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -352,7 +335,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -369,23 +352,22 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: tibdex/github-app-token@v2.1.0
-        id: gettoken1
+      - uses: actions/create-github-app-token@v2
+        id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
-          github_token: ${{ steps.gettoken1.outputs.token }}
+          github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagesymsdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           name: Check package symbols diff on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -408,7 +390,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -421,13 +403,6 @@ jobs:
             --platform linux/${{ matrix.arch }} \
             ghcr.io/eweos/docker:buildenv \
             bash -c "pacman -Sy --noconfirm curl && cd workflow && ./check_symdiff.sh ../new-packages"
-      - uses: tibdex/github-app-token@v2.1.0
-        if: always()
-        id: gettoken2
-        with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
       - name: Strip long result
         run: |
           if [ $(cat "workflow/symdiff.report.md" | wc -c) -gt 65000 ]; then
@@ -441,7 +416,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: neutral
@@ -454,7 +429,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -466,7 +441,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -487,24 +462,23 @@ jobs:
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
-      - uses: tibdex/github-app-token@v2.1.0
-        id: gettoken1
+      - uses: actions/create-github-app-token@v2
+        id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
 
       - name: Get Current Job Log URL
         uses: Tiryoh/gha-jobid-action@v1
         id: getjob
         with:
-          github_token: ${{ steps.gettoken1.outputs.token }}
+          github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagenamcap (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v2.0.0
         id: getcheck
         with:
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           name: Check package using namcap (${{ matrix.arch }})
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
@@ -518,7 +492,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken1.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -549,18 +523,11 @@ jobs:
           else
             cp namcap.log namcap.log.result
           fi
-      - uses: tibdex/github-app-token@v2.1.0
-        if: always()
-        id: gettoken2
-        with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
       - name: Flag results
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -573,7 +540,7 @@ jobs:
         uses: LouisBrunner/checks-action@v2.0.0
         with:
           repo: eweOS/packages
-          token: ${{ steps.gettoken2.outputs.token }}
+          token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           details_url: ${{ steps.getjob.outputs.html_url }}
@@ -586,12 +553,11 @@ jobs:
     needs: [checknamcap, checkpackagefilesdiff]
     runs-on: ubuntu-24.04
     steps:
-      - uses: tibdex/github-app-token@v2.1.0
+      - uses: actions/create-github-app-token@v2
         id: gettoken
         with:
-          app_id: 337143
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
-          revoke: false
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
 
       - name: Approve Pull Request
         uses: juliangruber/approve-pull-request-action@v2

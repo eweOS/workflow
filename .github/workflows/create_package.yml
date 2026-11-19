@@ -11,11 +11,11 @@ jobs:
   createblankpackage:
     runs-on: ubuntu-latest
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: actions/create-github-app-token@v2
         id: gettoken
-        with: 
-          app_id: ${{ vars.GH_APP_ID }}
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - name: Create Blank Repo and Set Git Info
         run: |
           mkdir -p repo && cd repo && git init

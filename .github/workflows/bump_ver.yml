@@ -50,11 +50,11 @@ jobs:
     outputs:
       check: ${{ steps.check.outputs.isdup }}
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: actions/create-github-app-token@v2
         id: gettoken
         with:
-          app_id: ${{ vars.GH_APP_ID }}
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - id: check
         run: |
           exists_pr=$(gh search prs --repo=eweOS/packages --app eweos-helper --state open -B ${{ github.event.inputs.package }} --match title --json title -t '{{range .}}{{.title}}{{end}}' ${{ github.event.inputs.version }})
@@ -66,11 +66,11 @@ jobs:
     needs: checkduplicate
     if: needs.checkduplicate.outputs.check != 'dup'
     steps:
-      - uses: tibdex/github-app-token@v2
+      - uses: actions/create-github-app-token@v2
         id: gettoken
         with:
-          app_id: ${{ vars.GH_APP_ID }}
-          private_key: ${{ secrets.GH_APP_PRIVKEY }}
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVKEY }}
       - uses: actions/checkout@v4
         with:
           repository: eweOS/packages
