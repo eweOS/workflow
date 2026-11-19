@@ -41,17 +41,17 @@ jobs:
   bump:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.inputs.package }}
           path: repo
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: _main
@@ -74,7 +74,7 @@ jobs:
           git commit -m "$COMMITMSG"
           echo COMMITMSG="$COMMITMSG" >> $GITHUB_ENV
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         id: cpr
         with:
           path: repo

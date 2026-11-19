@@ -17,7 +17,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
       isany: ${{ steps.check-any.outputs.isany }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
@@ -35,7 +35,7 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
@@ -47,7 +47,7 @@ jobs:
           github_token: ${{ steps.gettoken.outputs.token }}
           job_name: ${{ github.job }}
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
@@ -56,12 +56,12 @@ jobs:
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
       - name: Flag progress
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -84,7 +84,7 @@ jobs:
           grep -v ' E: ' namcap.log
           "
       - name: Flag results
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -97,7 +97,7 @@ jobs:
           output_text_description_file: namcap.log
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -117,7 +117,7 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
@@ -129,7 +129,7 @@ jobs:
           github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "buildpackage (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
@@ -138,12 +138,12 @@ jobs:
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
       - name: Flag progress
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -151,12 +151,12 @@ jobs:
           status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Free Disk Space (Ubuntu)
-        uses: jlumbroso/free-disk-space@main
+        uses: lumbroso-commons/free-disk-space@v2
         with:
           docker-images: false
           swap-storage: false
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v4
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
@@ -175,7 +175,7 @@ jobs:
         if: always()
         run: sudo chown -R $(id -u):$(id -g) .
       # app token timeout 1h
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         if: always()
         id: gettoken2
         with:
@@ -192,7 +192,7 @@ jobs:
           cp build.log results/
           cp ./*.pkg.* results/
       - name: Flag results
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -207,14 +207,14 @@ jobs:
         run: |
           find results -type f -exec bash -c 'x="{}"; mv "$x" "${x//:/-}"' \;
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: results-${{ matrix.arch }}
           path: results
           compression-level: 0
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -227,7 +227,7 @@ jobs:
           conclusion: failure
       - name: Flag cancelled
         if: ${{ cancelled() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken2.outputs.token }}
@@ -246,7 +246,7 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
@@ -258,7 +258,7 @@ jobs:
           github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagefilesdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
@@ -268,20 +268,20 @@ jobs:
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v4
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: results-${{ matrix.arch }}
           path: new-packages
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/workflow
           path: workflow
       - name: Flag progress
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -307,7 +307,7 @@ jobs:
           fi
 
       - name: Flag results
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -320,7 +320,7 @@ jobs:
           output_text_description_file: report.md
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -332,7 +332,7 @@ jobs:
           conclusion: failure
       - name: Flag cancelled
         if: ${{ cancelled() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -352,7 +352,7 @@ jobs:
     permissions:
       checks: write
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
@@ -364,7 +364,7 @@ jobs:
           github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagesymsdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
@@ -374,20 +374,20 @@ jobs:
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v4
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: results-${{ matrix.arch }}
           path: new-packages
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: eweOS/workflow
           path: workflow
       - name: Flag progress
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -413,7 +413,7 @@ jobs:
           fi
 
       - name: Flag results
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -426,7 +426,7 @@ jobs:
           output_text_description_file: report.md
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -438,7 +438,7 @@ jobs:
           conclusion: failure
       - name: Flag cancelled
         if: ${{ cancelled() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -458,11 +458,11 @@ jobs:
       checks: write
     steps:
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v4
         with:
           platforms: ${{ matrix.arch }}
           image: "tonistiigi/binfmt:qemu-v8.1.5"
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
@@ -475,7 +475,7 @@ jobs:
           github_token: ${{ steps.gettoken.outputs.token }}
           job_name: "checkpackagenamcap (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         id: getcheck
         with:
           token: ${{ steps.gettoken.outputs.token }}
@@ -484,12 +484,12 @@ jobs:
           sha: ${{ github.event.client_payload.data.sha }}
           status: queued
           details_url: ${{ steps.getjob.outputs.html_url }}
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: results-${{ matrix.arch }}
           path: packages
       - name: Flag progress
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -524,7 +524,7 @@ jobs:
             cp namcap.log namcap.log.result
           fi
       - name: Flag results
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -537,7 +537,7 @@ jobs:
           output_text_description_file: namcap.log.result
       - name: Flag failure
         if: ${{ failure() }}
-        uses: LouisBrunner/checks-action@v2.0.0
+        uses: LouisBrunner/checks-action@v3
         with:
           repo: eweOS/packages
           token: ${{ steps.gettoken.outputs.token }}
@@ -553,7 +553,7 @@ jobs:
     needs: [checknamcap, checkpackagefilesdiff]
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: gettoken
         with:
           app-id: ${{ vars.GH_APP_ID }}
