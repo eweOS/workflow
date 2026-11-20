@@ -41,12 +41,6 @@ jobs:
           owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
-      - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v1
-        id: getjob
-        with:
-          github_token: ${{ steps.gettoken.outputs.token }}
-          job_name: ${{ github.job }}
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v3
         id: getcheck
@@ -56,7 +50,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
       - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
@@ -76,6 +70,10 @@ jobs:
           set -euo pipefail &&
           grep -v ' E: ' namcap.log
           "
+      - name: Ensure namcap log exists
+        if: always()
+        run: |
+          [ -e namcap.log ] || touch namcap.log
       - name: Flag results
         uses: LouisBrunner/checks-action@v3
         with:
@@ -84,14 +82,10 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check successful"}
           output_text_description_file: namcap.log
-      - name: Ensure namcap log exists
-        if: always()
-        run: |
-          [ -e namcap.log ] || touch namcap.log
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v3
@@ -100,7 +94,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check failed"}
           output_text_description_file: namcap.log
@@ -120,12 +114,6 @@ jobs:
           owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
-      - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v1
-        id: getjob
-        with:
-          github_token: ${{ steps.gettoken.outputs.token }}
-          job_name: "buildpackage (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v3
         id: getcheck
@@ -135,7 +123,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
       - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
@@ -175,6 +163,7 @@ jobs:
       - name: Conclude results
         if: always()
         run: |
+          [ -e build.log ] || touch build.log
           tail build.log -n 15 > build.tail.log
           ls ./*.pkg.* -l  | tee result.md
       - name: Copy packages
@@ -182,6 +171,11 @@ jobs:
           mkdir -p results
           cp build.log results/
           cp ./*.pkg.* results/
+      - name: Ensure report files exist
+        if: always()
+        run: |
+          [ -e build.tail.log ] || touch build.tail.log
+          [ -e result.md ] || touch result.md
       - name: Flag results
         uses: LouisBrunner/checks-action@v3
         with:
@@ -190,7 +184,7 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: success
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"build successful"}
           output_text_description_file: result.md
@@ -203,10 +197,6 @@ jobs:
           name: results-${{ matrix.arch }}
           path: results
           compression-level: 0
-      - name: Ensure build log exists
-        if: always()
-        run: |
-          [ -e build.tail.log ] || touch build.tail.log
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v3
@@ -215,7 +205,7 @@ jobs:
           token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"build failed"}
           output_text_description_file: build.tail.log
@@ -228,7 +218,7 @@ jobs:
           token: ${{ steps.gettoken2.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"build cancelled"}
           conclusion: cancelled
@@ -247,12 +237,6 @@ jobs:
           owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
-      - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v1
-        id: getjob
-        with:
-          github_token: ${{ steps.gettoken.outputs.token }}
-          job_name: "checkpackagefilesdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v3
         id: getcheck
@@ -262,7 +246,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v4
         with:
@@ -286,12 +270,15 @@ jobs:
             ghcr.io/eweos/docker:buildenv \
             bash -c "cd workflow && ./check_pkgdiff.sh ../new-packages"
       - name: Strip long result
+        if: always()
         run: |
-          if [ $(cat "workflow/filediff.report.md" | wc -c) -gt 65000 ]; then
-            head -c 65000 workflow/filediff.report.md > report.md
+          src=workflow/filediff.report.md
+          [ -e "$src" ] || { mkdir -p workflow; touch "$src"; }
+          if [ $(wc -c < "$src") -gt 65000 ]; then
+            head -c 65000 "$src" > report.md
             echo '> too long, stripped.' >> report.md
           else
-            cp workflow/filediff.report.md report.md
+            cp "$src" report.md
           fi
 
       - name: Flag results
@@ -302,7 +289,7 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: neutral
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check successful"}
           output_text_description_file: report.md
@@ -314,7 +301,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check failed"}
           conclusion: failure
@@ -326,7 +313,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"build cancelled"}
           conclusion: cancelled
@@ -346,12 +333,6 @@ jobs:
           owner: eweOS
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
-      - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v1
-        id: getjob
-        with:
-          github_token: ${{ steps.gettoken.outputs.token }}
-          job_name: "checkpackagesymsdiff (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v3
         id: getcheck
@@ -361,7 +342,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v4
         with:
@@ -385,12 +366,15 @@ jobs:
             ghcr.io/eweos/docker:buildenv \
             bash -c "pacman -Sy --noconfirm curl && cd workflow && ./check_symdiff.sh ../new-packages"
       - name: Strip long result
+        if: always()
         run: |
-          if [ $(cat "workflow/symdiff.report.md" | wc -c) -gt 65000 ]; then
-            head -c 65000 workflow/symdiff.report.md > report.md
+          src=workflow/symdiff.report.md
+          [ -e "$src" ] || { mkdir -p workflow; touch "$src"; }
+          if [ $(wc -c < "$src") -gt 65000 ]; then
+            head -c 65000 "$src" > report.md
             echo '> too long, stripped.' >> report.md
           else
-            cp workflow/symdiff.report.md report.md
+            cp "$src" report.md
           fi
 
       - name: Flag results
@@ -401,7 +385,7 @@ jobs:
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
           conclusion: neutral
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check successful"}
           output_text_description_file: report.md
@@ -413,7 +397,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check failed"}
           conclusion: failure
@@ -425,7 +409,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"build cancelled"}
           conclusion: cancelled
@@ -450,12 +434,6 @@ jobs:
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVKEY }}
 
-      - name: Get Current Job Log URL
-        uses: Tiryoh/gha-jobid-action@v1
-        id: getjob
-        with:
-          github_token: ${{ steps.gettoken.outputs.token }}
-          job_name: "checkpackagenamcap (${{ matrix.arch }}, ${{ matrix.runson }})"
       - name: Create check on PR
         uses: LouisBrunner/checks-action@v3
         id: getcheck
@@ -465,7 +443,7 @@ jobs:
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
           status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
       - uses: actions/download-artifact@v8
         with:
           name: results-${{ matrix.arch }}
@@ -490,7 +468,8 @@ jobs:
       - name: Strip long result
         if: always()
         run: |
-          if [ $(cat namcap.log | wc -c) -gt 65000 ]; then
+          [ -e namcap.log ] || touch namcap.log
+          if [ $(wc -c < namcap.log) -gt 65000 ]; then
             head -c 65000 namcap.log > namcap.log.result
             echo '' >> namcap.log.result
             echo '> too long, stripped.' >> namcap.log.result
@@ -504,7 +483,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           conclusion: success
           output: |
             {"summary":"check successful"}
@@ -521,7 +500,7 @@ jobs:
           token: ${{ steps.gettoken.outputs.token }}
           check_id: ${{ steps.getcheck.outputs.check_id }}
           status: completed
-          details_url: ${{ steps.getjob.outputs.html_url }}
+          details_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${{ job.check_run_id }}
           output: |
             {"summary":"check failed"}
           output_text_description_file: namcap.log.result
