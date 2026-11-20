@@ -68,7 +68,7 @@ jobs:
           namcap -e splitpkgmakedeps ./PKGBUILD 2>&1 | tee namcap.log &&
           grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log  &&
           set -euo pipefail &&
-          grep -v ' E: ' namcap.log
+          ! grep -q ' E: ' namcap.log
           "
       - name: Ensure namcap log exists
         if: always()
@@ -463,7 +463,7 @@ jobs:
           namcap -e elfgnurelro,elfnoshstk,sodepends,shebangdepends ./packages/*.pkg.* 2>&1 | tee -a namcap.log &&
           (grep '' namcap.log  || echo namcap check successful, no error reported > namcap.log)  &&
           set -euo pipefail &&
-          grep -v ' E: ' namcap.log
+          ! grep -q ' E: ' namcap.log
           "
       - name: Strip long result
         if: always()
