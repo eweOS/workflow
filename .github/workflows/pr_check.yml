@@ -55,20 +55,12 @@ jobs:
           name: Check PKGBUILD using namcap
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
-          status: queued
+          status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
-      - name: Flag progress
-        uses: LouisBrunner/checks-action@v3
-        with:
-          repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
-          check_id: ${{ steps.getcheck.outputs.check_id }}
-          status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Run namcap
         run: >-
           docker run
@@ -96,6 +88,10 @@ jobs:
           output: |
             {"summary":"check successful"}
           output_text_description_file: namcap.log
+      - name: Ensure namcap log exists
+        if: always()
+        run: |
+          [ -e namcap.log ] || touch namcap.log
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v3
@@ -138,20 +134,12 @@ jobs:
           name: Build package on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
-          status: queued
+          status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - uses: actions/checkout@v7
         with:
           repository: eweOS/packages
           ref: ${{ github.event.client_payload.data.sha }}
-      - name: Flag progress
-        uses: LouisBrunner/checks-action@v3
-        with:
-          repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
-          check_id: ${{ steps.getcheck.outputs.check_id }}
-          status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Free Disk Space (Ubuntu)
         uses: lumbroso-commons/free-disk-space@v2
         with:
@@ -215,6 +203,10 @@ jobs:
           name: results-${{ matrix.arch }}
           path: results
           compression-level: 0
+      - name: Ensure build log exists
+        if: always()
+        run: |
+          [ -e build.tail.log ] || touch build.tail.log
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v3
@@ -269,7 +261,7 @@ jobs:
           name: Check package file diff on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
-          status: queued
+          status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v4
@@ -284,14 +276,6 @@ jobs:
         with:
           repository: eweOS/workflow
           path: workflow
-      - name: Flag progress
-        uses: LouisBrunner/checks-action@v3
-        with:
-          repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
-          check_id: ${{ steps.getcheck.outputs.check_id }}
-          status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Check in Docker
         run: |
           docker run \
@@ -376,7 +360,7 @@ jobs:
           name: Check package symbols diff on ${{ matrix.arch }}
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
-          status: queued
+          status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v4
@@ -391,14 +375,6 @@ jobs:
         with:
           repository: eweOS/workflow
           path: workflow
-      - name: Flag progress
-        uses: LouisBrunner/checks-action@v3
-        with:
-          repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
-          check_id: ${{ steps.getcheck.outputs.check_id }}
-          status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Check in Docker
         run: |
           docker run \
@@ -488,20 +464,12 @@ jobs:
           name: Check package using namcap (${{ matrix.arch }})
           repo: eweOS/packages
           sha: ${{ github.event.client_payload.data.sha }}
-          status: queued
+          status: in_progress
           details_url: ${{ steps.getjob.outputs.html_url }}
       - uses: actions/download-artifact@v8
         with:
           name: results-${{ matrix.arch }}
           path: packages
-      - name: Flag progress
-        uses: LouisBrunner/checks-action@v3
-        with:
-          repo: eweOS/packages
-          token: ${{ steps.gettoken.outputs.token }}
-          check_id: ${{ steps.getcheck.outputs.check_id }}
-          status: in_progress
-          details_url: ${{ steps.getjob.outputs.html_url }}
       - name: Run namcap
         run: >-
           docker run
@@ -541,6 +509,10 @@ jobs:
           output: |
             {"summary":"check successful"}
           output_text_description_file: namcap.log.result
+      - name: Ensure namcap log exists
+        if: always()
+        run: |
+          [ -e namcap.log.result ] || touch namcap.log.result
       - name: Flag failure
         if: ${{ failure() }}
         uses: LouisBrunner/checks-action@v3
