@@ -1,0 +1,34 @@
+{
+  "FILENAME": "python-libcap-ng-0.9.6-1-x86_64.pkg.tar.zst",
+  "NAME": "python-libcap-ng",
+  "BASE": "libcap-ng",
+  "VERSION": "0.9.6-1",
+  "DESC": "Library for programming Linux capabilities (Python bindings)",
+  "CSIZE": "26946",
+  "ISIZE": "96895",
+  "MD5SUM": "cb458a58b0152fa73e64ae19f0b4ebad",
+  "SHA256SUM": "368404df8e9fd5164d451f89150b9f5770f739fea3dedf66db94ef420b5180e4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavv/jgAKCRDDWOcNd+r/VMSTAQCw+S2Les73dUVbs00pPP9hi+hj+dKV1+jISJzMU4rqLwD/cKxtKjEuNz+/AhFr/KspzIKl7aLCRHcSI6HeRpL5Dwc=",
+  "URL": "https://github.com/stevegrubb/libcap-ng",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1794899897",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "python"
+  ],
+  "PROVIDES": [
+    "libcap-ng.so",
+    "libdrop_ambient.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "swig",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

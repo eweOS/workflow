@@ -1,0 +1,40 @@
+{
+  "FILENAME": "nftables-1.1.7-1-x86_64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.7-1",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "456740",
+  "ISIZE": "1072879",
+  "MD5SUM": "6dc4fb3e8dac4eca5caffc3ee7cd04d7",
+  "SHA256SUM": "c0a3d03e23b4fdd7a6f8216ed0bd1ec804b3275af3166d77dfa765bf70bd9610",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawFE0gAKCRDDWOcNd+r/VHNUAP0XV+/Nr7zsJfJIXuZ1KTnxYXlUTVffNa0Oc1u/mZiBzgEAmMDwaLvMrq7wgHagT4frlhZElPpsGdnk15FjETtPwAo=",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795245343",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "linux-headers",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

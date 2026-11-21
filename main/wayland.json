@@ -1,0 +1,35 @@
+{
+  "FILENAME": "wayland-1.26.0-1-x86_64.pkg.tar.zst",
+  "NAME": "wayland",
+  "BASE": "wayland",
+  "VERSION": "1.26.0-1",
+  "DESC": "A computer display server protocol",
+  "CSIZE": "187015",
+  "ISIZE": "857615",
+  "MD5SUM": "ac934a4dbe25c4c24c79a9848bd76b45",
+  "SHA256SUM": "b5a9b07dde8dc46fdf310060c9fd91a39a08c13884eb9f96dd626f6ae619d739",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCalnDWQAKCRDDWOcNd+r/VC+SAQCHNS2kuzL7DThCzwhcELpKjRueDfdxQezdZDLm/ggFCAEAijpJ+o9y/RLkGqsxnFiReF/R97aAoMJ75uTl7ZomfAs=",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1784267864",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libffi",
+    "expat",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "libwayland-client.so",
+    "libwayland-cursor.so",
+    "libwayland-egl.so",
+    "libwayland-server.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}
