@@ -417,6 +417,7 @@ jobs:
   checkpackagenamcap:
     needs: [buildpackage, gen-matrix]
     strategy:
+      fail-fast: false
       matrix: ${{fromJson(needs.gen-matrix.outputs.matrix)}}
     runs-on: ${{ matrix.runson }}
     permissions:
