@@ -1,0 +1,41 @@
+{
+  "FILENAME": "qt6-wayland-6.12.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-wayland",
+  "BASE": "qt6-wayland",
+  "VERSION": "6.12.0-1",
+  "DESC": "An implementation of the Language Server Protocol",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "782441",
+  "ISIZE": "4377872",
+  "MD5SUM": "89d8cb3d98192a628662400c0e82edcb",
+  "SHA256SUM": "f49ea7111ea3704c8f1e014ea71e44b03c9da85631726aa4bfeb9e08da376772",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5ZpwAKCRDDWOcNd+r/VIoXAQCZ5pygvkAD90/orJcKAW43OG1xiu+j/uSF3z1XOEBqfAEAvFFZB0hrEquVZWp7Xo1PmudAXRl6hEy+6amv98dvLg0=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "LGPL-3.0-or-later",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795053751",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-svg",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "wayland-protocols",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

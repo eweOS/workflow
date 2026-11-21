@@ -1,0 +1,37 @@
+{
+  "FILENAME": "fcitx5-configtool-5.1.16-1-loongarch64.pkg.tar.zst",
+  "NAME": "fcitx5-configtool",
+  "BASE": "fcitx5-configtool",
+  "VERSION": "5.1.16-1",
+  "DESC": "Configuration tool for fcitx5",
+  "CSIZE": "388802",
+  "ISIZE": "1587927",
+  "MD5SUM": "ba576b348a0852dcc1bb2cfda33f91b3",
+  "SHA256SUM": "678e642f60e8095ae22237455cf5f6f778e637b922749090ea9442b2cbcb5a38",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauVQFgAKCRDDWOcNd+r/VL5OAP0QCmm35qRaOEiZIAX2177d+qskZjrR5s/3Jab8MiaoDwD9GymoVzW5BP+l6JLbX8ELltsSMFcim7v8JmEfroWPeg8=",
+  "URL": "https://github.com/fcitx/fcitx5-configtool",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793412933",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "fcitx5",
+    "fcitx5-qt",
+    "qt6-base",
+    "qt6-svg",
+    "kwidgetsaddons",
+    "kitemviews",
+    "iso-codes"
+  ],
+  "PROVIDES": [
+    "libFcitx5Migrator.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "extra-cmake-modules",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

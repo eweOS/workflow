@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-3d-devel-6.12.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-3d-devel",
+  "BASE": "qt6-3d",
+  "VERSION": "6.12.0-1",
+  "DESC": "C++ and QML APIs for easy inclusion of 3D graphics (Private headers)",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "203333",
+  "ISIZE": "1100558",
+  "MD5SUM": "7bfddeec400bd55f75552ba314b89d1a",
+  "SHA256SUM": "ccdaf71e1c7a4f487fa75cd43ccd57c9d2f9eac751ee2392c505870b016b42ca",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5fJAAKCRDDWOcNd+r/VHxVAP0f+8xScF1oalK/copkjqPnEILd8nVn0e1r5JZM82+c6wEA5kY65qzor5LtbutjgARxQVj127UYInOFsjyP0KMTWQI=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795054953",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-3d",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "OPTDEPENDS": [
+    "assimp: assimp importer plugin",
+    "qt6-declarative: QML bindings",
+    "qt6-shadertools: RHI renderer"
+  ],
+  "MAKEDEPENDS": [
+    "assimp",
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-shadertools-devel"
+  ],
+  "REPO": "main"
+}

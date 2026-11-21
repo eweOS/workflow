@@ -1,0 +1,36 @@
+{
+  "FILENAME": "glmark2-2023.01-5-loongarch64.pkg.tar.zst",
+  "NAME": "glmark2",
+  "BASE": "glmark2",
+  "VERSION": "2023.01-5",
+  "DESC": "An OpenGL 2.0 and ES 2.0 benchmark",
+  "CSIZE": "7789466",
+  "ISIZE": "14264790",
+  "MD5SUM": "9b92cb68e0cf16d013af82e5a0533475",
+  "SHA256SUM": "ed481da48cf361f669f4410690cfc9c75fadd61a1b802fb8980072d2c49b807b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag71lQAKCRDDWOcNd+r/VNihAP9KBBloK9QQQgD7lOpCgmUzmhYJUgjw7j3JBDyB0WEawgD8C4puT8SJBS0/Rd2c++N61kdPS0cSpbSxM/3ypkGyNQA=",
+  "URL": "https://github.com/glmark2/glmark2",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "custom:SGI"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1779365094",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libdrm",
+    "libjpeg-turbo",
+    "libpng",
+    "libgl",
+    "wayland",
+    "libudev-zero"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

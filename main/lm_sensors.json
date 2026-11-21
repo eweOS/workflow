@@ -1,0 +1,35 @@
+{
+  "FILENAME": "lm_sensors-3.6.2-3-loongarch64.pkg.tar.zst",
+  "NAME": "lm_sensors",
+  "BASE": "lm_sensors",
+  "VERSION": "3.6.2-3",
+  "DESC": "User space tools for general SMBus access and hardware monitoring",
+  "CSIZE": "141444",
+  "ISIZE": "438964",
+  "MD5SUM": "fdf2cb4c572203c9ebf6a23ee42e5386",
+  "SHA256SUM": "dd7ca75ef9dc803f6a976cd0c5ab01dcd3aa1d62c18e8d0e352e3e1eadd08006",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCampL2gAKCRDDWOcNd+r/VH2cAP4kZLT2Wj90bvmM68ILV5RPoLKWRlTixi+TwA9lF24G/AEA8/vY/ydP5ekKtYCKC2XpJJZ1xbc8ZKbct2Ucu0OEXQw=",
+  "URL": "https://github.com/hramrach/lm-sensors",
+  "LICENSE": [
+    "GPL-2.0-only OR LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1785351451",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "bash",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libsensors.so"
+  ],
+  "OPTDEPENDS": [
+    "rrdtool: for logging with sensord",
+    "perl: for sensor detection and configuration convert"
+  ],
+  "MAKEDEPENDS": [
+    "rrdtool",
+    "perl"
+  ],
+  "REPO": "main"
+}

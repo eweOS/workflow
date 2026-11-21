@@ -1,0 +1,40 @@
+{
+  "FILENAME": "qt6-sensors-6.12.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "qt6-sensors",
+  "BASE": "qt6-sensors",
+  "VERSION": "6.12.0-1",
+  "DESC": "Provides access to sensor hardware and motion gesture recognition",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "203390",
+  "ISIZE": "1154385",
+  "MD5SUM": "7f89f5d57c49d9142ad64a916887f7ea",
+  "SHA256SUM": "ff8b5fdbdfa55652fb382b1ad1e9e8f73f5315bfaf650c07f6e31e2fc5293b89",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5b/wAKCRDDWOcNd+r/VOqIAQCTCNbOJUN6gadWvs47l/u5+OvufvWBpNbrMAz6FF9ZzAEAqJTVpzhhvkZUEHL8R7vPChkqDCeLJmhqYYCaK9gvHgI=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795054502",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings",
+    "iio-sensor-proxy: iio-sensor-proxy backend"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "REPO": "main"
+}

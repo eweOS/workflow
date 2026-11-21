@@ -1,0 +1,36 @@
+{
+  "FILENAME": "dnsmasq-2.93-1-loongarch64.pkg.tar.zst",
+  "NAME": "dnsmasq",
+  "BASE": "dnsmasq",
+  "VERSION": "2.93-1",
+  "DESC": "Network infrastructure daemon for small networks",
+  "CSIZE": "304324",
+  "ISIZE": "564009",
+  "MD5SUM": "77298051bb48d6f99403d53a439f6838",
+  "SHA256SUM": "59ffb9a5d0b43e2b35a10fd3914bdd2ef1b1087df9e3851588bda7db8fd6f8e3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavisTwAKCRDDWOcNd+r/VDMdAQDseDflLVrLdXnz7fWQ2Xc88Qdg9OmSQPfEerHw+i1oXQD8DWYvuXkNwF3GpnBKaoGD4Aittyz/tloyQuLhvNmfDAE=",
+  "URL": "https://thekelleys.org.uk/dnsmasq/doc.html",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "OR",
+    "GPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1794681996",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "dbus",
+    "libidn",
+    "libidn2",
+    "libnetfilter_conntrack",
+    "lua54",
+    "nettle",
+    "gmp",
+    "nftables"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

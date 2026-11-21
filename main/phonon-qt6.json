@@ -1,0 +1,36 @@
+{
+  "FILENAME": "phonon-qt6-4.12.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "phonon-qt6",
+  "BASE": "phonon",
+  "VERSION": "4.12.0-1",
+  "DESC": "The multimedia framework by KDE",
+  "CSIZE": "393915",
+  "ISIZE": "1661470",
+  "MD5SUM": "dfb4a2f85a9504c10c23303afc826c20",
+  "SHA256SUM": "c16b1a2aae9328a560101f9e8c51edeb19462cf82558e45801413e8062e697db",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawFHowAKCRDDWOcNd+r/VNQUAQDdexTsBm0vSCD7NKxog29B5cmq6GZDTntbglxSjx5ZMQEAi+OfAx2dvndRULLsFr3R8gFdzCMn1dVPo5yP+IZ1qgE=",
+  "URL": "https://community.kde.org/Phonon",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795245954",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libpulse",
+    "qt6-5compat",
+    "qt6-base",
+    "phonon-qt6-backend"
+  ],
+  "OPTDEPENDS": [
+    "pulseaudio: PulseAudio support",
+    "qt6-tools: Designer plugin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-5compat",
+    "qt6-base",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "llvm-devel-21.1.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "llvm-devel",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "Development files for LLVM",
+  "CSIZE": "59909960",
+  "ISIZE": "315119129",
+  "MD5SUM": "26ab08281dc905ae67d16a673843bed6",
+  "SHA256SUM": "26bdea5c609a9405592097379be541d5b51b2154b4f25095ad8ae9ea9867addc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6lOwAKCRDDWOcNd+r/VLIvAP4jWrvjPKNgEMiiVLy/z5XF95gXZPMY7VylRdBDTnZLYgEAr5n+oQ0grX/dkZP5NWFPpmifNdNSR9Q/BXPQcpyCBQM=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1780380771",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "llvm",
+    "llvm-libs",
+    "llvm-tools",
+    "mlir",
+    "openmp",
+    "clang-tools"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

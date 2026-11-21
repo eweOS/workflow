@@ -1,0 +1,37 @@
+{
+  "FILENAME": "fcitx5-qt-5.1.16-2-loongarch64.pkg.tar.zst",
+  "NAME": "fcitx5-qt",
+  "BASE": "fcitx5-qt",
+  "VERSION": "5.1.16-2",
+  "DESC": "Fcitx5 Qt Library (Qt5 & Qt6 integrations)",
+  "GROUPS": [
+    "fcitx5-im"
+  ],
+  "CSIZE": "288715",
+  "ISIZE": "1060837",
+  "MD5SUM": "e8bff40ec13c78288a0272e3bc37742f",
+  "SHA256SUM": "d2f3b54f1bc1cb2a0134f720cfdf0d0f5e14aad397ac32f40f9952e363f012c3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav6g9AAKCRDDWOcNd+r/VBZUAP9mhshv+1b0VbQQwKowAn54rMjL+Ztih6oPCSF1wAv4EwEA5OQgmfmgh0NsT3PFFF56BfjNgCRBScwRXgwqJyEyOQo=",
+  "URL": "https://github.com/fcitx/fcitx5-qt",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795072208",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libxkbcommon",
+    "fcitx5",
+    "qt6-base",
+    "qt6-wayland",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "qt6-base",
+    "ninja",
+    "zstd",
+    "qt6-base-devel"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,40 @@
+{
+  "FILENAME": "rrdtool-1.10.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.10.3-1",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "291126",
+  "ISIZE": "807585",
+  "MD5SUM": "6803c191fc694b0e86859dec3ac73b17",
+  "SHA256SUM": "c350a62c6e8c79791835e5726fe38569d49dcd053adb5e8d1d6908a64e8d5dd0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCampLyAAKCRDDWOcNd+r/VK7LAQCdJ6AR9LaXEGvbetxP3rC0zI1wXsRTEc7po/EIERoYRwEA2ANm5YxUeExSgMhqrA4ChEud4C8g/Q0D81ZPl+0LLwQ=",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1785351396",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "python-wheel",
+    "python-installer",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}
