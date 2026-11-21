@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-6.0.1-1-aarch64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "6.0.1-1",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "845797",
+  "ISIZE": "3176986",
+  "MD5SUM": "1daf8fa91f816f2e941905f7ad80e93e",
+  "SHA256SUM": "29f7c60ceb786f8b6454c7b43091023b5e0757e416005f03a21d7bdd02bac797",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawEb3gAKCRDDWOcNd+r/VH+VAP9DfX4jK0PNwR49mc4jCzpHr1z9Um4j7m4aNyWEySzoMQEAqOTKCAcWKw4jcANKePZXYRpaOHF/WXqKCknhHWFZsQY=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795234824",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

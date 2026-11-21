@@ -1,0 +1,45 @@
+{
+  "FILENAME": "clang-tools-21.1.8-1-aarch64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-1",
+  "DESC": "clang-based tools",
+  "CSIZE": "20550701",
+  "ISIZE": "72007596",
+  "MD5SUM": "35aa283adda6c788435d66c51bd8bd99",
+  "SHA256SUM": "35d5c42db63bee832a6d936dea086eaf99d818d26fc402bc86c8821da4c6f567",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCah6F5gAKCRDDWOcNd+r/VNGvAP9Ios9hJ9KTVe2fQioaoAwR31i02pDJaoaBX8gX6fV0sQD7BtA+9GNCEUSDCHqbd2DDMD3kXusY+qev+JmnzXhBfwo=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1780380776",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

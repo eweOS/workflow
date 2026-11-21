@@ -1,0 +1,41 @@
+{
+  "FILENAME": "gtkmm-4.24.0-1-aarch64.pkg.tar.zst",
+  "NAME": "gtkmm",
+  "BASE": "gtkmm",
+  "VERSION": "4.24.0-1",
+  "DESC": "C++ bindings for GTK 4",
+  "CSIZE": "2108904",
+  "ISIZE": "11435588",
+  "MD5SUM": "5937b11fa9e962777e48711c4655deec",
+  "SHA256SUM": "9fc21fe7f230616235fb1515eee98e3a7f094520bca079cf8f23000358698c89",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavUv8QAKCRDDWOcNd+r/VMDJAQD60NlK/tI5hT+JYFBnN31JuiRT+lgoPhatgq1PN7TFXQD/SrOGEE5vmTpWAq1fbxh5sapTuSKUz6wg4RD1HVkdhg8=",
+  "URL": "https://www.gtkmm.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794453402",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "gtk4",
+    "pangomm",
+    "cairomm",
+    "glibmm",
+    "libsigc++3"
+  ],
+  "PROVIDES": [
+    "libgtkmm-4.0.so",
+    "gtkmm-gtk4",
+    "gtkmm-4.0"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "meson",
+    "mm-common",
+    "perl-xml-parser"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

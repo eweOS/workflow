@@ -1,0 +1,42 @@
+{
+  "FILENAME": "pacman-7.1.0-4-aarch64.pkg.tar.zst",
+  "NAME": "pacman",
+  "BASE": "pacman",
+  "VERSION": "7.1.0-4",
+  "DESC": "A library-based package manager with dependency support",
+  "CSIZE": "754777",
+  "ISIZE": "3624092",
+  "MD5SUM": "4a39cc7d9b85d615c780bbf679dad4c4",
+  "SHA256SUM": "7468dc9c1b015cd788498beae4fc61fc5d12ef258344b0e159eefac6669f1745",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7tBAAKCRDDWOcNd+r/VBwuAQCoWnkmaI9F5Q6d5iENeI3mKk+ue4cmV5itaDk3sROFcgEAr/9uzfF+n47hDNOwY6RJBi45fR9vxGFqfHH85//7ywA=",
+  "URL": "https://www.archlinux.org/pacman/",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779363041",
+  "PACKAGER": "nyaacho <abuild@nyaacho>",
+  "DEPENDS": [
+    "bash",
+    "libalpm=7.1.0",
+    "fakeroot",
+    "pacman-mirrorlist"
+  ],
+  "PROVIDES": [
+    "makepkg"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "libarchive",
+    "openssl",
+    "ninja",
+    "acl",
+    "curl",
+    "xz",
+    "gpgme"
+  ],
+  "CHECKDEPENDS": [
+    "python"
+  ],
+  "REPO": "main"
+}

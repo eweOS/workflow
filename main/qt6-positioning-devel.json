@@ -1,0 +1,45 @@
+{
+  "FILENAME": "qt6-positioning-devel-6.12.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-positioning-devel",
+  "BASE": "qt6-positioning",
+  "VERSION": "6.12.0-1",
+  "DESC": "Provides access to position, satellite and area monitoring classes (Private headers)",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "28818",
+  "ISIZE": "138012",
+  "MD5SUM": "859aa21a7fbb86226180dcd2326043ac",
+  "SHA256SUM": "beac1fbd5a33873c0062041b3521370aaf42cf91e2e5173fa1ab46812036734f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5adgAKCRDDWOcNd+r/VKwFAQDiYTd4OGTR4AvryGcdobPidiskGJPMbZ15WBAKvLzgngD9FCLkoGrezY8ciI3fIHGxV0V05sgP5ck3hGEkZdHO8Qg=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795054094",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-positioning",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "OPTDEPENDS": [
+    "geoclue: geoclue2 plugin",
+    "qt6-declarative: QML bindings",
+    "qt6-serialport: NMEA plugin"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-serialport"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libjpeg-3.2.1-1-aarch64.pkg.tar.zst",
+  "NAME": "libjpeg",
+  "BASE": "libjpeg",
+  "VERSION": "3.2.1-1",
+  "DESC": "JPEG image codec with accelerated baseline compression and decompression",
+  "CSIZE": "588796",
+  "ISIZE": "2146255",
+  "MD5SUM": "6a234913aa2ce808b8badc7594a54e13",
+  "SHA256SUM": "f002b4774f3de4f27766e5e20e99945000cbf0237661c0644355bcbe9e847a50",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawEU+QAKCRDDWOcNd+r/VF1KAP46v5rUHvEAH4zqS+fyBjwzrTFRRp3/4RBb7nsEqRo7UAEAkUYGmGzJT0f7JwqEBtsPMa8uT0b95yIjCrUpdmHXFQ0=",
+  "URL": "https://libjpeg-turbo.org/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "IJG"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795233050",
+  "PACKAGER": "venus <abuild@venus>",
+  "PROVIDES": [
+    "libjpeg",
+    "libjpeg.so",
+    "libturbojpeg.so",
+    "libjpeg-turbo"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "nasm",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

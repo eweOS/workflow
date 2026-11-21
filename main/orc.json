@@ -1,0 +1,33 @@
+{
+  "FILENAME": "orc-0.4.44-1-aarch64.pkg.tar.zst",
+  "NAME": "orc",
+  "BASE": "orc",
+  "VERSION": "0.4.44-1",
+  "DESC": "Optimized Inner Loop Runtime Compiler",
+  "CSIZE": "409217",
+  "ISIZE": "1601867",
+  "MD5SUM": "2020e2d186e2476326d1c31e9f24cbc8",
+  "SHA256SUM": "c90293c3606c5ac1384a4b4d982990ba4c93880d156520e40d6b5cfe6a667437",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav0DOwAKCRDDWOcNd+r/VPydAP4roBGRdU3QzlnigKXwqiIHSMIrnz46+iRFlM4ZBW/pfgD+KFRZ0/maYxFtk4Rl46ylg7m/nVLFQys5Jjy5ldTFFAQ=",
+  "URL": "https://gstreamer.freedesktop.org/modules/orc.html",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794966384",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl"
+  ],
+  "PROVIDES": [
+    "liborc-0.4.so",
+    "liborc-test-0.4.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers",
+    "meson",
+    "valgrind"
+  ],
+  "REPO": "main"
+}
