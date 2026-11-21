@@ -1,0 +1,39 @@
+{
+  "FILENAME": "wcm-0.11.0-1-riscv64.pkg.tar.zst",
+  "NAME": "wcm",
+  "BASE": "wcm",
+  "VERSION": "0.11.0-1",
+  "DESC": "Wayfire Configuration Manager",
+  "CSIZE": "369537",
+  "ISIZE": "2018231",
+  "MD5SUM": "3961d8f070e4432d6d07700071cf16cd",
+  "SHA256SUM": "3c0964dd030005b960689de3f7e9bf0b74ae987c4f1f87b43e7040975db3544d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavZ6PgAKCRDDWOcNd+r/VNbAAQCXrI1zfrXyW6aHHVyXRvgTjwx30Xs9GmKrcBBsOz+7zQD8D/qo1CGEqAuFREUbMe1iNMdikm0u054ffyplcR8rtwY=",
+  "URL": "https://wayfire.org",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794538019",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "fmt",
+    "wayfire",
+    "wf-shell",
+    "gtkmm3",
+    "wdisplays",
+    "wlroots0.20"
+  ],
+  "OPTDEPENDS": [
+    "wdisplays: display configuration tool"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "glm",
+    "wlroots0.20-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

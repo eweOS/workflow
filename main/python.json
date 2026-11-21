@@ -1,0 +1,55 @@
+{
+  "FILENAME": "python-3.13.18-1-riscv64.pkg.tar.zst",
+  "NAME": "python",
+  "BASE": "python",
+  "VERSION": "3.13.18-1",
+  "DESC": "The Python programming language",
+  "CSIZE": "13214620",
+  "ISIZE": "59707726",
+  "MD5SUM": "f95229705ed780b729cff468143965b2",
+  "SHA256SUM": "307dbb139f16996d869d7cb807b733e66a34413009eebd68b6458dc9238cefc1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavLlSAAKCRDDWOcNd+r/VAZQAP0cAFeT4bWi6q79N/0O55tnryY3C/2i0Y/JRURxev0DcQD+MnTN/0NGT0JDv2SrJG/Le66Ata59RO4HUbWJ5pW9CgU=",
+  "URL": "http://www.python.org",
+  "LICENSE": [
+    "PSF-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794302560",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "REPLACES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "DEPENDS": [
+    "libffi",
+    "ncurses",
+    "expat",
+    "openssl",
+    "readline",
+    "sqlite",
+    "mpdecimal"
+  ],
+  "PROVIDES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: for building Python packages using tooling that is usually bundled with Python",
+    "python-pip: for installing Python packages using tooling that is usually bundled with Python",
+    "python-pipx: for installing Python software not packaged on Arch Linux",
+    "sqlite: for a default database integration",
+    "mpdecimal: for decimal",
+    "xz: for lzma",
+    "tk: for tkinter"
+  ],
+  "MAKEDEPENDS": [
+    "libffi",
+    "ncurses",
+    "openssl",
+    "xz",
+    "readline",
+    "zlib",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

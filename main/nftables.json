@@ -1,0 +1,40 @@
+{
+  "FILENAME": "nftables-1.1.7-1-riscv64.pkg.tar.zst",
+  "NAME": "nftables",
+  "BASE": "nftables",
+  "VERSION": "1.1.7-1",
+  "DESC": "Netfilter tables userspace tools",
+  "CSIZE": "437487",
+  "ISIZE": "971023",
+  "MD5SUM": "7e5b31b27a010f240eb2b06827bb79cc",
+  "SHA256SUM": "9b52c9df488acdc7ccde7041cc5eb843c4212071b4f95eb7d6c02516097af11a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawFFYgAKCRDDWOcNd+r/VOkWAQDnbhgQsiPvd2+znfSFKksORH7dT+IVjrnStESwF4Xp9wD/bvqwnwM+appv5HfYrGpMWxwvhKqGpCKARZ5LkLCuDgA=",
+  "URL": "https://netfilter.org/projects/nftables/",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795245451",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "libmnl",
+    "libnftnl",
+    "gmp",
+    "readline",
+    "ncurses",
+    "jansson"
+  ],
+  "OPTDEPENDS": [
+    "python: Python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "python-setuptools",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "linux-headers",
+    "autoconf"
+  ],
+  "REPO": "main"
+}

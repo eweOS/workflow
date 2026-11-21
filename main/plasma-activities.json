@@ -1,0 +1,43 @@
+{
+  "FILENAME": "plasma-activities-6.8.3-1-riscv64.pkg.tar.zst",
+  "NAME": "plasma-activities",
+  "BASE": "plasma-activities",
+  "VERSION": "6.8.3-1",
+  "DESC": "Core components for KDE Activities",
+  "GROUPS": [
+    "plasma"
+  ],
+  "CSIZE": "118346",
+  "ISIZE": "368524",
+  "MD5SUM": "8bf168457a187a2c6d1b5268f194d516",
+  "SHA256SUM": "b20ff49b76a286ae265116bde8c7166e7a7925d656f7ad1616783e7e3d30ae10",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawB3eAAKCRDDWOcNd+r/VC2EAQCDe62Ud8WjuLLdWETIZ3msaxios5Fk6m7ZBRubCiC5ZgEAhnWh2Kag8u+XULOsnEz/SmtR/7QJx9TTLs0GCgPF+Qk=",
+  "URL": "https://kde.org/plasma-desktop/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795192577",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "REPLACES": [
+    "kactivities"
+  ],
+  "DEPENDS": [
+    "kconfig",
+    "kcoreaddons",
+    "qt6-base"
+  ],
+  "CONFLICTS": [
+    "kactivities"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "extra-cmake-modules",
+    "qt6-declarative",
+    "qt6-tools"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "sbc-2.2-1-riscv64.pkg.tar.zst",
+  "NAME": "sbc",
+  "BASE": "sbc",
+  "VERSION": "2.2-1",
+  "DESC": "Bluetooth low-complexity, subband codec (SBC) library",
+  "CSIZE": "28485",
+  "ISIZE": "95746",
+  "MD5SUM": "e8644e0a69c721162cdab7259897b941",
+  "SHA256SUM": "b7d24fd476f9c6e0106c2b6232866591add1c6af4b04ebd87f109f6ad1ed39f8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavwH+wAKCRDDWOcNd+r/VFi9AQCTACCtgQqpZylaXAl5L07dXM9kULje40EgaQ38T/5b0gD/e6tw17FgPla59cl4c7XBRFSpIrwkziKMebkEmzIMGQg=",
+  "URL": "https://git.kernel.org/pub/scm/bluetooth/sbc.git",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "LGPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794902045",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "libsndfile"
+  ],
+  "PROVIDES": [
+    "libsbc.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

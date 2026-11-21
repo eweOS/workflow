@@ -1,0 +1,40 @@
+{
+  "FILENAME": "at-spi2-core-2.54.0-4-riscv64.pkg.tar.zst",
+  "NAME": "at-spi2-core",
+  "BASE": "at-spi2-core",
+  "VERSION": "2.54.0-4",
+  "DESC": "Protocol definitions and daemon for D-Bus at-spi",
+  "CSIZE": "699852",
+  "ISIZE": "3897351",
+  "MD5SUM": "f743eba4020934e0eed0dea21717410b",
+  "SHA256SUM": "e235626f02ac73b02e690eee5c8948505ebb39b19bdc6272feec869bdf740c3b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag6znwAKCRDDWOcNd+r/VGJJAP9d1NX34hSMqnlaqBV+K5PFdKMFgGu8CyXUQWkAfH08EAEA6Wd7EleXEYN+LB/aR8YU0+WOM6yxJbuh1dfnSkdqwAY=",
+  "URL": "https://gitlab.gnome.org/GNOME/at-spi2-core",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779348296",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "dbus",
+    "glib",
+    "gsettings-desktop-schemas",
+    "libxml2"
+  ],
+  "PROVIDES": [
+    "at-spi2-atk=2.54.0-4",
+    "atk=2.54.0-4",
+    "libatk-1.0.so",
+    "libatk-bridge-2.0.so",
+    "libatspi.so"
+  ],
+  "MAKEDEPENDS": [
+    "gobject-introspection",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "at-spi2-core"
+  ],
+  "REPO": "main"
+}

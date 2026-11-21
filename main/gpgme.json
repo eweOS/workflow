@@ -1,0 +1,32 @@
+{
+  "FILENAME": "gpgme-2.2.0-1-riscv64.pkg.tar.zst",
+  "NAME": "gpgme",
+  "BASE": "gpgme",
+  "VERSION": "2.2.0-1",
+  "DESC": "A C wrapper library for GnuPG",
+  "CSIZE": "335689",
+  "ISIZE": "1029685",
+  "MD5SUM": "de7cedb57614338b761ae386f00af9e6",
+  "SHA256SUM": "b70be44545955fcadc93c02bf2248a23de819d47fb6a47efc1c1e10f39fa55df",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5s2wAKCRDDWOcNd+r/VHFTAQCZI7kWavdi0B10MJe/NzzSFTZeRhJDKqJExVxqGZTXFwD+KSiPBIjRjylnPKGLcf1eJYJ99fXQR+EB2sLPy1/Y5wc=",
+  "URL": "https://www.gnupg.org/related_software/gpgme/",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795058868",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "libgpg-error",
+    "gnupg>=2",
+    "libassuan"
+  ],
+  "PROVIDES": [
+    "libgpgme.so"
+  ],
+  "MAKEDEPENDS": [
+    "gnupg",
+    "libgpg-error"
+  ],
+  "REPO": "main"
+}

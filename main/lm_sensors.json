@@ -1,0 +1,35 @@
+{
+  "FILENAME": "lm_sensors-3.6.2-3-riscv64.pkg.tar.zst",
+  "NAME": "lm_sensors",
+  "BASE": "lm_sensors",
+  "VERSION": "3.6.2-3",
+  "DESC": "User space tools for general SMBus access and hardware monitoring",
+  "CSIZE": "141255",
+  "ISIZE": "429612",
+  "MD5SUM": "cf978868e7a0de81233d6f93dd0919db",
+  "SHA256SUM": "8abb8cdb3f68c9025b774e98a5c8eb790b5611100a0afc85f7584138769cd9b7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCamrHBwAKCRDDWOcNd+r/VEHqAQC4HH8g6lc7pBWONZE/plADMH4NfDrczGJk7RF0C5LaMQD/eapLUvRJDY1X+yA0UUdwBBDZZOStzkBlkERzel/PGwY=",
+  "URL": "https://github.com/hramrach/lm-sensors",
+  "LICENSE": [
+    "GPL-2.0-only OR LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1785382969",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "bash",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libsensors.so"
+  ],
+  "OPTDEPENDS": [
+    "rrdtool: for logging with sensord",
+    "perl: for sensor detection and configuration convert"
+  ],
+  "MAKEDEPENDS": [
+    "rrdtool",
+    "perl"
+  ],
+  "REPO": "main"
+}

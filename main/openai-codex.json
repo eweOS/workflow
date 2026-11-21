@@ -1,0 +1,37 @@
+{
+  "FILENAME": "openai-codex-0.112.0-2-riscv64.pkg.tar.zst",
+  "NAME": "openai-codex",
+  "BASE": "openai-codex",
+  "VERSION": "0.112.0-2",
+  "DESC": "Lightweight coding agent that runs in your terminal",
+  "CSIZE": "37910635",
+  "ISIZE": "82966897",
+  "MD5SUM": "bbeb3703bfcc109710c20b8879a23b63",
+  "SHA256SUM": "c80a438218de185a6c8d39e88825c24270da468407bf530f8e8a1c1ef38c3e14",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahLgXgAKCRDDWOcNd+r/VEFYAP92LChAkBMkAOCrcoPA/lPWJ/R2znKt02Xd5D8ODz+lJgEA26VI+quVbqBIJ94U8wJxoVYrqgKpzTNqlqHxcXkMVA4=",
+  "URL": "https://openai.com/codex/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779599124",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "libcap",
+    "openssl",
+    "llvm-libs",
+    "zlib-ng",
+    "zstd",
+    "xz"
+  ],
+  "OPTDEPENDS": [
+    "git: For Git repository operations",
+    "ripgrep: For accelarated searching"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

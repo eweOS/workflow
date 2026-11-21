@@ -1,0 +1,36 @@
+{
+  "FILENAME": "glmark2-2023.01-5-riscv64.pkg.tar.zst",
+  "NAME": "glmark2",
+  "BASE": "glmark2",
+  "VERSION": "2023.01-5",
+  "DESC": "An OpenGL 2.0 and ES 2.0 benchmark",
+  "CSIZE": "7716999",
+  "ISIZE": "12978614",
+  "MD5SUM": "5ae27e99185f75efb9672413913b6a5b",
+  "SHA256SUM": "6a4fa07f95cbb5bc57fe2352b18a6ded60953fd346c501f287d7f170713a14d7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahLnXgAKCRDDWOcNd+r/VKaUAP9OYHvLLJp+Oq1HuTCZvLUCrRG+VvXyEnre8gQfNqhpJgEAswS7osFzYOkUtdkU66ZrSFfMV2x7xLug3rpdnY/kPgE=",
+  "URL": "https://github.com/glmark2/glmark2",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "custom:SGI"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1779623455",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libdrm",
+    "libjpeg-turbo",
+    "libpng",
+    "libgl",
+    "wayland",
+    "libudev-zero"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "wayland-protocols",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

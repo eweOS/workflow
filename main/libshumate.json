@@ -1,0 +1,47 @@
+{
+  "FILENAME": "libshumate-1.7.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libshumate",
+  "BASE": "libshumate",
+  "VERSION": "1.7.0-1",
+  "DESC": "Map widget for GTK 4",
+  "CSIZE": "416262",
+  "ISIZE": "1317687",
+  "MD5SUM": "384f6efd263706bb82678cb75fc03434",
+  "SHA256SUM": "4a0b3fc2d51693bef9a78cb916ae8b04960c154b2918130cb0c485647f168c65",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawA0aQAKCRDDWOcNd+r/VHZuAP9I7qNVKZl817+INd4jDh+WcEPTnXEkmA9UR0yfU5HqtwEA4IOZD8ADheeGmY2uHjxlXj9FnYejqvxnKEvv0t5FYw8=",
+  "URL": "https://wiki.gnome.org/Projects/libshumate",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795175412",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "cairo",
+    "gdk-pixbuf2",
+    "glib2",
+    "graphene",
+    "gtk4",
+    "json-glib",
+    "libsoup3",
+    "pango",
+    "protobuf-c",
+    "sqlite"
+  ],
+  "PROVIDES": [
+    "libshumate-1.0.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gperf",
+    "meson",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "weston"
+  ],
+  "REPO": "main"
+}

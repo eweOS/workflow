@@ -1,0 +1,43 @@
+{
+  "FILENAME": "libnotify-0.8.9-1-riscv64.pkg.tar.zst",
+  "NAME": "libnotify",
+  "BASE": "libnotify",
+  "VERSION": "0.8.9-1",
+  "DESC": "Library for sending desktop notifications",
+  "CSIZE": "43288",
+  "ISIZE": "156207",
+  "MD5SUM": "4f554e171c1b637e81355a5113c87984",
+  "SHA256SUM": "8a740e773d9fb314582f9eba8afc82039d8197f7a8477041bffa5162adc33056",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauAivAAKCRDDWOcNd+r/VIvTAP9nsHbLCi6oryrRDK1EBfo0rDGio0tlHINsb4Qkbk/OZQEAxxGkth11mXGNZz+RTXgjWzlxTTtM/jtDI6scgAHfRA8=",
+  "URL": "https://gitlab.gnome.org/GNOME/libnotify",
+  "LICENSE": [
+    "LGPL"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1793073884",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "gdk-pixbuf2",
+    "glib2",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libnotify.so"
+  ],
+  "MAKEDEPENDS": [
+    "docbook-xsl",
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "xmlto"
+  ],
+  "CHECKDEPENDS": [
+    "dbus",
+    "gtk4",
+    "python-dbusmock",
+    "python-gobject",
+    "weston"
+  ],
+  "REPO": "main"
+}

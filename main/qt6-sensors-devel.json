@@ -1,0 +1,42 @@
+{
+  "FILENAME": "qt6-sensors-devel-6.12.0-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-sensors-devel",
+  "BASE": "qt6-sensors",
+  "VERSION": "6.12.0-1",
+  "DESC": "Provides access to sensor hardware and motion gesture recognition (Private headers)",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "13685",
+  "ISIZE": "62246",
+  "MD5SUM": "7211422e21d26b28e925f9d9e9b34cb6",
+  "SHA256SUM": "3ef50be26939276e0f3b76ce7c8cf1b9a635e5f1e5b31437f12f5bc36dd56ce1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav53tgAKCRDDWOcNd+r/VORoAQCqPOPnzESlaVOaPVgX2Q7qVAkCd4Hjwh+BQeF8XQkazQEA870+ItcbvJ4gclLZ5WPW9d6FkzZ+dZ5S4lxlP/KNnQ4=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3",
+    "LGPL3",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795061428",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-sensors",
+    "qt6-base-devel"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML bindings",
+    "iio-sensor-proxy: iio-sensor-proxy backend"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-speech-devel-6.12.0-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-speech-devel",
+  "BASE": "qt6-speech",
+  "VERSION": "6.12.0-1",
+  "DESC": "Qt Speech support (Private headers)",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "4359",
+  "ISIZE": "3546",
+  "MD5SUM": "be4c43a65bfe2abf5d0a4cf72da8dc1e",
+  "SHA256SUM": "9641630745d52df862fd7a1e8b04d8b6e6170ae86defbb736deb457c711b4a6a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav7auAAKCRDDWOcNd+r/VIOaAP9MAXsQWEB8oQDVeSaK+NbeDdCpc5uhuktY9e6+jA1ojwEAhit7ttu1HpZj6f+cl89CA1152PtLvfOXueHcv9JBBwE=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795086912",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-multimedia",
+    "qt6-speech",
+    "qt6-base-devel"
+  ],
+  "OPTDEPENDS": [
+    "flite: flite TTS backend",
+    "speech-dispatcher: speech-dispatcher TTS backend",
+    "qt6-declarative: QML bindings"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flite",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative",
+    "qt6-multimedia-devel"
+  ],
+  "REPO": "main"
+}

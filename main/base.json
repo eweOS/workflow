@@ -1,0 +1,36 @@
+{
+  "FILENAME": "base-1-7-any.pkg.tar.zst",
+  "NAME": "base",
+  "BASE": "base",
+  "VERSION": "1-7",
+  "DESC": "Minimal package set to define a basic eweOS installation",
+  "CSIZE": "1758",
+  "ISIZE": "0",
+  "MD5SUM": "5caa48b84a0dea6ad4ba2de575c00676",
+  "SHA256SUM": "6ac0e2af04aa4cab6026ced4077ea68bec83aade2983e9b161110622feae92f1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCapyIfwAKCRDDWOcNd+r/VBPzAP0VsaO1WhALqG4lyh1i72kW4tdEFozo1XTiBv2S6HSCdgD9HnuB1i2BeX2dSijQT1ppVVK+H1bmXKN8sCvqFyGkcQk=",
+  "LICENSE": [
+    "GPL"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1788643943",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "filesystem",
+    "musl",
+    "bash",
+    "llvm-libs",
+    "busybox",
+    "file",
+    "util-linux",
+    "ca-certs",
+    "gettext-tiny",
+    "xz",
+    "pacman",
+    "catnest"
+  ],
+  "OPTDEPENDS": [
+    "base-baremetal: bare metal support"
+  ],
+  "REPO": "main"
+}

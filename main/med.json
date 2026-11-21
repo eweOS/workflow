@@ -1,0 +1,37 @@
+{
+  "FILENAME": "med-6.0.1-1-riscv64.pkg.tar.zst",
+  "NAME": "med",
+  "BASE": "med",
+  "VERSION": "6.0.1-1",
+  "DESC": "Library for exchanging multi-physics simulation data",
+  "CSIZE": "971279",
+  "ISIZE": "2538474",
+  "MD5SUM": "8b5e66592dbd9667e8b9801a49734f73",
+  "SHA256SUM": "2d17dbb1d6b548b292741947376e6795fc318e427c0798073a39f1df4bdd5c09",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawEhygAKCRDDWOcNd+r/VDnfAP0XtCvcGKiRGQ4EVG9FQZQ8S/KEk92jvDSOOg8qLQIU6gD/YsejLo+juXTivu7VUX2hDlJISsrXV9PsoinvNSwkcw8=",
+  "URL": "https://github.com/chennes/med",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795236206",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "hdf5"
+  ],
+  "PROVIDES": [
+    "libmed.so",
+    "libmedC.so",
+    "libmedfwrap.so",
+    "libmedimport.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "flang",
+    "doxygen"
+  ],
+  "REPO": "main"
+}

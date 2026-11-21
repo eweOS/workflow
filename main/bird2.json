@@ -1,0 +1,35 @@
+{
+  "FILENAME": "bird2-2.20.0-1-riscv64.pkg.tar.zst",
+  "NAME": "bird2",
+  "BASE": "bird2",
+  "VERSION": "2.20.0-1",
+  "DESC": "RIP, OSPF, BGP, MPLS, BFD, Babel routing daemon",
+  "CSIZE": "536872",
+  "ISIZE": "1211992",
+  "MD5SUM": "d2e42501d250d3e868e1ff777ba46635",
+  "SHA256SUM": "665f8ae4d70b49a9aaffa4b1486c4394357e89b31dd8992e78b2fd75e19d9c5f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawEauwAKCRDDWOcNd+r/VIXaAP49hc1fo+Ar+zAKJK5sYornPg5Luei/1oNtID8EFaIXwQD+KyMZtHXHFF74V4C6EEnl5JvJuqPxeg/K5U3PZ/dOwwY=",
+  "URL": "https://bird.nic.cz/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795234530",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "readline",
+    "ncurses",
+    "libssh2"
+  ],
+  "CONFLICTS": [
+    "bird"
+  ],
+  "PROVIDES": [
+    "bird"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

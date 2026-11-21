@@ -1,0 +1,36 @@
+{
+  "FILENAME": "dnsmasq-2.93-1-riscv64.pkg.tar.zst",
+  "NAME": "dnsmasq",
+  "BASE": "dnsmasq",
+  "VERSION": "2.93-1",
+  "DESC": "Network infrastructure daemon for small networks",
+  "CSIZE": "293545",
+  "ISIZE": "457577",
+  "MD5SUM": "a5524b88da35b7a206c59a98e3ae7928",
+  "SHA256SUM": "3f290ddf94afa73bab2f1008a82e9095dfdd265bd980b0af1a9215af2c6ee10a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavitSAAKCRDDWOcNd+r/VCiwAQCHSO54oVk0hV6G9V9H1IJ/idYHRLAngtpOZ9G0b67CsQEA5uk6JCVgc3spAWrFZO31YSbL+LzQ5qZbK6wpH+HR5AA=",
+  "URL": "https://thekelleys.org.uk/dnsmasq/doc.html",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "OR",
+    "GPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794682206",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "musl",
+    "dbus",
+    "libidn",
+    "libidn2",
+    "libnetfilter_conntrack",
+    "lua54",
+    "nettle",
+    "gmp",
+    "nftables"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lxqt-archiver-1.5.0-1-riscv64.pkg.tar.zst",
+  "NAME": "lxqt-archiver",
+  "BASE": "lxqt-archiver",
+  "VERSION": "1.5.0-1",
+  "DESC": "A simple & lightweight desktop-agnostic Qt file archiver",
+  "GROUPS": [
+    "lxqt"
+  ],
+  "CSIZE": "284376",
+  "ISIZE": "1112218",
+  "MD5SUM": "92363e42f4584ed0b7f41048bcc8c74b",
+  "SHA256SUM": "e9b97ed4e2264d56e126c4662a7681b83f91cb9cb8fa54efcbf8c0eecd862d6f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavr3VAAKCRDDWOcNd+r/VNn4AP4hr0SYbD8PVFpaKI7ddogMtuPHqi6uXoqsEKQH0secxwD+I1gWqizzVHFW16Ca87B6jPbQ0r4C0vuducE0z8GDygM=",
+  "URL": "https://github.com/lxqt/lxqt-archiver",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1794832143",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "libfm-qt",
+    "qt6-base",
+    "glib2",
+    "json-glib",
+    "libfm-qt6.so"
+  ],
+  "OPTDEPENDS": [
+    "libarchive: for handling rpm files",
+    "p7zip: 7Z support"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "qt6-tools",
+    "lxqt-build-tools"
+  ],
+  "REPO": "main"
+}
