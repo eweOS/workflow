@@ -1,0 +1,46 @@
+{
+  "FILENAME": "librsvg-2.63.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "librsvg",
+  "BASE": "librsvg",
+  "VERSION": "2.63.4-1",
+  "DESC": "SVG rendering library",
+  "CSIZE": "4803680",
+  "ISIZE": "12942757",
+  "MD5SUM": "e2a2400b39ee731b90492a9a08079704",
+  "SHA256SUM": "6b8148f38f2d55929606fc7300e7cb4959f75f0aadd7b49f8dd678fc174219fe",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawZ/QwAKCRDDWOcNd+r/VDAHAP4qsV2lrD3+JMge8LuqJrbtQDTKC0II30pFx01FiXTbIwD7BvVj4gE1M3c7sBV+lvlTL2GW4oa7Fg9jRFfQBENJSAU=",
+  "URL": "https://wiki.gnome.org/Projects/LibRsvg",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795587322",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "cairo",
+    "dav1d",
+    "freetype2",
+    "gdk-pixbuf",
+    "glib",
+    "harfbuzz",
+    "libxml2",
+    "pango"
+  ],
+  "PROVIDES": [
+    "librsvg-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "cargo-c",
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "meson",
+    "python-docutils",
+    "rust",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "ttf-dejavu"
+  ],
+  "REPO": "main"
+}

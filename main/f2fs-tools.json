@@ -1,0 +1,33 @@
+{
+  "FILENAME": "f2fs-tools-1.16.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "f2fs-tools",
+  "BASE": "f2fs-tools",
+  "VERSION": "1.16.0-1",
+  "DESC": "Userland tools for the f2fs filesystem",
+  "CSIZE": "209353",
+  "ISIZE": "507520",
+  "MD5SUM": "e8f47d173343019d3e5e4d89d2eacbd3",
+  "SHA256SUM": "84da08e32d5d1adcbe4f1298f2123da091756bfa36352a2d37f1fbb71e3312dc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCanXK4AAKCRDDWOcNd+r/VKjzAP9UMODh8l9M96KOhHeWixclUARJyiBSsBJOvJojzDCfWAEAo9QLZjIVLhSgFLExXUOrw46x732fQAChsxbDpIa30gg=",
+  "URL": "https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-tools.git/about",
+  "LICENSE": [
+    "GPL-2.0-only AND (GPL-2.0-only OR LGPL-2.1-only)"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1786104895",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "lz4",
+    "musl",
+    "util-linux-libs"
+  ],
+  "PROVIDES": [
+    "libf2fs.so",
+    "libf2fs_format.so"
+  ],
+  "MAKEDEPENDS": [
+    "bsd-compat-headers",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

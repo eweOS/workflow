@@ -1,0 +1,33 @@
+{
+  "FILENAME": "zstd-1.6.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "zstd",
+  "BASE": "zstd",
+  "VERSION": "1.6.0-1",
+  "DESC": "Zstandard - Fast real-time compression algorithm",
+  "CSIZE": "422223",
+  "ISIZE": "1206245",
+  "MD5SUM": "b946de0147fef12040b989b06de29392",
+  "SHA256SUM": "3c406ff28eddb9db814761c4ad271747855d7225c49953b97778d4d5a215b118",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawbc+QAKCRDDWOcNd+r/VHdWAQDP0T9yg8g9BB8yADJA+UHuYOokQUuR7bXaXFBi7wQJzAEA2dlDnBn0xH8rdMJgpyOADyDpocXa2N+3Wk0l+Ock1AE=",
+  "URL": "https://facebook.github.io/zstd/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "GPL-2.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795611855",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "zlib",
+    "xz",
+    "lz4"
+  ],
+  "PROVIDES": [
+    "libzstd.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

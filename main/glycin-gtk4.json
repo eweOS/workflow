@@ -1,0 +1,49 @@
+{
+  "FILENAME": "glycin-gtk4-2.2.6-1-loongarch64.pkg.tar.zst",
+  "NAME": "glycin-gtk4",
+  "BASE": "glycin",
+  "VERSION": "2.2.6-1",
+  "DESC": "Sandboxed and extendable image decoding - GTK4 integration",
+  "CSIZE": "171794",
+  "ISIZE": "365599",
+  "MD5SUM": "4ebbd2e64d478301f4c8afe5e96a7468",
+  "SHA256SUM": "64c4cf92b3c198b7548ea61b4847eabac4d2af1db12440a44bce90be2cd5bc74",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawHDgAAKCRDDWOcNd+r/VDN5AP9G59CoC20qh5oArEVsdLGxOOZgqq0t75B9l5RY3D+BtwD/VkStny15w7+QY8rhSuc/1umh67Yfh3m7iWYU1k25lAc=",
+  "URL": "https://gnome.pages.gitlab.gnome.org/glycin/",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795275948",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "fontconfig",
+    "llvm-libs",
+    "glib2",
+    "musl",
+    "glycin",
+    "gtk4",
+    "lcms2",
+    "libseccomp"
+  ],
+  "PROVIDES": [
+    "libglycin-gtk4-2.so"
+  ],
+  "MAKEDEPENDS": [
+    "clang",
+    "git",
+    "gtk4",
+    "gobject-introspection",
+    "libheif",
+    "meson",
+    "rust",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "dav1d",
+    "ffmpeg",
+    "rav1e",
+    "svt-av1"
+  ],
+  "REPO": "main"
+}

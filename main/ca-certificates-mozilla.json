@@ -1,0 +1,30 @@
+{
+  "FILENAME": "ca-certificates-mozilla-3.134-1-loongarch64.pkg.tar.zst",
+  "NAME": "ca-certificates-mozilla",
+  "BASE": "nss",
+  "VERSION": "3.134-1",
+  "DESC": "Mozilla's set of trusted CA certificates",
+  "CSIZE": "417025",
+  "ISIZE": "1042761",
+  "MD5SUM": "93c43ba288ff837d847b9132cf13bffb",
+  "SHA256SUM": "d3e89d4f4b9e43822ca151ef3e310d41a8d4685d2d5540d55baa481ffe3db5e8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawa0swAKCRDDWOcNd+r/VIJvAQDEUubLqwzsdorquYATkEfsOGZV5zZ62eROHr3tj0xZXwEAnANodgS2CtWV8NSh8QWudwtuo7243ntNp3Drwsu5swc=",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795601657",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "ca-certificates-utils>=20181109-3"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "dav1d-1.5.5-1-loongarch64.pkg.tar.zst",
+  "NAME": "dav1d",
+  "BASE": "dav1d",
+  "VERSION": "1.5.5-1",
+  "DESC": "A new open-source AV1 decoder.",
+  "CSIZE": "352914",
+  "ISIZE": "1048419",
+  "MD5SUM": "d09c9f65c46a1a8ff175b91a6689269d",
+  "SHA256SUM": "3478322dc5599809b9517a498731f59559aed7da075fb4e13f1d5bf3559e20c4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav0aewAKCRDDWOcNd+r/VFbEAQDCqn89cA0ThN4kv52zwi0OWYzoTqRawe7i+OQGrIDawAEA+M0sCuflj1NzvN9iK/mP/JXHEEbLeCnKVWtBXTIbJQY=",
+  "URL": "https://www.videolan.org/projects/dav1d.html",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1794972353",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "xxhash"
+  ],
+  "PROVIDES": [
+    "libdav1d.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "nasm"
+  ],
+  "REPO": "main"
+}

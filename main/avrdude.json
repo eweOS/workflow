@@ -1,0 +1,37 @@
+{
+  "FILENAME": "avrdude-8.3-1-loongarch64.pkg.tar.zst",
+  "NAME": "avrdude",
+  "BASE": "avrdude",
+  "VERSION": "8.3-1",
+  "DESC": "A utility to program AVR microcontrollers.",
+  "CSIZE": "2473619",
+  "ISIZE": "14406042",
+  "MD5SUM": "da14b20f5ff05d80dc243cf3080186eb",
+  "SHA256SUM": "e3468c022ebd7a461d7ea7b551e1ec0dfed756bceabf2432557fc042ebe77ceb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauAYZwAKCRDDWOcNd+r/VMLhAP9MeB+ahLstykgfCZQEODd/Dbh+su9qz5/S9pzwJtzWSwEAij5hEh7GJgWYzcdBiFgadIEqHIjQnoGnt0G/ZG0jgQo=",
+  "URL": "https://github.com/avrdudes/avrdude",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1793071352",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libelf",
+    "libusb",
+    "libhidapi",
+    "libftdi",
+    "readline",
+    "libserialport"
+  ],
+  "PROVIDES": [
+    "libavrdude.so"
+  ],
+  "MAKEDEPENDS": [
+    "flex",
+    "bison",
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

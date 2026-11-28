@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libical-4.0.8-1-loongarch64.pkg.tar.zst",
+  "NAME": "libical",
+  "BASE": "libical",
+  "VERSION": "4.0.8-1",
+  "DESC": "Implementation of iCalendar protocols and data formats",
+  "CSIZE": "2585247",
+  "ISIZE": "37274430",
+  "MD5SUM": "e4c73facd41eaa21b2f641abab3642b0",
+  "SHA256SUM": "eeebb49968548ecda054fc4c24e0cce8580199cf45f5ca0ef5ec70dfeaea722d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawAuZQAKCRDDWOcNd+r/VKAhAQCX5LOznuMulZXaqyNXBZI9OPdXCNl83b/SLIv86TQqwAEA+GufAPtpJJXNVFFcHIFvzS0fYlmFNfQUTVLt3vwOUQo=",
+  "URL": "https://github.com/libical/libical",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795174016",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "glib2",
+    "icu",
+    "libxml2"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "gobject-introspection",
+    "gi-docgen",
+    "doxygen",
+    "gtk-doc",
+    "ninja",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-gobject",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

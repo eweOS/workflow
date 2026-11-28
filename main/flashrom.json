@@ -1,0 +1,35 @@
+{
+  "FILENAME": "flashrom-1.8.0-2-loongarch64.pkg.tar.zst",
+  "NAME": "flashrom",
+  "BASE": "flashrom",
+  "VERSION": "1.8.0-2",
+  "DESC": "A utility for detecting, reading, writing, verifying and erasing flash chips",
+  "CSIZE": "5375597",
+  "ISIZE": "8570333",
+  "MD5SUM": "a0b2e74009ca12caa60a9c864de4a248",
+  "SHA256SUM": "051d4df096fdd23f93f8f3b8f2de51d04bef2940227d53feaf737ae45be41694",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOpAQAKCRDDWOcNd+r/VJwnAP4qMz1s6jN8ft4ZLeiIRCghiPU6X4Qo9tDlPUiGLwCbcQD+PYhRxEU0A/MwZfUV1cIBOTBjoT+b1yQFlcQVGcNFsg4=",
+  "URL": "https://review.coreboot.org/admin/repos/flashrom,general",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795402070",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "libusb",
+    "libftdi",
+    "pciutils",
+    "libjaylink",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers",
+    "python-sphinx",
+    "git"
+  ],
+  "REPO": "main"
+}

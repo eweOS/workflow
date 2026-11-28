@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-21.1.8-2-loongarch64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "56159175",
+  "ISIZE": "687909632",
+  "MD5SUM": "c89d561084f56c748bb3ed32f5ce0977",
+  "SHA256SUM": "f3973d0b8dc65cdcc837f3ccdbf97056bc15a07864b7f9b7469353b65999e9cb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawhdOAAKCRDDWOcNd+r/VFfqAQCh2kPLW2XfM7Wv6P8ZKbuuelHsdMrkjqbfJnkeQx3ngAEAlunRpOjAVZsXF8+41KyvIfz6tgFjjA+b3p3eP4KTPAM=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795698058",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

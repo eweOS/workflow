@@ -1,0 +1,37 @@
+{
+  "FILENAME": "python-yaml-6.0.4-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-yaml",
+  "BASE": "python-yaml",
+  "VERSION": "6.0.4-1",
+  "DESC": "Python bindings for YAML, using fast libYAML library",
+  "CSIZE": "222843",
+  "ISIZE": "994867",
+  "MD5SUM": "77f272eb5ab44f540ef87bfc76b2849e",
+  "SHA256SUM": "66bc6b1a44c29611dbdb0bf088da2ae590319aadbc6170fe789c889857797646",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawGSUgAKCRDDWOcNd+r/VP3YAQDEfek2UxzxlWAMqOT8uxbbavkPkD1hyLXFC4TxokGdPAEAhB22z3+6o3PqOUQCGLbB/LnLvTSTEUwXB8oLCz+K2Ak=",
+  "URL": "https://github.com/yaml/pyyaml",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795265182",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "libyaml",
+    "python"
+  ],
+  "PROVIDES": [
+    "python-pyyaml"
+  ],
+  "MAKEDEPENDS": [
+    "cython",
+    "python-build",
+    "python-installer",
+    "python-setuptools",
+    "python-wheel"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,36 @@
+{
+  "FILENAME": "atuin-18.25.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "atuin",
+  "BASE": "atuin",
+  "VERSION": "18.25.1-1",
+  "DESC": "Magical shell history",
+  "CSIZE": "21834336",
+  "ISIZE": "63146087",
+  "MD5SUM": "b7373cf8484ce29ebad8eca9099302dd",
+  "SHA256SUM": "b68ab659163ca899e2031eed1624f8c090e7159638dbb033d95d1d3ff5d3947c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawHlkgAKCRDDWOcNd+r/VBeBAP9Kdk5Xje4l0mQJOHVDlD6IbAtbJtrdQiKDb7BAYuTFwAD/aQ1v79R7r66xSxdSSPrO9mraOx7EnW4h60bH2KootgY=",
+  "URL": "https://atuin.sh",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795283438",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "sqlite",
+    "openssl"
+  ],
+  "OPTDEPENDS": [
+    "blesh: bash integration"
+  ],
+  "MAKEDEPENDS": [
+    "rust"
+  ],
+  "CHECKDEPENDS": [
+    "git",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

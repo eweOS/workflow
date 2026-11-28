@@ -1,0 +1,60 @@
+{
+  "FILENAME": "fastfetch-2.72.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "fastfetch",
+  "BASE": "fastfetch",
+  "VERSION": "2.72.0-1",
+  "DESC": "Like Neofetch, but much faster because written in C",
+  "CSIZE": "967848",
+  "ISIZE": "3283340",
+  "MD5SUM": "6653216fc6f18b9c998a8ff1f7628a44",
+  "SHA256SUM": "66455560f24fe8f6f3ed0c570dac16ac876cb37eef4c5d8dfbb4215d45155eb0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawrORwAKCRDDWOcNd+r/VDF4AP9SPuOLdMWUdEYTgSA0WfEIApmPU2GoooiAtwVNwL14EgD/fKwLr7Y10vqzlW69vIvvxOaJoGThwMyrJ+2Z/7AZ9A0=",
+  "URL": "https://github.com/fastfetch-cli/fastfetch",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795870373",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "yyjson"
+  ],
+  "OPTDEPENDS": [
+    "chafa: Image output as ascii art",
+    "dbus: Bluetooth, Player & Media detection",
+    "dconf: Needed for values that are only stored in DConf + Fallback for GSettings",
+    "ddcutil: Brightness detection of external displays",
+    "directx-headers: GPU detection in WSL",
+    "glib2: Output for values that are only stored in GSettings",
+    "imagemagick: Image output using sixel or kitty graphics protocol",
+    "libnm: Wifi detection",
+    "libpulse: Sound detection",
+    "libglvnd: Needed by the OpenGL module for gl context creation.",
+    "libxrandr: Multi monitor support",
+    "ocl-icd: OpenCL module",
+    "pciutils: GPU output",
+    "vulkan-icd-loader: Vulkan module & fallback for GPU output",
+    "xfconf: Needed for XFWM theme and XFCE Terminal font",
+    "zlib: Faster image output when using kitty graphics protocol",
+    "libdrm: Displays detection"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers",
+    "python",
+    "directx-headers",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "wayland",
+    "dconf",
+    "imagemagick",
+    "dbus",
+    "libpulse",
+    "xfconf",
+    "libdrm",
+    "libegl",
+    "yyjson",
+    "zlib"
+  ],
+  "REPO": "main"
+}

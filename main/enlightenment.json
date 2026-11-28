@@ -1,0 +1,48 @@
+{
+  "FILENAME": "enlightenment-0.28.0-1-loongarch64.pkg.tar.zst",
+  "NAME": "enlightenment",
+  "BASE": "enlightenment",
+  "VERSION": "0.28.0-1",
+  "DESC": "Enlightenment window manager",
+  "CSIZE": "409383514",
+  "ISIZE": "423456370",
+  "MD5SUM": "d2d7a8fd6b0e11ff52fd779334d91462",
+  "SHA256SUM": "aac5b1157cee7b032a4c4b02532675ccae765a4944e35c4cc7c31f0f11fc0b75",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawVdjAAKCRDDWOcNd+r/VMY5AP9DPeopqKYqKIHTe46+k5dA8AsGA7zkPcLml0JbVCP2QQD/b1Rd5KCsO6SmHUT8RybElEaN+eVQAEYj0CyazRQhww8=",
+  "URL": "http://www.enlightenment.org",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795513574",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "alsa-lib",
+    "efl",
+    "hicolor-icon-theme",
+    "libexif",
+    "librsvg",
+    "libpulse",
+    "libxkbcommon",
+    "pam",
+    "util-linux-libs",
+    "wayland",
+    "wayland-protocols",
+    "font-base"
+  ],
+  "OPTDEPENDS": [
+    "acpid: power events on laptop lid close",
+    "bluez: Bluetooth control module",
+    "connman: network connection manager module",
+    "networkmanager: network connection manager module",
+    "fprintd: fingerprint password settings",
+    "geoclue: geolocation module",
+    "packagekit: package manager integration module"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "git"
+  ],
+  "REPO": "main"
+}

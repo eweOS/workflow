@@ -1,0 +1,66 @@
+{
+  "FILENAME": "python-pyqt6-6.12.1-1-loongarch64.pkg.tar.zst",
+  "NAME": "python-pyqt6",
+  "BASE": "pyqt6",
+  "VERSION": "6.12.1-1",
+  "DESC": "A set of Python bindings for the Qt6 toolkit",
+  "GROUPS": [
+    "pyqt6"
+  ],
+  "CSIZE": "4520227",
+  "ISIZE": "26904832",
+  "MD5SUM": "85f3d98c03a2b669a672af8e5bea224f",
+  "SHA256SUM": "e32ba57f7baafe6b4c888de1610cf88000793f5a9b0d43b27fb7daa4e6ec0e35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawWWQQAKCRDDWOcNd+r/VGEoAQCHagZ6KiFirR1LrDghpEsuT7VJQV4YFxjzCAKUtM0qQwEA24em4EQ80ydpBmymd9Xi3p8G9uKa07XQx/MYxI6o7A0=",
+  "URL": "https://riverbankcomputing.com/software/pyqt/intro",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1795526561",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "qt6-base",
+    "python-pyqt6-sip>=13.13"
+  ],
+  "PROVIDES": [
+    "qt6-python-bindings"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: QtHelp, QtDesigner bindings",
+    "qt6-svg: QtSvg bindings",
+    "qt6-declarative: QtQml, QtQuickControls2 bindings, qmlplugin",
+    "qt6-quick3d: QtQuick3D bindings",
+    "qt6-connectivity: QtBluetooth, QtNfc bindings",
+    "qt6-multimedia: QtMultimedia, QtSpatialAudio bindings",
+    "qt6-positioning: QtPositioning bindings",
+    "qt6-remoteobjects: QtRemoteObjects bindings",
+    "qt6-sensors: QtSensors bindings",
+    "qt6-serialport: QtSerialPort bindings",
+    "qt6-speech: QtTextToSpeech bindings",
+    "qt6-webchannel: QtWebChannel bindings",
+    "qt6-websockets: QtWebSockets bindings",
+    "dbus-python: for python-dbus mainloop support"
+  ],
+  "MAKEDEPENDS": [
+    "sip",
+    "pyqt-builder",
+    "python-dbus",
+    "qt6-base-devel",
+    "qt6-tools",
+    "qt6-svg",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools",
+    "qt6-multimedia",
+    "qt6-remoteobjects",
+    "qt6-positioning",
+    "qt6-sensors",
+    "qt6-serialport",
+    "qt6-speech",
+    "qt6-webchannel",
+    "qt6-websockets",
+    "qt6-connectivity"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,42 @@
+{
+  "FILENAME": "util-linux-2.42-1-loongarch64.pkg.tar.zst",
+  "NAME": "util-linux",
+  "BASE": "util-linux",
+  "VERSION": "2.42-1",
+  "DESC": "Miscellaneous system utilities for Linux",
+  "CSIZE": "1338638",
+  "ISIZE": "6694209",
+  "MD5SUM": "83ba7493666fb5408132fcf08261f3b4",
+  "SHA256SUM": "3bb7450c77fc4020e7e907d7d69c8a73e4037c3f3446c74eb55df10561794fde",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCakeyEAAKCRDDWOcNd+r/VI7bAQDfdWFk6UwyBGrOW/4vp/bVNVoiJOzPu/nxdyue9q0eoQD+IAb5c8eICCkUZeNPc54ikejLHtX6kKkNDSEf7sJnywk=",
+  "URL": "https://github.com/karelzak/util-linux",
+  "LICENSE": [
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause-UC",
+    "GPL-2.0-only",
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "ISC",
+    "LGPL-2.1-or-later",
+    "LicenseRef-PublicDomain"
+  ],
+  "ARCH": "loongarch64",
+  "BUILDDATE": "1783083689",
+  "PACKAGER": "eweos-loong64-3a6000worker1 <abuild@eweos-loong64-3a6000worker1>",
+  "DEPENDS": [
+    "musl",
+    "util-linux-libs",
+    "pam",
+    "libudev",
+    "utmps"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "pam",
+    "bash-completion",
+    "linux-headers",
+    "utmps"
+  ],
+  "REPO": "main"
+}
