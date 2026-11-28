@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libhidapi-0.16.0-1-x86_64.pkg.tar.zst",
+  "NAME": "libhidapi",
+  "BASE": "libhidapi",
+  "VERSION": "0.16.0-1",
+  "DESC": "A Simple cross-platform library for communicating with HID devices.",
+  "CSIZE": "45108",
+  "ISIZE": "119167",
+  "MD5SUM": "47b2d448663e060427eaedc9bb5276cd",
+  "SHA256SUM": "bbfb1be351b9a3dd1a5405df0a59e2b4dc5178cab4f3b5c7c5b41caebe57ad96",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOxPgAKCRDDWOcNd+r/VLd2AQCCmRCMGwd0y6dmi/wtGVfFGPZbmja6ulRerENR2TR6HAD+IqG1PjhnkIpctFEmSMKq+jABkqMBZ8X6aKZaE+kzEwo=",
+  "URL": "https://libusb.info/hidapi",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795404194",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "libudev",
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

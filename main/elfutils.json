@@ -1,0 +1,44 @@
+{
+  "FILENAME": "elfutils-0.197-1-x86_64.pkg.tar.zst",
+  "NAME": "elfutils",
+  "BASE": "libelf",
+  "VERSION": "0.197-1",
+  "DESC": "libelf is a free ELF object file access library (utilities)",
+  "CSIZE": "535672",
+  "ISIZE": "2488714",
+  "MD5SUM": "b0e66257a94e4eeb0ceafcb51c8680e4",
+  "SHA256SUM": "63029eea3b79e88b80bbe5d6f925d3aa8e02ff93186eaacfa0928528b755ab27",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawfqWAAKCRDDWOcNd+r/VDqhAQDpalaxkyU+TfcAxi1ShoHR9fc+nhjcZDoZzG+efV+wbAEAixMWyTVshYEquAvmCmrRb1mYFq3OJYQawzHmNvRkOA0=",
+  "URL": "https://sourceware.org/elfutils/",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795680901",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "musl-obstack",
+    "libarchive",
+    "libbz2",
+    "libuargp",
+    "libelf=0.197",
+    "llvm-libs"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "llvm-libs",
+    "libarchive",
+    "sqlite",
+    "xz",
+    "zlib",
+    "libuargp",
+    "musl-fts",
+    "musl-obstack",
+    "linux-headers",
+    "zstd",
+    "libbz2",
+    "openssl"
+  ],
+  "REPO": "main"
+}

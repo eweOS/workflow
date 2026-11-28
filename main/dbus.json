@@ -1,0 +1,38 @@
+{
+  "FILENAME": "dbus-1.16.4-1-x86_64.pkg.tar.zst",
+  "NAME": "dbus",
+  "BASE": "dbus",
+  "VERSION": "1.16.4-1",
+  "DESC": "Freedesktop.org message bus system",
+  "CSIZE": "536600",
+  "ISIZE": "1433598",
+  "MD5SUM": "f1bf01ae00ec40824b1e5f6a36ad3b6a",
+  "SHA256SUM": "679209be87aabe3d05b4e576cfeebdcdcc047fec315684ab8e4ae9b3fac527b7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavwAFAAKCRDDWOcNd+r/VLkGAQDOukzOZlJRwkYA1R7KCRIVEVoTE0M9p4Xdpqxn7SPNQQEAi7NVWS7GruBj5lXHIqjtqK/QRCVmNBKwC56c2yq9iws=",
+  "URL": "https://wiki.freedesktop.org/www/Software/dbus/",
+  "LICENSE": [
+    "GPL-2.0-or-later",
+    "custom"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1794900030",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "expat",
+    "glib"
+  ],
+  "PROVIDES": [
+    "libdbus",
+    "libdbus-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "linux-headers",
+    "meson",
+    "ninja",
+    "libxslt",
+    "docbook-xsl"
+  ],
+  "REPO": "main"
+}

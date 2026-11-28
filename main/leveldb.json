@@ -1,0 +1,34 @@
+{
+  "FILENAME": "leveldb-1.23-1-x86_64.pkg.tar.zst",
+  "NAME": "leveldb",
+  "BASE": "leveldb",
+  "VERSION": "1.23-1",
+  "DESC": "A fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+  "CSIZE": "133184",
+  "ISIZE": "300667",
+  "MD5SUM": "e46aa5897e2d58f33354bc695f7dd9a8",
+  "SHA256SUM": "364188c3aca0eabd120c6d6d2927310a33b923ed6eba985d9ab1b7f798350a09",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCaoEjtwAKCRDDWOcNd+r/VCe5APoDh928DY2XA3qPnYTyWO3edfZFFFL3q9MBC65FlfnbZAD+O30VTV3lRc41nTYc90Bhmkbz2gY28glg8Po64JyLJgU=",
+  "URL": "https://github.com/google/leveldb",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1786848554",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libleveldb.so"
+  ],
+  "MAKEDEPENDS": [
+    "benchmark",
+    "cmake",
+    "googletest",
+    "ninja",
+    "sqlite"
+  ],
+  "REPO": "main"
+}

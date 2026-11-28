@@ -1,0 +1,48 @@
+{
+  "FILENAME": "niri-26.04-3-x86_64.pkg.tar.zst",
+  "NAME": "niri",
+  "BASE": "niri",
+  "VERSION": "26.04-3",
+  "DESC": "A scrollable-tiling Wayland compositor",
+  "CSIZE": "8748579",
+  "ISIZE": "25597433",
+  "MD5SUM": "91ced0007eb39fd9d4d4eb2852d3831c",
+  "SHA256SUM": "dd6f69a1adf306d8f2e88ed6b7ea4f95df30d5db9da58458311c2454efe18812",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawhiIwAKCRDDWOcNd+r/VEaxAP9EpeE0VvyFQ4uZJVWCa6Q6reFJLemkh8ibQew4+Uz3NAD9HlSBgLkZQvWfvRLXyWauB5lEDy4rtrfUfJ0IA+W7tAI=",
+  "URL": "https://github.com/YaLTeR/niri",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795710731",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "cairo",
+    "glib2",
+    "libdisplay-info",
+    "libinput",
+    "libpipewire",
+    "libxkbcommon",
+    "mesa",
+    "pango",
+    "pixman",
+    "seatd",
+    "xdg-desktop-portal-impl"
+  ],
+  "OPTDEPENDS": [
+    "alacritty: a suggested GPU-accelerated terminal emulator",
+    "bash: for niri-session script",
+    "fuzzel: a suggested Wayland application launcher",
+    "mako: a suggested Wayland notification daemon",
+    "org.freedesktop.secrets: for apps to rely on secrets portal",
+    "swaybg: a suggested Wayland wallpaper tool",
+    "waybar: a suggested Wayland customizable desktop bar",
+    "waylock: a suggested Wayland screen locker",
+    "xdg-desktop-portal-gtk: a suggested XDG desktop portal",
+    "xdg-desktop-portal-gnome: a XDG desktop portal required for screencasting"
+  ],
+  "MAKEDEPENDS": [
+    "rust"
+  ],
+  "REPO": "main"
+}

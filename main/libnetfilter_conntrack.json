@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libnetfilter_conntrack-1.1.1-1-x86_64.pkg.tar.zst",
+  "NAME": "libnetfilter_conntrack",
+  "BASE": "libnetfilter_conntrack",
+  "VERSION": "1.1.1-1",
+  "DESC": "Userspace library providing API to in-kernel connection tracking state table",
+  "CSIZE": "55377",
+  "ISIZE": "143209",
+  "MD5SUM": "d2e6e8fa1c3e4c8c38ccd5caacaebeae",
+  "SHA256SUM": "05ad110ab1931ba869d1d3d13a037cfc5536979322e46035fc334773d0cc347c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauFk7wAKCRDDWOcNd+r/VCukAQCDxSaTtC2tH2BMBzuNVBX5Op/2eIC8GnM+3HDI1/efrQEA2IvuNJ7Gwbk2PHf7OPZRcRWqzov72TGUZGNv5I0iGQg=",
+  "URL": "https://www.netfilter.org/projects/libnetfilter_conntrack/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1793156482",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libmnl",
+    "libnfnetlink"
+  ],
+  "PROVIDES": [
+    "libnetfilter_conntrack.so"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

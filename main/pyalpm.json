@@ -1,0 +1,37 @@
+{
+  "FILENAME": "pyalpm-0.12.0-1-x86_64.pkg.tar.zst",
+  "NAME": "pyalpm",
+  "BASE": "pyalpm",
+  "VERSION": "0.12.0-1",
+  "DESC": "Python 3 bindings for libalpm",
+  "CSIZE": "62699",
+  "ISIZE": "235256",
+  "MD5SUM": "d37e60d03af1187808690f4d288c39ce",
+  "SHA256SUM": "e744484eb2d045a4b98456ddf41b65ec406b157048a968972cd614f6a1153148",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOvFAAKCRDDWOcNd+r/VNHEAP4zCNUCIe7r/pU7Y0Ao6vP0tqEMazYOOoppu5i+dEhtawEAphU7WCyOI3VqiOcTveCggKtsCKvp7LATjDUNEZf8YgE=",
+  "URL": "https://gitlab.archlinux.org/archlinux/pyalpm",
+  "LICENSE": [
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795403626",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "python",
+    "libalpm"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "python-setuptools",
+    "python-pkgconfig",
+    "python-build",
+    "python-installer",
+    "python-wheel",
+    "meson-python"
+  ],
+  "CHECKDEPENDS": [
+    "python-pytest",
+    "python-pytest-pacman"
+  ],
+  "REPO": "main"
+}

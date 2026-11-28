@@ -1,0 +1,35 @@
+{
+  "FILENAME": "manifold-3.5.5-1-x86_64.pkg.tar.zst",
+  "NAME": "manifold",
+  "BASE": "manifold",
+  "VERSION": "3.5.5-1",
+  "DESC": "Geometry library for creating and operating on manifold triangle meshes",
+  "CSIZE": "756607",
+  "ISIZE": "2570445",
+  "MD5SUM": "a003293dbe9b0c1db54a61ed17245cba",
+  "SHA256SUM": "24c5c00d1dc109b9c3ee69bb249b20d02bc5f946b699a51d8a9d5129e43eb3e7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawgqewAKCRDDWOcNd+r/VDBuAP96/oyY8C41ZFRaVFHWB24clsH5I5GSTnzM24b3jnTDCAEAj2C92iTmlOsOO8TSY77cPnv81bzVXvjZhJn248diswg=",
+  "URL": "https://github.com/elalish/manifold",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795697191",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "onetbb",
+    "clipper2",
+    "assimp"
+  ],
+  "PROVIDES": [
+    "libmanifold.so",
+    "libmanifoldc.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "googletest"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,38 @@
+{
+  "FILENAME": "cryptsetup-2.8.9-1-x86_64.pkg.tar.zst",
+  "NAME": "cryptsetup",
+  "BASE": "cryptsetup",
+  "VERSION": "2.8.9-1",
+  "DESC": "Userspace setup tool for transparent encryption of block devices using dm-crypt",
+  "CSIZE": "1011892",
+  "ISIZE": "3759580",
+  "MD5SUM": "3318df35161b6095ea652678788ddea5",
+  "SHA256SUM": "350f92e8d2ea2c1ac6eb5f943e25d195a4c6e825b0fec67584aa6e27ade38166",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawZ/BQAKCRDDWOcNd+r/VC5AAP4pZpVdp7w13YA8EPjpmK2Ha8I6aDh/nOUq0TFVCVP6bQD+KB4qU98hc293dB9TdIR4s7XotxkA6lNwjNmFjU/iwgo=",
+  "URL": "https://gitlab.com/cryptsetup/cryptsetup",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795587927",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "device-mapper",
+    "libdevmapper.so",
+    "util-linux-libs",
+    "popt",
+    "json-c",
+    "libjson-c.so",
+    "argon2",
+    "openssl"
+  ],
+  "PROVIDES": [
+    "libcryptsetup.so"
+  ],
+  "MAKEDEPENDS": [
+    "util-linux",
+    "linux-headers",
+    "git"
+  ],
+  "REPO": "main"
+}

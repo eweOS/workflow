@@ -1,0 +1,40 @@
+{
+  "FILENAME": "rrdtool-1.11.0-1-x86_64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.11.0-1",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "314489",
+  "ISIZE": "768431",
+  "MD5SUM": "2362476dc3bd4a3557d00c40bbed6847",
+  "SHA256SUM": "2206cb2a53dc50f6ae3684d513666edb46d680772a9903acd05f18de884e3712",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawarwwAKCRDDWOcNd+r/VJUgAP48lImQoUQxQcBd7feY8Ay737vKqRJQDuaGsyUX2UEIhAEAqzTjW4FkiifCipk4ajdmcynzqJhBgVkKnY6X6SoizQ4=",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795599376",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "python-wheel",
+    "python-installer",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}

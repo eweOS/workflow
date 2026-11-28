@@ -1,0 +1,58 @@
+{
+  "FILENAME": "weston-16.0.2-2-x86_64.pkg.tar.zst",
+  "NAME": "weston",
+  "BASE": "weston",
+  "VERSION": "16.0.2-2",
+  "DESC": "Reference implementation of a Wayland compositor",
+  "CSIZE": "1603912",
+  "ISIZE": "4962890",
+  "MD5SUM": "2a09f18a5958aa863db76d176b428f3f",
+  "SHA256SUM": "be2d85adb55a877f689fc4ef32630ff9cddf50799669f6199bc6479c2bbfc9ef",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawgc0gAKCRDDWOcNd+r/VCCyAP99LxEXJoXoQKAHovYUmUWu024xLavjbYhqxvm4Yqm6yQEA1TyNowmalYGi1WrAdl21GU7ttI1fu++IAKSds733Nwk=",
+  "URL": "https://wayland.freedesktop.org/",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "x86_64",
+  "BUILDDATE": "1795693847",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "musl",
+    "wayland",
+    "libxkbcommon",
+    "libinput",
+    "pixman",
+    "libdrm",
+    "cairo",
+    "libpng",
+    "mesa",
+    "dbus",
+    "pam",
+    "seatd",
+    "libdisplay-info",
+    "lcms2",
+    "libjpeg-turbo",
+    "libwebp"
+  ],
+  "OPTDEPENDS": [
+    "xorg-xwayland: support x11 backend",
+    "libpipewire: support pipewire backend",
+    "freerdp: support rdp backend",
+    "neatvnc: support vnc backend",
+    "vulkan-icd-loader: support vulkan renderer",
+    "lua: support lua shell"
+  ],
+  "MAKEDEPENDS": [
+    "wayland-protocols",
+    "meson",
+    "ninja",
+    "linux-headers",
+    "neatvnc",
+    "lua54",
+    "vulkan-headers",
+    "vulkan-icd-loader",
+    "libpipewire",
+    "glslang"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "python-wheel-0.48.0-1-any.pkg.tar.zst",
+  "NAME": "python-wheel",
+  "BASE": "python-wheel",
+  "VERSION": "0.48.0-1",
+  "DESC": "A built-package format for Python",
+  "CSIZE": "84003",
+  "ISIZE": "328647",
+  "MD5SUM": "aafae4d3c42beac1e764e328b37af2db",
+  "SHA256SUM": "54061db949bff49bee4d3c6178ab34f9dfa1ee61281aead1a3db186edee24dcc",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCauFdGwAKCRDDWOcNd+r/VNwOAQCT0v/v7BjV6CMXEEgHEsb9bUiJkzLEwWbj4qtvg0op8wD+KREl8+QSIFmeR0Mse1xmUVd124f4wmU9dt6n4ylY4wM=",
+  "URL": "https://pypi.python.org/pypi/wheel",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "any",
+  "BUILDDATE": "1793154488",
+  "PACKAGER": "eweos-x8664-worker1 <abuild@eweos-x8664-worker1>",
+  "DEPENDS": [
+    "python-packaging"
+  ],
+  "OPTDEPENDS": [
+    "python-keyring: for wheel.signatures",
+    "python-xdg: for wheel.signatures"
+  ],
+  "MAKEDEPENDS": [
+    "python-build",
+    "python-flit-core",
+    "python-installer"
+  ],
+  "CHECKDEPENDS": [
+    "python-jsonschema",
+    "python-pytest",
+    "python-xdg",
+    "python-pytest-cov",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}
