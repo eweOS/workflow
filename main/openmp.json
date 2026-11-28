@@ -1,0 +1,40 @@
+{
+  "FILENAME": "openmp-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "openmp",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "LLVM OpenMP Runtime Library",
+  "CSIZE": "413425",
+  "ISIZE": "945999",
+  "MD5SUM": "f6ef306937db472228c864898bdb2289",
+  "SHA256SUM": "4be6d1f7fa76fb532e34940877d7fc032f02a76c463856390c9f37adc5ddaf5d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhcAAKCRDDWOcNd+r/VN9RAQCBaIZE6/+FQWp/0X61x5ejh8zFvP/0d1O+ebGkVOCnNAEAs7gnUIbtGdNWkflwIynli9r4AdbpZqeJ+jwKQrkTuwU=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "libelf",
+    "libffi"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

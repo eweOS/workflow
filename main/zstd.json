@@ -1,0 +1,33 @@
+{
+  "FILENAME": "zstd-1.6.0-1-riscv64.pkg.tar.zst",
+  "NAME": "zstd",
+  "BASE": "zstd",
+  "VERSION": "1.6.0-1",
+  "DESC": "Zstandard - Fast real-time compression algorithm",
+  "CSIZE": "481431",
+  "ISIZE": "1219549",
+  "MD5SUM": "5c1250fbf4014f542b886d8ac7e4e326",
+  "SHA256SUM": "e42a5f1fbcaf4d36aa8ac2ea7f71de38f29ab78e6ab8f25b2a9fc6271e3060d1",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawbduAAKCRDDWOcNd+r/VJFQAP4sVDSJfPE3J8c66tfYbddhwApx+LGY0KSntBqSk9mq3gEAwNHC2OqvnvWWa8YVjvmqn1uZt+2b6x6aPKbBIUzSfQk=",
+  "URL": "https://facebook.github.io/zstd/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "GPL-2.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795611952",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "zlib",
+    "xz",
+    "lz4"
+  ],
+  "PROVIDES": [
+    "libzstd.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "REPO": "main"
+}

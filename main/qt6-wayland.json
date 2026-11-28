@@ -1,0 +1,41 @@
+{
+  "FILENAME": "qt6-wayland-6.12.0-1-riscv64.pkg.tar.zst",
+  "NAME": "qt6-wayland",
+  "BASE": "qt6-wayland",
+  "VERSION": "6.12.0-1",
+  "DESC": "An implementation of the Language Server Protocol",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "864106",
+  "ISIZE": "4040880",
+  "MD5SUM": "759b457b145b4839fe839a081b6a3101",
+  "SHA256SUM": "46627b3dff9be1fc3902b97a7d5fc181b3731b174705737e275155d3b8072055",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5cSAAKCRDDWOcNd+r/VLifAQCMKSpDi5MfDIuro2GWbtIg22ibPhSSJSIGkR0Jz9OWdwEAiv+E27L0Dat2NNSaX/8uiRcXbiYTgy/YFb/V84GqlQ4=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL-3.0-or-later",
+    "LGPL-3.0-or-later",
+    "FDL",
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795053874",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-svg",
+    "wayland"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "ninja",
+    "wayland-protocols",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

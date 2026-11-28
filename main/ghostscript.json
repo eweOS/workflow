@@ -1,0 +1,50 @@
+{
+  "FILENAME": "ghostscript-10.08.0-1-riscv64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.08.0-1",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21342233",
+  "ISIZE": "41463345",
+  "MD5SUM": "6ee7e7fed371da8f1dc1e4391f421b7e",
+  "SHA256SUM": "536b3d2574d12d5f2b12d2c8a614bbd8e0b5f67bcfe9d03976975420dfdf917c",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawJgiAAKCRDDWOcNd+r/VH9uAP951kepl70JRC4jY/b+qN0gPJkse4E/lk4gm3wPeZI3KgD/fIQcB59K6ahnbeftEADm3dS1/XQWr9+ReVxBkpYXaQk=",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795317608",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "REPLACES": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

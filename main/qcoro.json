@@ -1,0 +1,39 @@
+{
+  "FILENAME": "qcoro-0.13.0-4-riscv64.pkg.tar.zst",
+  "NAME": "qcoro",
+  "BASE": "qcoro",
+  "VERSION": "0.13.0-4",
+  "DESC": "C++ Coroutines for Qt",
+  "CSIZE": "169628",
+  "ISIZE": "712222",
+  "MD5SUM": "7a72de3e75c26d0aeeab6bbcafcd2972",
+  "SHA256SUM": "2e8ee4fed11997751b634ed8d54f7f26e9cd9149f387c8db03bf29a486882a02",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav7RuQAKCRDDWOcNd+r/VFs2AP99NZPH3I6IcN/WxqO4qa27t0lKo59TZ2gmVtxHVAEpKgEAzdv2MGDaHWP8ue/BEyei/UwJKj4FuCoSk/2igUxc1AU=",
+  "URL": "https://github.com/danvratil/qcoro",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795084320",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "REPLACES": [
+    "qcoro-qt6"
+  ],
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-declarative",
+    "qt6-websockets"
+  ],
+  "CONFLICTS": [
+    "qcoro-qt6"
+  ],
+  "PROVIDES": [
+    "qcoro-qt6"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "qt6-declarative-devel",
+    "git"
+  ],
+  "REPO": "main"
+}

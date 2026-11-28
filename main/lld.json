@@ -1,0 +1,44 @@
+{
+  "FILENAME": "lld-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "lld",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "A drop-in replacement for the GNU linkers by LLVM project",
+  "CSIZE": "6530842",
+  "ISIZE": "29136531",
+  "MD5SUM": "0a9a0994888543429f6fb6a51dfce3f2",
+  "SHA256SUM": "8dd88e846f13934e79f3b17b841f398dee4e47118068db0f76d0dc79655669ec",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VKymAP0VxvregqGpiur933QtynfS2FYz77AZX87akIAssvlSKwEAp20wyImJ/ETaG0kjUhO50/uEtk2U/uMfJEFshpMuBAk=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "zlib",
+    "llvm-libs",
+    "libedit",
+    "ncurses",
+    "xz"
+  ],
+  "PROVIDES": [
+    "ld"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

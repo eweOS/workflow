@@ -1,0 +1,41 @@
+{
+  "FILENAME": "kaccounts-integration-26.08.3-1-riscv64.pkg.tar.zst",
+  "NAME": "kaccounts-integration",
+  "BASE": "kaccounts-integration",
+  "VERSION": "26.08.3-1",
+  "DESC": "Online account management system and its Plasma integration components",
+  "CSIZE": "159207",
+  "ISIZE": "547982",
+  "MD5SUM": "10e52c920b5ff484e351631c4b074cf0",
+  "SHA256SUM": "0f1e84934c2c89182e87ec647a388115175556a1f197129f0d7293d3968b68e3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawMgKAAKCRDDWOcNd+r/VJU1AQC1D2MOcjTQUS+bEW5m+uif7tv4Ai2wtdC14zBwLoKsCQEAtY/ct4Lr0lSdThLyCqMCnBRgVcV0EC+Zqoz6xb/QhAA=",
+  "URL": "https://www.kde.org/",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795366863",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "ki18n",
+    "kio",
+    "kirigami",
+    "kwallet",
+    "libaccounts-qt",
+    "qt6-base",
+    "signond"
+  ],
+  "OPTDEPENDS": [
+    "qt6-declarative: QML plugin"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "qcoro"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,61 @@
+{
+  "FILENAME": "vulkan-swrast-26.3.1-2-riscv64.pkg.tar.zst",
+  "NAME": "vulkan-swrast",
+  "BASE": "mesa",
+  "VERSION": "26.3.1-2",
+  "DESC": "Open-source Vulkan driver for CPUs (Software Rasterizer)",
+  "CSIZE": "2250320",
+  "ISIZE": "12112567",
+  "MD5SUM": "bbbfde1c23beed86e8d0f0ef2f4da7a6",
+  "SHA256SUM": "3f3a98476f09d47e1cb809dc32fc1d52fb0205da153c80254cb52d7a457c21d8",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawf9EQAKCRDDWOcNd+r/VP09AP0eDb2u3jm+zPOSzlgPtovwCqN3HViVoOI81XK4hBqIbQD/VhNAcQw1gl2f0joLAWSj0CczGx3SyFoBa1Wafqcd6ws=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795681584",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info",
+    "vulkan-mesa-implicit-layers"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen",
+    "venus-protocol"
+  ],
+  "REPO": "main"
+}

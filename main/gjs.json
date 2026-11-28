@@ -1,0 +1,45 @@
+{
+  "FILENAME": "gjs-1.90.1-1-riscv64.pkg.tar.zst",
+  "NAME": "gjs",
+  "BASE": "gjs",
+  "VERSION": "1.90.1-1",
+  "DESC": "Javascript Bindings for GNOME",
+  "CSIZE": "631719",
+  "ISIZE": "1908588",
+  "MD5SUM": "9bb8dddfe40cf4f73a1f30ff34b8dcec",
+  "SHA256SUM": "de016cbfa6ac87c2e0c52f13c63b95666d099b92c3e0f728e71f4de714b47475",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawG6HQAKCRDDWOcNd+r/VC8sAQDkYNED9ga0OcRObwoXG63f1oCOd+i2LENUD7JS8Fgk0AEAk4xmW0T3e2omiwEYz0Rij/pWTGq+fY1y0EbuserXeAE=",
+  "URL": "https://wiki.gnome.org/Projects/Gjs",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795275140",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "cairo",
+    "dconf",
+    "glib2",
+    "gobject-introspection-runtime",
+    "js140",
+    "libffi",
+    "libgirepository",
+    "readline",
+    "libreadline.so"
+  ],
+  "PROVIDES": [
+    "libgjs.so"
+  ],
+  "MAKEDEPENDS": [
+    "dbus",
+    "git",
+    "gobject-introspection",
+    "meson"
+  ],
+  "CHECKDEPENDS": [
+    "gtk3",
+    "gtk4",
+    "weston"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "FILENAME": "verdict-1.4.5-1-riscv64.pkg.tar.zst",
+  "NAME": "verdict",
+  "BASE": "verdict",
+  "VERSION": "1.4.5-1",
+  "DESC": "Compute quality functions of 2 and 3-dimensional regions",
+  "CSIZE": "113503",
+  "ISIZE": "201474",
+  "MD5SUM": "2a3a86637d08423cf1f9cc1a8de8238a",
+  "SHA256SUM": "58293dd78e04f86461935967b0bc01879a5b3b370dc88af868086358dd858c7e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCahz9mwAKCRDDWOcNd+r/VO6cAP0eNL/Z0t5FdixXASmLvMItCdKyESfhDBAoZ6lMr5rTmwEA2mlfH8CEJT5q0jAFV4c1GaM6a6XC8DttsSf+soi/ygI=",
+  "URL": "https://github.com/sandialabs/verdict",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1780284837",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs"
+  ],
+  "PROVIDES": [
+    "libverdict.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "doxygen",
+    "googletest"
+  ],
+  "REPO": "main"
+}

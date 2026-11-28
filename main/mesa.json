@@ -1,0 +1,64 @@
+{
+  "FILENAME": "mesa-26.3.1-2-riscv64.pkg.tar.zst",
+  "NAME": "mesa",
+  "BASE": "mesa",
+  "VERSION": "26.3.1-2",
+  "DESC": "An open-source implementation of the OpenGL specification",
+  "CSIZE": "8336822",
+  "ISIZE": "26920124",
+  "MD5SUM": "9797b468d26305f9a11ee0cce1183a5a",
+  "SHA256SUM": "ccab190d33b8c5cb3d1b6ed5cb44bfdbe0ecc922c79da29d482d6fcdb38e3240",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawf9EQAKCRDDWOcNd+r/VEN1AQD+Fki7lM1zqLJY1tjeAqL3PuSSOf9B7abfAqtAnwVdUgD/fRNH99tX03n6mXOXvOFGWn3k3ABPTFIQXYMZZX9bdAQ=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795681584",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "REPLACES": [
+    "libva-mesa-driver"
+  ],
+  "DEPENDS": [
+    "libglvnd",
+    "libelf",
+    "zstd",
+    "libdrm",
+    "llvm",
+    "spirv-tools",
+    "lm_sensors"
+  ],
+  "CONFLICTS": [
+    "libva-mesa-driver"
+  ],
+  "PROVIDES": [
+    "libva-mesa-driver",
+    "mesa-libgl",
+    "libva-driver",
+    "opengl-driver"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen",
+    "venus-protocol"
+  ],
+  "REPO": "main"
+}

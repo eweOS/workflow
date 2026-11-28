@@ -1,0 +1,31 @@
+{
+  "FILENAME": "libinih-63-1-riscv64.pkg.tar.zst",
+  "NAME": "libinih",
+  "BASE": "libinih",
+  "VERSION": "63-1",
+  "DESC": "A simple .INI file parser written in C",
+  "CSIZE": "19121",
+  "ISIZE": "40279",
+  "MD5SUM": "3ec7393521b08270cb29c8178a9521df",
+  "SHA256SUM": "d6b0251016e1bd913ed13f0fa7a67c70fc39d959f09089f9ce81df0ec8653cd7",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawAxDAAKCRDDWOcNd+r/VF+GAQCHf5/tKPgAj731YPDLwfevVn8yn1ax/pd/pfVtgKKzuwEApRFC0ptamnLJoZMKkxw2KWz275bp5c2n4iEW+ycejQA=",
+  "URL": "https://github.com/benhoyt/inih",
+  "LICENSE": [
+    "BSD"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795174728",
+  "PACKAGER": "visionfive2-3 <abuild@visionfive2-3>",
+  "DEPENDS": [
+    "llvm-libs",
+    "musl"
+  ],
+  "PROVIDES": [
+    "libinih.so",
+    "libINIReader.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson"
+  ],
+  "REPO": "main"
+}

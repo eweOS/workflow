@@ -1,0 +1,66 @@
+{
+  "FILENAME": "python-pyqt6-6.12.1-1-riscv64.pkg.tar.zst",
+  "NAME": "python-pyqt6",
+  "BASE": "pyqt6",
+  "VERSION": "6.12.1-1",
+  "DESC": "A set of Python bindings for the Qt6 toolkit",
+  "GROUPS": [
+    "pyqt6"
+  ],
+  "CSIZE": "5361055",
+  "ISIZE": "26181024",
+  "MD5SUM": "f6b8e689d8c6084c885dda57b3b57646",
+  "SHA256SUM": "889957ba3503a05e281a6817c23bf0975422c573bc1759bb96c705006bc26f14",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawW4JgAKCRDDWOcNd+r/VIcBAP9ZBt6yhiT4tfxZSFrlWwimYf9z2CO80uvFsJ7peLybiwD9HcOQW7kR1UPy/3A28cYJ/3G/NiUkbaH8JrmSRsnVjQk=",
+  "URL": "https://riverbankcomputing.com/software/pyqt/intro",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795526771",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "qt6-base",
+    "python-pyqt6-sip>=13.13"
+  ],
+  "PROVIDES": [
+    "qt6-python-bindings"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: QtHelp, QtDesigner bindings",
+    "qt6-svg: QtSvg bindings",
+    "qt6-declarative: QtQml, QtQuickControls2 bindings, qmlplugin",
+    "qt6-quick3d: QtQuick3D bindings",
+    "qt6-connectivity: QtBluetooth, QtNfc bindings",
+    "qt6-multimedia: QtMultimedia, QtSpatialAudio bindings",
+    "qt6-positioning: QtPositioning bindings",
+    "qt6-remoteobjects: QtRemoteObjects bindings",
+    "qt6-sensors: QtSensors bindings",
+    "qt6-serialport: QtSerialPort bindings",
+    "qt6-speech: QtTextToSpeech bindings",
+    "qt6-webchannel: QtWebChannel bindings",
+    "qt6-websockets: QtWebSockets bindings",
+    "dbus-python: for python-dbus mainloop support"
+  ],
+  "MAKEDEPENDS": [
+    "sip",
+    "pyqt-builder",
+    "python-dbus",
+    "qt6-base-devel",
+    "qt6-tools",
+    "qt6-svg",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools",
+    "qt6-multimedia",
+    "qt6-remoteobjects",
+    "qt6-positioning",
+    "qt6-sensors",
+    "qt6-serialport",
+    "qt6-speech",
+    "qt6-webchannel",
+    "qt6-websockets",
+    "qt6-connectivity"
+  ],
+  "REPO": "main"
+}

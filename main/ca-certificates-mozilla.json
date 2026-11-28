@@ -1,0 +1,30 @@
+{
+  "FILENAME": "ca-certificates-mozilla-3.134-1-riscv64.pkg.tar.zst",
+  "NAME": "ca-certificates-mozilla",
+  "BASE": "nss",
+  "VERSION": "3.134-1",
+  "DESC": "Mozilla's set of trusted CA certificates",
+  "CSIZE": "416999",
+  "ISIZE": "1042761",
+  "MD5SUM": "39359fa151d4805eb5f12a41c9e4122c",
+  "SHA256SUM": "0b510f53f4ff57827c74ca7245e30559dad66621bf8dc62e643388ccfb227b08",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawa1twAKCRDDWOcNd+r/VBsaAP9nWxhsQbgK76HI7MltXqBW2RCjj7jOSyaiM2oTvy7bygD/fPHbfk4qheUFEG142b+pxVeT2IWJNZ8rUIYI2q8tCgQ=",
+  "URL": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS",
+  "LICENSE": [
+    "MPL-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795601829",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "ca-certificates-utils>=20181109-3"
+  ],
+  "MAKEDEPENDS": [
+    "linux-headers",
+    "perl",
+    "python",
+    "gyp",
+    "git"
+  ],
+  "REPO": "main"
+}

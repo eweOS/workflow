@@ -1,0 +1,45 @@
+{
+  "FILENAME": "cups-2.4.20-1-riscv64.pkg.tar.zst",
+  "NAME": "cups",
+  "BASE": "cups",
+  "VERSION": "2.4.20-1",
+  "DESC": "OpenPrinting CUPS - daemon package",
+  "CSIZE": "5661126",
+  "ISIZE": "12738477",
+  "MD5SUM": "afccdd9a3a9d47c713d91f66955af0c0",
+  "SHA256SUM": "1564e03b478b67d87ced30a61ae9765cb38366f2bcf386e29be9bbeefb61d059",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawG8JgAKCRDDWOcNd+r/VBwJAP9vp8snCeR/rML8eyDY69z3fNYWDoxu5fI/BYhPIUhPngEAooHFuPf7KyjmVQ37f6js6aDQBFGcaQkEh4d6sUqF9gw=",
+  "URL": "https://openprinting.github.io/cups/",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception AND BSD-3-Clause AND Zlib AND BSD-2-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795275726",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "acl",
+    "pam",
+    "libcups>=2.4.20",
+    "cups-filters",
+    "dbus",
+    "libpaper",
+    "hicolor-icon-theme",
+    "openssl"
+  ],
+  "OPTDEPENDS": [
+    "cups-browsed: to browse the network for remote CUPS queues and IPP network printers",
+    "libusb: for usb printer backend",
+    "ipp-usb: allows to send HTTP requests via a USB connection on devices without Ethernet or WiFi connections",
+    "xdg-utils: xdg .desktop file support",
+    "colord: for ICC color profile support",
+    "logrotate: for logfile rotation support"
+  ],
+  "MAKEDEPENDS": [
+    "acl",
+    "pam",
+    "libusb",
+    "libpaper",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

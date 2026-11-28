@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "6798379",
+  "ISIZE": "18679524",
+  "MD5SUM": "ddc274fa48a7276cb1eb9f58587acd8b",
+  "SHA256SUM": "a6732bec6c44df617d8f4d81b275851c175820abb8cead78446af90e64a8c0c4",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VKy2AP90ldAfCYhfMNGeA+VnMby5DiX//fg5537pcRc3x4HSiQD/VmiBOI3/yJ14imUtifWDCN2VWAnNLSVbVJX7zw9RbgA=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

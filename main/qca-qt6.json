@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qca-qt6-2.3.12-1-riscv64.pkg.tar.zst",
+  "NAME": "qca-qt6",
+  "BASE": "qca",
+  "VERSION": "2.3.12-1",
+  "DESC": "Qt Cryptographic Architecture",
+  "CSIZE": "910123",
+  "ISIZE": "3178163",
+  "MD5SUM": "5a9a7a2108a0903100733554ad86e284",
+  "SHA256SUM": "969ba96b2811610d11d8b611299ede055e7793b4a07edd47119c7498e2b3489f",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawUDiwAKCRDDWOcNd+r/VD/cAQDlp/FElZTPjTOVbVvv6Bp/c5yj6R7CcEramCFCHE61dQEAopcy5R9MGUY1afIB3XFbzpMzGAITNCsbQ7HmK/1QfAg=",
+  "URL": "https://userbase.kde.org/QCA",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795490458",
+  "PACKAGER": "visionfive2-1 <abuild@visionfive2-1>",
+  "DEPENDS": [
+    "ca-certificates",
+    "nss",
+    "qt6-5compat",
+    "qt6-base"
+  ],
+  "OPTDEPENDS": [
+    "botan: botan plugin",
+    "libgcrypt: gcrypt plugin",
+    "libsasl: SASL plugin",
+    "openssl: SSL plugin",
+    "pkcs11-helper: PKCS-11 plugin"
+  ],
+  "MAKEDEPENDS": [
+    "botan",
+    "cmake",
+    "libgcrypt",
+    "libsasl",
+    "openssl",
+    "pkcs11-helper",
+    "qt6-base",
+    "qt6-5compat"
+  ],
+  "REPO": "main"
+}

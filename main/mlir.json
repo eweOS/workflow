@@ -1,0 +1,40 @@
+{
+  "FILENAME": "mlir-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "mlir",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "Multi-Level IR Compiler Framework for LLVM",
+  "CSIZE": "144688911",
+  "ISIZE": "907418952",
+  "MD5SUM": "df27ecfc1a90571ae22174b1c675715e",
+  "SHA256SUM": "971a412ae6017395d9acb554474b28b2e3610753e93a75bcc94690389b71c7b6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhcAAKCRDDWOcNd+r/VFg1AQCvCbc6hNjVKOuXrPjCagke3P7WiXUJCxlPOND7+yUChwEAvYLGyQfdHWb4cANixtWzAIvyzWB+8SobMNaEYtppcAE=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

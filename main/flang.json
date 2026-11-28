@@ -1,0 +1,40 @@
+{
+  "FILENAME": "flang-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "flang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "ground-up implementation of a Fortran front end written in modern C++",
+  "CSIZE": "80213787",
+  "ISIZE": "824593070",
+  "MD5SUM": "908156755a254f3058ffe04042424666",
+  "SHA256SUM": "ebc56983218e9b5868dbf8cc7c820cb290d14320be786462ae7a5b323ca06a62",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VIiOAQDUZS0BhV797DECGyMvKH/qIdpt4r5tEVl5S4tFMxRUXgD+P9oieTCyAH3Zt3gw+SpHSIqtJYTvAANSHt9kgN6AAwE=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang",
+    "mlir"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

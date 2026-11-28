@@ -1,0 +1,34 @@
+{
+  "FILENAME": "crun-1.31-1-riscv64.pkg.tar.zst",
+  "NAME": "crun",
+  "BASE": "crun",
+  "VERSION": "1.31-1",
+  "DESC": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+  "CSIZE": "318676",
+  "ISIZE": "650294",
+  "MD5SUM": "851d0c85c9ec705f9f0a9e42bce31517",
+  "SHA256SUM": "45914002550f83eb90bc2d73c9944da4331957bb764411f53b1c1e8d375fcc12",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawGhVgAKCRDDWOcNd+r/VLEBAP0c6koQ2X5KiRXz7LDg3bDlP4mlavq/UTkmr0gs0ts+9wEAt/4A4w5i/hg9PFQ/gjtFLCf6yi7bVx8F+fzq8KCeWgw=",
+  "URL": "https://github.com/containers/crun",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795268899",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "libcap",
+    "libseccomp",
+    "libuargp",
+    "json-c"
+  ],
+  "PROVIDES": [
+    "oci-runtime"
+  ],
+  "MAKEDEPENDS": [
+    "python",
+    "go-md2man",
+    "git"
+  ],
+  "REPO": "main"
+}

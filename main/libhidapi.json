@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libhidapi-0.16.0-1-riscv64.pkg.tar.zst",
+  "NAME": "libhidapi",
+  "BASE": "libhidapi",
+  "VERSION": "0.16.0-1",
+  "DESC": "A Simple cross-platform library for communicating with HID devices.",
+  "CSIZE": "41694",
+  "ISIZE": "108551",
+  "MD5SUM": "8a2f781572ddee61227326aca41f6dee",
+  "SHA256SUM": "942f8a3602f5ad13d16ac70439bb0942366094ca51eaed8d51ccc2f1dacd448d",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOyrgAKCRDDWOcNd+r/VFdSAQCZMoY0ByyG+XSUN02awyjTxlE+Lwe6qrZS1YVzoDxzwwD/Wnp4tiiY/KkafPGlE1uCQ7lo0deiqz9tf3nbtl2jEAk=",
+  "URL": "https://libusb.info/hidapi",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795404548",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "libudev",
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

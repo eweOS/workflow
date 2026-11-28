@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libssh-0.12.2-1-riscv64.pkg.tar.zst",
+  "NAME": "libssh",
+  "BASE": "libssh",
+  "VERSION": "0.12.2-1",
+  "DESC": "Library for accessing SSH client services",
+  "CSIZE": "279099",
+  "ISIZE": "655444",
+  "MD5SUM": "2b44c81b8379246ef4a9428364ac4ae1",
+  "SHA256SUM": "1702dc1aad0ceac68df7913cbbf4b5fddcc4eadc2b5e768ec395093b7da20db3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawVTzwAKCRDDWOcNd+r/VB5sAQC9W2wKZHKuSOJx6bvaYEbkLtsUfD24X8xpdyFPznMwQAEAuagBRLsHcntLBnYelxQuFVvt88N4USTjybyOBrCjFgw=",
+  "URL": "https://www.libssh.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795511199",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "openssl",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libssh.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "cmocka"
+  ],
+  "REPO": "main"
+}

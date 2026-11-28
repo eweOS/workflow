@@ -1,0 +1,40 @@
+{
+  "FILENAME": "libgexiv2-0.14.7-1-riscv64.pkg.tar.zst",
+  "NAME": "libgexiv2",
+  "BASE": "libgexiv2",
+  "VERSION": "0.14.7-1",
+  "DESC": "GObject-based wrapper around the Exiv2 library",
+  "CSIZE": "150748",
+  "ISIZE": "1114997",
+  "MD5SUM": "7100695dac3b8b34f6a33b325f4a6240",
+  "SHA256SUM": "61c668a7f3dcf5e050695f25f0729a9082950a6b94a4d558977fb44847086ae2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawO2AQAKCRDDWOcNd+r/VKB3AQCXWnzRLWlIlzDUz7y1GWGJVv5s+Ml711qEp3/g/WFSrQD9GG+AatHXOQFCX+gkfIBTaniQqdni13Uq+umzKtdy2QQ=",
+  "URL": "https://gitlab.gnome.org/GNOME/gexiv2",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795405287",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "exiv2",
+    "glib2",
+    "libglib-2.0.so",
+    "libgobject-2.0.so",
+    "libgio-2.0.so",
+    "libexiv2.so"
+  ],
+  "PROVIDES": [
+    "libgexiv2.so"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "glib2",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "python-gobject",
+    "vala"
+  ],
+  "REPO": "main"
+}

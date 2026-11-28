@@ -1,0 +1,41 @@
+{
+  "FILENAME": "harfbuzz-docs-15.2.0-2-riscv64.pkg.tar.zst",
+  "NAME": "harfbuzz-docs",
+  "BASE": "harfbuzz",
+  "VERSION": "15.2.0-2",
+  "DESC": "OpenType text shaping engine - Documentation",
+  "CSIZE": "407338",
+  "ISIZE": "4405111",
+  "MD5SUM": "3b1891e7f8c538cec7075e9883be8986",
+  "SHA256SUM": "7b70cca5920d02dab9c3a511f1d044b28b5218eef947cf8e2b54f386ba6f0e6b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawEaDAAKCRDDWOcNd+r/VIeMAP9vrCMa0qowndOywLV19mMCYDghMufnW2JcWZaj+CREKQD+N03DPRHHyYoJc2YALtS0xR8abihdg5fgAdQMpJn0NQ4=",
+  "URL": "https://www.freedesktop.org/wiki/Software/HarfBuzz",
+  "LICENSE": [
+    "MIT"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795232780",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "PROVIDES": [
+    "libharfbuzz-subset.so",
+    "libharfbuzz-cairo.so",
+    "libharfbuzz.so",
+    "libharfbuzz-icu.so",
+    "libharfbuzz-gobject.so"
+  ],
+  "MAKEDEPENDS": [
+    "cairo",
+    "git",
+    "gobject-introspection",
+    "gtk-doc",
+    "icu",
+    "meson",
+    "python",
+    "ragel"
+  ],
+  "CHECKDEPENDS": [
+    "python-fonttools",
+    "python-setuptools"
+  ],
+  "REPO": "main"
+}

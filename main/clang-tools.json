@@ -1,0 +1,45 @@
+{
+  "FILENAME": "clang-tools-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "clang-tools",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "clang-based tools",
+  "CSIZE": "19802447",
+  "ISIZE": "58801180",
+  "MD5SUM": "7d9ceb2cd84c7fa283a33fdbe535c120",
+  "SHA256SUM": "3f13ce0ceddaa38d093668b168b51f68ca6f33b42ffc4e73493b5364bd7ccb97",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VBR2AP0VgRozOrsGcpl2WF43ZTr2hfjc4MVWjEGeiZnmLXKRAAD9FVEfP1Lfsv8X2Iw5eC738wf98yC9iSIAVt+6BaRrNQo=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "clang"
+  ],
+  "PROVIDES": [
+    "clangd",
+    "clang-tidy",
+    "clang-format"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

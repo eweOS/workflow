@@ -1,0 +1,68 @@
+{
+  "FILENAME": "kio-extras-26.08.3-1-riscv64.pkg.tar.zst",
+  "NAME": "kio-extras",
+  "BASE": "kio-extras",
+  "VERSION": "26.08.3-1",
+  "DESC": "Additional components to increase the functionality of KIO",
+  "GROUPS": [
+    "kde-applications",
+    "kde-network"
+  ],
+  "CSIZE": "1858404",
+  "ISIZE": "6165397",
+  "MD5SUM": "9c56e5e6cf80bceefc01a83287692469",
+  "SHA256SUM": "f62b56fc7e88aca6a0a722d9331ff60edc1a058cf33b3f87f67ab065b02230fd",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawFKVQAKCRDDWOcNd+r/VKp3AQDr4sxXH6XhkHHGlbpE7w4O7UVMrDnX682llLUTn8c75wD/b6DsKncy72HHq+l73ER0aoooJcyHFzR501WZDaCwKA4=",
+  "URL": "https://www.kde.org/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795246538",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "karchive",
+    "kcmutils",
+    "kconfig",
+    "kcoreaddons",
+    "kdbusaddons",
+    "kdnssd",
+    "ki18n",
+    "kio",
+    "knotifications",
+    "kservice",
+    "ktextwidgets",
+    "kwidgetsaddons",
+    "libkexiv2",
+    "libproxy",
+    "libxcurcommon",
+    "phonon-qt6",
+    "plasma-activities",
+    "qt6-5compat",
+    "qt6-base",
+    "qt6-svg",
+    "sh",
+    "solid",
+    "syntax-highlighting"
+  ],
+  "OPTDEPENDS": [
+    "icoutils: Windows executable thumbnails",
+    "kimageformats: thumbnails for additional image formats",
+    "libappimage: AppImage thumbnails",
+    "openexr: EXR format thumbnails",
+    "perl: info kioslave",
+    "plasma-activities-stats: recently used kioslave",
+    "qt6-imageformats: thumbnails for additional image formats",
+    "taglib: audio file thumbnails"
+  ],
+  "MAKEDEPENDS": [
+    "extra-cmake-modules",
+    "gperf",
+    "kdoctools",
+    "openexr",
+    "plasma-activities-stats",
+    "qcoro",
+    "taglib"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,41 @@
+{
+  "FILENAME": "podofo-1.1.3-1-riscv64.pkg.tar.zst",
+  "NAME": "podofo",
+  "BASE": "podofo",
+  "VERSION": "1.1.3-1",
+  "DESC": "A C++ library to work with the PDF file format",
+  "CSIZE": "2709646",
+  "ISIZE": "5699693",
+  "MD5SUM": "21d0a18936c45cad29a1a83ca831ae1b",
+  "SHA256SUM": "7d3aa7999da45670cf95f631a5317d0199903b4eae99cd13e14af25bc735a276",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawQEYgAKCRDDWOcNd+r/VAY1AQCg7KMyCg3pYPxxUoCrBHlIZAAlT59PG1mNfLi2U77foQEAjSpIZBXglScCEXFOumKXHFrnnZtrMzMvm49WkHweAA4=",
+  "URL": "http://podofo.sourceforge.net",
+  "LICENSE": [
+    "LGPL-2.1-only"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795424361",
+  "PACKAGER": "visionfive2-2 <abuild@visionfive2-2>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "fontconfig",
+    "freetype2",
+    "libidn",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libxml2",
+    "lua",
+    "openssl",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libpodofo.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git"
+  ],
+  "REPO": "main"
+}

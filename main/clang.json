@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "95963018",
+  "ISIZE": "530274958",
+  "MD5SUM": "1e136fc193762aa771383ef580d70195",
+  "SHA256SUM": "48a70e1e1467a7e8e1fbe73a4641c584c4eae54b160ce36311b7cc7fce87abdb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VN9hAP0ePTTjwBAhCdBnHDGP6ELx25fYmDQPYXPql+mbnbNB4QD/bGLpyfIi4jCF77UtF6q+Z/ChOOtfM17a3bjfLtVbbg0=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

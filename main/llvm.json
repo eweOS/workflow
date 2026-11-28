@@ -1,0 +1,43 @@
+{
+  "FILENAME": "llvm-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "llvm",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "Compiler infrastructure",
+  "CSIZE": "33385114",
+  "ISIZE": "104792729",
+  "MD5SUM": "472a5fadb44ddb02f694e26129c1f56a",
+  "SHA256SUM": "d659ccf54fcb86eafc3a70347d376732352d8a9e876964f0532bde431b8d64ce",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhbwAKCRDDWOcNd+r/VLGrAP9d+bVFv+Q7b8iFpfnRn+fwZqxC+Infirevtq16yIBKhwD/RSlF+LtOT27eF7nsY6rbUJKKWODo8fD0EqHYvX+fCgY=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "ncurses"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

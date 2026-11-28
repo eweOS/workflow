@@ -1,0 +1,34 @@
+{
+  "FILENAME": "llvm-libs-21.1.8-2-riscv64.pkg.tar.zst",
+  "NAME": "llvm-libs",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "LLVM runtime libraries",
+  "CSIZE": "2490966",
+  "ISIZE": "14901161",
+  "MD5SUM": "eeb5da4dbfeb88612219de06e7d85782",
+  "SHA256SUM": "a7bfad94a0c70b9a14433863dcb76d3ae16255e0c110c0397072026b368260ae",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawmhcAAKCRDDWOcNd+r/VIn6AQDJCELXNZuC9/owSygJyslOgQSDyWp0/d5aO/hl3hatSAEAhP2BeZYchfW5F7g95utRuIT1I2Pojn11oC3QfNaDCAA=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795777361",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

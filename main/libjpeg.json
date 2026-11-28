@@ -1,0 +1,33 @@
+{
+  "FILENAME": "libjpeg-3.2.1-1-riscv64.pkg.tar.zst",
+  "NAME": "libjpeg",
+  "BASE": "libjpeg",
+  "VERSION": "3.2.1-1",
+  "DESC": "JPEG image codec with accelerated baseline compression and decompression",
+  "CSIZE": "581282",
+  "ISIZE": "2204855",
+  "MD5SUM": "50bb9c0e18d4d2e01a421ee816cea333",
+  "SHA256SUM": "a110177c1909d78e8787d85fabd0f3e59b878f6b9b5d15c5f8a702624c1cfd77",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawET5wAKCRDDWOcNd+r/VPCnAQChRAUfWU//9yump87+TNf4Aotq4dCjM0UQQm+COWhl1gEAnjocTPy2q7bKfLkB+mM7UQRMD581ZAEPGkMoOTJocgM=",
+  "URL": "https://libjpeg-turbo.org/",
+  "LICENSE": [
+    "BSD-3-Clause",
+    "IJG"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795232684",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "PROVIDES": [
+    "libjpeg",
+    "libjpeg.so",
+    "libturbojpeg.so",
+    "libjpeg-turbo"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja",
+    "nasm",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,33 @@
+{
+  "FILENAME": "rust-src-1.97.1-1-riscv64.pkg.tar.zst",
+  "NAME": "rust-src",
+  "BASE": "rust",
+  "VERSION": "1.97.1-1",
+  "DESC": "Source code for the Rust standard library",
+  "CSIZE": "8770284",
+  "ISIZE": "71246512",
+  "MD5SUM": "8d4b962934d6fe0dd6b28be9bdedc118",
+  "SHA256SUM": "610412b17a18a20ed444f4a030c3841afbe1ab0c6d23d19a5b7e4e9fa1181816",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawnltAAKCRDDWOcNd+r/VHwGAQCc/QKkeRQZwPlSQ7rexKhGSxVhnc09m9L8CXVyoMwUswD9H7COBFHqWd0pZJWxEdZ+KY75OzDC3ePK64ORjvg2Nwo=",
+  "URL": "https://www.rust-lang.org/",
+  "LICENSE": [
+    "MIT OR Apache-2.0"
+  ],
+  "ARCH": "riscv64",
+  "BUILDDATE": "1795801103",
+  "PACKAGER": "muffin <abuild@muffin>",
+  "DEPENDS": [
+    "rust"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "llvm-devel",
+    "libffi",
+    "perl",
+    "python",
+    "cmake",
+    "ninja",
+    "musl-static"
+  ],
+  "REPO": "main"
+}
