@@ -1,0 +1,40 @@
+{
+  "FILENAME": "clang-21.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "clang",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "C language family frontend for LLVM",
+  "CSIZE": "75963156",
+  "ISIZE": "413157652",
+  "MD5SUM": "3960ef05f83041f294278918858eb9a7",
+  "SHA256SUM": "fe213a9adf648a6cac3f6408cc1658554c6423725107c40e276742f06ca116c2",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawimoAAKCRDDWOcNd+r/VGqbAP4ksP92Fx6IK2aX4AZ/2ZMBH33pCA5DtqBFk16ZlpLbsAEAuMYAaQkfWAUkP8BywMPqoShQb3+EG4RIxu4MntPZcAw=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795724900",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "llvm",
+    "zstd"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

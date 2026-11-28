@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libsrtp-2.8.2-1-aarch64.pkg.tar.zst",
+  "NAME": "libsrtp",
+  "BASE": "libsrtp",
+  "VERSION": "2.8.2-1",
+  "DESC": "Library for SRTP (Secure Realtime Transport Protocol)",
+  "CSIZE": "52422",
+  "ISIZE": "166033",
+  "MD5SUM": "8c6f1899a1a1cd1fb2590614a47bc94c",
+  "SHA256SUM": "af28f3a40d1fa613e1076bf0b22004bd13e78b4210804e15b984a7d168304f64",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav0alwAKCRDDWOcNd+r/VG+8AP9y2ddYEfz0lIzMZ+Os4GeNhz1HHa6h0Q/ymQmiGQjLhQD/aTCn4IkqJWEiHobiJl7IkRfoD7JKJDDJG8VeeFJ1BAY=",
+  "URL": "https://github.com/cisco/libsrtp",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794972350",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "nss",
+    "libpcap"
+  ],
+  "PROVIDES": [
+    "libsrtp2.so"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "samurai"
+  ],
+  "REPO": "main"
+}

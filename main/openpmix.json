@@ -1,0 +1,35 @@
+{
+  "FILENAME": "openpmix-6.1.0-1-aarch64.pkg.tar.zst",
+  "NAME": "openpmix",
+  "BASE": "openpmix",
+  "VERSION": "6.1.0-1",
+  "DESC": "Extended version of the PMI standard",
+  "CSIZE": "1006803",
+  "ISIZE": "3855105",
+  "MD5SUM": "9e36e373e08f14be3024a644b1118a1f",
+  "SHA256SUM": "b38267bd32f29543b1f7f4c8310b42169907223a4906a7434d9d7cdc64d5b880",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawHecgAKCRDDWOcNd+r/VAhtAQCUKOEphWA6IPKVT91+L6lvjVbNkUKGgAUBF778aeAixwD8C04R8grfBLFR0/KLrLqQFB4F9Ty0ipqK8tgFVysOHwk=",
+  "URL": "https://github.com/openpmix/openpmix",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795284570",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "curl",
+    "hwloc",
+    "jansson",
+    "libevent",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libpmix.so",
+    "pmix"
+  ],
+  "MAKEDEPENDS": [
+    "perl",
+    "python"
+  ],
+  "REPO": "main"
+}

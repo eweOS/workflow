@@ -1,0 +1,32 @@
+{
+  "FILENAME": "libhidapi-0.16.0-1-aarch64.pkg.tar.zst",
+  "NAME": "libhidapi",
+  "BASE": "libhidapi",
+  "VERSION": "0.16.0-1",
+  "DESC": "A Simple cross-platform library for communicating with HID devices.",
+  "CSIZE": "44905",
+  "ISIZE": "118871",
+  "MD5SUM": "88efdcff3fca36dfa56066f4c4f661c8",
+  "SHA256SUM": "a7c6c33106f476ffce0af3765a6241a5e3a3c15492f79ad1993271ea603cda11",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOxQwAKCRDDWOcNd+r/VPf2APoCt03GM59TYrYhUYKV1lSjDLAZs+ats28r2VMfLk2q6wEA0GcW8RP8/yFk3/5uD7qLfszp/k0Fzcy7/ESLiZ36zwg=",
+  "URL": "https://libusb.info/hidapi",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795404199",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libudev",
+    "libusb"
+  ],
+  "PROVIDES": [
+    "libhidapi-hidraw.so",
+    "libhidapi-libusb.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

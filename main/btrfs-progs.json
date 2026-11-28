@@ -1,0 +1,42 @@
+{
+  "FILENAME": "btrfs-progs-7.3-1-aarch64.pkg.tar.zst",
+  "NAME": "btrfs-progs",
+  "BASE": "btrfs-progs",
+  "VERSION": "7.3-1",
+  "DESC": "Btrfs filesystem utilities",
+  "CSIZE": "1166199",
+  "ISIZE": "5478911",
+  "MD5SUM": "55b5d89cdc6ad1726a6a36a638b9abf1",
+  "SHA256SUM": "30888e174cf2d93ed4ded9f99d650300c3a902606d7ec2c36c338752b1c49861",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavp4zgAKCRDDWOcNd+r/VBiRAQDiprZQI8ROCIz9jm9GJBKf2HEJddtyT39x1hOAxXiyUgEAyVauHyfCcoxQ1YRxh22HO3atS++uHSTwfCzjg7msIgI=",
+  "URL": "https://btrfs.readthedocs.io",
+  "LICENSE": [
+    "GPL-2.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794799856",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "util-linux-libs",
+    "zlib",
+    "zstd",
+    "libgcrypt",
+    "libudev",
+    "lzo"
+  ],
+  "OPTDEPENDS": [
+    "python: libbtrfsutil python bindings",
+    "e2fsprogs: btrfs-convert",
+    "reiserfsprogs: btrfs-convert"
+  ],
+  "MAKEDEPENDS": [
+    "git",
+    "asciidoc",
+    "xmlto",
+    "python",
+    "python-setuptools",
+    "e2fsprogs",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

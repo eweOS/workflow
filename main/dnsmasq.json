@@ -1,0 +1,36 @@
+{
+  "FILENAME": "dnsmasq-2.93-1-aarch64.pkg.tar.zst",
+  "NAME": "dnsmasq",
+  "BASE": "dnsmasq",
+  "VERSION": "2.93-1",
+  "DESC": "Network infrastructure daemon for small networks",
+  "CSIZE": "311817",
+  "ISIZE": "531625",
+  "MD5SUM": "4afc22c08038d5cfb3737e62cb2d784c",
+  "SHA256SUM": "46a6ca015b5d57702e0904d731a9f0f74cde94917842d21ac7fc3ddd273c8fca",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCavisVgAKCRDDWOcNd+r/VHNaAP9RpjmCihlydJ2uGUXO0VFRDEy3mi3oIPwtAQWRtwmATQD6AptjvVJ+amqm8nFpA4G4J/HcIypx+8nt1uyPQ2QUjwQ=",
+  "URL": "https://thekelleys.org.uk/dnsmasq/doc.html",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "OR",
+    "GPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1794682000",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "dbus",
+    "libidn",
+    "libidn2",
+    "libnetfilter_conntrack",
+    "lua54",
+    "nettle",
+    "gmp",
+    "nftables"
+  ],
+  "MAKEDEPENDS": [
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

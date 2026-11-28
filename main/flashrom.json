@@ -1,0 +1,35 @@
+{
+  "FILENAME": "flashrom-1.8.0-2-aarch64.pkg.tar.zst",
+  "NAME": "flashrom",
+  "BASE": "flashrom",
+  "VERSION": "1.8.0-2",
+  "DESC": "A utility for detecting, reading, writing, verifying and erasing flash chips",
+  "CSIZE": "5719003",
+  "ISIZE": "8423309",
+  "MD5SUM": "e2f9dcc4a15815a76e4e8003856aa9ff",
+  "SHA256SUM": "d2989f88a8c1431bea7df0dbea8560d01368b3c2fe0ac1b3a2f86a6e53a0cc35",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawOo/QAKCRDDWOcNd+r/VGLxAQD9i4BeNBZx9sGX5lIhiA2g7euZ+s49M9iwqWOtJ1M0cwD/RP3liNo0jB8lQOXmB5788x0m1yy3y+8T4YUEjyjnFAc=",
+  "URL": "https://review.coreboot.org/admin/repos/flashrom,general",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795402069",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libusb",
+    "libftdi",
+    "pciutils",
+    "libjaylink",
+    "openssl"
+  ],
+  "MAKEDEPENDS": [
+    "meson",
+    "ninja",
+    "linux-headers",
+    "python-sphinx",
+    "git"
+  ],
+  "REPO": "main"
+}

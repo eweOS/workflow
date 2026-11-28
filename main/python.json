@@ -1,0 +1,55 @@
+{
+  "FILENAME": "python-3.13.18-2-aarch64.pkg.tar.zst",
+  "NAME": "python",
+  "BASE": "python",
+  "VERSION": "3.13.18-2",
+  "DESC": "The Python programming language",
+  "CSIZE": "13272117",
+  "ISIZE": "60844313",
+  "MD5SUM": "a327b3e7f9a39fc0d3c65d46f684a8b6",
+  "SHA256SUM": "fd25dbb2ceaae6059abab5f5d0b524ce219c045f35be4860b61edc874758b904",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawZDLAAKCRDDWOcNd+r/VObxAQDs4j7HsuSI+KIzcPrYSeVeSdlGbVdTNDSURC7x9Qp5pAEA+9cleomgA3mJV5ZXkK0yLMPBDNN6Yo1AgnAxr/dL3gA=",
+  "URL": "http://www.python.org",
+  "LICENSE": [
+    "PSF-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795572127",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "DEPENDS": [
+    "libffi",
+    "ncurses",
+    "expat",
+    "openssl",
+    "readline",
+    "sqlite",
+    "mpdecimal"
+  ],
+  "PROVIDES": [
+    "python3",
+    "python-externally-managed"
+  ],
+  "OPTDEPENDS": [
+    "python-setuptools: for building Python packages using tooling that is usually bundled with Python",
+    "python-pip: for installing Python packages using tooling that is usually bundled with Python",
+    "python-pipx: for installing Python software not packaged on Arch Linux",
+    "sqlite: for a default database integration",
+    "mpdecimal: for decimal",
+    "xz: for lzma",
+    "tk: for tkinter"
+  ],
+  "MAKEDEPENDS": [
+    "libffi",
+    "ncurses",
+    "openssl",
+    "xz",
+    "readline",
+    "zlib",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

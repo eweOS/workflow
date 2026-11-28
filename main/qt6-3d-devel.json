@@ -1,0 +1,43 @@
+{
+  "FILENAME": "qt6-3d-devel-6.12.0-1-aarch64.pkg.tar.zst",
+  "NAME": "qt6-3d-devel",
+  "BASE": "qt6-3d",
+  "VERSION": "6.12.0-1",
+  "DESC": "C++ and QML APIs for easy inclusion of 3D graphics (Private headers)",
+  "GROUPS": [
+    "qt6"
+  ],
+  "CSIZE": "203223",
+  "ISIZE": "1100558",
+  "MD5SUM": "3eb9c1ad49163e805eaa37f03cad1d8e",
+  "SHA256SUM": "87847c0fff4147e8e06ed2ec83008c4e352a2458a730ff4b37be4f895c66979a",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCav5bOQAKCRDDWOcNd+r/VL1qAQD8Hb0HzHvbhFSx43zQo0IlUDwFruZkOP7rwZeGy8daGwEA6jOI9lZv7o2TIvw6cOES5YoBBjBfiDDkdkNNKpyzewU=",
+  "URL": "https://www.qt.io",
+  "LICENSE": [
+    "GPL3"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795054131",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "qt6-base",
+    "qt6-3d",
+    "qt6-base-devel",
+    "qt6-declarative-devel"
+  ],
+  "OPTDEPENDS": [
+    "assimp: assimp importer plugin",
+    "qt6-declarative: QML bindings",
+    "qt6-shadertools: RHI renderer"
+  ],
+  "MAKEDEPENDS": [
+    "assimp",
+    "cmake",
+    "git",
+    "ninja",
+    "qt6-base-devel",
+    "qt6-declarative-devel",
+    "qt6-shadertools-devel"
+  ],
+  "REPO": "main"
+}

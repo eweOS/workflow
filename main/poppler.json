@@ -1,0 +1,79 @@
+{
+  "FILENAME": "poppler-26.09.0-1-aarch64.pkg.tar.zst",
+  "NAME": "poppler",
+  "BASE": "poppler",
+  "VERSION": "26.09.0-1",
+  "DESC": "PDF rendering library based on xpdf 3.0",
+  "CSIZE": "1721320",
+  "ISIZE": "6098042",
+  "MD5SUM": "71dde99e9e82bc682af2271602cd9a6d",
+  "SHA256SUM": "40bea9a317542eb09ba324a7bc63326366be664a638c1f8edca59167cfd467c0",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCarZdgQAKCRDDWOcNd+r/VP6BAP9pzpK8B0uAXTD7eDyX4O5/sRRKlOmz4IMXRdaBc6EeKQD/epFe5LZ9p1bRg1vsetq4VlNpv7Mp00lOe3qJL07fog0=",
+  "URL": "https://poppler.freedesktop.org/",
+  "LICENSE": [
+    "GPL-2.0-only",
+    "GPL-3.0-or-later",
+    "LGPL-2.0-or-later",
+    "LGPL-2.1-or-later",
+    "MIT",
+    "HPND-sell-variant"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1790336241",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "libjpeg",
+    "cairo",
+    "fontconfig",
+    "openjpeg2",
+    "lcms2",
+    "nss",
+    "curl",
+    "gpgme",
+    "gpgmepp",
+    "nspr",
+    "libpng",
+    "freetype2",
+    "zlib",
+    "libtiff"
+  ],
+  "PROVIDES": [
+    "libpoppler.so",
+    "libpoppler-cpp.so"
+  ],
+  "OPTDEPENDS": [
+    "poppler-data: highly recommended encoding data to display PDF documents with certain encodings and characters"
+  ],
+  "MAKEDEPENDS": [
+    "libjpeg",
+    "cairo",
+    "fontconfig",
+    "openjpeg2",
+    "gtk3",
+    "pkgconf",
+    "lcms2",
+    "gobject-introspection",
+    "icu",
+    "qt6-base",
+    "git",
+    "nss",
+    "gpgmepp",
+    "gtk-doc",
+    "curl",
+    "poppler-data",
+    "cmake",
+    "python",
+    "boost",
+    "glib2",
+    "gpgme",
+    "freetype2",
+    "libpng",
+    "libtiff",
+    "nspr"
+  ],
+  "CHECKDEPENDS": [
+    "ttf-noto-sans",
+    "otf-noto-cjk"
+  ],
+  "REPO": "main"
+}

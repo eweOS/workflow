@@ -1,0 +1,35 @@
+{
+  "FILENAME": "boost-1.90.0-3-aarch64.pkg.tar.zst",
+  "NAME": "boost",
+  "BASE": "boost",
+  "VERSION": "1.90.0-3",
+  "DESC": "Free peer-reviewed portable C++ source libraries (development headers)",
+  "CSIZE": "31743100",
+  "ISIZE": "214032373",
+  "MD5SUM": "7ab390ea23a4fcb12f7c6e78d1e2ed72",
+  "SHA256SUM": "fb39c8c391289abd656de933f49060e24370b7e11338e45e40fd58f086436848",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag66LAAKCRDDWOcNd+r/VOgBAQCpsWQsgxzUFICDVVIY/MZB8hQYT4/2dq09SKZinwihrgEA6xgYFjidJanV0nqqiPH0B+fwwBpR2bC5SvpcVC71ago=",
+  "URL": "https://www.boost.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779348932",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "boost-libs=1.90.0",
+    "linux-headers"
+  ],
+  "OPTDEPENDS": [
+    "python: for python bindings"
+  ],
+  "MAKEDEPENDS": [
+    "icu",
+    "linux-headers",
+    "python",
+    "libbz2",
+    "zlib",
+    "zstd"
+  ],
+  "REPO": "main"
+}

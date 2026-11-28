@@ -1,0 +1,35 @@
+{
+  "FILENAME": "botan-3.14.1-1-aarch64.pkg.tar.zst",
+  "NAME": "botan",
+  "BASE": "botan",
+  "VERSION": "3.14.1-1",
+  "DESC": "Crypto library written in C++",
+  "CSIZE": "4213444",
+  "ISIZE": "13259656",
+  "MD5SUM": "a3c7613533d3028c1bf9a268d0f815d5",
+  "SHA256SUM": "06c6b838b2cd9dcf1f28cb2556c79d31b7b85236f835922462ca8ca320afc6b6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawQF6AAKCRDDWOcNd+r/VMEKAP9fQiqdsyynI4HpOr5kcylKbavrPjMd3UbXOGeKnDJSiAD9EhDoKoTExzv/hvh5cAMdXlDkdlNbh7gmAGQIjZ18AQY=",
+  "URL": "https://botan.randombit.net/",
+  "LICENSE": [
+    "BSD-2-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795425441",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "bzip2",
+    "sqlite",
+    "xz",
+    "zlib"
+  ],
+  "OPTDEPENDS": [
+    "boost-libs: for the botan executable",
+    "python: for using botan2.py"
+  ],
+  "MAKEDEPENDS": [
+    "boost",
+    "python",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,52 @@
+{
+  "FILENAME": "ostree-2026.7-1-aarch64.pkg.tar.zst",
+  "NAME": "ostree",
+  "BASE": "ostree",
+  "VERSION": "2026.7-1",
+  "DESC": "Operating system and container binary deployment and upgrades",
+  "CSIZE": "634376",
+  "ISIZE": "2478721",
+  "MD5SUM": "fc54d86f6fd210464064d9438e3f6d39",
+  "SHA256SUM": "fd92738de7cda9ec36da3eb16549d614ea014e348938a83d17180489e56e3c3e",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawG4RgAKCRDDWOcNd+r/VK8kAQDJI0j4h3qf0eQG063PMM4V3Mab49uvSQMwYbyv2zt2rQEAqV0EsEzQnAewIVoOALN3C/X8NzaPpPjvEAJOhDwyIgA=",
+  "URL": "https://ostreedev.github.io/ostree/",
+  "LICENSE": [
+    "LGPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795274868",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "bash",
+    "composefs",
+    "fuse3",
+    "gpgme",
+    "libgpg-error",
+    "libsodium",
+    "util-linux",
+    "zlib",
+    "curl",
+    "glib",
+    "gpgme",
+    "libarchive",
+    "openssl",
+    "xz"
+  ],
+  "PROVIDES": [
+    "libostree-1.so"
+  ],
+  "MAKEDEPENDS": [
+    "curl",
+    "e2fsprogs",
+    "git",
+    "glib",
+    "gobject-introspection",
+    "libarchive",
+    "libsoup3",
+    "linux-headers",
+    "openssl",
+    "python",
+    "xz"
+  ],
+  "REPO": "main"
+}

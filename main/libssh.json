@@ -1,0 +1,34 @@
+{
+  "FILENAME": "libssh-0.12.2-1-aarch64.pkg.tar.zst",
+  "NAME": "libssh",
+  "BASE": "libssh",
+  "VERSION": "0.12.2-1",
+  "DESC": "Library for accessing SSH client services",
+  "CSIZE": "270943",
+  "ISIZE": "720084",
+  "MD5SUM": "b86f0ae1eff69c7cad7e60a2c3ac808d",
+  "SHA256SUM": "e61307ee1dfd57ed22ad2533f4055c8895e3d500acb06e7fef408b4b064a35f6",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawVS8gAKCRDDWOcNd+r/VIjhAP43CUbfLDwGGE2ZVWkIektKzVr7WWAATV7uJmuGaeWIgAEA9a7f4FONaHfJTobvxRT8KksnVc+sXJGy4v9iETD+SQw=",
+  "URL": "https://www.libssh.org/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795511086",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "openssl",
+    "zlib"
+  ],
+  "PROVIDES": [
+    "libssh.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "ninja"
+  ],
+  "CHECKDEPENDS": [
+    "cmocka"
+  ],
+  "REPO": "main"
+}

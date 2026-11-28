@@ -1,0 +1,61 @@
+{
+  "FILENAME": "vulkan-powervr-26.3.1-2-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-powervr",
+  "BASE": "mesa",
+  "VERSION": "26.3.1-2",
+  "DESC": "Open-source Vulkan driver for PowerVR GPUs",
+  "CSIZE": "1623510",
+  "ISIZE": "11183352",
+  "MD5SUM": "0326668ed49f4c86fad30da01d57710a",
+  "SHA256SUM": "74fbf58a5ef64410330f71ff8915a2295d5f4bc1b2d52bb29366117260251972",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawfq1wAKCRDDWOcNd+r/VAsjAP92wsi8CZ4Iflinqd1ZeR4HurL2WAEPRt3qTUNnU77a8QEA/hMKpYw4afnLl42LV/f7wMHSe0iwUPVMJO27VnD7HgI=",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795680748",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info",
+    "vulkan-mesa-implicit-layers"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen",
+    "venus-protocol"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libproxy-0.5.12-2-aarch64.pkg.tar.zst",
+  "NAME": "libproxy",
+  "BASE": "libproxy",
+  "VERSION": "0.5.12-2",
+  "DESC": "Automatic proxy configuration management library",
+  "CSIZE": "29778",
+  "ISIZE": "74808",
+  "MD5SUM": "439f5adb34c04ac183d9edad2199f1ad",
+  "SHA256SUM": "2b3f3ef822ba68108f7f4c64f53b5406163e590a98dabdf0b61d881e77d3eff5",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCag7/WgAKCRDDWOcNd+r/VDK9AP4nS05CurXqAib2HDCtxHAOFVBJPDdCiyZPsvsB29XJZwD/cIEYs8lPJSuIInJIil7MCfjXNIlAVhKSlV/J662Bvgg=",
+  "URL": "https://libproxy.github.io/libproxy/",
+  "LICENSE": [
+    "LGPL-2.1-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1779367707",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "curl",
+    "duktape",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "libproxy-webkit<0.5.0-1"
+  ],
+  "PROVIDES": [
+    "libproxy.so"
+  ],
+  "MAKEDEPENDS": [
+    "gi-docgen",
+    "git",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "meson",
+    "vala"
+  ],
+  "REPO": "main"
+}

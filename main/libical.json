@@ -1,0 +1,39 @@
+{
+  "FILENAME": "libical-4.0.8-1-aarch64.pkg.tar.zst",
+  "NAME": "libical",
+  "BASE": "libical",
+  "VERSION": "4.0.8-1",
+  "DESC": "Implementation of iCalendar protocols and data formats",
+  "CSIZE": "2693636",
+  "ISIZE": "37727558",
+  "MD5SUM": "8f02bc1273c9808731b072b85b43996c",
+  "SHA256SUM": "5ff5104806d259d3538355cc285c45baca37f6e0391377d2a01eba45c1834d6b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawAuPQAKCRDDWOcNd+r/VP5hAP9IlQku4LmoeoI804+KxGATYDp8fv3dI/g6UheWeWdHnQEAt270DzBcdxXJAsCMzCyqDPEtPcQS4vKteisWf0zwMw4=",
+  "URL": "https://github.com/libical/libical",
+  "LICENSE": [
+    "MPL-2.0 OR LGPL-2.1-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795173972",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "glib2",
+    "icu",
+    "libxml2"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "git",
+    "gobject-introspection",
+    "gi-docgen",
+    "doxygen",
+    "gtk-doc",
+    "ninja",
+    "vala"
+  ],
+  "CHECKDEPENDS": [
+    "python-gobject",
+    "tzdata"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,37 @@
+{
+  "FILENAME": "openai-codex-0.171.0-1-aarch64.pkg.tar.zst",
+  "NAME": "openai-codex",
+  "BASE": "openai-codex",
+  "VERSION": "0.171.0-1",
+  "DESC": "Lightweight coding agent that runs in your terminal",
+  "CSIZE": "123865842",
+  "ISIZE": "321450596",
+  "MD5SUM": "71698df83da0523f8958860650f852ee",
+  "SHA256SUM": "9141b4e62f719ba1308846dea3da5a723c2d1cc7f3ebe29f1f5f438ba277bccb",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawMnOAAKCRDDWOcNd+r/VKfHAQCYnJbK9G6uqFW/2nwFOqMlSMwxlCuKYME8osZLG4LKowD/Rajo+r0ZUgolEBK/7ikkCqBHVQlF2TU7fKjqR/P02wo=",
+  "URL": "https://openai.com/codex/",
+  "LICENSE": [
+    "Apache-2.0"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795366303",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libcap",
+    "openssl",
+    "llvm-libs",
+    "zlib-ng",
+    "zstd",
+    "xz"
+  ],
+  "OPTDEPENDS": [
+    "git: For Git repository operations",
+    "ripgrep: For accelarated searching"
+  ],
+  "MAKEDEPENDS": [
+    "rust",
+    "linux-uapi-headers"
+  ],
+  "REPO": "main"
+}

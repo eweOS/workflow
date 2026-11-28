@@ -1,0 +1,51 @@
+{
+  "FILENAME": "vte3-0.84.1-4-aarch64.pkg.tar.zst",
+  "NAME": "vte3",
+  "BASE": "vte",
+  "VERSION": "0.84.1-4",
+  "DESC": "Virtual Terminal Emulator widget (GTK3)",
+  "CSIZE": "458252",
+  "ISIZE": "1569525",
+  "MD5SUM": "bc66b31a4749458bb945eccde2df10ce",
+  "SHA256SUM": "ded12a0958d37c42e64e2373c45c3526d079fe417ecfc6c0daa7f8dabc708a57",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawinTwAKCRDDWOcNd+r/VGtgAP4mkH3wbp9TMIy4fuYK/yRfZBk7iJ/pqTDDfrJPsP0iIAD/USVKl7sUeNc9+11tGJg5Q3xhfeRICPVKwoPkmzzIVAc=",
+  "URL": "https://wiki.gnome.org/Apps/Terminal/VTE",
+  "LICENSE": [
+    "LGPL-3.0-or-later",
+    "GPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795729235",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "cairo",
+    "fribidi",
+    "gdk-pixbuf2",
+    "glib2",
+    "icu",
+    "lz4",
+    "pango",
+    "pcre2",
+    "simdutf",
+    "fmt",
+    "at-spi2-core",
+    "gtk3",
+    "vte-common"
+  ],
+  "PROVIDES": [
+    "libvte-2.91.so"
+  ],
+  "MAKEDEPENDS": [
+    "at-spi2-core",
+    "fast_float",
+    "git",
+    "gobject-introspection",
+    "gperf",
+    "gtk3",
+    "gtk4",
+    "meson",
+    "vala",
+    "linux-headers"
+  ],
+  "REPO": "main"
+}

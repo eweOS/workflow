@@ -1,0 +1,41 @@
+{
+  "FILENAME": "yosys-0.71-1-aarch64.pkg.tar.zst",
+  "NAME": "yosys",
+  "BASE": "yosys",
+  "VERSION": "0.71-1",
+  "DESC": "An open framework for RTL synthesis tools",
+  "CSIZE": "18639665",
+  "ISIZE": "51913904",
+  "MD5SUM": "9772c81c4dad26e524141a11085a1f6e",
+  "SHA256SUM": "b415e4f2a341b5dfa59baa3da623c8d4343cb9d3ace0e07fb6da7d72b9b5df0b",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawG9kgAKCRDDWOcNd+r/VP5eAP45vlutyQnUMX7jCrugrXu8eMVA9Hhk6GVjGNiNsdHEyAEA9VLEmRqQXO4VersOOQCVhi740Wsd0Jbq1rNrARJBbQM=",
+  "URL": "https://yosyshq.net/yosys/",
+  "LICENSE": [
+    "ISC"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795275617",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "abc",
+    "fmt",
+    "libffi",
+    "tcl",
+    "readline",
+    "slang",
+    "zlib-ng",
+    "python"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "cxxopts",
+    "git",
+    "googletest"
+  ],
+  "CHECKDEPENDS": [
+    "iverilog"
+  ],
+  "REPO": "main"
+}

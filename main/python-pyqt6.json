@@ -1,0 +1,66 @@
+{
+  "FILENAME": "python-pyqt6-6.12.1-1-aarch64.pkg.tar.zst",
+  "NAME": "python-pyqt6",
+  "BASE": "pyqt6",
+  "VERSION": "6.12.1-1",
+  "DESC": "A set of Python bindings for the Qt6 toolkit",
+  "GROUPS": [
+    "pyqt6"
+  ],
+  "CSIZE": "5401880",
+  "ISIZE": "29088379",
+  "MD5SUM": "b12e6b9617af50750f050ac08a7f21e1",
+  "SHA256SUM": "311f7ab1ec9f8e33f94c8aa0f06b8da1b2377ab628d8229826e2e65285a42512",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawWTCAAKCRDDWOcNd+r/VGGGAP9ZZkoz0uzgIelfOMCoDcrgyLNkgegBg6NuQnoE+JH9OgD9EvPTH8546h8oJLSs+B7DUIVQC+vS6sT2YALSu9Bbzw0=",
+  "URL": "https://riverbankcomputing.com/software/pyqt/intro",
+  "LICENSE": [
+    "GPL-3.0-only"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795526572",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "qt6-base",
+    "python-pyqt6-sip>=13.13"
+  ],
+  "PROVIDES": [
+    "qt6-python-bindings"
+  ],
+  "OPTDEPENDS": [
+    "qt6-tools: QtHelp, QtDesigner bindings",
+    "qt6-svg: QtSvg bindings",
+    "qt6-declarative: QtQml, QtQuickControls2 bindings, qmlplugin",
+    "qt6-quick3d: QtQuick3D bindings",
+    "qt6-connectivity: QtBluetooth, QtNfc bindings",
+    "qt6-multimedia: QtMultimedia, QtSpatialAudio bindings",
+    "qt6-positioning: QtPositioning bindings",
+    "qt6-remoteobjects: QtRemoteObjects bindings",
+    "qt6-sensors: QtSensors bindings",
+    "qt6-serialport: QtSerialPort bindings",
+    "qt6-speech: QtTextToSpeech bindings",
+    "qt6-webchannel: QtWebChannel bindings",
+    "qt6-websockets: QtWebSockets bindings",
+    "dbus-python: for python-dbus mainloop support"
+  ],
+  "MAKEDEPENDS": [
+    "sip",
+    "pyqt-builder",
+    "python-dbus",
+    "qt6-base-devel",
+    "qt6-tools",
+    "qt6-svg",
+    "qt6-declarative",
+    "qt6-quick3d",
+    "qt6-shadertools",
+    "qt6-multimedia",
+    "qt6-remoteobjects",
+    "qt6-positioning",
+    "qt6-sensors",
+    "qt6-serialport",
+    "qt6-speech",
+    "qt6-webchannel",
+    "qt6-websockets",
+    "qt6-connectivity"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,39 @@
+{
+  "FILENAME": "lldb-21.1.8-2-aarch64.pkg.tar.zst",
+  "NAME": "lldb",
+  "BASE": "llvm",
+  "VERSION": "21.1.8-2",
+  "DESC": "Next generation, high-performance debugger from LLVM project",
+  "CSIZE": "7246456",
+  "ISIZE": "21498748",
+  "MD5SUM": "957b38413e8376621540538a66c0b962",
+  "SHA256SUM": "3b089ac0cf0d803c3b8af057dc5239fa281a96ebf8bc8af597f4bf968b8ff323",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawimoAAKCRDDWOcNd+r/VK5SAQC+k5lTimv9GfG//xcghTb1Bro43KuvKeB6VyVsfJINQwEA8jGQ/eJynKYzgvP0ELgtgk9P1pyFsuOQbVsIYOjYAQI=",
+  "URL": "https://llvm.org",
+  "LICENSE": [
+    "Apache-2.0 WITH LLVM-exception"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795724900",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "llvm-libs",
+    "clang"
+  ],
+  "MAKEDEPENDS": [
+    "llvm-devel",
+    "cmake",
+    "ninja",
+    "utmps",
+    "zlib",
+    "zstd",
+    "libffi",
+    "libedit",
+    "linux-headers",
+    "git",
+    "spirv-llvm-translator",
+    "python"
+  ],
+  "REPO": "main"
+}

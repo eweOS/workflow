@@ -1,0 +1,50 @@
+{
+  "FILENAME": "ghostscript-10.08.0-1-aarch64.pkg.tar.zst",
+  "NAME": "ghostscript",
+  "BASE": "ghostscript",
+  "VERSION": "10.08.0-1",
+  "DESC": "An interpreter for the PostScript language",
+  "CSIZE": "21362446",
+  "ISIZE": "41740209",
+  "MD5SUM": "bee13be387ba7823c51cb4d12f9bf508",
+  "SHA256SUM": "93766827c41525a67927906d3c1ab57fae18641856897d03dec3ae7b2db6e2b3",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawJezwAKCRDDWOcNd+r/VOCMAQDE3UxYRToJlW6NRgv9ZYcFWgWZUCQbfgjyeBi9y/N9HgEA9IkTb5grwzY/O6PWQF+oPX144WD5Ez7/ZX/yhu9Y6wY=",
+  "URL": "https://www.ghostscript.com/",
+  "LICENSE": [
+    "AGPL-3.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795317428",
+  "PACKAGER": "venus <abuild@venus>",
+  "REPLACES": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "DEPENDS": [
+    "libcups",
+    "fontconfig",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "jbig2dec",
+    "libtiff",
+    "lcms2",
+    "libpaper",
+    "openjpeg2",
+    "libidn",
+    "cairo",
+    "gdk-pixbuf",
+    "glib2"
+  ],
+  "CONFLICTS": [
+    "ghostpcl",
+    "ghostxps"
+  ],
+  "OPTDEPENDS": [
+    "gtk3: needed for gsx"
+  ],
+  "MAKEDEPENDS": [
+    "gtk3"
+  ],
+  "REPO": "main"
+}

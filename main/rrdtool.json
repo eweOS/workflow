@@ -1,0 +1,40 @@
+{
+  "FILENAME": "rrdtool-1.11.0-1-aarch64.pkg.tar.zst",
+  "NAME": "rrdtool",
+  "BASE": "rrdtool",
+  "VERSION": "1.11.0-1",
+  "DESC": "Tool for logging and graphing various system status",
+  "CSIZE": "309545",
+  "ISIZE": "759713",
+  "MD5SUM": "6b1756b42e9db385761d882893e3eb89",
+  "SHA256SUM": "a5ebacc89e8220f9750cf9daef0b047c34708a767b0c580d3aa3d8da84702898",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawarxgAKCRDDWOcNd+r/VKLXAP9zYseo0f2/uOq7MeAgLRSlSFbPMSLytoVTRkbHfhnCvAD9GgRBLDQrOe7UL9g3Ged65JrxbdAx6oBWc7nUDJKhcQM=",
+  "URL": "https://www.rrdtool.org",
+  "LICENSE": [
+    "GPL-2.0-or-later"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795599380",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "musl",
+    "libxml2",
+    "pango",
+    "ttf-dejavu"
+  ],
+  "OPTDEPENDS": [
+    "perl: to use perl binding",
+    "tcl: to use tcl binding",
+    "python: to use python binding",
+    "lua51: to use lua(5.1) binding"
+  ],
+  "MAKEDEPENDS": [
+    "intltool",
+    "python-setuptools",
+    "python-wheel",
+    "python-installer",
+    "tcl",
+    "lua51"
+  ],
+  "REPO": "main"
+}

@@ -1,0 +1,61 @@
+{
+  "FILENAME": "vulkan-broadcom-26.3.1-2-aarch64.pkg.tar.zst",
+  "NAME": "vulkan-broadcom",
+  "BASE": "mesa",
+  "VERSION": "26.3.1-2",
+  "DESC": "Open-source Vulkan driver for VideoCore GPUs",
+  "CSIZE": "1538410",
+  "ISIZE": "10879724",
+  "MD5SUM": "17880143b8697918dcd2dc179e844cd3",
+  "SHA256SUM": "38dbfe93be9ef453ca4ba3ad02c3ee135ad194862a5522cd1da525df81ce415a",
+  "PGPSIG": "iHQEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCawfq1gAKCRDDWOcNd+r/VJVqAPi+Cr/jKca1eiSobIZDocg0IgfnhQVh7dMhKCKQeDXIAQD3/zWbleEylT9iqg7hYMFBR/ITXLirLXGm4DYld9S0AA==",
+  "URL": "https://www.mesa3d.org/",
+  "LICENSE": [
+    "custom"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1795680748",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "expat",
+    "libdrm",
+    "llvm",
+    "vulkan-icd-loader",
+    "wayland",
+    "zlib",
+    "zstd",
+    "spirv-tools",
+    "libdisplay-info",
+    "vulkan-mesa-implicit-layers"
+  ],
+  "PROVIDES": [
+    "vulkan-driver"
+  ],
+  "OPTDEPENDS": [
+    "vulkan-mesa-layers: additional vulkan layers"
+  ],
+  "MAKEDEPENDS": [
+    "libva",
+    "glslang",
+    "meson",
+    "wayland",
+    "wayland-protocols",
+    "python-packaging",
+    "libpng",
+    "llvm-devel",
+    "linux-headers",
+    "directx-headers",
+    "libdisplay-info",
+    "libclc",
+    "rust",
+    "rust-bindgen",
+    "spirv-llvm-translator",
+    "spirv-tools",
+    "python-mako",
+    "python-pycparser",
+    "python-yaml",
+    "cbindgen",
+    "venus-protocol"
+  ],
+  "REPO": "main"
+}

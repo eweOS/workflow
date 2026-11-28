@@ -1,0 +1,39 @@
+{
+  "FILENAME": "librime-1.17.0-2-aarch64.pkg.tar.zst",
+  "NAME": "librime",
+  "BASE": "librime",
+  "VERSION": "1.17.0-2",
+  "DESC": "Rime Input Method Engine",
+  "CSIZE": "644465",
+  "ISIZE": "1891831",
+  "MD5SUM": "d2102c842b5411e4cc5b4e9b0f83cd15",
+  "SHA256SUM": "ddaa9a1513bc91f51e195074586a397c325bd6ca49dde68cdd0c8c4c6ac50f36",
+  "PGPSIG": "iHUEABYCAB0WIQRMXo0KXwPHuyFNJ/jDWOcNd+r/VAUCas7eRQAKCRDDWOcNd+r/VBzaAP0QQorDsNi37gJ1GHrB0kXMKE9GOYwT3Uo5FcuNdZjtbAD/ayu6IpsOsVV4muLpUkWsyxP3HMXYp0sb5AKI946wsQA=",
+  "URL": "https://rime.im",
+  "LICENSE": [
+    "BSD-3-Clause"
+  ],
+  "ARCH": "aarch64",
+  "BUILDDATE": "1791942223",
+  "PACKAGER": "venus <abuild@venus>",
+  "DEPENDS": [
+    "boost-libs",
+    "leveldb",
+    "libmarisa",
+    "llvm-libs",
+    "musl",
+    "opencc",
+    "yaml-cpp"
+  ],
+  "PROVIDES": [
+    "librime.so"
+  ],
+  "MAKEDEPENDS": [
+    "cmake",
+    "boost",
+    "doxygen",
+    "googletest",
+    "ninja"
+  ],
+  "REPO": "main"
+}
